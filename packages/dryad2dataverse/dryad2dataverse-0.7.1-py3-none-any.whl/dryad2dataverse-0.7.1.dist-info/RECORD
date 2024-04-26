@@ -1,0 +1,13 @@
+dryad2dataverse/__init__.py,sha256=OM5T0B0PkVEvsHStz5XY4bdEAmWI3P_r3wy6xo_vQF4,712
+dryad2dataverse/constants.py,sha256=ZfD2N0f742nnP8NPUV0QsDdVVAbrW-3Py8Lg9al1Z5c,1429
+dryad2dataverse/exceptions.py,sha256=oIP1_fSEvLF3HpK6gOYb05vUisY-IAxwXZDeNoAvCPM,1008
+dryad2dataverse/handlers.py,sha256=Xb0vvs1HE92qaK6g-Gu3eyHkLrSwU0-RQjLcl6FZPUY,1487
+dryad2dataverse/monitor.py,sha256=qj-jXl3_SJBPof1qKOiSHQCvc083PHH2afkl-y_qQAU,26267
+dryad2dataverse/serializer.py,sha256=1RKfV6flLCR61s51MqY-AUMIMOoLrxai3Wi9cOGtt1s,33706
+dryad2dataverse/transfer.py,sha256=W8b-sHTjClM-CzVx_OrBAsrZ5hQ1-XmTpq1qB4PFlVA,36233
+dryad2dataverse/scripts/dryadd.py,sha256=chQVEAYWTHvKa5QZH0PIj1EgBlJO4qd1Xw2vkf1c_i8,26291
+dryad2dataverse-0.7.1.dist-info/METADATA,sha256=fttUJsmVA2e0to1oE5JJc2qH-DQO8ByR7LpbOVEdurc,3297
+dryad2dataverse-0.7.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dryad2dataverse-0.7.1.dist-info/entry_points.txt,sha256=9kBsBa5SivAtfAox__vZGL7H-HI7Vd-jGztCh_eIJEc,63
+dryad2dataverse-0.7.1.dist-info/top_level.txt,sha256=0X45AghpKfL69Oc51sRddeiHtq8o-OyOhFX3AMal6YI,16
+dryad2dataverse-0.7.1.dist-info/RECORD,,
