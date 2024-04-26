@@ -1,0 +1,9 @@
+near_lake_framework/__init__.py,sha256=2E9Q3gqL8zyeEP5H3mSobVkVYT6UWQdWDpcKXRM-JKM,4884
+near_lake_framework/near_primitives.py,sha256=kEOfuPOt1z41Eh5gVhKPO84ZA8qUjmU7L3LW88wiPuc,4879
+near_lake_framework/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+near_lake_framework/s3_fetchers.py,sha256=8ftrVsuh50JLPOSSYwkQs8Ap8veuCGl5B-3_auRUaYQ,2431
+near_lake_framework-0.0.8.dist-info/LICENSE-APACHE,sha256=lb05iL7uBp-ihI9kjatDzG4LKt0q1ryxc2DK90mAK8w,9722
+near_lake_framework-0.0.8.dist-info/METADATA,sha256=S3IC4yYe-0BUQgJx0_AOJMkEU3ROq60kYYOgR-pjtZo,4621
+near_lake_framework-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+near_lake_framework-0.0.8.dist-info/top_level.txt,sha256=TBqck1uQmal52_aSj-7gYQnwkoXPSIKGfuCjjpo17iI,20
+near_lake_framework-0.0.8.dist-info/RECORD,,
