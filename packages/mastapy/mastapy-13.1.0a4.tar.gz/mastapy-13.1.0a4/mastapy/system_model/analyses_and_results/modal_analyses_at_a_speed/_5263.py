@@ -1,0 +1,220 @@
+"""VirtualComponentModalAnalysisAtASpeed"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar
+
+from mastapy._internal import constructor
+from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import _5218
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_VIRTUAL_COMPONENT_MODAL_ANALYSIS_AT_A_SPEED = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.ModalAnalysesAtASpeed",
+    "VirtualComponentModalAnalysisAtASpeed",
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.part_model import _2497
+    from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+        _5215,
+        _5216,
+        _5227,
+        _5228,
+        _5262,
+        _5165,
+        _5220,
+    )
+    from mastapy.system_model.analyses_and_results.analysis_cases import _7574, _7571
+    from mastapy.system_model.analyses_and_results import _2680, _2676, _2674
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("VirtualComponentModalAnalysisAtASpeed",)
+
+
+Self = TypeVar("Self", bound="VirtualComponentModalAnalysisAtASpeed")
+
+
+class VirtualComponentModalAnalysisAtASpeed(
+    _5218.MountableComponentModalAnalysisAtASpeed
+):
+    """VirtualComponentModalAnalysisAtASpeed
+
+    This is a mastapy class.
+    """
+
+    TYPE = _VIRTUAL_COMPONENT_MODAL_ANALYSIS_AT_A_SPEED
+    _CastSelf = TypeVar(
+        "_CastSelf", bound="_Cast_VirtualComponentModalAnalysisAtASpeed"
+    )
+
+    class _Cast_VirtualComponentModalAnalysisAtASpeed:
+        """Special nested class for casting VirtualComponentModalAnalysisAtASpeed to subclasses."""
+
+        def __init__(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+            parent: "VirtualComponentModalAnalysisAtASpeed",
+        ):
+            self._parent = parent
+
+        @property
+        def mountable_component_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5218.MountableComponentModalAnalysisAtASpeed":
+            return self._parent._cast(_5218.MountableComponentModalAnalysisAtASpeed)
+
+        @property
+        def component_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5165.ComponentModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5165,
+            )
+
+            return self._parent._cast(_5165.ComponentModalAnalysisAtASpeed)
+
+        @property
+        def part_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5220.PartModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5220,
+            )
+
+            return self._parent._cast(_5220.PartModalAnalysisAtASpeed)
+
+        @property
+        def part_static_load_analysis_case(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_7574.PartStaticLoadAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7574
+
+            return self._parent._cast(_7574.PartStaticLoadAnalysisCase)
+
+        @property
+        def part_analysis_case(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_7571.PartAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7571
+
+            return self._parent._cast(_7571.PartAnalysisCase)
+
+        @property
+        def part_analysis(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_2680.PartAnalysis":
+            from mastapy.system_model.analyses_and_results import _2680
+
+            return self._parent._cast(_2680.PartAnalysis)
+
+        @property
+        def design_entity_single_context_analysis(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_2676.DesignEntitySingleContextAnalysis":
+            from mastapy.system_model.analyses_and_results import _2676
+
+            return self._parent._cast(_2676.DesignEntitySingleContextAnalysis)
+
+        @property
+        def design_entity_analysis(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_2674.DesignEntityAnalysis":
+            from mastapy.system_model.analyses_and_results import _2674
+
+            return self._parent._cast(_2674.DesignEntityAnalysis)
+
+        @property
+        def mass_disc_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5215.MassDiscModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5215,
+            )
+
+            return self._parent._cast(_5215.MassDiscModalAnalysisAtASpeed)
+
+        @property
+        def measurement_component_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5216.MeasurementComponentModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5216,
+            )
+
+            return self._parent._cast(_5216.MeasurementComponentModalAnalysisAtASpeed)
+
+        @property
+        def point_load_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5227.PointLoadModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5227,
+            )
+
+            return self._parent._cast(_5227.PointLoadModalAnalysisAtASpeed)
+
+        @property
+        def power_load_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5228.PowerLoadModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5228,
+            )
+
+            return self._parent._cast(_5228.PowerLoadModalAnalysisAtASpeed)
+
+        @property
+        def unbalanced_mass_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "_5262.UnbalancedMassModalAnalysisAtASpeed":
+            from mastapy.system_model.analyses_and_results.modal_analyses_at_a_speed import (
+                _5262,
+            )
+
+            return self._parent._cast(_5262.UnbalancedMassModalAnalysisAtASpeed)
+
+        @property
+        def virtual_component_modal_analysis_at_a_speed(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+        ) -> "VirtualComponentModalAnalysisAtASpeed":
+            return self._parent
+
+        def __getattr__(
+            self: "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed",
+            name: str,
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(
+        self: Self, instance_to_wrap: "VirtualComponentModalAnalysisAtASpeed.TYPE"
+    ):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def component_design(self: Self) -> "_2497.VirtualComponent":
+        """mastapy.system_model.part_model.VirtualComponent
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.ComponentDesign
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def cast_to(
+        self: Self,
+    ) -> "VirtualComponentModalAnalysisAtASpeed._Cast_VirtualComponentModalAnalysisAtASpeed":
+        return self._Cast_VirtualComponentModalAnalysisAtASpeed(self)

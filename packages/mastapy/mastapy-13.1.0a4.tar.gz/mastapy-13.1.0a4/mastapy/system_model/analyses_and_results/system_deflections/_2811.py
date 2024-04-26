@@ -1,0 +1,236 @@
+"""PartToPartShearCouplingSystemDeflection"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar
+
+from mastapy._internal import constructor
+from mastapy.system_model.analyses_and_results.system_deflections import _2754
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_PART_TO_PART_SHEAR_COUPLING_SYSTEM_DEFLECTION = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.SystemDeflections",
+    "PartToPartShearCouplingSystemDeflection",
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.part_model.couplings import _2607
+    from mastapy.system_model.analyses_and_results.static_loads import _6958
+    from mastapy.system_model.analyses_and_results.system_deflections import (
+        _2809,
+        _2829,
+        _2708,
+        _2808,
+    )
+    from mastapy.system_model.analyses_and_results.power_flows import _4140
+    from mastapy.system_model.analyses_and_results.analysis_cases import (
+        _7573,
+        _7574,
+        _7571,
+    )
+    from mastapy.system_model.analyses_and_results import _2680, _2676, _2674
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("PartToPartShearCouplingSystemDeflection",)
+
+
+Self = TypeVar("Self", bound="PartToPartShearCouplingSystemDeflection")
+
+
+class PartToPartShearCouplingSystemDeflection(_2754.CouplingSystemDeflection):
+    """PartToPartShearCouplingSystemDeflection
+
+    This is a mastapy class.
+    """
+
+    TYPE = _PART_TO_PART_SHEAR_COUPLING_SYSTEM_DEFLECTION
+    _CastSelf = TypeVar(
+        "_CastSelf", bound="_Cast_PartToPartShearCouplingSystemDeflection"
+    )
+
+    class _Cast_PartToPartShearCouplingSystemDeflection:
+        """Special nested class for casting PartToPartShearCouplingSystemDeflection to subclasses."""
+
+        def __init__(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+            parent: "PartToPartShearCouplingSystemDeflection",
+        ):
+            self._parent = parent
+
+        @property
+        def coupling_system_deflection(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2754.CouplingSystemDeflection":
+            return self._parent._cast(_2754.CouplingSystemDeflection)
+
+        @property
+        def specialised_assembly_system_deflection(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2829.SpecialisedAssemblySystemDeflection":
+            from mastapy.system_model.analyses_and_results.system_deflections import (
+                _2829,
+            )
+
+            return self._parent._cast(_2829.SpecialisedAssemblySystemDeflection)
+
+        @property
+        def abstract_assembly_system_deflection(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2708.AbstractAssemblySystemDeflection":
+            from mastapy.system_model.analyses_and_results.system_deflections import (
+                _2708,
+            )
+
+            return self._parent._cast(_2708.AbstractAssemblySystemDeflection)
+
+        @property
+        def part_system_deflection(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2808.PartSystemDeflection":
+            from mastapy.system_model.analyses_and_results.system_deflections import (
+                _2808,
+            )
+
+            return self._parent._cast(_2808.PartSystemDeflection)
+
+        @property
+        def part_fe_analysis(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_7573.PartFEAnalysis":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7573
+
+            return self._parent._cast(_7573.PartFEAnalysis)
+
+        @property
+        def part_static_load_analysis_case(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_7574.PartStaticLoadAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7574
+
+            return self._parent._cast(_7574.PartStaticLoadAnalysisCase)
+
+        @property
+        def part_analysis_case(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_7571.PartAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7571
+
+            return self._parent._cast(_7571.PartAnalysisCase)
+
+        @property
+        def part_analysis(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2680.PartAnalysis":
+            from mastapy.system_model.analyses_and_results import _2680
+
+            return self._parent._cast(_2680.PartAnalysis)
+
+        @property
+        def design_entity_single_context_analysis(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2676.DesignEntitySingleContextAnalysis":
+            from mastapy.system_model.analyses_and_results import _2676
+
+            return self._parent._cast(_2676.DesignEntitySingleContextAnalysis)
+
+        @property
+        def design_entity_analysis(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "_2674.DesignEntityAnalysis":
+            from mastapy.system_model.analyses_and_results import _2674
+
+            return self._parent._cast(_2674.DesignEntityAnalysis)
+
+        @property
+        def part_to_part_shear_coupling_system_deflection(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+        ) -> "PartToPartShearCouplingSystemDeflection":
+            return self._parent
+
+        def __getattr__(
+            self: "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection",
+            name: str,
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(
+        self: Self, instance_to_wrap: "PartToPartShearCouplingSystemDeflection.TYPE"
+    ):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def assembly_design(self: Self) -> "_2607.PartToPartShearCoupling":
+        """mastapy.system_model.part_model.couplings.PartToPartShearCoupling
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.AssemblyDesign
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def assembly_load_case(self: Self) -> "_6958.PartToPartShearCouplingLoadCase":
+        """mastapy.system_model.analyses_and_results.static_loads.PartToPartShearCouplingLoadCase
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.AssemblyLoadCase
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def part_to_part_shear_coupling_connection(
+        self: Self,
+    ) -> "_2809.PartToPartShearCouplingConnectionSystemDeflection":
+        """mastapy.system_model.analyses_and_results.system_deflections.PartToPartShearCouplingConnectionSystemDeflection
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PartToPartShearCouplingConnection
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def power_flow_results(self: Self) -> "_4140.PartToPartShearCouplingPowerFlow":
+        """mastapy.system_model.analyses_and_results.power_flows.PartToPartShearCouplingPowerFlow
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.PowerFlowResults
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def cast_to(
+        self: Self,
+    ) -> "PartToPartShearCouplingSystemDeflection._Cast_PartToPartShearCouplingSystemDeflection":
+        return self._Cast_PartToPartShearCouplingSystemDeflection(self)

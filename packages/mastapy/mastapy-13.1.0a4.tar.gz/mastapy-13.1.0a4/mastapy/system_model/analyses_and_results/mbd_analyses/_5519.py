@@ -1,0 +1,225 @@
+"""SpringDamperHalfMultibodyDynamicsAnalysis"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar
+
+from mastapy._math.vector_3d import Vector3D
+from mastapy._internal import constructor, conversion
+from mastapy.system_model.analyses_and_results.mbd_analyses import _5441
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_SPRING_DAMPER_HALF_MULTIBODY_DYNAMICS_ANALYSIS = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.MBDAnalyses",
+    "SpringDamperHalfMultibodyDynamicsAnalysis",
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.part_model.couplings import _2624
+    from mastapy.system_model.analyses_and_results.static_loads import _6984
+    from mastapy.system_model.analyses_and_results.mbd_analyses import (
+        _5488,
+        _5428,
+        _5491,
+    )
+    from mastapy.system_model.analyses_and_results.analysis_cases import _7575, _7571
+    from mastapy.system_model.analyses_and_results import _2680, _2676, _2674
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("SpringDamperHalfMultibodyDynamicsAnalysis",)
+
+
+Self = TypeVar("Self", bound="SpringDamperHalfMultibodyDynamicsAnalysis")
+
+
+class SpringDamperHalfMultibodyDynamicsAnalysis(
+    _5441.CouplingHalfMultibodyDynamicsAnalysis
+):
+    """SpringDamperHalfMultibodyDynamicsAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE = _SPRING_DAMPER_HALF_MULTIBODY_DYNAMICS_ANALYSIS
+    _CastSelf = TypeVar(
+        "_CastSelf", bound="_Cast_SpringDamperHalfMultibodyDynamicsAnalysis"
+    )
+
+    class _Cast_SpringDamperHalfMultibodyDynamicsAnalysis:
+        """Special nested class for casting SpringDamperHalfMultibodyDynamicsAnalysis to subclasses."""
+
+        def __init__(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+            parent: "SpringDamperHalfMultibodyDynamicsAnalysis",
+        ):
+            self._parent = parent
+
+        @property
+        def coupling_half_multibody_dynamics_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_5441.CouplingHalfMultibodyDynamicsAnalysis":
+            return self._parent._cast(_5441.CouplingHalfMultibodyDynamicsAnalysis)
+
+        @property
+        def mountable_component_multibody_dynamics_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_5488.MountableComponentMultibodyDynamicsAnalysis":
+            from mastapy.system_model.analyses_and_results.mbd_analyses import _5488
+
+            return self._parent._cast(_5488.MountableComponentMultibodyDynamicsAnalysis)
+
+        @property
+        def component_multibody_dynamics_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_5428.ComponentMultibodyDynamicsAnalysis":
+            from mastapy.system_model.analyses_and_results.mbd_analyses import _5428
+
+            return self._parent._cast(_5428.ComponentMultibodyDynamicsAnalysis)
+
+        @property
+        def part_multibody_dynamics_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_5491.PartMultibodyDynamicsAnalysis":
+            from mastapy.system_model.analyses_and_results.mbd_analyses import _5491
+
+            return self._parent._cast(_5491.PartMultibodyDynamicsAnalysis)
+
+        @property
+        def part_time_series_load_analysis_case(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_7575.PartTimeSeriesLoadAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7575
+
+            return self._parent._cast(_7575.PartTimeSeriesLoadAnalysisCase)
+
+        @property
+        def part_analysis_case(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_7571.PartAnalysisCase":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7571
+
+            return self._parent._cast(_7571.PartAnalysisCase)
+
+        @property
+        def part_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_2680.PartAnalysis":
+            from mastapy.system_model.analyses_and_results import _2680
+
+            return self._parent._cast(_2680.PartAnalysis)
+
+        @property
+        def design_entity_single_context_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_2676.DesignEntitySingleContextAnalysis":
+            from mastapy.system_model.analyses_and_results import _2676
+
+            return self._parent._cast(_2676.DesignEntitySingleContextAnalysis)
+
+        @property
+        def design_entity_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "_2674.DesignEntityAnalysis":
+            from mastapy.system_model.analyses_and_results import _2674
+
+            return self._parent._cast(_2674.DesignEntityAnalysis)
+
+        @property
+        def spring_damper_half_multibody_dynamics_analysis(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+        ) -> "SpringDamperHalfMultibodyDynamicsAnalysis":
+            return self._parent
+
+        def __getattr__(
+            self: "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis",
+            name: str,
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(
+        self: Self, instance_to_wrap: "SpringDamperHalfMultibodyDynamicsAnalysis.TYPE"
+    ):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def spring_relative_displacement(self: Self) -> "Vector3D":
+        """Vector3D
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.SpringRelativeDisplacement
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_vector3d(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def spring_relative_rotation(self: Self) -> "Vector3D":
+        """Vector3D
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.SpringRelativeRotation
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_vector3d(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def component_design(self: Self) -> "_2624.SpringDamperHalf":
+        """mastapy.system_model.part_model.couplings.SpringDamperHalf
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.ComponentDesign
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def component_load_case(self: Self) -> "_6984.SpringDamperHalfLoadCase":
+        """mastapy.system_model.analyses_and_results.static_loads.SpringDamperHalfLoadCase
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.ComponentLoadCase
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def cast_to(
+        self: Self,
+    ) -> "SpringDamperHalfMultibodyDynamicsAnalysis._Cast_SpringDamperHalfMultibodyDynamicsAnalysis":
+        return self._Cast_SpringDamperHalfMultibodyDynamicsAnalysis(self)
