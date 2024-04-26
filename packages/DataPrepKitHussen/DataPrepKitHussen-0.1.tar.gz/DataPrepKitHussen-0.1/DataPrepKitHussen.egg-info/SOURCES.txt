@@ -1,0 +1,12 @@
+README.md
+setup.py
+DataPrepKitHussen.egg-info/PKG-INFO
+DataPrepKitHussen.egg-info/SOURCES.txt
+DataPrepKitHussen.egg-info/dependency_links.txt
+DataPrepKitHussen.egg-info/requires.txt
+DataPrepKitHussen.egg-info/top_level.txt
+tests/__init__.py
+tests/test_categorical_encoding.py
+tests/test_data_reading.py
+tests/test_data_summary.py
+tests/test_missing_values.py
