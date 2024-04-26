@@ -1,0 +1,5 @@
+fastapi~=0.95
+gradio~=3.28
+ovos-plugin-manager~=0.0.25
+ovos-utils~=0.0.38
+uvicorn~=0.22
