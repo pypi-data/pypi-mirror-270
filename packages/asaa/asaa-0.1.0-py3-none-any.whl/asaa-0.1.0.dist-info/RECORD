@@ -1,0 +1,11 @@
+asaa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asaa/assistant.py,sha256=JK3jdZusuM_hCK2obBx2psgztr-d4wNkdbPyDv0WS3U,6454
+asaa/cli.py,sha256=utwfSqeGaEpYHKzi0u8wSpSvuAnbkZRv6TmGp0W25NQ,423
+asaa/core.py,sha256=8FrwQZLrmcF84GJUQE3k6DEubHdc9oFpG1mfGFHIJgc,2972
+asaa/questions.yaml,sha256=1qHZ5dK46UCZ7Qx0zaZZpOtTFg0jrFN4faa2oAMFzfw,3992
+asaa-0.1.0.dist-info/LICENSE,sha256=skMhh_tUhcfJn3pH6cQ9eCJouiKcj6u5fK473jPBA_U,1067
+asaa-0.1.0.dist-info/METADATA,sha256=U-ZY63d4o8bcZN_9zl1vVcZ8hkefoQGfKe_kPwoEH2U,2195
+asaa-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+asaa-0.1.0.dist-info/entry_points.txt,sha256=QjY-7yZj2JaATtBD1d-Ed-BQJwysplgI8pVxL-09H2Y,38
+asaa-0.1.0.dist-info/top_level.txt,sha256=zapJyN8Jc3fhzilpj1yW-DzF68DBNWKrLKmxKrNmtSE,5
+asaa-0.1.0.dist-info/RECORD,,
