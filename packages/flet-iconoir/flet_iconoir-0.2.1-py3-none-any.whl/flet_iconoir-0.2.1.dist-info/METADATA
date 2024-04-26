@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: flet-iconoir
+Version: 0.2.1
+Summary: the Iconoir library, wrapped for Flet.
+License: MIT
+Author: hex benjamin
+Author-email: hex@hexbenjam.in
+Requires-Python: >=3.11,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flet (>=0.22.0,<0.23.0)
+Description-Content-Type: text/markdown
+
+# flet iconoir
+
+> the [Iconoir](https://iconoir.com/) library, wrapped for [Flet](https://flet.dev/).
+
+## usage
+
+adds a new `IconoirIcon` function. use it like this with a name from the [Iconoir](https://iconoir.com/) list!
+
+```python
+page.add(
+    IconoirIcon(
+        icon_name="wifi",
+        icon_set="regular",  # or "solid" !
+        icon_size=32,  # default
+        icon_color=ft.colors.PRIMARY,  # default
+        **kwargs,  # passed to the flet.Image this thing returns!
+    )
+)
+```
+
+quick, dirty, simple, hopefully helpful. find me on [github](https://github.com/hexbenjamin) and reach out if you have questions. have a day!
+
