@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "prowlarr",
+  "server": "github://api.github.com/MaienM/pulumi-prowlarr"
+}
