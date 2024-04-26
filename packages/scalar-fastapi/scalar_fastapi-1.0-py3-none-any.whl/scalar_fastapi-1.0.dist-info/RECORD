@@ -1,0 +1,7 @@
+scalar_fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scalar_fastapi/scalar_fastapi.py,sha256=bLTVTRCcjVolgsp9k3lPAMJ7J4ieMzdsBMape4T1ZjQ,2124
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scalar_fastapi-1.0.dist-info/METADATA,sha256=YrdAj0SNJ1WbXHeeGX58i1_gIzfCtXVc1NVDork8GoQ,318
+scalar_fastapi-1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+scalar_fastapi-1.0.dist-info/top_level.txt,sha256=A8fPLYXNu8yH8jPt-P5A_K1aO7RddBE1F0Wq8r1K9lc,21
+scalar_fastapi-1.0.dist-info/RECORD,,
