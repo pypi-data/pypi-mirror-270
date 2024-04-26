@@ -1,0 +1,9 @@
+huracanpy/__init__.py,sha256=5V8U1VwyKWZUUrFcmFC9p5_KSUwxM-CG_xdL433urLA,670
+huracanpy/_tracker_specific/TRACK.py,sha256=mstgspSTBVySm8tz8KFO2VmzDyVgdzw5oins5utJl-k,5687
+huracanpy/_tracker_specific/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huracanpy/example_data/tr_trs_pos.2day_addT63vor_addmslp_add925wind_add10mwind.tcident.new,sha256=rMofmaFJ0a4Wjgn4HzvAfAsJGGUdkyx6LDlE5c6kVQQ,23019
+huracanpy-0.1.0.dist-info/LICENSE,sha256=49uC0Fjd6sqEIaGdivFv3d8wvX3HL0Cg4ylUcBnEXPI,1103
+huracanpy-0.1.0.dist-info/METADATA,sha256=kBGeE1scwOAJhJ_Z9bpG88Jd46jTQeItHylxvHJgDuo,331
+huracanpy-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+huracanpy-0.1.0.dist-info/top_level.txt,sha256=BWPMLRTVSeeDnyZNVh3s-7sWaccfEJfFqWm2aeNZg6c,10
+huracanpy-0.1.0.dist-info/RECORD,,
