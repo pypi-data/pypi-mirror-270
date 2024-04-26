@@ -1,0 +1,7 @@
+izihawa_textutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+izihawa_textutils/html_processing.py,sha256=fKOKjeyMSLiqUTOnQ2sNHdFs6BNIkVyOtWKkxjZnygM,1196
+izihawa_textutils/regex.py,sha256=9PIhuIx9nNHiJghcJpcmO7N7kM0233DrtCn4CS9sVv0,1458
+izihawa_textutils/utils.py,sha256=kp-k_j1YGEvFYWKJRfammsMVjT8gkaWOQlfD7pP6osI,7845
+izihawa_textutils-1.0.44.dist-info/METADATA,sha256=5xFKiDieh-qrMo-TR4tyvKoq78B8iDjU9ymu9RsZomA,593
+izihawa_textutils-1.0.44.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+izihawa_textutils-1.0.44.dist-info/RECORD,,
