@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+csvtojsonify.py
+setup.py
+csvtojsonify/__init__.py
+csvtojsonify.egg-info/PKG-INFO
+csvtojsonify.egg-info/SOURCES.txt
+csvtojsonify.egg-info/dependency_links.txt
+csvtojsonify.egg-info/entry_points.txt
+csvtojsonify.egg-info/top_level.txt
