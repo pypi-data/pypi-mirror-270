@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+recaptcha_cracker/__init__.py
+recaptcha_cracker/audio_manager.py
+recaptcha_cracker/cracker.py
+recaptcha_cracker.egg-info/PKG-INFO
+recaptcha_cracker.egg-info/SOURCES.txt
+recaptcha_cracker.egg-info/dependency_links.txt
+recaptcha_cracker.egg-info/requires.txt
+recaptcha_cracker.egg-info/top_level.txt
+test/test_cracker.py
