@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Espinosa
+Version: 3.0.6
+Summary: Libreria para generar un pokemin aleatoriamento
+Author: JMEX
+Author-email: kvkgif95949@gmail.com
+Requires-Dist: pandas
+
