@@ -1,0 +1,8 @@
+setup.py
+smartieee/__init__.py
+smartieee/binary.py
+smartieee/ieee754.py
+smartieee.egg-info/PKG-INFO
+smartieee.egg-info/SOURCES.txt
+smartieee.egg-info/dependency_links.txt
+smartieee.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: smartieee
+Version: 0.39
+Summary: A library that allows to use binary calculations such as IEEE754 standard or binary integer/float numbers
+Home-page: https://github.com/MarcinPec/smartieee
+Author: MarcinPec
+
+For documentation go to: https://github.com/MarcinPec/smartieee
