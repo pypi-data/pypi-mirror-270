@@ -1,0 +1,2 @@
+[console_scripts]
+stepup = stepup.core.tui:main
