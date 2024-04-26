@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: vector-database
+Version: 0.0.3
+Summary: A tool to build vector database quickly
+Home-page: https://github.com/PinkR1ver/vector_database
+Author: Jude Wang
+Author-email: pinkr1veroops@gmail.com
+License: MIT
+Keywords: vector database
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tkinter >=8.6
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: rich
+
+# Vector Database
+
+## Demo code to use
+
+```python
+import vector_database.embedding as emb
+    
+image_embedding = emb.ImageEmbedding()
+image_embedding.imageVectorDatabaseBuild('Your Picture Folder')
+image_embedding.imageQuery()
+```
