@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.cfg
+setup.py
+focanocodigo/__init__.py
+focanocodigo/calc.py
+focanocodigo.egg-info/PKG-INFO
+focanocodigo.egg-info/SOURCES.txt
+focanocodigo.egg-info/dependency_links.txt
+focanocodigo.egg-info/top_level.txt
