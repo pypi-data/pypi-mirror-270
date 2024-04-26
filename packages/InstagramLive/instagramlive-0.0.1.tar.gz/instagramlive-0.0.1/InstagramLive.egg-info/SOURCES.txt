@@ -1,0 +1,8 @@
+README.md
+setup.py
+InstagramLive/__init__.py
+InstagramLive/main.py
+InstagramLive.egg-info/PKG-INFO
+InstagramLive.egg-info/SOURCES.txt
+InstagramLive.egg-info/dependency_links.txt
+InstagramLive.egg-info/top_level.txt

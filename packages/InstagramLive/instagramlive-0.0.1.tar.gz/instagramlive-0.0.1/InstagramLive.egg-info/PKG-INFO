@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: InstagramLive
+Version: 0.0.1
+Summary: Instagram Live Python Client
+Home-page: https://github.com/isaackogan/InstagramLive
+Author: Isaac Kogan
+Author-email: info@isaackogan.com
+License: MIT
+Keywords: instagram,instagram live,python3,api,ig,ig live
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Instagram Live
+
+Connect to IG Live (coming soon)
