@@ -1,0 +1,25 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "jupyter.lab.setting-icon": "ui-components:launcher",
+  "jupyter.lab.setting-icon-label": "New Launcher",
+  "title": "New Launcher",
+  "description": "jupyterlab-new-launcher settings.",
+  "type": "object",
+  "properties": {
+    "hiddenColumns": {
+      "type": "object",
+      "default": {
+        "conda_env_path": true,
+        "conda_raw_kernel_name": true
+      },
+      "additionalProperties": { "type": "boolean" }
+    },
+    "columnOrder": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
