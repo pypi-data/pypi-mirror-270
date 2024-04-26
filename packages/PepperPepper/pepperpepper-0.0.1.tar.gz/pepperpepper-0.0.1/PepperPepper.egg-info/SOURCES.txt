@@ -1,0 +1,9 @@
+setup.py
+PepperPepper/__init__.py
+PepperPepper/tools.py
+PepperPepper.egg-info/PKG-INFO
+PepperPepper.egg-info/SOURCES.txt
+PepperPepper.egg-info/dependency_links.txt
+PepperPepper.egg-info/requires.txt
+PepperPepper.egg-info/top_level.txt
+PepperPepper.egg-info/zip-safe
