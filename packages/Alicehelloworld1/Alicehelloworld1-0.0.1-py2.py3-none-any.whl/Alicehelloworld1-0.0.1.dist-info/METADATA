@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Alicehelloworld1
+Version: 0.0.1
+Summary: Alice Say hello1!
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: blessings ~=1.7
+Provides-Extra: dev
+Requires-Dist: pytest >=3.7 ; extra == 'dev'
+
+UNKNOWN
+
