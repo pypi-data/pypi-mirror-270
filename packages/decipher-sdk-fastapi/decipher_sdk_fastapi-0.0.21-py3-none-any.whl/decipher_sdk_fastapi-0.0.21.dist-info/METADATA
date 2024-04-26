@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: decipher-sdk-fastapi
+Version: 0.0.21
+Summary: A FastAPI SDK for error monitoring and logging.
+Author: Decipher AI
+Author-email: help@getdecipher.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: requests
+
+Decipher AI, Inc Python SDK
+
+Docs: https://docs.getdecipher.com/fastAPI
