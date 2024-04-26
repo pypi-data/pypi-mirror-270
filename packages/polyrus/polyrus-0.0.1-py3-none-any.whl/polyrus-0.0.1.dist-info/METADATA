@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: polyrus
+Version: 0.0.1
+Summary: Geometric library for deep learning on 3D data structures
+Author-email: Benedikt Scheffler <scheffler.benedikt@googlemail.com>
+Project-URL: homepage, https://github.com/bensch98/polyrus
+Project-URL: documentation, https://polyrus.github.io/
+Project-URL: repository, https://github.com/bensch98/polyrus
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: open3d
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
+# `polyrus`
+
+## Polyrus: Utility library for geometric deep learning
+
+`polyrus` is a Python library that implements multiple functionalities regarding 3-dimensional data structures.
+As of now it's meant for:
+- 3D data preprocessing for deep learning on manifolds
+- visualizing results
+- implementing new algorithms based on commonly used ones
+- computing common metrics
+
+## Installation
+
+Install the latest Polyrus version with:
+```bash
+pip install polyrus
+```
+
+Install Polyrus with all optional dependencies.
+```bash
+pip install 'polyrus[all]'
+```
+
+Install Polyrus with a subset of all optional dependencies.
+```bash
+pip install 'polyrus[dev]'
+```
+
+To see the current Polyrus version in use, run:
+```bash
+import polyrus
+polyrus.__version__
+```
