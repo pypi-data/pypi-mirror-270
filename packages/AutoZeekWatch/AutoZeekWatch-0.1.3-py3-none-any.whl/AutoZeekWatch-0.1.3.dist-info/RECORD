@@ -1,0 +1,9 @@
+NIDS/__init__.py,sha256=ES4ktliHAeBNOLwNxy6DrlC9dl0j8CGJNogzqZ09Qck,62
+NIDS/infer.py,sha256=pAXLVRDdLdMWkDef_l7VB1W6_4kagmwyRCmdWb30Fqs,6981
+NIDS/train.py,sha256=PAdPKGqaYmDW78zJT8NAGE1hr-qHHOyQaS7It3JPop4,11255
+NIDS/utils.py,sha256=3ZY2fKHjoty-ee0N7ld7jZ6CyPp0xSvE5aDo2uhpkuc,21665
+AutoZeekWatch-0.1.3.dist-info/LICENSE,sha256=1OhVJHa2Wb8aONHp0xBrIo12Ibf7Egeb67AL2Qbhuu4,1065
+AutoZeekWatch-0.1.3.dist-info/METADATA,sha256=vzlCWm6llqkKV69KIcEeVPh4f9VUCbwBnLc7RusCpDs,2603
+AutoZeekWatch-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+AutoZeekWatch-0.1.3.dist-info/top_level.txt,sha256=GwAC5FHqzSF3Bz-giZidemSY-v1Ue8Z6eYo6jkfjeoM,5
+AutoZeekWatch-0.1.3.dist-info/RECORD,,

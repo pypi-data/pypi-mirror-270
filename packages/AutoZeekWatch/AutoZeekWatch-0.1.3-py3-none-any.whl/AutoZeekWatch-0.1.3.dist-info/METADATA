@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: AutoZeekWatch
+Version: 0.1.3
+Summary: Network Intrusion Detection using Zeek logs
+Home-page: https://github.com/NYU-HSRN-Network-Data-Science-Group/NIDS/
+License: MIT
+Project-URL: Documentation, https://github.com/NYU-HSRN-Network-Data-Science-Group/NIDS
+Project-URL: Bug Reports, https://github.com/NYU-HSRN-Network-Data-Science-Group/NIDS/issues
+Project-URL: Source Code, https://github.com/NYU-HSRN-Network-Data-Science-Group/NIDS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: matplotlib ==3.7.0
+Requires-Dist: mlflow ==2.2.1
+Requires-Dist: numpy ==1.23.5
+Requires-Dist: pandas ==1.4.2
+Requires-Dist: pyod ==1.1.0
+Requires-Dist: pysad ==0.2.0
+Requires-Dist: scikit-learn ==1.3.2
+Requires-Dist: seaborn ==0.11.2
+Requires-Dist: tailer ==0.4.1
+Requires-Dist: combo ==0.1.3
+
+# AutoZeekWatch
+
+AutoZeekWatch is a real-time, modular, configurable A.I. anomaly detector for [Zeek](https://zeek.org/) logs. AutoZeekWatch enables you to generate anomaly scores for Zeek logs im real time, and correlate them with the initial 5-tuple and Zeek UID for downstream analysis, automated mitigation, and more. 
+
+## Table of Contents
+
+* Features
+* Installation
+* Examples
+
+## Features
+
+AutoZeekWatch functions in two distinct phases, **training** and **inference**. Under the hood, [KitNET](https://pysad.readthedocs.io/en/latest/generated/pysad.models.KitNet.html), a ensemble of autoencoders, is used to generate anomaly scores for individual logs in a unsupervised manner. 
+
+During **training**, the model must learn the *normal* distribution from provided data. The user is expected to provide a directory where historical, *normal* (not malicious) logs are stored. The model then learns this distribution. 
+
+During **inference**, the model provides a score of how anomalous a given log is to the distribution learned from training. This score along with the 5-tuple (Source IP, Destination IP, Source Port, Destination Port, Proto) is then dumped to a file which can be used for downstream tasks or alerting. 
+
+It is possible to specify different zeek log types to train on and perform inference on. Currently, the following are available:
+
+- Connection
+- HTTP
+- DNS
+- SSH
+- SSL
+
+These can be used modularly, one, many, or all can be used at once. 
+
+## Installation
+
+...
+
+## Examples
+
+### Train a Model on Connection Data
+
+```
+python train.py --log-dir <PATH/TO/LOGS> --modules CONN
+```
+
+### Start Inference on Incoming Connection Data
+
+```
+python infer.py --log-dir <PATH/TO/LOGS> --modules CONN
+```
