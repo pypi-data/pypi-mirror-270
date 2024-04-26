@@ -1,0 +1,9 @@
+README.md
+setup.py
+StatViz/__init__.py
+StatViz/statviz.py
+StatViz.egg-info/PKG-INFO
+StatViz.egg-info/SOURCES.txt
+StatViz.egg-info/dependency_links.txt
+StatViz.egg-info/requires.txt
+StatViz.egg-info/top_level.txt

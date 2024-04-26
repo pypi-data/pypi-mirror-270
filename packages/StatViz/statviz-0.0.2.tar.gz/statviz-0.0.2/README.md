@@ -1,0 +1,38 @@
+`StatViz` is a comprehensive Python library designed to streamline your data exploration process. It offers a suite of functions that cater to various aspects of data analysis:
+
+* `stats_info_viz`: This powerful function acts as a one-stop shop, delivering both statistical summaries and corresponding visualizations. Gain valuable insights into your data through informative statistics alongside clear visual representations.
+
+* `stats_info`:  If you're seeking in-depth statistical information about your data, the stats_info function is your go-to tool. It calculates and presents relevant statistical measures, aiding you in data exploration and informed decision-making.
+
+* `stats_viz`:  Focus on creating impactful data visualizations with the stats_viz function. Generate charts and graphs that effectively reveal patterns, trends, and relationships within your data set, enhancing clarity and communication.
+
+To install Python follow this link: [text](https://www.python.org/)
+
+### Implementation
+
+from StatViz.statviz import stats_info_viz, stats_info, stats_viz
+
+### Function provides both statistical data and visualizations.
+stats_info_viz(file_path="xyz.csv", file_type="csv",init_column=True/False)
+
+or
+
+stats_info_viz(file_path="xyz.xlsx", file_type="excel",init_column=True/False)
+
+### Function provides both statistical information.
+stats_info(file_path="xyz.csv",file_type="csv",init_column=True/False)
+
+or
+
+stats_info(file_path="xyz.xlsx",file_type="excel",init_column=True/False)
+
+### Function provides both statistical visualizations.
+stats_viz(file_path="xyz.csv", file_type="csv")
+
+or
+
+stats_viz(file_path="xyz.xlsx", file_type="excel")
+
+### Contributers
+* Namitha Kolur
+* Ashok Kumar S
