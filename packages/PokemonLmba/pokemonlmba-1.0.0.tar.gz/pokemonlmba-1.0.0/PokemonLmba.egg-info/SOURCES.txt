@@ -1,0 +1,10 @@
+README.md
+setup.py
+PokemonLmba/__init__.py
+PokemonLmba/pokemon.csv
+PokemonLmba/random_pokemon.py
+PokemonLmba.egg-info/PKG-INFO
+PokemonLmba.egg-info/SOURCES.txt
+PokemonLmba.egg-info/dependency_links.txt
+PokemonLmba.egg-info/requires.txt
+PokemonLmba.egg-info/top_level.txt
