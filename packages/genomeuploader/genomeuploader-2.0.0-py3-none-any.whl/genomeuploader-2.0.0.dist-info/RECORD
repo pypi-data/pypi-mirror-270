@@ -1,0 +1,11 @@
+genomeuploader/__init__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+genomeuploader/cluster_uploader_wrapper.py,sha256=ErPEzVtVYmkoBy7dbOXFlmcy2pqV2FRsKEFxLv68HOE,10383
+genomeuploader/constants.py,sha256=8Jz_gY4oNIZB6gpQnyV0dN4bl6nOTR3sCLkjtDm1Z6c,15283
+genomeuploader/ena.py,sha256=xyyhRiDPgoGsmhMn__80PNp8dq7CQ-kwxh654fdnAZ4,10563
+genomeuploader/genome_upload.py,sha256=t6PNmO7d9trYT7HHhytK-iMUda8x4IAP-OGmn-pu6RE,39568
+genomeuploader-2.0.0.dist-info/LICENSE.md,sha256=9P22ZH4by9hBa6FXdmQ7-cvLksuHG6ZKwGaRQjKqsGs,11342
+genomeuploader-2.0.0.dist-info/METADATA,sha256=KRsi5hRPv-MiDBQpBMKom66M9oUMSPPEkPaaClVMx6w,8924
+genomeuploader-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+genomeuploader-2.0.0.dist-info/entry_points.txt,sha256=lQUSbbap9dkjOlbJxMeQtMGhLOR860Vm2OtnNLPJHac,68
+genomeuploader-2.0.0.dist-info/top_level.txt,sha256=sssgY-yFUQtrGSYJ00ZV9mz_1i3hR7m6oDngr849_AM,15
+genomeuploader-2.0.0.dist-info/RECORD,,
