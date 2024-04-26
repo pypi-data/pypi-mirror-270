@@ -1,0 +1,15 @@
+dbinfer_bench/__init__.py,sha256=rNwOdIVGyME7QgYrzeE0Aix38NWB6PP_iHfmyH1vLcY,131
+dbinfer_bench/dataset_meta.py,sha256=VBnXaWGunwfGoHapOsHCDXxNUugmGIipIGYIUEWM3k0,4802
+dbinfer_bench/download.py,sha256=x70bhVb4vWxFeN-q-RTsyPnYiTKxs1sAHdiCm5_K4o4,4283
+dbinfer_bench/download_config.yaml,sha256=SEsbjQYCx5PYMSfqWrq0MD_5MdiuYqMfI-4sMTPFSWY,2317
+dbinfer_bench/graph_dataset.py,sha256=p3z2wJp3HSQDodtQMzMUHI2DY01ycrxJoQW6FLMB-bg,8008
+dbinfer_bench/ondisk_dataset_creator.py,sha256=IEWbBi4cRzRacqc00Vi8AQUbLbOIGhiydyfNUAzXRtI,13031
+dbinfer_bench/rdb_dataset.py,sha256=0Dh135JE_lsNZniQl8z-2ftGby1Rd7sZCxn7p1k5x-w,14568
+dbinfer_bench/table_loader.py,sha256=8lol55bm4XOMHcsHvB5ddeCbwoj12mzfzI8aj0jw9ho,737
+dbinfer_bench/table_writer.py,sha256=uiozEPZ8PBoAYrwh_aAERPT82sichdtr4wFg2c57fOQ,1569
+dbinfer_bench/version.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+dbinfer_bench/yaml_utils.py,sha256=8nAKsdFlNee4b19INuHvuJcPWZPvwy1Q2-Fv8wj5UlI,467
+dbinfer_bench-0.0.1.dist-info/METADATA,sha256=RUyMvCaiMrXbi7adm8Lk7ASuMixY1Yk5fHGzVgmfZOE,387
+dbinfer_bench-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dbinfer_bench-0.0.1.dist-info/top_level.txt,sha256=Ghy6JYfJ9VcwO3b1VQRuCR-oqAMZa_n92a1tFxTtN5M,14
+dbinfer_bench-0.0.1.dist-info/RECORD,,
