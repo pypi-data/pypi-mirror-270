@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+src/coinanalyse.egg-info/PKG-INFO
+src/coinanalyse.egg-info/SOURCES.txt
+src/coinanalyse.egg-info/dependency_links.txt
+src/coinanalyse.egg-info/requires.txt
+src/coinanalyse.egg-info/top_level.txt
