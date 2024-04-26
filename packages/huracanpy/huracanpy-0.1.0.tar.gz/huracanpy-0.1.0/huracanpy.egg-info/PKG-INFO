@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: huracanpy
+Version: 0.1.0
+Summary: A python package for working with various forms of feature tracking data
+Author: Stella Bourdin, Kelvin Ng
+Author-email: Leo Saffin <l.saffin@reading.ac.uk>
+License-File: LICENSE
+Requires-Dist: numpy<2
+Requires-Dist: xarray
+Requires-Dist: cftime
+Requires-Dist: parse

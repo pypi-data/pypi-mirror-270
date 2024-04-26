@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+huracanpy/__init__.py
+huracanpy.egg-info/PKG-INFO
+huracanpy.egg-info/SOURCES.txt
+huracanpy.egg-info/dependency_links.txt
+huracanpy.egg-info/requires.txt
+huracanpy.egg-info/top_level.txt
+huracanpy/_tracker_specific/TRACK.py
+huracanpy/_tracker_specific/__init__.py
+huracanpy/example_data/tr_trs_pos.2day_addT63vor_addmslp_add925wind_add10mwind.tcident.new
+tests/test_huracanpy.py
