@@ -1,0 +1,8 @@
+aws_idc_list_user_permissions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_idc_list_user_permissions/aws_idc_list_user_permissions.py,sha256=j85IN07fxayLnRzTPd1NBL0hwPoWCVBxoE4CnkxDs0k,3050
+aws_idc_list_user_permissions/list_utils.py,sha256=U9xRREKBhmYM-tIXbdU2QUTIiaChYpNN70QKNVQq60k,3504
+aws_idc_list_user_permissions/output.py,sha256=4nF3V_EEAdTeTHI-yETZFJ9SYa1pb3o1ULvZdg0dLzo,2203
+aws_idc_list_user_permissions-0.1.0.dist-info/METADATA,sha256=GW0IWLg2RvBz_PlRUDhkBvF8Tub7t_MNvUEvUNuXG0k,1815
+aws_idc_list_user_permissions-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aws_idc_list_user_permissions-0.1.0.dist-info/entry_points.txt,sha256=zNyw9PLqYGlrzAyJ8l8hrl003UBjdwPrw_aCoYbv4c4,114
+aws_idc_list_user_permissions-0.1.0.dist-info/RECORD,,
