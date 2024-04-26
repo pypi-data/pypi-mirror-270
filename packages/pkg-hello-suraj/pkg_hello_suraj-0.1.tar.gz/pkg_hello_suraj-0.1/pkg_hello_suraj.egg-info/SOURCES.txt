@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pkg_hello_suraj/__init__.py
+pkg_hello_suraj/hello.py
+pkg_hello_suraj.egg-info/PKG-INFO
+pkg_hello_suraj.egg-info/SOURCES.txt
+pkg_hello_suraj.egg-info/dependency_links.txt
+pkg_hello_suraj.egg-info/top_level.txt
