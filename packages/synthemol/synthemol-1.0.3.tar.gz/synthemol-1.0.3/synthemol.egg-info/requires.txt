@@ -1,0 +1,12 @@
+chemfunc
+chemprop==1.6.1
+descriptastorus
+matplotlib
+numpy
+pandas
+torch
+rdkit
+scikit-learn
+scipy
+tqdm
+typed-argument-parser>=1.8.0
