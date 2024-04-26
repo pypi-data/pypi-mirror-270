@@ -1,0 +1,4 @@
+[console_scripts]
+tg = translation_god.main:main
+translation_god = translation_god.main:main
+
