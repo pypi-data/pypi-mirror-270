@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twincat-tools"
+version = "0.1.0"
+authors = [
+  { name="Robert Roos", email="robert.soor@gmail.com" },
+]
+description = "A set of tools for TwinCAT projects"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "lxml~=4.9.3",
+    "EditorConfig~=0.12.3",
+    "GitPython~=3.1.36",
+]
+
+[project.optional-dependencies]
+test = [
+    "black~=23.7.0",
+    "pytest~=7.4.1",
+    "pytest-cov~=4.1.0",
+    "pytest-mock~=3.14.0",
+    "flake8~=6.1.0",
+    "flake8-bugbear~=23.7.10",
+]
+doc = [
+    "sphinx~=7.3.7",
+    "sphinx_rtd_theme~=2.0.0",
+    "sphinx-argparse~=0.4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DEMCON/twincat-tools"
+"Bug Tracker" = "https://github.com/DEMCON/twincat-tools/issues"
+"Documentation" = "https://twincat-tools.readthedocs.io"
+
+[project.scripts]
+tc_format = "tctools.format:main_argv"
+tc_xml_sort = "tctools.xml_sort:main_argv"
+tc_git_info = "tctools.git_info:main_argv"
+tc_make_release = "tctools.make_release:main_argv"
