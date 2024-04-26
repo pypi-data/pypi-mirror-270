@@ -1,0 +1,15 @@
+setup.py
+STASCAN/StatPlot.py
+STASCAN/__init__.py
+STASCAN/downstream.py
+STASCAN/model.py
+STASCAN/preparation.py
+STASCAN/preparation_dbit.py
+STASCAN/run_STASCAN.py
+STASCAN/run_STASCAN_dbit.py
+STASCAN.egg-info/PKG-INFO
+STASCAN.egg-info/SOURCES.txt
+STASCAN.egg-info/dependency_links.txt
+STASCAN.egg-info/not-zip-safe
+STASCAN.egg-info/requires.txt
+STASCAN.egg-info/top_level.txt
