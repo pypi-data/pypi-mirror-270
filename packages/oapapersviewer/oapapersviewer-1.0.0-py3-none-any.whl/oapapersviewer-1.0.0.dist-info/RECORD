@@ -1,0 +1,14 @@
+oapapersviewer/__init__.py,sha256=NbQ2uvtM4z8J8pM0-11hA4HlO6Ba9WOi8072SxtGYaY,82
+oapapersviewer/__main__.py,sha256=XyI_Da5rQvs5uENXUgQQ5EHYTbD9H10Lz2z1aK6IET8,1376
+oapapersviewer/bindings_dock_view.py,sha256=jofXlZV7heMJ5zLIhyWE2uByumFr9Idi-vNywGU41a4,631
+oapapersviewer/document_tree.py,sha256=x-QonocXzgAJwvIt5M7fS_EOib4KZkwvyJKP3cOvN08,12822
+oapapersviewer/footer.py,sha256=uvd8iknHRe3EwK8RSlI4r5UvJysGAtknSLikqa2cbF4,1651
+oapapersviewer/inputs.py,sha256=mgF8oxaqMgJvx7c_BHNSd1ussJrlaKPrg6gckrijahY,2520
+oapapersviewer/json_tree.py,sha256=h_nW7wlSn6w3XJOB4Dc7OWVHGe9QG71vWi7tUq2sELI,4091
+oapapersviewer/listing.py,sha256=e09Hx0qlcMD3UmrCpfQvolzUTP8yEnbNy6Ae8OTGx2I,9179
+oapapersviewer/sample_view.py,sha256=oYTi8jzpUVLC80gq5N9D22sINA7-uBzNoq6_BTs2Ijc,3516
+oapapersviewer/viewer.py,sha256=UbiZKzN2BhcgcUlVUYV_rW3da0_xAR8ktr1_6KJs0mc,3759
+oapapersviewer-1.0.0.dist-info/METADATA,sha256=vGCmmFyUdmDw_srpItAL7_mPB8EgOJju26uJHKYm1Ts,778
+oapapersviewer-1.0.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+oapapersviewer-1.0.0.dist-info/entry_points.txt,sha256=u5lKqxCBPijaQWI9IH9bk4XbvttEXvl-xLBigYEPI4A,64
+oapapersviewer-1.0.0.dist-info/RECORD,,

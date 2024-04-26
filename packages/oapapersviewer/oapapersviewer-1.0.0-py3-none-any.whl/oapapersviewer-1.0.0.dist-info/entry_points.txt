@@ -1,0 +1,2 @@
+[console_scripts]
+oapapersviewer = oapapersviewer.__main__:main
