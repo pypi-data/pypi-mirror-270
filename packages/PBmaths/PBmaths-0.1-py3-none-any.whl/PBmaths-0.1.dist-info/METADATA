@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PBmaths
+Version: 0.1
+Summary: Basic arithmetic operations package
+Home-page: https://github.com/SweetBunny123/PrakBasicMaths
+Author: Prakrititz Borah
+Author-email: Prakrititz.Borah@iiitb.ac.in
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+##PBmaths
+PBmaths is a Python package for performing basic arithmetic operations.
+
+## Installation
+
+You can install PBmaths via pip:
+
+```bash
+pip install PBmaths
