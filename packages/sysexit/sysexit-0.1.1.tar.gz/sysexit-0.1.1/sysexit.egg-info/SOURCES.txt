@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+sysexit/__init__.py
+sysexit.egg-info/PKG-INFO
+sysexit.egg-info/SOURCES.txt
+sysexit.egg-info/dependency_links.txt
+sysexit.egg-info/top_level.txt
