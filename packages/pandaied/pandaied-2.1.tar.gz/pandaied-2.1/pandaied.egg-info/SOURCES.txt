@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+pandaied.egg-info/PKG-INFO
+pandaied.egg-info/SOURCES.txt
+pandaied.egg-info/dependency_links.txt
+pandaied.egg-info/top_level.txt
