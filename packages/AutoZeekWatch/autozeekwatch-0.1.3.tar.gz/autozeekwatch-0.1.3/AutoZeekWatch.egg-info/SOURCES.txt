@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+AutoZeekWatch.egg-info/PKG-INFO
+AutoZeekWatch.egg-info/SOURCES.txt
+AutoZeekWatch.egg-info/dependency_links.txt
+AutoZeekWatch.egg-info/requires.txt
+AutoZeekWatch.egg-info/top_level.txt
+NIDS/__init__.py
+NIDS/infer.py
+NIDS/train.py
+NIDS/utils.py
