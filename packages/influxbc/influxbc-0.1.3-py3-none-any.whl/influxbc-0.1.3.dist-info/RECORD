@@ -1,0 +1,12 @@
+influxbc/__init__.py,sha256=AYb0hsTGJHW11LV4xMT6rDQ6dJYrM0wUImjCNblGxss,109
+influxbc/_base.py,sha256=mbWZJbCXUytZyT988QO3K3R0OgUQoeiKmQ_c2-OPbvo,15836
+influxbc/client_v1.py,sha256=6e-2_5cRJBUa4QZeigmqyYF6ehKQJCG99h6mN0ng_OM,16601
+influxbc/client_v2.py,sha256=WQGWYm8l814PBGHy9-NC2uV2gYTOwmBBPJA9wYDifTY,21079
+influxbc/const.py,sha256=r3vldm6RzGKJEUomJrTkeGBWAgYDLpGU_ETUlPaOVD8,549
+influxbc/errors.py,sha256=glk-eTMKyVSwtRV3hobwSr7BvWgYw0Fzp_V8nt4L2yI,612
+influxbc/logging.py,sha256=rBdL4dE8wMoJTnrmoMOWRsTfj9IQgfUyCPMNCuYqmss,307
+influxbc/typing.py,sha256=jajn07C4ru2tPhx_gHr4rKmE3a0xM-UU-UlppaTKomA,127
+influxbc-0.1.3.dist-info/LICENSE,sha256=s16q8rc5TJIdmLrjno2mF_3jJ2HgBWrzQrsZgAVUCcQ,1062
+influxbc-0.1.3.dist-info/METADATA,sha256=6oWAU6TnZR132sAWQjpudOjsJbCty6txn_X5RTi1njE,12048
+influxbc-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+influxbc-0.1.3.dist-info/RECORD,,
