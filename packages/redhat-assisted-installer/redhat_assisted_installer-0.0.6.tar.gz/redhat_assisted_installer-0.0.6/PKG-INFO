@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: redhat-assisted-installer
+Version: 0.0.6
+Summary: Python module to implement the RedHat Assisted Installer API
+Project-URL: Homepage, https://github.com/JustinBatchelor/red-hat-assisted-installer
+Project-URL: Issues, https://github.com/JustinBatchelor/red-hat-assisted-installer/issues
+Author-email: Justin Batchelor <justinrossbatchelor@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# red-hat-assisted-installer
+Python module to implement the RedHat Assisted Installer 
+
+
+## Description
+
+
+## Requirements
