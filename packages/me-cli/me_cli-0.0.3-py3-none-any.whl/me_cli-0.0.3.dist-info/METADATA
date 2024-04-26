@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: me-cli
+Version: 0.0.3
+Summary: CLI which allows me to do work easier and quicker.
+Author: Pieter Thomas
+Author-email: dev@pieterthomas.be
+Requires-Dist: fire ==0.6.0
+
