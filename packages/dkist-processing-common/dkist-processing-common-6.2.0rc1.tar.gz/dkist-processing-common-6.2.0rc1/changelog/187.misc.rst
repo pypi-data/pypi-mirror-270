@@ -1,0 +1,1 @@
+Capture tracing data for rollback calls to enhance observability.
