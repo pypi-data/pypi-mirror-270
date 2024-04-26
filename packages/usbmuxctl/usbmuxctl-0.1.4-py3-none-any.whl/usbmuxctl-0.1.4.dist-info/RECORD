@@ -1,0 +1,13 @@
+usbmuxctl/__init__.py,sha256=DGDIs2xWX2azm75BY1geQDJpNXCUYIcmSWTs5tIkhEE,887
+usbmuxctl/__main__.py,sha256=gDEmKQvmnigrVFZabWwNK5AewhMm5HTdGLe42Rd0iNY,17243
+usbmuxctl/update.py,sha256=5HZ-kEiyoNmNsvm7sgmgU_11qRLPDBfe7Yot4G1K21A,13888
+usbmuxctl/usbmuxctl.py,sha256=WzrmSgGHo6CO4x9mca14zyFTsQ2s52AVweH6Ksosaek,13111
+usbmuxctl/firmware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usbmuxctl/firmware/umx-T03_0.1.2.bin,sha256=d5LuwcxkG7iTqPiG66fuieMpy_-ZiHa4rki2bLApjvE,12356
+usbmuxctl/firmware/version.py,sha256=Q3wzqz2lUM9FO2AfZaCf93lw2oEa-krYCnmRGtFs-VY,1276
+usbmuxctl-0.1.4.dist-info/COPYING,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+usbmuxctl-0.1.4.dist-info/METADATA,sha256=CytR7hPtWB_uM5Vl-lef08SlihCnbg8jlwmeNSmT64M,11341
+usbmuxctl-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+usbmuxctl-0.1.4.dist-info/entry_points.txt,sha256=conf7MatG9DjJ-qi5FEi2Y7QgsOEb38K__GSinV0CPk,54
+usbmuxctl-0.1.4.dist-info/top_level.txt,sha256=my9KhlfONVxBF6Nn-Ug07OtWTlZzc-dzbdf5VPXeDJQ,10
+usbmuxctl-0.1.4.dist-info/RECORD,,
