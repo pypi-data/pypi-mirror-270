@@ -1,0 +1,12 @@
+multicontents/__init__.py,sha256=qTqqjUuOdE2p3CVCo14aROYe9WEb1wT-gzOGxZ80UtY,177
+multicontents/multi_versions_file_checkpoints.py,sha256=oe9q5Jv-muAjcJBUKOOkstjf_9tKrNAW0q4wYxiUrWA,2924
+multicontents/multicontents_manager.py,sha256=-BLOpNvV-06pgjaNcnyWEg4U_ROQpX2uZF64vKWzgTg,7421
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration_test.py,sha256=14WaqZ_gVsLULVI6BP193f0H8vTCvCDbGzf3hABto9E,1033
+tests/multi_versions_file_checkpoints_test.py,sha256=CiMjqo2NKOx05bP32zUgefwFX0PfOeRNqbvRlkg4GC0,2634
+tests/multicontents_manager_test.py,sha256=saYr11oSfAwhfVVWcQ0QJJqjx633pDFa_paVVJSJ7jA,11529
+multicontents-0.3.0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+multicontents-0.3.0.dist-info/METADATA,sha256=WjSrdNG-n4_AVjCuefjNGx6DGkuWX8a232hWMc7ZdQg,2232
+multicontents-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+multicontents-0.3.0.dist-info/top_level.txt,sha256=nOZEovVkD_hShd59jug7XeiqFr6wB30JtTEMAPirFtQ,20
+multicontents-0.3.0.dist-info/RECORD,,
