@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+coloringtestpy/__init__.py
+coloringtestpy/coloringtestpy.py
+coloringtestpy.egg-info/PKG-INFO
+coloringtestpy.egg-info/SOURCES.txt
+coloringtestpy.egg-info/dependency_links.txt
+coloringtestpy.egg-info/top_level.txt
