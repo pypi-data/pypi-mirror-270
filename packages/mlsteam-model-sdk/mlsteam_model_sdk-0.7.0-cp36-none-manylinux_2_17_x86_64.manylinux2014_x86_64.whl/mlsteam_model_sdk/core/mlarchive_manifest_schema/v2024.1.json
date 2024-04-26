@@ -1,0 +1,156 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "http://www.myelintek.com/schemas/mlarchive_manifest_schema_v2024.1.json",
+    "type": "object",
+    "properties": {
+        "schema": {"ref": "#/$defs/nonEmptyString"},
+        "name": {"ref": "#/$defs/nonEmptyString"},
+        "version": {"ref": "#/$defs/nonEmptyString"},
+        "in_memory_model_extraction": {"type": "boolean"},
+        "file_integrity_check": {
+            "type": "object",
+            "properties": {
+                "models": {"ref": "#/$defs/fileIntegrityCheckMode"},
+                "hooks": {"ref": "#/$defs/fileIntegrityCheckMode"},
+                "src": {"ref": "#/$defs/fileIntegrityCheckMode"},
+                "manifest": {"ref": "#/$defs/fileIntegrityCheckMode"}
+            }
+        },
+        "models": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"ref": "#/$defs/nonEmptyString"},
+                    "version": {"ref": "#/$defs/nonEmptyString"},
+                    "description": {"type": "string"},
+                    "framework": {
+                        "enum": [
+                            "tensorflow",
+                            "tensorflow.keras",
+                            "pytorch",
+                            "pytorch.lightning"
+                        ]
+                    },
+                    "loader": {
+                        "anyOf": [{
+                            "ref": "#/$defs/relativePath"
+                        }, {
+                            "type": "object",
+                            "properties": {
+                                "built-in": {"ref": "#/$defs/nonEmptyString"}
+                            },
+                            "required": ["built-in"],
+                            "additionalProperties": true
+                        }, {
+                            "type": "object",
+                            "properties": {
+                                "file": {"ref": "#/$defs/relativePath"},
+                                "function": {"ref": "#/$defs/pythonVarName"}
+                            },
+                            "required": ["file"],
+                            "additionalProperties": false
+                        }]
+                    },
+                    "enc_model_cleanup": {
+                        "enum": [
+                            "never",
+                            "after-load"
+                        ]
+                    },
+                    "enc_model_cleanup_files": {
+                        "type": "array",
+                        "items": {"ref": "#/$defs/relativePath"}
+                    },
+                    "inputs": {
+                        "type": "array",
+                        "items": {"$ref": "#/$defs/io_item"},
+                        "deprecated": true
+                    },
+                    "outputs": {
+                        "type": "array",
+                        "items": {"$ref": "#/$defs/io_item"},
+                        "deprecated": true
+                    }
+                },
+                "required": [
+                    "name"
+                ],
+                "additionalProperties": false
+            },
+            "minItems": 1
+        },
+        "services": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"ref": "#/$defs/nonEmptyString"},
+                    "predictor": {
+                        "anyOf": [{
+                            "ref": "#/$defs/relativePath"
+                        }, {
+                            "type": "object",
+                            "properties": {
+                                "built-in": {"ref": "#/$defs/nonEmptyString"}
+                            },
+                            "required": ["built-in"],
+                            "additionalProperties": true
+                        }, {
+                            "type": "object",
+                            "properties": {
+                                "file": {"ref": "#/$defs/relativePath"},
+                                "function": {"ref": "#/$defs/pythonVarName"}
+                            },
+                            "required": ["file"],
+                            "additionalProperties": false
+                        }]
+                    }
+                },
+                "required": [
+                    "name"
+                ],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": [
+        "models",
+        "version"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+        "nonEmptyString": {
+            "type": "string",
+            "minLength": 1
+        },
+        "fileIntegrityCheckMode": {
+            "enum": [
+                "skip",
+                "permissive",
+                "enforce",
+                "strictly-enforce"
+            ]
+        },
+        "relativePath": {
+            "type": "string",
+            "pattern": "^[^/].*$"
+        },
+        "pythonVarName": {
+            "type": "string",
+            "pattern": "^[_a-zA-Z][_a-zA-Z0-9]*$"
+        },
+        "io_item": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}
