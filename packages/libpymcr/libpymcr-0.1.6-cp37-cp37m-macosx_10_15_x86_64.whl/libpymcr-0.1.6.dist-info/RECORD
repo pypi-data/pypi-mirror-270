@@ -1,0 +1,12 @@
+libpymcr/_version.py,sha256=zUEfcX_ako8lJhspnvZLhfTkoe4lRLQg44ZkOOD3Oyc,497
+libpymcr/__init__.py,sha256=YxQtjyhWEFgnGjEBM7_6CNAcQXWH8XD7rPFwRgE53Bg,195
+libpymcr/Matlab.py,sha256=4nq4001v__4lmpU_9RrmT3XlNB12bLTapMWTgGRH4gk,7056
+libpymcr/MatlabProxyObject.py,sha256=bOE3JnagIyaIDujGQpia6-ZpsumJa_tbtux3L75fd5Y,10476
+libpymcr/utils.py,sha256=UTo_7Wem0WjazGvbMWBmywxSlFWUjmRVHhjSBx6exJI,13124
+libpymcr/_libpymcr.cpython-37m-darwin.so,sha256=aygYntdA6WohIVaI1Ro3VXy9u4ALDphLAIn2SpIbHGE,506520
+libpymcr/IPythonMagics.py,sha256=uqUCnidWVN-64MezNqI7gqNCsgfmrvxI2_mM57OyK4E,11677
+libpymcr-0.1.6.dist-info/RECORD,,
+libpymcr-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+libpymcr-0.1.6.dist-info/WHEEL,sha256=ZXI1yjkU7WPMp2EKI5IiusPuvEEg3hxMgwUd5D4LhYo,111
+libpymcr-0.1.6.dist-info/top_level.txt,sha256=7E4jMHPIgnPj46vaLZmiMiSc-OFs_0oKOg4MSISOxDU,9
+libpymcr-0.1.6.dist-info/METADATA,sha256=3V4BfHRxGG_tkTrTYz_wVy_v7X0-AyjI2vfC8YliNDk,2526
