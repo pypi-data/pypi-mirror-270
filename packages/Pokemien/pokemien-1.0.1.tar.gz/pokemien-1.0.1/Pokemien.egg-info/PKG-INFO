@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Pokemien
+Version: 1.0.1
+Summary: Libreria para generar un Pokemon aleatorio
+Author: Angel Lopez
+Author-email: Lopez066p7@gmail.com
+Requires-Dist: pandas
