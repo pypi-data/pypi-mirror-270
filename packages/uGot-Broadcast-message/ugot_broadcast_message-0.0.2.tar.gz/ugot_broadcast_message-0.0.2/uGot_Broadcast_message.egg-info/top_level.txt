@@ -1,0 +1,4 @@
+ugot_broadcast_message
+ugot_broadcast_message_pb2/__init__
+ugot_broadcast_message_pb2/ugot_broadcast_message_pb2_gen1
+ugot_broadcast_message_pb2/ugot_broadcast_message_pb2_gen2
