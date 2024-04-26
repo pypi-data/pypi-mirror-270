@@ -1,0 +1,7 @@
+ffmpeg-python
+pms-inference-engine
+loguru
+numpy
+python-dotenv
+redis
+PyMySQL
