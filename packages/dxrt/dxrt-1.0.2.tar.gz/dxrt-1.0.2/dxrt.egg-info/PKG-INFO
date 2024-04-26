@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dxrt
+Version: 1.0.2
+Summary: Libreria para generar un pokemom aleatorio
+Author: Gael Peña
+Author-email: gaelpeje1@gmail.com
+Requires-Dist: pandas
