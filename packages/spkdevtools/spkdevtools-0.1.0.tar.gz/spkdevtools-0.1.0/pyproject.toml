@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spkdevtools" 
+version = "0.1.0" 
+authors = [
+  { name = "David Hanna", email = "david.hanna@kickstepinc.com" }
+]
+description = "Developer tools for interacting with SSO and S3 resources"
+readme = "README.md"
+requires-python = ">=3.8"  # Specify your minimum required Python version
+dependencies = [
+  "boto3>=1.26.0" 
+]
+
+[project.scripts]
+spk-tool = "spkdevtools.cli:main"  # Optional: Example command-line entry point
+
+[project.urls]
+Homepage = "https://github.com/dahannajr/spkdevtools"  # Replace with project URL

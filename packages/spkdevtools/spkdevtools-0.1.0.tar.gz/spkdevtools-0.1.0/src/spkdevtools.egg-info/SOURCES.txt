@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/spkdevtools/__init__.py
+src/spkdevtools/s3_utils.py
+src/spkdevtools/sso_utils.py
+src/spkdevtools.egg-info/PKG-INFO
+src/spkdevtools.egg-info/SOURCES.txt
+src/spkdevtools.egg-info/dependency_links.txt
+src/spkdevtools.egg-info/entry_points.txt
+src/spkdevtools.egg-info/requires.txt
+src/spkdevtools.egg-info/top_level.txt
