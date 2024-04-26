@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/SimpleProxyManager/SimpleProxyManager.py
+src/SimpleProxyManager/__init__.py
+src/SimpleProxyManager.egg-info/PKG-INFO
+src/SimpleProxyManager.egg-info/SOURCES.txt
+src/SimpleProxyManager.egg-info/dependency_links.txt
+src/SimpleProxyManager.egg-info/requires.txt
+src/SimpleProxyManager.egg-info/top_level.txt
