@@ -1,0 +1,3 @@
+[console_scripts]
+clidapp4Rhino=clidapp4rhino.run_executable:main
+
