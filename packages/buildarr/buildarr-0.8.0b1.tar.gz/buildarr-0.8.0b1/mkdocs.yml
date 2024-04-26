@@ -1,0 +1,40 @@
+site_name: Buildarr Core
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_root_heading: false
+            show_source: false
+            show_bases: false
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Release Notes: "release-notes.md"
+  - Installation: "installation.md"
+  - Configuration: "configuration.md"
+  - Plugins:
+    - Introduction: "plugins/index.md"
+    - Buildarr Sonarr Plugin: "https://buildarr.github.io/plugins/sonarr"
+    - Buildarr Radarr Plugin: "https://buildarr.github.io/plugins/radarr"
+    - Buildarr Prowlarr Plugin: "https://buildarr.github.io/plugins/prowlarr"
+    - Buildarr Jellyseerr Plugin: "https://buildarr.github.io/plugins/jellyseerr"
+  - Usage: "usage.md"
+  - GitHub: "https://github.com/buildarr/buildarr"
+  # TODO: Development documentation.
+  # - Development:
+  #   - Introduction: "development/index.md"
+  #   - Plugins: "development/plugins.md"
+
+watch:
+  - buildarr
