@@ -1,0 +1,11 @@
+README.md
+setup.py
+db_model/__init__.py
+db_model/milvus_db.py
+embed_model/__init__.py
+embed_model/bgem3.py
+milvus_api.egg-info/PKG-INFO
+milvus_api.egg-info/SOURCES.txt
+milvus_api.egg-info/dependency_links.txt
+milvus_api.egg-info/requires.txt
+milvus_api.egg-info/top_level.txt
