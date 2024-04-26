@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+py-essl-contact/__init__.py
+py-essl-contact/schema.py
+py-essl-contact/service.py
+py_essl_contact.egg-info/PKG-INFO
+py_essl_contact.egg-info/SOURCES.txt
+py_essl_contact.egg-info/dependency_links.txt
+py_essl_contact.egg-info/requires.txt
+py_essl_contact.egg-info/top_level.txt
+tests/__init__.py
+tests/test_copyright.py
+tests/test_service.py
