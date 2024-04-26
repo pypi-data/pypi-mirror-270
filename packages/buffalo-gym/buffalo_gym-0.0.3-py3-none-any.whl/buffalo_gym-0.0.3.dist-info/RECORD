@@ -1,0 +1,10 @@
+buffalo_gym/__init__.py,sha256=DUeSDwM71japgN_hRFD8RBmSzi_Zk1kJSynMef7huGU,393
+buffalo_gym/envs/__init__.py,sha256=YiImKVjSH_gdRgB_fYahRbbq8KD2S61pEeVtZOLIdgM,176
+buffalo_gym/envs/buffalo_gym.py,sha256=cn6N9j8uGG7cEetuyuwq_dRVBcckYsfx8FzqCa7BE0c,1477
+buffalo_gym/envs/buffalotrail_gym.py,sha256=NFtXzP7ePr7rufz3IgzG8dZAkHqSi0-iWRz5xLkaCtg,2685
+buffalo_gym/envs/multibuffalo_gym.py,sha256=Q3WkhIaEud-8Obg5SfxINlx66loOaTBvyJSI5ETQJw4,1991
+buffalo_gym-0.0.3.dist-info/METADATA,sha256=9u_Mp37ojGobLSVodH8y0Ix8r1zYMArhXKjeKWz12oM,2658
+buffalo_gym-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+buffalo_gym-0.0.3.dist-info/license.txt,sha256=uwyVAGgHdN2rAPwTGhGA6s3VPjIDtO_jXyCbwh1PID4,1059
+buffalo_gym-0.0.3.dist-info/top_level.txt,sha256=hmv_t2ZXCOWqFu6kBALasHjvXWFnYTaeOonIgpbVb9Y,12
+buffalo_gym-0.0.3.dist-info/RECORD,,
