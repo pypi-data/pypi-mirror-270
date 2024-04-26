@@ -1,0 +1,2 @@
+default_system_message: "You are a helpful assistant."
+timeout_limit: 20
