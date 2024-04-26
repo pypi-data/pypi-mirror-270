@@ -1,0 +1,8 @@
+binaryen.py>=117.1.0
+wasmtime
+
+[dev]
+black
+isort
+pytest
+build
