@@ -1,0 +1,10 @@
+README.md
+setup.py
+GaiaScript.egg-info/PKG-INFO
+GaiaScript.egg-info/SOURCES.txt
+GaiaScript.egg-info/dependency_links.txt
+GaiaScript.egg-info/top_level.txt
+gaia/__init__.py
+gaia/_exceptions.py
+gaia/_template.py
+tests/test__template.py
