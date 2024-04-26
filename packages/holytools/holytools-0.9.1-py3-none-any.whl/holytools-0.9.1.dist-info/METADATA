@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: holytools
+Version: 0.9.1
+Summary: Collection of general python utilities for future projects
+Author-email: Daniel Hollarek <daniel.hollarek@googlemail.com>
+Project-URL: repository, https://github.com/Somerandomguy10111/holytools
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: func-timeout
+Requires-Dist: selenium
+Requires-Dist: pathvalidate
+Requires-Dist: psutil
+Requires-Dist: pympler
+Requires-Dist: beautifulsoup4 ~=4.12.3
+Requires-Dist: dill
+Requires-Dist: cryptography
+Requires-Dist: PyYAML
+Requires-Dist: orjson
+Requires-Dist: mss
+Requires-Dist: screeninfo
+Requires-Dist: pynput
+Requires-Dist: pillow
+Requires-Dist: configobj
+
