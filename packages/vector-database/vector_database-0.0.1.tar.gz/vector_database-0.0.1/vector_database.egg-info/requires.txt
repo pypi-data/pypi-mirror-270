@@ -1,0 +1,6 @@
+numpy
+tkinter
+pandas
+torch
+torchvision
+rich
