@@ -1,0 +1,2 @@
+[console_scripts]
+csvtojsonify = csvtojsonify.csvtojsonify:main
