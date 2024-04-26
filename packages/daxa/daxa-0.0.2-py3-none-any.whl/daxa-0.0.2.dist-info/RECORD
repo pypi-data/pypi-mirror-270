@@ -1,0 +1,17 @@
+daxa/__init__.py,sha256=6DQOT3gIZFomgKAn9tTZZSrXpLUBkrC6V53_0Ij3kl4,274
+daxa/config.py,sha256=qabJu1T_6jWm5_FRHsBAt9UgTVho0uMDriQSUpMmveA,4411
+daxa/exceptions.py,sha256=JzfV4Q18RlD4cx2uZZGuIFb_coJxo1miwP169AzTI-E,12477
+daxa/misc.py,sha256=J4TNUpv6qy1pKSpOy9h8K3O5xmHQXoeCb-0-NplQPBg,1468
+daxa/files/browse_extract.pl,sha256=9ildCQlHBdx12GQnN6He0EWk8b2TzanP4UNi5V5dvgc,19204
+daxa/files/daxa-high-resolution-color-logo.png,sha256=t9LhHwbLOAdHGdelYMiS30cwtvakq4WTem6GJnObLpc,128218
+daxa/files/daxa-high-resolution-logo-black-on-transparent-background.png,sha256=rVeeYvqQikNyXfiUDG78C9BOFYsnsUj4K2CTQ943AsQ,147370
+daxa/files/daxa-high-resolution-logo-black-on-white-background.png,sha256=eCgZManwGtjWh6cc7XZBSBBT7qHsdqBKmH4jtXfTVpU,108001
+daxa/files/erass_de_dr1_info.csv,sha256=q-lKuPLC9owsnUrUvp1tLnWBKxF9Obd60ad0zyka380,558372
+daxa/files/erosita_calpv_info.csv,sha256=DDPbvaCyhkow8kcYOnUSNULPiOzegHLg-R0e55wzW-k,35542
+daxa/files/sas_errors.csv,sha256=VHSe2FupluLbcAZOwTZdwXJ2NgASMLajrHjY6zyqe-8,21704
+daxa/files/sas_warnings.csv,sha256=NFTF6S_6Hdyg1NIYzFS5hEDHczuxnijaQ34WvOG92YQ,15345
+daxa-0.0.2.dist-info/LICENSE,sha256=OjabCET0HGq1wFlf1K-NfUHgK3VWnarH-to25pR7yFM,1522
+daxa-0.0.2.dist-info/METADATA,sha256=BE9Vu3Ae0DnyP1ptCylM47OtbJyS9AxpG5PQqgHeTf4,5508
+daxa-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+daxa-0.0.2.dist-info/top_level.txt,sha256=HvMpPQlBpQv-QyRo-RAyrMgm8BIp51_-AkFuZCwBCDQ,5
+daxa-0.0.2.dist-info/RECORD,,
