@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+dir2prompt/__init__.py
+dir2prompt/config.json
+dir2prompt/d2p.py
+dir2prompt.egg-info/PKG-INFO
+dir2prompt.egg-info/SOURCES.txt
+dir2prompt.egg-info/dependency_links.txt
+dir2prompt.egg-info/entry_points.txt
+dir2prompt.egg-info/top_level.txt
