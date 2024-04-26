@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: hatch-pyinstaller
+Version: 1.0
+Summary: Time tracking application that can submit timecards to AiM
+Project-URL: Homepage, https://github.com/mxysptlk/hatch-pyinstaller
+Author-email: William Smith <williams@citisyn.net>
+License-File: LICENCE.txt
+Keywords: hatch,packaging
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Hatch
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: System :: Archiving :: Packaging
+Requires-Python: >=3.7
+Requires-Dist: hatchling
+Requires-Dist: pyinstaller
