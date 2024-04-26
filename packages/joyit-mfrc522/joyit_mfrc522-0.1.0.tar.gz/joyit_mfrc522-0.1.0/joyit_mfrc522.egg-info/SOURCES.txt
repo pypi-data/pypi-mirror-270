@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+examples/read.py
+examples/write.py
+joyit_mfrc522/MFRC522.py
+joyit_mfrc522/SimpleMFRC522.py
+joyit_mfrc522/__init__.py
+joyit_mfrc522.egg-info/PKG-INFO
+joyit_mfrc522.egg-info/SOURCES.txt
+joyit_mfrc522.egg-info/dependency_links.txt
+joyit_mfrc522.egg-info/requires.txt
+joyit_mfrc522.egg-info/top_level.txt

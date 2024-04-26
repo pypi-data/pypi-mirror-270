@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: joyit_mfrc522
+Version: 0.1.0
+Summary: A library to integrate the MFRC522 RFID readers with the Raspberry Pi
+Home-page: https://github.com/tct123/MFRC522-python
+Author: Pi My Life Up
+Author-email: support@pimylifeup.com
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Hardware
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gpiozero
+Requires-Dist: spidev
+
+# joyit_mfrc522
+
+A python library to read/write RFID tags via the MFRC522 RFID module.
+
+This code was edited for the use with Raspberry Pi 5 by Joy-IT. The source code was published in relation to a [blog post](https://pimylifeup.com/raspberry-pi-rfid-rc522/) and you can find out more about how to hook up your MFRC reader to a Raspberry Pi there.
+
+## Installation
+
+This library is for the use with virtual environments for the Raspberry Pi 5 and older models.
+
+```bash
+mkdir your_project
+cd your_project
+python3 -m venv --system-site-packages env
+source env/bin/activate
+
+pip install spidev
+git clone https://github.com/joy-it/MFRC522-python
+cd MFRC522-python
+python3 setup.py install
+cd ..
+```
+
+## Example
+In this library are two example codes. One is for reading from a tag and the other is for writing on a tag. You can execute them like the following.
+
+```bash
+python3 MFRC522-python/examples/write.py
+python3 MFRC522-python/examples/read.py
+```
