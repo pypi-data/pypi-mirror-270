@@ -1,0 +1,12 @@
+flootstrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flootstrap/bootstrapper.py,sha256=_g3MRb6iW9FBEzcBslWw51DF04IHF1Ro-qavZRwglfI,1263
+flootstrap/bootstrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flootstrap/bootstrappers/debootstrap.py,sha256=5lVlCszYOZ0foT18pwUmaKab_M9yBlktvu93BdXKaW4,2117
+flootstrap/bootstrappers/rinse.py,sha256=y0KvbYyIoucNfVF6UfULTVjgV6jqTmIyM9syYQhEebc,832
+flootstrap/logger.py,sha256=InYLjqisRJpvBi_QyEhtJlB7bo-EGfMqZTaLPi4mVaE,316
+flootstrap/main.py,sha256=AKTCY0zI0pqJgRM-DhyTFQluy48eqT4n99QHX8xjZLc,6400
+flootstrap/utils.py,sha256=BC-OTUeMXF-dYt3t2pGdgEucVbsNg8uJ1NNJaEu46PA,1061
+flootstrap-0.1.0.dist-info/METADATA,sha256=MD7S3hDiDHrs2FLXN3-5BDBmoQiyyKHw-dvEngfOe2s,1849
+flootstrap-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+flootstrap-0.1.0.dist-info/entry_points.txt,sha256=QsxJwPSh3EENmFcbrms3AGKK_8y8VVKRdm7GLhZf2vg,50
+flootstrap-0.1.0.dist-info/RECORD,,

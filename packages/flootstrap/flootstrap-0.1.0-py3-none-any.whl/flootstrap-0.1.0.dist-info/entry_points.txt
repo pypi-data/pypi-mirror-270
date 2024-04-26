@@ -1,0 +1,3 @@
+[console_scripts]
+flootstrap=flootstrap.main:run
+
