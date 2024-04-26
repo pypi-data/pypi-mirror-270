@@ -1,0 +1,857 @@
+Metadata-Version: 2.1
+Name: macal
+Version: 5.5.0a7
+Summary: Macal DSL is used for collecting and transforming data from various sources.
+Author-email: Marco Caspers <SamaDevTeam@westcon.com>
+Project-URL: Homepage, https://github.com/Sama-Developer/macal
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: unidecode
+Requires-Dist: keyring
+Requires-Dist: keyrings.alt
+Requires-Dist: meraki
+Requires-Dist: pydantic
+Requires-Dist: python-jose[cryptography]
+Requires-Dist: python-dotenv
+
+# Macal DSL 5.5 Alpha 6
+
+## Introduction
+
+This is version 5.5.0 of the Macal DSL language.
+
+It is written and maintained in Python.
+The language is a domain specific language that is used to write scripts that can be used to manipulate data.
+The language is designed to be easy to use and easy to read.
+The language is designed to be easy to extend with new functions and features.
+The language is designed to be easy to integrate with other languages and systems.
+
+Unlike Python it does not rely on indentation to define blocks of code.
+Instead it uses curly braces to define blocks of code.
+
+Unlike Python it is not a general purpose language.
+The main feature of Macal DSL is it's select statement, which is used to query 
+data from a data source much like an SQL statement is used to query data from a database.
+There are differences with SQL that will be explained.
+
+I have removed the bytecode compiler and runtime from version 5.0.0.
+Version 5.5 is to fix several problems in regards to scope and the way functions were implemented.
+There is a significant performance cost to that because every time the code is ran the lexer and 
+parser have to run, and the interpreter is less efficient because it works directly off of the AST.
+On the other hand, for the purpose of where we use the DSL for, this only adds a number of miliseconds.
+It will be most noticable in long loops and select statements on large datasets.
+However the gain in stability, compatibility and maintainability is much greater.
+
+The utilities mi and mr have been replaced with mrepl and mrun respectively.
+Utilities mc and md have been removed.
+mc had a nameclash with the midnight commander utility so it had to go anyways.
+
+
+Known issues:
+1).  If you include a file for which there are multiple files in the file search path that have the same file name, 
+     there is no way of telling which one gets included.
+     A safeguard is in place to prevent importing a file from itself, but i can't exclude multiple files with
+     the same name on the search path other than the user controlling the search path.
+
+2).  This document uses the EBNF notation to describe the language. This is not a complete description of the language.
+     It is a work in progress and will be updated as the language evolves.
+
+
+TODO:
+
+- Add an environment variable MACAL_DSL_PATH that can be used to set the search path for the include statement.
+- Add an environment variable MACAL_DSL_LIB_PATH that can be used to set a specific path for libraries.
+- Add a feature that allows you to download a library and install it on the system in the path indicated by the MACAL_DSL_LIB_PATH environment variable.
+- Add a feature that allows you to list all the libraries that are available in the path indicated by the MACAL_DSL_LIB_PATH environment variable.
+- Add a feature that allows you to remove a library from the system.
+- Add a feature that allows you to update a library that is installed on the system.
+
+
+What this document is not:
+- A training manual on how to program in general.
+- A training manual on how to program in Python.
+- Complete.
+
+What this document is:
+A reference manual for the Macal DSL language.
+
+## Installation
+
+```bash
+python3 -m pip install macal==5.5.0.alpha.5
+```
+
+## Usage
+
+Macal can be used in 3 main ways:
+
+1). Use it on the commandline with 'mrepl' to run interactively.
+
+2). Use it on the commandline with 'mrun' to run a file. (type mrun -h to get help).
+
+3). Include the class in your product and work from there.
+    An example will be provided in a later chapter.
+
+4). After installing the mide package you can use the mide utility which is a very simple cli/text based editor/ide.
+    This will provide a sort of middle of the road experience for both mrepl and mrun.
+
+
+## mrepl
+
+The mrepl utility is used to run the Macal DSL language interactively.
+It is a read-eval-print loop that allows you to enter code and see the result immediately.
+
+```bash
+mrepl
+```
+
+This will start the mrepl utility.
+You can enter code and see the result immediately.
+
+```bash
+mrepl -h
+```
+
+This will show the help message for the mrepl utility.
+
+## mrun
+
+The mrun utility is used to run a file that contains Macal DSL code.
+
+```bash
+mrun file.mcl
+```
+
+This will run the file file.mcl that contains Macal DSL code.
+
+```bash
+mrun -h
+```
+
+This will show the help message for the mrun utility.
+
+## mide
+
+The mide utility is a very simple cli/text based editor/ide that can be used to write Macal DSL code and run it.
+
+```bash
+mide
+```
+
+This will start the mide utility.
+
+```bash
+mide -h
+```
+
+This will show the help message for the mide utility.
+
+
+## Instruction set "EBNF"
+
+
+letter = "a".."z" | "A".."Z"
+
+digit = "0".."9"
+
+ident = letter | "_" | digit
+
+stmt = return_stmt | continue_stmt | break_stmt | halt_stmt | if_stmt | while_stmt | foreach_stmt | switch_stmt |
+       include_stmt | select_stmt | functiondefinition_stmt | external_stmt | vardeclaration_stmt | functioncall_stmt | builtin_functions
+
+builtin_functions = print_stmt | is_type_stmt | type_stmt
+is_type_stmt = isrecord_stmt | isarray_stmt | isstring_stmt | isint_stmt | isfloat_stmt | isbool_stmt | isnil_stmt |
+               isfunction_stmt | isobject_stmt
+
+return_stmt = "return" [ expr ] ";"
+
+continue_stmt = "continue" ";"
+
+break_stmt = "break" ";"
+
+halt_stmt = "halt" [ expr ] ";"
+
+if_stmt = "if" expr "{" stmt... "}" [ "elif" expr "{" stmt... "}" ... ] [ "else" "{" stmt... "}" ]
+
+while_stmt = "while" expr "{" stmt... "}"
+
+foreach_stmt = "foreach" expr "{" stmt... "}"
+
+switch_stmt = "switch" expr "{" case_stmt... [ default_stmt ] "}"
+
+case_stmt = "case" expr ":" "{" stmt... "}"
+
+default_stmt = "default" ":" "{" stmt... "}"
+
+include_stmt = "include" lib_name [ "," lib_name... ] ";"
+
+select_stmt = "select" [ "distinct" ] field_list "from" expr [ "where" expr ] [ "merge" ] "into" expr ";"
+
+lib_name = ident
+
+field_list = field ([ "," field ])*
+
+field = field_name [ "as" alias ]
+
+field_name = ident
+
+functioncall_stmt = ident "(" expr ["," expr]... ")" ";"
+
+functiondefinition_stmt = ident "=>" "(" [ ident [ "," ident ]... ] ")" "{" stmt... "}"
+
+external_stmt = ident "=>" "(" [ ident [ "," ident ]... ] ")" "external" python_module "," external_function_name
+
+python_module = string_literal
+
+external_function_name = string_literal
+
+vardeclaration_stmt = ident "=" ([ident "="])* expr ";"
+
+isrecord_stmt = isRecord( expr ) ";"
+
+isarray_stmt = isArray( expr ) ";"
+
+isstring_stmt = isString( expr ) ";"
+
+isint_stmt = isInt( expr ) ";"
+
+isfloat_stmt = isFloat( expr ) ";"
+
+isbool_stmt = isBool( expr ) ";"
+
+isnil_stmt = isNil( expr ) ";"
+
+isfunction_stmt = isFunction( expr ) ";"
+
+isobject_stmt = isObject( expr ) ";" ;
+
+type_stmt = "type" "(" expr ")" ";"
+
+print_stmt = "print" "(" expr ([, expr])* ")" ";"
+
+array_variable = ident "[" expression "]"
+
+record_variable = ident ({ "." ident | "[" string_literal "]" })*
+
+string_literal = '"' literal '"'
+
+expr = assignment_expr
+
+assignment_expr = string_concatenation ( "=" | "+=" | "-=" | "*=" | "/=" | "%=" | "^=" | ".=" ) assignment_expr
+
+string_concatenation = object_expr ( "+." ) object_expr
+
+object_expr = object "{" ident ":" expr ([ "," ident ":" expr ])* "}" | array_expr
+
+array_expr = "[" expr (["," expr])* "]"
+
+record_expr = "{" expr (["," expr])* "}"
+
+logical_expr = comparison_expr ("and", "or", "xor", "&&", "||") comparison_expr
+
+comparison_expr = addition_expr ({"<", "<=", ">", ">=", "==", "!="}) addition_expr
+
+addition_expr = multiplication_expr ("+", "-") multiplication_expr
+
+multiplication_expr = power_expr ("*", "/", "%") power_expr
+
+power_expr = unary_expr ("^") unary_expr
+
+unary_expr = ("-", "++", "--") unary_expr | call_member_expr
+
+call_member_expr = member_expr | "(" call_expr
+
+call_expr = args "(" call_expr(callee)
+
+args = "(" arg_list ")"
+
+arg_list = expr (",") expr
+
+member_expr = primary_expr ("." primary_expr | "[" "]" new array_element | "[" expr "]") 
+
+new_array_element = "=" expr
+
+primary_expr = ident | int_number | float_number | string_literal | "(" expr ")" | array_literal | record_literal |
+               type_stmt | is_type_stmt
+
+
+## Code comments
+
+There are three different ways to include comments in the code.
+There is the python style comment that starts with a hash (#).
+There is the c style comment that starts with a double slash (//).
+There is the c style comment that starts with a slash and an asterisk (/*) and ends with an asterisk and a slash (*/).
+
+Example:
+```c++
+# This is a python style comment.
+// This is a c style comment.
+/* This is a c style comment. */
+```
+
+The lexer will lex the comments and include them in the token list that it returns.
+The parser will however remove the comment tokens prior to parsing the code.
+
+Note: While the lexer allows you to also include type annotations in the code, the parser will filter out those tokens.
+This is for backwards compatibility with the 4.x versions of the language.
+The downside of this is that the parser is limited in its capabilities of doing type checks on the code it increases performance, but it can cause more runtime errors because of type mismatches.
+
+
+## Variables
+
+Variables are used to store values.
+They are declared by assigning a value to them.
+The type of the variable is inferred from the value that is assigned to it.
+Variables can be reassigned to a different value of the same type.
+Variables can be reassigned to a different value of a different type.
+
+The following data types are supported:
+- integer
+- float
+- string
+- boolean
+- array
+- record
+- nil
+- function
+
+Variables can be declared in the following ways:
+
+```c++
+a = 1;          // integer type is inferred from the assignment
+f = 1.0;        // a float
+b = true;       // boolean
+s = "this is a string"; // string
+s2 = 'this is also a string';
+s3 = $"this is a string with {a} {b} {s} interpolation.";
+
+arr = ["item1", "item2", "item3"];  // create a variable arr that has an array with 3 elements.
+rec = {"key1": "value1", "key2": 2, "key3": nil}; // create a variable rec with 3 key/value pairs.
+
+// Legacy method to define the same array an record:
+arr = array;
+arr[] = "item1";
+arr[] = "item2";
+arr[] = "item3";
+
+rec = record;
+rec["key1"] = "value1";
+rec["key2"] = 2;
+rec["key3"] = nil;
+```
+
+Arrays and records can be accessed by index or key.
+Example:
+```c++
+print(arr[0]); // prints "item1"
+print(rec["key1"]); // prints "value1"
+```
+
+In version 5.5.0 of Macal DSL the array and record types are implemented as objects.
+The record members can also be accessed by using the dot notation.
+
+Example:
+```c++
+print(rec.key1); // prints "value1"
+```
+
+It is also possible to declare a variable without assigning a value to it.
+
+Example:
+```c++
+a; // declares a variable a without assigning a value to it. The type is nil. The value is nil.
+```
+
+Variables can be assigned to the result of a function call.
+
+Example:
+```c++
+a = func_name(1, 2); // assigns the result of the function call to the variable a.
+```
+
+Variables can also be assigned a function.
+
+Example:
+```c++
+a = func_name; // assigns the function to the variable a.
+print(a(1, 2)); // calls the function that is assigned to the variable a with the arguments 1 and 2.
+```
+
+# Constants
+
+Constants are used to store values that can not be changed.
+Constants are declared by assigning a value to them with the const keyword.
+
+Example:
+```c++
+const a = 1; // integer type is inferred from the assignment
+const f = 1.0; // a float
+const b = true; // boolean
+const s = "this is a string"; // string
+
+a = 2; // this will raise an error because a is a constant.
+```
+
+Appart from the fact that the value of a constant cannot be changed, they are functioning the same as variables.
+
+## Functions
+
+
+Functions are used to group statements together.
+Functions can be called with arguments.
+Functions can return a value.
+Functions can be defined in the following way:
+
+```c++
+func_name => (a, b) {
+    print(a);
+    print(b);
+    return a + b;
+}
+```
+
+This defines a function with the name function_name that takes two arguments a and b.
+The function prints the values of a and b and returns the sum of a and b.
+
+Functions can be called in the following way:
+
+```c++
+    c = func_name(1, 2);
+    print(c);
+```
+result:
+```bash
+1
+2
+3
+```
+
+This calls the function function_name with the arguments 1 and 2.
+The function prints the values of a and b and returns the sum of a and b.
+
+The return statement does not require a value to be returned.
+In this case the return value will be nil.
+
+Functions can have multiple return statements, this allows for early termination of the function.
+Example:
+```c++
+func_name => (a, b) {
+    if a == 0 {
+        return;
+    }
+    return a + b;
+}
+```
+
+This function will return nil if a is 0, otherwise it will return the sum of a and b.
+
+Functions can be defined to link to an external function that is defined in a python module.
+Example:
+```c++
+func_name_2 => (a, b) external "module_name", "ext_func_name";
+```
+
+This function named func_name_2 will link to the external function ext_func_name that is defined in the python module module_name.
+
+This external python module must be available in the search path of either mrepl, mrun or mide, or the python code that utilizes the Macal class to run the code.
+
+The python module should look something like this:
+    
+```python
+
+    # module_name.py
+
+    def ext_func_name(a, b):
+        return a + b
+
+```
+
+The external function can return a value, if it doesn't nil is assumed.
+The external module as you see has zero dependencies on the Macal class or the Macal DSL language.
+
+This makes it very easy to extend the language with python code.
+
+
+## If statement
+
+The if statement is used to execute a block of code if a condition is true.
+The if statement can have an optional else block that is executed if the condition is false.
+The if statement can have zero or more elif block that are executed when the if condition is false and the elif condition is true.
+
+Example:
+
+```c++
+a = 1; // change in 0, 1 or any other value to see the different outputs.
+
+if a == 0 {
+    print("a is zero");
+} elif a == 1 {
+    print("a is one");
+} else {
+    print("a is not zero or one");
+}
+```
+
+This will print "a is zero" if a is 0, "a is one" if a is 1, otherwise it will print "a is not zero or one".
+
+The if statement can be nested.
+
+Example:
+```c++
+a = 1;
+b = 2;
+
+if a == 1 {
+    if b == 2 {
+        print("a is one and b is two");
+    }
+}
+```
+
+This will print "a is one and b is two" if a is 1 and b is 2.
+It will first evaluate the if condition in a == 1, and if this is the case, it will enter the if block and evaluate the if condition in b == 2.
+Finally if that evaluate to true it will enter the inner if block and print the message.
+
+## The switch statement
+
+The switch statement is used to execute a block of code based on the value of an expression.
+The switch statement can have zero or more case blocks that are executed when the value of the expression matches the value of the case block.
+The switch statement can have an optional default block that is executed when none of the case blocks match the value of the expression.
+
+Example:
+```c++
+a = 1; // change in 0, 1 or any other value to see the different outputs.
+
+switch a {
+    case 0: {
+        print("a is zero");
+        break;
+    }
+    case 1: {
+        print("a is one");
+        break;
+    }
+    default: {
+        print("a is not zero or one");
+    }
+}
+```
+
+This will print "a is zero" if a is 0, "a is one" if a is 1, otherwise it will print "a is not zero or one".
+The break statement is used to break out of the switch statement.
+It also stops evaluation of the other case blocks.
+Theoretically if you do not use the break statement, all case blocks will be evaluated and the ones that match will be executed.
+A default block will always be executed if it is present and none of the case blocks match the value of the expression, of break was not used in the case blocks to stop the evaluation.
+
+## While statment
+
+The while statement is used to execute a block of code as long as a condition is true.
+
+Example:
+```c++
+a = 0;
+
+while a < 10 {
+    print(a);
+    a = a + 1;
+}
+```
+
+This will print the numbers from 0 to 9.
+
+The while loop can be exited with the break statement.
+The continue statement can be used to skip the rest of the block and continue with the next iteration of the loop.
+
+Example:
+```c++
+a = 0;
+
+while a < 10 {
+    a = a + 1;
+    if a == 5 {
+        continue;
+    }
+    if a == 8 {
+        break;
+    }
+    print(a);
+}
+```
+
+This will print the numbers from 1 to 4 and skip 5, then print 6 and 7 and break out of the loop when a is 8.
+
+## Foreach statement
+
+The foreach statement is used to iterate over an array or record.
+The foreach statement is modelled after the foreach statement in the jai language that is in development by Jonathan Blow and his company.
+
+Example:
+```c++
+arr = [1, 2, 3, 4, 5];
+
+foreach arr {
+    print(it);
+}
+```
+
+This will print the numbers from 1 to 5.
+As you can see the it variable contains the current value of the iterator that is iterating over the array.
+The it variable is local to the foreach block and cannot be accessed outside of the block.
+
+The foreach loop can be exited with the break statement.
+The continue statement can be used to skip the rest of the block and continue with the next iteration of the loop.
+
+Example:
+```c++
+arr = [1, 2, 3, 4, 5];
+
+foreach arr {
+    if it == 3 {
+        continue;
+    }
+    if it == 4 {
+        break;
+    }
+    print(it);
+}
+```
+
+This will print the numbers 1 and 2 and skip 3, then print 4 and break out of the loop.
+
+
+## Halt statement
+
+The halt statement is used to halt the execution of the script immediately.
+It can have an optional integer value that will be used as the exit code of the process.
+
+Example:
+```c++
+a = 1;
+
+if a == 1 {
+    halt;
+}
+print('this will not be printed');
+```
+
+This will halt the execution of the script immediately if a is 1.
+The print statement will not be executed.
+
+
+## Select statement
+
+The select statement is used to query data from a data source.
+The select statement is modelled after the select statement in SQL.
+The select statement can have an optional distinct keyword.
+
+In SQL the distinct keyword is used to remove duplicate rows from the result set, 
+in Macal it is used to return only the first record of the result set.
+
+The required input for the select statement is a an array of records, or a single record.
+
+The select statement can have an optional merge keyword.
+The merge keyword is used to merge the result set into an existing array or record.
+
+The select statement can have an optional where clause.
+The where clause is used to filter the result set based on a condition.
+
+The order by clause is not implemented in the select statement yet.
+
+Example:
+```c++
+arr = [{ "it": 1}, {"it": 2}, {"it": 3}, {"it": 4}, {"it": 5}];
+arr2 = [{"it": 6}, {"it": 7}, {"it": 8}, {"it": 9}, {"it": 10}];
+
+select * from arr where it > 2 merge into arr2;
+```
+
+This will merge the records where 'it' has the values 3, 4 and 5 from arr into arr2.
+
+The result will look like this:
+```c++
+arr2 = [{"it": 6}, {"it": 7}, {"it": 8}, {"it": 9}, {"it": 10}, {"it": 3}, {"it": 4}, {"it": 5}];
+```
+
+Like SQL you can provide an alias for the fields in the select statement.
+
+Example:
+```c++
+arr = [{ "it": 1, "value": 1}, {"it": 2, "value": 2}, {"it": 3, "value": 3}, {"it": 4, "value": 4}, {"it": 5, "value": 5}];
+
+select distinct it as number, value from arr where it > 2 into result;
+
+print(result);
+```
+
+This will print:
+```c++
+{"number": 3, "value": 3} 
+```
+
+The distinct keyword is used to return only the first record of the result set, which in this case is the record where 'it' has the value 3.
+
+There is a secondary feature to the distinct keyword.
+
+If the distinct keyword is used for a resultset that would return a record that has only 1 member, the result will instead be the value of that member.
+
+Example:
+```c++
+arr = [{ "it": 1, "value": 1}, {"it": 2, "value": 2}, {"it": 3, "value": 3}, {"it": 4, "value": 4}, {"it": 5, "value": 5}];
+
+select distinct it from arr where it > 2 into result;
+
+print(result);
+```
+
+This will print:
+```c++
+3
+```
+
+The result is the value of the member 'it' of the record that is returned by the select statement because the distinct keyword is used and the result set would return a record with only 1 member.
+
+## Include statement
+
+The include statement is used to include a file as a 'library' in the current file.
+The include statement can have multiple file names separated by a comma.
+
+Example:
+```c++
+include file1, file2;
+```
+
+This will include the files file1.mcl and file2.mcl as 'libraries' in the current file. 
+The .mcl extensions is assumed by the interpreter.
+
+This causes the code in the included files to be executed one by one in the order that they are included.
+
+
+## Builtin functions
+
+The following builtin functions are available in Macal DSL:
+print
+isRecord
+isArray
+isString
+isInt
+isFloat
+isBool
+isNil
+isFunction
+isObject
+type
+
+The print function is used to print values to the console.
+
+Example:
+```c++
+print("hello", " world");
+```
+
+This will print "hello world" to the console.
+
+The isRecord function is used to check if a value is a record.
+
+Example:
+```c++
+a = {"key": "value"};
+
+if isRecord(a) {
+    print("a is a record");
+}
+```
+
+This will print "a is a record" to the console if a is a record.
+
+The other is*** functions work in the same way as the isRecord function.
+
+The type function is used to get the type of a value.
+
+Example:
+```c++
+a = 1;
+
+print(type(a));
+```
+
+This will print "int" to the console.
+
+Note: While the output of the type function can be displayed as a string, it is not a string.
+And because the parser removes the type annotations from the code you cannot use the type function to check the type of a variable in the code using an if statement.
+The type function is only useful for debugging purposes.
+
+## Libraries
+
+The Macal DSL language is designed to be easy to extend with new functions and features.
+This is done by creating libraries that contain the new functions and features.
+A library is a file that contains a set of functions that can be included in a script using the include statement.
+
+Example:
+```c++
+// file1.mcl
+func_name => (a, b) {
+    return a + b;
+}
+```
+
+This library contains a function named func_name that takes two arguments a and b and returns the sum of a and b.
+
+The library can be included in a script using the include statement.
+
+Example:
+```c++
+include file1;
+
+a = func_name(1, 2);
+print(a);
+```
+
+This will include the file file1.mcl as a library in the current script.
+The function func_name is called with the arguments 1 and 2 and the result is printed to the console.
+
+A special feature of Macal DSL version 5.5.0 is that libraries will define a constant with the same name as the file name.
+This constant is an object that contains information about the library.
+
+Example:
+```c++
+# system.mcl
+
+const system = object {
+    name: "system",
+    version: "5.5.0",
+    author: "Marco Caspers",
+    email: "SamaDevTeam@westcon.com",
+    license: "MIT",
+    description: "This is the Macal DSL 5.5 System Library",
+    external_module: "system.py"
+};
+```
+
+For the system library the constant system will be explicitly defined.
+However if a file that is included as a library does not implement a constant with the same name as the file name, the interpreter will create one automatically. Of course the information in this object will be limited to the file name and the version number of the DSL.
+
+## Included libraries
+
+The following libraries are available for Macal DSL 5.5.0:
+
+- csv
+- io
+- keyring
+- math
+- meraki_v1
+- meraki_async_lib
+- strings
+- syslog
+- system
+- time
+
+These libraries are *not* included in the Macal DSL package.
+They are available separately.
+
