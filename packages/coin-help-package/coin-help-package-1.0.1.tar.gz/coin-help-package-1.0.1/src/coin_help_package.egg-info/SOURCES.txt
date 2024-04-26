@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+src/coin_help_package.egg-info/PKG-INFO
+src/coin_help_package.egg-info/SOURCES.txt
+src/coin_help_package.egg-info/dependency_links.txt
+src/coin_help_package.egg-info/requires.txt
+src/coin_help_package.egg-info/top_level.txt
