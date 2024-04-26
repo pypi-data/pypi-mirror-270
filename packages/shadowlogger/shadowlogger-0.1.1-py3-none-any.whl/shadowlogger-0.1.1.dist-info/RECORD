@@ -1,0 +1,11 @@
+shadowlogger/__init__.py,sha256=2KrtXz8ZWqug4opgKEDCcEr7JNBjvazwC_2jG5Mwwbo,98
+shadowlogger/base_tracker.py,sha256=-4tPmxkDcZJnXDy5IJ2hVUoEj-wo_FvwjAv9U0H0ngQ,321
+shadowlogger/intercept_handler.py,sha256=-VDceLfwza-eZALQUMXtA5KoQ28I-8fOsnQ4U4dChpE,8761
+shadowlogger/shadowlogger.py,sha256=r0uIaF-AG9r0eM0YvVLrL73UQfk8wsqPdskpOFkcRjo,4540
+shadowlogger/shadowlogger_manager.py,sha256=dce9vL5N0pAnqsE572LCl70zcw-iipvtCQjbgi0CXJ4,2356
+shadowlogger/singleton.py,sha256=d5M-H37o2cqgSBDg-RulXS3pvbVZ4I8SPIAXHPXWAog,238
+shadowlogger-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+shadowlogger-0.1.1.dist-info/METADATA,sha256=Mc3vtA0f-gGRPbKOEwrbraxiX40z3cBt1Jr5SCsR1Zw,1325
+shadowlogger-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+shadowlogger-0.1.1.dist-info/top_level.txt,sha256=xwTfwZ46PyAmAZU65Pu5dmFY4tlRCZmw7rYHQjJ1VdE,13
+shadowlogger-0.1.1.dist-info/RECORD,,
