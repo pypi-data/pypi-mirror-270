@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Pokemila
+Version: 1.0.1
+Summary: Libreria para generar un Pokemon aleatorio
+Author: Maria Martinez
+Author-email: quinaprinces@gmail.com
+Requires-Dist: pandas

@@ -1,0 +1,10 @@
+README.md
+setup.py
+Pokemila/__init__.py
+Pokemila/pokemon.csv
+Pokemila/random_pokemon.py
+Pokemila.egg-info/PKG-INFO
+Pokemila.egg-info/SOURCES.txt
+Pokemila.egg-info/dependency_links.txt
+Pokemila.egg-info/requires.txt
+Pokemila.egg-info/top_level.txt
