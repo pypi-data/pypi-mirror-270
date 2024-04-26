@@ -1,0 +1,16 @@
+sphinx_rust-0.0.1.dist-info/METADATA,sha256=jt912O0LQ-QxxR4cSSlLooRU9rd-t53bDdXuGCSYKco,1610
+sphinx_rust-0.0.1.dist-info/WHEEL,sha256=UAvx0MkT8kO44ZYjzrYYHx5LZ415zgagiEFzy_D8-ZE,134
+sphinx_rust-0.0.1.dist-info/license_files/LICENSE,sha256=eSos4bf7o4qJeDD5oveGw3zVRySer0Y8RoUEHp3HW0U,1069
+sphinx_rust/domain.py,sha256=kQLe-mHoo1wvIRTFyKNOsxLKmzHVoM9BorahVRzoQpw,7020
+sphinx_rust/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_rust/roles.py,sha256=m8-n9ZXBJCWgGrb-kBkUeXTY1rkn40WfEKk7KWM6SHc,412
+sphinx_rust/directives/struct.py,sha256=6UU3ItkFi2YTdnbXmEzF2onLiMifctZcY6QXOfGfl7I,3189
+sphinx_rust/directives/_core.py,sha256=Vc2VNe_HycUG4OrV_WDIvpt2zyBOm0hS8xgdCIpbF_k,3824
+sphinx_rust/directives/module.py,sha256=bemX0dGcguY30rl9Nb40nAwBbcRqPnibZkGRxVDomNc,3698
+sphinx_rust/directives/enum.py,sha256=L0VphX9QrC4XksTmtmqIhQqNCFjlIaycfrIj-VZ2rH0,2691
+sphinx_rust/directives/crate.py,sha256=g3XbCGNkR7IQCJ13o9tGmafknVaiJ0aK3joBsxSG7BE,3258
+sphinx_rust/directives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_rust/__init__.py,sha256=XJbO_p9-Au2-YHavfbF-pTyHYz4pf1h9soRsmTN7kPc,441
+sphinx_rust/sphinx_rust.pyi,sha256=mxbDm9pnGSOOKpqvs5JA4bZuGEdLuyp4pKNSKxnYPYw,3804
+sphinx_rust/sphinx_rust.pypy39-pp73-arm-linux-gnu.so,sha256=TawvUNxekugPO9snKqjk8TH6fZxcQL5KOzTQdVxlXZ8,7070560
+sphinx_rust-0.0.1.dist-info/RECORD,,
