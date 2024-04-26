@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyrnnoise
+Version: 0.0.2
+Summary: PyRNNoise
+Home-page: https://github.com/pengzhendong/pyrnnoise
+Author: Zhendong Peng
+Author-email: pzd17@tsinghua.org.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: soxr
+
+# pyrnnoise
+
+```bash
+$ git submodule update --init --recursive
+$ cmake -B build -DCMAKE_BUILD_TYPE=Release
+$ cmake --build build --target install
+```
