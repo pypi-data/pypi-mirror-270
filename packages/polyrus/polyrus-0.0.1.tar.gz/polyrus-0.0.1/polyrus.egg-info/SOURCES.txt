@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+polyrus/__init__.py
+polyrus/geometry.py
+polyrus/io.py
+polyrus.egg-info/PKG-INFO
+polyrus.egg-info/SOURCES.txt
+polyrus.egg-info/dependency_links.txt
+polyrus.egg-info/requires.txt
+polyrus.egg-info/top_level.txt
