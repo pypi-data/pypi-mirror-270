@@ -1,0 +1,7 @@
+requests
+prettytable
+pyyaml
+mando
+argcomplete
+faker
+jinja2
