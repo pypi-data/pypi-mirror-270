@@ -1,0 +1,7 @@
+setup.py
+splix/__init__.py
+splix/main.py
+splix.egg-info/PKG-INFO
+splix.egg-info/SOURCES.txt
+splix.egg-info/dependency_links.txt
+splix.egg-info/top_level.txt
