@@ -1,0 +1,10 @@
+install_texlive/__init__.py,sha256=mK0uasqQri-tUt3KG9WVx7J3ZrcDyfEGGlM5pzLTFV8,2451
+install_texlive/__main__.py,sha256=X9XdbhqaimEvi-Dz6TiWuRdah8Y6Krotk5Z9ai5j0o0,4820
+install_texlive/_version.py,sha256=IKAQ4gPrCQ2FWMXOFRqouULC2EQI1zCb4iXHsnfbmTQ,411
+install_texlive/parser.py,sha256=6OZ_4O31u2kUAyNVe88oDNEC25zsLLFExdGzz5qWd94,1867
+install_texlive-0.3.6.dist-info/LICENSE,sha256=MIkG_hnxh9RQYWgUERVBckmpXcsoW7SHCEk6ot9iV1g,1084
+install_texlive-0.3.6.dist-info/METADATA,sha256=Cmqjp3QOicOzcNSwM_2Qx0bPEseIcTk9CWnLSyLekhg,3281
+install_texlive-0.3.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+install_texlive-0.3.6.dist-info/entry_points.txt,sha256=P82eQ6iVKuEJ4BFMe5JFm4m7yXL36iE1wHgOLhoAmQ4,66
+install_texlive-0.3.6.dist-info/top_level.txt,sha256=VF-eECw7YjwN94dkuMuVjgPnNnp9PCwIOVImOVCTUzc,16
+install_texlive-0.3.6.dist-info/RECORD,,

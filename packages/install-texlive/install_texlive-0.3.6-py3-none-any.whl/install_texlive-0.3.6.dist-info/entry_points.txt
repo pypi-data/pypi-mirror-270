@@ -1,0 +1,2 @@
+[console_scripts]
+install_texlive = install_texlive.__main__:main
