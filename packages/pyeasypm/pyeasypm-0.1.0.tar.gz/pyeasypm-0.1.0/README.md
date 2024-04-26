@@ -1,0 +1,1 @@
+An easy project package manager for python
