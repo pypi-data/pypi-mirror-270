@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pymoises
+Version: 1.0.16
+Summary: Callings from moises endpoints...
+Author: Platimex
+Requires-Dist: requests
+Requires-Dist: marshmallow
