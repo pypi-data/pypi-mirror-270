@@ -1,0 +1,70 @@
+import os
+import typing
+
+from gaia._exceptions import TemplateNotFoundException, TemplateAlreadyExistsException
+
+
+class TemplateManager:
+    @staticmethod
+    def check_template_exists(func):
+        def wrapper(self, *args, **kwargs):
+            if not self.__is_template_exists(args[0]):
+                raise TemplateNotFoundException(args[0])
+            return func(self, *args, **kwargs)
+
+        return wrapper
+
+    def __init__(self, template_dir):
+        self.template_dir = template_dir
+        os.makedirs(template_dir, exist_ok=True)
+
+    def get_all_templates(self) -> list[str]:
+        return os.listdir(self.template_dir)
+
+    def __is_template_exists(self, template_name) -> bool:
+        return os.path.exists(
+            os.path.join(self.template_dir, template_name)
+        )
+
+    def create_template(
+            self, template_name: str, content: str = None, file_path: str = None,
+            file_io: typing.IO = None
+    ) -> str:
+        if self.__is_template_exists(template_name):
+            raise TemplateAlreadyExistsException(template_name)
+        if file_path:
+            with open(file_path, 'r') as f:
+                content = f.read()
+        elif file_io:
+            content = file_io.read()
+
+        if isinstance(content, bytes):
+            content = content.decode('utf-8')
+        return self.__save_template(template_name, content)
+
+    @check_template_exists
+    def get_template_content(self, template_name) -> str:
+        template_path = os.path.join(self.template_dir, template_name)
+        with open(template_path, 'r') as f:
+            return f.read()
+
+    @check_template_exists
+    def update_template(self, template_name, content) -> str:
+        self.delete_template(template_name)
+        return self.__save_template(template_name, content)
+
+    def __save_template(self, template_name, content) -> str:
+        template_path = os.path.join(self.template_dir, template_name)
+        with open(template_path, 'w') as f:
+            f.write(content)
+        return str(template_path)
+
+    @check_template_exists
+    def delete_template(self, template_name) -> list[str]:
+        template_path = os.path.join(self.template_dir, template_name)
+        os.remove(template_path)
+        return self.get_all_templates()
+
+    @check_template_exists
+    def get_template_path(self, template_name) -> str:
+        return str(os.path.join(self.template_dir, template_name))
