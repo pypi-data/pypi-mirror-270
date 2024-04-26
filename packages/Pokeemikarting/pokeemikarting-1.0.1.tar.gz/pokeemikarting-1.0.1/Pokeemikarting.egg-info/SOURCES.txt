@@ -1,0 +1,10 @@
+README.md
+setup.py
+Pokeemikarting/__init__.py
+Pokeemikarting/pokemon.csv
+Pokeemikarting/random_pokemon.py
+Pokeemikarting.egg-info/PKG-INFO
+Pokeemikarting.egg-info/SOURCES.txt
+Pokeemikarting.egg-info/dependency_links.txt
+Pokeemikarting.egg-info/requires.txt
+Pokeemikarting.egg-info/top_level.txt
