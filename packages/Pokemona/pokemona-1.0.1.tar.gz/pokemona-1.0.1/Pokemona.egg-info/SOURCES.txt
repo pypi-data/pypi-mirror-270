@@ -1,0 +1,10 @@
+README.md
+setup.py
+Pokemona/__init__.py
+Pokemona/pokemon.csv
+Pokemona/random_pokemon.py
+Pokemona.egg-info/PKG-INFO
+Pokemona.egg-info/SOURCES.txt
+Pokemona.egg-info/dependency_links.txt
+Pokemona.egg-info/requires.txt
+Pokemona.egg-info/top_level.txt
