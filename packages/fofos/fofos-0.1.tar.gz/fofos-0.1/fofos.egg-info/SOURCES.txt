@@ -1,0 +1,7 @@
+setup.py
+fofos/__init__.py
+fofos/main.py
+fofos.egg-info/PKG-INFO
+fofos.egg-info/SOURCES.txt
+fofos.egg-info/dependency_links.txt
+fofos.egg-info/top_level.txt
