@@ -1,0 +1,3 @@
+[console_scripts]
+vtt2txt=tddschn_utils.webvtt2txt:main
+
