@@ -1,0 +1,49 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone"
+    >
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6099"
+      destination="6100"
+      >
+    <!-- Plone 6.1.0a1 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6100"
+      destination="6101"
+      >
+    <!-- Plone 6.1.0a2 -->
+    <gs:upgradeStep
+        title="Miscellaneous"
+        handler="..utils.null_upgrade_step"
+        />
+  </gs:upgradeSteps>
+
+  <gs:upgradeSteps
+      profile="Products.CMFPlone:plone"
+      source="6101"
+      destination="6102"
+      >
+    <!-- Plone 6.1.0a3 -->
+    <gs:upgradeStep
+        title="Add Feature to TinyMCE Editor"
+        description="add accordion plugin to tinymce editor"
+        handler=".alpha.add_feature_tinymce_accordion_plugin"
+        />
+    <!-- We reuse an upgrade step from v60 -->
+    <gs:upgradeDepends
+      title="Run to_isiteschema upgrade profile."
+      import_profile="plone.app.upgrade.v60:to_isiteschema"
+      />
+  </gs:upgradeSteps>
+
+</configure>
