@@ -1,0 +1,13 @@
+splitml/__init__.py,sha256=ixd7SaVKdCdy0VpfdgU51rz1BtCz8PonEKd-noYzmQY,469
+splitml/constants.py,sha256=yTvg1GWXe9fUgRKi41Wq_NcmgEL9a9d9R0lTGVbNX0k,597
+splitml/groupers.py,sha256=X6zv7mlNbxq8ykdZ0Rv6X5hthNIPcPnulsYlwefYF3Y,2714
+splitml/html_splitter.py,sha256=2mc-8AOscC_i_5UXss5dy95itfEYei4dzjq91dgj6wQ,3945
+splitml/pdf_splitter.py,sha256=V3KUBLUnlefBiErRCdCDTx41eUmOGFHnUE5T2WxNwSU,1400
+splitml/splitml.py,sha256=oHOfPJQqQuIzsXglctujMQj8kjmAzXMx5jo7g1ccEH8,4102
+splitml/stats.py,sha256=PZlvZWAwYFfvSi3aQv--0MfKAO9cJmxFbHL4cR72fTw,1032
+splitml/text_splitter.py,sha256=FJgRztnPChyQIQC9bwhHPu5v5YRih9m91qYjF_hWyx4,2000
+splitml-0.5.3.dist-info/LICENSE,sha256=gdZlCmBLqf1EXXRvK3vxYr9tqtLdM6np1o1vbgnnZGA,1051
+splitml-0.5.3.dist-info/METADATA,sha256=YFolX7sZubf6K6MROMdMQXmCVOH-090ZCYKdl3STrAo,1796
+splitml-0.5.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+splitml-0.5.3.dist-info/top_level.txt,sha256=yDEjFfSxayDunH-aakmOd_ThHxvCm04fBXxXktwaqI0,8
+splitml-0.5.3.dist-info/RECORD,,
