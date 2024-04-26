@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+pymysq1/__init__.py
+pymysq1/connection.py
+pymysq1/setings.py
+pymysq1_connect.egg-info/PKG-INFO
+pymysq1_connect.egg-info/SOURCES.txt
+pymysq1_connect.egg-info/dependency_links.txt
+pymysq1_connect.egg-info/requires.txt
+pymysq1_connect.egg-info/top_level.txt
