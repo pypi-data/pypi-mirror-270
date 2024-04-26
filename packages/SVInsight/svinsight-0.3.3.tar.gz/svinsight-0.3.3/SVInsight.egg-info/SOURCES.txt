@@ -1,0 +1,12 @@
+LICENSE
+README.md
+long_desc.md
+pyproject.toml
+SVInsight/__init__.py
+SVInsight/census_variables.py
+SVInsight/svi.py
+SVInsight.egg-info/PKG-INFO
+SVInsight.egg-info/SOURCES.txt
+SVInsight.egg-info/dependency_links.txt
+SVInsight.egg-info/top_level.txt
+tests/test_svinsight.py
