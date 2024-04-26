@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/test.py
+vector_database/__init__.py
+vector_database/embedding.py
+vector_database.egg-info/PKG-INFO
+vector_database.egg-info/SOURCES.txt
+vector_database.egg-info/dependency_links.txt
+vector_database.egg-info/requires.txt
+vector_database.egg-info/top_level.txt
