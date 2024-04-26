@@ -1,0 +1,11 @@
+gradescope/__init__.py,sha256=hJdr6QlYWN6kAG27ZnqCrCZ7F58kztb--Oujy_jphf0,270
+gradescope/constants.py,sha256=OkgVsm6HKnTNur5vspAvKW8q144WcvK9-_QsK8T0i7M,441
+gradescope/dataclass.py,sha256=q_vYdLF6mp499MvkSMdjLbluUp-U8eQo8JQTcTseSWs,1629
+gradescope/errors.py,sha256=dzvEdRw6xpIbVRcWvhF5FlxzDwi7B5_ySSWZQbfAQ7c,524
+gradescope/gradescope.py,sha256=c41I67D-XmIQDwJ64w9Bar4bGxU4sj6c-JQRdw9dg3E,11034
+gradescope/utils.py,sha256=05k9MM4wxNvRowOnJ8EvyTDyo3GqhdSVoV1vEGHHAPY,776
+gradescope_tool-0.0.1.dist-info/LICENSE,sha256=WRaXY1KtUVKIfuSge4sf2Pc4wx9Oy391tSaRo497_lk,1091
+gradescope_tool-0.0.1.dist-info/METADATA,sha256=jWRjC2FWUUJ83FOnTNb-0nx7psoPMaJFfdLW-VttoO8,1505
+gradescope_tool-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gradescope_tool-0.0.1.dist-info/top_level.txt,sha256=axXpch8tm_TjR7D3QVlg4aQs6w_kclAewxd5TMmvEjU,11
+gradescope_tool-0.0.1.dist-info/RECORD,,
