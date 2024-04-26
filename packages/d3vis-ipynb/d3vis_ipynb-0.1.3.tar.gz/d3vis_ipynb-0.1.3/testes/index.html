@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range Slider</title>
+    <script src="index.js" type="module" defer></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="range_outside_container">
+      <span class="range_description">description</span>
+      <div class="range_inside_container">
+        <div class="sliders_control">
+          <input id="fromSlider" type="range" class="top_slider" />
+          <input id="toSlider" type="range" />
+        </div>
+      </div>
+      <span id="value" class="range_value"></span>
+    </div>
+    <div class="output">
+      <label for="result">Selected Range:</label>
+      <span id="result"></span>
+    </div>
+  </body>
+</html>
