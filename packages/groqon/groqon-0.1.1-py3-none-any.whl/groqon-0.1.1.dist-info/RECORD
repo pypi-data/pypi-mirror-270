@@ -1,0 +1,8 @@
+groqon/__init__.py,sha256=wRHxc_a_Cfl8_Frbt3j9KStTlGQr_pZKmX2Y_4a3lFA,112
+groqon/groq.py,sha256=cbV6xh8DAZ6tMlJYfxCGlUAAt-FFJ9Is-rnWKu35r8M,4746
+groqon/groq_config.py,sha256=C79yEBI-FIh2wgTeCrG25rufRgS3wDgt78ZAfuP3-8Q,178
+groqon/groq_utils.py,sha256=kf24rN7UWB0Lgq7W6IvJ3dgpsjT5bBWZfBnpbSiybLQ,4138
+groqon-0.1.1.dist-info/METADATA,sha256=KvflGkT_i6ZU-Iw39ODbl6Bbr_3wxhdnzVudYhs76Ik,2975
+groqon-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+groqon-0.1.1.dist-info/entry_points.txt,sha256=D5sScefwMq34PwbVIRA5AMxMXkA5q5ZiyZlpyL9Haak,65
+groqon-0.1.1.dist-info/RECORD,,
