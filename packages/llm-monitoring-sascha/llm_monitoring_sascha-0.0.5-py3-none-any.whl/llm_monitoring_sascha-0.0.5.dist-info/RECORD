@@ -1,0 +1,7 @@
+monitoring/__init__.py,sha256=mtuV3IBnBa0qVuolb8AwlIc3FcwOWP1eWUHGL6kkw5s,2113
+monitoring/client.py,sha256=Vmo3J44mnbI0B3tyk4Ej4uLBNSum7sxp2xkulmgQHOU,4629
+llm_monitoring_sascha-0.0.5.dist-info/LICENSE,sha256=P8LbZeJRLLSAfoDFsIwTh1b7J-mtfv_IzBcu9fO7WDo,8
+llm_monitoring_sascha-0.0.5.dist-info/METADATA,sha256=cvi5iBXY7hbpuoYxJqP8665QM_OanNDB3xo9zehXZ3A,526
+llm_monitoring_sascha-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+llm_monitoring_sascha-0.0.5.dist-info/top_level.txt,sha256=QGBmMzom9uTYMO5A1ffaCw3pFZGGuDe6dpZ2Y-VZoQc,11
+llm_monitoring_sascha-0.0.5.dist-info/RECORD,,
