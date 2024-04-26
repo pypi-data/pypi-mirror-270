@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ideology-rdf-generator
+Version: 0.0.1
+Home-page: https://github.com/khulnasoft/aibuildings
+Author: charbelk
+Author-email: charbelk@khulnasoft.com
+License: Apache License
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: absl-py
+Requires-Dist: pyglib
+Requires-Dist: ruamel.yaml
+Requires-Dist: rdflib
+
