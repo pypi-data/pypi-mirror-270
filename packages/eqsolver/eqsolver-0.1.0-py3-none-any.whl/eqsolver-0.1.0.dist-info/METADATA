@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eqsolver
+Version: 0.1.0
+Summary: Define model from system of equations, algebraically solve for variables, calculate boiling point, latent heat, other physics gas concepts
+Author: Brigham Turner
+Author-email: brighamturner12@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
