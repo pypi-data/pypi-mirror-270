@@ -1,0 +1,38 @@
+[tool.pdm]
+
+[project]
+name = "translation_god"
+version = "1.0.1"
+description = "A translation tool based ChatGPT"
+readme = "README.md"
+authors = [
+    { name = "zayfen", email = "zhangyunfeng0101@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.5"
+
+[project.urls]
+Homepage = "https://github.com/zayfen/TranslationGod"
+
+[project.scripts]
+tg = "translation_god.main:main"
+translation_god = "translation_god.main:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
