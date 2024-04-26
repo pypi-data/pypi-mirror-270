@@ -1,0 +1,11 @@
+odoo/addons/ssi_helpdesk_elearning/README.rst,sha256=GCRhp5q9DgUBs8HaR7bhegVqbZCR20evcHGBXUmOwwU,1242
+odoo/addons/ssi_helpdesk_elearning/__init__.py,sha256=iKf0L6SsfIY6iFpATQ9qkUh6UWDOQIJg9REx2nIGHoo,201
+odoo/addons/ssi_helpdesk_elearning/__manifest__.py,sha256=q7h85SmJaqI7EnqaCUEXkjOvT7OjaLBx8XeAZpQelRU,588
+odoo/addons/ssi_helpdesk_elearning/models/__init__.py,sha256=3Smp3BeI20eeLUgFdsOjxvJWnMZqQdVA2I5vyEhhJ14,235
+odoo/addons/ssi_helpdesk_elearning/models/helpdesk_ticket_resolution_documentation.py,sha256=E33vNyoKWJ9iUjDTVp8xJIIvQE3K-I1L7b1dtcK-oGk,1767
+odoo/addons/ssi_helpdesk_elearning/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_helpdesk_elearning/views/helpdesk_ticket_views.xml,sha256=PvEN_IZAhW2THGHY5JYEMZX7lV0cVbSjrLv8DQvWqeo,1172
+odoo14_addon_ssi_helpdesk_elearning-14.0.3.1.0.dist-info/METADATA,sha256=Uzrgn5DeMu4rZENu7MR61Qh8BX3_FIavje47kSAXppo,1835
+odoo14_addon_ssi_helpdesk_elearning-14.0.3.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_helpdesk_elearning-14.0.3.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_helpdesk_elearning-14.0.3.1.0.dist-info/RECORD,,
