@@ -1,0 +1,367 @@
+"""SpecialisedAssembly"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar
+
+from mastapy.system_model.part_model import _2452
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_SPECIALISED_ASSEMBLY = python_net_import(
+    "SMT.MastaAPI.SystemModel.PartModel", "SpecialisedAssembly"
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.part_model import _2461, _2472, _2486
+    from mastapy.system_model.part_model.gears import (
+        _2532,
+        _2534,
+        _2538,
+        _2540,
+        _2542,
+        _2544,
+        _2547,
+        _2550,
+        _2553,
+        _2555,
+        _2557,
+        _2559,
+        _2560,
+        _2562,
+        _2564,
+        _2566,
+        _2570,
+        _2572,
+    )
+    from mastapy.system_model.part_model.cycloidal import _2586
+    from mastapy.system_model.part_model.couplings import (
+        _2594,
+        _2596,
+        _2599,
+        _2602,
+        _2605,
+        _2607,
+        _2617,
+        _2623,
+        _2625,
+        _2630,
+    )
+    from mastapy.system_model import _2221
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("SpecialisedAssembly",)
+
+
+Self = TypeVar("Self", bound="SpecialisedAssembly")
+
+
+class SpecialisedAssembly(_2452.AbstractAssembly):
+    """SpecialisedAssembly
+
+    This is a mastapy class.
+    """
+
+    TYPE = _SPECIALISED_ASSEMBLY
+    _CastSelf = TypeVar("_CastSelf", bound="_Cast_SpecialisedAssembly")
+
+    class _Cast_SpecialisedAssembly:
+        """Special nested class for casting SpecialisedAssembly to subclasses."""
+
+        def __init__(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+            parent: "SpecialisedAssembly",
+        ):
+            self._parent = parent
+
+        @property
+        def abstract_assembly(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2452.AbstractAssembly":
+            return self._parent._cast(_2452.AbstractAssembly)
+
+        @property
+        def part(self: "SpecialisedAssembly._Cast_SpecialisedAssembly") -> "_2486.Part":
+            from mastapy.system_model.part_model import _2486
+
+            return self._parent._cast(_2486.Part)
+
+        @property
+        def design_entity(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2221.DesignEntity":
+            from mastapy.system_model import _2221
+
+            return self._parent._cast(_2221.DesignEntity)
+
+        @property
+        def bolted_joint(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2461.BoltedJoint":
+            from mastapy.system_model.part_model import _2461
+
+            return self._parent._cast(_2461.BoltedJoint)
+
+        @property
+        def flexible_pin_assembly(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2472.FlexiblePinAssembly":
+            from mastapy.system_model.part_model import _2472
+
+            return self._parent._cast(_2472.FlexiblePinAssembly)
+
+        @property
+        def agma_gleason_conical_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2532.AGMAGleasonConicalGearSet":
+            from mastapy.system_model.part_model.gears import _2532
+
+            return self._parent._cast(_2532.AGMAGleasonConicalGearSet)
+
+        @property
+        def bevel_differential_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2534.BevelDifferentialGearSet":
+            from mastapy.system_model.part_model.gears import _2534
+
+            return self._parent._cast(_2534.BevelDifferentialGearSet)
+
+        @property
+        def bevel_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2538.BevelGearSet":
+            from mastapy.system_model.part_model.gears import _2538
+
+            return self._parent._cast(_2538.BevelGearSet)
+
+        @property
+        def concept_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2540.ConceptGearSet":
+            from mastapy.system_model.part_model.gears import _2540
+
+            return self._parent._cast(_2540.ConceptGearSet)
+
+        @property
+        def conical_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2542.ConicalGearSet":
+            from mastapy.system_model.part_model.gears import _2542
+
+            return self._parent._cast(_2542.ConicalGearSet)
+
+        @property
+        def cylindrical_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2544.CylindricalGearSet":
+            from mastapy.system_model.part_model.gears import _2544
+
+            return self._parent._cast(_2544.CylindricalGearSet)
+
+        @property
+        def face_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2547.FaceGearSet":
+            from mastapy.system_model.part_model.gears import _2547
+
+            return self._parent._cast(_2547.FaceGearSet)
+
+        @property
+        def gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2550.GearSet":
+            from mastapy.system_model.part_model.gears import _2550
+
+            return self._parent._cast(_2550.GearSet)
+
+        @property
+        def hypoid_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2553.HypoidGearSet":
+            from mastapy.system_model.part_model.gears import _2553
+
+            return self._parent._cast(_2553.HypoidGearSet)
+
+        @property
+        def klingelnberg_cyclo_palloid_conical_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2555.KlingelnbergCycloPalloidConicalGearSet":
+            from mastapy.system_model.part_model.gears import _2555
+
+            return self._parent._cast(_2555.KlingelnbergCycloPalloidConicalGearSet)
+
+        @property
+        def klingelnberg_cyclo_palloid_hypoid_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2557.KlingelnbergCycloPalloidHypoidGearSet":
+            from mastapy.system_model.part_model.gears import _2557
+
+            return self._parent._cast(_2557.KlingelnbergCycloPalloidHypoidGearSet)
+
+        @property
+        def klingelnberg_cyclo_palloid_spiral_bevel_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2559.KlingelnbergCycloPalloidSpiralBevelGearSet":
+            from mastapy.system_model.part_model.gears import _2559
+
+            return self._parent._cast(_2559.KlingelnbergCycloPalloidSpiralBevelGearSet)
+
+        @property
+        def planetary_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2560.PlanetaryGearSet":
+            from mastapy.system_model.part_model.gears import _2560
+
+            return self._parent._cast(_2560.PlanetaryGearSet)
+
+        @property
+        def spiral_bevel_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2562.SpiralBevelGearSet":
+            from mastapy.system_model.part_model.gears import _2562
+
+            return self._parent._cast(_2562.SpiralBevelGearSet)
+
+        @property
+        def straight_bevel_diff_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2564.StraightBevelDiffGearSet":
+            from mastapy.system_model.part_model.gears import _2564
+
+            return self._parent._cast(_2564.StraightBevelDiffGearSet)
+
+        @property
+        def straight_bevel_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2566.StraightBevelGearSet":
+            from mastapy.system_model.part_model.gears import _2566
+
+            return self._parent._cast(_2566.StraightBevelGearSet)
+
+        @property
+        def worm_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2570.WormGearSet":
+            from mastapy.system_model.part_model.gears import _2570
+
+            return self._parent._cast(_2570.WormGearSet)
+
+        @property
+        def zerol_bevel_gear_set(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2572.ZerolBevelGearSet":
+            from mastapy.system_model.part_model.gears import _2572
+
+            return self._parent._cast(_2572.ZerolBevelGearSet)
+
+        @property
+        def cycloidal_assembly(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2586.CycloidalAssembly":
+            from mastapy.system_model.part_model.cycloidal import _2586
+
+            return self._parent._cast(_2586.CycloidalAssembly)
+
+        @property
+        def belt_drive(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2594.BeltDrive":
+            from mastapy.system_model.part_model.couplings import _2594
+
+            return self._parent._cast(_2594.BeltDrive)
+
+        @property
+        def clutch(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2596.Clutch":
+            from mastapy.system_model.part_model.couplings import _2596
+
+            return self._parent._cast(_2596.Clutch)
+
+        @property
+        def concept_coupling(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2599.ConceptCoupling":
+            from mastapy.system_model.part_model.couplings import _2599
+
+            return self._parent._cast(_2599.ConceptCoupling)
+
+        @property
+        def coupling(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2602.Coupling":
+            from mastapy.system_model.part_model.couplings import _2602
+
+            return self._parent._cast(_2602.Coupling)
+
+        @property
+        def cvt(self: "SpecialisedAssembly._Cast_SpecialisedAssembly") -> "_2605.CVT":
+            from mastapy.system_model.part_model.couplings import _2605
+
+            return self._parent._cast(_2605.CVT)
+
+        @property
+        def part_to_part_shear_coupling(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2607.PartToPartShearCoupling":
+            from mastapy.system_model.part_model.couplings import _2607
+
+            return self._parent._cast(_2607.PartToPartShearCoupling)
+
+        @property
+        def rolling_ring_assembly(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2617.RollingRingAssembly":
+            from mastapy.system_model.part_model.couplings import _2617
+
+            return self._parent._cast(_2617.RollingRingAssembly)
+
+        @property
+        def spring_damper(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2623.SpringDamper":
+            from mastapy.system_model.part_model.couplings import _2623
+
+            return self._parent._cast(_2623.SpringDamper)
+
+        @property
+        def synchroniser(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2625.Synchroniser":
+            from mastapy.system_model.part_model.couplings import _2625
+
+            return self._parent._cast(_2625.Synchroniser)
+
+        @property
+        def torque_converter(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "_2630.TorqueConverter":
+            from mastapy.system_model.part_model.couplings import _2630
+
+            return self._parent._cast(_2630.TorqueConverter)
+
+        @property
+        def specialised_assembly(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly",
+        ) -> "SpecialisedAssembly":
+            return self._parent
+
+        def __getattr__(
+            self: "SpecialisedAssembly._Cast_SpecialisedAssembly", name: str
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(self: Self, instance_to_wrap: "SpecialisedAssembly.TYPE"):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def cast_to(self: Self) -> "SpecialisedAssembly._Cast_SpecialisedAssembly":
+        return self._Cast_SpecialisedAssembly(self)
