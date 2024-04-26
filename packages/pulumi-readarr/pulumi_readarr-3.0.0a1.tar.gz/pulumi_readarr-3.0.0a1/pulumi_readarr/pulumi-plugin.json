@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "readarr",
+  "server": "github://api.github.com/MaienM/pulumi-readarr"
+}
