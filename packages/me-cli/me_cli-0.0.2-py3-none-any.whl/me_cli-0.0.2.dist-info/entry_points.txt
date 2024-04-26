@@ -1,0 +1,2 @@
+[me_cli]
+me_cli = me_cli.cli:main
