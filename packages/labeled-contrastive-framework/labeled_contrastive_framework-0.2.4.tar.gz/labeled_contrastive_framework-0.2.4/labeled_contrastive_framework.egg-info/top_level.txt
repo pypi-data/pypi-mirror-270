@@ -1,0 +1,5 @@
+checkpoint_backups
+dist
+embeddings
+labeled_contrastive_framework
+lightning_logs
