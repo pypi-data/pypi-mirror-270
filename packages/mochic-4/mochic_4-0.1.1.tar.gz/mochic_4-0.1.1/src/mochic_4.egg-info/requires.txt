@@ -1,0 +1,4 @@
+python-dotenv>=1.0.1
+fabric>=3.2.2
+pydantic>=2.7.1
+click>=8.1.7
