@@ -1,0 +1,13 @@
+wavy_totem_lib/__init__.py,sha256=iFKJuKX1wbuUorkmImLotN1hGXLfDTTLAbCD3Bw5xt8,550
+wavy_totem_lib/builder.py,sha256=KYsmNt8GH85LygO3VLFmwuoTsdgQBAdCnhsj2sQzrV0,1623
+wavy_totem_lib/exceptions.py,sha256=5K9UReJP2FugkKvhdR6qibZjuGuUYLdGDEBuLbEm_eM,386
+wavy_totem_lib/options.py,sha256=vi88h2BpqSeLGxWpayOQQTQFZJb949JhLhVa8J4Q68A,525
+wavy_totem_lib/skin.py,sha256=OmpUgPBjNoZSOCtwSge0K7cj6tF9jjk8gibyf4JyTuE,10783
+wavy_totem_lib/styles/abstract.py,sha256=_5AxoRhE7qJYnUM2LbMPha9FWCTbAwKYgBFV4N0vTMM,966
+wavy_totem_lib/styles/soul.py,sha256=MwLTaLtPpk0eyjE241ZcGWXfOM8UYDLtJZVkfqSIen0,4542
+wavy_totem_lib/styles/wavy.py,sha256=DjFWlqzrpJbljCiPuACxAk3ZmxHtfDA2FboiMlUKjH8,3881
+wavy_totem_lib/totem.py,sha256=ZZRW4J0NnfSlKS0oocn59YOlTjDFzMmdcOdnzjtX7AI,1218
+wavy_totem_lib-2.0.0.dist-info/LICENSE,sha256=yb_3VziSIZPmf6cm-iJVNYcNKqEFn5FFLEEXNihK1WY,1338
+wavy_totem_lib-2.0.0.dist-info/METADATA,sha256=fwEek_gbDmsRq9NeZHumVkbDjGJkjtj7_EJzxUBUlPU,4945
+wavy_totem_lib-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+wavy_totem_lib-2.0.0.dist-info/RECORD,,
