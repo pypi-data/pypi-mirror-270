@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+DinarLib/__init__.py
+DinarLib/intersec.py
+DinarLib/quick_sort.py
+DinarLib/random_sum_to.py
+dinarlib.egg-info/PKG-INFO
+dinarlib.egg-info/SOURCES.txt
+dinarlib.egg-info/dependency_links.txt
+dinarlib.egg-info/requires.txt
+dinarlib.egg-info/top_level.txt
