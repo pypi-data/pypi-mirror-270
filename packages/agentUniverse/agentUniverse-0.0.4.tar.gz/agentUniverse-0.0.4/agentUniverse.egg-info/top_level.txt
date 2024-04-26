@@ -1,0 +1,5 @@
+agentuniverse
+agentuniverse_connector
+agentuniverse_extension
+sample_standard_app
+tests
