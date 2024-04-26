@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PokemonMax
+Version: 1.0.1
+Summary: Esta libreria contiene la facilidad de generar un pokemon aleatoria
+Author: Alexis
+Author-email: axelgoma11@gamil.com
+Requires-Dist: pandas
+
