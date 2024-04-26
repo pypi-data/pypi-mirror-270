@@ -1,0 +1,11 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/helpers.py,sha256=R7mMPNY3Q2Fs6IKrsgFICb1ZJYaaDRa11gnWH02g_Lg,8801
+cli/main.py,sha256=OGPAPxwGP3Nd9P3qepNvKsnm3rnvog4Mct99iH05YIc,10174
+cli/requirements.txt,sha256=g9Z40q2pQ5TjbNBN0km8PqEw7sBMKQaVzbUx5mfwroI,13
+cli/templates/job_matrix_overview.md,sha256=VMTodYS6PDsHoepG9TQz6X-9HWp08F0pXG-oJw6Aupc,560
+cli/templates/skill_matrix_overview.md,sha256=HrL7mW3dsvJDwC7wT-5oUvbAoAQ4lLxIeIqoKS95CDY,368
+fledger-0.1.0.dist-info/METADATA,sha256=kp67J_8slMOLJgDgSKOQJiQxm_R2WHRXImThiXKZDBg,4907
+fledger-0.1.0.dist-info/WHEEL,sha256=osohxoshIHTFJFVPhsi1UkZuLRGMHRXZzwEBW2ezjrc,87
+fledger-0.1.0.dist-info/entry_points.txt,sha256=XUaQGVTALEXyfwFFWdg5PV_-H5TSQeEpHhcKTyOC27Y,41
+fledger-0.1.0.dist-info/licenses/LICENSE,sha256=X9LPwAaIZERRMNy4WwsOnMH_iuYG_kqiyYEWZL-KVas,11417
+fledger-0.1.0.dist-info/RECORD,,
