@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+genomeuploader/__init__.py
+genomeuploader/cluster_uploader_wrapper.py
+genomeuploader/constants.py
+genomeuploader/ena.py
+genomeuploader/genome_upload.py
+genomeuploader.egg-info/PKG-INFO
+genomeuploader.egg-info/SOURCES.txt
+genomeuploader.egg-info/dependency_links.txt
+genomeuploader.egg-info/entry_points.txt
+genomeuploader.egg-info/requires.txt
+genomeuploader.egg-info/top_level.txt
+tests/test_dummy.py
