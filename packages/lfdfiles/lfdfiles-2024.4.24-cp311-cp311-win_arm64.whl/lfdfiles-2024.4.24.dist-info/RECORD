@@ -1,0 +1,12 @@
+lfdfiles/__init__.py,sha256=NlSAibIlZsXdvIguSorh6LM-6pReyaGimuuwZ5XO4bY,104
+lfdfiles/__main__.py,sha256=8WNtlWGqhQRUOcfE2gl3ACruNJUSeIrnyk-9IO6P6FM,135
+lfdfiles/_lfdfiles.cp311-win_arm64.pyd,sha256=PVMqvo5tHkRg6Qm6PeOpCcC7-dwPMml2ESqYqUm63M0,329216
+lfdfiles/fbd2b64.py,sha256=7BXEl9c6hCRD1BEXki5ZEl0hij9XbLzIUy3O05m9s2Q,6486
+lfdfiles/lfdfiles.py,sha256=vsfhlg2HsJCR-reZ5tGQ7yhYGbBnRylIH_AzKNMkUX4,231900
+lfdfiles/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lfdfiles-2024.4.24.dist-info/LICENSE,sha256=bu6kDyB5kYV2FIy71THDgPdkOa8_RTjCiV1D0Zm_eOY,1559
+lfdfiles-2024.4.24.dist-info/METADATA,sha256=cQHRFaD2OtTfqeCtmY9ZD9OjxDR4E96x9WMMFPtm1mQ,8553
+lfdfiles-2024.4.24.dist-info/WHEEL,sha256=KYdEOsdUN8GC50wETE93-AKMCFYWlcSEIynIYo-Bwus,102
+lfdfiles-2024.4.24.dist-info/entry_points.txt,sha256=t6geUirHxKXaV-Ii9YZ4pUxxJzcrFhbsNMlJy3MRpLQ,84
+lfdfiles-2024.4.24.dist-info/top_level.txt,sha256=57ed1wWaI26xMH0KgmUMy6MefsknRrCIetAITP7OtBU,9
+lfdfiles-2024.4.24.dist-info/RECORD,,
