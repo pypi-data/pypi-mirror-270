@@ -1,0 +1,17 @@
+[package]
+name = "virtual-wasi-io"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wit-bindgen = { version = "0.24", default-features = false, features = ["macros", "realloc"] }
+
+[build-dependencies]
+wit-deps = { path = "../../utils/wit-deps" }
+
+
+[lints]
+workspace = true

@@ -1,0 +1,31 @@
+[package]
+name = "codecs-build"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+flate2 = { version = "1.0", default-features = false, features = ["rust_backend"] }
+tar = { version = "0.4", default-features = false }
+wit-component = { version = "0.205", default-features = false }
+
+# list of all codecs we build
+bit-round-codec = { path = "../bit-round" }
+bit-transpose-codec = { path = "../bit-transpose" }
+identity-codec = { path = "../identity" }
+linear-quantize-codec = { path = "../linear-quantize" }
+log-codec = { path = "../log" }
+reinterpret-codec = { path = "../reinterpret" }
+round-codec = { path = "../round" }
+running-standardize-codec = { path = "../running-standardize" }
+uniform-noise-codec = { path = "../uniform-noise" }
+zfp-codec = { path = "../zfp" }
+zlib-codec = { path = "../zlib" }
+zstd-codec = { path = "../zstd" }
+
+[target.'cfg(not(target_arch = "wasm32"))'.build-dependencies]
+sz3-codec = { path = "../sz3" }
+
+[lints]
+workspace = true

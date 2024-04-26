@@ -1,0 +1,466 @@
+use std::{path::Path, sync::OnceLock};
+
+use core_error::LocationError;
+
+use crate::{logging::WasiLoggingInterface, stdio::FcBenchStdioInterface, WasmCodecError};
+
+pub mod instcnt;
+pub mod nan;
+
+#[allow(clippy::too_many_lines)] // FIXME
+pub fn load_and_transform_wasm_module(
+    path: &Path,
+) -> Result<Vec<u8>, LocationError<WasmCodecError>> {
+    #[track_caller]
+    fn map_wasm_err<E: 'static + std::error::Error + Send + Sync>(err: E) -> WasmCodecError {
+        WasmCodecError::Wasm(LocationError::from2(anyhow::Error::new(err)))
+    }
+
+    let interfaces = codecs_core_host::CodecPluginInterfaces::get();
+
+    // create a new WAC composition graph with the WASI component packages
+    //  pre-registered and the fcbench:perf/perf interface pre-exported
+    let PreparedCompositionGraph {
+        graph: wac,
+        wasi: wasi_component_packages,
+    } = get_prepared_composition_graph()?;
+    let mut wac = wac.clone();
+
+    // parse and instantiate the root package, which exports numcodecs:abc/codec
+    let fcbench_codec_package = wac_graph::types::Package::from_bytes(
+        &format!("{}", interfaces.codecs.package().name()),
+        interfaces.codecs.package().version(),
+        std::fs::read(path).map_err(WasmCodecError::IO)?,
+        wac.types_mut(),
+    )
+    .map_err(LocationError::from2)
+    .map_err(WasmCodecError::Wasm)?;
+
+    #[allow(clippy::indexing_slicing)] // the package world is guaranteed to exist
+    let fcbench_codec_world = &wac.types()[fcbench_codec_package.ty()];
+    let fcbench_codec_imports = extract_component_ports(&fcbench_codec_world.imports)
+        .map_err(LocationError::from2)
+        .map_err(WasmCodecError::Wasm)?;
+
+    let fcbench_codec_package = wac
+        .register_package(fcbench_codec_package)
+        .map_err(map_wasm_err)?;
+    let fcbench_codec_instance = wac.instantiate(fcbench_codec_package);
+
+    // list the imports that the linker will provide
+    let linker_provided_imports = [
+        &FcBenchStdioInterface::get().stdio,
+        &WasiLoggingInterface::get().logging,
+    ];
+
+    // initialise the unresolved imports to the imports of the root package
+    let mut unresolved_imports = vecmap::VecMap::new();
+    for import in &fcbench_codec_imports {
+        unresolved_imports
+            .entry(import.clone())
+            .or_insert_with(Vec::new)
+            .push(fcbench_codec_instance);
+    }
+
+    // track all non-root instances, which may fulfil imports
+    let mut package_instances = vecmap::VecMap::new();
+
+    // initialise the queue of required, still to instantiate packages
+    //  to the imports of the root package
+    let mut required_packages_queue = fcbench_codec_imports
+        .iter()
+        .map(|import| import.package().clone())
+        .collect::<std::collections::VecDeque<_>>();
+
+    // iterate while not all required packages have been instantiated
+    while let Some(required_package) = required_packages_queue.pop_front() {
+        if package_instances.contains_key(&required_package) {
+            continue;
+        }
+
+        // some packages do not need to be instantiated since they will be
+        //  provided by the linker
+        if linker_provided_imports
+            .iter()
+            .any(|interface| interface.package() == &required_package)
+        {
+            continue;
+        }
+
+        // find the WASI component package that can fulfil the required package
+        let Some(component_package) = wasi_component_packages.iter().find(|component_package| {
+            component_package
+                .exports
+                .iter()
+                .any(|export| export.package() == &required_package)
+        }) else {
+            return Err(LocationError::new(WasmCodecError::Message(format!(
+                "WASM component requires unresolved import(s) from package {required_package}"
+            ))));
+        };
+
+        let PackageWithPorts {
+            package: component_package,
+            imports: component_imports,
+            exports: component_exports,
+        } = component_package;
+
+        // instantiate the component package
+        let component_instance = wac.instantiate(*component_package);
+
+        // try to resolve all imports of the component package ...
+        for import in component_imports.iter() {
+            if let Some(dependency_instance) = package_instances.get(import.package()).copied() {
+                // ... if the dependency has already been instantiated,
+                //     import its export directly
+                let import_str = &format!("{import}");
+                let dependency_export = wac
+                    .alias_instance_export(dependency_instance, import_str)
+                    .map_err(map_wasm_err)?;
+                wac.set_instantiation_argument(component_instance, import_str, dependency_export)
+                    .map_err(map_wasm_err)?;
+            } else {
+                // ... otherwise require the dependency package and store the
+                //     import so that it can be resolved later
+                required_packages_queue.push_back(import.package().clone());
+                unresolved_imports
+                    .entry(import.clone())
+                    .or_insert_with(Vec::new)
+                    .push(component_instance);
+            }
+        }
+
+        for export in component_exports.iter() {
+            // register this instance's package so that its exports can later
+            //  fulfil more imports
+            package_instances.insert(export.package().clone(), component_instance);
+
+            // try to resolve unresolved imports using the export of this package
+            if let Some(unresolved_imports) = unresolved_imports.get(export) {
+                let export_str = &format!("{export}");
+                let component_export = wac
+                    .alias_instance_export(component_instance, export_str)
+                    .map_err(map_wasm_err)?;
+                for import in unresolved_imports {
+                    wac.set_instantiation_argument(*import, export_str, component_export)
+                        .map_err(map_wasm_err)?;
+                }
+            }
+        }
+    }
+
+    // export the numcodecs:abc/codec interface
+    let fcbench_codecs_str = &format!("{}", interfaces.codecs);
+    let fcbench_codecs_export = wac
+        .alias_instance_export(fcbench_codec_instance, fcbench_codecs_str)
+        .map_err(map_wasm_err)?;
+    wac.export(fcbench_codecs_export, fcbench_codecs_str)
+        .map_err(map_wasm_err)?;
+
+    // encode the WAC composition graph into a WASM component and validate it
+    let wasm = wac
+        .encode(wac_graph::EncodeOptions {
+            define_components: true,
+            // we do our own validation right below
+            validate: false,
+            processor: None,
+        })
+        .map_err(map_wasm_err)?;
+
+    wasmparser::Validator::new_with_features(
+        wasmparser::WasmFeaturesInflated {
+            // MUST: float operations are required
+            //       (and our engine's transformations makes them deterministic)
+            floats: true,
+            // MUST: codecs and reproducible WASI are implemented as components
+            component_model: true,
+            // OK: using linear values in component init is deterministic, as
+            //     long as the values provided are deterministic
+            component_model_values: true,
+            // OK: nested component names do not interact with determinism
+            component_model_nested_names: true,
+            ..crate::engine::DETERMINISTIC_WASM_MODULE_FEATURES
+        }
+        .into(),
+    )
+    .validate_all(&wasm)
+    .map_err(map_wasm_err)?;
+
+    Ok(wasm)
+}
+
+struct PreparedCompositionGraph {
+    graph: wac_graph::CompositionGraph,
+    wasi: Box<[PackageWithPorts]>,
+}
+
+fn get_prepared_composition_graph() -> Result<&'static PreparedCompositionGraph, WasmCodecError> {
+    static PREPARED_COMPOSITION_GRAPH: OnceLock<
+        Result<PreparedCompositionGraph, LocationError<AnyhowError>>,
+    > = OnceLock::new();
+
+    let prepared_composition_graph = PREPARED_COMPOSITION_GRAPH.get_or_init(|| {
+        let codecs_core_host::CodecPluginInterfaces {
+            perf: perf_interface,
+            ..
+        } = codecs_core_host::CodecPluginInterfaces::get();
+
+        // create a new WAC composition graph
+        let mut wac = wac_graph::CompositionGraph::new();
+
+        // parse and register the WASI component packages
+        let wasi_component_packages =
+            register_wasi_component_packages(&mut wac)?.into_boxed_slice();
+
+        // create, register, and instantiate the fcbench:perf package
+        let fcbench_perf_instance = instantiate_fcbench_perf_package(&mut wac)?;
+
+        // export the fcbench:perf/perf interface
+        let fcbench_perf_str = &format!("{perf_interface}");
+        let fcbench_perf_export = wac
+            .alias_instance_export(fcbench_perf_instance, fcbench_perf_str)
+            .map_err(AnyhowError::new)?;
+        wac.export(fcbench_perf_export, fcbench_perf_str)
+            .map_err(AnyhowError::new)?;
+
+        Ok(PreparedCompositionGraph {
+            graph: wac,
+            wasi: wasi_component_packages,
+        })
+    });
+
+    match prepared_composition_graph {
+        Ok(prepared_composition_graph) => Ok(prepared_composition_graph),
+        Err(err) => {
+            Err(WasmCodecError::Wasm(err.map_ref(|err| {
+                codecs_core_host::Error::from(anyhow::Error::new(err))
+            })))
+        },
+    }
+}
+
+struct PackageWithPorts {
+    package: wac_graph::PackageId,
+    imports: Box<[wasm_component_layer::InterfaceIdentifier]>,
+    exports: Box<[wasm_component_layer::InterfaceIdentifier]>,
+}
+
+fn register_wasi_component_packages(
+    wac: &mut wac_graph::CompositionGraph,
+) -> Result<Vec<PackageWithPorts>, LocationError<AnyhowError>> {
+    let wasi_component_packages = virtual_wasi_build::ALL_COMPONENTS
+        .iter()
+        .map(
+            |(component_name, component_bytes)| -> Result<_, LocationError<AnyhowError>> {
+                let component_package = wac_graph::types::Package::from_bytes(
+                    component_name,
+                    None,
+                    Vec::from(*component_bytes),
+                    wac.types_mut(),
+                )
+                .map_err(LocationError::from2)?;
+
+                #[allow(clippy::indexing_slicing)] // the package world is guaranteed to exist
+                let component_world = &wac.types()[component_package.ty()];
+
+                let component_imports = extract_component_ports(&component_world.imports)
+                    .map_err(LocationError::from2)?;
+                let component_exports = extract_component_ports(&component_world.exports)
+                    .map_err(LocationError::from2)?;
+
+                let component_package = wac
+                    .register_package(component_package)
+                    .map_err(AnyhowError::new)?;
+
+                Ok(PackageWithPorts {
+                    package: component_package,
+                    imports: component_imports.into_boxed_slice(),
+                    exports: component_exports.into_boxed_slice(),
+                })
+            },
+        )
+        .collect::<Result<Vec<_>, _>>()?;
+
+    Ok(wasi_component_packages)
+}
+
+fn extract_component_ports(
+    ports: &indexmap::IndexMap<String, wac_graph::types::ItemKind>,
+) -> Result<Vec<wasm_component_layer::InterfaceIdentifier>, anyhow::Error> {
+    ports
+        .iter()
+        .filter_map(|(import, kind)| match kind {
+            wac_graph::types::ItemKind::Instance(_) => Some(
+                wasm_component_layer::InterfaceIdentifier::try_from(import.as_str()),
+            ),
+            _ => None,
+        })
+        .collect::<Result<Vec<_>, _>>()
+}
+
+fn instantiate_fcbench_perf_package(
+    wac: &mut wac_graph::CompositionGraph,
+) -> Result<wac_graph::NodeId, LocationError<AnyhowError>> {
+    let perf_interface = &codecs_core_host::CodecPluginInterfaces::get().perf;
+
+    // create, register, and instantiate the fcbench:perf package
+    let fcbench_perf_package = wac_graph::types::Package::from_bytes(
+        &format!("{}", perf_interface.package().name()),
+        perf_interface.package().version(),
+        create_fcbench_perf_component()?,
+        wac.types_mut(),
+    )
+    .map_err(LocationError::from2)?;
+
+    let fcbench_perf_package = wac
+        .register_package(fcbench_perf_package)
+        .map_err(AnyhowError::new)?;
+    let fcbench_perf_instance = wac.instantiate(fcbench_perf_package);
+
+    Ok(fcbench_perf_instance)
+}
+
+fn create_fcbench_perf_component() -> Result<Vec<u8>, LocationError<AnyhowError>> {
+    const ROOT: &str = "root";
+
+    let codecs_core_host::CodecPluginInterfaces {
+        perf: perf_interface,
+        instruction_counter,
+        ..
+    } = codecs_core_host::CodecPluginInterfaces::get();
+
+    let mut module = create_fcbench_perf_module();
+
+    let mut resolve = wit_parser::Resolve::new();
+
+    let interface = resolve.interfaces.alloc(wit_parser::Interface {
+        name: Some(String::from(perf_interface.name())),
+        types: indexmap::IndexMap::new(),
+        #[allow(clippy::iter_on_single_items)]
+        functions: [(
+            String::from(instruction_counter),
+            wit_parser::Function {
+                name: String::from(instruction_counter),
+                kind: wit_parser::FunctionKind::Freestanding,
+                params: Vec::new(),
+                results: wit_parser::Results::Anon(wit_parser::Type::U64),
+                docs: wit_parser::Docs { contents: None },
+            },
+        )]
+        .into_iter()
+        .collect(),
+        docs: wit_parser::Docs { contents: None },
+        package: None, // The package is linked up below
+    });
+
+    let package_name = wit_parser::PackageName {
+        namespace: String::from(perf_interface.package().name().namespace()),
+        name: String::from(perf_interface.package().name().name()),
+        version: perf_interface.package().version().cloned(),
+    };
+    let package = resolve.packages.alloc(wit_parser::Package {
+        name: package_name.clone(),
+        docs: wit_parser::Docs { contents: None },
+        #[allow(clippy::iter_on_single_items)]
+        interfaces: [(String::from(perf_interface.name()), interface)]
+            .into_iter()
+            .collect(),
+        worlds: indexmap::IndexMap::new(),
+    });
+    resolve.package_names.insert(package_name, package);
+
+    if let Some(interface) = resolve.interfaces.get_mut(interface) {
+        interface.package = Some(package);
+    }
+
+    let world = resolve.worlds.alloc(wit_parser::World {
+        name: String::from(ROOT),
+        imports: indexmap::IndexMap::new(),
+        #[allow(clippy::iter_on_single_items)]
+        exports: [(
+            wit_parser::WorldKey::Interface(interface),
+            wit_parser::WorldItem::Interface(interface),
+        )]
+        .into_iter()
+        .collect(),
+        package: None, // The package is linked up below
+        docs: wit_parser::Docs { contents: None },
+        includes: Vec::new(),
+        include_names: Vec::new(),
+    });
+
+    let root_name = wit_parser::PackageName {
+        namespace: String::from(ROOT),
+        name: String::from("component"),
+        version: perf_interface.package().version().cloned(),
+    };
+    let root = resolve.packages.alloc(wit_parser::Package {
+        name: root_name.clone(),
+        docs: wit_parser::Docs { contents: None },
+        interfaces: indexmap::IndexMap::new(),
+        #[allow(clippy::iter_on_single_items)]
+        worlds: [(String::from(ROOT), world)].into_iter().collect(),
+    });
+    resolve.package_names.insert(root_name, root);
+
+    if let Some(world) = resolve.worlds.get_mut(world) {
+        world.package = Some(root);
+    }
+
+    wit_component::embed_component_metadata(
+        &mut module,
+        &resolve,
+        world,
+        wit_component::StringEncoding::UTF8,
+    )
+    .map_err(LocationError::from2)?;
+
+    let encoder = wit_component::ComponentEncoder::default()
+        .module(&module)
+        .map_err(|err| {
+            AnyhowError(anyhow::anyhow!(
+                "wit_component::ComponentEncoder::module failed: {err}"
+            ))
+        })?;
+
+    let component = encoder.encode().map_err(|err| {
+        AnyhowError(anyhow::anyhow!(
+            "wit_component::ComponentEncoder::encode failed: {err}"
+        ))
+    })?;
+
+    Ok(component)
+}
+
+fn create_fcbench_perf_module() -> Vec<u8> {
+    let codecs_core_host::CodecPluginInterfaces {
+        perf: perf_interface,
+        instruction_counter,
+        ..
+    } = codecs_core_host::CodecPluginInterfaces::get();
+
+    let mut module = walrus::Module::with_config(walrus::ModuleConfig::new());
+
+    // We first define just the expored function with an unreachable body,
+    //  which is later filled in by the wasm_runtime_layer module wrapper
+    let mut function =
+        walrus::FunctionBuilder::new(&mut module.types, &[], &[walrus::ValType::I64]);
+    function.func_body().unreachable();
+    let function = module.funcs.add_local(function.local_func(Vec::new()));
+
+    module
+        .exports
+        .add(&format!("{perf_interface}#{instruction_counter}"), function);
+
+    module.emit_wasm()
+}
+
+#[derive(Debug, thiserror::Error)]
+#[error(transparent)]
+struct AnyhowError(#[from] anyhow::Error);
+
+impl AnyhowError {
+    pub fn new<E: 'static + std::error::Error + Send + Sync>(error: E) -> Self {
+        Self(anyhow::Error::new(error))
+    }
+}
