@@ -1,0 +1,8 @@
+hatch_pyinstaller/__init__.py,sha256=BlRTon56lerAAX_IDPI__ZGWZ7MazmxNo2vumqwx9tc,17
+hatch_pyinstaller/builder.py,sha256=Q2KDZ7uLQGeIA03UV7AqkL_ZTDJVb6YSJujTFOR6ZlA,4093
+hatch_pyinstaller/hooks.py,sha256=O7S_gPxm6JRra9D9Vfq6fsZOGTkx86XFs9ga5WTSOLQ,159
+hatch_pyinstaller-1.0.dist-info/METADATA,sha256=OTFxypHnIXVtLD6qlovl4NJzMOr2VgnuGPuSWvsNLMA,1132
+hatch_pyinstaller-1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+hatch_pyinstaller-1.0.dist-info/entry_points.txt,sha256=23xJe-SwtyZ-sPkOng50qWYBILi0Fr6KqXV50ezPSto,46
+hatch_pyinstaller-1.0.dist-info/licenses/LICENCE.txt,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+hatch_pyinstaller-1.0.dist-info/RECORD,,
