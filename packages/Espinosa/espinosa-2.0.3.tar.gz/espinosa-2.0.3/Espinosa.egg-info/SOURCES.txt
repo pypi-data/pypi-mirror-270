@@ -1,0 +1,9 @@
+README.md
+setup.py
+Espinosa/__init__.py
+Espinosa/random_pokemon.py
+Espinosa.egg-info/PKG-INFO
+Espinosa.egg-info/SOURCES.txt
+Espinosa.egg-info/dependency_links.txt
+Espinosa.egg-info/requires.txt
+Espinosa.egg-info/top_level.txt
