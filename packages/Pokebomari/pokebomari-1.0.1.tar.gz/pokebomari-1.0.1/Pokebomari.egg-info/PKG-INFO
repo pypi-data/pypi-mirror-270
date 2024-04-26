@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Pokebomari
+Version: 1.0.1
+Summary: Libreria para generar un Pokemon aleatorio
+Author: Maria Cortez
+Author-email: 202224172@tesch.edu.mx
+Requires-Dist: pandas

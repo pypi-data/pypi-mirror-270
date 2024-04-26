@@ -1,0 +1,10 @@
+README.md
+setup.py
+Pokebomari/__init__.py
+Pokebomari/pokemon.csv
+Pokebomari/random_pokemon.py
+Pokebomari.egg-info/PKG-INFO
+Pokebomari.egg-info/SOURCES.txt
+Pokebomari.egg-info/dependency_links.txt
+Pokebomari.egg-info/requires.txt
+Pokebomari.egg-info/top_level.txt
