@@ -1,0 +1,13 @@
+STASCAN/StatPlot.py,sha256=Va3MDaSv94AZS4Oo4GaXN5s4t3qiRsYOFtB2bIf4aPE,12974
+STASCAN/__init__.py,sha256=gP-ZKJAutwEEWxZqjkWmCcZViCCBYjJIdD6YVCwJDxk,699
+STASCAN/downstream.py,sha256=GxnQGr_DYQrXme-HgZM1eKmG7jDfzhOEcZDPfrUe_es,9903
+STASCAN/model.py,sha256=yi2kEaC-cNqaNK4XrKfkvxIkC7lZGEptayZnaUGDmnw,10970
+STASCAN/preparation.py,sha256=GQYcuuXtuW2EqvDY9oucrm4Quqvf23P18dJN2DuImS8,17492
+STASCAN/preparation_dbit.py,sha256=FH1_dSM48Xk-2MuE93knbdthQv7HItgomZETw3nUyYY,12385
+STASCAN/run_STASCAN.py,sha256=O0CtCp92Vybe6FkEmu1UFjW7-tJwoYDuiSXzP0kDQ_0,19628
+STASCAN/run_STASCAN_dbit.py,sha256=IebnQYlp2lrYFyBhkDPiFnykLsg2AAcLxyZ55k7LZaA,7576
+STASCAN-1.1.0.dist-info/LICENSE.txt,sha256=FP3pAmOjK4IayM1NsojkhJV3TF7_YLn2E1AAV72Yctc,1064
+STASCAN-1.1.0.dist-info/METADATA,sha256=yMtWYUwfGcdF46EgmusGidYIrgVDJG7m-IZdf_ISXnw,657
+STASCAN-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+STASCAN-1.1.0.dist-info/top_level.txt,sha256=_nB-dz_QXmsDdDbIMdB2Jmory_0hfFUZF-0mx6Q4qpw,8
+STASCAN-1.1.0.dist-info/RECORD,,
