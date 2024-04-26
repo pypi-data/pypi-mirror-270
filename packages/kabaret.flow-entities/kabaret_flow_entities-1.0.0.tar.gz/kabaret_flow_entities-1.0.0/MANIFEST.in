@@ -1,0 +1,3 @@
+include versioneer.py
+include src/kabaret/flow_entities/_version.py
+include CHANGELOG.md
