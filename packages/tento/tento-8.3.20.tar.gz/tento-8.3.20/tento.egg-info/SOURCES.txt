@@ -1,0 +1,13 @@
+README.md
+setup.py
+tento/__init__.py
+tento/invscrit.py
+tento/restore_medals.py
+tento.egg-info/PKG-INFO
+tento.egg-info/SOURCES.txt
+tento.egg-info/dependency_links.txt
+tento.egg-info/top_level.txt
+tento/mod_a/__init__.py
+tento/mod_a/file_a.py
+tento/mod_b/__init__.py
+tento/mod_b/file_b.py
