@@ -1,0 +1,14 @@
+pynvjitlink/VERSION,sha256=CmyNxBSO7YQUmNLCvlRJR6Yvj1DDgbLmS8185ARhzzQ,7
+pynvjitlink/__init__.py,sha256=9pq1Ckko7ILNNbT05DWK_UxDg3U6gF8CmZcxf8rA8Kg,162
+pynvjitlink/_nvjitlinklib.cpp,sha256=pavVmdXacvxIkTcxS3yi9LZnhocd6TO_z3B_FbAxNIQ,10357
+pynvjitlink/_nvjitlinklib.cpython-311-x86_64-linux-gnu.so,sha256=vYAXsh6GUmVc0CwhjSrzCmXJgpccZWX6k3EVwTlPqDU,56248224
+pynvjitlink/api.py,sha256=fswS0Q3RSqdovg2bT6lfJRKMG5p0zmP-jd2EKWABSXk,2931
+pynvjitlink/patch.py,sha256=monsvU6sojXqpjYLI7K4oyHC1tbuNH2S4RxkwFT1jLs,4615
+pynvjitlink/tests/test_patch.py,sha256=47sQkcIsWWMrwHS-ItjO9nVVwrkERmAqXO6t6WiHS0Q,2824
+pynvjitlink/tests/test_pynvjitlink.py,sha256=Tv6AS165Vt7VFQP07LHGMb1EJhN4xoP5aabNfV6SrjU,6653
+pynvjitlink/tests/test_pynvjitlink_api.py,sha256=xSqO88i-4FooihPCbNLVqxlnjVpbIr1NYRf3OAslV74,5376
+pynvjitlink_cu12-0.1.12.dist-info/METADATA,sha256=0iDEWVtv4pxZubxHnS0dRbSQN6JF8x90iG8-jhkxAvw,1278
+pynvjitlink_cu12-0.1.12.dist-info/WHEEL,sha256=0PFQ8qkvzfvIWMD2NjYuBTDv7VWZP6qBOz6m_x6iL-I,117
+pynvjitlink_cu12-0.1.12.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynvjitlink_cu12-0.1.12.dist-info/licenses/LICENSE,sha256=4YCpjWCbYMkMQFW47JXsorZLOaP957HwmP6oHW2_ngM,11348
+pynvjitlink_cu12-0.1.12.dist-info/RECORD,,
