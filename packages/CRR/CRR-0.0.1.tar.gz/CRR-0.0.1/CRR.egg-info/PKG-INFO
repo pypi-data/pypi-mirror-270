@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CRR
+Version: 0.0.1
+Summary: Tool for doing retention rate analysis
+Author: Areg Hovakimyan, Arutiun Dzhilavyan, Karen Sahakyan, Leonid Sarkisyan, Melik Tigranyan
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.10, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# group_project
