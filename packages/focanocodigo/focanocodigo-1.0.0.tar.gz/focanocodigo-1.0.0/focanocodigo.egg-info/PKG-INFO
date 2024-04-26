@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: focanocodigo
+Version: 1.0.0
+Summary: Calculadora simples
+Home-page: https://github.com/vagnerasilva
+Author: vagner a silva
+Author-email: vagnerasilva@email.com.br
+License: MIT
+Project-URL: Código fonte, https://github.com/vagnerasilva
+Project-URL: Download, https://github.com/vagnerasilva
+Keywords: calculadora simples
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE.txt
+
+Calculadora simples para somar, subtrair, dividir e multiplicar.
