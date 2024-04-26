@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: latch-o11y
+Version: 0.1.5
+Summary: Observability for latch python backend services
+Author-Email: maximsmol <max@latch.bio>
+License: CC0-1.0
+Requires-Python: ==3.11.*
+Requires-Dist: latch-config>=0.1.5
+Requires-Dist: opentelemetry-api>=1.15.0
+Requires-Dist: opentelemetry-sdk>=1.15.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc>=1.15.0
+Requires-Dist: orjson>=3.8.5
+Requires-Dist: structlog>=22.3.0
+Description-Content-Type: text/markdown
+
+# python-o11y
