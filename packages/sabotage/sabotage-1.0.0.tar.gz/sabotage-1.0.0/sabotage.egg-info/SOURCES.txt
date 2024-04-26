@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sabotage/__init__.py
+sabotage/_docker_utils.py
+sabotage/_sabotaged_container.py
+sabotage/_sabotaged_network.py
+sabotage/py.typed
+sabotage.egg-info/PKG-INFO
+sabotage.egg-info/SOURCES.txt
+sabotage.egg-info/dependency_links.txt
+sabotage.egg-info/requires.txt
+sabotage.egg-info/top_level.txt
+tests/test_sabotaged_container.py
+tests/test_sabotaged_network.py
