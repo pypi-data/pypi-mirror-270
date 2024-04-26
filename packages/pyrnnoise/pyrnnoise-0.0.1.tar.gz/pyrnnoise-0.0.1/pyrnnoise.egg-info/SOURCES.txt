@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+pyrnnoise/__init__.py
+pyrnnoise/cli.py
+pyrnnoise/librnnoise.so
+pyrnnoise/pyrnnoise.py
+pyrnnoise.egg-info/PKG-INFO
+pyrnnoise.egg-info/SOURCES.txt
+pyrnnoise.egg-info/dependency_links.txt
+pyrnnoise.egg-info/entry_points.txt
+pyrnnoise.egg-info/requires.txt
+pyrnnoise.egg-info/top_level.txt
