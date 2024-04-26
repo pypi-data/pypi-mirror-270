@@ -1,0 +1,4 @@
+[console_scripts]
+redvert = redvert:Initalize
+redvert --learn-more = redvert:LearnMore
+redvert --version = redvert:Version
