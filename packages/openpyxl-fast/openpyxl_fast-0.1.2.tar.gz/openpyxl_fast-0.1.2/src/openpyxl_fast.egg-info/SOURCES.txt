@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/openpyxl_fast.py
+src/openpyxl_fast.egg-info/PKG-INFO
+src/openpyxl_fast.egg-info/SOURCES.txt
+src/openpyxl_fast.egg-info/dependency_links.txt
+src/openpyxl_fast.egg-info/top_level.txt
