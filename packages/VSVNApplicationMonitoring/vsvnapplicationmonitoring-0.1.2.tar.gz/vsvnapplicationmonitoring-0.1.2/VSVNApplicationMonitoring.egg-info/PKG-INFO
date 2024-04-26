@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: VSVNApplicationMonitoring
+Version: 0.1.2
+Summary: Used for integration with Application monitoring systems
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+After add this package, call function "VSVNApplicationMonitoring.run.save" with 2 paramters:
+
+ api_url : the API URL of the Application Monitoring System
+ data_to_send : data for service usage including :
+     service_code : Code of the service
+    mau : number of monthly active users
+    dau : number of daily active users
+    request_count : Number of requests
+    cost : cost of usage 
+For example :
+var dataToSend = new { service_code = "s1", mau = 16, dau = 16, request_count = 16, cost = 16 }; var api_url = "http://localhost:5000";
+If the result has a statusCode of 200, it means the request was successful.
