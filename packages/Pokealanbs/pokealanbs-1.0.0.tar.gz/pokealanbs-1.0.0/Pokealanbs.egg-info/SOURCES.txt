@@ -1,0 +1,10 @@
+README.md
+setup.py
+Pokealanbs.egg-info/PKG-INFO
+Pokealanbs.egg-info/SOURCES.txt
+Pokealanbs.egg-info/dependency_links.txt
+Pokealanbs.egg-info/requires.txt
+Pokealanbs.egg-info/top_level.txt
+pokealan/__init__.py
+pokealan/pokemon.csv
+pokealan/random_pokemon.py
