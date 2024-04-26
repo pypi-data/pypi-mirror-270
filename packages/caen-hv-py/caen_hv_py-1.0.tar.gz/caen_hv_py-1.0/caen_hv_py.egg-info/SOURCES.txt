@@ -1,0 +1,7 @@
+README.md
+setup.py
+caen_hv_py.egg-info/PKG-INFO
+caen_hv_py.egg-info/SOURCES.txt
+caen_hv_py.egg-info/dependency_links.txt
+caen_hv_py.egg-info/top_level.txt
+caen_hv_py/hv_c_lib/libhv_c.so
