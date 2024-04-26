@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nyl
+Version: 0.0.0
+Summary: Nyl facilitates the orchestration of infrastructure and application deployment pipelines across different tools, making them work together in a seamless manner.
+Author-Email: Niklas Rosenstein <rosensteinniklas@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+<p align="center"><img src="./assets/nyl-banner.jpg"></p>
+<h1 align="center"><em>nyl</em></h1>
+<p align="center">
+Nyl facilitates the orchestration of infrastructure and application deployment pipelines across different tools,
+making them work together in a seamless manner.
+</p>
+&nbsp;
+<p align="center"><img src="./assets/nyl-pipeline-schema.png"></p>
