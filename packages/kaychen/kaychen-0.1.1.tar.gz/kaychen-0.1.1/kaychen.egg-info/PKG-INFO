@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kaychen
+Version: 0.1.1
+Summary: This is a web framework build while completing the course https://testdriven.io/courses/python-web-framework/
+Home-page: https://github.com/Keisn1/web-framework-python.git
+Author: Kay Freyer
+Author-email: kay.freyer@icloud.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+
+This is a web framework build while completing the course https://testdriven.io/courses/python-web-framework/
