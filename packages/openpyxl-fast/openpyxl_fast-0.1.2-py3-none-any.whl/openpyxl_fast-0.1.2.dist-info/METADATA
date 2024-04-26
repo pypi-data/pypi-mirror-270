@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: openpyxl_fast
+Version: 0.1.2
+Summary: A small example package
+Author-email: oldman <750985862@qq.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
