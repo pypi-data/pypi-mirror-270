@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pms-onpremise-encoder
+Version: 0.0.6
+Home-page: 
+Author: Heeyong Kwon
+Author-email: heeyong.kwon@4by4inc.com
+Keywords: pms-encoder
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: ffmpeg-python
+Requires-Dist: pms-inference-engine
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: python-dotenv
+Requires-Dist: redis
+Requires-Dist: PyMySQL
