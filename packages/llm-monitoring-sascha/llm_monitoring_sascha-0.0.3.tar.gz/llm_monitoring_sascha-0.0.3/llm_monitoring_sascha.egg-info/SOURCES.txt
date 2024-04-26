@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+llm_monitoring_sascha.egg-info/PKG-INFO
+llm_monitoring_sascha.egg-info/SOURCES.txt
+llm_monitoring_sascha.egg-info/dependency_links.txt
+llm_monitoring_sascha.egg-info/top_level.txt
+monitoring/__init__.py
+monitoring/client.py
