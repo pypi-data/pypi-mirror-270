@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: calculatordsr
+Version: 0.0.2
+Summary: calculator dasar untuk penjumlahan, perkalian, pembagian dan pengurangan
+Home-page: 
+Author: Sidiq Brewstreet
+Author-email: 
+License: GPL 2+
+Keywords: calculator
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+setup.py
+calculatordasar/__init__.py
+calculatordsr.egg-info/PKG-INFO
+calculatordsr.egg-info/SOURCES.txt
+calculatordsr.egg-info/dependency_links.txt
+calculatordsr.egg-info/requires.txt
+calculatordsr.egg-info/top_level.txt
