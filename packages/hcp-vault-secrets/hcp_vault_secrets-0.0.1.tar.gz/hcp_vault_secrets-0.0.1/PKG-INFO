@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: hcp-vault-secrets
+Version: 0.0.1
+Summary: Python module to implement the the Hashicorp Cloud Platform vault secrets API
+Project-URL: Homepage, https://github.com/JustinBatchelor/red-hat-assisted-installer
+Project-URL: Issues, https://github.com/JustinBatchelor/red-hat-assisted-installer/issues
+Author-email: Justin Batchelor <justinrossbatchelor@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# hcp-vault-secrets
