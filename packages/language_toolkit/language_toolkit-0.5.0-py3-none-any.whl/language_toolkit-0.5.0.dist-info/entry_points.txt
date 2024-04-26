@@ -1,0 +1,3 @@
+[console_scripts]
+hello-world=language_toolkit.utils:hello
+
