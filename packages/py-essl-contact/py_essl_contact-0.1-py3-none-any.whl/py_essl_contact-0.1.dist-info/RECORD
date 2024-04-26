@@ -1,0 +1,11 @@
+py-essl-contact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py-essl-contact/schema.py,sha256=GmBXiUpIEWXRfQnUv2nfoYDiTaAhUxadRvqGrJ7v2OA,2723
+py-essl-contact/service.py,sha256=RPSLkjhegSYkI9NxVQhNre6EVXluDmFyN-G1u4IRvso,1396
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_copyright.py,sha256=5yB66Ssl_VmbFX16ZE2DMAxuuo6i3aplLq5GS0SfpI0,1621
+tests/test_service.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_essl_contact-0.1.dist-info/LICENSE,sha256=cbTw_smyBX7gxXEvS6fS6--y_wN9i-6OqDHN9VY4g1g,1072
+py_essl_contact-0.1.dist-info/METADATA,sha256=UdujK70bmD2VcNyPkeUIX5R77m-h6Sq548tVi3BMvHg,478
+py_essl_contact-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+py_essl_contact-0.1.dist-info/top_level.txt,sha256=uzfYpUa_Yv4Efjad6hgSZHTTh2h7rLONvGHZenXLslI,22
+py_essl_contact-0.1.dist-info/RECORD,,
