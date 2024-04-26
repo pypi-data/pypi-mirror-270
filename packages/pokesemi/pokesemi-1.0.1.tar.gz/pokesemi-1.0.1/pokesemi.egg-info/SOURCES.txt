@@ -1,0 +1,10 @@
+README.md
+setup.py
+pokesemi/__init__.py
+pokesemi/pokemon.csv
+pokesemi/random_pokemon.py
+pokesemi.egg-info/PKG-INFO
+pokesemi.egg-info/SOURCES.txt
+pokesemi.egg-info/dependency_links.txt
+pokesemi.egg-info/requires.txt
+pokesemi.egg-info/top_level.txt
