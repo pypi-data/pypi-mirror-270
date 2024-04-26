@@ -1,0 +1,8 @@
+spkdevtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spkdevtools/s3_utils.py,sha256=jkkdRrAXxvw7qYXPlzgZd713ba2rWPsuStLGal4ufwg,1293
+spkdevtools/sso_utils.py,sha256=wRi-DT_G9p0N2fDVyb4fE6khljaSmrq8fuNsFQU88yY,5767
+spkdevtools-0.1.0.dist-info/METADATA,sha256=pzJNJvalYQ-Mu5Q5stW8A8zfkT1ORxWx1052EtWwqyM,336
+spkdevtools-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+spkdevtools-0.1.0.dist-info/entry_points.txt,sha256=RyKD51O6dBXcHrrS-xsRhBsly2lfRH4LHO7hNFeTmPY,50
+spkdevtools-0.1.0.dist-info/top_level.txt,sha256=kJuLTozxAav-uE4HJrx_eW4e3NTVoeziEAtxNzC4HE0,12
+spkdevtools-0.1.0.dist-info/RECORD,,

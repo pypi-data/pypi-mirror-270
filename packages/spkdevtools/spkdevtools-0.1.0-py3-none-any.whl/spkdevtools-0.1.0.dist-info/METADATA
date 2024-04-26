@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spkdevtools
+Version: 0.1.0
+Summary: Developer tools for interacting with SSO and S3 resources
+Author-email: David Hanna <david.hanna@kickstepinc.com>
+Project-URL: Homepage, https://github.com/dahannajr/spkdevtools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 >=1.26.0
+
