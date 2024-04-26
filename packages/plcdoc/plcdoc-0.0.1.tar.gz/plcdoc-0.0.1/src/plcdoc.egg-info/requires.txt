@@ -1,0 +1,12 @@
+sphinx<7.0,>=5.0
+textX>=3.0
+
+[doc]
+sphinx_rtd_theme>=1.4
+
+[test]
+black>=23.0
+pytest>=6.0
+pytest-cov>=4.0
+flake8>=6.0
+flake8-bugbear>=23.0

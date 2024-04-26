@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plcdoc"
+version = "0.0.1"
+authors = [
+  { name="Robert Roos", email="robert.soor@gmail.com" },
+]
+description = "A tool to create PLC documentation for Sphinx"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "sphinx>=5.0,<7.0",
+    "textX>=3.0",
+]
+[project.optional-dependencies]
+test = [
+    "black>=23.0",
+    "pytest>=6.0",
+    "pytest-cov>=4.0",
+    "flake8>=6.0",
+    "flake8-bugbear>=23.0",
+]
+doc = [
+    "sphinx_rtd_theme>=1.4",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DEMCON/plcdoc"
+"Bug Tracker" = "https://github.com/DEMCON/plcdoc/issues"
+"Documentation" = "https://plc-doc.readthedocs.io/latest/"
+
+[tool.setuptools.package-data]
+"*" = ["*.tx"]
