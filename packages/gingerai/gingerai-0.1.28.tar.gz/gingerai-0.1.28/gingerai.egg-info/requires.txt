@@ -1,0 +1,8 @@
+torch
+torchsummary
+numpy
+requests
+tqdm
+grequests
+joblib
+io
