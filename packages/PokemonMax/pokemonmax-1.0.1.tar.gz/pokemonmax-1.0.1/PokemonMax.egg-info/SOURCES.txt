@@ -1,0 +1,9 @@
+README.md
+setup.py
+PokemonMax.egg-info/PKG-INFO
+PokemonMax.egg-info/SOURCES.txt
+PokemonMax.egg-info/dependency_links.txt
+PokemonMax.egg-info/requires.txt
+PokemonMax.egg-info/top_level.txt
+pokemonmax/__int__.py
+pokemonmax/random_pokemon.py
