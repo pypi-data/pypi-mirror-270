@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lucide-py"
+version = "0.1.0"
+description = "A Lucide icon library package for Python applications"
+authors = ["Basri <h@basri.me>"]
+license = "ISC"
+readme = "README.md"
+packages = [{include = "lucide"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ludic = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
