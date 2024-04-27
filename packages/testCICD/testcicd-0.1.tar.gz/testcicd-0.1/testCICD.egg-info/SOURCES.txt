@@ -1,0 +1,8 @@
+main.py
+my_math.py
+setup.py
+test_my_math.py
+testCICD.egg-info/PKG-INFO
+testCICD.egg-info/SOURCES.txt
+testCICD.egg-info/dependency_links.txt
+testCICD.egg-info/top_level.txt
