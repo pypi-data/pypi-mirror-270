@@ -1,0 +1,61 @@
+# milvus_api
+
+`milvus_api` is a Python library that primarily provides functionalities to manage databases, including creating collections, inserting data, and searching.
+
+## Installation
+
+This project depends on several Python libraries. Use the following command to install the necessary libraries:
+
+```bash
+pip install pymilvus==2.4.0 milvus-model==0.2.0 pydantic==2.7.0 tqdm==4.66.2 FlagEmbedding==1.2.9 torch==2.2.2 numpy==1.24.4
+```
+
+## Usage Examples
+### Creating a Database Collection
+
+Here's how to create a new database collection using `milvus_api`:
+```
+from milvus_api.db_model.milvus_db import MilvusDB
+from pymilvus import FiledSchema, DataType
+
+host = 'localhost'
+port = '19530'
+db = MilvusDB(host, port)
+
+fields = [  
+    FieldSchema(name="id", dtype=DataType.INT64, auto_id=True, is_primary=True),
+    FieldSchema(name="embeddings", dtype=DataType.FLOAT_VECTOR, dim=1024)
+]
+
+db.create_collection("my_collection", 1000, fields, "FLAT", "COSINE")
+```
+
+### Data Encoding Using the Model
+Here's how to perform query encoding using the embedding model in `milvus_api`:
+
+```
+from milvus_api.embed_model.bgem3 import PyMilvusBGEM3
+
+query = ["Are you afraid of the earthquake"]
+model_name = 'bgem3_model'
+
+# Initialize the model
+bgem3 = PyMilvusBGEM3(model_name)
+results = bgem3.encode(query)
+```
+## Release Note
+- 0.1.4: (BugFix): Fix the logic error when do `search` operation.
+- 0.1.3: (BugFix): Fix the error caused by the non-specific `field` argument during creating collection.
+- 0.1.2: (BugFix): Cancel partial information of `info` function.
+- 0.1.1: Modify this project structure to ensure that users can import 'milvus_api' normally.
+
+
+
+## Contributions
+Thanks to all developers who contributed to this project. If you would like to contribute code, please follow the existing code style and submit a pull request.
+
+## Copyright and License
+This project is licensed under the [Apache License 2.0.](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Other Information
+This `README.md` file is now complete, including an introduction to the project, installation instructions, usage examples, contribution guidelines, and copyright and licensing information. You can save this content as the `README.md` file in the root directory of your project. If you need further modifications or wish to add additional information, feel free to let me know!
