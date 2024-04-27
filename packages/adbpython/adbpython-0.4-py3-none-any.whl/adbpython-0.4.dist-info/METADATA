@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: adbpython
+Version: 0.4
+Description-Content-Type: text/x-rst
+
+adbpython
+=========
+
+Python ADB Modul
+
+Install
+-------
+
+.. code-block:: bash
+
+   pip install adbpython
+
+use
+---
+
+.. code-block:: python
+
+   import adbpython as adb
