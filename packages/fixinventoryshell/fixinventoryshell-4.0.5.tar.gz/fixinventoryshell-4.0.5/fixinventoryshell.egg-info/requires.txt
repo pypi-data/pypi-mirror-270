@@ -1,0 +1,5 @@
+fixinventorylib==4.0.5
+prompt-toolkit
+rich
+fixinventoryclient
+aiohttp[speedups]
