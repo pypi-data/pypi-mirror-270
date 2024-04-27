@@ -1,0 +1,11 @@
+[package]
+name = "pawz_core"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+name = "pawz_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.1"
