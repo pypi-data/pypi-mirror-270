@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sttpg-qats
+Version: 1.0.0
+Summary: sttpg package used in QATS
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: re
+Requires-Dist: math
+Requires-Dist: typing
+Requires-Dist: abc
+Requires-Dist: dataclasses
+Requires-Dist: uuid
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2
+Requires-Dist: copy
+Requires-Dist: logging
+Requires-Dist: time
+Requires-Dist: pathlib
+Requires-Dist: sys
+Requires-Dist: platform
+Requires-Dist: contextlib
+Requires-Dist: toml
+
+UNKNOWN
+
