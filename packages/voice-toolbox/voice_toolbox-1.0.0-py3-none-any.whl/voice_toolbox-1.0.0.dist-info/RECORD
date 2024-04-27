@@ -1,0 +1,8 @@
+voice_toolbox/__init__.py,sha256=49Pql8vHjcB2OKIZIDPBFgl6KsucQqix9v5HjexUwUE,68
+voice_toolbox/feature_extraction.py,sha256=RRHAkj1FQwYNtWyETFMD_B-sNry701bMuGIYBmPGixE,4647
+voice_toolbox/parsel_process.py,sha256=EzzAoLNK9qUMJfQfs1FoEAj99KbZkccuIHCgL3TcLQA,15505
+voice_toolbox-1.0.0.dist-info/METADATA,sha256=L7k2wyAssORdyXMosyhCOZv4AQZl8CQpkJ-ofkE_Hf8,2798
+voice_toolbox-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+voice_toolbox-1.0.0.dist-info/entry_points.txt,sha256=Z1mDHLe_wW462A0DiCRTSN3dWaODVVkwMSjfwGnCMbw,72
+voice_toolbox-1.0.0.dist-info/top_level.txt,sha256=Gfd-bPEN-ReWJgnXXI8C9AndhVwDQXS5eB10YdbHnP4,14
+voice_toolbox-1.0.0.dist-info/RECORD,,

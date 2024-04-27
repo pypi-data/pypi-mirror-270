@@ -1,0 +1,2 @@
+[console_scripts]
+feature_extraction = feature_extraction.__main__:main
