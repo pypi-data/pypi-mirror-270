@@ -1,0 +1,5 @@
+loguru==0.7.2
+pydantic==2.6.4
+pyjsonpath==1.2.3
+
+[tests]
