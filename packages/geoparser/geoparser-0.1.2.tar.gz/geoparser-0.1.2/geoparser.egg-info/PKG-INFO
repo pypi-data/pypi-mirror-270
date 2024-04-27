@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: geoparser
+Version: 0.1.2
+Summary: A geoparsing library for English texts
+Author: Diego Gomes
+Author-email: diego.gomes@uzh.ch
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geoparser
+A geoparsing library for English texts
