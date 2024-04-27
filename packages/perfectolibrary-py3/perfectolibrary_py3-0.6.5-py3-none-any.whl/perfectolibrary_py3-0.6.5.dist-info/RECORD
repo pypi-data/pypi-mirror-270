@@ -1,0 +1,17 @@
+PerfectoLibrary/__init__.py,sha256=n1UY47SWg0-rXslNKnUVl06EhGmgistprw-XaGakpL4,1587
+PerfectoLibrary/version.py,sha256=M6KawFgpNNTltDdIcewG94e-vnTlisiDn7aB_ioKV3E,42
+PerfectoLibrary/keywords/__init__.py,sha256=oAYAS7zdLijS2-YLTqUVI2axUcm92HrdCmXq7dzKXgs,208
+PerfectoLibrary/keywords/_devices.py,sha256=2L4IPdQ-bMnXXlJgt7lnjjHhECz9UohNAAniK5VGmBc,13355
+PerfectoLibrary/keywords/_general.py,sha256=3W78Ly-6KsqmeSgAX3kDg0D_Ln4cmIRRrnwH3OtH_HU,9349
+PerfectoLibrary/keywords/_rest_acts.py,sha256=iXq5DMJyuAnfEi25c-gPnqZq6kU231o11O3ErbrR3-Y,4553
+PerfectoLibrary/keywords/keywordgroup.py,sha256=5eya4DyybDDYuVTIKusQlOBgP-rdxahds83g4l3dRYs,997
+PerfectoLibrary/listeners/__init__.py,sha256=CkokN7OGbDDZYup-Gmi1DEY9GyVgxzrsk2XwoCZ5NE4,108
+PerfectoLibrary/listeners/_perfectoListener.py,sha256=az0dK1Wh7cc6JpI09whf6-SfSMKHczbgn0lOiOt3b3g,13425
+PerfectoLibrary/listeners/data/excluded_reporting_keywords.json,sha256=CfKpSt6D3pYOkcxW_I3FRlf8_0Sp55KYCMkX9Zfay58,281
+PerfectoLibrary/listeners/data/failure_reasons.json,sha256=QliuB-tGkElsILIkPSJR2NkLz688NYdVSoZ-sxEiInE,5595
+perfectolibrary_py3-0.6.5.data/data/excluded_reporting_keywords.json,sha256=CfKpSt6D3pYOkcxW_I3FRlf8_0Sp55KYCMkX9Zfay58,281
+perfectolibrary_py3-0.6.5.data/data/failure_reasons.json,sha256=QliuB-tGkElsILIkPSJR2NkLz688NYdVSoZ-sxEiInE,5595
+perfectolibrary_py3-0.6.5.dist-info/METADATA,sha256=0RizX6t8Hey-pMd5kbNpnltjCNHADmxKjcBx6cdvDC4,1171
+perfectolibrary_py3-0.6.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+perfectolibrary_py3-0.6.5.dist-info/top_level.txt,sha256=7iurJ6QiT8HpLoqKGESj6EVGrmeDbl-5-pwPlrwG2d0,16
+perfectolibrary_py3-0.6.5.dist-info/RECORD,,
