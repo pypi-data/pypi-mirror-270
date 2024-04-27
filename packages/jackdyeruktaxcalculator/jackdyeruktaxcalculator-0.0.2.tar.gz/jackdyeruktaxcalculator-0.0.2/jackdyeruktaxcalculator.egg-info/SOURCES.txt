@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jackdyeruktaxcalculator.egg-info/PKG-INFO
+jackdyeruktaxcalculator.egg-info/SOURCES.txt
+jackdyeruktaxcalculator.egg-info/dependency_links.txt
+jackdyeruktaxcalculator.egg-info/top_level.txt
+source/__init__.py
+source/income_calculator.py
+test/__init__.py
+test/test_income_calculator.py
