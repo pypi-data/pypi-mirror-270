@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+sortedintersect/__init__.py
+sortedintersect/sintersect.cpp
+sortedintersect/sintersect.cpython-310-darwin.so
+sortedintersect/sintersect.hpp
+sortedintersect/sintersect.pyx
+sortedintersect.egg-info/PKG-INFO
+sortedintersect.egg-info/SOURCES.txt
+sortedintersect.egg-info/dependency_links.txt
+sortedintersect.egg-info/top_level.txt
+tests/test_sortedintersect.py
