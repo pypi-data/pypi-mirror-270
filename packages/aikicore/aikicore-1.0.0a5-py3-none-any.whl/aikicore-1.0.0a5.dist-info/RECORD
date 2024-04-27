@@ -1,0 +1,10 @@
+aikicore/__init__.py,sha256=5i5kY3YZ1JIZK9ICg5pii_lL3sDYWbLD5P-0UdXPsUY,2434
+aikicore/constants.py,sha256=JDI2_kCIN_h6lvun94GZRCWoGo7Kot2053vDGyUTF9M,559
+aikicore/config/__init__.py,sha256=oR0ijQZ6JPDXombycuSU-anjeeuyMO2a3x9ZirS-ZbY,3115
+aikicore/config/json.py,sha256=CCWJ-91ZsUNQTN4lF66rjrf5NNxpbCKmrz6KXVv-cPQ,306
+aikicore/config/yaml.py,sha256=QUv5smprss_C27iuOcSZ1ttIf02IHi3XkpRNo7ImM_k,407
+aikicore-1.0.0a5.dist-info/LICENSE,sha256=HWnAXBvymkvvJdZ5vRNsNCCqCXWmrt2PCJhFgJ-w_Cg,1509
+aikicore-1.0.0a5.dist-info/METADATA,sha256=2j5pBBP3Gpn3hkb5ADGcnCHZvTAKsgyv2Ix8QMhZ6NM,394
+aikicore-1.0.0a5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+aikicore-1.0.0a5.dist-info/top_level.txt,sha256=J7iC3VWD2_khzLPuRvvBUwfNNLkDdGTF-f2FpLQnEWs,9
+aikicore-1.0.0a5.dist-info/RECORD,,
