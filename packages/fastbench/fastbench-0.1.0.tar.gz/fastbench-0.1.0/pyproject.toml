@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastbench"
+version = "0.1.0"
+description = "A pure-python based benchmarking package for Python 🤪"
+authors = ["Adarsh Gourab Mahalik <gourabmahalikadarsh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psutil = "^5.9.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
