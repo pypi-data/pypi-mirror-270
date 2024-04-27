@@ -1,0 +1,15 @@
+backlooper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backlooper/__main__.py,sha256=hpyviACUXrQ_wy9q5hX3J7sM9HJCrHvxXVIo54co2Uo,5235
+backlooper/_clicktrack.py,sha256=MoRaHjulxjj5jEZyo6o4BgGJEmCDFMD3Mr_9Wb9g6CM,634
+backlooper/audio.py,sha256=ZTqGMG4Cp_f7fGCtHqHjqt0l8B18L0XWciIsgvBGSvs,14112
+backlooper/config.py,sha256=Pj20-bMXb1zoS5x3dVa6F18wrYFXtkq8oMrvbZh3SF4,958
+backlooper/session.py,sha256=Dg_O3Sr3U-KoHpoBDQKQYF1aKqxCw2ruSeWEjBdRTbg,17986
+backlooper/striped_storage.py,sha256=uqxFJ1LK1g48EFt3XRpsJ2MFKahpLMOZJ3FXvoteRys,7544
+backlooper/samples/hi_hat.wav,sha256=OY1w67IWBtQj-LHZ63SOtJ7gTHUN3cEuFaLvMkKajGg,35440
+backlooper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backlooper/tests/test_striped_storage.py,sha256=ZZ0jaakZgrae1yILah5tKoBhpuJw4b2oIwNSiN2fRQ4,7458
+backlooper-0.0.0.dist-info/LICENSE,sha256=H2_qxCvtrOPcBypcrJ0ikstLhdbSRIfIt5NOxvHAihE,1093
+backlooper-0.0.0.dist-info/METADATA,sha256=Vfoi-W25sjLrrXxNNJWYIOa65b8WYOJJrGbh0Z9Vamc,1396
+backlooper-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+backlooper-0.0.0.dist-info/top_level.txt,sha256=e1wjzaHz960jzkd5OiX1SGm1SzKiYOirYIzBbctlsjE,11
+backlooper-0.0.0.dist-info/RECORD,,
