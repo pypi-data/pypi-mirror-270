@@ -1,0 +1,15 @@
+fairret/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairret/metric.py,sha256=m3mZtiwEPoHmAEI2bbILOwgjejVMMXRe33kfRqyotHI,6444
+fairret/utils.py,sha256=Aev5P_yHkrFI3RTrZtyfXvIs_LLbAQX8jnlx0xlmpaU,567
+fairret/loss/__init__.py,sha256=MY1XwkzjVZXV7MG6hfZL0tfX2HKKVKmPFlspVcctMZ4,275
+fairret/loss/base.py,sha256=KwrvUZx03Y-5DhySZ6o_l3OTxS9ZCvnbGKRjDmebvPs,1384
+fairret/loss/projection.py,sha256=NN6ZI98DXJuMPlFmmI6HtXyn3OLuEqGrsQ07wLy0r6g,18038
+fairret/loss/violation.py,sha256=UjhS-OU9oZdo31EH7xxdAA_REZgjEcI0ojsIbF3yfgQ,5275
+fairret/statistic/__init__.py,sha256=0OKNRl_WNj_81f_hzivjyv6rrwiIlADDOJE5FoNfylc,312
+fairret/statistic/base.py,sha256=a1wvGs106kqaIjsS53HyoaBlrMsqZUyz4FrX9ReRr4s,1146
+fairret/statistic/linear_fractional.py,sha256=H5rHMjKayZnEut7a-bZXCcG1wVX8Huvxiv5qC7ki9VY,26564
+fairret-0.1.3.dist-info/LICENSE,sha256=8ieFXHUk5GgikCDqHextsOJW1pbOq28C1ZUyecmIxao,1120
+fairret-0.1.3.dist-info/METADATA,sha256=OyL5xJTkImAAMtyi2XqCVeL4MIQ77HXRPa1Xj4U61is,5758
+fairret-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fairret-0.1.3.dist-info/top_level.txt,sha256=lGogFuS5P5X1sGu5M-E9J46iPxcnJ8ibIYM2R5e9Hds,8
+fairret-0.1.3.dist-info/RECORD,,
