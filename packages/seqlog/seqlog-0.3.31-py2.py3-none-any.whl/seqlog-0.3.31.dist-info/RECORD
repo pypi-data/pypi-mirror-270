@@ -1,0 +1,10 @@
+seqlog/__init__.py,sha256=qpmp-Bqge5NsLraOVgCfTafdCXs9f8UX3zwui8pz_t4,9428
+seqlog/consumer.py,sha256=YtrCeOjgLt3dMFwvU5k-w2CDfkNtW-BuncfUN3UTraU,5596
+seqlog/feature_flags.py,sha256=-nXRW1pfJ65A5HkEDqa3sKqrk6h6SNzURK9yOvGfCwg,1977
+seqlog/structured_logging.py,sha256=3O-_vujWofXn3c5M0YhJcovkq4sgvZ3tnfHPzUwQuvU,23459
+seqlog-0.3.31.dist-info/AUTHORS.rst,sha256=9JiyFxPudCwC5Z-je9f-EV51TGWKUJi6-Twu0XI1Bjs,175
+seqlog-0.3.31.dist-info/LICENSE,sha256=_kGbY46El7qIQcy1dHwBgFA3LIhIvaOwnLx1xWpKAyQ,1073
+seqlog-0.3.31.dist-info/METADATA,sha256=1meZXvG8nJ0S9vxrmqnvA3FIV-_j2ygaBZta5b0fXWA,6208
+seqlog-0.3.31.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+seqlog-0.3.31.dist-info/top_level.txt,sha256=Mb4oncs1PIjMSGFqZOloQLyq-9Y4UKy8NVlCATna5eY,7
+seqlog-0.3.31.dist-info/RECORD,,
