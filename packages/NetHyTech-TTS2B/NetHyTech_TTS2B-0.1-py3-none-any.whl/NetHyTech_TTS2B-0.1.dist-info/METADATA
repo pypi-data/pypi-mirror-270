@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: NetHyTech-TTS2B
+Version: 0.1
+Summary: Text To Speech In British Brian Voice
+Home-page: https://github.com/AnubhavChaturvedi-GitHub/NetHyTech-TTS.git
+Author: Anubhav Chaturvedi
+Author-email: chaturvedianubhav520@example.com
+Project-URL: Source Code, https://github.com/AnubhavChaturvedi-GitHub/NetHyTech-TTS.git
+Project-URL: Demo Video, https://www.youtube.com/channel/UC7YDMgu0dMRZotLMuB3oEcQ
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: chromedriver-autoinstaller
+
+# NetHyTech-TTS2
+
+NetHyTech-TTS2 is a Python package that utilizes Selenium to interact with a web page and convert text to speech using the ReadLoud.net service.
+
+## Installation
+
+You can install NetHyTech-TTS2 and its dependencies using pip:
+
+```bash
+pip install NetHyTech-TTS2
+```
+
+This will automatically install Chrome WebDriver, Selenium, and other required packages.
+
+## Usage
+
+1. Import the `Speak` function from `NetHyTech_TTS2` module in your Python script:
+
+```python
+from NetHyTech_TTS2 import Speak
+```
+
+2. Call the `Speak` function with the text you want to convert to speech:
+
+```python
+Speak("Hello, world!")
+```
+
+3. The script will automatically navigate to the ReadLoud.net webpage, input the text, and play the generated audio.
+
+## Dependencies
+
+- Chrome WebDriver (automatically installed)
+- Chrome browser
+- Selenium
+
+## Note
+
+This script is designed to work with a specific web page for text-to-speech conversion. If the web page structure changes, you may need to modify the script accordingly.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/yourusername/NetHyTech-TTS2).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
