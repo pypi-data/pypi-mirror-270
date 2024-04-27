@@ -1,0 +1,11 @@
+snapmap_archiver/__init__.py,sha256=jbew7qSN-CojWCxpek22N2CI2GJfm9Iyj2dGyEo0AGk,2179
+snapmap_archiver/__main__.py,sha256=_jDgRt3MYkpASgih3lJ1s_kLjcAWJDwyXWi8NlhCM0U,84
+snapmap_archiver/coordinates.py,sha256=vXuWmJQmUKQvqbi9gxar7Z4GO1P61ngXzN9Qz48NgGc,599
+snapmap_archiver/snap.py,sha256=_NfgD4ujFvd-bdzQPDJs7f5lYr01ybqHdkC01tO3Vv8,283
+snapmap_archiver/SnapmapArchiver.py,sha256=ER5nrJA8PkvWnbkY_BY_CxQrCRE3h_pbgoNcktK_2nE,9360
+snapmap_archiver/time.py,sha256=vfcujR4ciy1J1JfpDdtJXumtLVQEkGAbrn6DMYdoMHI,520
+snapmap_archiver-2.2.0.dist-info/entry_points.txt,sha256=4p2UYeNi93-jra9VIqrC8fYVLFECtgUzMQSov3YpuwE,58
+snapmap_archiver-2.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+snapmap_archiver-2.2.0.dist-info/METADATA,sha256=pPLH2gF1Ewcc9AnSKSK4tS5Ujlv9lKHC9dyPu005_ZY,2744
+snapmap_archiver-2.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+snapmap_archiver-2.2.0.dist-info/RECORD,,
