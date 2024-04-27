@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: vbimage
+Version: 0.1.43
+Summary: Added contrast to increase the contrast of the image
+Author: vaibhavblayer
+Author-email: vaibhavblayer@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pillow (>=10.3.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+## vbimage is a CLI tool for basic manipulation of images
+
+### Install using pip
+
+```
+pip install vbimage
+```
+
+### Usage
+```
+vbimage -h
+```
+
+```
+Usage: vbimage [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  blur      Adds background to any transparent image
+  grid      Adds background to any transparent image
+  layer     Replaces any color with other color.
+  pixelate  Pixelates any image.
+  removebg  Adds background to any transparent image
+  render    Creates an image using given size and color.
+  stack     Adds background to any transparent image
+```
+
+### Subcommands Usage
+```
+vbimage grid -h
+```
+```
+Usage: vbimage grid [OPTIONS]
+
+  Adds background to any transparent image
+
+Options:
+  -i, --inputimage PATH           Front Image  [default: ./main.png]
+  -o, --outputimage PATH          Resized output image  [default:
+                                  ./main_grided.png]
+  -s, --step <INTEGER INTEGER>...
+                                  Number of division.  [default: 10, 10]
+  -S, --stroke_width INTEGER      Stroke width of the lines.  [default: 2]
+  -h, --help                      Show this message and exit.
+```
+
