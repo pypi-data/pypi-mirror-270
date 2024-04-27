@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+CodeBat.egg-info/PKG-INFO
+CodeBat.egg-info/SOURCES.txt
+CodeBat.egg-info/dependency_links.txt
+CodeBat.egg-info/requires.txt
+CodeBat.egg-info/top_level.txt
