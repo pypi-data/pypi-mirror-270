@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+src/pydanticutils/__init__.py
+src/pydanticutils/yaml.py
+src/pydanticutils.egg-info/PKG-INFO
+src/pydanticutils.egg-info/SOURCES.txt
+src/pydanticutils.egg-info/dependency_links.txt
+src/pydanticutils.egg-info/requires.txt
+src/pydanticutils.egg-info/top_level.txt
