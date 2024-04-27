@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: itipy
+Version: 0.1
+Summary: Package for translation between image domains of different astrophysical instruments.
+Home-page: https://github.com/RobertJaro/InstrumentToInstrument
+Author: Robert Jarolim
+Author-email: 
+License: GNU GENERAL PUBLIC LICENSE
+License-File: LICENSE
