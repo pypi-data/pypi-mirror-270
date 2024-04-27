@@ -1,0 +1,17 @@
+# Ignore the build and folders
+build/
+dist/
+thornpy.egg-info
+
+# Ignore all pycache files
+__pycache__/
+*/__pycache__/
+
+# VS Code Files
+.vscode/
+/env
+/demo.py
+thornpy/arcarc.pkl
+**.ipynb
+stubs
+typings
