@@ -1,0 +1,9 @@
+deconfig/__init__.py,sha256=BdAeGF-T8vQmKhqF1RtjY-zKMIuFa7pD5GJIanRHxLM,7052
+deconfig/__version__.py,sha256=E_S56VrKQf5zIChL4O6RKiv_Fn56VwO_ElTUSp101OM,145
+deconfig/core.py,sha256=TsBARMczfvQPEUMXyObUZ4tHZ3GwDS5ApsH77dT34T0,10953
+deconfig/transformer.py,sha256=cIRQ_pauaoEK1m_Re1I0sqTDMLurkG2KjCHegPLecU4,1670
+deconfig-0.1.0.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+deconfig-0.1.0.dist-info/METADATA,sha256=ORE7iXTBAkl68UZXsyIL4orNkgFeQW5EwMoMUZjZTWo,4169
+deconfig-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+deconfig-0.1.0.dist-info/top_level.txt,sha256=OZHzd1UmXlj7iebo8IWf_NOGWBshlAN2fl3qtgMDNy4,9
+deconfig-0.1.0.dist-info/RECORD,,
