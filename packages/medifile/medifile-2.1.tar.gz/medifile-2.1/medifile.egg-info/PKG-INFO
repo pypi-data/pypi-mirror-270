@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: medifile
+Version: 2.1
+Summary: The library works to speed up the users script and the server
+Author: Osama
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt

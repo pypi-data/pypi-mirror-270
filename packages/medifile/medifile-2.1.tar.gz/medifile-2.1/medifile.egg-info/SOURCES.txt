@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+medifile.egg-info/PKG-INFO
+medifile.egg-info/SOURCES.txt
+medifile.egg-info/dependency_links.txt
+medifile.egg-info/top_level.txt
