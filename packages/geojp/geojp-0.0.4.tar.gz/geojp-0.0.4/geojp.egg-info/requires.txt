@@ -1,0 +1,8 @@
+numpy
+ipyleaflet
+
+[all]
+geojp[extra]
+
+[extra]
+pandas
