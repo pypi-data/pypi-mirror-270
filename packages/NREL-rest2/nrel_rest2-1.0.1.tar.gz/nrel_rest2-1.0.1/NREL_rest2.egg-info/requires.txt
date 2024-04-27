@@ -1,0 +1,12 @@
+NREL-farms>=1.0.0
+numpy>=1.17
+h5py!=3.0.0,>=2.10.0
+
+[dev]
+pytest>=5.2
+flake8
+pre-commit
+pylint
+
+[test]
+pytest>=5.2
