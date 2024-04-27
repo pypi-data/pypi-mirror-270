@@ -1,0 +1,16 @@
+bpy_addon_build/__init__.py,sha256=T1aU_vTB0FHIQ6PeuDXacWjD0i3CdD69edc2btT4XFA,2931
+bpy_addon_build/api/__init__.py,sha256=Ai1sn0rMRtuAKkZ7EiBziLoVGooM2sgkxkaeS-jVrKQ,2421
+bpy_addon_build/args.py,sha256=dDlKfyawGypdDVOiPHU70vL4_qg8hZSQbLyah_pCuCA,4362
+bpy_addon_build/build_context/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bpy_addon_build/build_context/build.py,sha256=e3LoModONOHh4xworO0Dx1-bwzVJLFPfo2ZRWD9VB4c,2095
+bpy_addon_build/build_context/core.py,sha256=Xcz1fD0GNw8DuaHiz4N4yaxBB_vvkEwBfmN41g6qVZw,1083
+bpy_addon_build/build_context/hook_definitions.py,sha256=6VCaMIqHgMlyWY9idXdi_o8fFNEE6R3ZvajlQXEI5d4,6783
+bpy_addon_build/build_context/hooks.py,sha256=lQlV6EcMVQ2QyJgS-ddXQUqNmyfZTdRKdMJIVfo_psQ,1595
+bpy_addon_build/build_context/install.py,sha256=DLBQ_LgfGhA7RDn4UhBcW6bYhFe_LyS8wPzBFW3t7vM,1706
+bpy_addon_build/config.py,sha256=XWKB3_MdG7bVULLYd1FfAApel7GI36tMnQvAT8syces,1296
+bpy_addon_build/util.py,sha256=bWMy18qG74d8TPa4eQUwJzgNpeeBeZfXMr-NHhtzhhI,491
+bpy_addon_build-0.4.0.dist-info/LICENSE,sha256=Iv9IHnE7Tmp3M_C3nBuXziv8B-1F-sDYCGQFmy5UPww,1499
+bpy_addon_build-0.4.0.dist-info/METADATA,sha256=GLQYHOfjoxbPtlstFRvlLAfj7IqVhpRxbgkvX_Xpzp0,823
+bpy_addon_build-0.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bpy_addon_build-0.4.0.dist-info/entry_points.txt,sha256=Xj19-6y79wCE7SjbF4QksrTWAlKQjKxmo15lB5WRL3Q,44
+bpy_addon_build-0.4.0.dist-info/RECORD,,
