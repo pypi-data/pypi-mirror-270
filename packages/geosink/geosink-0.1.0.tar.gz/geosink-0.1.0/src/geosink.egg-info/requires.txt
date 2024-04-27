@@ -1,0 +1,15 @@
+scipy
+numpy
+
+[dev]
+black
+pylint
+pytest
+isort
+scanpy
+pygsp
+pytest-memray
+
+[graph]
+scanpy
+pygsp

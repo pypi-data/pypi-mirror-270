@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/geosink/__init__.py
+src/geosink/cheb_approx.py
+src/geosink/heat_kernel.py
+src/geosink/sinkhorn.py
+src/geosink.egg-info/PKG-INFO
+src/geosink.egg-info/SOURCES.txt
+src/geosink.egg-info/dependency_links.txt
+src/geosink.egg-info/requires.txt
+src/geosink.egg-info/top_level.txt
+tests/test_conv.py
+tests/test_heat.py
