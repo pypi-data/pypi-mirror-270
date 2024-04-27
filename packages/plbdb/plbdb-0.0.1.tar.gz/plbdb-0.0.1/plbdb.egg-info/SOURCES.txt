@@ -1,0 +1,5 @@
+setup.py
+plbdb.egg-info/PKG-INFO
+plbdb.egg-info/SOURCES.txt
+plbdb.egg-info/dependency_links.txt
+plbdb.egg-info/top_level.txt
