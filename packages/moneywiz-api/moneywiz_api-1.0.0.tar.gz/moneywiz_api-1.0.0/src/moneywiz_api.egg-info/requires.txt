@@ -1,0 +1,9 @@
+pandas
+
+[dev]
+pytest
+pylint
+mypy
+black
+build
+twine
