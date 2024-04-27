@@ -1,0 +1,6 @@
+pyyaml
+nbconvert
+nbformat
+stdlib-list
+attrs>=22.2.0
+pandas
