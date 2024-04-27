@@ -1,0 +1,2 @@
+[console_scripts]
+anybin2wheel = anybin2wheel:main
