@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: autogrammar
+Version: 0.0.1
+Author-email: Kevin Scott <kevin@autogrammer.dev>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+[This package has been renamed to `autogrammer`](https://pypi.org/project/autogrammer/).

@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+pyproject.toml
+autogrammar.egg-info/PKG-INFO
+autogrammar.egg-info/SOURCES.txt
+autogrammar.egg-info/dependency_links.txt
+autogrammar.egg-info/top_level.txt
