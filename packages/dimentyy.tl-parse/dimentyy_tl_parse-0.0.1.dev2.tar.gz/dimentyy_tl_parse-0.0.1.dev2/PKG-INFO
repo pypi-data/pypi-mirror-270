@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: dimentyy.tl-parse
+Version: 0.0.1.dev2
+Summary: Better parsing modes for telethon.TelegramClient
+Project-URL: Source, https://github.com/dimentyy/tl-parse.py
+Project-URL: Author, https://t.me/dimentyy
+Author: dimentyy
+License-Expression: MIT
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: telethon
+Description-Content-Type: text/markdown
+
+# README
+
+```python
+from telethon import TelegramClient
+from dimentyy.tl.parse import BetterParsing
+
+client: TelegramClient = ...
+client.parse_mode = BetterParsing.HTML()
+
+# From now on, every message will be handled by the 
+# new parser. It resembles default "HTML", but with
+# some new features such as mentions and spoilers!
+```
+
+###### __MIT license.__
