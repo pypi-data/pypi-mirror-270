@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: anotify
+Version: 0.0.1
+Summary: Send notifications by multiple channels.
+Home-page: https://github.com/TommyMerlin/ANotify
+Author: 7ommy
+Author-email: tommymerlin0920@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
