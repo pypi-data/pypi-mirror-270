@@ -1,0 +1,14 @@
+fmatx/__init__.py,sha256=psFVD3kkva18MMtlJwub_lf_3aHpEmGi00MZ5SNYPwo,457
+fmatx/_algebraic.py,sha256=KuU_sJYOFgfDIELBgPNs-Yj2JiWaZi0vfookj0vFmHU,11144
+fmatx/_version.py,sha256=ZX5om7Ovkz6dOhGLYm2Tr_wCABow6rirLhSHdYiHgpk,427
+fmatx/core.py,sha256=yoc4zK7tj584FH774V3u1uV-D3F8eWo9SRngLLKBZZ8,30235
+fmatx/ctx.py,sha256=DrXSUiK6ksu_YFulaisPfSFBsMWDU2VqzixCQhbOyRU,4267
+fmatx/errors.py,sha256=w1gxGihJhHAFD4OkR7teEc0POnCwNlcrO-DTY4Bo50I,172
+fmatx/lipro.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmatx/numbers.py,sha256=mvro5nRYRiRwjSrOsFh9wgjkc-mS55pRr7WnZ35qJGg,13483
+fmatx/test.py,sha256=xZi98Zc-XfHOgjAkmm72FH_wzftOBWCDk31t7baLnIU,6962
+fmatx-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fmatx-0.2.1.dist-info/METADATA,sha256=14kMeSNDXrnMLpqba_MxH30rHqAeSLDCIvykezYJxEY,46446
+fmatx-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fmatx-0.2.1.dist-info/top_level.txt,sha256=AwvzLVe-3jK7Bz1J1H_L3LppEz-fbF7QFQ35-FrGk8g,6
+fmatx-0.2.1.dist-info/RECORD,,
