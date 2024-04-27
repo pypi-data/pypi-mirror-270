@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "safe-ds-datasets"
+version = "0.18.0"
+description = "Ready-to-use datasets for the Safe-DS Python library."
+license = "MIT"
+authors = ["Lars Reimann <mail@larsreimann.com>"]
+readme = "docs/README.md"
+repository = "https://github.com/Safe-DS/Datasets"
+documentation = "https://datasets.safe-ds.com"
+keywords = ["data-science", "datasets", "machine-learning"]
+packages = [
+    { include = "safeds_datasets", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.13"
+safe-ds = ">=0.17,<0.22"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.2.1,<9.0.0"
+pytest-cov = "^5.0.0"
+
+[tool.poetry.group.docs.dependencies]
+jupyter = "^1.0.0"
+mkdocs = "^1.4.2"
+mkdocstrings = ">=0.20,<0.25"
+mkdocstrings-python = ">=0.8.3,<1.11.0"
+mkdocs-autorefs = ">=0.4.1,<1.1.0"
+mkdocs-gen-files = ">=0.4,<0.6"
+mkdocs-glightbox = "^0.3.1"
+mkdocs-literate-nav = "^0.6.0"
+mkdocs-material = "^9.1.2"
+mkdocs-section-index = "^0.3.9"
+mkdocs-jupyter = ">=0.23,<0.25"
+mkdocs-exclude = "^1.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
+markers = [
+    "smoke: quickly testing core functionality",
+]
+
+[tool.black]
+line-length = 120
