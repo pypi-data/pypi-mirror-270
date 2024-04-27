@@ -1,0 +1,10 @@
+gameon/__init__.py,sha256=CeoKvEDFxmq_3s043kN5kNIj4tTA7dPO8_Naad9-bAY,18987
+gameon/__init__.txt,sha256=x7vzIes9zCl88NRKHsXh1mvaXYAczch5GPGh_SkLpYU,21502
+gameon/engine.txt,sha256=x9C0TO9q2goVeDe6ULYAjN4J43tO2DtgjRvaOlvgTGE,1000
+gameon/game.py,sha256=dp4zRW63WPARC9Txj2VBXp5Wr9iEcoOP7pJUi6hQX24,72
+gameon/pyeasygame.py,sha256=-hDHcEjxYsuR1xhmsMGmDEAVzs7U7yCyBtz-QskL32U,5968
+gameon-1.0.3.dist-info/LICENCE.txt,sha256=pypRU69Mnvf8xSFPCrCdmdnXOmqrfD1TrhyrDl6Y-f0,1060
+gameon-1.0.3.dist-info/METADATA,sha256=iVBNkH5fP2BSlMyuGosXa1lNRFRg5pUpDjQABs3qeGs,264
+gameon-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gameon-1.0.3.dist-info/top_level.txt,sha256=GP8WwnennbAzXZFVi41MxV7b8y2O7LgffifSrLoMMVg,7
+gameon-1.0.3.dist-info/RECORD,,
