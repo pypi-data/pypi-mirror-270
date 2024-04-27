@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ld-msgs
+Version: 0.2
+Summary: ld_msg lib for python
+Home-page: 
+Author: shuo shen
+Author-email: shuo.shen@liangdao.de
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+This is for the LD LDE_Online Project generated.
+
+
+Download method:
+```
+pip install ld-msgs=0.2
+```
