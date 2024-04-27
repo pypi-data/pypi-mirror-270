@@ -1,0 +1,7 @@
+[project]
+name = "cNumPKG"
+description = "coming soon - package from cNum AS"
+version = "0.0.0"
+authors = [
+    { name = "developer", email = "notinuse@developeratcnumas.com" }
+]
