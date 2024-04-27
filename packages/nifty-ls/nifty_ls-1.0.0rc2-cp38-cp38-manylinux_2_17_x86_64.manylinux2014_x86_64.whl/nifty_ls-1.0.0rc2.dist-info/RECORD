@@ -1,0 +1,16 @@
+nifty_ls-1.0.0rc2.dist-info/METADATA,sha256=ja7vZLjTVhCGGl_L3wKx7Kvwt1b1tTR6IvS-ISJsbeU,28929
+nifty_ls-1.0.0rc2.dist-info/RECORD,,
+nifty_ls-1.0.0rc2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nifty_ls-1.0.0rc2.dist-info/WHEEL,sha256=nkaqrp6ro8AoU3MGnRqySUeDCpLq-5UyycMWgokorMI,151
+nifty_ls-1.0.0rc2.dist-info/licenses/LICENSE,sha256=METW8MuFs7q7s6GqLjuPti3IgefQwMQ-S5WmEwAnM5g,11348
+nifty_ls/cpu_helpers.cpython-38-x86_64-linux-gnu.so,sha256=mxNI4Z0OYugJJdT-AVkxKJEGfUAap_SscJABMTSdAUg,256545
+nifty_ls/cpu_helpers.cpp,sha256=xHkz98TS62Y3HCt9ArkYicWrSsFbiHFbU8cz0AhF3-Y,9281
+nifty_ls/finufft.py,sha256=YE88LTStBZZ_U6hcyS-eeW5cCD3wpqOL9zcFcPve6vA,9295
+nifty_ls/astropy.py,sha256=5pvfTWcJGtAGbQNTDpQRV8gHY6YVXxP-Dj6liDMNF8g,901
+nifty_ls/core.py,sha256=xUCYg9OD2vgd_TirV_AHrm-DHlzIlexpCaOPvl4Nu6I,4915
+nifty_ls/cufinufft.py,sha256=dYr5YnWWwxoR8exam1sYwAPzulm5l4cXU1wivYOlx0o,7377
+nifty_ls/__init__.py,sha256=4lSk2bmo5QSraThtQf1BgWWApqyKl9QrcRKM-sJ6lMg,536
+nifty_ls/utils.py,sha256=IJcQs40rmHtzhnyp5Q0hrBbyBShXft3HG_PDtLpUt6Y,1176
+nifty_ls/backends.py,sha256=DtVTvE2tJ5L-2nsA_yIwtzAJNSFDI3w2LB6Fi8Yr-Fg,797
+nifty_ls/test_helpers/utils.py,sha256=o1ybdbXZHjgA9oUkUFAyEoEVamY17veW43WSSOgGdoI,1112
+nifty_ls.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
