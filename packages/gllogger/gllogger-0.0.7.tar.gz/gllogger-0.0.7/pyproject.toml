@@ -1,0 +1,20 @@
+[project]
+name = "gllogger"
+version = "0.0.7"
+authors = [
+    { name = "calm51", email = "calm51@protonmail.com" },
+]
+description = "gllogger"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+keywords = ["logger", "global logger", "logger hook", "easy logger"]
+dependencies = [
+  "better_exceptions",
+]
+
+[project.urls]
+Homepage = "https://github.com/calm51/gllogger"
+Issues = "https://github.com/calm51/gllogger/issues"
