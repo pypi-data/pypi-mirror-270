@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: nue
+Version: 0.0.6
+Summary: A deep learning framework sculpted for seamless implementation of models, geared towards entry level learners. 
+Home-page: https://vxnuaj.github.io/nue/
+Author: vxnuaj
+Author-email: jv.100420@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+# Nue
+
+![](https://github.com/vxnuaj/nue/raw/gh-pages/images/neuron.png)
+
+A deep learning framework sculpted for seamless implementation of models, geared towards entry level learners.
+
+_Currently in Development, I'll be adding as I learn how to build_
+
+
+### Quickstart
+
+1. Pip it!
+
+```
+$ pip install nue
+```
+
+2. Test out any of the following models!
+
+- Linear Regression
+
+- Logistic Regression
+
+- A Feedforward Neural Network for Classification
