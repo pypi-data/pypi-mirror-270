@@ -1,0 +1,16 @@
+gigax/__init__.py,sha256=LpWR3r3OKVCu20gqkrSAyvPL6YlqAE44xAh5AIY-odw,96
+gigax/parse.py,sha256=0PVLFiTdrCIUOyZ-Vn44m1WeMB0adB25mEtGYDrep9s,3538
+gigax/prompt.py,sha256=iUx4P-g7TDXGqOgEJK5jhxDGHu_y9k19_yK1hJ9cHYM,1316
+gigax/scene.py,sha256=UEbQFU-XiqyQaLytqDxFnSO87b42TbuChkn3N_tF684,3337
+gigax/step.py,sha256=mqX6tBBzGbf14GgWEL4bijXNm0Jv1qrWYeOvivDf87k,4902
+gigax/serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gigax/serve/app.py,sha256=vx1ES8cDxIv9uD7fVwuS1-41QCoQZDjrJQDwkL1CWnw,2103
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Uli-VfuJGgkuVpTuVQ--VI5LqwTRrbD6GpCgLMfLNVc,1620
+tests/test_parse.py,sha256=ykk_b4MIlPN77dABXPT0VazF8heUqf6Sf54KZnt-pLI,914
+tests/test_prompt.py,sha256=M0w9dS5Rhthofoxlew7u_9MM9r-1G3aH_yBNFJmGv_Y,1090
+tests/test_step.py,sha256=448za6WbrO7saRXJ6xCau0ZUaOReS6UJhqIcG6soCuo,3005
+gigax-0.1.dist-info/METADATA,sha256=z6az7-5sXG7xRqPXanHwDfLvl-7xbRYTCdsyKvvo_Cs,603
+gigax-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gigax-0.1.dist-info/top_level.txt,sha256=T3ouhO843ADIKTSdU6QK50L9p8q_yaV0ZNU35ztoPMM,12
+gigax-0.1.dist-info/RECORD,,

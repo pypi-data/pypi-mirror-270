@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gigax
+Version: 0.1
+Summary: Call LLM-powered NPCs from your game, at runtime.
+Home-page: http://github.com/GigaxGames/gigax
+Author: Gigax team
+Author-email: tristan@gig.ax
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: outlines
+Requires-Dist: pydantic
+Requires-Dist: openai
+Requires-Dist: transformers
+Requires-Dist: llama-cpp-python
+
+# gigax
