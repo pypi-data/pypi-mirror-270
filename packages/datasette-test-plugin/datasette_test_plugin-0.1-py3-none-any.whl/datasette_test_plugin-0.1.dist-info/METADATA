@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: datasette-test-plugin
+Version: 0.1
+Summary: Part of datasette-test
+Author: Simon Willison
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/datasette/datasette-test-plugin
+Project-URL: Changelog, https://github.com/datasette/datasette-test-plugin/releases
+Project-URL: Issues, https://github.com/datasette/datasette-test-plugin/issues
+Project-URL: CI, https://github.com/datasette/datasette-test-plugin/actions
+Classifier: Framework :: Datasette
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: datasette
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+
+# datasette-test-plugin
+
+[![PyPI](https://img.shields.io/pypi/v/datasette-test-plugin.svg)](https://pypi.org/project/datasette-test-plugin/)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-test-plugin?include_prereleases&label=changelog)](https://github.com/datasette/datasette-test-plugin/releases)
+[![Tests](https://github.com/datasette/datasette-test-plugin/actions/workflows/test.yml/badge.svg)](https://github.com/datasette/datasette-test-plugin/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-test-plugin/blob/main/LICENSE)
+
+Part of [datasette-test](https://github.com/datasette/datasette-test).
