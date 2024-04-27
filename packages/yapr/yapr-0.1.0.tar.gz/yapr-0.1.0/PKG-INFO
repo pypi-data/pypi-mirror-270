@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yapr
+Version: 0.1.0
+Summary: Yet another prompt
+License: Apache 2.0
+Author: Patrick Barker
+Author-email: patrickbarkerco@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: threadmem (>=0.2.24,<0.3.0)
+Description-Content-Type: text/markdown
+
+# yap
+Yet another prompt
+
