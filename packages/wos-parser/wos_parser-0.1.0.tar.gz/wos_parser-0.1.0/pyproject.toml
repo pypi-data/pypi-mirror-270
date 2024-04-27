@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wos_parser"
+version = "0.1.0"
+description = "A parser for Web of Science XML data in Python."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "Simon Stone", email = "simon.stone@dartmouth.edu"}
+]
+maintainers = [
+  {name = "Simon Stone", email = "simon.stone@dartmouth.edu"}
+]
+classifiers = [
+
+]
+license = {text = "MIT license"}
+dependencies = [
+  "tqdm"
+]
+
+[project.urls]
+bugs = "https://git.dartmouth.edu/lib-digital-strategies/RDS/projects/web-of-science-xml-parser/issues"
+homepage = "https://git.dartmouth.edu/lib-digital-strategies/RDS/projects/web-of-science-xml-parser"

@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: wos_parser
+Version: 0.1.0
+Summary: A parser for Web of Science XML data in Python.
+Author-email: Simon Stone <simon.stone@dartmouth.edu>
+Maintainer-email: Simon Stone <simon.stone@dartmouth.edu>
+License: MIT license
+Project-URL: bugs, https://git.dartmouth.edu/lib-digital-strategies/RDS/projects/web-of-science-xml-parser/issues
+Project-URL: homepage, https://git.dartmouth.edu/lib-digital-strategies/RDS/projects/web-of-science-xml-parser
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+
+# Web of Science XML Parser
+
+A parser for Web of Science XML data in Python.
+
+## Installation
+
+The package can be installed from PyPI:
+
+```
+pip install wos_parser
+```
+
+## Getting Started
+The parser can read `*.xml` files included in the Web of Science XML dataset. **Note:** The dataset is distributed as a collection of zipped archives (one for each record year), which in turn contain zipped versions of the `xml` files. These need to be unpacked first before passing them to the parser.
+
+
+```python
+from wos_parser import WosParser
+
+
+xml_path = "dataset/2023_CORE/WR_2023_20230111080536_CORE_0001.xml"
+
+wos_parser = WosParser()
+
+records = wos_parser.parse_records(xml_path)
+```
+
+## Generating the documentation
+To view the documentation, you currently have to build it locally. To do that, follow these steps:
+
+1. Clone [the package repository](https://git.dartmouth.edu/lib-digital-strategies/RDS/projects/web-of-science-xml-parser).
+2. [Install Sphinx](https://www.sphinx-doc.org/en/master/usage/installation.html).
+3. Install additional dependencies:
+
+   ```pip install myst_parser pydata_sphinx_theme```
+
+4. Go to the project folder's subdirectory `doc/`.
+5. Run `make html`.
+6. Open the file `doc/_build/html/index.html` in a browser.
