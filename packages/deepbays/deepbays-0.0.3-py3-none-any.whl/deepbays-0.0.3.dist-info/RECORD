@@ -1,0 +1,14 @@
+deepbays/__init__.py,sha256=YOwsOn3y11KL1kwiG7jCf8KsXR09ucQE6U-2PC6H0mY,201
+deepbays/kernels.py,sha256=EZxPO1AQ2bm5eI7y-1vjRhymUC6i1djQOWKgdmoQOYU,1477
+deepbays/theory_1HL_FC.py,sha256=oUfsmpQYnV9kOKLzkQr-5aOwK-zBMfd_cVs1ysQd0ME,2315
+deepbays/theory_deep_FC.py,sha256=DpLWcRDUQwSGDY5OalZphRgSIY26dB-KfWT50mAzNWU,2959
+deepbays/theory_multitask.py,sha256=dOrw-9DmyUdwkods1XdANgp19NWYnOjl74HDy15o7-M,7920
+deepbays/NN/__init__.py,sha256=3KeqVPWuMGHkNMUBYysGfFbuolu8gVAvZzz-m6nHrSY,191
+deepbays/NN/networks.py,sha256=c81-Kj2VcDdhavuyQvCkkJwTe_oqPumyhM4EA_R113Q,2075
+deepbays/NN/training.py,sha256=mWzByZY9oKwjxjIxLXcQ9DLOPo2-3IjyVN959_rqBQw,4677
+deepbays/tasks/__init__.py,sha256=3Xcm_k32G-eLw8OxGjnRZcoBLnU3cAR-mNA2xfMzJPQ,99
+deepbays/tasks/tasks.py,sha256=t-ttxH8svmp-U3LDouFzav3uEqmElsjBA52vTEth2B4,10851
+deepbays-0.0.3.dist-info/METADATA,sha256=j8TeDJ2EqZbZFuQDSr5n6eFJjEFUwICMU_jYUl0yPXg,481
+deepbays-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+deepbays-0.0.3.dist-info/top_level.txt,sha256=9rM8c4ZbO9nqNzZWQUEqWy8_a5-OC37j-dO8jDHNv1A,9
+deepbays-0.0.3.dist-info/RECORD,,
