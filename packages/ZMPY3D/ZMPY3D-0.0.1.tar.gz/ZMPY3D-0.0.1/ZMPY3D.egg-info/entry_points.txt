@@ -1,0 +1,7 @@
+[console_scripts]
+ZMPY_CLI_BatchShapeScore = ZMPY.ZMPY_CLI_BatchShapeScore:main
+ZMPY_CLI_BatchSuperA2B = ZMPY.ZMPY_CLI_BatchSuperA2B:main
+ZMPY_CLI_BatchZM = ZMPY.ZMPY_CLI_BatchZM:main
+ZMPY_CLI_ShapeScore = ZMPY.ZMPY_CLI_ShapeScore:main
+ZMPY_CLI_SuperA2B = ZMPY.ZMPY_CLI_SuperA2B:main
+ZMPY_CLI_ZM = ZMPY.ZMPY_CLI_ZM:main
