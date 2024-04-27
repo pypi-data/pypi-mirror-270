@@ -1,0 +1,12 @@
+django_hierarchical_models/__init__.py,sha256=5cx6EiOxhHiTBZzX8r9zJTp9CdupQ8k05kWXS0Ixu6k,22
+django_hierarchical_models/models/__init__.py,sha256=MUoT8lIAG9D2O_01gxCixzlElMcAFOgpKbHa4MzR4K0,499
+django_hierarchical_models/models/alm.py,sha256=ek1n5V-YYD2uY3hk7vHybiAP73gV__kkBN0UOiL0mC8,2028
+django_hierarchical_models/models/exceptions.py,sha256=I2q0tPMxNhtHYcLaYhjdCgbcIZ6DgR5YDYUU8tARw4Q,754
+django_hierarchical_models/models/interface.py,sha256=l1jFrCDBtR0zd2rVv_32xGbzXxKYsFKzZx7Zm5pYeUY,14702
+django_hierarchical_models/models/node.py,sha256=8w7XDaVR0_L5x6y3KA14Rr5k0BAt7Md0v8wEsokA9Qc,1104
+django_hierarchical_models/models/nsm.py,sha256=LhPrb_W5a_fUAXno7Yhip57KkLs3TfEiosU0-hl_PW8,12977
+django_hierarchical_models/models/pem.py,sha256=MonZYNVYEmdWx8IA5hQVihZNDlUD7bl9xdJSfsKNBvE,2958
+django_hierarchical_models-1.2.0.dist-info/LICENSE,sha256=HMl4eLi9FhZcLihID9K6X-X_PIK0_3EITLLcUxiL4e0,1069
+django_hierarchical_models-1.2.0.dist-info/METADATA,sha256=0POl7BC6i7xyPBDDvEWBNmbvVLrjrCAVDqxyBf6F7Jc,4419
+django_hierarchical_models-1.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_hierarchical_models-1.2.0.dist-info/RECORD,,
