@@ -1,0 +1,5 @@
+Faker
+PyJWT
+cryptography
+lxml
+requests
