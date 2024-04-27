@@ -1,0 +1,16 @@
+from __future__ import annotations
+
+from pydantic import BaseModel, PositiveInt, PositiveFloat, Field
+
+
+class FinetuningConfig(BaseModel):
+    base_model: str
+    epochs: PositiveInt | None = Field(default=None)
+    learning_rate: PositiveFloat | None = Field(default=None)
+    rank: PositiveInt | None = Field(default=None)
+
+
+class DeploymentConfig(BaseModel):
+    base_model: str
+    accelerator: str | None = Field(default=None)
+    cooldown_time: PositiveInt | None = Field(default=None)
