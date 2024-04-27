@@ -1,0 +1,2 @@
+[console_scripts]
+set_pool = mnsl_pool.biom:set_pool
