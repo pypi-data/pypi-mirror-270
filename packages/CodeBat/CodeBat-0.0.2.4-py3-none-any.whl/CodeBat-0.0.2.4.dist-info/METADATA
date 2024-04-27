@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CodeBat
+Version: 0.0.2.4
+Summary: A Python Library about Codemao API.
+Home-page: https://github.com/ShawnMerryCode/CodeBat
+Author: ShawnMerry
+Author-email: merrybili@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests >=2.31.0
+
+# CodeBat
+
+A Python Library about Codemao API.
