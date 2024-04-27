@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: yflog
+Version: 1.0.0
+Summary: A simple logger used in python program.
+Home-page: https://github.com/moshangsang24/yflog
+Author: moshangsang24
+Author-email: liuyifan731@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YFLOG: A Simple Wrapped Logger Used in Python 
+
+A Simple Wrapped Logger Used in Python 
+
+## Installation
+
+```bash
+# Install via pip
+pip install yflog
+```
+
+
+## Usage
+
+Here is a simple example for the logger.
+
+```python
+from yflog import Logger
+# replace the 'X' with your token
+logger = Logger(filename='my.log',file_level='info')
+logger.debug('test')
+logger.info('test')
+logger.warning('test')
+logger.error('test')
+
+```
+
