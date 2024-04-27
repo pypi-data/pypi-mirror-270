@@ -1,0 +1,9 @@
+borkpipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+borkpipeline/pipeline.py,sha256=h1DVd55WrIQwCP7GK1oOA6YGAZqMO5LgIGMARMB6OP8,5389
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pipeline.py,sha256=7t1FGt5am9mFstNEBgCcqYOH2GVZpUXzEgR-DrZUgVA,4294
+borkpipeline-1.0.0.dist-info/LICENSE,sha256=692_29KKe7eOvq-Lt7rR-gYyotki-0vDgrimkcIh8v4,1075
+borkpipeline-1.0.0.dist-info/METADATA,sha256=Qu53VLZxfF1xQLJhPR-wuen1CXRMP2Y6yP86MW1eCMA,12420
+borkpipeline-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+borkpipeline-1.0.0.dist-info/top_level.txt,sha256=KlF0UNx8RhGJFQMVqBGVjaXjefjPLzYHHc6Jk51ua_Y,19
+borkpipeline-1.0.0.dist-info/RECORD,,
