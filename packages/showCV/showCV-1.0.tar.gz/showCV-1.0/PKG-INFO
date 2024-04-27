@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: showCV
+Version: 1.0
+Summary: a python package for cv2.imshow 
+Author: xufengnian
+Author-email: 
+License: MIT
+Keywords: python,cv2,show
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+CV2的imshow函数小工具
