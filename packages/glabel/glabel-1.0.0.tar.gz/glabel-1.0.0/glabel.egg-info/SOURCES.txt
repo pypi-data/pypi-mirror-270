@@ -1,0 +1,8 @@
+README.md
+setup.py
+glabel.egg-info/PKG-INFO
+glabel.egg-info/SOURCES.txt
+glabel.egg-info/dependency_links.txt
+glabel.egg-info/entry_points.txt
+glabel.egg-info/requires.txt
+glabel.egg-info/top_level.txt
