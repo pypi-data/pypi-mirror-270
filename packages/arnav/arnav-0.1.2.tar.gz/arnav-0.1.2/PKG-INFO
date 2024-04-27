@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: arnav
+Version: 0.1.2
+Summary: resting purposes
+Home-page: https://github.com/arnavjain2710/Pypi-Demo
+Download-URL: https://github.com/arnavjain2710/Pypi-Demo/archive/refs/tags/v_01.2.tar.gz
+Author: Arnav Jain
+Author-email: jainarnav2710@gmail.com
+License: MIT
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt

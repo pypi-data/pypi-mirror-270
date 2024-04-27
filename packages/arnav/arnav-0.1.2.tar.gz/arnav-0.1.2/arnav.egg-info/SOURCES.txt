@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+setup.cfg
+setup.py
+arnav/__init__.py
+arnav/mathutils.py
+arnav/slang.py
+arnav.egg-info/PKG-INFO
+arnav.egg-info/SOURCES.txt
+arnav.egg-info/dependency_links.txt
+arnav.egg-info/top_level.txt
