@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: slowstack
+Version: 1.0.0
+Summary: 
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: furo (>=2024.1.29,<2025.0.0)
+Requires-Dist: pytest (>=8.1.0,<9.0.0)
+Requires-Dist: pytest-asyncio (>=0.23.5,<0.24.0)
+Requires-Dist: sphinx (>=7.2.6,<8.0.0)
+Requires-Dist: typing-extensions (>=4.10.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Slowstack
+Fuck it, overkill all the way.
+
+A rate limiting library for stacking multiple rate limiters on top of eachother in an efficient way.
+
