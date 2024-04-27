@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+soundhub/__init__.py
+soundhub/asr.py
+soundhub/audio.py
+soundhub/caption.py
+soundhub/retrieve.py
+soundhub/version.py
+soundhub.egg-info/PKG-INFO
+soundhub.egg-info/SOURCES.txt
+soundhub.egg-info/dependency_links.txt
+soundhub.egg-info/requires.txt
+soundhub.egg-info/top_level.txt
