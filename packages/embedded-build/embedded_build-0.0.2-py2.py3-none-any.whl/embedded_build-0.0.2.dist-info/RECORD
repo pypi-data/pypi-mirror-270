@@ -1,0 +1,14 @@
+embedded/__init__.py,sha256=4MFIk16sbNTJDrEM-2JTDiaI5U0149m9IjH4FLY-rVU,250
+embedded/cli.py,sha256=3iyzNNFCgg0V4MK9YgMgC97pOqColkTMjU-2lwyqo0c,2552
+embedded/compiler.py,sha256=j3ijiA90ibWuQihQzrxYUd1OCtAHnSI2iof_bPjh81E,425
+embedded/build/__init__.py,sha256=JmtVV_8kI-0s3gncfLXFfeGUPvnN8toUnD_yYhI47-4,1400
+embedded/build/meson.py,sha256=aCi5AZJ8qVyJa42d2xQiGZXnPvNOyqmVuW9BRlQordY,1645
+embedded/build/ninja.py,sha256=pYlo85XFau96njZf1Jty1okc6qzuXpvwSO4zYAw4rdE,503
+embedded/cpu/__init__.py,sha256=kuPehAbEiZE4pMb0Ev6RL4kT3ACO4R41YMHqIL87hik,545
+embedded/cpu/arm.py,sha256=kcLS3vdVmUTjjEpsTKvsbh_kN57_iSBWJ8aFPSzXtok,2727
+embedded/cpu/riscv.py,sha256=oaHd8i4PycsJNsGsyiJEgkYkMwBCFyWRGLYeqbpTkZs,676
+embedded/microcontroller/__init__.py,sha256=P2teCedguJEh7EbrkQ6yjYQTXawd8vCrAsfuOGkJM9c,1052
+embedded_build-0.0.2.dist-info/LICENSE,sha256=vgsRcxD0HmZtYsMLWNrrAhgWjWhipHexcZrMKoHDvYc,1082
+embedded_build-0.0.2.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+embedded_build-0.0.2.dist-info/METADATA,sha256=pdARfu3bMtNrmTJ0vNEvz7_QOEZ6n0nedcCpU-uU_tI,284
+embedded_build-0.0.2.dist-info/RECORD,,
