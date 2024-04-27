@@ -1,0 +1,9 @@
+
+[dev]
+numpy
+nbdev>=0.2.39
+matplotlib
+pillow
+torch
+pandas
+jupyterlab
