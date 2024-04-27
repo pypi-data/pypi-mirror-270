@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "giga-openai-test"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail Murtazin <murtazkorpaz@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "giga_openai_test"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-openai = "^0.1.4"
+gigachain = "^0.1.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

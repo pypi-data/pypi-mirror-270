@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: giga-openai-test
+Version: 0.1.0
+Summary: 
+Author: Mikhail Murtazin
+Author-email: murtazkorpaz@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: gigachain (>=0.1.16,<0.2.0)
+Requires-Dist: langchain-openai (>=0.1.4,<0.2.0)
+Description-Content-Type: text/markdown
+
+
