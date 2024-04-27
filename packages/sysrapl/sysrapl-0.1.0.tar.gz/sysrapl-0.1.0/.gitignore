@@ -1,0 +1,6 @@
+.cache/
+bin/
+share/
+lib/
+lib64/
+.buildconfig
