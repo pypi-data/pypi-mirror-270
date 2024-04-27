@@ -1,0 +1,9 @@
+media_manager/__init__.py,sha256=IMuj1fFl0p6HrPEyDCtWwWFQOURx1KmO57kHZ3UN3f4,310
+media_manager/media_manager.py,sha256=PPdVeQx5UzSL6gVLYqy5ov8114g_k-MATA32dMXU1UI,46611
+media_manager/version.py,sha256=6WFZ7l6NrEq4k5Z5OQXr5kPBuL6O9MFJF1dv0NwR2ag,118
+media_manager-0.75.16.dist-info/LICENSE,sha256=wtI1_YjppxJA2UTLHLbj_goBi-f3DebTfIFbe_XqJmY,1059
+media_manager-0.75.16.dist-info/METADATA,sha256=5J-R92jaITbTPg_aBagrFZoBFr5OZN76JzarIv7CUlo,4827
+media_manager-0.75.16.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+media_manager-0.75.16.dist-info/entry_points.txt,sha256=Mop8uN2V808fwZvAR5gfhUXx8VP0Hk7MCGsApn-n63c,68
+media_manager-0.75.16.dist-info/top_level.txt,sha256=VWivzu4oIY90-Ii-ffwrpRPLKsh3lOAtKXirt3jHtVY,14
+media_manager-0.75.16.dist-info/RECORD,,
