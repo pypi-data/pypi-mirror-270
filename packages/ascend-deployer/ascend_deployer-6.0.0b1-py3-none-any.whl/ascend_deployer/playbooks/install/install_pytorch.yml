@@ -1,0 +1,10 @@
+- hosts: '{{ hosts_name }}'
+  name: install pytorch
+  tasks:
+    - name: install pytorch
+      process_framework:
+        resource_dir: "{{resource_path}}"
+        pkg_name: "pytorch"
+        python_version: "{{python_version}}"
+        ansible_run_tags: "{{ansible_run_tags}}"
+
