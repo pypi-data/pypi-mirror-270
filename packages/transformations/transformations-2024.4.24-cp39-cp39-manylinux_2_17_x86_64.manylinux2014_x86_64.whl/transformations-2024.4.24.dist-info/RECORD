@@ -1,0 +1,9 @@
+transformations-2024.4.24.dist-info/LICENSE,sha256=v82DsfHJUGMYihCWMYn3UWbCABZhVNZWpH8-6tY3z2w,1529
+transformations-2024.4.24.dist-info/METADATA,sha256=-xNcF4EueJMqLAoNilFrwzwOrlrm_xbq7L2_HVX_cR0,8872
+transformations-2024.4.24.dist-info/RECORD,,
+transformations-2024.4.24.dist-info/top_level.txt,sha256=aLjIe_YXrdETEWfWoV1Ld7rLmK0F5cB6W9jYDymktOE,16
+transformations-2024.4.24.dist-info/WHEEL,sha256=rY0Y6THYM7EImsHfF-zs67o8pQciAsMw9_YuSvftjrQ,148
+transformations/transformations.py,sha256=VXXEaNQm0LWkayCKyBp_FpojT_0J3CaR7Es-LuLP1Io,67850
+transformations/__init__.py,sha256=or7gZl82olNVoh2KzWOsP7iiYsTSKC5hczWRdPp_ing,112
+transformations/_transformations.cpython-39-x86_64-linux-gnu.so,sha256=SwrV4aPeAL0icOl1AcqK6SK7ljjqj3o7Xw4d2bXVg70,332744
+transformations/conftest.py,sha256=sExGfL0TsnkCWndSDwkN7XFoRroCTUlR3tVj3aVMtzQ,369
