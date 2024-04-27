@@ -1,0 +1,12 @@
+coveralls/__init__.py,sha256=d4TPdtd5ml39--caTVhw6DGB4TY_gqyTFDb0UXHHsRs,134
+coveralls/__main__.py,sha256=schE67JzeF4uYozHtlKcYr0M1jCJWk6gBqdC4FvH-A8,62
+coveralls/api.py,sha256=uM_Sbw_X7rGY8qXGiL9q9WXi9q_CvgCsyFs6Hvx00ZA,16232
+coveralls/cli.py,sha256=m3jXp99-XfdekMhKXwxNQeg5E8PKTDj0-7qTiHdznmA,3434
+coveralls/exception.py,sha256=Sv4djA-ZdYWq5WwLJXHHeM4NHHJ7TzcWr9pZOwH5khs,336
+coveralls/git.py,sha256=LI_yS5aVSfUfRdArtxFaWx3UY56OdrhsobcuCxDxnX8,4086
+coveralls/reporter.py,sha256=PN166cXJOnjSSEW2XR4PYTq_lsTFodaDZjyQwPVBLZU,7466
+coveralls-3.4.0a1.dist-info/LICENSE.rst,sha256=nHZPm4m-__xGCwoC4r7dv2CRFDHfYF77e_kjnbw9eX4,1080
+coveralls-3.4.0a1.dist-info/METADATA,sha256=JZmbnR7ZCgv6vKd_xRdG7TIUJiyHh9ivpiFgEbGIrBc,5317
+coveralls-3.4.0a1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+coveralls-3.4.0a1.dist-info/entry_points.txt,sha256=nwMBehkOoOfVmPPyQekmbR6MYeSfJD203Bs6hsRKVEM,84
+coveralls-3.4.0a1.dist-info/RECORD,,
