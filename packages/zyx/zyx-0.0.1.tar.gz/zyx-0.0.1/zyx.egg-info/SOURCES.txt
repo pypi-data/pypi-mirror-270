@@ -1,0 +1,6 @@
+setup.py
+zyx/__init__.py
+zyx.egg-info/PKG-INFO
+zyx.egg-info/SOURCES.txt
+zyx.egg-info/dependency_links.txt
+zyx.egg-info/top_level.txt
