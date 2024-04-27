@@ -1,0 +1,7 @@
+sqlalchemy_crud_plus-0.0.1.dist-info/METADATA,sha256=VvRpbozbj_fmsHFLpFvR368w3_5s6HceZzNrOc8S4I0,1024
+sqlalchemy_crud_plus-0.0.1.dist-info/WHEEL,sha256=7sv5iXvIiTVJSnAxCz2tGBm9DHsb2vPSzeYeT7pvGUY,90
+sqlalchemy_crud_plus-0.0.1.dist-info/licenses/LICENSE,sha256=AlcGtpSAAEiMsVotsihDsG3ySTEiGmgMy5oN4uBzDOk,1074
+sqlalchemy_crud_plus/__init__.py,sha256=rEXdRp3FV4cP4claubnF9VgO9itOyhJndI8YZUIKW1s,167
+sqlalchemy_crud_plus/crud.py,sha256=dXUu2q2kffFl5b7E6MYQ1P4K5w3Q21h-n6iRL2ktopE,3411
+sqlalchemy_crud_plus/errors.py,sha256=CPwS-ypjIDmfaUyCBzd1klilEH0s33-tzI3V1UZWO4M,397
+sqlalchemy_crud_plus-0.0.1.dist-info/RECORD,,
