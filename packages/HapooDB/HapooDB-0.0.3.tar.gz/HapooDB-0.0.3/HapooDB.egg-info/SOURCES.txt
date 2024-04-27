@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+HapooDB.egg-info/PKG-INFO
+HapooDB.egg-info/SOURCES.txt
+HapooDB.egg-info/dependency_links.txt
+HapooDB.egg-info/top_level.txt
+HapooDBfolder/HapooDB.py
+HapooDBfolder/__init__.py
