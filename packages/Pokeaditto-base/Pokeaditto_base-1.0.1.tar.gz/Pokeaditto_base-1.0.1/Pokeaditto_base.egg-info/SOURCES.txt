@@ -1,0 +1,9 @@
+README.md
+setup.py
+Pokeaditto_base.egg-info/PKG-INFO
+Pokeaditto_base.egg-info/SOURCES.txt
+Pokeaditto_base.egg-info/dependency_links.txt
+Pokeaditto_base.egg-info/requires.txt
+Pokeaditto_base.egg-info/top_level.txt
+pokeditto/__init__.py
+pokeditto/random_pokemon.py
