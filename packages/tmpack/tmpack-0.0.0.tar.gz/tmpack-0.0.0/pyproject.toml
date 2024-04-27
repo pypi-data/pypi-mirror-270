@@ -1,0 +1,8 @@
+[project]
+name = "tmpack"
+authors = [
+    {name = "", email = "tspt2479@gmail.com"},
+]
+version = "0.0.0"
+description = "Coming soon"
+

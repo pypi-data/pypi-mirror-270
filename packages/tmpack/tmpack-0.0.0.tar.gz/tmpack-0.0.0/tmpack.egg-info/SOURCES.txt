@@ -1,0 +1,6 @@
+pyproject.toml
+tmpack/__init__.py
+tmpack.egg-info/PKG-INFO
+tmpack.egg-info/SOURCES.txt
+tmpack.egg-info/dependency_links.txt
+tmpack.egg-info/top_level.txt
