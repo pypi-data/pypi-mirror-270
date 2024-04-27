@@ -1,0 +1,2 @@
+[console_scripts]
+wasmfunc = wasmfunc.__main__:main
