@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aychip.cpp
+src/setup.py
+src/wrapper.cpp
+src/pyayay.egg-info/PKG-INFO
+src/pyayay.egg-info/SOURCES.txt
+src/pyayay.egg-info/dependency_links.txt
+src/pyayay.egg-info/not-zip-safe
+src/pyayay.egg-info/top_level.txt
+tests/test_ayumi.py
