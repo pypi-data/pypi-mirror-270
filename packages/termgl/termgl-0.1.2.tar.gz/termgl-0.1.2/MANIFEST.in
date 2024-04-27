@@ -1,0 +1,5 @@
+include termgl.pyx
+include ctermgl.pxd
+graft TermGL
+prune tests
+exclude termgl.c
