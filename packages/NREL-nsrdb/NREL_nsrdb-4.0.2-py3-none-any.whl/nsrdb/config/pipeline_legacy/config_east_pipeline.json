@@ -1,0 +1,24 @@
+{
+  "logging": {
+    "log_file": null,
+    "log_level": "INFO"
+  },
+  "name": "east",
+  "pipeline": [
+    {
+      "data-model": "/projects/pxs/processing/2019/east/config_nsrdb_east.json"
+    },
+    {
+      "collect-data-model": "/projects/pxs/processing/2019/east/config_nsrdb_east.json"
+    },
+    {
+      "cloud-fill": "/projects/pxs/processing/2019/east/config_nsrdb_east.json"
+    },
+    {
+      "all-sky": "/projects/pxs/processing/2019/east/config_nsrdb_east.json"
+    },
+    {
+      "collect-final": "/projects/pxs/processing/2019/east/config_nsrdb_east.json"
+    }
+  ]
+}
