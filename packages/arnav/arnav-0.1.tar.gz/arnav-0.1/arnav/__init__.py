@@ -1,0 +1,1 @@
+from arnav.slang import slang
