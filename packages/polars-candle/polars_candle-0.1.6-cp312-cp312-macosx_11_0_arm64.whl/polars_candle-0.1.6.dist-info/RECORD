@@ -1,0 +1,6 @@
+polars_candle-0.1.6.dist-info/METADATA,sha256=X9iZA8y5O5JgR2ykuMp1NmqUlSjKVIavjvxQmpjNfxM,4173
+polars_candle-0.1.6.dist-info/WHEEL,sha256=thWVGQI-HQrMGqeZp3gcIE7HFmAcTYQ1tQTxzJgo3SI,104
+polars_candle/__init__.py,sha256=BLBjSpQ_iBZn42C8xrM-rPWNtvhf3cAl0t4Nu9WUH9Y,48
+polars_candle/candle_ext.py,sha256=VPLaynqJOM8I9a0lSszFTsnKZqVzGx_1M8I-FWdy2ZQ,2078
+polars_candle/polars_candle.cpython-312-darwin.so,sha256=QEDZ1e1NbUuP45dJXELN0KjeXGWJ_d0eaq2A5r4LasY,19130776
+polars_candle-0.1.6.dist-info/RECORD,,
