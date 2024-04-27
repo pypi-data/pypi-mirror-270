@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: catdns
+Version: 2.0
+Summary: Create tempmail based on https://catdns.in :D
+Author-email: ZAID <y8838@hotmail.com>
+Project-URL: Homepage, https://github.com/zaid5o5/catdns
+Project-URL: Issues, https://github.com/zaid5o5/catdns/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: requests
+
+# Install :
+```commandline
+pip install -U catdns
+```
+
+# How to use :
+- 1 - Send email to your custom email, for example: ``test1@catdns.in``
+- 2 - Get inbox:
+
+```python
+from catdns import get_inbox
+
+inbox = get_inbox("test1@catdns.in")
+
+print(inbox)
+```
