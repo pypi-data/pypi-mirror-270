@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: NetHyTech-STT
+Version: 0.2
+Summary: NetHyTech-STT: Convert Speech to Text with Ease!
+Home-page: https://github.com/Anubhavchaturvedi/NetHyTech-STT
+Author: Anubhav Chaturvedi
+Author-email: chaturvedianubhav520@example.com
+Project-URL: Documentation, https://github.com/Anubhavchaturvedi/NetHyTech-STT/wiki
+Project-URL: Source Code, https://github.com/AnubhavChaturvedi-GitHub/NetHyTech_STT.git
+Project-URL: Demo Video, https://www.youtube.com/channel/NetHyTech
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+Requires-Dist: selenium
+Requires-Dist: webdriver_manager
+
+NetHyTech-STT is your go-to solution for converting speech to text effortlessly using Python. 
+                        Whether you're transcribing audio files, building voice-enabled chatbots, or creating automatic 
+                        transcriptions for videos and podcasts, NetHyTech-STT has you covered.
+
+                        Key Features:
+                        - Seamless integration with Selenium and the webdriver_manager
+                        - Supports Python 3.8 and above
+                        - Easy-to-use interface for live speech-to-text conversion
+                        - Works with various web-based speech recognition APIs
+                        
+                        Use Cases:
+                        - Transcribe lectures or meetings
+                        - Build voice-controlled applications
+                        - Create transcripts for videos and podcasts
+                        - Enhance accessibility features in your apps
+                        
+                        Get Started:
+                        - Visit the GitHub repository for detailed documentation and usage examples: 
+                          https://github.com/Anubhavchaturvedi/NetHyTech-STT
+                        - Watch our demo and tutorials on YouTube: 
+                          https://www.youtube.com/channel/NetHyTech-STT
+                        
+                        Connect with Us:
+                        - YouTube: https://www.youtube.com/channel/NetHyTech-STT
+                        - Instagram: https://www.instagram.com/nethytech_stt
+                        - Facebook: https://www.facebook.com/nethytech_stt
+                        
+                        License: MIT License
+                        
+                        
