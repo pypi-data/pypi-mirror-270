@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: agentenv
+Version: 0.0.1
+Summary: Agent Environments
+Author-email: KYLN24 <1296845690@qq.com>
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: transformers
+Requires-Dist: torch
+
