@@ -1,0 +1,22 @@
+[project]
+name = "fancy_printer"
+version = "0.1.0"
+description = "A fancy print function for Python"
+authors = [
+    { name = "Yanli", email = "mail@yanli.one" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
