@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+source/__init__.py
+source/income_calculator.py
+test/__init__.py
+test/test_income_calculator.py
+uk_tax_calculator_jld.egg-info/PKG-INFO
+uk_tax_calculator_jld.egg-info/SOURCES.txt
+uk_tax_calculator_jld.egg-info/dependency_links.txt
+uk_tax_calculator_jld.egg-info/top_level.txt
