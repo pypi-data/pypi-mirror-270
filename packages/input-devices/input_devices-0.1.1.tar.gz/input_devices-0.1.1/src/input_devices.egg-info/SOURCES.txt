@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/input_devices.egg-info/PKG-INFO
+src/input_devices.egg-info/SOURCES.txt
+src/input_devices.egg-info/dependency_links.txt
+src/input_devices.egg-info/not-zip-safe
+src/input_devices.egg-info/requires.txt
+src/input_devices.egg-info/top_level.txt
+src/shared/__init__.py
+src/shared/axis_input.py
+src/shared/axis_trigger.py
+src/shared/button.py
+src/shared/directional_pad.py
+src/xbox_controller/__init__.py
+src/xbox_controller/xbox_controller_gen4.py
