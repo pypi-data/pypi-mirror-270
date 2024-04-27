@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pydiscordhelper
+Version: 1.1
+Requires-Dist: requests (>=2.31.0)
+Requires-Dist: discord.py (>=2.3.2)
+
