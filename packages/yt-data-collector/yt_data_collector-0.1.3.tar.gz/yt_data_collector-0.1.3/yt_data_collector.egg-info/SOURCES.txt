@@ -1,0 +1,7 @@
+README.md
+setup.py
+yt_data_collector.egg-info/PKG-INFO
+yt_data_collector.egg-info/SOURCES.txt
+yt_data_collector.egg-info/dependency_links.txt
+yt_data_collector.egg-info/requires.txt
+yt_data_collector.egg-info/top_level.txt
