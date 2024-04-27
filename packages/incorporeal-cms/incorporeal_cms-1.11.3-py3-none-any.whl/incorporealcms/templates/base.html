@@ -1,0 +1,46 @@
+<!--
+SPDX-FileCopyrightText: © 2020 Brian S. Stephan <bss@incorporeal.org>
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<!doctype html>
+<html lang="en">
+<title>{{ title }}</title>
+{% if title %}<meta property="og:title" content="{{ title }}">{% endif %}
+{% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+{% if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+<meta property="og:url" content="{{ base_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ user_style }}">
+<link rel="icon" href="{% if config.FAVICON %}{{ config.FAVICON }}{% else %}{{ url_for('static', filename='img/favicon.png') }}{% endif %}">
+<link rel="alternate" type="application/atom+xml" href="/feed/atom" />
+<link rel="alternate" type="application/rss+xml" href="/feed/rss" />
+
+<div {% block site_class %}class="site-wrap site-wrap-normal-width"{% endblock %}>
+    {% block header %}
+    <div class="header">
+        <div class="nav">
+            {% for nav in navs %}
+            <a href="{{ nav.1 }}">{{ nav.0 }}</a>
+            {% if not loop.last %} &raquo; {% endif %}
+            {% endfor %}
+        </div>
+        <div class="styles">
+            {% for style in page_styles %}
+            <a href="?style={{ style }}">[{{ style }}]</a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endblock %}
+    {% block body %}
+    <div class="content">
+        {{ content }}
+    </div>
+    <footer>
+        {% if extra_footer %}<div class="extra-footer"><i>{{ extra_footer|safe }}</i></div>{% endif %}
+        <div class="footer"><i>Last modified: {{ mtime }}</i></div>
+    </footer>
+    {% endblock %}
+</div>
+</html>
