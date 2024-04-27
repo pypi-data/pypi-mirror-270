@@ -1,0 +1,2 @@
+[console_scripts]
+gemini_simple_game = gemini_simple_game.gemini_simple_game:main
