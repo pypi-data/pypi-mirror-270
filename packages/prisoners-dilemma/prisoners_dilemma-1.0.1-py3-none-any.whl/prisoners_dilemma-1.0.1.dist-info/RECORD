@@ -1,0 +1,12 @@
+prisoners_dilemma/__init__.py,sha256=sh2xdL8_5LNxgbuMEGT1FDWTtCLhi-zxu37S0v8jY_M,219
+prisoners_dilemma/bots/__init__.py,sha256=HWcKfO_QQEnHv012F6bM0vkFg4NfFVIjX1lkJtYwTJk,19
+prisoners_dilemma/bots/bots.py,sha256=ErG-pmcGg8sR--t708ElNy3pbxIdqPXQq8hnz0FLIC0,2541
+prisoners_dilemma/population/__init__.py,sha256=tLAsvRyP7O6gBr2-hAuPrlpQAQ5vd_EM_8RhcXFrflQ,63
+prisoners_dilemma/population/population.py,sha256=UZps4LuyOKuaY5jfrGpP1x4cJuAZSWu7q-pKXaeXKxc,13670
+prisoners_dilemma/tournament/__init__.py,sha256=s9h0EB5XNyK3HzTmE6Wv0LGU5eTLTgWtRQyrqvSO13Q,105
+prisoners_dilemma/tournament/tournament.py,sha256=DQ7iBjomZ2XkshOITMcpq74v9uZoF6HJXn7wrtUoWyk,9199
+prisoners_dilemma-1.0.1.dist-info/METADATA,sha256=5WZQ4xmcZyYNDX8aW078urbj8RkUeuR-PLl9ZkskGF8,16357
+prisoners_dilemma-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+prisoners_dilemma-1.0.1.dist-info/entry_points.txt,sha256=z-zyVDo07DF8btJrzE_bE4r1DhquzrtwJEzTut9akII,195
+prisoners_dilemma-1.0.1.dist-info/top_level.txt,sha256=wdRlKTydYBklsUwnydxqWD7McALQHq2Sun6M949xfFE,99
+prisoners_dilemma-1.0.1.dist-info/RECORD,,
