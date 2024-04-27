@@ -1,0 +1,12 @@
+shared/__init__.py,sha256=4wu4HnwlcZBR85qt8VmGN2ntm4ny6FHhkAfuqKt8ywU,134
+shared/axis_input.py,sha256=7P6ollfJeRJ7a6TzEkpaMWXysXI9f42rIxqpSkxXTA4,6904
+shared/axis_trigger.py,sha256=Hng6yzvnfoCFI-u5xNM-tYLTqB6DOFzHao3Lq6fml1I,1697
+shared/button.py,sha256=0FSCuPIiJ1N3xIFrsqekA7KNvFM4a4qWv9ORXI7AasE,3685
+shared/directional_pad.py,sha256=D7bqJHE7oulpiiaz5cgjJLj6k6sB4Rptf5ocpI12pBI,605
+xbox_controller/__init__.py,sha256=TGISiUb67xCmgvbows7TAIzfm94eAa7-d-LKvqCpYNY,52
+xbox_controller/xbox_controller_gen4.py,sha256=P6hoRTfHfC4YrZoLk-OyAg7UXsF8KN7FJMtMgjr1ETE,4305
+input_devices-0.1.1.dist-info/LICENSE,sha256=AycOMF6p1yVoMFwdfDaCoSmnM1rI-wEioFKdVUFKDlo,1070
+input_devices-0.1.1.dist-info/METADATA,sha256=ktMlq4GhRG26PwMfmWsLJ2xRL9QZrcHvUIpl5GEUCRQ,3198
+input_devices-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+input_devices-0.1.1.dist-info/top_level.txt,sha256=JTLtXTcyOoMYdSZkOIehyOWwZkMuVXioG_WowSt0xTs,23
+input_devices-0.1.1.dist-info/RECORD,,
