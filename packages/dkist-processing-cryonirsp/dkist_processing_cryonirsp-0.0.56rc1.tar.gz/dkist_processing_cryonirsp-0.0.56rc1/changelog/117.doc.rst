@@ -1,0 +1,1 @@
+Update online documentation for Cryo-NIRSP bad pixel correction, beam angle calculation, and beam boundary calculation.
