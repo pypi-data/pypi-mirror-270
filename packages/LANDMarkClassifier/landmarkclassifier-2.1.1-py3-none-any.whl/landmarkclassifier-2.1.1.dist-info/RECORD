@@ -1,0 +1,12 @@
+LANDMarkClassifier/LANDMark.py,sha256=ou_uozZvJwPCjAQnm3Afm5kzYimzMKnrdt7MxeHWyn4,11546
+LANDMarkClassifier/__init__.py,sha256=DiBIhUVZHGuLJ6dqrhd191uM6Hzv2NOYcbNdacQeNic,140
+LANDMarkClassifier/lm_dtree_clfs.py,sha256=_vuFQW9SQMatGrB1hnkanoKV5dZG8xQKRBkbGfQTyOE,1488
+LANDMarkClassifier/lm_linear_clfs.py,sha256=meu6KmeEGLocqcZLIRvt-PeQfIW3DJbgSQHtgYHXyRI,3682
+LANDMarkClassifier/lm_nnet_clfs.py,sha256=ONZ7jTDFVpygjvS62Q_yHmR8JX9P_Aoebri3C3zo8hE,4632
+LANDMarkClassifier/lm_oracle_clfs.py,sha256=7OIG-D0ulofPvQ1aNlqubQgkAJCB6RxTHvSjcTUMXSE,2120
+LANDMarkClassifier/tree.py,sha256=kmvwRTN2KLrN8nVXNvRdBxv3CPRw0ats7IWIpGtzm3U,28252
+LANDMarkClassifier/utils.py,sha256=djZW99xVIk2NR_z7b9P3uaSF7MLQOe6JYqd7SJM5Qdg,2548
+landmarkclassifier-2.1.1.dist-info/METADATA,sha256=XG_Zyol0S6AmtdydbWByVqYTpj0SpgoIQwvz7Im6v8A,5466
+landmarkclassifier-2.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+landmarkclassifier-2.1.1.dist-info/licenses/LICENSE,sha256=ZYyDAtOOZGxfu_SYsOf1R7IFTYq1c7ODm_X4dUvJcMY,1160
+landmarkclassifier-2.1.1.dist-info/RECORD,,
