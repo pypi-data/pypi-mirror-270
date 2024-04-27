@@ -1,0 +1,15 @@
+README.md
+setup.py
+prisoners_dilemma/__init__.py
+prisoners_dilemma.egg-info/PKG-INFO
+prisoners_dilemma.egg-info/SOURCES.txt
+prisoners_dilemma.egg-info/dependency_links.txt
+prisoners_dilemma.egg-info/entry_points.txt
+prisoners_dilemma.egg-info/requires.txt
+prisoners_dilemma.egg-info/top_level.txt
+prisoners_dilemma/bots/__init__.py
+prisoners_dilemma/bots/bots.py
+prisoners_dilemma/population/__init__.py
+prisoners_dilemma/population/population.py
+prisoners_dilemma/tournament/__init__.py
+prisoners_dilemma/tournament/tournament.py
