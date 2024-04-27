@@ -1,0 +1,11 @@
+finch/__init__.py,sha256=hy41NDh9fhKDS3D1MuyJDcLkFXAVXi7TuErnwvSq9IQ,2167
+finch/compiled.py,sha256=uQ1cSwksIopUouQH0N-cAOjo8xwdGC3cOO87L8BxZDs,842
+finch/dtypes.py,sha256=hQxwI4HyXcpv5N4nJLyHvbzngaCK_PTgMw9HuZ4YHS8,532
+finch/julia.py,sha256=LnuBIfrjqmRiabDR1IV1-eMzZPyngNn7UueeFp7g9Ag,419
+finch/levels.py,sha256=3aazcnN7WGDyPGXEZBSqUSZe1xzmjpINq5NV8stFSSo,2255
+finch/tensor.py,sha256=nETKtoQxISrD4Cc7UzrH_s1NDxbsFhvr0eKgquFXY8I,27492
+finch/typing.py,sha256=qx6G1XUsGs3Noou36yyuzgTtTJq3heimRWicOwNFmn4,287
+finch_tensor-0.1.12.dist-info/LICENSE,sha256=STex5lrOfGqV3BOj4kiLUjupAjxRfeHWcBFOxNMEDSU,1070
+finch_tensor-0.1.12.dist-info/METADATA,sha256=zRRqIsD7wT6j2U58O_5SVXz6e13L5BxTg0Eo_PFAXuk,2426
+finch_tensor-0.1.12.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+finch_tensor-0.1.12.dist-info/RECORD,,
