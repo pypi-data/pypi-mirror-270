@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+IRWPy.egg-info/PKG-INFO
+IRWPy.egg-info/SOURCES.txt
+IRWPy.egg-info/dependency_links.txt
+IRWPy.egg-info/requires.txt
+IRWPy.egg-info/top_level.txt

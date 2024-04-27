@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: IRWPy
+Version: 0.0.1
+Summary: Inverse Radius Weighting Interpolation
+Author: Behnam Sadeghi
+Author-email: z5218858@zmail.unsw.edu.au
+Keywords: interpolation
+License-File: LICENSE.txt
