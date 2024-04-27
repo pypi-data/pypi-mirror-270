@@ -1,0 +1,8 @@
+{
+	"markdownlint.config": {
+        "default": true,
+		"MD033": { "allowed_elements": ["p"] },
+        "MD046": { "style": "consistent" },
+        "no-hard-tabs": false
+    },
+}

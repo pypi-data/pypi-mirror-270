@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["fmatx"]
+
+[tool.setuptools_scm]
+write_to = "fmatx/_version.py"
+
+[project]
+name = "fmatx"
+authors = [
+    {name = "hibays", email = "hibays@email.com"},
+]
+description = "A full accuracy matrix pure Python implementation."
+keywords = ["matrix", "Pure Python", "full accuracy", "math"]
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]
+dynamic = ["version"]
+
+[project.urls]
+documentation = "https://readthedocs.org"
+repository = "https://github.com/hibays/fmatx.git"
+
+[project.optional-dependencies]
