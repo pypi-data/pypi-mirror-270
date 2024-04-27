@@ -1,0 +1,5 @@
+covdefaults
+modin[ray]@git+https://github.com/modin-project/modin@main
+pre-commit
+pytest
+pytest-cov
