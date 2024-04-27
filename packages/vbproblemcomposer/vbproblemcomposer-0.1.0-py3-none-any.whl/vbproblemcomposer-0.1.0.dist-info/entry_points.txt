@@ -1,0 +1,3 @@
+[console_scripts]
+vbproblemcomposer=vbproblemcomposer.__main__:main
+

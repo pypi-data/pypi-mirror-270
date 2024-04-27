@@ -1,0 +1,10 @@
+vbproblemcomposer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vbproblemcomposer/__main__.py,sha256=y2-K9QFj6PnaPe0-OUP9egDhxnjmdjN5x6J5QG68lpU,59
+vbproblemcomposer/choice_option.py,sha256=0M4rnlTqZBvJPd9KNZ9bwp_b5PCKjLt5be-CMREiP2s,1236
+vbproblemcomposer/compose.py,sha256=OD50TIXY5iquKr4FvXePt2Yyd3GiZ1osXpDjD3xhda4,1128
+vbproblemcomposer/functions.py,sha256=Tqk1MjLEnS_NyZy945tTCO1wteR_whruQtfIvq2c3yM,1589
+vbproblemcomposer/main.py,sha256=Bb_0LCtQJhZQw2Yb0ZOD9LuRruzamumzdxMJzl91TyI,230
+vbproblemcomposer-0.1.0.dist-info/METADATA,sha256=DvX3IEO3aSMy3KYf66KmoT66UXfslJFORffTZmAV5t8,339
+vbproblemcomposer-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vbproblemcomposer-0.1.0.dist-info/entry_points.txt,sha256=DSHLi4C2s1EHDzMtbfefL0-IeYlTttnOs1aQ8t3PfX0,69
+vbproblemcomposer-0.1.0.dist-info/RECORD,,
