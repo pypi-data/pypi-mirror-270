@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: dbmaster
+Version: 0.1.0
+Summary: Personal Quant Research Database Manager
+Author-email: You Xie <xyshell@bu.edu>
+Maintainer-email: You Xie <xyshell@bu.edu>
+License: Copyright (c) 2024 You Xie
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/xyshell/dbmaster
+Keywords: quant research,personal database
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy <2.0,>=1.26
+Requires-Dist: pandas <3.0,>=2.2
+Requires-Dist: pydantic <3.0,>=2.7
+Requires-Dist: pydantic-settings <3.0,>=2.2
+Requires-Dist: SQLAlchemy <3.0,>=2.0
+Requires-Dist: fire <1.0,>=0.6.0
+Requires-Dist: retry <1.0,>=0.9.2
+Provides-Extra: binance
+Requires-Dist: python-binance <2.0,>=1.0.19 ; extra == 'binance'
+Provides-Extra: dev
+Requires-Dist: pytest >=8.1 ; extra == 'dev'
+Requires-Dist: ruff >=0.4 ; extra == 'dev'
+Requires-Dist: build >=1.2 ; extra == 'dev'
+
+# DBMaster
+
+Personal Quant Research Database Manager
+
+## Setup 
+
+Choose one of the below approaches to set up.
+
+### A. Install from Pypi
+
+For most of users, simply `pip install` in a **python3.12** environment: (`py3.10`, `py3.11` might work for now but don't guarantee in the future)
+
+```bash
+pip install dbmaster[binance]
+```
+
+Note: you can remove vendor-specific extra requirements if you don't need.
+
+
+### B. Run source code
+
+for developers, contributors, or users who want to have finer control over the code.
+
+1. Clone this repo:
+
+```bash
+git clone https://github.com/xyshell/dbmaster
+```
+
+2. Create a `py3.12` virtual environment. if using conda:
+
+```bash
+conda create -n <name-your-py-env> python=3.12
+```
+
+```bash
+conda activate <name-your-py-env>
+```
+
+3. install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4. development install
+
+```bash
+pip install -e .[dev]
+```
+
+### C. Install from github release
+
+Find and download the last released package in https://github.com/xyshell/dbmaster/releases.
+
+```bash
+pip install dbmaster-x.y.z-py3-none-any.whl[binance]
+```
+
+## Hello World
+
+Find location of site-packages by `pip show dbmaster`
+
+Under `site-packages/dbmaster/`, rename `config_example.toml` to `config.toml` and modify the setting for your case. (or override environment variable `DBMASTER_CONFIG_PATH` to point to your modified `config.toml`)
+
+See available commands by:
+
+```bash
+python -m dbmaster -h
+```
+
+Download data by:
+
+```bash
+python -m dbmaster update kline --vendor=binance --freq=1d  --datefrom=2024-04-01 --symbol="['BTCUSDT', 'ETHUSDT']"
+```
+
+Check `/exmaple` for more usages.
