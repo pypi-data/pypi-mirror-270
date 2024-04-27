@@ -1,0 +1,6 @@
+pyproject.toml
+emil/__init__.py
+emil.egg-info/PKG-INFO
+emil.egg-info/SOURCES.txt
+emil.egg-info/dependency_links.txt
+emil.egg-info/top_level.txt
