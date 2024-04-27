@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kabaret.flow-extensions
+Version: 0.0.1
+Summary: Kabaret extension to create and activate relations at arbitrary locations in the flow
+Home-page: https://gitlab.com/kabaretstudio/kabaret.flow_extensions
+Author: Baptiste Delos, Flavio Perez, Valentin Braem, Damien "dee" Coureau, Steeve Vincent
+Author-email: baptiste@les-fees-speciales.coop, flavio@lfs.coop, valentinbraem1@gmail.com, kabaret-dev@googlegroups.com, steeve.v91@gmail.com
+License: LGPLv3+
+Keywords: kabaret pipeline dataflow workflow
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: kabaret>=2.3.0rc3
+
+# kabaret.flow_extensions
+
+
+# Changelog
+
+## [0.0.1] - 2024-04-26
+
+Initial commit

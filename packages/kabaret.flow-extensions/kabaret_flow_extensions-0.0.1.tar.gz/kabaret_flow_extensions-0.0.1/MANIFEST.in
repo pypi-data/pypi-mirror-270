@@ -1,0 +1,7 @@
+include README.md
+include CHANGELOG.md
+include LICENSE
+graft src
+recursive-exclude * *.py[co]
+include versioneer.py
+include src/kabaret/flow_extensions/_version.py

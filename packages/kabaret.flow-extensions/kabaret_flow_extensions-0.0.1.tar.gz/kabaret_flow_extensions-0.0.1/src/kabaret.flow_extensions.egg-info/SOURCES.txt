@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+src/kabaret/__init__.py
+src/kabaret.flow_extensions.egg-info/PKG-INFO
+src/kabaret.flow_extensions.egg-info/SOURCES.txt
+src/kabaret.flow_extensions.egg-info/dependency_links.txt
+src/kabaret.flow_extensions.egg-info/requires.txt
+src/kabaret.flow_extensions.egg-info/top_level.txt
+src/kabaret/flow_extensions/__init__.py
+src/kabaret/flow_extensions/_version.py
