@@ -1,0 +1,9 @@
+geosink/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geosink/cheb_approx.py,sha256=C52PpM_RlbboNwErMskAZu_uA-FJgkjDL8KrfMFxzbw,1074
+geosink/heat_kernel.py,sha256=YhyjkBf7jEtWTrqOYKcW3EvP2iZsExiJ4ScSIAXpI-s,3086
+geosink/sinkhorn.py,sha256=ffHyE42uT--Eh53q6MTFe0swMpjLKRThFdBUt58mWZI,2177
+geosink-0.1.0.dist-info/LICENSE,sha256=k8vc3t98TSXmppV236F4pvlzSZtTS1WEC-K498A3xTE,1073
+geosink-0.1.0.dist-info/METADATA,sha256=RSbfmSyYDL24YuxFEq_La6BD0acEykeaeWNHWyavsnI,4395
+geosink-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+geosink-0.1.0.dist-info/top_level.txt,sha256=hYlhaB90s3iYFYFKZK--_F0FkW1DumHhbwlo9pIULJ8,8
+geosink-0.1.0.dist-info/RECORD,,
