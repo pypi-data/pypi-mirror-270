@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+borkpipeline/__init__.py
+borkpipeline/pipeline.py
+borkpipeline.egg-info/PKG-INFO
+borkpipeline.egg-info/SOURCES.txt
+borkpipeline.egg-info/dependency_links.txt
+borkpipeline.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pipeline.py
