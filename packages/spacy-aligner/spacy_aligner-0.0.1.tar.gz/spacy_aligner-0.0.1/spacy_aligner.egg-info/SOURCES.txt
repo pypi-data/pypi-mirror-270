@@ -1,0 +1,9 @@
+README.md
+setup.py
+spacy_aligner/__init__.py
+spacy_aligner/pipeline.py
+spacy_aligner.egg-info/PKG-INFO
+spacy_aligner.egg-info/SOURCES.txt
+spacy_aligner.egg-info/dependency_links.txt
+spacy_aligner.egg-info/requires.txt
+spacy_aligner.egg-info/top_level.txt
