@@ -1,0 +1,6 @@
+outlines
+pydantic
+openai
+outlines
+transformers
+llama-cpp-python
