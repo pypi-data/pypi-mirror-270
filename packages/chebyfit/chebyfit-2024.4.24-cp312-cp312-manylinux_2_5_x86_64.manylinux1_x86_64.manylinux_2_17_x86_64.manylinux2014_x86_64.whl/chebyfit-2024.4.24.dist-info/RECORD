@@ -1,0 +1,10 @@
+chebyfit-2024.4.24.dist-info/LICENSE,sha256=uib7vczJpbMJwJT7bBXqSFmsleEyxcqKLKlC0b2pAno,1529
+chebyfit-2024.4.24.dist-info/METADATA,sha256=qWvDNPRVkvJDBlwSKGOW9eSSODG7aaylkRnhEIP72pA,4090
+chebyfit-2024.4.24.dist-info/RECORD,,
+chebyfit-2024.4.24.dist-info/top_level.txt,sha256=jhUvbkQjWgxRQ7LGOY9h-ZNMyjHxzp61iPfUnYKlPo4,9
+chebyfit-2024.4.24.dist-info/WHEEL,sha256=W7tdgpqq-AavPTfzlQjmjM9Wk9z6xJ1sl2eXX0QhW0c,225
+chebyfit/chebyfit.py,sha256=6PpBWWjlcG1-aBbNUAxGfpJZ-CZrU8d9KmrmoYi7i5k,9876
+chebyfit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chebyfit/_chebyfit.cpython-312-x86_64-linux-gnu.so,sha256=bexyT-KgMUrd0DeoXFTfn0FbBDYvMWUzptys5A4o5es,171016
+chebyfit/__init__.py,sha256=6qSaxBTvOnxLT-osFGeCIGmN0CxDgAru_5HYOmK_qfU,100
+chebyfit/conftest.py,sha256=RuBpOF4DYjYQrDB9GUAYUx7OSYBLgdm2lJgUd-gt6_M,313
