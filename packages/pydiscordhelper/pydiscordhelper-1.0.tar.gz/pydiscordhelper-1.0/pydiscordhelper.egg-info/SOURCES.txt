@@ -1,0 +1,9 @@
+README.md
+setup.py
+pydiscordhelper/__init__.py
+pydiscordhelper/main.py
+pydiscordhelper.egg-info/PKG-INFO
+pydiscordhelper.egg-info/SOURCES.txt
+pydiscordhelper.egg-info/dependency_links.txt
+pydiscordhelper.egg-info/requires.txt
+pydiscordhelper.egg-info/top_level.txt
