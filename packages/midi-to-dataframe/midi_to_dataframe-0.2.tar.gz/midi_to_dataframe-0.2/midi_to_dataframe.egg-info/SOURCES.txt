@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+midi_to_dataframe/__init__.py
+midi_to_dataframe/midi_reader.py
+midi_to_dataframe/midi_writer.py
+midi_to_dataframe/note_mapper.py
+midi_to_dataframe.egg-info/PKG-INFO
+midi_to_dataframe.egg-info/SOURCES.txt
+midi_to_dataframe.egg-info/dependency_links.txt
+midi_to_dataframe.egg-info/top_level.txt
+tests/__init__.py
+tests/tests.py
