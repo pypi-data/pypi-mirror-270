@@ -1,0 +1,8 @@
+setup.py
+create-project-fastapi/__init__.py
+create-project-fastapi/main.py
+create-project-fastapi/source.py
+create_project_fastapi.egg-info/PKG-INFO
+create_project_fastapi.egg-info/SOURCES.txt
+create_project_fastapi.egg-info/dependency_links.txt
+create_project_fastapi.egg-info/top_level.txt
