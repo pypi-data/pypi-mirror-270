@@ -1,0 +1,2 @@
+[console_scripts]
+expanse = expanse:__main__
