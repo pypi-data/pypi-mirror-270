@@ -1,0 +1,6 @@
+README.txt
+setup.py
+hellosp.egg-info/PKG-INFO
+hellosp.egg-info/SOURCES.txt
+hellosp.egg-info/dependency_links.txt
+hellosp.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: hellosp
+Version: 0.1.1
+Summary: This is a simple package that provides sum of 2 numbers
+Home-page: UNKNOWN
+Author: Shanmuga Priya
+Author-email: shanmugapriya.rs@embedur.com
+License: UNKNOWN
+Description: This package is a simple python package that displays the sum of two numbers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
