@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+autogrammer/Autogrammer.py
+autogrammer/__init__.py
+autogrammer.egg-info/PKG-INFO
+autogrammer.egg-info/SOURCES.txt
+autogrammer.egg-info/dependency_links.txt
+autogrammer.egg-info/top_level.txt
