@@ -1,0 +1,5 @@
+setup.py
+invisionlib.egg-info/PKG-INFO
+invisionlib.egg-info/SOURCES.txt
+invisionlib.egg-info/dependency_links.txt
+invisionlib.egg-info/top_level.txt
