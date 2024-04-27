@@ -1,0 +1,17 @@
+xmonkey_namonica/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmonkey_namonica/cli.py,sha256=9laClkuhc2hjxGbTNELMbZTQVwiWiZAPowW0VzovVGg,1988
+xmonkey_namonica/common.py,sha256=kyuA-nQqS7DwnLmgW1x7pQ_ZlgUXYN41vQAT686hiGQ,3716
+xmonkey_namonica/utils.py,sha256=JNdPidcdBphgpYpLjvtNfCVmyZHFA4GyPQ4bDzUfD8w,1609
+xmonkey_namonica/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmonkey_namonica/handlers/base_handler.py,sha256=odHMHYPuRpe4p62KGMGh1DZtfN_vJ_xlajj_BZ28l2s,956
+xmonkey_namonica/handlers/cargo_handler.py,sha256=emNbbcxIbOS8hg9WbdwWubshA0Hmaja9Rsje-gf0Y2c,2148
+xmonkey_namonica/handlers/gen_handler.py,sha256=lyAOwn3pR4IGZDhazuANF1rcgZGmdzs6mlaqDqpZPGU,3918
+xmonkey_namonica/handlers/npm_handler.py,sha256=Wi72fRvU4y1ivmn0WNlf2cF4zWBJcFsEqi9txfRvGsc,2200
+xmonkey_namonica/handlers/nuget_handler.py,sha256=wOTu2opb6QO_ER-cMaheBBUjmtoF7OD6d2xolRLOBwA,2148
+xmonkey_namonica/handlers/pypi_handler.py,sha256=v_l-EsONzdWhcdYsXoRZes3ujrmqQuQCZQUywgN5xBU,2218
+xmonkey_namonica-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xmonkey_namonica-0.1.2.dist-info/METADATA,sha256=12tC4CtS8nwX3ZiDHUO996BC3xbEG8KVW1DmuxQ3SNY,83
+xmonkey_namonica-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xmonkey_namonica-0.1.2.dist-info/entry_points.txt,sha256=eeDbRX4UavZPB2o17gK0Z1xB7VhSuZuvRRsx_L85Nvg,63
+xmonkey_namonica-0.1.2.dist-info/top_level.txt,sha256=Wci-Qx7zYNbbHOpoXSLhK8PI1Ppa5o1MjBLU8KEr6Lc,17
+xmonkey_namonica-0.1.2.dist-info/RECORD,,
