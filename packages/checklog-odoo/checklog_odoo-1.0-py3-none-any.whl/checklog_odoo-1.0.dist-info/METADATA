@@ -1,0 +1,97 @@
+Metadata-Version: 2.3
+Name: checklog-odoo
+Version: 1.0
+Summary: Check if an odoo log file contains error, with the possibility to ignore some errors based on regular expressions
+Project-URL: Documentation, https://github.com/acsone/checklog-odoo#readme
+Project-URL: Issues, https://github.com/acsone/checklog-odoo/issues
+Project-URL: Source, https://github.com/acsone/checklog-odoo
+Author-email: Stéphane Bidoul <stephane.bidoul@acsone.eu>, Benoit Aimont <benoit.aimont@acsone.eu>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: click
+Requires-Dist: tomli; python_version < '3.11'
+Provides-Extra: test
+Requires-Dist: coverage[toml]; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# checklog-odoo
+
+[![PyPI - Version](https://img.shields.io/pypi/v/checklog-odoo.svg)](https://pypi.org/project/checklog-odoo)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/checklog-odoo.svg)](https://pypi.org/project/checklog-odoo)
+
+-----
+
+<!--- shortdesc-begin -->
+
+Check if an odoo log file contains error, with the possibility to ignore some errors based on regular expressions.
+
+This project replaces the [acsoo](https://pypi.org/project/acsoo)'s checklog command.
+
+<!--- shortdesc-end -->
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```console
+pipx install checklog-odoo
+```
+
+## Use examples
+
+```console
+checklog-odoo odoo.log
+unbuffer odoo -d mydb -i base --stop-after-init | checklog-odoo
+checklog-odoo --ignore "WARNING.*blah" odoo.log
+```
+
+## Usage
+
+```console
+Usage: checklog-odoo [OPTIONS] [FILENAME]
+
+  Check an odoo log file for errors. When no filename or - is provided, read
+  from stdin.
+
+Options:
+  -i, --ignore REGEX              Regular expression of log records to ignore.
+  --echo / --no-echo              Echo the input file (default when reading
+                                  from stdin).
+  --err-if-empty / --no-err-if-empty
+                                  Exit with an error code if no log record is
+                                  found (default).
+  -v, --verbose
+  -c, --config FILE               Configuration file  [default: checklog-odoo.cfg]
+  --help                          Show this message and exit.
+```
+
+## Example of config file:
+
+The configuration file use the `ini` format:
+
+```ini
+[checklog-odoo]
+ignore=
+   WARNING
+   ERROR:.*registry
+```
+
+## License
+
+`checklog-odoo` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

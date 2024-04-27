@@ -1,0 +1,2 @@
+[console_scripts]
+checklog-odoo = checklog_odoo.checklog:checklog_odoo

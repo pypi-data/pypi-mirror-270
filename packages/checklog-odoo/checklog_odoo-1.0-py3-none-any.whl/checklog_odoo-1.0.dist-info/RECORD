@@ -1,0 +1,10 @@
+checklog_odoo/__init__.py,sha256=3lnZj4URDpOo61x5F6BeXoPBYs-JL_rd6SFRdiW9Nk4,33
+checklog_odoo/__main__.py,sha256=y3_Ecp7yxOXWPPqDJLs0dKgK7AgPtcGrcBCs5k20vqg,222
+checklog_odoo/checklog.py,sha256=5bHuZqKOnnzT2tV4_MtIQk6e3C7wkcxZxU6Vib2Q51w,5336
+checklog_odoo/compat.py,sha256=6Tgv2wCO2bsmJ-aMdNmJ7RxGIJXkj72Kfo61ccOen4U,121
+checklog_odoo/config.py,sha256=aAnlSkCbjlQclIJTahKq38_ju78wJ0mUxtGoL-NVRys,2180
+checklog_odoo-1.0.dist-info/METADATA,sha256=AXTFWjkdjhcjfN8eyPDySn0Y6tu6Ekxe0AD2ctmb1cQ,3095
+checklog_odoo-1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+checklog_odoo-1.0.dist-info/entry_points.txt,sha256=caCfPzENuxNHyHBwz7_GG0SmeY_YPPxX5uIoLX6cf78,71
+checklog_odoo-1.0.dist-info/licenses/LICENSE.txt,sha256=eDyuKb21S6oAXizwh0myxW3wX_9yChjJyBGC3CwmCmw,1077
+checklog_odoo-1.0.dist-info/RECORD,,
