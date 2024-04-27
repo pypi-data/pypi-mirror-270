@@ -1,0 +1,4 @@
+[console_scripts]
+hello = src.hello:say_hello
+mycloudlab1 = src.main:main
+
