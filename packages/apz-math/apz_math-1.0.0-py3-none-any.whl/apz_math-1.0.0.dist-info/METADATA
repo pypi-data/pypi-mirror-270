@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apz-math
+Version: 1.0.0
+Summary: A package about mathematics.
+Home-page: https://github.com/apz-eng/apz_math
+Author: apz_end
+Author-email: 251046728@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://github.com/apz-eng/apz_math)
+to write your content.
