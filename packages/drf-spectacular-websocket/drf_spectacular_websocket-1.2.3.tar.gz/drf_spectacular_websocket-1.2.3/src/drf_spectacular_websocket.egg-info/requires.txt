@@ -1,0 +1,14 @@
+django>=4.2.11
+djangorestframework>=3.14.0
+drf-spectacular>=0.27.2
+drf-spectacular-sidecar>=2024.4.1
+channels>=4.0.0
+
+[ci]
+ruff==0.4.1
+pytest>=7.0.1
+
+[dev]
+pre-commit>=3.5.0
+ruff==0.4.1
+pytest>=7.0.1
