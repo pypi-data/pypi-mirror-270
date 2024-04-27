@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: hanoikovoiduocdau_package_betty2310
+Version: 0.0.1
+Summary: A package for standardize Hanoi's address
+Project-URL: Homepage, https://github.com/betty2310/hanoikovoiduocdau
+Project-URL: Issues, https://github.com/betty2310/hanoikovoiduocdau/issues
+Author-email: betty2310 <huynhduongsh1@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+```py
+street = "Dai La"
+street = standardize_street_name(street) 
+# street = "Đại La"
+```
