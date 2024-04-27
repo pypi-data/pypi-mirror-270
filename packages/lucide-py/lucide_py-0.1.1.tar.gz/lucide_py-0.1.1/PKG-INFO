@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: lucide-py
+Version: 0.1.1
+Summary: A Lucide icon library package for Python applications
+License: ISC
+Author: Basri
+Author-email: h@basri.me
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ludic (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Lucide Python
+
+Implementation of the lucide icon library for python applications.
+
+> What is lucide? Read it [here](https://github.com/lucide-icons/lucide#what-is-lucide).
+
+## Installation
+
+```sh
+pip install lucide-py
+```
+
+## Usage
+
+```python
+from lucide import IconSearch
+
+# Create an icon
+icon = IconSearch()
+
+# Get the icon as an SVG string
+icon.render()
+```
+
+## Documentation
+
+For full documentation, visit [lucide.dev](https://lucide.dev/guide/packages/lucide-react)
+
+## Community
+
+Join the [Discord server](https://discord.gg/EH6nSts) to chat with the maintainers and other users.
+
+## License
+
+Lucide is licensed under the ICS license. See [LICENSE](https://lucide.dev/license).
+
+
