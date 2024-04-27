@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: cbmap
+Version: 0.1.0
+Summary: CBMAP: Clustering-based Manifold Approximation and Projection for Dimensionality Reduction
+Home-page: https://github.com/doganlab/cbmap
+Author: Berat Dogan
+Author-email: berat.dogan@inonu.edu.tr
+License: LICENSE.txt
+Description: # cbmap
+        CBMAP: Clustering-based Manifold Approximation and Projection for Dimensionality Reduction
+        
+Keywords: Dimensionality Reduction UMAP TriMap PaCMAP
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.8
