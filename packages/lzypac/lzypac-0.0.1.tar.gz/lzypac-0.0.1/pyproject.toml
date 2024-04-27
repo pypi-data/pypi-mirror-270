@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lzypac"
+version = "0.0.1"
+description = "An open platform for training, serving, and evaluating large language model based chatbots."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "numpy"
+]
+
+
+[tool.setuptools.packages.find]
+exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
+
+[tool.wheel]
+exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]

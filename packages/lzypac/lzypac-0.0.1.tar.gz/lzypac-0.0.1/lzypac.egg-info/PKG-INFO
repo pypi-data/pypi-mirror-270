@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lzypac
+Version: 0.0.1
+Summary: An open platform for training, serving, and evaluating large language model based chatbots.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+This is lzy personal test
