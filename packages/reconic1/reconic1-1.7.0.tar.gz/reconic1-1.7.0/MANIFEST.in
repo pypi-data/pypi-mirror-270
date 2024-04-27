@@ -1,0 +1,4 @@
+include LICENSE README.md reconic.py
+include templates/report_template.html
+recursive-include wordlists *
+recursive-include utils *
