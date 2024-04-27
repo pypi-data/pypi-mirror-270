@@ -1,0 +1,17 @@
+setup.py
+PerfectoLibrary/__init__.py
+PerfectoLibrary/version.py
+PerfectoLibrary/keywords/__init__.py
+PerfectoLibrary/keywords/_devices.py
+PerfectoLibrary/keywords/_general.py
+PerfectoLibrary/keywords/_rest_acts.py
+PerfectoLibrary/keywords/keywordgroup.py
+PerfectoLibrary/listeners/__init__.py
+PerfectoLibrary/listeners/_perfectoListener.py
+PerfectoLibrary/listeners/data/excluded_reporting_keywords.json
+PerfectoLibrary/listeners/data/failure_reasons.json
+perfectolibrary_py3.egg-info/PKG-INFO
+perfectolibrary_py3.egg-info/SOURCES.txt
+perfectolibrary_py3.egg-info/dependency_links.txt
+perfectolibrary_py3.egg-info/requires.txt
+perfectolibrary_py3.egg-info/top_level.txt

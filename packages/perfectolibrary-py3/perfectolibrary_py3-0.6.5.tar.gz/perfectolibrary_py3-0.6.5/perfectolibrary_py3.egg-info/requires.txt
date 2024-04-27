@@ -1,0 +1,11 @@
+decorator>=3.3.2
+robotframework>=6.0
+docutils>=0.8.1
+Appium-Python-Client>=2.0.0
+selenium>=2.47.1
+robotframework-appiumlibrary>=1.6.4
+robotframework-seleniumlibrary>=6.1.0
+robotframework-selenium2library>=3.0.0
+Selenium2LibraryExtension>=1.1.0
+perfecto-py3-ps>=1.0.4
+six>=1.11.0
