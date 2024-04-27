@@ -1,0 +1,10 @@
+catdns/__init__.py,sha256=2ENpl_iciK_Jdlh0RO8-eCpTJ_-k2LpYkPsBIV3HrJo,385
+catdns/async_session.py,sha256=TqLiPWT65lEu66CYbeTXIvoTiclIYzZdybri8HzXD2w,1347
+catdns/asyncio.py,sha256=rXEr1kl4PfsNrSVdspY41YzV9RtqQr-AJyVSLspmT14,386
+catdns/session.py,sha256=e_WLzwm7mYjz_udHhx8JPQsxBVIWiBJ5tda9DE_zfb4,1508
+catdns/types.py,sha256=ZNXkII_6QwplX4aQACEV48YrZqzAJcQoWXZQ2_ld9DE,3398
+catdns-2.0.dist-info/LICENSE,sha256=n-T0Ud-k4sSsk4RKyM3TRhXNaldEaCihPc5_RH0xo4A,1080
+catdns-2.0.dist-info/METADATA,sha256=b74Z6LxeJi_AyxzdaNvOudPuxFQWb93JVsgQqQtR_hU,850
+catdns-2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+catdns-2.0.dist-info/top_level.txt,sha256=-76FvLlUulBpow2N4EQNv9XlArS-TKq1gOBJNaa6Xig,7
+catdns-2.0.dist-info/RECORD,,
