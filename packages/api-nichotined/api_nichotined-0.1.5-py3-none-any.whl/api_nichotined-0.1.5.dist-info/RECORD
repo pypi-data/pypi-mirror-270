@@ -1,0 +1,9 @@
+api_nichotined/__init__.py,sha256=k2ntIWT2scPHuNxLAceGlIwpyMeK8fXOIGqyQ0Tspy4,65
+api_nichotined/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api_nichotined/core/core.py,sha256=tDap7fVwnfNrqueMODPdTVjq7PecJ7DgeVK2QxLDGHs,2065
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main.py,sha256=t9q5cRQOMuNQGsPfZwlTYY1OT4uykMpWMDw9RWrZ2ow,451
+api_nichotined-0.1.5.dist-info/METADATA,sha256=cToK8iq1dG0bOcvzDIYdaiI_2ojR5RBuLF-irKNeByo,1112
+api_nichotined-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+api_nichotined-0.1.5.dist-info/top_level.txt,sha256=EMYcubrmRkWe7-0BpfOPSVLAW-sgG7q3V2S1pBvujpE,20
+api_nichotined-0.1.5.dist-info/RECORD,,
