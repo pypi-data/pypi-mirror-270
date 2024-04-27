@@ -1,0 +1,7 @@
+datasette
+cryptography
+
+[test]
+pytest
+pytest-asyncio
+datasette-test>=0.3.2
