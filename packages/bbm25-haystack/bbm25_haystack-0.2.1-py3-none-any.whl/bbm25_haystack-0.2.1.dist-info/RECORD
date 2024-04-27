@@ -1,0 +1,10 @@
+bbm25_haystack/__about__.py,sha256=Ph8n9NqiR_yD3g2BlfcdrzXXnYjABWKP29NqswBq5Rs,139
+bbm25_haystack/__init__.py,sha256=4aZI2DGPe9XkHM8IQVG1VRpBShOA9eaYb7nmYzyZqvU,409
+bbm25_haystack/bbm25_retriever.py,sha256=KEIKrsjOy3bz_5z4Qlnfc-_f9pQ3pXv_1HDf-wRjzF0,5600
+bbm25_haystack/bbm25_store.py,sha256=N7Ghrb5Z5VMNxkTyaVBXcESgg_KZMW8A08QCxbqSRtE,14175
+bbm25_haystack/default.model,sha256=nlVq_UQhO2vRviuFDru9mPVIFDeoAhr69Y7n-xgY00c,499723
+bbm25_haystack/filters.py,sha256=VNN6NIttwaZNQLOyrbB9kqYkRcvCguB3AqLW3XG7OuU,9038
+bbm25_haystack-0.2.1.dist-info/METADATA,sha256=5hWRcauXa8TezdVSqD_uy6AL5aXE2W6S7G3Z2CYvkgE,7388
+bbm25_haystack-0.2.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+bbm25_haystack-0.2.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bbm25_haystack-0.2.1.dist-info/RECORD,,
