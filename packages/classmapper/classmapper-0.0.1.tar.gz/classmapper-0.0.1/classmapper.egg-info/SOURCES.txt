@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+classmapper/__init__.py
+classmapper/classmapper.py
+classmapper/exceptions.py
+classmapper.egg-info/PKG-INFO
+classmapper.egg-info/SOURCES.txt
+classmapper.egg-info/dependency_links.txt
+classmapper.egg-info/top_level.txt
