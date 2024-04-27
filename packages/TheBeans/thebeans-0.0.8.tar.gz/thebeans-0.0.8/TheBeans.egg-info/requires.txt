@@ -1,0 +1,9 @@
+numpy
+ipyleaflet
+pandas
+
+[all]
+TheBeans[extra]
+
+[extra]
+pandas
