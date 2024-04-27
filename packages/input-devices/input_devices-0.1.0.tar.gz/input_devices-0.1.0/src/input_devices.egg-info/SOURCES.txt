@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/input_devices.egg-info/PKG-INFO
+src/input_devices.egg-info/SOURCES.txt
+src/input_devices.egg-info/dependency_links.txt
+src/input_devices.egg-info/not-zip-safe
+src/input_devices.egg-info/requires.txt
+src/input_devices.egg-info/top_level.txt
