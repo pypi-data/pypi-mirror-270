@@ -1,0 +1,14 @@
+safeds_datasets/__init__.py,sha256=y6Wc3z0RkbJUobLt85UZivz35hPTSyu11LvsH0df6nQ,60
+safeds_datasets/tabular/__init__.py,sha256=kEj-XvKSs-PgcL-LmTndnkCUTq6EEJFyFkjPV2MfRsI,151
+safeds_datasets/tabular/_house_sales/__init__.py,sha256=VESlw-u2DRt4uJ_iVMwzf_tDvdCPZFSSVXbYLstK8So,75
+safeds_datasets/tabular/_house_sales/_house_sales.py,sha256=es0ok35hM-IqKcw-QvurFt1mB70IPY8eWZ97ZllWo6M,2095
+safeds_datasets/tabular/_house_sales/data/house_sales.csv,sha256=UcpTNSifqmn_TP88KlbKDRZcmUwzRaGYEN6Q6o1DeAI,2088210
+safeds_datasets/tabular/_titanic/__init__.py,sha256=rpnPQdDa6NAhF4s02uvzwZ49eLL2QmOQZpi0hRjN310,63
+safeds_datasets/tabular/_titanic/_titanic.py,sha256=wG2w8TAN1rz1R2j3448hVSVhvk01oUb--eFEW6EE810,1135
+safeds_datasets/tabular/_titanic/data/titanic.csv,sha256=UYr9d3U2XfpaDdO1tlGitvLiN09f0mw5IK_uZPU9ZXE,101569
+safeds_datasets/tabular/containers/__init__.py,sha256=kG_WmPraGj2A_t8F_ZePqwtIrHRqEna1HKm7dh3ICAw,119
+safeds_datasets/tabular/containers/_tabular_dataset.py,sha256=2Mp5PX43vDCdy5H7s-FrOqTJnhHZNNkP09ZQRGM4kAg,2120
+safe_ds_datasets-0.18.0.dist-info/LICENSE,sha256=XJXd6q3ERDDfapWSw77_JxnIGm2oXXZo1MGfpa_CGy4,1069
+safe_ds_datasets-0.18.0.dist-info/METADATA,sha256=3hKJwdre3Msg3PXk48yq94ARGCd8umucj6Ixz7WTdf4,2080
+safe_ds_datasets-0.18.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+safe_ds_datasets-0.18.0.dist-info/RECORD,,
