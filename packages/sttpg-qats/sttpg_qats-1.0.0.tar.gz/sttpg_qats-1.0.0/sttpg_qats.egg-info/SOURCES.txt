@@ -1,0 +1,6 @@
+setup.py
+sttpg_qats.egg-info/PKG-INFO
+sttpg_qats.egg-info/SOURCES.txt
+sttpg_qats.egg-info/dependency_links.txt
+sttpg_qats.egg-info/requires.txt
+sttpg_qats.egg-info/top_level.txt
