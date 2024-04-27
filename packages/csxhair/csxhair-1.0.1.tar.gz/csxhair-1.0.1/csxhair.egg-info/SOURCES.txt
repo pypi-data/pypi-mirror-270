@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+csxhair/__init__.py
+csxhair.egg-info/PKG-INFO
+csxhair.egg-info/SOURCES.txt
+csxhair.egg-info/dependency_links.txt
+csxhair.egg-info/requires.txt
+csxhair.egg-info/top_level.txt
