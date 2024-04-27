@@ -1,0 +1,264 @@
+{
+    "schemaUrl": "https://ptb.de/dcc/v3.2.1/dcc.xsd",
+    "listTypeElements": [
+        "measurementResults",
+        "dccSoftware",
+        "refTypeDefinitions",
+        "items",
+        "respPersons",
+        "statements",
+        "identifications",
+        "identifications",
+        "measuringEquipmentQuantities",
+        "charsXMLList",
+        "identifications",
+        "identifications",
+        "installedSoftwares",
+        "identifications",
+        "itemQuantities",
+        "usedMethods",
+        "usedSoftware",
+        "measuringEquipments",
+        "influenceConditions",
+        "results",
+        "measurementMetaData",
+        "charsXMLList",
+        "usedMethods",
+        "usedSoftware",
+        "measuringEquipments",
+        "influenceConditions",
+        "measurementMetaData",
+        "relativeUncertaintyXmlList",
+        "dateTimeXMLList",
+        "usedMethods",
+        "usedSoftware",
+        "measuringEquipments",
+        "influenceConditions",
+        "measurementMetaData",
+        "validXMLList",
+        "conformityXMLList"
+    ],
+    "listTypeElementsDetails": [
+        {
+            "name": "measurementResults",
+            "type": "dcc:measurementResultListType"
+        },
+        {
+            "name": "dccSoftware",
+            "type": "dcc:softwareListType"
+        },
+        {
+            "name": "refTypeDefinitions",
+            "type": "dcc:refTypeDefinitionListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "items",
+            "type": "dcc:itemListType"
+        },
+        {
+            "name": "respPersons",
+            "type": "dcc:respPersonListType"
+        },
+        {
+            "name": "statements",
+            "type": "dcc:statementListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "identifications",
+            "type": "dcc:identificationListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "identifications",
+            "type": "dcc:identificationListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "measuringEquipmentQuantities",
+            "type": "dcc:measuringEquipmentQuantityListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "charsXMLList",
+            "type": "dcc:charsXMLListType"
+        },
+        {
+            "name": "identifications",
+            "type": "dcc:identificationListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "identifications",
+            "type": "dcc:identificationListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "installedSoftwares",
+            "type": "dcc:softwareListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "identifications",
+            "type": "dcc:identificationListType"
+        },
+        {
+            "name": "itemQuantities",
+            "type": "dcc:itemQuantityListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "usedMethods",
+            "type": "dcc:usedMethodListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "usedSoftware",
+            "type": "dcc:softwareListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "measuringEquipments",
+            "type": "dcc:measuringEquipmentListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "influenceConditions",
+            "type": "dcc:influenceConditionListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "results",
+            "type": "dcc:resultListType"
+        },
+        {
+            "name": "measurementMetaData",
+            "type": "dcc:measurementMetaDataListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "charsXMLList",
+            "type": "dcc:charsXMLListType"
+        },
+        {
+            "name": "usedMethods",
+            "type": "dcc:usedMethodListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "usedSoftware",
+            "type": "dcc:softwareListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "measuringEquipments",
+            "type": "dcc:measuringEquipmentListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "influenceConditions",
+            "type": "dcc:influenceConditionListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "measurementMetaData",
+            "type": "dcc:measurementMetaDataListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "relativeUncertaintyXmlList",
+            "type": "si:realListXMLListType"
+        },
+        {
+            "name": "dateTimeXMLList",
+            "type": "dcc:dateTimeXMLListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "usedMethods",
+            "type": "dcc:usedMethodListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "usedSoftware",
+            "type": "dcc:softwareListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "measuringEquipments",
+            "type": "dcc:measuringEquipmentListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "influenceConditions",
+            "type": "dcc:influenceConditionListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "measurementMetaData",
+            "type": "dcc:measurementMetaDataListType",
+            "minOccurs": "0"
+        },
+        {
+            "name": "validXMLList",
+            "type": "dcc:booleanXMLListType"
+        },
+        {
+            "name": "conformityXMLList",
+            "type": "dcc:stringConformityStatementStatusXMLListType"
+        }
+    ],
+    "repeatedFieldNames": [
+        null,
+        "software",
+        "refTypeDefinition",
+        "equipmentClass",
+        "measuringEquipment",
+        "measuringEquipmentQuantity",
+        "usedLangCodeISO639_1",
+        "mandatoryLangCodeISO639_1",
+        "item",
+        "itemQuantity",
+        "identification",
+        "respPerson",
+        "statement",
+        "measurementResult",
+        "usedMethod",
+        "norm",
+        "reference",
+        "influenceCondition",
+        "result",
+        "metaData",
+        "countryCodeISO3166_1",
+        "content",
+        "file",
+        "formula"
+    ],
+    "repeatedFieldNamesDetails": {
+        "null": "unbounded",
+        "software": "unbounded",
+        "refTypeDefinition": "unbounded",
+        "equipmentClass": "unbounded",
+        "measuringEquipment": "unbounded",
+        "measuringEquipmentQuantity": "unbounded",
+        "usedLangCodeISO639_1": "unbounded",
+        "mandatoryLangCodeISO639_1": "unbounded",
+        "item": "unbounded",
+        "itemQuantity": "unbounded",
+        "identification": "unbounded",
+        "respPerson": "unbounded",
+        "statement": "unbounded",
+        "measurementResult": "unbounded",
+        "usedMethod": "unbounded",
+        "norm": "unbounded",
+        "reference": "unbounded",
+        "influenceCondition": "unbounded",
+        "result": "unbounded",
+        "metaData": "unbounded",
+        "countryCodeISO3166_1": "unbounded",
+        "content": "unbounded",
+        "file": "unbounded",
+        "formula": "unbounded"
+    }
+}
