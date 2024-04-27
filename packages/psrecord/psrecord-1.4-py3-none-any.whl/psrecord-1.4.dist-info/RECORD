@@ -1,0 +1,13 @@
+psrecord/__init__.py,sha256=CnGxETpsyMKJmkES-xUvtNTxd7gkY51PsrPreEPDfws,1497
+psrecord/__main__.py,sha256=QUOmMC6PxxK6VWrQmYDIMAHmXAhp2rlXPb1NFTbg_e0,1400
+psrecord/_version.py,sha256=mcG9KdSEcflCnNa2c534AT_PBr7fzMNm38O1LvPiEzE,406
+psrecord/main.py,sha256=qgHR5KsDbnNPBKQ9FPUs15SeFcef3kpKzLz21cSfALE,10699
+psrecord/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psrecord/tests/test_main.py,sha256=H6BO6pmh7k7YfQ58sEaDWF1DtKoCG45Xwh1UsvBXmG4,2394
+psrecord-1.4.dist-info/LICENSE,sha256=HsAlp4WoNzUT4Kos-A_bz79z2iamGiXP2tXC6bvYd-E,1299
+psrecord-1.4.dist-info/METADATA,sha256=HACZPYpfS3TORQHFqw9nK2pfr9MS4hfBp3zkot_cJNs,3356
+psrecord-1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+psrecord-1.4.dist-info/entry_points.txt,sha256=iCrUPQTcO954g8Jh9c1Nr6dT5rkgENoBWo7SJaK2T_0,48
+psrecord-1.4.dist-info/top_level.txt,sha256=-dZfMxlJ6Sn_3ymexVB3hDUyqk9RvKGpuLmvBCaTKig,9
+psrecord-1.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+psrecord-1.4.dist-info/RECORD,,
