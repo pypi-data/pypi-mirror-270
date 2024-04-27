@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/anybin2wheel/__init__.py
+src/anybin2wheel/__main__.py
+src/anybin2wheel.egg-info/PKG-INFO
+src/anybin2wheel.egg-info/SOURCES.txt
+src/anybin2wheel.egg-info/dependency_links.txt
+src/anybin2wheel.egg-info/entry_points.txt
+src/anybin2wheel.egg-info/requires.txt
+src/anybin2wheel.egg-info/top_level.txt
