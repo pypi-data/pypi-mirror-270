@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+iconer/__init__.py
+iconer/attribute.py
+iconer/command.py
+iconer/download.py
+iconer.egg-info/PKG-INFO
+iconer.egg-info/SOURCES.txt
+iconer.egg-info/dependency_links.txt
+iconer.egg-info/entry_points.txt
+iconer.egg-info/requires.txt
+iconer.egg-info/top_level.txt
+iconer.egg-info/zip-safe

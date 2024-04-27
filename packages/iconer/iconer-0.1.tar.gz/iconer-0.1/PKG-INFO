@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: iconer
+Version: 0.1
+Summary: Rich favicons, ICO and PNG formats.
+Home-page: https://github.com/podboy/favicons/
+Author: Mingzhe Zou
+Author-email: zoumingzhe@outlook.com
+License: MIT
+Project-URL: Source Code, https://github.com/podboy/favicons/
+Project-URL: Bug Tracker, https://github.com/podboy/favicons/issues
+Project-URL: Documentation, https://github.com/podboy/favicons/
+Keywords: xarg,icon,favicon,ico,png
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+<div align="center">
+  <h1 align="center"> 🍂 Favicons </h1>
+  <p align="center"> Rich favicons, ICO and PNG formats. </p>
+</div>
+
+# 📖 Table of Contents
+
+- [📖 Table of Contents](#-table-of-contents)
+  - [🚀 Getting Started](#-getting-started)
+    - [✨ Usage](#-usage)
+
+# 🚀 Getting Started
+
+## ✨ Usage
+
+
