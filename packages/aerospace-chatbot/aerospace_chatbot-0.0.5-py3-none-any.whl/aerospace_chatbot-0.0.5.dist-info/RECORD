@@ -1,0 +1,9 @@
+aerospace_chatbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aerospace_chatbot/admin.py,sha256=k9bJZRKHI2c_rt230TePF30L2QBDn7Zj49bR3DqR9us,39473
+aerospace_chatbot/data_processing.py,sha256=Cit8w09EjQ1WfYNFEB8QnhUWPUaRdj-zSbgYR1HWtqM,40050
+aerospace_chatbot/prompts.py,sha256=_5ygN6blvfxkwW8CEovdbkIHlpkD49XAb4P57Row5KM,919
+aerospace_chatbot/queries.py,sha256=uHxNEtfmokSXhTlsO90sBO385KyWUP-o6X-4Jq36SOc,13109
+aerospace_chatbot-0.0.5.dist-info/LICENSE,sha256=su26nrHakbB44t1tvBqkB6CONK1hnNJ_PZRJuRPMvn8,1068
+aerospace_chatbot-0.0.5.dist-info/METADATA,sha256=knj58ONuGx7ouWgBCTDxY_NAWL5XSlYJD1PFgP6-axg,2601
+aerospace_chatbot-0.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aerospace_chatbot-0.0.5.dist-info/RECORD,,
