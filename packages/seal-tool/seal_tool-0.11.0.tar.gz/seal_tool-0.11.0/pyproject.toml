@@ -1,0 +1,155 @@
+[project]
+name = "seal-tool"
+version = "0.11.0"
+authors = [
+  { name = "Martin Matouš", email = "m@matous.dev" },
+  { name = "Barbora Winterová", email = "winterova@mail.muni.cz" },
+  ]
+description = "A tool to perform richness-extent-grain analyses"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">= 3.12"
+dependencies = [
+  "alive-progress ~= 3.1",
+  "numba ~= 0.59",
+  "numexpr ~= 2.9", # leave out bottleneck from pandas[performance], requires compiler
+  "pandas ~= 2.2",
+  "pydantic ~= 2.6",
+  "scipy ~= 1.12",
+  "seaborn ~= 0.13.2",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+]
+keywords = ["area", "distance decay", "ecology", "extent", "grain", "richness", "SAR", "scale", "species", "species-area"]
+
+
+[project.optional-dependencies]
+dev = [
+  "mypy == 1.9",
+  "pandas-stubs ~= 2.2",
+  "pytest ~= 8.1",
+  "pytest-cov ~= 5.0",
+  "ruff == 0.3.4",
+]
+alt_plot = [
+  "plotly",
+]
+
+[project.scripts]
+seal = "seal.__main__:main"
+
+[project.urls]
+"Homepage" = "https://codeberg.org/mmatous/seal"
+"Bug Tracker" = "https://codeberg.org/mmatous/seal/issues"
+# "Original Study" = "https://doi.org/10.1086/285704"
+# "Original Study, alt." = "https://doi.org/10.17615/n84a-pd17"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+  "A",
+  "ANN",
+  "ARG",
+  "ASYNC",
+  "B",
+  "C4",
+  "D",
+  "DTZ",
+  "E",
+  "F",
+  "FBT",
+  "I",
+  "LOG",
+  "N",
+  "PD",
+  "PL",
+  "PERF",
+  "PIE",
+  "PGH",
+  "PT",
+  "PTH",
+  "RET",
+  "RUF",
+  "S",
+  "SIM",
+  "TCH",
+  "TID",
+  "TRY",
+  "UP",
+  "W",
+]
+ignore = [
+  "ANN101",
+  "ANN102", # both deprecated as of ruff 0.3.3 anyway
+  "D10",
+  "E111",
+  "E114",
+  "E117",
+  "E501", # these Es are left up to ruff format
+  "PD008",
+  "PD009",
+  "PD901",
+  "RET504",
+  "N999",
+]
+
+[tool.ruff.lint.flake8-bandit]
+check-typed-exception = true
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D", "S101"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.format]
+docstring-code-format = true
+line-ending = "lf"
+quote-style = "single"
+
+[tool.mypy]
+allow_redefinition = true
+disable_error_code = [
+  "valid-type",
+]
+enable_error_code = [
+  "ignore-without-code",
+  "possibly-undefined",
+  "redundant-expr",
+  "redundant-self",
+  "truthy-bool",
+  "truthy-iterable",
+  "unreachable",
+  # unused for now but nobody would remember to add these should related features be used later
+  "explicit-override",
+  "mutable-override",
+  "unused-awaitable",
+]
+exclude = "build/"
+strict = true
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report html --cov-report term-missing --cov-fail-under 95"
+doctest_optionflags = "NORMALIZE_WHITESPACE"
+python_files = "test-*.py"
+
+[tool.coverage.run]
+source = ["src"]
+
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
