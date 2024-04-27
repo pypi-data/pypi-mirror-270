@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jsx
+Version: 0.6.5
+Summary: This package is deprecated. Please use the `python-seamless` package instead.
+Author-email: Xpo Development <dev@xpo.dev>
+Project-URL: Homepage, https://github.com/xpodev/seamless
+Project-URL: Issues, https://github.com/xpodev/seamless/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-socketio ==5.11.1
+Requires-Dist: cssutils ==2.9.0
+
+# Python JSX
+
+This package is deprecated. Please use [Seamless](https://pypi.org/project/python-seamless/) instead.
