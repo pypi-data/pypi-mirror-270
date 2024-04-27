@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: furya-proto
+Version: 4.0.2
+Summary: DEPRECATED Python Protobuf implementation for Furya
+Home-page: https://github.com/furysport/furya.proto
+License: MIT
+Keywords: jigu,blockchain,furya,defi,crypto
+Author: Furyaform Labs, PTE.
+Author-email: engineering@furya.xyz
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: betterproto (==2.0.0b4)
+Project-URL: Repository, https://github.com/furysport/furya.proto
+Description-Content-Type: text/markdown
+
+# DEPRECATED Python Protobuf implementation for Furya
+
+Furya Proto python library will not be maintained any further by TFL officialy. 
+
+Alternative options to this library can be found here:
+- GoLang [Furya Core](https://github.com/furya-money/core) clients, 
+- JavaScript [@fanfury/furya.proto](https://www.npmjs.com/package/@fanfury/furya.proto/),
+- Rust [furya-proto-rs](https://crates.io/crates/furya-proto-rs).
