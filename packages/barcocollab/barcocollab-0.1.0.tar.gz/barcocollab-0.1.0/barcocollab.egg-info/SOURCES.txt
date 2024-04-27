@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+barcocollab.egg-info/PKG-INFO
+barcocollab.egg-info/SOURCES.txt
+barcocollab.egg-info/dependency_links.txt
+barcocollab.egg-info/top_level.txt

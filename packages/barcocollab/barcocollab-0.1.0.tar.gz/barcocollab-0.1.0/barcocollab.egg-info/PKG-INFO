@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: barcocollab
+Version: 0.1.0
+Summary: A very basic stub Python package named barcocollab deployed to protect a package released to an internal company pypi index
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# barcocollab
