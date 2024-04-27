@@ -1,0 +1,11 @@
+syncpool_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncpool_py/exceptions.py,sha256=iWNcV78MB7istbqOLZ2EGYOoOWA38RZEUurJFIvi5_g,663
+syncpool_py/objects.py,sha256=ROZT3WoWFEIM-evzXcVU3PCb1A9pvMJj9TcrRZ-q2SI,239
+syncpool_py/pools/__init__.py,sha256=_6yXukeVUJnNoGpsMQt0Duw1cRfb-50s_hh7Ix7CMns,3842
+syncpool_py/pools/asyncpool.py,sha256=p2NyGQ4uli40CGBlprBYp2TEyl7D0qjI84cRer8M5Qw,2187
+syncpool_py/pools/syncpool.py,sha256=l6DoruAl5giLl0RvfwcD-qOzBnXHDOSfkFlw0f9wbNo,2143
+syncpool_py-0.1.1.dist-info/LICENSE,sha256=Vj7M4xgpFbHsxwe0kiGMtFtdqSbkJCPORnbC8x0DM5A,1068
+syncpool_py-0.1.1.dist-info/METADATA,sha256=PYavNtSwLHn1aFxsXLpio0ZhlrOh4XArMjrG4rZylGs,234
+syncpool_py-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+syncpool_py-0.1.1.dist-info/top_level.txt,sha256=PwScmKP0WLtL9ahcWee_f_y-hKQR52uivdb_GjY3G8g,12
+syncpool_py-0.1.1.dist-info/RECORD,,
