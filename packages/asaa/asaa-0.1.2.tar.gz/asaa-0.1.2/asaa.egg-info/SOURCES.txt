@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+asaa/__init__.py
+asaa/assistant.py
+asaa/cli.py
+asaa/core.py
+asaa/questions.yaml
+asaa.egg-info/PKG-INFO
+asaa.egg-info/SOURCES.txt
+asaa.egg-info/dependency_links.txt
+asaa.egg-info/entry_points.txt
+asaa.egg-info/requires.txt
+asaa.egg-info/top_level.txt
+tests/test_core.py
