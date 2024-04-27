@@ -1,0 +1,8 @@
+fetch_sitemap/__init__.py,sha256=WiwJfFn8uH17x6f77a8oiNx0Y7U_UVedGeWAtbbumuE,4797
+fetch_sitemap/datastructures.py,sha256=ysx3g6c02P_9HTOmDRAHre7P3xIi04fq4xxtIdkZ6zA,2329
+fetch_sitemap/fetch.py,sha256=LN4YQrDsale78eBu_kUOPVd67YcGI16HgfVZMb8W2tU,11446
+fetch_sitemap-21.dist-info/LICENSE,sha256=IuPHifHsgozOOdU20oIJ4zO15rX6BsxJFrjrF9gTrxY,1521
+fetch_sitemap-21.dist-info/METADATA,sha256=lKDUXe-wgKurAoLa2lVmSXuIOkW0mTCI5Yudv0oolXo,3578
+fetch_sitemap-21.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fetch_sitemap-21.dist-info/entry_points.txt,sha256=6w4WEgc6nr9Ue1GLfVEhRSjlscV9d6W0E_xjGvHiCaI,52
+fetch_sitemap-21.dist-info/RECORD,,
