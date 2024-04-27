@@ -1,0 +1,15 @@
+knockofforigins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knockofforigins/data_gen.py,sha256=2fjhZ-DH4cbUg-QalhCgNia6H4aKZgkE158jCgkg5FI,3555
+knockofforigins/decompose.py,sha256=mr59sbYX0YnSsHSFvod-Sr1nzWf7XhsTwqcoojdY5_Y,2829
+knockofforigins/evaluation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knockofforigins/gram_matrix.py,sha256=pfBFHWrWdGO05UeKCaNUvvT7pVupFPzGg8F0GgH6nqQ,1267
+knockofforigins/knockoff.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knockofforigins/knockoff_construct.py,sha256=TIzmwsTngMb653WDkm8Z6JBzuI68MOT5fpLlXZxw9YE,2659
+knockofforigins/lasso.py,sha256=o1n3LwsYA0g3bmwJLy_xf0z_BGUjzMCz8j4VaJpXwYo,1499
+knockofforigins/plots.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knockofforigins/testatistics.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knockofforigins/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knockofforigins-0.1.1.dist-info/LICENSE,sha256=H9RnEB2LTKX7r1gKu1yaCgbkHcWtjsFQ9kASzo6kpcc,1069
+knockofforigins-0.1.1.dist-info/METADATA,sha256=kjnYNP1b7AoxNPzHWJiG5Ykh05WNuSqr822LqSujBp4,4855
+knockofforigins-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+knockofforigins-0.1.1.dist-info/RECORD,,
