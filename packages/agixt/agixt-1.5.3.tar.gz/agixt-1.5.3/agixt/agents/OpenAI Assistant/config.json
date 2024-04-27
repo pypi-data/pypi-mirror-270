@@ -1,0 +1,27 @@
+{
+  "commands": {},
+  "settings": {
+    "provider": "openai",
+    "tts_provider": "openai",
+    "transcription_provider": "openai",
+    "translation_provider": "openai",
+    "embeddings_provider": "default",
+    "image_provider": "openai",
+    "AI_MODEL": "gpt-4-turbo-preview",
+    "AI_TEMPERATURE": "0.7",
+    "MAX_TOKENS": "16000",
+    "AUTONOMOUS_EXECUTION": true,
+    "helper_agent_name": "gpt4free",
+    "WEBSEARCH_TIMEOUT": 0,
+    "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY",
+    "AI_TOP_P": "1",
+    "API_URI": "https://api.openai.com/v1",
+    "WAIT_BETWEEN_REQUESTS": "1",
+    "WAIT_AFTER_FAILURE": "3",
+    "WORKING_DIRECTORY": "./WORKSPACE",
+    "WORKING_DIRECTORY_RESTRICTED": "True",
+    "mode": "prompt",
+    "prompt_category": "Default",
+    "prompt_name": "Chat"
+  }
+}
