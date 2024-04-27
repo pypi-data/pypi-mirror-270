@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/observing_machine/__init__.py
+src/observing_machine.egg-info/PKG-INFO
+src/observing_machine.egg-info/SOURCES.txt
+src/observing_machine.egg-info/dependency_links.txt
+src/observing_machine.egg-info/top_level.txt
