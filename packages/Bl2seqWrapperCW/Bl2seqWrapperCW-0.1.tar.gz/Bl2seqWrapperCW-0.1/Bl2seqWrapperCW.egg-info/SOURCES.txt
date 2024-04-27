@@ -1,0 +1,8 @@
+setup.py
+Bl2seqWrapperCW/Bl2seqWrapperCW.py
+Bl2seqWrapperCW/__init__.py
+Bl2seqWrapperCW.egg-info/PKG-INFO
+Bl2seqWrapperCW.egg-info/SOURCES.txt
+Bl2seqWrapperCW.egg-info/dependency_links.txt
+Bl2seqWrapperCW.egg-info/not-zip-safe
+Bl2seqWrapperCW.egg-info/top_level.txt
