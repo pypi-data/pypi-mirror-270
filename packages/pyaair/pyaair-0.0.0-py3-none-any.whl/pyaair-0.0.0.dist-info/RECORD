@@ -1,0 +1,9 @@
+pyaair/__init__.py,sha256=d5GW6dlAKNCNzCQYj0aKnM3TSWZjye04ywtOQWw3I0o,71
+pyaair/airports.py,sha256=dFrJtGcaAZ_9MmG4QMcN_wn34-a6GYOTt63yyUDDVzo,1360
+pyaair/flights.py,sha256=03xJeyJKvpRMJd485hsYxqoQ92xMs6VCmZIfBLC5TQ8,2024
+pyaair/utils.py,sha256=CNp3dZFD2EKT13ijSj7GtwLYPhmblXn6DrlXgJ53-bk,921
+pyaair-0.0.0.dist-info/LICENSE,sha256=0PBfqtVdjTi81KOnoq0jamaIptotvy8HeVisrP8CVCY,1060
+pyaair-0.0.0.dist-info/METADATA,sha256=326jkI1v0Ly4LSbxVtD5JEJA_RetE88GCdpZ5dwnoCc,2367
+pyaair-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyaair-0.0.0.dist-info/top_level.txt,sha256=chYNO_elMJWpYLbiyKxVgAj4YAHCR2YUh1YcLlJMjJU,7
+pyaair-0.0.0.dist-info/RECORD,,
