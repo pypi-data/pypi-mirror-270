@@ -1,0 +1,11 @@
+thebeans/CSVtoDF.py,sha256=e6VA94P68rvlkPzYcwtC0sUNsU-Eofl5xQ0JMP4GHsw,310
+thebeans/__init__.py,sha256=vVEMM1qWlagewiJUPkCrpvYt9-UTlqzEGHLpGvXYgT8,157
+thebeans/common.py,sha256=Si4ZvbkkaVGyKrOa7gmsVNWS2Abtji-V5nEsJhrIM3M,188
+thebeans/foliummap.py,sha256=pNH60Y3rhhD5daIsErW-XePa_w4TgVbCBG4lvybr4Vg,3116
+thebeans/thebeans.py,sha256=obbFquQ2tTKxznMGQN2N8jimY8J6xKWnhp_N8k91pvs,14476
+TheBeans-0.0.8.dist-info/LICENSE,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+TheBeans-0.0.8.dist-info/METADATA,sha256=jSAEO2TkfO_ANxth2KSGIUah76mxWHW_teawkUYqmLo,1397
+TheBeans-0.0.8.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+TheBeans-0.0.8.dist-info/entry_points.txt,sha256=Ei1NYks6KZkthWXV6KIzd42pUnkyJV_pN_y8OeTWjbs,47
+TheBeans-0.0.8.dist-info/top_level.txt,sha256=ANz5G_CVVCVu-q6a1JrQXsmTbXmzwUIxO-LLV-wwIVg,9
+TheBeans-0.0.8.dist-info/RECORD,,
