@@ -1,0 +1,7 @@
+hcp_vault_secrets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hcp_vault_secrets/vaultsecrets.py,sha256=v2krP8gW5kB94FwkqgVniaFRw4UCdaOtI9cM1lkgwIc,3105
+hcp_vault_secrets/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hcp_vault_secrets/lib/logging.py,sha256=3zaPEmWIAE8MoZYmmQ4ZNo9RwlBSRsYE4HM0SgZlfvM,356
+hcp_vault_secrets-0.0.3.dist-info/METADATA,sha256=28IFsUx0GTy3ju8WPQzVdB66euJDsaYp5TAw-xcHbpc,4074
+hcp_vault_secrets-0.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+hcp_vault_secrets-0.0.3.dist-info/RECORD,,
