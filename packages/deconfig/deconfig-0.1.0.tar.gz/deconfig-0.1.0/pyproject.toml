@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "deconfig"
+dynamic=["version"]
+description = "A simple configuration library for Python"
+authors = [
+    {name="ybhaw"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ybhaw/deconfig"
+Issues = "https://github.com/ybhaw/deconfig/issues"
+
