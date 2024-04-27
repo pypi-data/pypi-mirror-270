@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ya-tmp-pyapi"
+version = "0.7.0"
+description = ""
+authors = ["scx1332 <sieciech.czajka@golem.network>"]
+license = "LGPL-3.0-or-later"
+readme = "README.md"
+
+packages = [
+    { include = "ya_market", from="src" },
+    { include = "ya_payment", from="src" },
+    { include = "ya_activity", from="src" },
+    { include = "ya_net", from="src" }
+]
+include=["py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+aiohttp = "^3.6.2"
+python-dateutil = "^2.8.1"
+certifi="^2020.6.20"
