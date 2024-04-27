@@ -1,0 +1,2 @@
+[datasette]
+test_plugin = datasette_test_plugin
