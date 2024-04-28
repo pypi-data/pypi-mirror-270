@@ -1,0 +1,5 @@
+setup.py
+amjd.egg-info/PKG-INFO
+amjd.egg-info/SOURCES.txt
+amjd.egg-info/dependency_links.txt
+amjd.egg-info/top_level.txt
