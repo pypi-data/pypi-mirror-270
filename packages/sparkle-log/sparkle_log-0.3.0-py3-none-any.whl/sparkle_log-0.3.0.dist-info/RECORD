@@ -1,0 +1,17 @@
+sparkle_log/__about__.py,sha256=EkQ5-rwjl5odmSenqIs8NIPBjM-5lmom0x7E506baA0,836
+sparkle_log/__init__.py,sha256=FhQ7uLyVPBT8kTlou-EtOGuHlKZgBzOi8XC09IY4F3A,397
+sparkle_log/__main__.py,sha256=-FmUkdBwoYz10A0Ds4r5Lt55gPOpRZ7bbVM7N6mOv-c,3542
+sparkle_log/as_context_manager.py,sha256=ltF4hiEO4flJJIynlRb1NqPH6SXDeB4bz6lvuYcpvOE,2085
+sparkle_log/as_decorator.py,sha256=66CWHwHc3HgvXhGd8MsH2b-cqIVXWvnxi00i31077Vo,1251
+sparkle_log/drive_space.py,sha256=ghvjw67dwm6wRXAuK8lyD5Vm-dybZKzbP3ObraxnobM,2464
+sparkle_log/graphs.py,sha256=AUsSBJ_YT4PQFT5HlXNulVJgJ_ZI8U7D8rVPitdVSoc,109
+sparkle_log/log_writer.py,sha256=vPhMxaUB7DED0vD2u0dMOXMqnuP4X_3MtfVunH9cvRw,2722
+sparkle_log/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparkle_log/scheduler.py,sha256=-ajWEvfKYcu23q9vIL0xu0J2QfMlcpaicorMHBz8qGQ,526
+sparkle_log/ui.py,sha256=4Wn3V0BCHNDx3iQm_1YvqNBNb6mE75XYM8wGslyIJ9M,2464
+sparkle_log-0.3.0.dist-info/AUTHORS.md,sha256=4zBlglFcbZdTFku7HVleYA19RvPt0ts4oc6FU-9vUE8,55
+sparkle_log-0.3.0.dist-info/LICENSE,sha256=jorgCGk-Vzqzuda58x7WxtiRSnL0_WaOSLcZIe3czgo,1071
+sparkle_log-0.3.0.dist-info/METADATA,sha256=zQaFsPpXCbtsaBAVw3-zqTZbR_4nvk8TaMh4TMa5btk,3251
+sparkle_log-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sparkle_log-0.3.0.dist-info/entry_points.txt,sha256=bP0rjnYYjjdDQoxxX9I3pi8S0DQfdTwiKDjvOW3tCx8,57
+sparkle_log-0.3.0.dist-info/RECORD,,
