@@ -1,0 +1,3 @@
+[console_scripts]
+cybersf = cybersf.__main__:main
+
