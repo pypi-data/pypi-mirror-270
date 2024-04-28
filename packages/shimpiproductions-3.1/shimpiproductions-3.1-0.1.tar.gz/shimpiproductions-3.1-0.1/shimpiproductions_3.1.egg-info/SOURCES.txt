@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+lib/__init__.py
+lib/main.py
+shimpiproductions_3.1.egg-info/PKG-INFO
+shimpiproductions_3.1.egg-info/SOURCES.txt
+shimpiproductions_3.1.egg-info/dependency_links.txt
+shimpiproductions_3.1.egg-info/entry_points.txt
+shimpiproductions_3.1.egg-info/requires.txt
+shimpiproductions_3.1.egg-info/top_level.txt
