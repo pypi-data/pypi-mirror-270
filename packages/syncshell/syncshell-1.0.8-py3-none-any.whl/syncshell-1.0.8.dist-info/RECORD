@@ -1,0 +1,14 @@
+.syncshell.ini,sha256=jnVXjSP3uxuGN8bdb5q_BmXhDUP8Ym7H7fOYixuIKnQ,65
+README.md,sha256=hITd-_4G5ETUvKYsflkOME7XGk-rvCpap49z5ONcNOE,3858
+pyproject.toml,sha256=qrZ4Tmz26fIygMbXC5G2ISMyGoZEADYTEnwtSjaqVlE,1326
+syncshell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncshell/cli.py,sha256=7ZAKY1kWJI_AkWVDoKIDqwpvFPYkNk2vCh9P06tBvRw,6676
+syncshell/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncshell/utils/config.py,sha256=PErQ623ZoC0sS4c-CYTbcrPHkFDvq3EeHIfDnLUJkYI,4065
+syncshell/utils/constants.py,sha256=VdTsOAMmNS6RKYN2RZEYg4_20fer2pPbt0c2uMpsWTo,967
+syncshell/utils/spinner.py,sha256=9BiDaQrydzOTZAGCCI1JHkBHzp9AglTfa8AMkCKZOyE,569
+syncshell-1.0.8.dist-info/LICENSE.txt,sha256=5Hz0-jXYBpho-st-OPBH8THOr0PAslpp1AgLGnezYAU,1072
+syncshell-1.0.8.dist-info/METADATA,sha256=4hbC3dW_mShO7s0H3ODb04e81BGz06TCHP1NLGJYVJs,4958
+syncshell-1.0.8.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+syncshell-1.0.8.dist-info/entry_points.txt,sha256=irDERg2Mf59QzZxJTbePqvX7OEUHpVVhVsm8xvZ8_zM,48
+syncshell-1.0.8.dist-info/RECORD,,
