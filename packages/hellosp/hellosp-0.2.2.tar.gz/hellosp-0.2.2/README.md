@@ -1,0 +1,1 @@
+HelloSP is a simple cli tool to calculate the sum of 2 numbers

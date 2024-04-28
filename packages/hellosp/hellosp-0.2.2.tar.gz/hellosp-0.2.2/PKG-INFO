@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: hellosp
+Version: 0.2.2
+Summary: This is a simple cli to calculate the sum of 2 numbers
+Home-page: UNKNOWN
+Author: Shanmuga Priya
+Author-email: shanmugapriya.rs@embedur.com
+License: UNKNOWN
+Description: HelloSP is a simple cli tool to calculate the sum of 2 numbers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
