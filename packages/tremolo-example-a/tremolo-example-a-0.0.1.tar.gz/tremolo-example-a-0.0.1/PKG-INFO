@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tremolo-example-a
+Version: 0.0.1
+Summary: tremolo-example-a is basically an extension of tremolo-example.
+Home-page: https://pypistats.org/packages/tremolo-example-a
+Author: nggit
+Author-email: contact@anggit.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# tremolo-example-a
+tremolo-example-a is basically an extension of tremolo-example.
+
+## License
+MIT

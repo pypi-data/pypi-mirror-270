@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+tremolo_example_a/__init__.py
+tremolo_example_a.egg-info/PKG-INFO
+tremolo_example_a.egg-info/SOURCES.txt
+tremolo_example_a.egg-info/dependency_links.txt
+tremolo_example_a.egg-info/requires.txt
+tremolo_example_a.egg-info/top_level.txt
