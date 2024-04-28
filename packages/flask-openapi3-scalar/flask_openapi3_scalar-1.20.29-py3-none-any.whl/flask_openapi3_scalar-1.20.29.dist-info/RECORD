@@ -1,0 +1,10 @@
+flask_openapi3_scalar/__init__.py,sha256=guTuATqagW9fZKwwlEIIEdDeR9y7It0spnNfNtWS--U,73
+flask_openapi3_scalar/__version__.py,sha256=nzcV6kIGgJ9FL5cBni4aWvYh3b3x5GG977rny7Ed2PE,52
+flask_openapi3_scalar/plugins.py,sha256=0vIQPqOvv98wgyNDnOFJscq3SQJNw5MgAllf7kvhhpo,1285
+flask_openapi3_scalar/templates/__init__.py,sha256=L5TBrqlI1kEhZNG6ITuh2QtMqzL9DOCG_0EPtvtCcgA,892
+flask_openapi3_scalar/templates/scalar/images/scalar.svg,sha256=hjiTk-ybUTzwjCPvsWwbriJi-ZToNTX_77gfr9z-PP8,602
+flask_openapi3_scalar/templates/scalar/js/scalar.standalone.js,sha256=ZQTcpEii0N1ubDJ70B42Ze3gYOeJMKTwv27uKymCmgc,2182301
+flask_openapi3_scalar-1.20.29.dist-info/METADATA,sha256=-4ktn0PhHfQs05UV7zjgSc7oB3fOXsqvIQQxQ6xiVyI,933
+flask_openapi3_scalar-1.20.29.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+flask_openapi3_scalar-1.20.29.dist-info/entry_points.txt,sha256=pn6dCdyFEwYPtI7hTIVyJrOHCpafA7rniXUasKXVRNQ,81
+flask_openapi3_scalar-1.20.29.dist-info/RECORD,,
