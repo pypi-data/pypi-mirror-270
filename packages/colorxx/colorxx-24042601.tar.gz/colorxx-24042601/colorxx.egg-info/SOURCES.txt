@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+colorx/__init__.py
+colorxx.egg-info/PKG-INFO
+colorxx.egg-info/SOURCES.txt
+colorxx.egg-info/dependency_links.txt
+colorxx.egg-info/top_level.txt

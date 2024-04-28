@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: colorxx
+Version: 24042601
+Summary: A simple class with colorful fonts
+Home-page: https://github.com/xiaotech/colorx
+Author: xiaotech
+Author-email: xiaotech@163.com
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+easy module to type write color full fonts
