@@ -1,0 +1,1 @@
+jlpm clean:all && git clean -dfX && python -m build && twine upload dist/*
