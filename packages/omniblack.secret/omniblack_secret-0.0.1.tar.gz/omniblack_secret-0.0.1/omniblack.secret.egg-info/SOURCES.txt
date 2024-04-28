@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+malloc.c
+pyproject.toml
+rpmalloc.c
+secret.c
+setup.py
+include/rpmalloc.h
+omniblack.secret.egg-info/PKG-INFO
+omniblack.secret.egg-info/SOURCES.txt
+omniblack.secret.egg-info/dependency_links.txt
+omniblack.secret.egg-info/top_level.txt
