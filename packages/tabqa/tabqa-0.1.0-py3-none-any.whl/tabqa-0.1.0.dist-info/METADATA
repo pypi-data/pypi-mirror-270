@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tabqa
+Version: 0.1.0
+Summary: This Python script provides functions to generate SQL queries based on input questions and database schemas using a pre-trained language model. It allows for customization of model loading and behavior. The `generate_schema` function takes a question and schema as input and outputs a SQL query.
+Author: Ketan More
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: bitsandbytes
+Requires-Dist: accelerate
+Requires-Dist: sqlparse
+
