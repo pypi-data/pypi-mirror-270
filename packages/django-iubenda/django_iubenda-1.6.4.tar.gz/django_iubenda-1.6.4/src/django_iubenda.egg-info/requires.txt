@@ -1,0 +1,12 @@
+django
+django-modeltranslation
+requests
+django_compressor
+
+[lint]
+black
+flake8
+
+[test]
+coverage
+codecov
