@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: a4a
+Version: 0.4
+Summary: Hi ! By This Lib You Can Check Users In Sosial Midea ,
+Author: Ali-Mahmoud-Fadhil
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires: user_agent
+Requires: requests
+License-File: LICENSE.txt

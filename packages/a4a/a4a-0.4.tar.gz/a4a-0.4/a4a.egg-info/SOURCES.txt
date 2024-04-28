@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+a4a/__init__.py
+a4a.egg-info/PKG-INFO
+a4a.egg-info/SOURCES.txt
+a4a.egg-info/dependency_links.txt
+a4a.egg-info/top_level.txt
