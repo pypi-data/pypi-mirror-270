@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ygoutil
+Version: 0.1.0
+Summary: 一个 ygo 工具集
+Author: liggest
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: typing-extensions>=4.11.0
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: lxml>=5.2.1
+Requires-Dist: tomli>=2.0.1
+Requires-Dist: tomli-w>=1.0.0
+Description-Content-Type: text/markdown
+
+# ygoutil
+
+一个 ygo 相关的工具集
+
+## 安装
+
+```bash
+pip install ygoutil
+```
+
+## 使用
+
+> 勉强能跑（
