@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: tormail
+Version: 0.0.4
+Requires-Dist: requests>=2.0.0

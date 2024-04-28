@@ -1,0 +1,10 @@
+README.md
+setup.py
+tormail/__init__.py
+tormail/listen.py
+tormail/mail.py
+tormail.egg-info/PKG-INFO
+tormail.egg-info/SOURCES.txt
+tormail.egg-info/dependency_links.txt
+tormail.egg-info/requires.txt
+tormail.egg-info/top_level.txt
