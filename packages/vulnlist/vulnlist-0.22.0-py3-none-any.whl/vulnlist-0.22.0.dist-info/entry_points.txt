@@ -1,0 +1,3 @@
+[console_scripts]
+vulnlist=vulnlist.cli:run
+
