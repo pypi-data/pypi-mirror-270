@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+example.py
+setup.py
+Flare/__init__.py
+Flare_Helper.egg-info/PKG-INFO
+Flare_Helper.egg-info/SOURCES.txt
+Flare_Helper.egg-info/dependency_links.txt
+Flare_Helper.egg-info/requires.txt
+Flare_Helper.egg-info/top_level.txt
