@@ -1,0 +1,3 @@
+[console_scripts]
+cybernova = CyberNova.cli:main
+cybernova-help = CyberNova.help:show_help

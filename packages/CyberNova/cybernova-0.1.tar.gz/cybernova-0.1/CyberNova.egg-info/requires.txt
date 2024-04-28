@@ -1,0 +1,6 @@
+argparse
+dnspython
+whois
+python-nmap
+networkx
+matplotlib
