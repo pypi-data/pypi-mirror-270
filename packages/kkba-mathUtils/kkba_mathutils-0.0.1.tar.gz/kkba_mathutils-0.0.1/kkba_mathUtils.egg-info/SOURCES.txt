@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+kkba_mathUtils/__init__.py
+kkba_mathUtils/kkba_mathUtils.py
+kkba_mathUtils.egg-info/PKG-INFO
+kkba_mathUtils.egg-info/SOURCES.txt
+kkba_mathUtils.egg-info/dependency_links.txt
+kkba_mathUtils.egg-info/top_level.txt
+tests/test_myfunctions.py

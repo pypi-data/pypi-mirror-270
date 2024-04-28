@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kkba_mathUtils
+Version: 0.0.1
+Summary: My basic mathematics Python library
+Author: Kuate Brayan
+Author-email: Kuate Brayan <brayanarmel@gmail.com>
+Project-URL: Homepage, https://github.com/KamgaBrayan/KKBA_BASIC_MATH_PYTHON_LIBRARY
+Keywords: mathematics,maths,mean,operations,gcd,arithmetic,quadratic
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
