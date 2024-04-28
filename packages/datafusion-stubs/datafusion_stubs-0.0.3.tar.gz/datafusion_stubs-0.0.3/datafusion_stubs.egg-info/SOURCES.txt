@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+datafusion-stubs/__init__.pyi
+datafusion-stubs/common.pyi
+datafusion-stubs/expr.pyi
+datafusion-stubs/functions.pyi
+datafusion-stubs/object_store.pyi
+datafusion-stubs/py.typed
+datafusion-stubs/substrait.pyi
+datafusion_stubs.egg-info/PKG-INFO
+datafusion_stubs.egg-info/SOURCES.txt
+datafusion_stubs.egg-info/dependency_links.txt
+datafusion_stubs.egg-info/top_level.txt

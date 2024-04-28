@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: datafusion_stubs
+Version: 0.0.3
+Summary: PEP 561 type stubs for Apache DataFusion Python Bindings
+Home-page: https://github.com/3ok/datafusion-stubs
+Author: Reda Bouaida
+Author-email: reda.bouaida@outlook.com
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# datafusion-stubs
+
+**Note: This project is still in very early work-in-progress (WIP) stage.**
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+## Overview
+
+This packages aims to provide type stubs for [DataFusion Python bindings](https://github.com/apache/datafusion-python).
+
+## Install
+
+```shell
+$ pip install datafusion-stubs
+```
