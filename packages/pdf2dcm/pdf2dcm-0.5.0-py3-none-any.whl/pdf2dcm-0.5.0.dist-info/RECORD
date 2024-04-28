@@ -1,0 +1,9 @@
+pdf2dcm/__init__.py,sha256=-SBXYgb3Y3S6aGv6c6LHfWnxFMcP4uyOM3uZRFUZmf8,107
+pdf2dcm/base.py,sha256=rnXNBXQbg4SjJby12Hor09R7W70cGZNFFPPMhCEWfsI,3993
+pdf2dcm/pdf2encaps.py,sha256=8RSx9JC5Fd7AXWFbJd5Un2U022UhB0qHKfIiDeSGtKk,3437
+pdf2dcm/pdf2rgb.py,sha256=AO2mIpibKaxcLudlWlXINkDhXv2LBLQmsZrHbIa6CZE,5044
+pdf2dcm/utils/uid.py,sha256=e2zCd0mwwYFiiUN6J-HlNpQb9kYiGFm8n7aATOLi4VY,449
+pdf2dcm-0.5.0.dist-info/LICENSE,sha256=NoT4uQMO1Y9By7w-WOPIMsWnwykI-GW34-8RSJd6z7A,1077
+pdf2dcm-0.5.0.dist-info/METADATA,sha256=i9BgHGvQqRs9X4QBtdbtrf_83H5qI0hSm8ALdr9yuLw,5380
+pdf2dcm-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pdf2dcm-0.5.0.dist-info/RECORD,,
