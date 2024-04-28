@@ -1,0 +1,14 @@
+Cnn
+Rnn-lstm
+adam
+autoencoder
+fnn-perceptron
+mc-culloch-pitt
+mini-batch-gd
+momentum-gd
+nestrov-gd
+optimization-adagrad-gd
+optimization-stocastic-gd
+optimization-vanilla-gd
+rms
+ttpdant
