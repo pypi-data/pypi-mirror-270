@@ -1,0 +1,13 @@
+caped_ai_tabulour/__init__.py,sha256=zCkjechz7bosZTf49c_nAW_DNTHWJqhaeR_cBnh4lnw,107
+caped_ai_tabulour/_data_model.py,sha256=T9__8rYQUIF_Pf0yxP3RtS-Zj3hzN-RKAchMx41yTpU,3220
+caped_ai_tabulour/_tabulour.py,sha256=Mq6YlkC24Wujpdz-gp3egmUJ20lMsHJD8sF3stDPt6o,8564
+caped_ai_tabulour/_version.py,sha256=rGK5uJLadrQZiKDPR7yoTMEfOV0hXXM3KLZ-NssHhWQ,78
+caped_ai_tabulour/caped.yaml,sha256=GoeC2QpZn1iFDekuLytdsATcC75qgElMMGxKepgVyMo,69
+caped_ai_tabulour/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caped_ai_tabulour/_tests/test_tabulour.py,sha256=wWhXFie-NkBDGR1lL1WxfrhplbTpEEp5vb9KK25RmvU,2073
+caped_ai_tabulour-0.1.3.dist-info/LICENSE,sha256=L2T8xuoZOAqGDDVN6EgRrIiWIcvpThi4OdhzlvjI4Ys,1487
+caped_ai_tabulour-0.1.3.dist-info/METADATA,sha256=yZnfNvWndAfOD6zsEojGGKLm0259ENyVqOfm6rFxx9I,3876
+caped_ai_tabulour-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+caped_ai_tabulour-0.1.3.dist-info/entry_points.txt,sha256=ZmZaXsegJvf1XHRs98177THuyT3MC5CHBpqDQhxJ6R0,66
+caped_ai_tabulour-0.1.3.dist-info/top_level.txt,sha256=p3SB0aqY5Bvkb2dRgoO2XDYaN-5F5o-tS2kMPiHsnBU,18
+caped_ai_tabulour-0.1.3.dist-info/RECORD,,
