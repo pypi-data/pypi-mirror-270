@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kkba_mathUtils"
+version = "1.1.0"
+authors = [
+  { name="Kuate Brayan", email="brayanarmel@gmail.com" },
+]
+description = "My basic mathematics Python library"
+readme = {file = "README.txt", content-type = "text/markdown"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["mathematics", "maths", "mean", "operations", "area", "perimeter", "arithmetic", "quadratic","converter"]
+
+[project.urls]
+Homepage = "https://github.com/KamgaBrayan/KKBA_BASIC_MATH_PYTHON_LIBRARY/tree/main_pypi"
