@@ -1,0 +1,16 @@
+pkpdbib/__init__.py,sha256=9_9iGV8_5PekwJRw-d5BV48caykbhI7zscb9SrM2Gv4,374
+pkpdbib/console.py,sha256=ouDYOx_81ndvtMW5GVrut71uzPC5xlvibGu9N5YdbRA,332
+pkpdbib/log.py,sha256=fy72Uumagm3_FFXv24nH8-3Y9LHNQATDJ37CdNO0KEs,661
+pkpdbib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkpdbib/scihub_tools.py,sha256=MhUlrYyAPoJnn7yhn73S15M7kArQcm4hK65HLR_ZXPM,2374
+pkpdbib/zotero_tools.py,sha256=lVAyfPzvpcJjLsgqbwZhD2ngpd9_ZluKY_TeVF56jYQ,2440
+pkpdbib/projects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkpdbib/projects/glucose.py,sha256=lpl9bOkU-LEhOcKbY3OSPxpDretGF9rClpYGRsWMvog,869
+pkpdbib/resources/aliskiren.csv,sha256=EF-6s6Am33cXSX3dNmg_gI86OTUXVXvr2j8fPIvtk5Y,160545
+pkpdbib-0.1.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+pkpdbib-0.1.0.dist-info/METADATA,sha256=wlqvi_G4W2cf0C-S4152rD_SxmpyergU_Z87pdGCVas,6294
+pkpdbib-0.1.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+pkpdbib-0.1.0.dist-info/entry_points.txt,sha256=mS4aBDsmFhyXe7NKd3r7dtAWsJkTNA9BnGjBemCz0XY,73
+pkpdbib-0.1.0.dist-info/top_level.txt,sha256=ZABRYbEsNcIqPQ4yczXk3pwjNAatrcvQui0hn46yUmQ,8
+pkpdbib-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pkpdbib-0.1.0.dist-info/RECORD,,

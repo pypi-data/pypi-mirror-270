@@ -1,0 +1,2 @@
+[console_scripts]
+scihub_pdfs = pkpdbib.scihub_tools:scihub_pdfs_command
