@@ -1,0 +1,17 @@
+pymatris/__init__.py,sha256=d2_KYzN43pSLNDAuEQf9Dx-9VJLi7-zYqRlifxr0iUY,219
+pymatris/config.py,sha256=qr7cSg0YurPN7O6zvjzw2jOjqfG0Djh0YE96Q97_al4,1794
+pymatris/downloader.py,sha256=ehfXMHg12jTH7MA1NNpKw4mWkizWEIt0NMSQAs1n-qQ,9341
+pymatris/exceptions.py,sha256=nb_XLDp6948cb9y84eBL_v_DS0vnoo-Q1IetHwagktQ,2231
+pymatris/main.py,sha256=-5S8-Sp3T7XPljmnUtM642o2MLY58S85zXYcWPNO0Hc,3263
+pymatris/protocol_handler/__init__.py,sha256=7NEL8VB92iSYHKGaQ0x3WaDpQZ3L6iDOpIhxVJYN0Uc,383
+pymatris/protocol_handler/base_handler.py,sha256=IEIwAJ6iOxilWGZe8HwwwCQm1pTOPRUIs-NLpgudby8,1501
+pymatris/protocol_handler/ftp_handler.py,sha256=k8Ij6Aj5yMOdeFV3YLYW31r-f7np3epCjHU-7pg1W0s,3922
+pymatris/protocol_handler/http_handler.py,sha256=JGWs9GeT2mSR0LE3HTDMjvAKZGIVSe5MVFKlFfq0sEg,6037
+pymatris/protocol_handler/sftp_handler.py,sha256=6wrNerzCdXZk1IqxlyRcyx4LFHdKaIH9iPevboEWzH8,4632
+pymatris/results.py,sha256=_p3iVUl3B4rXmmNKu_JRi6nbnGswTl7Hejzmpz9fo9E,2678
+pymatris/utils.py,sha256=ehRFGDF0YXDj1CxmaxFq_0bx6lOGIdOVDdNSJeipeR0,11575
+pymatris/write_worker.py,sha256=hMwpRnXbRIizvv6SP4JmHTRUdg7JyLkygOonz3cwzOU,448
+pymatris-0.0.2.dist-info/METADATA,sha256=ARiq8RVYJbm7X2CaBWH1ePgv-eMFXjfBONNnpgTtrUM,1037
+pymatris-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pymatris-0.0.2.dist-info/entry_points.txt,sha256=jBJK4RapQmqsjRUUZQKuhrEOY0Y4_SUv2eIpSgyrKP0,47
+pymatris-0.0.2.dist-info/RECORD,,
