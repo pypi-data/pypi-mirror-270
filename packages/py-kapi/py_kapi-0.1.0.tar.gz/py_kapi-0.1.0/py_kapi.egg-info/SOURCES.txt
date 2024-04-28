@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+py_kapi.egg-info/PKG-INFO
+py_kapi.egg-info/SOURCES.txt
+py_kapi.egg-info/dependency_links.txt
+py_kapi.egg-info/requires.txt
+py_kapi.egg-info/top_level.txt
+pykapi/__init__.py
+pykapi/errors.py
+pykapi/kapi.py

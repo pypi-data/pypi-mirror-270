@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py-kapi
+Version: 0.1.0
+Summary: Kmanga api wrapper
+Author-email: al3ks1s <al3ks1sss@gmail.com>
+Project-URL: Homepage, https://github.com/al3ks1s/py-kapi
+Keywords: api
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pycryptodome>=3.20.0
+
+# py-kapi
+
+Python Kmanga API Wrapper for fetching metadatas about chapters.
+
+## Todo
+
+- Error handling
+- Authentication-required decorator
+- Documentation
+- Swagger github page for api responses (Some are very verbose)
+
+## Common issues
+
+- Code 403 - ERROR: The request could not be satisfied : Standard rejection from the delivery network due to geolocking, you must have an IP from the USA for the api to answer
