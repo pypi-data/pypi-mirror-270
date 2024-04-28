@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: sonq
+Version: 0.1.3
+Summary: A query tool for SON like objects, for example, json/jsonl and bson.
+Home-page: https://github.com/socrateslee/sonq
+License: MIT
+Author: Chun Li
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pymongo (>=3.9.0,<4.0.0)
+Project-URL: Repository, https://github.com/socrateslee/sonq
+Description-Content-Type: text/markdown
+
+# sonq
+
+__sonq__ means son query, is a tool for querying son like objects, for example, JSON and BSON. You may use sonq to query .bson or newline separated .json files(JSON Lines) directly from the command line.
+
+
+## Install
+
+```
+pip install sonq
+```
+
+## Basic Usage
+
+- List the content of a .bson file
+```
+sonq source.bson
+```
+- Query a .bson file
+```
+sonq -f '{"name": "Stark"}' source.bson
+```
+- Convert query results to a newline separated .json file
+```
+sonq -f '{"name": "Stark"}' -o target.json source.bson
+```
+- Convert json from stdin to .bson
+```
+echo '{"name": "Stark"}' | python3 -m sonq.cmd -o target.bson - 
+```

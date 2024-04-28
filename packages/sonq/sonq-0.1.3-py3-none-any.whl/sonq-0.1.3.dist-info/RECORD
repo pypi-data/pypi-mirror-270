@@ -1,0 +1,8 @@
+sonq/__init__.py,sha256=XjfkgxLb_AIsr7jQ-OVcKNv3jPhfG7-Mlf7STK3taK8,22
+sonq/cmd.py,sha256=KmacKNny-0zd08ZiG2StC8d2h2-VK2tyYm6WT6m9Ccc,2931
+sonq/operation.py,sha256=QWp5uj90RHqKoyKVUlLdDCVgihzWkUbwTryGVoJc69Y,3145
+sonq/query.py,sha256=UlSlTbE-DysAcxil-nY3bzTSVm4FAwAocnpKl0N6B8c,6158
+sonq-0.1.3.dist-info/METADATA,sha256=qbzCSY86k8roPIiSajcTOm9a4gXGczGizqUgRItNFXg,1522
+sonq-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sonq-0.1.3.dist-info/entry_points.txt,sha256=SRKvtWqRYpC8eQcobhETW0z3mYrxzg1InE1tX76FFII,38
+sonq-0.1.3.dist-info/RECORD,,
