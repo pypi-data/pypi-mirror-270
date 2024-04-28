@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: QSugar
+Version: 0.0.3
+Summary: Reactive PySide framework,simple and friendly
+Home-page: https://github.com/Niwik-Dev/QSugar
+Author: Niwik
+Author-email: niwik.dev@gmail.com
+License: LGPL Licence
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
