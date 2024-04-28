@@ -1,0 +1,3 @@
+[console_scripts]
+pymatris=pymatris.main:main
+
