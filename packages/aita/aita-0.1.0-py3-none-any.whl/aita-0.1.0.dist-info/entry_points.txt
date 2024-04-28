@@ -1,0 +1,4 @@
+[console_scripts]
+aita=aita.__main__:app
+init-data=app.initial_data:main
+
