@@ -1,0 +1,5 @@
+poetry_first_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_first_project/main.py,sha256=bkpQnUyD62N3I4IeOUB8tRxADiCZF18kTGaaKZmsxGw,81
+poetry_first_project-0.1.0.dist-info/METADATA,sha256=6AYXfFXm5IW0AMi4Iibnz6iyLHhW2KHIN64Pf9UTCO4,339
+poetry_first_project-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poetry_first_project-0.1.0.dist-info/RECORD,,
