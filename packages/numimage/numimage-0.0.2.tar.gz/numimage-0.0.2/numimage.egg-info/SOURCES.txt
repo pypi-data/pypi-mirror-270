@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+numimage/__init__.py
+numimage/geometry.py
+numimage/math_h.py
+numimage.egg-info/PKG-INFO
+numimage.egg-info/SOURCES.txt
+numimage.egg-info/dependency_links.txt
+numimage.egg-info/requires.txt
+numimage.egg-info/top_level.txt
+string_h/__init__.py
+string_h/reverse.py
