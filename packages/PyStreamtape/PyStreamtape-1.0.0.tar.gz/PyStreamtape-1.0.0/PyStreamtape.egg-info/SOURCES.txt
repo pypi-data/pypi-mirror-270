@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyStreamtape.egg-info/PKG-INFO
+PyStreamtape.egg-info/SOURCES.txt
+PyStreamtape.egg-info/dependency_links.txt
+PyStreamtape.egg-info/not-zip-safe
+PyStreamtape.egg-info/requires.txt
+PyStreamtape.egg-info/top_level.txt
+pystreamtape/__init__.py
+pystreamtape/streamtape.py
