@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/abstract_clients/__init__.py
+src/abstract_clients/contact_webtools.py
+src/abstract_clients/contacts_directory.py
+src/abstract_clients/get_contact_info.py
+src/abstract_clients.egg-info/PKG-INFO
+src/abstract_clients.egg-info/SOURCES.txt
+src/abstract_clients.egg-info/dependency_links.txt
+src/abstract_clients.egg-info/top_level.txt
