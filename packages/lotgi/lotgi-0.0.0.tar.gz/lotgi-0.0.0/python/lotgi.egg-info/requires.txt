@@ -1,0 +1,6 @@
+click
+pydantic
+requests
+tabulate
+transformers
+openai
