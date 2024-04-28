@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: py-ucan
+Version: 0.3.0
+Summary: Python Ucan
+Home-page: https://github.com/fileverse/py-ucan
+Author: Subham Agarwal
+Author-email: subhamagr@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: base58 (==2.1.1)
+Requires-Dist: cryptography (==42.0.5)
+Requires-Dist: pydantic (==2.7.1)
+Requires-Dist: pydantic-settings (==2.2.1)
+Requires-Dist: pyjwt (==2.8.0)
+Requires-Dist: pytest-asyncio (>=0.23.6,<0.24.0)
+Requires-Dist: typing_extensions (==4.10.0)
+Project-URL: Bug Tracker, https://github.com/fileverse/py-ucan/issues
+Project-URL: Documentation, https://github.com/fileverse/py-ucan
+Project-URL: Repository, https://github.com/fileverse/py-ucan
+Description-Content-Type: text/markdown
+
+# py-ucan
+
