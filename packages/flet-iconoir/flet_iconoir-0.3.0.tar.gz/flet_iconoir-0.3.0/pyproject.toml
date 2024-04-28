@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flet-iconoir"
+version = "0.3.0"
+description = "the Iconoir library, wrapped for Flet."
+authors = ["hex benjamin <hex@hexbenjam.in>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+flet = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
