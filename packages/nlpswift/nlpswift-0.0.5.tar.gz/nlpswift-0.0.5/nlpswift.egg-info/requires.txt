@@ -1,0 +1,13 @@
+setuptools==58.2.0
+wheel==0.43.0
+pymysql
+py2neo
+redis
+baidusearch
+gunicorn
+gevent
+flask
+ragas
+langchain
+seqeval
+scikit-learn
