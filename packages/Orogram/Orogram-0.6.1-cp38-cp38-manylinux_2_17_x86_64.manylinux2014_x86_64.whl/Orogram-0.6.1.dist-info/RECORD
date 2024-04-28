@@ -1,0 +1,14 @@
+orogram/simplify.cpython-38-x86_64-linux-gnu.so,sha256=GnOVXaXlR37in3xJ2i9bSG03PTCag9jidE7qxhcupts,1942048
+orogram/util.py,sha256=oTecxFAD_nmSTt8SAuq8khOeQPX-pGKvVhUMgt7ep4E,1293
+orogram/regorogram.py,sha256=trW40YEDoDeH6a4BMz9UTMZ3oq8KiiJzXEbw7P_93vQ,23820
+orogram/__init__.py,sha256=fdxxvRJ_eocqL46R2HurKtEsS-ma535C26I2e4gyV4k,680
+orogram/xentropy.cpython-38-x86_64-linux-gnu.so,sha256=zTZgu099H0xPZOF8mWN47S4wK9HqHQAL5lwqEHQ0kRU,1727544
+orogram/orogram.py,sha256=M89YxQO1BTLyZBFHLR9P8R9UVLJMdWaMImlGuIVAJUU,27241
+orogram/bake.cpython-38-x86_64-linux-gnu.so,sha256=larZNt4nmEW_azApkqQC-POYU9rf4_gFVX-3alcFVxg,1519536
+orogram/credible.cpython-38-x86_64-linux-gnu.so,sha256=m5Mbe9m8F9ZWKPRENybxvZPmO77sH34zM6pD9Oixkv8,1443240
+orogram/regorofun.cpython-38-x86_64-linux-gnu.so,sha256=g2dC867MPBT8TlTBPBCSrLqT5U1BVOO93shhipoe8gQ,1862624
+Orogram-0.6.1.dist-info/METADATA,sha256=5XS7Z5AcVmHxcRKsky0ukdK2YPgyBYw127H91jKIEsI,331
+Orogram-0.6.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+Orogram-0.6.1.dist-info/RECORD,,
+Orogram-0.6.1.dist-info/top_level.txt,sha256=aYTS0RU4XBZeEkFHptMl6lYwDzIEYpl8ksSEGRtPsBs,8
+Orogram-0.6.1.dist-info/WHEEL,sha256=L0ABBnxO_xKRR_wTzM7WWWX8RRfdKRK-fZ5a3ZEhDqQ,148
