@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyscinloopsr
+Version: 1.0.26
+Summary: Read the latest PyScInLoopSr tutorials
+Author: Djalma Pereira
+Author-email: Djalma Pereira <pereirajunio@gmail.com>
+Project-URL: Homepage, https://github.com/edjaper/pyscinloopsr
+Keywords: sr,pysr,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pysr
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+
+        <div>    <h2>Available Modules</h2>
+    <ul>
+            <li><a href="./index.html">modules</a></li>
+
+    </ul>
