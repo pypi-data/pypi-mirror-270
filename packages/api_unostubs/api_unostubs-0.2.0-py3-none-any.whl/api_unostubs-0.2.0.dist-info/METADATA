@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: api_unostubs
+Version: 0.2.0
+Summary: Stubs for LibreOffice UNO files
+Home-page: https://github.com/Amourspirit/python_libreoffice_uno_stubs
+License: MIT
+Keywords: ooodev,libreoffice,openoffice,macro,uno,ooouno,pyuno
+Author: :Barry-Thomas-Paul: Moss
+Author-email: 4193389+Amourspirit@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business
+Project-URL: Documentation, https://github.com/Amourspirit/python_libreoffice_uno_stubs#README
+Project-URL: Repository, https://github.com/Amourspirit/python_libreoffice_uno_stubs
+Description-Content-Type: text/markdown
+
+# UNO STUBS
+
+This package is for working With LibreOffice API.
+
+These files are only stubs and their indented use is for building documents with Sphinx.
+
+If your project needs support for uno when building docs with Sphinx then this package may help.
+
+It will allow you to inherit from `unohelper.Base` do you don't get error `AttributeError: module 'unohelper' has no attribute 'Base'`.
+
+## Installation
+
+Can be pip installed.
+
+```
+pip install api_unostubs
+```
+
+In most cases will be added to `docs/requirements.txt` file.
+
+```
+api_unostubs>=0.2.0
+```
+
