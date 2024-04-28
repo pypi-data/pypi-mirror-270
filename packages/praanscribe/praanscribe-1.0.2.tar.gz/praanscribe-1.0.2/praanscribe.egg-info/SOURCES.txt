@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+praanscribe/__init__.py
+praanscribe/praanscribe.py
+praanscribe.egg-info/PKG-INFO
+praanscribe.egg-info/SOURCES.txt
+praanscribe.egg-info/dependency_links.txt
+praanscribe.egg-info/entry_points.txt
+praanscribe.egg-info/requires.txt
+praanscribe.egg-info/top_level.txt
