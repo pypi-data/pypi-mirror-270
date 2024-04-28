@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vicregaddon
+Version: 0.0.1
+Summary: A lightweight and modular parallel PyTorch implementation of VICReg (intended for audio, but will try to be general)
+Author: Scott H. Hawley
+Author-email: scott.hawley@belmont.edu
+License-File: LICENSE
