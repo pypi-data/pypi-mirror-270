@@ -1,0 +1,27 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "monies"
+version = "0.0.2"
+description = "MongoDB ops"
+authors = []
+readme = "readme.md"
+packages = [
+    { include = "monies", from = "tracts/houses" },
+]
+license = "licensed"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biotech = "^1.1.10"
+somatic = "^3.0.3"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+monies = 'monies:clique'
+
+
+
