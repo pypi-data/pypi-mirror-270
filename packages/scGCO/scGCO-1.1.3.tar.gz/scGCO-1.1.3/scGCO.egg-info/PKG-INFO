@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: scGCO
+Version: 1.1.3
+Summary: single-cell graph cuts optimization
+Home-page: https://github.com/fengwanwan/scGCO
+Author: Wanwan Feng
+Author-email: fengwanwan2023@gmail.com
+License: MIT
+License-File: LICENSE
+License-File: AUTHORS

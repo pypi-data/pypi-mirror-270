@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+README.md
+setup.py
+scGCO/GMM.py
+scGCO/Graph_cut.py
+scGCO/Preprocessing.py
+scGCO/Visualization.py
+scGCO/__init__.py
+scGCO.egg-info/PKG-INFO
+scGCO.egg-info/SOURCES.txt
+scGCO.egg-info/dependency_links.txt
+scGCO.egg-info/requires.txt
+scGCO.egg-info/top_level.txt
