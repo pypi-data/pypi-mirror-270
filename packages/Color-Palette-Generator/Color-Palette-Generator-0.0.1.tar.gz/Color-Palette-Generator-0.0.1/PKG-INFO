@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Color-Palette-Generator
+Version: 0.0.1
+Summary: Generate Colour Palettes with Python
+Home-page: https://github.com/soumya1729/Color-palette-generator
+Author: SM
+License: MIT
+Keywords: matplotlib,python plots
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: opencv-python>=4.9.0.80
+Requires-Dist: numpy>=1.25.2
+
+# Color-palette-generator

@@ -1,0 +1,14 @@
+README.md
+setup.py
+Color_Palette_Generator.egg-info/PKG-INFO
+Color_Palette_Generator.egg-info/SOURCES.txt
+Color_Palette_Generator.egg-info/dependency_links.txt
+Color_Palette_Generator.egg-info/requires.txt
+Color_Palette_Generator.egg-info/top_level.txt
+Color_palette_generator.egg-info/PKG-INFO
+Color_palette_generator.egg-info/SOURCES.txt
+Color_palette_generator.egg-info/dependency_links.txt
+Color_palette_generator.egg-info/requires.txt
+Color_palette_generator.egg-info/top_level.txt
+colour_palette_gen/__init__.py
+colour_palette_gen/generate.py
