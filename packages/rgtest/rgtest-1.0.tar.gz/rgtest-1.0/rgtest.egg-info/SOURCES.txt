@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+rgtest/__init__.py
+rgtest/rg.py
+rgtest.egg-info/PKG-INFO
+rgtest.egg-info/SOURCES.txt
+rgtest.egg-info/dependency_links.txt
+rgtest.egg-info/requires.txt
+rgtest.egg-info/top_level.txt
