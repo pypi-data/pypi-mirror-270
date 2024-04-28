@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sanda
+Version: 0.0.2
+Summary: Sanda is a Python package designed as a Kubernetes-based proof-of-concept workflow runner. It streamlines the definition, execution, and management of cloud-agnostic workflows using YAML. The package features open-source extensibility, supports multiple access points, and manages tasks within containerized environments. Sanda is designed to be lightweight, flexible, and easy to use.
+Home-page: https://github.com/broad-institute/sanda
+Author: DSP Field Engineering Team
+Author-email: dsp-fieldeng@broadinstitute.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: click ==8.1.7
+Requires-Dist: uvicorn[standard] ==0.29.0
+Requires-Dist: fastapi ==0.110.2
+
+UNKNOWN
+
+
