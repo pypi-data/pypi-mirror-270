@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: zz-img-caption
+Version: 0.0.1
+Summary: CLI tool for image caption using BLIP & BLIP2
+Home-page: https://github.com/sean1832/img-caption
+Author: Zeke Zhang
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: transformers >=4.39.2
+Requires-Dist: torch >=2.2.2
+Requires-Dist: pyexiv2
+Requires-Dist: tqdm
+Requires-Dist: termcolor
+Requires-Dist: Pillow
+
