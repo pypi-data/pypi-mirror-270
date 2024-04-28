@@ -1,0 +1,7 @@
+canopen
+flask
+loguru
+natsort
+psutil
+python-can>=4.3.0
+oresat-configs
