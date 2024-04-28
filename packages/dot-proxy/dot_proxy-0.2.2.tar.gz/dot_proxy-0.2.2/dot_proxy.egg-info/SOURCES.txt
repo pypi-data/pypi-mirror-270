@@ -1,0 +1,14 @@
+.env
+.gitignore
+Dockerfile
+LICENSE
+README.md
+docker-compose.yml
+dot_proxy.py
+pyproject.toml
+dot_proxy.egg-info/PKG-INFO
+dot_proxy.egg-info/SOURCES.txt
+dot_proxy.egg-info/dependency_links.txt
+dot_proxy.egg-info/entry_points.txt
+dot_proxy.egg-info/requires.txt
+dot_proxy.egg-info/top_level.txt
