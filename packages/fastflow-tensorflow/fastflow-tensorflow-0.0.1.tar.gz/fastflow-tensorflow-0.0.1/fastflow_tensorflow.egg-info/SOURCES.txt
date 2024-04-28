@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+fastflow_tensorflow.egg-info/PKG-INFO
+fastflow_tensorflow.egg-info/SOURCES.txt
+fastflow_tensorflow.egg-info/dependency_links.txt
+fastflow_tensorflow.egg-info/requires.txt
+fastflow_tensorflow.egg-info/top_level.txt
+tests/__init__.py
+tests/test_simple.py
