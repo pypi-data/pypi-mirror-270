@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: scGCO
+Version: 1.1.3
+Summary: single-cell graph cuts optimization
+Home-page: https://github.com/fengwanwan/scGCO
+Author: Wanwan Feng
+Author-email: fengwanwan2023@gmail.com
+License: MIT
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: parmap
+Requires-Dist: Cython
+Requires-Dist: pygco
+Requires-Dist: tqdm
+Requires-Dist: networkx
+Requires-Dist: shapely
+Requires-Dist: statsmodels
+Requires-Dist: hdbscan
+Requires-Dist: pillow
+Requires-Dist: scikit-image
+Requires-Dist: umap-learn
+Requires-Dist: pysal (==2.0.0)
+
