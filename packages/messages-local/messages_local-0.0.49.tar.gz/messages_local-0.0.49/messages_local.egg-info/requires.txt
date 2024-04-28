@@ -1,0 +1,8 @@
+item-local
+message-local>=0.0.118
+queue-worker-local>=0.0.37
+label-message-local>=0.0.2
+whatsapp-message-vonage-local
+whataspp-inforu-local
+email-message-aws-ses-local
+sms-message-aws-sns-local>=0.0.8
