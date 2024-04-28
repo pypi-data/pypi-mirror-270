@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.cfg
+setup.py
+setup.py.py
+arm_text_detection/_init_.py
+arm_text_detection/detection.py
+arm_text_detection.egg-info/PKG-INFO
+arm_text_detection.egg-info/SOURCES.txt
+arm_text_detection.egg-info/dependency_links.txt
+arm_text_detection.egg-info/top_level.txt
