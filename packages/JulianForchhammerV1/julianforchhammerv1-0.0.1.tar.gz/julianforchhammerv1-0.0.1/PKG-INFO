@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: JulianForchhammerV1
+Version: 0.0.1
+Summary: Short Description
+Home-page: 
+Author: Julian Forchhammer
+Author-email: julian@deadniggers.org
+License: MIT
+Keywords: Ratting
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Very long Description

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+JulianForchhammerV1/__init__.py
+JulianForchhammerV1.egg-info/PKG-INFO
+JulianForchhammerV1.egg-info/SOURCES.txt
+JulianForchhammerV1.egg-info/dependency_links.txt
+JulianForchhammerV1.egg-info/top_level.txt
