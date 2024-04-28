@@ -1,0 +1,12 @@
+datafusion-stubs/__init__.pyi,sha256=u5SSgW1uSvJAJBkk5m_odjnj1o6_krupEX24LYOCra4,1196
+datafusion-stubs/common.pyi,sha256=WIOG49Jxw_v1XeLEERxuWsB5ENzualHHqmtizqZw73g,729
+datafusion-stubs/expr.pyi,sha256=RVEg2XJIY0BA17fQ39yy3xtUAmVCYAHKQepNvKeqV4c,3597
+datafusion-stubs/functions.pyi,sha256=yAzJ5seAUqJz0lI3rdIicfsHiBfgO63nzDhfLHTI-no,13450
+datafusion-stubs/object_store.pyi,sha256=fPmWJfP-igEbB9jm7_U1QT_5stRSVWwhiWu3SISU36A,272
+datafusion-stubs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datafusion-stubs/substrait.pyi,sha256=fHYw1YdbL13b1J51dGCcBd6yZOLUsBUO1kHxu2QvWiM,242
+datafusion_stubs-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datafusion_stubs-0.0.3.dist-info/METADATA,sha256=QxKGVmZYgrlVqyOuuxdlVw7FFyoiAVojkW0AgcSI1JM,789
+datafusion_stubs-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+datafusion_stubs-0.0.3.dist-info/top_level.txt,sha256=C3VZETEDSs65E_S5IHq3yh3UOcwUmcglwrxlTewhdrE,17
+datafusion_stubs-0.0.3.dist-info/RECORD,,
