@@ -1,0 +1,9 @@
+importlib-metadata
+httpx[http2]
+httpx[socks]
+keyring
+requests
+Twisted
+pyOpenSSL
+websockets
+orjson
