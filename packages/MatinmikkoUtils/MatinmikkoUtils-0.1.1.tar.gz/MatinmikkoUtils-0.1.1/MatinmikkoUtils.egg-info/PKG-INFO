@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: MatinmikkoUtils
+Version: 0.1.1
+Summary: Useful tools
+Home-page: 
+Author: Jan Matinmikko
+Author-email: jan.matinmikko@gmail.com
+License: MIT
+Requires-Python: >=3.0
+License-File: LICENCE.txt
+
+This adds two numbers together.
+
+Change Log
+==========
+
+
+0.0.1 (27/04/2024)
+__________________
+- First Release
+
+
