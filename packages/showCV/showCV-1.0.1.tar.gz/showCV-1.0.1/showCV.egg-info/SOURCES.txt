@@ -1,0 +1,7 @@
+README.md
+setup.py
+showCV/__init__.py
+showCV.egg-info/PKG-INFO
+showCV.egg-info/SOURCES.txt
+showCV.egg-info/dependency_links.txt
+showCV.egg-info/top_level.txt
