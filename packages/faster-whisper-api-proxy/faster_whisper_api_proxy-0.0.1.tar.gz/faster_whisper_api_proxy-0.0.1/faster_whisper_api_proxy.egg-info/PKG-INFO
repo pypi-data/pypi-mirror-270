@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: faster-whisper-api-proxy
+Version: 0.0.1
+Summary: a python module that is a drop in replacement for faster_whisper but calls a remote faster_whisper implementation via API
+Home-page: https://github.com/rkilchmn/faster_whisper_api_proxy
+Author: Roger Kilchenmann
+Author-email: roger@kilchenmann.net
+License: UNKNOWN
+Keywords: AI,faster_whisper,transcribe,natural language,speech recognition,api,remote
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# faster_whisper_api_proxy
+a python module that is a drop in replacement for faster_whisper but calls a remote faster_whisper implementation via API
+
+
