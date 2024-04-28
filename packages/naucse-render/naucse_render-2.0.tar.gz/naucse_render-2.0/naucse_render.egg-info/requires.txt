@@ -1,0 +1,13 @@
+ansi2html
+mistune<4,>=2.0.3
+nbconvert<8.0,>=7.0
+traitlets
+click
+PyYAML
+Jinja2>3.0
+Pygments>=2.3.1
+markupsafe
+lxml
+
+[dev]
+pytest
