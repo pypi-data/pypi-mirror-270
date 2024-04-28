@@ -1,0 +1,17 @@
+shelloracle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shelloracle/__main__.py,sha256=nEPySUYX85ujxWeSFyFWb6ohe7mynVhfYdezIjlVUJI,1309
+shelloracle/bootstrap.py,sha256=REYU5GQlWZa9kWNxcjECMjmkD3C0uM_Cuq-u7vy4-8c,5428
+shelloracle/config.py,sha256=GmFWy9teCsXOxBSCEDYfmQZHEqOyWXu-NzjM9bX8d54,2001
+shelloracle/shelloracle.py,sha256=wz_eGAeRwHjoqqlwLHfIXWXT1abzAE4aS58_tQuEe8o,3682
+shelloracle/providers/__init__.py,sha256=IeLBc0LxdTHCr4LWs1dxC937xXQ0WG_clvl1hnguJnw,3125
+shelloracle/providers/localai.py,sha256=eZMeCnWmwO-31LN1yFM2Pr8S3_awMaFQMB0oH3Xyhyg,1277
+shelloracle/providers/ollama.py,sha256=iW8SmvwbBtWlFwhjjOmN_3gGISTEiF1y8s1-xKxxf6Y,3076
+shelloracle/providers/openai.py,sha256=vP0Ptgy326pg_p827irAs_fKqfx3qo03iUiKJHSuX6Y,1141
+shelloracle/shell/shelloracle.bash,sha256=kkNlXGZ7ysvUpgd2cEPfuUCR6mZXrJJ_ZFptbG3L3yk,579
+shelloracle/shell/shelloracle.zsh,sha256=kW0DjYAHkBvyAwrEJ6kQWA00TObfwVfKMjZVUFP1314,783
+shelloracle-1.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+shelloracle-1.3.1.dist-info/METADATA,sha256=2zqlyagYYoGor5IN1QyA1Pswq9AURPbld6j6I5FoUUE,5840
+shelloracle-1.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+shelloracle-1.3.1.dist-info/entry_points.txt,sha256=_vtHFbO_FQT8oLWT9ZYKPajwJZXB3Nsnmv0hQge0akE,51
+shelloracle-1.3.1.dist-info/top_level.txt,sha256=dVvR1xD_V8VdwSbtp1waD7gpqeEWfLqbEdERJ_5xJYw,12
+shelloracle-1.3.1.dist-info/RECORD,,
