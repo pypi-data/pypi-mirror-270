@@ -1,0 +1,3 @@
+[console_scripts]
+vulnstick=vulnstick.cli.cli:cli
+
