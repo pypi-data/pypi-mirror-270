@@ -1,0 +1,9 @@
+/.DS_Store
+/dist
+/env
+.pypirc
+.idea
+
+tests/local/*
+tests/localisation/*
+tests/untranslated.json
