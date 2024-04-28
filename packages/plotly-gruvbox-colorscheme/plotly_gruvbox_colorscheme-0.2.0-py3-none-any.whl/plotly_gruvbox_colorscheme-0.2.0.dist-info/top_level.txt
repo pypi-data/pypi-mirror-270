@@ -1,0 +1,1 @@
+plotly_gruvbox_colorscheme
