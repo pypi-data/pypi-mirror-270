@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: praanscribe
+Version: 1.0.1
+Summary: A small application for automatically transcribing audio and creating TextGrid files to be used in Praat.
+Home-page: https://github.com/alicagank/praanscribe
+Author: Ali Çağan Kaya
+Author-email: alicagank@icloud.com
+License-File: LICENSE
+Requires-Dist: SpeechRecognition
+
