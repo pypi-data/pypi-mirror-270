@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: flashai
+Version: 0.0.1
+Summary: Write trainer for your PyTorch models in a flash
+Project-URL: Documentation, https://github.com/ysenarath/flashai
+Project-URL: Source, https://github.com/ysenarath/flashai
+Author-email: Yasas Senarath <email@example.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: flashai,pytorch,trainer
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
