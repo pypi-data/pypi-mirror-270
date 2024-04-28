@@ -1,0 +1,13 @@
+lotgi/__init__.py,sha256=Thfhd4IQrp1gaIIWiNBmhYgUCSVHSHDEdLCaOitQ0nE,3322
+lotgi/__main__.py,sha256=cv_-B0wqMZP4NYEJ_iQgvNQiy7NivULDro8sxz7Xwz4,61
+lotgi/_openai.py,sha256=KCZA7VbZaX5ZuW1a-9esotBtPeOOKbzW_ozZdeWnXk0,706
+lotgi/logging.py,sha256=xXeGt7NB-1LdBiILLWGPt3O9ROahX1rxBVJ9BquG4Qc,383
+lotgi/rest_client.py,sha256=noLgoeEDOJxyZ3ZiCVKKt6IUYIy5yA8mF3fPh9Z0kMU,5035
+lotgi/tokens.py,sha256=_o9lcVOsjXTUUu5tsJkYIaavZExrSlrXBT1Vl992BOM,1016
+lotgi/models/rest.py,sha256=_EHpPnEFYST6dWhPh6menxw-uKVMXrJcT1R9YyZdK9A,1753
+tests/test_basic.py,sha256=ntLxWggN5yuBGNUOiQeIpUC1Vn30e9i6BtmKBOz6G3o,49
+lotgi-0.0.1.dist-info/METADATA,sha256=GAs6ZMlL4HngFb5JFcwY99MOhqX7dvutqH8dRLefQFk,410
+lotgi-0.0.1.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+lotgi-0.0.1.dist-info/entry_points.txt,sha256=vh3kMy9SQmhpvPV70n1rZclQQhHdqbF53ugO_i64aLk,36
+lotgi-0.0.1.dist-info/top_level.txt,sha256=w9lwb37Xn2geqFU6zqFMPhd5J30QRy3lJxTv3Zt7AHM,12
+lotgi-0.0.1.dist-info/RECORD,,
