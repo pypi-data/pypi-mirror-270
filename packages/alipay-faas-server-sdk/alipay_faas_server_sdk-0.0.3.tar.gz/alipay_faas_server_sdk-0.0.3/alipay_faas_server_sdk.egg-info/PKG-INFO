@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: alipay-faas-server-sdk
+Version: 0.0.3
+Summary: Alipay FaaS Server SDK
+Home-page: https://cloud.alipay.com
+Author: QiYuan
+Author-email: lj162403@alipay.com
+Project-URL: Site, https://cloud.alipay.com
+Project-URL: Repo, https://cloud.alipay.com
+Project-URL: Documentation, https://opendocs.alipay.com/mini/089c99?pathHash=5a879d9a
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+## 支付宝云开发服务端SDK
+
+### 安装
+
+在云函数的requirements.txt中添加依赖：
+
+```txt
+alipay-faas-server-sdk
+```
+
+### 使用
+
+在云函数中引用SDK，示例代码如下：
+
+```python
+from alipay_faas_server_sdk import Cloud
+
+
+def main(event, context):
+    cloud = Cloud(context)
+    context['logger'].info("function start ...")
+
+    # call function test-sum
+    response = cloud.callFunction("test-sum", {'x': 1, 'y': 2})
+    return response.data
+```
