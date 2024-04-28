@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: test_pkg_hmoazam
+Version: 0.0.2
+Summary: package description
+Author: Hanna
+Author-email: Hanna <hanna@example.com>
+Requires-Python: >=3.8
+License-File: LICENSE

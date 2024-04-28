@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test_pkg_hmoazam"
+authors = [
+    {name = "Hanna", email = "hanna@example.com"}
+]
+description = "package description"
+version = "0.0.2"
+requires-python = ">=3.8"

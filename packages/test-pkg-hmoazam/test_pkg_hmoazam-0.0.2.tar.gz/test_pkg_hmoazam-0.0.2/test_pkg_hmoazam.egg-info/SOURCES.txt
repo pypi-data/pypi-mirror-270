@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test_pkg_hmoazam/__init__.py
+test_pkg_hmoazam/hello.py
+test_pkg_hmoazam.egg-info/PKG-INFO
+test_pkg_hmoazam.egg-info/SOURCES.txt
+test_pkg_hmoazam.egg-info/dependency_links.txt
+test_pkg_hmoazam.egg-info/top_level.txt
