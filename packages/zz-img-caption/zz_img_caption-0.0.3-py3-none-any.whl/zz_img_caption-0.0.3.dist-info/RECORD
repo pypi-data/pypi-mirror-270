@@ -1,0 +1,11 @@
+caption/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caption/caption_engine.py,sha256=nQc9I7FNAMSzTniXFNc6ofUzQc4OhReTV2wT_Nk_VyE,4614
+caption/cli_main.py,sha256=hLUPLXU_AvevmsMS6bKqIsffyJHvT4ULgGIXq4SXhfY,6020
+caption/cli_parser.py,sha256=HXCEONrV6HuoKnQaYCPKNdd7S5j3_0LaPvSia-OoNaE,1631
+caption/manifest.json,sha256=GyOPF0ugAiOaPdZdVIm7ThwpBhdxSDXBj2L-6wE4o4k,215
+caption/utils.py,sha256=Z7KXgnY98aa0tkLIK87EvryzYgD3FV7ax0Kl4PFFjV0,704
+zz_img_caption-0.0.3.dist-info/METADATA,sha256=Tkx5j4G5Yv9ExOGoYhf-GyJ4Nte0paOqH9gnJLpPCf4,4158
+zz_img_caption-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zz_img_caption-0.0.3.dist-info/entry_points.txt,sha256=hwExT4KKZwXk0JeU_TqPCGc4dLUYtEOsnVmAIKtW090,50
+zz_img_caption-0.0.3.dist-info/top_level.txt,sha256=g18zqgtX86CfHfg-VGqSiXd7XSxS6LlREtEBktrcIeY,8
+zz_img_caption-0.0.3.dist-info/RECORD,,
