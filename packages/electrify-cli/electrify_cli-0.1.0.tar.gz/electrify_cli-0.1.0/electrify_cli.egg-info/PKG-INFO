@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: electrify-cli
+Version: 0.1.0
+Summary: CLI for interacting with Electrify services
+Author: Nularian
+Author-email: your.email@example.com
+Requires-Dist: click
