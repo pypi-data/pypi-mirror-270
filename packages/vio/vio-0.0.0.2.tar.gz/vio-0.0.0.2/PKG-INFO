@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vio
+Version: 0.0.0.2
+Summary: virtual io ...
+Author-email: 2229066748@qq.com
+Maintainer: Eagle'sBaby
+Maintainer-email: 2229066748@qq.com
+License: Apache Licence 2.0
+Keywords: python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+
+I'm trying to make a virtual io for python object getter.
