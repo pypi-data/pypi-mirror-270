@@ -1,0 +1,6 @@
+_open_link_: False
+name: "HyFI-ROS"
+authors: "Young Joon Lee <entelecheia@hotmail.com>"
+description: "A Python pakckage for building ROS-based robotics applications powered by LLMs."
+homepage: "https://hyros.entelecheia.ai"
+license: "MIT"

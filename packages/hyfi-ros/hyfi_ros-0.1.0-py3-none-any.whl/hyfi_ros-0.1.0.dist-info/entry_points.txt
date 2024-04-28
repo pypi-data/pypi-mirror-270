@@ -1,0 +1,3 @@
+[console_scripts]
+hyros=hyros.__cli__:main
+
