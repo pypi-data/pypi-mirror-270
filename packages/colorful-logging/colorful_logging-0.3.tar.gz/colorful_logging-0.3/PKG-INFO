@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: colorful_logging
+Version: 0.3
+Summary: A library to print colorful
+Home-page: https://github.com/zamoosh/colorful_logging
+Author: zamoosh
+Author-email: moyi.pary@gmail.com
+License: MIT
+Keywords: colorful logging,color printing,color output
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# This is just a simple library to print colorful using sys.stderr to write.
+
+```python
+from colorful_logging import color_print
+
+# color_print(
+# text: str = your text
+# color: str = 'red', 'blue', ...
+# fmt: bool = True or False
+# lvl: str -> it's just a simple naming when using the "fmt=True"
+# )
+
+
+# for example:
+color_print(
+    text='ali is good',
+    color='cyan',
+    fmt=True,
+    lvl='ALI LEVEL'
+)
+# will produce (with colored text): 
+# ALI LEVEL    24-02-06 18:49:15, File "where the color print executed", Line 1, in "the module", msg: ali is good
+
+
+# here also you can use it without formatting the line: 
+color_print('ali is good', 'bold')
+```
+
+
