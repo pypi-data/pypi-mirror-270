@@ -1,0 +1,12 @@
+pyayay.cpython-311-i386-linux-musl.so,sha256=3uOoHA7h8sh_AKX97uBphedR7PJiGSsS02RZEkGdhYE,409225
+ayumi/LICENSE,sha256=5FvkCaVKZNdHPRXX1WOJWcbH5s6QqfATp_iTUXCaOs8,1091
+ayumi/ayumi.c,sha256=OqHEpkwgXY_mFUa4RP-rQpJA99DcqWV_n0tDTvSALjg,11312
+ayumi/ayumi.h,sha256=UG47ddgmnWcNdPdRFdOzha0PHCMrx5c5G9l8wHTxcJk,1619
+pyayay-0.1.0a2.dist-info/LICENSE,sha256=mn6zdLh10APXmYvDZWItYr33mNH8hl7FngxQZqWqxyk,1126
+pyayay-0.1.0a2.dist-info/METADATA,sha256=ux7zh-lWEFTo64yl7zFko3bG-CRCCVjH96L9rMnb7ME,3528
+pyayay-0.1.0a2.dist-info/RECORD,,
+pyayay-0.1.0a2.dist-info/top_level.txt,sha256=DfAsU3f0Uhx70fgYtUwTgCqLDfgDNTghtZ0UwANUhuM,19
+pyayay-0.1.0a2.dist-info/WHEEL,sha256=96RtyvHDjZ_Pwdf-yba9grkbFedWeWnoj2z7uR7atnQ,111
+utils/tools.h,sha256=LJKlqXJwiY59xXmgXdPz0QzBpbw2tOGAsSImoiFUvpQ,1615
+pyayay.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+pyayay.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
