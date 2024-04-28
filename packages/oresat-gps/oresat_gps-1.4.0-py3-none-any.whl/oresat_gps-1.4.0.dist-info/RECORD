@@ -1,0 +1,12 @@
+oresat_gps/__init__.py,sha256=EXq4jnZX26q08Sgdt00-vDQx4Esm_OF-xlNgCCC-_tQ,164
+oresat_gps/__main__.py,sha256=skiZAFSkK6rcx0cw5MiEXVyoa3ZZyUjheu1X8E_AIyI,807
+oresat_gps/_version.py,sha256=R8-T9fmURjcuoxYpHTAjyNAhgJPDtI2jogCjqYYkfCU,411
+oresat_gps/gps_service.py,sha256=H0TIHrITjxUAFBr5fmDdNeufXYBFSysFVJCUOXcyCqs,4483
+oresat_gps/skytraq.py,sha256=iHZ-laVdCNW05o6uFP4QhFw7MWK1n32CgiqxI6EaNps,5034
+oresat_gps/templates/skytraq.html,sha256=qbrwRzJKBvYTeNC9FtRydNSU711PtjC5etvu-SYtSII,4563
+oresat_gps-1.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+oresat_gps-1.4.0.dist-info/METADATA,sha256=EUqn445T5MnvMFY0TfuiUHnkoUbF1PGz2a1gxXaX8Gc,1868
+oresat_gps-1.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+oresat_gps-1.4.0.dist-info/entry_points.txt,sha256=UMl4ACiTz1hz2LjH8aryF7mPWc9g9gat9RVzS5AvSDw,56
+oresat_gps-1.4.0.dist-info/top_level.txt,sha256=dAuxIAZ9IKvHf15sq5XDPmoeH5Sphb8vzOtSMbMzYFE,11
+oresat_gps-1.4.0.dist-info/RECORD,,
