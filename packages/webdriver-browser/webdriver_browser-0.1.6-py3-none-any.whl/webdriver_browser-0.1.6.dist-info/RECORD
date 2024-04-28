@@ -1,0 +1,10 @@
+webdriver_browser/__init__.py,sha256=3Ujf_aPPauqjqYrN8SfdbndQ1rc-dUX8HI2w5YBMI_E,15859
+webdriver_browser/chrome.py,sha256=xyJr5IHG8RrF_5bqFceMPN8ZuJGlXWmysNDtd4UlbJ0,4121
+webdriver_browser/edge.py,sha256=EoZOjQOQOcvF8PLFwz-jqldl8d4M6z_NkcOXlqYUz-0,1142
+webdriver_browser/firefox.py,sha256=KxyZFnrqI9BLSA_W0lQsW5udEz7kdv0uF3Rxh7Gnl4w,3095
+webdriver_browser/patch.py,sha256=H0yMUfP4WnS9I5bazPuCgDQO9cIAwt7_q0hvLKC_4mc,5484
+webdriver_browser/rsync.py,sha256=-WSmiPl1iVYg4xzAHG86H523JfGw7DafuodCgBU1vOs,6191
+webdriver_browser-0.1.6.dist-info/LICENSE,sha256=w81rCYQmGRhH4WrorD9wmBsq1Iao4-NwpP53sOb6pK0,1089
+webdriver_browser-0.1.6.dist-info/METADATA,sha256=X2zqqfet6uXhGrqb0aKA6h-S9WQyLe_p957Li6Ovdx8,1560
+webdriver_browser-0.1.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+webdriver_browser-0.1.6.dist-info/RECORD,,
