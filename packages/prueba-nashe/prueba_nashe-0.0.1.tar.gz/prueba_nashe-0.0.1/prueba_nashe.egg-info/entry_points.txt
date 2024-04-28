@@ -1,0 +1,2 @@
+[console_scripts]
+prueba-nashe = terminaltype.app:TypingTest
