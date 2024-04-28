@@ -1,0 +1,8 @@
+simple_smtp_mailer/__init__.py,sha256=Vxjr9Zyn_MdSELIZCfm3OG2lyUFvdxr0pmCXr2eZ3t8,35
+simple_smtp_mailer/basic.py,sha256=KTMcS5_h0L1YpEY8FrQLDog7vLRaGiIyY2ZnOxaiztw,1003
+simple_smtp_mailer/mail.py,sha256=1tIrIsbYFEioDVw9NiouPim1paNpd93RvurK-4f775s,922
+simple_smtp_mailer-0.1.dist-info/LICENSE,sha256=EnDM6SJLga2xCLQ8vhAKuncYut1EbTJVcikckvePVDc,1073
+simple_smtp_mailer-0.1.dist-info/METADATA,sha256=BXn5JBKw1GuIVsiZhOgR5MgOMU1V6THj5XX2SruoaME,647
+simple_smtp_mailer-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simple_smtp_mailer-0.1.dist-info/top_level.txt,sha256=BRMA5h1JY_Y-X_01wSHe62zg1rnFvqQX5X8ZY5Q4lyQ,19
+simple_smtp_mailer-0.1.dist-info/RECORD,,
