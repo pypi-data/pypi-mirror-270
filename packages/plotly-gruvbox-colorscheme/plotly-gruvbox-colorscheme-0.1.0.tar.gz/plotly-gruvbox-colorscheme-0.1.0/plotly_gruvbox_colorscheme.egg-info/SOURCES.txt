@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+plotly_gruvbox_colorscheme/__init__.py
+plotly_gruvbox_colorscheme.egg-info/PKG-INFO
+plotly_gruvbox_colorscheme.egg-info/SOURCES.txt
+plotly_gruvbox_colorscheme.egg-info/dependency_links.txt
+plotly_gruvbox_colorscheme.egg-info/requires.txt
+plotly_gruvbox_colorscheme.egg-info/top_level.txt
+plotly_gruvbox_colorscheme.egg-info/zip-safe
