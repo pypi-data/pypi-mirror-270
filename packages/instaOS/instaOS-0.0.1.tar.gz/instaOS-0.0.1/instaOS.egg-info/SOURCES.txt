@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+instaOS/__init__.py
+instaOS/instagram.py
+instaOS.egg-info/PKG-INFO
+instaOS.egg-info/SOURCES.txt
+instaOS.egg-info/dependency_links.txt
+instaOS.egg-info/requires.txt
+instaOS.egg-info/top_level.txt
