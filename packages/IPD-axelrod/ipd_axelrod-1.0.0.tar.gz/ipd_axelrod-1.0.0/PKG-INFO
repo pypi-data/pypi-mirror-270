@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: IPD-axelrod
+Version: 1.0.0
+Summary: A tool for the iterated prisoners dilemma
+Author: jumpingtj
+Project-URL: Homepage, https://github.com/jumpingtj/prisoners-dilemma
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IDP - the tool for study of the Iterated Prisoners' Dilemma
+
+Currently, this provides no exports, and must be run via the command line:
+`python3 -m IDP`
+This produces a GUI window for running simulations.
