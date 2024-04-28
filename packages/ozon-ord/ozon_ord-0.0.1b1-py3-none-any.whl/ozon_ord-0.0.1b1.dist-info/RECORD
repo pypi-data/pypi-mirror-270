@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=5NxOGzQiZRGMBJFFAAHsiMdc40QT3fPg5Lp-bzakgpU,381
+tests/test_contract.py,sha256=QhFc_WpWLAWhx1P-VByVYQIN_JIYfohlxpc-aG22c8s,6908
+tests/test_creative.py,sha256=bghopcX5DGr6zLSpd9fghReWcZ-hwhpf13J28el4FSo,10281
+tests/test_deletion.py,sha256=pyOO636YpRm4U_r5dwpy-8ryPyspKlc9GQ9nqi7J24Y,4131
+tests/test_dictionary.py,sha256=tpGzaz4Yo0PbBqZq6xg3KDebW7Mj_VK1Yaw8hUcpuwA,4341
+tests/test_invoice.py,sha256=qV5jdN3y4ECPIj2uKyS7OMpbEEB8zf6SlgWygoADfvw,5799
+tests/test_notification.py,sha256=b-2Rq5F3mOayajMG_YRW8UR1bk71pMOyHcfp9SSHIhA,1385
+tests/test_organisation.py,sha256=wqQKZ_WsPuXTv2a2nA0FJRZ3CCR-8Zt4akNVBIjiYlY,5432
+tests/test_platform.py,sha256=NKhKxymCRpi0dO7KlIsKuRt8E1UWK6rT94-1bnqy1gc,9047
+tests/test_statistic.py,sha256=hAkUOd3Zy7TQtFlOUcyh3rAzrZeG1s95UY_dc8zVz80,6407
+ozon_ord-0.0.1b1.dist-info/METADATA,sha256=xRo0NCBX-AReKhVgPuM_D_Y7QsJG-1KBH3k6Vcxw6as,5188
+ozon_ord-0.0.1b1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ozon_ord-0.0.1b1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+ozon_ord-0.0.1b1.dist-info/RECORD,,
