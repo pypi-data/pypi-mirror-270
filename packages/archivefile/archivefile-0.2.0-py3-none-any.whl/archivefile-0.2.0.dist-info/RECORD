@@ -1,0 +1,13 @@
+archivefile/__init__.py,sha256=ettc9NE5EdQmojapLqSffh0mfxTYQcvUdsp9dLeIvwI,690
+archivefile/_compat.py,sha256=eEhfxyr0DUtTaP9J5MhFlQDyQg-pwsPH_Y1HTY1gOwU,244
+archivefile/_core.py,sha256=IPNQ30zoMc66Ng_Yp1qXx9oKiCIqvv_Lt3Nr_uRKo1M,32102
+archivefile/_enums.py,sha256=OwYHE_pvFisPGif2o3kZRIoTxk4dYeYb6nCJ5jYMAmY,950
+archivefile/_exceptions.py,sha256=i4DqJL3EIUaatAhSDJdKxRYFm5Tzy9HeNhMhOFEBH1c,199
+archivefile/_models.py,sha256=8hRmFNUJdrDEeysYI-IStB2YCODXfbL_hrzavUUFm-8,878
+archivefile/_types.py,sha256=PNYHXZhp3kBryKsI06dceucCbgoMwavs5NDb36F4UDI,333
+archivefile/_utils.py,sha256=770NzNKJLN6G7j08Gu-18Ihr8wTAN7_a79DnRZ5PCAM,2406
+archivefile/_version.py,sha256=IvoXEl8tqQT0nYgqtvcrTdWKYvqg741YyM0IrsxeyaY,526
+archivefile/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archivefile-0.2.0.dist-info/METADATA,sha256=AoHO68pq7tDAoqPJX1gUWrZazUsz4fgO2GAd2dxIOVg,5233
+archivefile-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+archivefile-0.2.0.dist-info/RECORD,,
