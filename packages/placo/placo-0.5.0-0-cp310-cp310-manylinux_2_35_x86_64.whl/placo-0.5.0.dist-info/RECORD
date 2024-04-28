@@ -1,0 +1,14 @@
+cmeel.prefix/lib/liblibplaco.so,sha256=E1awW2u8EuLaRCKveYm2yf_RNAZ9opaqEKVjQHREAOA,2552024
+cmeel.prefix/lib/python3.10/site-packages/placo.pyi,sha256=v7rX_Vpjg4FjiySG2iLo0DEFonBycR9g1GuUvV_rb9s,152373
+cmeel.prefix/lib/python3.10/site-packages/placo.so,sha256=cvX1XiywxonONc11JZQsFutGsrg2zwf4UFY9w8i31YE,7488304
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/__init__.py,sha256=UN-fc5KfBWQ-_qkm0Ajouh-T9tBGm5aUtuzBiH1tRtk,80
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/tf.py,sha256=fFRXNbeLlXzn5VOqYl7hcSuvOOtTDTiLi_Lpd9_l6wA,36
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/visualization.py,sha256=EOXNjYKiOSE2F4vbEXoFJ4UBbGBUvC5v4ANjYL3IUVo,7440
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/__pycache__/__init__.cpython-310.pyc,sha256=tJrTajdA7hNO9tZkE1oN49rU-61lCNUED-mQXdAvzAs,261
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/__pycache__/tf.cpython-310.pyc,sha256=APWQ5-zKgbEcMnkv6Hxgj_Q46jpnuOyL9YbSrj6Z5Vw,204
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/__pycache__/visualization.cpython-310.pyc,sha256=LfGZpJjLlNUzlyCCMYOFItu5T9N9wnyrpqXsNKP3g38,6480
+placo-0.5.0.dist-info/license/LICENSE,sha256=q2bBXvk4Eh7TmP11LoIOIGSUuJbR30JBI6ZZ37g52T4,1061
+placo-0.5.0.dist-info/METADATA,sha256=uEp2d7pxyOazn7MiYU3JoWWJtG1-HFYrb6gI0f4Buw8,873
+placo-0.5.0.dist-info/WHEEL,sha256=y7GzdFHC0qrZwnE2SqFjrXxL9NLtXflO9hVb0PhWwIU,115
+placo-0.5.0.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+placo-0.5.0.dist-info/RECORD,,
