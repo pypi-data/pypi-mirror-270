@@ -1,0 +1,8 @@
+aiohttp
+websockets
+orjson
+
+# dev
+twine
+setuptools
+aiodebug
