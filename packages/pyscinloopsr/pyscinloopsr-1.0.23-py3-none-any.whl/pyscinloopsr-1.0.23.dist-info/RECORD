@@ -1,0 +1,10 @@
+pyscinloopsr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscinloopsr/__main__.py,sha256=aqWZlKgyYOn6y9r_bNBH5qgl8B_SUVbKAkZbWIYmKIo,517
+pyscinloopsr/before.py,sha256=IGJQPLZCKyOEA4BWSmyXgXWz__HzHdiFT14omJH1FLM,12048
+pyscinloopsr/sr.py,sha256=wTt2gIBV7rAP2Jzd9jgYKy74RyjjJHD1dnqRXWyRkyw,3239
+pyscinloopsr/test_before.py,sha256=gfJdYIaw26IQX5UUOusDVWDwQOxTnH-fSPK4baxLR20,211
+pyscinloopsr-1.0.23.dist-info/METADATA,sha256=Mtbm8InhPyEw2LfrAKwWuSIjhzI2BuUwvHOPtlYqSY4,736
+pyscinloopsr-1.0.23.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyscinloopsr-1.0.23.dist-info/entry_points.txt,sha256=2zV_mmxpKC9r3SwAAQhW8nH6chLXKpMNNNB7BQH_pjk,54
+pyscinloopsr-1.0.23.dist-info/top_level.txt,sha256=k4V7ET7PQKLCLSWG-mH-mUBtgi_4RUWLSazKCHSSvPA,13
+pyscinloopsr-1.0.23.dist-info/RECORD,,
