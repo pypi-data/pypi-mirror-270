@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CyberNova
+Version: 0.1
+Summary: A package for cybersecurity analysis tools.
+Author: Aniket Bhardwaj
+Author-email: aniket.bhardwaj0803@gmail.com
+License: MIT
+Keywords: cybersecurity dns ssl port scanning vulnerability analysis
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: dnspython
+Requires-Dist: whois
+Requires-Dist: python-nmap
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+
