@@ -1,0 +1,3 @@
+[console_scripts]
+sanda = sanda.cli.entry:cli
+
