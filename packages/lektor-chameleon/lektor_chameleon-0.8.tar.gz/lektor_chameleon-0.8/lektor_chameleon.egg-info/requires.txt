@@ -1,0 +1,14 @@
+lektor
+chameleon
+
+[dev]
+lektor-chameleon[style,tests]
+build
+twine
+tox
+
+[style]
+ruff
+
+[tests]
+pytest
