@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pipelinechain/__init__.py
+pipelinechain.egg-info/PKG-INFO
+pipelinechain.egg-info/SOURCES.txt
+pipelinechain.egg-info/dependency_links.txt
+pipelinechain.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pipeline.py
