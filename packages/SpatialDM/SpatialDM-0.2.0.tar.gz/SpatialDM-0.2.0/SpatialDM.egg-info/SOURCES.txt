@@ -1,0 +1,16 @@
+README.rst
+setup.py
+SpatialDM.egg-info/PKG-INFO
+SpatialDM.egg-info/SOURCES.txt
+SpatialDM.egg-info/dependency_links.txt
+SpatialDM.egg-info/requires.txt
+SpatialDM.egg-info/top_level.txt
+spatialdm/__init__.py
+spatialdm/diff_utils.py
+spatialdm/main.py
+spatialdm/plottings.py
+spatialdm/utils.py
+spatialdm/version.py
+spatialdm/datasets/__init__.py
+spatialdm/datasets/_util_dataset.py
+spatialdm/datasets/dataset.py
