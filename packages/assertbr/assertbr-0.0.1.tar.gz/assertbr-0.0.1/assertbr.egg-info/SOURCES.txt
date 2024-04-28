@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+assertbr/__init__.py
+assertbr/requisicoes.py
+assertbr.egg-info/PKG-INFO
+assertbr.egg-info/SOURCES.txt
+assertbr.egg-info/dependency_links.txt
+assertbr.egg-info/requires.txt
+assertbr.egg-info/top_level.txt
