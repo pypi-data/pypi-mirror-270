@@ -1,0 +1,77 @@
+Metadata-Version: 2.3
+Name: uvx
+Version: 1.0.2
+Summary: uvx: pipx for uv
+Project-URL: Documentation, https://github.com/robinvandernoord/uvx#readme
+Project-URL: Issues, https://github.com/robinvandernoord/uvx/issues
+Project-URL: Source, https://github.com/robinvandernoord/uvx
+Author-email: Robin van der Noord <robinvandernoord@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: cli,pipx,typer,uv,venv
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: configuraptor
+Requires-Dist: msgspec
+Requires-Dist: packaging
+Requires-Dist: plumbum
+Requires-Dist: result
+Requires-Dist: rich
+Requires-Dist: threadful>=0.3
+Requires-Dist: typer
+Requires-Dist: uv
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: python-semantic-release<8; extra == 'dev'
+Requires-Dist: su6[all]; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# uvx: pipx for uv
+
+Inspired by:
+
+- [pipx](https://github.com/pypa/pipx)
+- [uv](https://github.com/astral-sh/uv)
+
+## Installation
+
+```bash
+# one of these ways:
+pip install uvx
+uv install uvx
+pipx install uvx
+```
+
+## Usage
+
+```bash
+uvx
+```
+
+Run `uvx` without any arguments to see all possible subcommands.
+
+## Note - Version 2.0 Now Available
+
+Version `2.0.0` of uvx has been released and is now available. This new release has been rewritten in Rust to address performance concerns with the previous Python implementation, notably reducing startup time. Version `2.0.0` directly utilizes some APIs of `uv`, enhancing performance by avoiding the need to spawn a separate process in some cases. 
+
+Despite the availability of this new version, the repository and the existing Python implementation of uvx 1.x will continue to be maintained for bug fixes and to ensure (backwards) compatibility across different system architectures.
+
+For users on supported Linux platforms with x86_64 (amd64) or aarch64 (ARM64) architectures, version 2.0 can be installed via pip or compiled manually from source if necessary. This version is not available through PyPI for other platforms, which can still utilize uvx 1.x or opt for manual compilation of uvx 2.0.
+
+Discover more about the new features and enhancements by visiting the new project repository at [robinvandernoord/uvx2](https://github.com/robinvandernoord/uvx2/).
+
+
+## License
+
+`uvx` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+
+## Changelog
+
+See `CHANGELOG.md` [on GitHub](https://github.com/robinvandernoord/uvx/blob/master/CHANGELOG.md)
