@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: FluxAI
+Version: 0.0.1
+Summary: Lifelong Machine Learning Framework
+Project-URL: Documentation, https://github.com/ysenarath/fluxai
+Project-URL: Source, https://github.com/ysenarath/fluxai
+Author-email: Yasas Senarath <email@example.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: continual learning,deep learning,incremental learning,lifelong learning,machine learning
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# lifelong-text-classification
+Lifelong Text Classification
