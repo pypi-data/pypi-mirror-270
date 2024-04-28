@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Color-Palette-Generator
+Version: 0.0.4
+Summary: Generate Colour Palettes with Python
+Home-page: https://github.com/soumya1729/Color-palette-generator
+Author: SM
+License: MIT
+Keywords: matplotlib,python plots
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: opencv-python>=4.9.0.80
+Requires-Dist: numpy>=1.25.2
+
+# Generate Colour Palettes from your Favourite Movies/Images
+
+## Install
+
+```bash
+$ pip install Color-Palette-Generator
+```
+
+#Usage:
+
+```python
+from colour_palette_gen.generate import process_video
+
+process_video(input_dir="./colour_palette_gen/examples", batch_size=100, num_colors=5,output_dir="./output_palettes_1")
+
+```
