@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+konciliation/__init__.py
+konciliation/__main__.py
+konciliation/__version__.py
+konciliation/main.py
+konciliation/main_widget.py
+konciliation/sup.py
+konciliation_GDV_target_task.egg-info/PKG-INFO
+konciliation_GDV_target_task.egg-info/SOURCES.txt
+konciliation_GDV_target_task.egg-info/dependency_links.txt
+konciliation_GDV_target_task.egg-info/entry_points.txt
+konciliation_GDV_target_task.egg-info/requires.txt
+konciliation_GDV_target_task.egg-info/top_level.txt

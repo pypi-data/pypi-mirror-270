@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: konciliation_GDV_target_task
+Version: 0.3.1
+Requires-Dist: tqdm
+Requires-Dist: pyqt6
+Requires-Dist: matplotlib

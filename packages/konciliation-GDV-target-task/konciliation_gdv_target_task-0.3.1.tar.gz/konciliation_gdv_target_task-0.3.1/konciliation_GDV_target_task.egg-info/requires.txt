@@ -1,0 +1,3 @@
+tqdm
+pyqt6
+matplotlib
