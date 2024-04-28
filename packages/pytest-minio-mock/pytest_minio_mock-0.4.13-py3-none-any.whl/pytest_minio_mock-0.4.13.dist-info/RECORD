@@ -1,0 +1,8 @@
+pytest_minio_mock/__init__.py,sha256=8ZCyaEtlYWstPM07ZrNJu-i3TGr9QswDqGs1ZpUO5hs,1015
+pytest_minio_mock/plugin.py,sha256=smblZsQzPePREgkwM8Z575QVQGGRpfAg9GVbA5bx2MM,49156
+pytest_minio_mock-0.4.13.dist-info/LICENSE,sha256=1ShQqUAGUIpK2Ip5rRFoxWwuREgD6RFRhWE2jOBr18w,1086
+pytest_minio_mock-0.4.13.dist-info/METADATA,sha256=t6Y76VnFylyhxY0L0djyZWgeb3wM3O16-VANkTsqvY0,5195
+pytest_minio_mock-0.4.13.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_minio_mock-0.4.13.dist-info/entry_points.txt,sha256=7fQxz3dEUtH-j4u8JYCNhh8JEvAPjPixopYowTjLHI0,56
+pytest_minio_mock-0.4.13.dist-info/top_level.txt,sha256=Zp2OrIli427jxOUjlaheHsNumqVPbfUMHCgmyASzUio,18
+pytest_minio_mock-0.4.13.dist-info/RECORD,,
