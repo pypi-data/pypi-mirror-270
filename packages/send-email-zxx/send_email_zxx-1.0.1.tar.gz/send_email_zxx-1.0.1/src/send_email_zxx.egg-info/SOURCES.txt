@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/send_email_zxx/__init__.py
+src/send_email_zxx/emailLib.py
+src/send_email_zxx.egg-info/PKG-INFO
+src/send_email_zxx.egg-info/SOURCES.txt
+src/send_email_zxx.egg-info/dependency_links.txt
+src/send_email_zxx.egg-info/top_level.txt
+test/test.py
