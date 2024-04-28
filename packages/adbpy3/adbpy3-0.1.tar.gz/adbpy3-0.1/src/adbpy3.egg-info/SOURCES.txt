@@ -1,0 +1,17 @@
+README.rst
+setup.py
+src/adbpy3/__init__.py
+src/adbpy3.egg-info/PKG-INFO
+src/adbpy3.egg-info/SOURCES.txt
+src/adbpy3.egg-info/dependency_links.txt
+src/adbpy3.egg-info/top_level.txt
+src/adbpy3/connect/__init__.py
+src/adbpy3/connect/connect.py
+src/adbpy3/input/__init__.py
+src/adbpy3/input/input.py
+src/adbpy3/keyevent/__init__.py
+src/adbpy3/keyevent/keyevent.py
+src/adbpy3/root/__init__.py
+src/adbpy3/root/root.py
+src/adbpy3/shell/__init__.py
+src/adbpy3/shell/shell.py
