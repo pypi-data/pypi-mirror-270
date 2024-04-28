@@ -1,0 +1,1 @@
+from instaOS.instagram import Instagram
