@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: untie
+Version: 0.0.4
+Summary: Trace Information Extraction (TIE) library
+Home-page: https://github.com/swisstopo/lg-tie-lib
+Author: Anna Rauch
+Author-email: contact@infogrip.ch
+Maintainer: Marc Monnerat
+Maintainer-email: marc.monnerat@swisstopo.ch
+License: BSD 3-Clause License
+Keywords: geology,trace information extraction,TIE,map
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: shapely>=2.0.0
+Requires-Dist: geocube
+Requires-Dist: numpy
+Requires-Dist: geopandas
+Requires-Dist: mayavi
+Requires-Dist: matplotlib
+Requires-Dist: rasterio
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: sphinx-autobuild; extra == "doc"
+
+tietool
+=======
+
+
+
+Trace Information Extraction (TIE): A new approach to extract structural information from traces in geological maps
+https://doi.org/10.1016/j.jsg.2019.06.007
