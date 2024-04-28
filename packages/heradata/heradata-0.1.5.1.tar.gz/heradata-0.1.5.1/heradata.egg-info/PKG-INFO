@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: heradata
+Version: 0.1.5.1
+Summary: A data storage library
+Author: 369
+Author-email: luck.yangbo@gmail.com
+Requires-Python: >=3.6

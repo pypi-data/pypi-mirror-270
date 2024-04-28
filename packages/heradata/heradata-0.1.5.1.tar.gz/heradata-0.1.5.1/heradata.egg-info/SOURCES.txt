@@ -1,0 +1,14 @@
+.gitignore
+.gitmodules
+README.md
+requirements.txt
+setup.cfg
+setup.py
+heradata/__init__.py
+heradata.egg-info/PKG-INFO
+heradata.egg-info/SOURCES.txt
+heradata.egg-info/dependency_links.txt
+heradata.egg-info/requires.txt
+heradata.egg-info/top_level.txt
+tests/test___init__.py
+tests/test__data_storage.py
