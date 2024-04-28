@@ -1,0 +1,10 @@
+numimage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numimage/geometry.py,sha256=ceq6qBwtUiagFpi6rCYI8jFpYkcoKx2eZ5tK6LrtvFM,5546
+numimage/math_h.py,sha256=_Gs6P1yptNTV5iVaVShoYc230Y70GREcZnuGISv3410,142
+string_h/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+string_h/reverse.py,sha256=CxqLu1Aqc3R3m5Vd1XOp2GZoSjE2RzqlFfMAu9_hsXw,48
+numimage-0.0.3.dist-info/LICENSE.txt,sha256=xCs5ywcMLkMC-TvTeDkUMLmDVEBNtjCVCqz5NAo3SJY,1073
+numimage-0.0.3.dist-info/METADATA,sha256=v63fcTJo29xc0vlU9ufgNWLcw3sKJD_dhaMdm-1CdHk,3025
+numimage-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+numimage-0.0.3.dist-info/top_level.txt,sha256=XS9cuGdryMDvrn0WghwNM8RgISuYBB9xtNsBx2PFEcI,18
+numimage-0.0.3.dist-info/RECORD,,
