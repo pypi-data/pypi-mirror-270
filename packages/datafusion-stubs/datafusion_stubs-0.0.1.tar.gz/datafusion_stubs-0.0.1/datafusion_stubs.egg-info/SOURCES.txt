@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+datafusion_stubs.egg-info/PKG-INFO
+datafusion_stubs.egg-info/SOURCES.txt
+datafusion_stubs.egg-info/dependency_links.txt
+datafusion_stubs.egg-info/top_level.txt
