@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-rng-lib
+Version: 0.0.1
+Summary: RNG Library
+Author-email: Nucast <contact@nucast.io>
+Project-URL: Homepage, https://github.com/Nucastio/rng-python-lib
+Project-URL: Issues, https://github.com/Nucastio/rng-python-lib/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: twine
+Requires-Dist: requests
+
