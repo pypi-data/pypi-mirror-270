@@ -1,0 +1,8 @@
+django_copyist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_copyist/config.py,sha256=8CHY2acoCD34n6nebrimssvImTikD4WPfRH2QPWRfxA,20047
+django_copyist/copy_request.py,sha256=HDqdmqSLkvJGF7LhLon6Sw_MT8hdcgpl8J5ZO4Om50g,4178
+django_copyist/copyist.py,sha256=xQtTDLpgdUi8Qn2HJIRTSib-EbfVwwBiCFgt4UzdzfA,48952
+django_copyist-0.1.1.dist-info/LICENSE.txt,sha256=nkWZkJd6gRmQ6KPBVDgxr6turlUVtHEp__mPM6X1ulY,11342
+django_copyist-0.1.1.dist-info/METADATA,sha256=blR1YETs2qiU8rxxCtfvn5x7ciAlSn96VnJMSDRmCps,12566
+django_copyist-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_copyist-0.1.1.dist-info/RECORD,,
