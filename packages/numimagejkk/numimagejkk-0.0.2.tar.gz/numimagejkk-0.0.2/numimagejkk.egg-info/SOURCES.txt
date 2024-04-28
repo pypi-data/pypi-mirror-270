@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+numimagejkk/__init__.py
+numimagejkk/math_h.py
+numimagejkk.egg-info/PKG-INFO
+numimagejkk.egg-info/SOURCES.txt
+numimagejkk.egg-info/dependency_links.txt
+numimagejkk.egg-info/requires.txt
+numimagejkk.egg-info/top_level.txt
+string_h/__init__.py
+string_h/reverse.py
