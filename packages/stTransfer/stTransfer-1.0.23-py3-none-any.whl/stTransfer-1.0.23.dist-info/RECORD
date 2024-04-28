@@ -1,0 +1,12 @@
+stTransfer/__init__.py,sha256=3d56Y1ElRItQ4GDLVOl39jRz5BIi9jPpvbeW4K2V9x4,85
+stTransfer/stTransfer/Transfer_entry.py,sha256=d9Lkfec9vkLwF-LatMldEo5ei5bhr-7pT3oUuVsRmRo,7748
+stTransfer/stTransfer/__init__.py,sha256=rMPvUPYYeZBBuyyL7AoqrsuyAalB063qSmmaHRgV0DM,179
+stTransfer/stTransfer/cell_type_ann_model.py,sha256=AVX-mutgCxjZwjU8RCVc7k_t24GbTEhuW67iFa1Rshs,11226
+stTransfer/stTransfer/focal_loss.py,sha256=FtuIXwYBxhrmwAQ1H-ayvolOS3CFnmsAJrWPH6FZED0,1046
+stTransfer/stTransfer/scTrain_entry.py,sha256=iePYEunfzlKs1C7rsA4vcfnfFdoV_7wUqui3t9R9cvg,9372
+stTransfer/stTransfer/vae.py,sha256=rPYCCSJzpmJ7wCccaUy948N-LnASD6bTVrH_Nu5uT1M,63570
+stTransfer-1.0.23.dist-info/LICENSE,sha256=GxVdzzHQmbPshW7PQje3rGH-31tjVquleOlWnUGlUlA,1065
+stTransfer-1.0.23.dist-info/METADATA,sha256=cu_xOdoXV3UzyZM5qoiwo4IMO7dMc--O7DoIMc_819g,1939
+stTransfer-1.0.23.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+stTransfer-1.0.23.dist-info/top_level.txt,sha256=FiHiAmEie2xP07nRU2P82UF0R0diD3rkcZ7N1BS6ayY,11
+stTransfer-1.0.23.dist-info/RECORD,,
