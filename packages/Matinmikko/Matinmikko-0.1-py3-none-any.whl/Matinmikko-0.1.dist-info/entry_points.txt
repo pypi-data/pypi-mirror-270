@@ -1,0 +1,2 @@
+[console_scripts]
+Matinmikko = Matinmikko:hello
