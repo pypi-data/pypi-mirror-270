@@ -1,0 +1,16 @@
+reldplayer/__init__.py,sha256=tyq4KxtYiDKXJfhvsORFZqPmwANnLAdTSdGCKY82u0g,63
+reldplayer/player.py,sha256=38pGlB_eQoFnpc6y8I4_UoMtKneQXxhA05_a6__ZNFU,3418
+reldplayer/_internal/b64.py,sha256=ACO1QxBpkhk3rit2kf13aDM1gljuNu0m1TOqhStqzmo,657
+reldplayer/_internal/i.py,sha256=ioqabbf02t8s1gHuzbTddQup_CAimPBCbRmy6KPfOkY,4903
+reldplayer/_internal/utils.py,sha256=1tCx7ECfCpe8HSSbbSXGAx92rkXX4EbDrtH3YencZ3k,244
+reldplayer/com/config.py,sha256=22TmIC2BC1rnvzxv0E2U3osnCDuvqiLH7-QUH3GTpL4,1931
+reldplayer/com/instanceQuick.py,sha256=PE1eQauAUDaPXOANLDbqraX3X0sC-7lNCt0jmreJClg,4320
+reldplayer/com/rawconsole.py,sha256=bEPTRAZfd4AZtUfCKxbfyXqwVQP-qflQKDqR2UXKoCY,19665
+reldplayer/com/sync.py,sha256=Q9jQsa31H3hkP9T3iF_C68KW4XE2e4pBOFEcwsYpgIs,5175
+reldplayer/com/uaConnect.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reldplayer/com/wndmgr.py,sha256=vCaOSAFofs_obtkD4cagMk7gjBjjdriGNhAQPyjoZNc,4110
+reldplayer/submod/setting_gui.py,sha256=j6Lzi7DURAX37wzkH7LdJQEYhQxEH21SXIM8xU9WFhw,1509
+reldplayer-0.0.1.dist-info/METADATA,sha256=nonEJ9Up-zEvrQTZVqQ1jeJRyOl1XbQY6MnWqdiIxCo,1477
+reldplayer-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+reldplayer-0.0.1.dist-info/licenses/LICENSE,sha256=Z_acxgUhHhHVjyiucx3ky2YM_zmYVL_X2NaMXadKJPc,1085
+reldplayer-0.0.1.dist-info/RECORD,,

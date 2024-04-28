@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: reldplayer
+Version: 0.0.1
+Summary: a reimagined pyldplayer that better suits scripting needs
+Author-email: ZackaryW <36378555+ZackaryW@users.noreply.github.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: pillow>=10.3.0
+Requires-Dist: zro2>=0.2.0
+Provides-Extra: all
+Requires-Dist: easyocr>=1.7.1; extra == 'all'
+Requires-Dist: pillow>=10.3.0; extra == 'all'
+Requires-Dist: psutil>=5.9.8; extra == 'all'
+Requires-Dist: pyautogui>=0.9.54; extra == 'all'
+Requires-Dist: pydantic>=2.6.4; extra == 'all'
+Requires-Dist: pyscreeze>=0.1.30; extra == 'all'
+Requires-Dist: screeninfo>=0.8.1; extra == 'all'
+Description-Content-Type: text/markdown
+
+# reldplayer
+reimagined pyldplayer
+
+# install
+
+```bash
+pip install reldplayer
+```
+
+# usage examples
+
+## common examples
+to launch and sort the instances utilizing the synchronizer
+```py
+player = Reldplayer(Config({PATH}))
+player.synchronizer.setq([1, 2, 3, 4])
+player.console.launch()
+player.wndmgr.gridOrientation(gridStr="2X2")
+```
+
+traditional methods works too
+```py
+player = Reldplayer(Config({PATH}))
+player.console.launch(1)
+player.console.launch(2)
+player.console.launch(3)
+player.console.launch(4)
+player.wndmgr.gridOrientation(gridStr="2X2")
+```
+
+## modify root status
+```py
+player = Reldplayer(Config({PATH}))
+player.synchronizer.setq([1])
+player.console.modify(root=True)
+player.console.launch()
+<do whatever you want>
+```
+> this is currently not available for LDPlayer 4 or below
+
