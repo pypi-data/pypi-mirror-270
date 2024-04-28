@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: DTIGE
+Version: 0.1.0
+Summary: Deceptive Text Identification and Generation Engine (DTIGE)
+Home-page: https://dtige.entelecheia.ai
+License: MIT
+Author: Young Joon Lee
+Author-email: entelecheia@hotmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: hyfi (>=1.36.3,<2.0.0)
+Project-URL: Repository, https://github.com/entelecheia/DTIGE
+Description-Content-Type: text/markdown
+
+# Deceptive Text Identification and Generation Engine (DTIGE)
+
+[![pypi-image]][pypi-url]
+[![version-image]][release-url]
+[![release-date-image]][release-url]
+[![license-image]][license-url]
+[![codecov][codecov-image]][codecov-url]
+[![jupyter-book-image]][docs-url]
+
+<!-- Links: -->
+[codecov-image]: https://codecov.io/gh/entelecheia/DTIGE/branch/main/graph/badge.svg?token=NWrQzoyGku
+[codecov-url]: https://codecov.io/gh/entelecheia/DTIGE
+[pypi-image]: https://img.shields.io/pypi/v/DTIGE
+[license-image]: https://img.shields.io/github/license/entelecheia/DTIGE
+[license-url]: https://github.com/entelecheia/DTIGE/blob/main/LICENSE
+[version-image]: https://img.shields.io/github/v/release/entelecheia/DTIGE?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/entelecheia/DTIGE
+[release-url]: https://github.com/entelecheia/DTIGE/releases
+[jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
+
+[repo-url]: https://github.com/entelecheia/DTIGE
+[pypi-url]: https://pypi.org/project/DTIGE
+[docs-url]: https://dtige.entelecheia.ai
+[changelog]: https://github.com/entelecheia/DTIGE/blob/main/CHANGELOG.md
+[contributing guidelines]: https://github.com/entelecheia/DTIGE/blob/main/CONTRIBUTING.md
+<!-- Links: -->
+
+Deceptive Text Identification and Generation Engine (DTIGE)
+
+- Documentation: [https://dtige.entelecheia.ai][docs-url]
+- GitHub: [https://github.com/entelecheia/DTIGE][repo-url]
+- PyPI: [https://pypi.org/project/DTIGE][pypi-url]
+
+The Deceptive Text Identification and Generation Engine (DTIGE) is a novel language model framework that aims to mimic deceptive marketing materials through its generator component while its discriminator component assesses and improves its capability to recognize deceptive texts. The ultimate goal is to enhance both the detection of deceptive content and the understanding of deceptive practices in digital marketing, thus aiding in regulatory compliance and content moderation.
+
+## Changelog
+
+See the [CHANGELOG] for more information.
+
+## Contributing
+
+Contributions are welcome! Please see the [contributing guidelines] for more information.
+
+## License
+
+This project is released under the [MIT License][license-url].
+

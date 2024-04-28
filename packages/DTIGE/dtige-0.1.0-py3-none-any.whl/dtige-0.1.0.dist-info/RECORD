@@ -1,0 +1,11 @@
+dtige/__cli__.py,sha256=oIgXSRuiBZ_vti1nHi8qJnjvyvaGmqwLZ1Prq8r2Z9w,181
+dtige/__init__.py,sha256=aVGDkVGSNB1wJ0BRjWM5Mh1xMNMsCFLR0HWUiQSwPm0,524
+dtige/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+dtige/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtige/conf/about/dtige.yaml,sha256=S92cISGHZwlkpLT6MRPMstdoEdWepohamU8WH8FJvdg,270
+dtige/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtige-0.1.0.dist-info/LICENSE,sha256=6_-z_j5TJ7bQ5RlPwAJZ0Eqo3qWC6pMDjlLjz0R4wkE,1071
+dtige-0.1.0.dist-info/METADATA,sha256=PzUti1DOPFRPfA85XYU72JK3ZkMYkHmS0psRRP-mfJQ,2947
+dtige-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dtige-0.1.0.dist-info/entry_points.txt,sha256=UQGUqqb125uVUsFJwrtPaXr9GXcnkBOhQfz6cKqKSFY,44
+dtige-0.1.0.dist-info/RECORD,,

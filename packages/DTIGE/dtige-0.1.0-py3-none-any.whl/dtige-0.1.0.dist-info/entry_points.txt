@@ -1,0 +1,3 @@
+[console_scripts]
+dtige=dtige.__cli__:main
+
