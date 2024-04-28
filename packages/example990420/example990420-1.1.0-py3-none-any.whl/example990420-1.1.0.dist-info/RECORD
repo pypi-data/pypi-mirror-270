@@ -1,0 +1,9 @@
+taibun/__init__.py,sha256=eVKFTr8YD9ZWDwFdA0wyOR4wXoFCMUN5rKgcupY6yV8,85
+taibun/taibun.py,sha256=ngtJa-9E2FwJOiSuC3XyyhgTscGFAVAKGr0Ngwnm_fE,25042
+taibun/data/simplified.json,sha256=jGTmwDqItWg5Q_LB0LDxqoos4nPv2-YIozbFTUZcqZk,17160
+taibun/data/words.json,sha256=0Ble8bHm6Os3-1CDph1CsU1ZonDmIceqJRFwg6awGYg,1893344
+example990420-1.1.0.dist-info/LICENSE,sha256=emDXwLubyXbyfW-V7UEP2N8NReWyaeuxouYYhe9AJXo,1094
+example990420-1.1.0.dist-info/METADATA,sha256=Lbp2waX5Vsy8F4J8NUTf8JHPB4pfviePaGHBsWn16t0,13004
+example990420-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+example990420-1.1.0.dist-info/top_level.txt,sha256=zD3s6gD9iNLKEFqStBKN_K63jl4-GD7xULcxYR5DkkM,7
+example990420-1.1.0.dist-info/RECORD,,
