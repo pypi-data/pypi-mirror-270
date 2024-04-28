@@ -1,0 +1,11 @@
+kkba_mathUtils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kkba_mathUtils/area.py,sha256=P1f736DG6o5Hq5YLa891ju2VahBdOyYh7cOcOcl6-zY,1529
+kkba_mathUtils/converter.py,sha256=tnyd3vPgw3FaNwjs-ilsxGGhZL3pTIuj_REnibW-2SY,11
+kkba_mathUtils/mathUtils.py,sha256=2lG93aFUXPax_7Rx4kPDqkcZqS3Xd97CkDeZ9TUZcRg,8932
+kkba_mathUtils/mean.py,sha256=hc2mDo31exFnRexNWfEnFm7d5Z2pOVvS8D8u19A7tY8,615
+kkba_mathUtils/perimeter.py,sha256=9K0jozaL4-39evSNPglaZLEkI65-Hu1z5ajozuYZz4w,1001
+kkba_mathUtils-1.0.1.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+kkba_mathUtils-1.0.1.dist-info/METADATA,sha256=bgdUwLBU80lFdfg0vdvNd4xPnPEIInpn0kCO135sLxw,597
+kkba_mathUtils-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kkba_mathUtils-1.0.1.dist-info/top_level.txt,sha256=FePo1Mi1wy21JdOvuwNIqf18oB1nyPyhkXPUQd1lE0A,15
+kkba_mathUtils-1.0.1.dist-info/RECORD,,
