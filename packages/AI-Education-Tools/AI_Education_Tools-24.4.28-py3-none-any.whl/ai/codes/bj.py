@@ -1,0 +1,6 @@
+a=open('1.txt').read().splitlines()
+b=open('b2.txt',encoding='utf-8').read().splitlines()
+c=set(b)-set(a)
+c=list(c)
+d='\n'.join(c)
+open('result.txt','w').writelines(d)
