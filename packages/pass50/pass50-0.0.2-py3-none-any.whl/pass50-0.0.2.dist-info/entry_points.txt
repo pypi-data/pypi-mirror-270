@@ -1,0 +1,3 @@
+[console_scripts]
+pass50 = pass50:main
+pass50-cli = pass50:main
