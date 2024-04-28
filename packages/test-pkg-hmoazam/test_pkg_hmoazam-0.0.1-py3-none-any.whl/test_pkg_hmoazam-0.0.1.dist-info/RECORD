@@ -1,0 +1,7 @@
+test_pkg_hmoazam/__init__.py,sha256=VWr08R_CdgfhKvdCe2AWejuwxgxrguAIErl6dpW4Y6k,20
+test_pkg_hmoazam/hello.py,sha256=hP0VpJiQVcvQQuYjexew3FqxUKnXTjfSMDG_zmXg3nw,43
+test_pkg_hmoazam-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+test_pkg_hmoazam-0.0.1.dist-info/METADATA,sha256=6aVnlhbvarS_n0AdQNivqCqLaBPe4ZMD7RX30he4rV4,189
+test_pkg_hmoazam-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+test_pkg_hmoazam-0.0.1.dist-info/top_level.txt,sha256=HVu0PPsvI3urRl8QK6KpOZe_8Vc1Y-YlfWjlTLHShSk,17
+test_pkg_hmoazam-0.0.1.dist-info/RECORD,,
