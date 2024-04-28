@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pymatris
+Version: 0.0.3
+Summary: Parallel download manager for HTTP/HTTPS/FTP/SFTP protocols.
+Keywords: downloader,download-manager,http/https,sftp,ftp
+Author: zhuolisam
+Author-email: zhuolisam0627@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Requires-Dist: aioftp (>=0.22.3,<0.23.0)
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: asyncssh (>=2.14.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Project-URL: Documentation, https://github.com/zhuolisam/pymatris
+Project-URL: Homepage, https://github.com/zhuolisam/pymatris
+Project-URL: Source Code, https://github.com/zhuolisam/pymatris
+Description-Content-Type: text/markdown
+
+# Pymatris 📂
+
+
+[![Pyversions](https://img.shields.io/pypi/pyversions/pymatris.svg?style=flat-square)](https://pypi.python.org/pypi/pymatris)
+
+Parallel file downloader for HTTP/HTTPS/FTP/SFTP protocols. 
+
+
+
+
+##  How to Use
+-----
+```bash
+pip install pymatris
+```
+
+
+
+
+
+
+# 
+
+
+
