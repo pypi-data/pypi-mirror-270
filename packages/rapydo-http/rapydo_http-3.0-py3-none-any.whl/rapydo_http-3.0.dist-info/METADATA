@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: rapydo_http
+Version: 3.0
+Summary: HTTP API server working on top of the RAPyDo framework
+License: The MIT License
+        
+        Copyright (c) 2011-2022: Paolo D'Onorio De Meo, Mattia D'Antonio
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: homepage, https://rapydo.github.io/docs
+Project-URL: documentation, https://http-api.readthedocs.io
+Project-URL: repository, https://github.com/rapydo/http-api
+Keywords: http,api,rest,web,backend,rapydo
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Flask
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask ==2.3.3
+Requires-Dist: flask-apispec ==0.11.4
+Requires-Dist: Flask-Caching ==2.1.0
+Requires-Dist: Flask-Cors ==4.0.0
+Requires-Dist: SQLAlchemy ==2.0.29
+Requires-Dist: alembic ==1.13.1
+Requires-Dist: Werkzeug ==3.0.2
+Requires-Dist: PyJWT ==2.8.0
+Requires-Dist: pyOpenSSL ==24.1.0
+Requires-Dist: marshmallow ==3.21.1
+Requires-Dist: webargs ==8.4.0
+Requires-Dist: apispec ==6.3.1
+Requires-Dist: neomodel ==5.2.1
+Requires-Dist: neobolt ==1.7.17
+Requires-Dist: psycopg2-binary ==2.9.9
+Requires-Dist: PyMySQL ==1.1.0
+Requires-Dist: redis ==5.0.4
+Requires-Dist: pika ==1.3.2
+Requires-Dist: celery[redis] ==5.4.0
+Requires-Dist: flower ==2.0.1
+Requires-Dist: celery-redbeat ==2.2.0
+Requires-Dist: amqp ==5.2.0
+Requires-Dist: pyotp ==2.9.0
+Requires-Dist: segno ==1.6.1
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: loguru ==0.7.2
+Requires-Dist: glom ==23.5.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: psutil ==5.9.8
+Requires-Dist: plumbum ==1.8.2
+Requires-Dist: html2text ==2024.2.26
+Requires-Dist: orjson ==3.10.1
+Requires-Dist: sentry-sdk[flask] ==2.0.1
+Requires-Dist: bcrypt ==4.1.2
+Requires-Dist: async-timeout ==4.0.3
+Provides-Extra: dev
+Requires-Dist: pytest ==8.1.2 ; extra == 'dev'
+Requires-Dist: pytest-flask ==1.3.0 ; extra == 'dev'
+Requires-Dist: pytest-cov ==5.0.0 ; extra == 'dev'
+Requires-Dist: pytest-timeout ==2.3.1 ; extra == 'dev'
+Requires-Dist: pytest-sugar ==1.0.0 ; extra == 'dev'
+Requires-Dist: Faker ==24.14.0 ; extra == 'dev'
+Provides-Extra: types
+Requires-Dist: rapydo-http[dev] ; extra == 'types'
+Requires-Dist: mypy ==1.10.0 ; extra == 'types'
+Requires-Dist: lxml ==5.2.1 ; extra == 'types'
+Requires-Dist: html5lib ==1.1 ; extra == 'types'
+Requires-Dist: celery-types ==0.22.0 ; extra == 'types'
+Requires-Dist: pika-stubs ==0.1.3 ; extra == 'types'
+Requires-Dist: types-certifi ==2021.10.8.3 ; extra == 'types'
+Requires-Dist: types-click ==7.1.8 ; extra == 'types'
+Requires-Dist: types-orjson ==3.6.2 ; extra == 'types'
+Requires-Dist: types-python-dateutil ==2.9.0.20240316 ; extra == 'types'
+Requires-Dist: types-pytz ==2024.1.0.20240417 ; extra == 'types'
+Requires-Dist: types-PyYAML ==6.0.12.20240311 ; extra == 'types'
+Requires-Dist: types-redis ==4.6.0.20240425 ; extra == 'types'
+Requires-Dist: types-requests ==2.31.0.20240406 ; extra == 'types'
+Requires-Dist: types-psycopg2 ==2.9.21.20240417 ; extra == 'types'
+Requires-Dist: types-urllib3 ==1.26.25.14 ; extra == 'types'
+Requires-Dist: pyyaml >=5.4 ; extra == 'types'
+Requires-Dist: sentry-sdk >=1.4.1 ; extra == 'types'
+
+# RAPyDo REST APIs
+
+REST APIs integrated with the RAPyDo framework
+
+Based on:
+
+- Flask
+- flask-apispec with apispec
+- marshmallow
+- webargs
+- Flask-Caching
+- PyJWT
+- pyotp With segno
+- Neomodel
+- SQLAlchemy
+- Redis-py
+- pika with amqp
+- celery with celery-redbeat
+- gunicorn with gevent
