@@ -1,0 +1,10 @@
+starsol_fastapi_jwt_auth/__init__.py,sha256=5LOxq8GO0DEBch0nAJL37_6oguqvXPbLNjv-lV5ueiI,170
+starsol_fastapi_jwt_auth/auth_config.py,sha256=bCSSWCyxAzZtaUnP6qD4d-ZdG02sPU6xqqaxhOdT6dA,4941
+starsol_fastapi_jwt_auth/auth_jwt.py,sha256=VVRqO140Bce2oAs5B5R1VBG4UlFN0uXOJpJgPVjFrIg,36543
+starsol_fastapi_jwt_auth/config.py,sha256=cpxcKP08PNPjbMifqbiQO7nRBVkZ1zRggm2jby-KYPo,4265
+starsol_fastapi_jwt_auth/exceptions.py,sha256=bLU9idMcVSS1lnEyBLk_shh6z_Tluee8eeHPKXvfos8,2462
+starsol_fastapi_jwt_auth-1.0.0.dist-info/LICENSE,sha256=RN4ZSYnctMMg-OAuUSuUvfJCmY3vhTiXw3r7aH5Qkgk,1120
+starsol_fastapi_jwt_auth-1.0.0.dist-info/METADATA,sha256=FzGFyl_JIGW4c6lYeSgHshtVwBj98Mifttht6Z7OptA,1567
+starsol_fastapi_jwt_auth-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+starsol_fastapi_jwt_auth-1.0.0.dist-info/top_level.txt,sha256=sK4KvCJcf041AiawNHJ8aE2B60dZpOKfi-GwfnrchD8,25
+starsol_fastapi_jwt_auth-1.0.0.dist-info/RECORD,,

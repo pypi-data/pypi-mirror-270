@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: starsol-fastapi-jwt-auth
+Version: 1.0.0
+Summary: library for fastapi jwt authentication
+Author-email: dev@starsolution.team
+Project-URL: Homepage, https://gitlab.com/star-solution-fzco/starsol-py-fastapi-jwt-auth
+Project-URL: Documentation, https://gitlab.com/star-solution-fzco/starsol-py-fastapi-jwt-auth/-/blob/master/README.md
+Project-URL: Repository, https://gitlab.com/star-solution-fzco/starsol-py-fastapi-jwt-auth.git
+Project-URL: Bug Tracker, https://gitlab.com/star-solution-fzco/starsol-py-fastapi-jwt-auth/-/issues
+Project-URL: Changelog, https://gitlab.com/star-solution-fzco/starsol-py-fastapi-jwt-auth/-/blob/master/CHANGELOG.md
+Keywords: starsol,jwt,fatapi,fastapi-jwt-auth
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Security
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyjwt
+Requires-Dist: fastapi
+Requires-Dist: pydantic >=2.0
+Provides-Extra: asymmetric
+Requires-Dist: cryptography >=2.6 ; extra == 'asymmetric'
+
+# FastAPI JWT Auth
+
+Compatible with Pydantic version 2.
+
+## License
+
+This project is a fork of [fastapi-jwt-auth](https://github.com/IndominusByte/fastapi-jwt-auth), developed by [IndominusByte](https://github.com/IndominusByte), and is distributed under the MIT License, the same as the original project. See the LICENSE file for more details.
