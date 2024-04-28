@@ -1,0 +1,10 @@
+abstract_utilities
+pandas
+openpyxl
+pyperclip
+abstract_distances
+bs4
+abstract_security
+webdriver_manager
+selenium
+requests
