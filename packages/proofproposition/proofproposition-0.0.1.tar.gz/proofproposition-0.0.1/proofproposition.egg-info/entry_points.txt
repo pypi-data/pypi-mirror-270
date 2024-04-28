@@ -1,0 +1,2 @@
+[console_scripts]
+proof = proofproposition.main:main

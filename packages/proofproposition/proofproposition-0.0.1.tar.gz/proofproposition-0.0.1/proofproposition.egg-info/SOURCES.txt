@@ -1,0 +1,17 @@
+README.md
+setup.py
+proofproposition/__init__.py
+proofproposition/answer.py
+proofproposition/combinator.py
+proofproposition/deduce.py
+proofproposition/grammar.py
+proofproposition/grammar_.py
+proofproposition/lambda_.py
+proofproposition/main.py
+proofproposition/prove.py
+proofproposition.egg-info/PKG-INFO
+proofproposition.egg-info/SOURCES.txt
+proofproposition.egg-info/dependency_links.txt
+proofproposition.egg-info/entry_points.txt
+proofproposition.egg-info/requires.txt
+proofproposition.egg-info/top_level.txt
