@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "fastbench"
+version = "0.1.5"
+description = "A pure-python based benchmarking package for Python 🤪"
+authors = ["Adarsh Gourab Mahalik <gourabmahalikadarsh@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/itsmeadarsh2008/fastbench"
+repository = "https://github.com/itsmeadarsh2008/fastbench.git"
+license = "MIT"
+keywords = [
+    "bench", "fastbench", "benchmark", "pure", "python", 
+    "simple", "performance", "package", "code", "execution", 
+    "time", "cpu", "memory", "usage", "lightweight", 
+    "api", "measure", "function", "track", "monitor", 
+    "test", "efficiency", "speed", "algorithm", "script", 
+    "development", "debugging", "optimized", "library", 
+    "analyze", "profile", "scalable", "reliable", "tool", 
+    "optimizations", "profiling", "debug", "evaluate", 
+    "performance testing", "profiler", "codebase", "analytical", 
+    "scalability", "efficiency", "analyzing", "optimization", 
+    "code optimization", "proficiency", "analytic", "performance analysis"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/itsmeadarsh2008/fastbench/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psutil = "^5.9.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
