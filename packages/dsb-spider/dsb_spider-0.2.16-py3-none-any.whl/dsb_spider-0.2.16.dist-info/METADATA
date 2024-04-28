@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dsb_spider
+Version: 0.2.16
+Summary: A lightweight web scraping tool.
+Home-page: https://github.com/cjxhaaa/dsb_spider
+Author: cjxh
+Author-email: cjxhaaa@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: requests >=2.21.0
+Requires-Dist: pip >=19.0.3
+Requires-Dist: lxml >=4.4.1
+Requires-Dist: chardet ==3.0.4
+
+https://github.com/cjxhaaa/dsb_spider
