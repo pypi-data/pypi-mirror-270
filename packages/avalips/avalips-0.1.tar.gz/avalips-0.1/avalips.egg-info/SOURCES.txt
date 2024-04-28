@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+avalips/config_parse.py
+avalips.egg-info/PKG-INFO
+avalips.egg-info/SOURCES.txt
+avalips.egg-info/dependency_links.txt
+avalips.egg-info/top_level.txt

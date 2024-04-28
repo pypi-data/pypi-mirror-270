@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: avalips
+Version: 0.1
+Summary: A smarter migration accelerator lib
+Home-page: https://github.com/joseiram-avd/workspace.git
+Download-URL: https://github.com/joseiram-avd/workspace/tarball/0.1
+Author: Liran BH
+Author-email: jose.iram@avanade.com
+Keywords: lips,hana,databricks,lakehouse,avanade
