@@ -1,0 +1,5 @@
+chromedriver-autoinstaller
+python-dotenv
+selenium
+tqdm
+webdriver-manager
