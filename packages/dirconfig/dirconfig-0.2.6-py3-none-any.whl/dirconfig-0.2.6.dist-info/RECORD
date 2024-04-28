@@ -1,0 +1,10 @@
+dirconfig/__init__.py,sha256=iiPm0l65teuhCj7JWOOtmDLloCEWn7cTEU_0fX4q9Cs,11071
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_add_to_path.py,sha256=EvYPDF6u7UTfA8Zou6DNcCZtSm1bouK_sPIuDWdPFbc,1722
+tests/test_organize_files.py,sha256=UhgqoUNloA4NQ9NXrXA0rpZgbdzkmnSVSHPKfjH5Mi4,2685
+dirconfig-0.2.6.dist-info/LICENSE,sha256=d9Xo5ONWdOOqevjUGSbJC5OlHrzrMVEfrHctVWH6hX0,1067
+dirconfig-0.2.6.dist-info/METADATA,sha256=jxw7t9-M8VsZoLTR2ryas4ET7X7BgvNXQUY-eRMcGd4,5907
+dirconfig-0.2.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dirconfig-0.2.6.dist-info/entry_points.txt,sha256=X6rJ9BCxB7HvWvs6kOBMY3l6-5ioA28qNLeNmPuvUu4,46
+dirconfig-0.2.6.dist-info/top_level.txt,sha256=WIUR7i9E9nI0mscDsQxxhYJc1ayc13tVdgoAsYAZ2J0,16
+dirconfig-0.2.6.dist-info/RECORD,,
