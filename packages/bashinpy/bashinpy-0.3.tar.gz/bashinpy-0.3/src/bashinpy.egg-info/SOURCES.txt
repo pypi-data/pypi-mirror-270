@@ -1,0 +1,15 @@
+README.rst
+setup.py
+src/bashinpy/__init__.py
+src/bashinpy.egg-info/PKG-INFO
+src/bashinpy.egg-info/SOURCES.txt
+src/bashinpy.egg-info/dependency_links.txt
+src/bashinpy.egg-info/top_level.txt
+src/bashinpy/bash/__init__.py
+src/bashinpy/bash/bash.py
+src/bashinpy/git/__init__.py
+src/bashinpy/git/git.py
+src/bashinpy/ncurses/__init__.py
+src/bashinpy/ncurses/ncurses.py
+src/bashinpy/system/__init__.py
+src/bashinpy/system/system.py
