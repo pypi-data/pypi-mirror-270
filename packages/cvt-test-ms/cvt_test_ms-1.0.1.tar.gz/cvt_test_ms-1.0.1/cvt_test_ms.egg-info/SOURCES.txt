@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+cvt_test_ms/__init__.py
+cvt_test_ms/converter.py
+cvt_test_ms.egg-info/PKG-INFO
+cvt_test_ms.egg-info/SOURCES.txt
+cvt_test_ms.egg-info/dependency_links.txt
+cvt_test_ms.egg-info/not-zip-safe
+cvt_test_ms.egg-info/requires.txt
+cvt_test_ms.egg-info/top_level.txt
