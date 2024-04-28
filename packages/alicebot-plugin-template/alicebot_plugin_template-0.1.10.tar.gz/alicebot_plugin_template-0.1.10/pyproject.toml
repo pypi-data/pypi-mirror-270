@@ -1,0 +1,86 @@
+[project]
+name = "alicebot-plugin-template"
+version = "0.1.10"
+description = "AliceBot Plugin Template."
+authors = [
+    { name = "AliceBot", email = "concontact@alicebot.dev" },
+]
+readme = "README.md"
+keywords = [
+    "bot",
+    "chatbot",
+    "alicebot",
+    "tag1",
+    "tag2",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Chat",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "alicebot>=0.10.0",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://docs.alicebot.dev/"
+Documentation = "https://docs.alicebot.dev/"
+Repository = "https://github.com/AliceBotProject/alicebot-plugin-template"
+Changelog = "https://docs.alicebot.dev/changelog.html"
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = [
+    "ALL",
+]
+ignore = [
+    "D",
+    "BLE",
+    "FBT",
+    "COM",
+    "EM",
+    "ISC",
+    "INP",
+    "TID",
+    "E501",
+    "ANN101",
+    "ANN102",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
+
+[tool.pyright]
+pythonVersion = "3.8"
+pythonPlatform = "All"
+typeCheckingMode = "strict"
+reportUnnecessaryIsInstance = false
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
