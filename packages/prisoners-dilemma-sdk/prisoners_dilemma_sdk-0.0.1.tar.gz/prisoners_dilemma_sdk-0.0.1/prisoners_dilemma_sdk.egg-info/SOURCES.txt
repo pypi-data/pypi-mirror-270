@@ -1,0 +1,8 @@
+README.md
+setup.py
+prisoners_dilemma_sdk/__init__.py
+prisoners_dilemma_sdk/hello.py
+prisoners_dilemma_sdk.egg-info/PKG-INFO
+prisoners_dilemma_sdk.egg-info/SOURCES.txt
+prisoners_dilemma_sdk.egg-info/dependency_links.txt
+prisoners_dilemma_sdk.egg-info/top_level.txt
