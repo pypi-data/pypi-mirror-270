@@ -1,0 +1,8 @@
+abstract_clients/__init__.py,sha256=OvX-M4NZo19uttwXWDt8LHW0CjdgDwHutd09l4W8ae8,98
+abstract_clients/contact_webtools.py,sha256=ioGGlDNf3owE_WUcC1EJyncQfAWOl6BHf4u3M1VEKuw,3167
+abstract_clients/contacts_directory.py,sha256=xjY0Xv6410dC0AXyezDzpUYv7e7cwmBwThveeQuWu38,4654
+abstract_clients/get_contact_info.py,sha256=3jqwwXNZRrM1RhjS6u8Zko_BcbXp4UXwZewdifWF1Mk,9335
+abstract_clients-0.0.0.7.dist-info/METADATA,sha256=ywRK9A6-82EsO8xVhj5OYm78104rWw6EvggiWLBPTCA,474
+abstract_clients-0.0.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+abstract_clients-0.0.0.7.dist-info/top_level.txt,sha256=EtG6Eq81yg9_jYFwWSCIZVoren0ltKiZ-F0c_uUMwSE,17
+abstract_clients-0.0.0.7.dist-info/RECORD,,
