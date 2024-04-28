@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/pass50/__init__.py
+src/pass50/args.py
+src/pass50/cmd50.py
+src/pass50/color.py
+src/pass50/runner50.py
+src/pass50.egg-info/PKG-INFO
+src/pass50.egg-info/SOURCES.txt
+src/pass50.egg-info/dependency_links.txt
+src/pass50.egg-info/entry_points.txt
+src/pass50.egg-info/requires.txt
+src/pass50.egg-info/top_level.txt
