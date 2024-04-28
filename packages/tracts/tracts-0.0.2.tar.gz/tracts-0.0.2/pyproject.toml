@@ -1,0 +1,27 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "tracts"
+version = "0.0.2"
+description = "Drawings of the tracts and fields."
+authors = []
+readme = "readme.md"
+packages = [
+    { include = "tracts", from = "venues/stages" },
+]
+license = "licensed"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biotech = "^1.1.10"
+somatic = "^3.0.3"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+tracts = 'tracts:clique'
+
+
+
