@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: sphinx-pyreverse
+Version: 0.0.18
+Summary: A simple sphinx extension to generate UML diagrams with pyreverse
+Home-page: https://github.com/alendit/sphinx-pyreverse
+Author: Dimitri Vorona
+Author-email: vorona@in.tum.de
+License: GPLv3
+Keywords: sphinx extension uml pyreverse
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: astroid (>=2.5.7)
+Requires-Dist: docutils
+Requires-Dist: pylint
+Requires-Dist: sphinx
+Provides-Extra: deploy
+Requires-Dist: twine ; extra == 'deploy'
+Provides-Extra: pil
+Requires-Dist: pillow ; extra == 'pil'
+Provides-Extra: tests
+Requires-Dist: black (==21.6b0) ; extra == 'tests'
+Requires-Dist: docutils ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: isort (==5.8.0) ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: sphinx (==4.5.0) ; extra == 'tests'
+
+Sphinx-pyreverse
+=================
+
+.. image:: https://circleci.com/gh/alendit/sphinx-pyreverse.svg?style=svg
+    :target: https://circleci.com/gh/alendit/sphinx-pyreverse
+
+.. image:: https://badge.fury.io/py/sphinx-pyreverse.svg
+    :target: https://badge.fury.io/py/sphinx-pyreverse
+
+A simple sphinx extension to generate a UML diagram from python modules.
+
+Install
+--------
+
+Install with:::
+
+    pip install sphinx-pyreverse
+
+Usage
+------
+
+Add "sphinx_pyreverse" to the extensions list in your conf.py (make sure it is
+in the PYTHONPATH).
+
+Call the directive with path to python module as content. The ``:classes:`` and
+``:packages:`` flags specify which UML diagrams to show.::
+
+    .. uml:: {{modulename}}
+        :classes:
+        :packages:
+
+Requires pyreverse from pylint.
+
+Options
+^^^^^^^
+
+To configure usage, in your conf.py
+
+* ``sphinx_pyreverse_output`` (see --output), default is "png"
+* ``sphinx_pyreverse_filter_mode`` (see --filter_mode), default is None
+* ``sphinx_pyreverse_class`` (see --class), default is None
+* ``sphinx_pyreverse_show_ancestors`` (see --show_ancestors), default is None
+* ``sphinx_pyreverse_all_ancestors`` (see --all_ancestors), default is None
+* ``sphinx_pyreverse_show_associated`` (see --show_associated), default is None
+* ``sphinx_pyreverse_all_associated`` (see --all_associated), default is None
+* ``sphinx_pyreverse_show_builtin`` (see --show_builtin), default is None
+* ``sphinx_pyreverse_module_names`` (see --module_names), default is None
+* ``sphinx_pyreverse_only_classnames`` (see --only_classnames), default is None
+* ``sphinx_pyreverse_ignore`` (see --ignore), default is None
+* ``sphinx_pyreverse_image_max_width`` (int) Rendered output max width in pixels. default is 1000
+* ``sphinx_pyreverse_image_scale`` (float) Scale the rendered output. default is 1.0
+* ``sphinx_pyreverse_colorized`` (see --colorized), default is None
+
+Changing the directive
+^^^^^^^^^^^^^^^^^^^^^^
+
+To override the directive, which defaults to 'uml' set the
+``SPHINX_PYREVERSE_DIRECTIVE`` environment variable to whatever you like.
+
+Troubleshooting
+^^^^^^^^^^^^^^^
+
+``sphinx-pyreverse`` uses sphinx-docs' logging api to write information to the log-files.
+
+To use it run your ``sphinx-build`` command with ``-v -v -v -w $(pwd)/sphinx.log`` .
+
+For more information see:
+
+  * `-v switch`_ 
+  * `-w switch`_ 
+
+
+.. _-v switch: https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-v
+.. _-w switch: https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-w
