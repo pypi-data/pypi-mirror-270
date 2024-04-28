@@ -1,0 +1,16 @@
+snailshell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snailshell/main.py,sha256=P8XlJf9NjejqifXNdXm23GFPWAMD9xZETY_DMjRx0k0,3527
+snailshell/main_test.py,sha256=cSeUEKEu6YlTMmT53j3U2gHal2_pOehbuq4gear5upU,4024
+snailshell/adapters/base.py,sha256=hpG_Iimms4WoemQSGf1hP5T9RGeedFOTrJJIu_ICFqk,388
+snailshell/frame_loader/base.py,sha256=et31fdZyeKrcw98OIiL9qJRRXgz0gFj_9OImnBN83d0,321
+snailshell/frame_loader/opencv_backend.py,sha256=Ym5JCMVZTi-V1XkWx3DHgR-36VdumHs68NhrYkk3nxk,564
+snailshell/frame_loader/opencv_backend_test.py,sha256=SIjyRbF9LjeJkucs16qPH56-VYTqOWRSd0y_lWvWAeI,1313
+snailshell/frame_loader/picamera_backend.py,sha256=ZnRVb47_bR0VzAPYTiHcppYYrdagTq64lKisvU7JEAc,937
+snailshell/model_loader/mobilenet.py,sha256=-fe5QbAdElevBpgZwS3ISNLO9V0BfPRONydUlSIWLXI,1744
+snailshell/model_loader/resnet.py,sha256=JWtKAIG9tDPXMl743XoxkpIo4QwVQGh5Ne_fzv76HRw,1261
+snailshell/models/mobilenet.py,sha256=1xOq9MoawP6m3j5C4oEVGvLxuid3qKUBKgV6jqgGLrY,896
+snailshell/pipelines/base.py,sha256=kRdSzOgcMGNFM-CTXMnFMqCOQHFJ2nUmHaNNeUcbd4I,2553
+snailshell-0.3.1.dist-info/entry_points.txt,sha256=glwtszTOWymb316B-wuvPdByw42WQGEXoS7uiVsPYEw,51
+snailshell-0.3.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+snailshell-0.3.1.dist-info/METADATA,sha256=lPDkCJUVFl-XrKRgk0WNfg061TRXTtYFl5wWS4u9v5I,1316
+snailshell-0.3.1.dist-info/RECORD,,
