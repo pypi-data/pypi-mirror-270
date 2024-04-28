@@ -1,0 +1,17 @@
+thriftpyi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thriftpyi/__main__.py,sha256=lH9S5whlreCu4ylW8LoTqtk5v2sRFMHhKm6aMSWHJwQ,92
+thriftpyi/cli.py,sha256=DlwCreOeBo7zDcMsztT1cchFoMDG0d50rnDPNpjUJ0g,1091
+thriftpyi/compat.py,sha256=0CXb5_I1wfHjwf8Zdx7rfefqPcYGJy3v2JqYLn-Pq2I,183
+thriftpyi/entities.py,sha256=rLLNjo9C2PuD0zjhjjsgqf2EBB-jo_VYe0aOHuCtrwE,5035
+thriftpyi/files.py,sha256=9Iljy3AxWOYnbyctPLrEoeow-QAR088YZqClWv1jw3Y,391
+thriftpyi/main.py,sha256=WA6iFUG7PBsxe8M7A4ikzfzMbCv2OUBKLm13e2dgvqM,1664
+thriftpyi/proxies.py,sha256=R9sN-Fg4jZn0GifQzidc-N4wCseXZLF88eC29pvLygY,5888
+thriftpyi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thriftpyi/stubs.py,sha256=jQYTDSbzMIdwtviFwJPHfA1yMiKE2-n3RX1Uf6FiyQs,2679
+thriftpyi/utils.py,sha256=ZqXJVoa4pmk2V9gptOxIUKpt5yKvoKL1OOOT0m9HBVY,3422
+thrift_pyi-0.9.0.dist-info/AUTHORS.rst,sha256=umBSKQNF2So6Bm74Jmh1YIKC5d1R7QJazjmkd5YFD0I,64
+thrift_pyi-0.9.0.dist-info/LICENSE,sha256=k4sM6mL0VPSa3AO3Qm1cjq_ymNqW_vkX1NHWf60Jw-o,1074
+thrift_pyi-0.9.0.dist-info/METADATA,sha256=5KBtg-URPCoJUjagwC8WnJT6porb-CsyAtabZ1628VY,4521
+thrift_pyi-0.9.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+thrift_pyi-0.9.0.dist-info/entry_points.txt,sha256=NHnttcuKQIzzcclue3FIMtwiIezGggabv-e65BLYgZw,48
+thrift_pyi-0.9.0.dist-info/RECORD,,
