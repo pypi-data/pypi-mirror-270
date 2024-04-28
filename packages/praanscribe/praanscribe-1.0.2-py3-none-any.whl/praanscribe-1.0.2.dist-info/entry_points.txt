@@ -1,0 +1,2 @@
+[console_scripts]
+praanscribe = praanscribe.py:main
