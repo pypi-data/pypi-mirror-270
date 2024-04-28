@@ -1,0 +1,6 @@
+[console_scripts]
+allm-agentapi = ALLM.ragserve:main
+allm-agentchat = ALLM.agent_ragrun:main
+allm-newagent = ALLM.agent_rag:main
+allm-run = ALLM.cli:main
+allm-serve = ALLM.generate:main
