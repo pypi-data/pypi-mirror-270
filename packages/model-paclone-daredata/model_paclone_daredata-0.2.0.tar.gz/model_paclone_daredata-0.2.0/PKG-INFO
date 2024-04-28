@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: model_paclone_daredata
+Version: 0.2.0
+Summary: model
+Author: João Sanches
+Author-email: youremail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
