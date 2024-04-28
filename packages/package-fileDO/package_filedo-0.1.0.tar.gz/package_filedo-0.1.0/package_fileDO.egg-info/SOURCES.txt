@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+package_fileDO/FileDO.py
+package_fileDO/__init__.py
+package_fileDO.egg-info/PKG-INFO
+package_fileDO.egg-info/SOURCES.txt
+package_fileDO.egg-info/dependency_links.txt
+package_fileDO.egg-info/requires.txt
+package_fileDO.egg-info/top_level.txt
