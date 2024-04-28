@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+yaml_package/__init__.py
+yaml_package/bunch.py
+yaml_package/yaml_package_loader.py
+yaml_package.egg-info/PKG-INFO
+yaml_package.egg-info/SOURCES.txt
+yaml_package.egg-info/dependency_links.txt
+yaml_package.egg-info/requires.txt
+yaml_package.egg-info/top_level.txt
