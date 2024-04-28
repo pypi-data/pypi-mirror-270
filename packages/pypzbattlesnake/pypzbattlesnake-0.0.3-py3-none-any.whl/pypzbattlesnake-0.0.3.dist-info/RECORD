@@ -1,0 +1,10 @@
+pypzbattlesnake/__init__.py,sha256=Ql7OKhJ8XlJIW1IULOdirJBck9iN8Wvbmj9O8D05_Os,139
+pypzbattlesnake/common.py,sha256=IcpinLi1W7rSHpd9A4DplduIrIkyg183-jJbkDt2qpA,590
+pypzbattlesnake/env.py,sha256=-kDyW1ayr4ih7lhrkbcELaf9eeDwUEW0VrOKrw8p8YA,14760
+pypzbattlesnake/renderer.py,sha256=QXgiifrKt7efZ5qKtPz8GuLaXEe4AfUy_45g4hA_3Ik,5065
+pypzbattlesnake/resources/head.svg,sha256=Dy1kS8subS2_9KorZvzfwsbHp9lWtvyJ_ZHbF88oXxI,255
+pypzbattlesnake/resources/tail.svg,sha256=d5368EmZX6L5Mp4sqWqxw4gN23DeYuVVypLDH52c3pk,122
+pypzbattlesnake-0.0.3.dist-info/LICENSE,sha256=JKXVCNz-GVlsNeUqJI4gwWxsbgOFBWYb3XI9blizA_M,1075
+pypzbattlesnake-0.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pypzbattlesnake-0.0.3.dist-info/METADATA,sha256=MhUi7IcIDBL5LY_eMiaG6N5iM-HjjS1Thlvm-R7hOtM,3952
+pypzbattlesnake-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pypzbattlesnake
+Version: 0.0.3
+Summary: Multiagent Snake environment based on PettingZoo API and inspired by BattleSnake
+Author: TheShenk
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pettingzoo
+Requires-Dist: gymnasium
+Requires-Dist: numpy
+Requires-Dist: pygame ; extra == "render"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Homepage, https://github.com/TheShenk/hai-nonconflict-action-learning
+Project-URL: Issues, https://github.com/TheShenk/hai-nonconflict-action-learning/issues
+Provides-Extra: render
+Provides-Extra: test
+
+# PyPZBattleSnake
+
+Multiagent Snake environment based on PettingZoo API and inspired by [BattleSnake](https://play.battlesnake.com/).
+Usage:
+```python
+from pypzbattlesnake import BattleSnake
+
+TEAMS_COUNT = 2
+TEAM_SNAKES_COUNT = 2
+SIZE = (9, 9)
+env = BattleSnake(TEAMS_COUNT, TEAM_SNAKES_COUNT, food_reward=1.0, size=SIZE, min_food_count=3, food_spawn_interval=10)
+```
+
+All arguments description:
+* teams_count - Teams count, all agents in one team will get penalty if any teammate will lose
+* team_snakes_count - Agents count in one team. Total number of agents in teams_count * team_snakes_count. They init positions are calculated automatically - in circle with equal distance between each other, so maximum agents count are limited by field size.
+* size - Field size, must be a tuple of two int - (width, height) 
+* min_food_count - Count of food that are almost always presented on field. if snake eat food and number of remaining are less than min_food_count, then environment will try to spawn new one. If there is no empty cell on field, then food count is remaining unchanged.
+* food_spawn_interval - Interval, in steps count, that new food will be spawned, even if it count exceed min_food_count. If there is no empty cell on field, then food count is remaining unchanged.
+* food_reward - Reward that will be given to agent when it collects food, there are also every step reward for approaching to food in size food_reward/sum(size), and equal size penalty if agent move away from food.
+* head_color - If true, then observation will include separate color for snake environment. This is need to learning algorithm can distinguish it from tail. another approach - give as observation several frames of game, it could be done with [frame_stack](https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/#frame_stack_v1) wrapper from [supersuit](https://github.com/Farama-Foundation/SuperSuit) library. This flag is true by default.
+* render_mode - Render mode that will be used by env.render() method. "human" and "rgb_array" are supported. PyGame library is required for rendering in both cases.
+
+Observation space is multi discrete - array of integers in interval [0, 2 + teams_count * team_snakes_count) if head_color = False, [0, 2 + 2 * teams_count * team_snakes_count) otherwise.
+
+Action space is discrete - integer in interval [0, 5) - [up, down, left, right, none]. If snake use none action, then it direction is not change. If this is first snake action than it stay on place.
+
+There are also health points for every snake - if snake will not collect food in 100 steps in a row it will loose. This is need to prevent snakes from making infinite loop.
+
+Also environment support action masking. For this action_masks method can be used, it accept agent id as argument, returned value is boolean array. If mask value for action is False it is guaranteed to loose if agent will do it. But mask value True is not guaranteed that it will not be loose. Because of this on every step it is guaranteed at least one allowed action. Masks order: [up, down, left, right, none]. 
+```python
+masks = env.action_masks("snake_0_0")
+```
+
+Video with environment example: https://youtu.be/UbB8lnS8vjk
