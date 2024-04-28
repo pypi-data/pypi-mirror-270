@@ -1,0 +1,4 @@
+include runserver.py
+
+recursive-include CPU_INFO/static *
+recursive-include CPU_INFO/templates *
