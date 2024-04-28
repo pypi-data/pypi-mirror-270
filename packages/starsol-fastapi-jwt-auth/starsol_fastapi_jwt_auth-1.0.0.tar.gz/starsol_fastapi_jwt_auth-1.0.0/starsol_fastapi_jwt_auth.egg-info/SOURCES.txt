@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+starsol_fastapi_jwt_auth/__init__.py
+starsol_fastapi_jwt_auth/auth_config.py
+starsol_fastapi_jwt_auth/auth_jwt.py
+starsol_fastapi_jwt_auth/config.py
+starsol_fastapi_jwt_auth/exceptions.py
+starsol_fastapi_jwt_auth.egg-info/PKG-INFO
+starsol_fastapi_jwt_auth.egg-info/SOURCES.txt
+starsol_fastapi_jwt_auth.egg-info/dependency_links.txt
+starsol_fastapi_jwt_auth.egg-info/requires.txt
+starsol_fastapi_jwt_auth.egg-info/top_level.txt

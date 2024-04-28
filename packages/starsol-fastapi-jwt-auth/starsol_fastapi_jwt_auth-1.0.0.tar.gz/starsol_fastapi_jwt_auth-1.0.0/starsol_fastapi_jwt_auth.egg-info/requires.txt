@@ -1,0 +1,6 @@
+pyjwt
+fastapi
+pydantic>=2.0
+
+[asymmetric]
+cryptography>=2.6
