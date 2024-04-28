@@ -1,0 +1,17 @@
+setup.py
+ozon_ord/ozon_ord.egg-info/PKG-INFO
+ozon_ord/ozon_ord.egg-info/SOURCES.txt
+ozon_ord/ozon_ord.egg-info/dependency_links.txt
+ozon_ord/ozon_ord.egg-info/not-zip-safe
+ozon_ord/ozon_ord.egg-info/requires.txt
+ozon_ord/ozon_ord.egg-info/top_level.txt
+ozon_ord/tests/__init__.py
+ozon_ord/tests/test_contract.py
+ozon_ord/tests/test_creative.py
+ozon_ord/tests/test_deletion.py
+ozon_ord/tests/test_dictionary.py
+ozon_ord/tests/test_invoice.py
+ozon_ord/tests/test_notification.py
+ozon_ord/tests/test_organisation.py
+ozon_ord/tests/test_platform.py
+ozon_ord/tests/test_statistic.py
