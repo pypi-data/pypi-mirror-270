@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: electrify-sdk
+Version: 0.1.0
+Summary: SDK for electrify services
+Author: Nularian
+Author-email: info@nularian.com
+Requires-Dist: python-dotenv
+Requires-Dist: httpx
+Requires-Dist: pydantic
