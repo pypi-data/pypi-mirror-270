@@ -1,0 +1,3 @@
+httpx[socks]
+requests[socks]
+tiktoken>=0.3.0
