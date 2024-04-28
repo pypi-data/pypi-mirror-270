@@ -1,0 +1,7 @@
+[gui_scripts]
+analyzeHoldDelay = vdaq_soap:do_analyzeHoldDelay
+analyzeMbias = vdaq_soap:do_analyzeMbias
+soapCheckAliVata = vdaq_soap:soapCheckAliVata
+soapHoldDelay = vdaq_soap:soapHoldDelay
+soapMbias = vdaq_soap:soapMbias
+soapTestChannel = vdaq_soap:soapTestChannel
