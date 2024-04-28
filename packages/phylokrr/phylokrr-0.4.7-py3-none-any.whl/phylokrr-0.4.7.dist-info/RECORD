@@ -1,0 +1,17 @@
+phylokrr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phylokrr/core.py,sha256=jsJs8hIO5C7LXCzqRowH4dyRqpmVkMt_3dws4PKom1o,6916
+phylokrr/datasets.py,sha256=SfBonP4sFpxflrNGsy0rjA-y28_PuHDbObB5VB0mpy8,199
+phylokrr/inspection.py,sha256=rZR5B9tKgxUnqtgMEzWn5bLiOu7ZLDygLhZOOv4sydM,2650
+phylokrr/kernels.py,sha256=dlYnlSpfPXn7fCCO-QgWw2b-mv5Mp6UguGoeuTqhPrM,7245
+phylokrr/metrics.py,sha256=e7iRcP01MKYgVk0KFItcWe6xJT89Cwm-CEK3uPCql9c,339
+phylokrr/phylosig.py,sha256=xPB0MID0A6SiVXvRxjITc9uAMvWfOUMTu5xWqwZOf9c,20652
+phylokrr/utils.py,sha256=D1HiM2hjMUwdG-YYwKUQFXHQ7sajTf6EtzMFI_DY3GM,15326
+phylokrr/data/test_cov.csv,sha256=jzhTQhmhyP7wpeMZ8a4YAYg0aAHLeOfxx-3oqiXu8iw,849350
+phylokrr/data/test_cov2.csv,sha256=SZ7wT1bZqpMd67mzXOkZr1z2YO9hGMGZs21j1j8y5CA,2831616
+phylokrr/data/test_data.csv,sha256=xjbXXXTKept5OR4wSE0m9QW4fj7G3szWbc622IhNqbE,30601
+phylokrr/data/test_data2.csv,sha256=8S7QRPThqsJDwEUXXbHOQiyCVNkgqjEZdNc_nypIIqc,8950
+phylokrr/data/test_log_data.csv,sha256=Im9RB4FY6DKhoSOMkm68XGD3pSjPQysl84mCT7yDFOk,30462
+phylokrr-0.4.7.dist-info/METADATA,sha256=buFDtchU-OffWW0fMdkirm8OzwGCw0ZIOJspUM8SDtM,225
+phylokrr-0.4.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+phylokrr-0.4.7.dist-info/top_level.txt,sha256=gyp9MU2Iwi5zIHLsBIDB00ziEHV46U7611jSaZtIXME,9
+phylokrr-0.4.7.dist-info/RECORD,,
