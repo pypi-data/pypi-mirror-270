@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "whisper.cpp-cli"
+version = "0.0.2"
+description = "A Python package for the whisper.cpp CLI."
+authors = [{ name = "Charlie Marsh", email = "charlie.r.marsh@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["whisper_cpp"]
+
+[tool.hatch.build.hooks.custom]
+path = "hatch_build.py"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+extend-select = ["I", "B", "UP"]
