@@ -1,0 +1,17 @@
+[umb]
+version = "0.1.0"
+
+[manuscript]
+title = "Manuscript Title"
+date = 2024-01-01
+keywords = ["umb", "micromanubot"]
+language = "en_US"
+
+[[authors]]
+name = "Author Name"
+initials = "AN"
+orcid = "0000-0000-0000-0000"
+email = "author@uni-somewhere.edu"
+affiliations = ["Department of Something, University of Somewhere, City, Country"]
+funders = ["Funder Name"]
+corresponding = true
