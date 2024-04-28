@@ -1,0 +1,13 @@
+setup.py
+caption/__init__.py
+caption/caption_engine.py
+caption/cli_main.py
+caption/cli_parser.py
+caption/manifest.json
+caption/utils.py
+zz_img_caption.egg-info/PKG-INFO
+zz_img_caption.egg-info/SOURCES.txt
+zz_img_caption.egg-info/dependency_links.txt
+zz_img_caption.egg-info/entry_points.txt
+zz_img_caption.egg-info/requires.txt
+zz_img_caption.egg-info/top_level.txt

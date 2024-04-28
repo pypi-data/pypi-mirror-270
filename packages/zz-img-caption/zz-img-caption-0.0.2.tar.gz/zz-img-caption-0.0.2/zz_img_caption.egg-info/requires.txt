@@ -1,0 +1,6 @@
+transformers>=4.39.2
+torch>=2.2.2
+pyexiv2
+tqdm
+termcolor
+Pillow
