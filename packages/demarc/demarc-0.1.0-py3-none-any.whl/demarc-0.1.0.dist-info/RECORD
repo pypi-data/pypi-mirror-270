@@ -1,0 +1,11 @@
+demarc/__cli__.py,sha256=y4FrGrRNwnBy4USqBF7MsflpMoq-4spzhW7FqN9jVdY,182
+demarc/__init__.py,sha256=aVGDkVGSNB1wJ0BRjWM5Mh1xMNMsCFLR0HWUiQSwPm0,524
+demarc/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+demarc/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demarc/conf/about/demarc.yaml,sha256=9o_Zmw1A1tKHGz3hGUBuzI1Nvanng3hHZUg_IJhQRIo,243
+demarc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demarc-0.1.0.dist-info/LICENSE,sha256=zeJBKz6bZIj5vTiP83CQeH8_WlZ8bWNC7rbFmVyDex0,1071
+demarc-0.1.0.dist-info/METADATA,sha256=v20UByN-rrznOvvoqezpT-1WxY8MJ1koYDruQ56C6AI,2972
+demarc-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+demarc-0.1.0.dist-info/entry_points.txt,sha256=McYoKlZSJXGCg-3XF9QFZaDkbjj6c8GBIizgJErEfRE,46
+demarc-0.1.0.dist-info/RECORD,,

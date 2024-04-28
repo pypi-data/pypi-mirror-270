@@ -1,0 +1,6 @@
+_open_link_: False
+name: "Deceptive Marketing Classification"
+authors: "Young Joon Lee <entelecheia@hotmail.com>"
+description: "A Python package for Deceptive Marketing Classification."
+homepage: "https://demarc.entelecheia.ai"
+license: "MIT"
