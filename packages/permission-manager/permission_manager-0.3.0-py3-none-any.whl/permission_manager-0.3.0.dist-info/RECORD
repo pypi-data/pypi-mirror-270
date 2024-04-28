@@ -1,0 +1,9 @@
+permission_manager/__init__.py,sha256=rZncZJGIZRJCMeM6aV9P4G4osgZtPezDDRHbaGexTwE,160
+permission_manager/decorators.py,sha256=IfSzoUe_bPWW-aY8sBKBzi4S5Ggqs9OAf2l3I8t2dDY,1201
+permission_manager/exceptions.py,sha256=xQMOdLlLxaasujVO4RtZBQQtcoR1PW7nfZU2L58G3YQ,198
+permission_manager/manager.py,sha256=W-R0QG3yQsUTvHZIuETjpYnbcv8ouT-R-jK_FSEBwt0,4848
+permission_manager/result.py,sha256=N9-s1SwsA29nMRwQLsdycC9qTz8YYrMQw_EO8zVKiu0,1495
+permission_manager-0.3.0.dist-info/LICENSE,sha256=jZ8DCFESbLhFpJR8UvPJTCOz3Nu9LxfDz-AVWNOKWpc,1075
+permission_manager-0.3.0.dist-info/METADATA,sha256=Obdb7SIZWo_ozdEcIvghDH-GyE4wInRV7C8P80RoR0k,3217
+permission_manager-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+permission_manager-0.3.0.dist-info/RECORD,,
