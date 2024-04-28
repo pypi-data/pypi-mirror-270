@@ -1,0 +1,15 @@
+electrify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electrify/cli.py,sha256=0_yY5LFVElT4AkmkKDfVQ1yGCvZmprk1nFm-k1R1iOE,284
+electrify/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electrify/commands/channel/DownloadAttachments.py,sha256=i5cymih6QytJenWOvRzK4pJG_4_UqjmP6GAakzzroH4,1740
+electrify/commands/channel/HelloWorld.py,sha256=Nu2AmtORJkRfHSGf7xNWcNAs7vstX9AsARATH355WVY,343
+electrify/commands/channel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electrify/commands/channel/base.py,sha256=mOTWkvOgbQef6iXPQ1OqDJxmRTSKYmYc0Zz4twNFE4g,367
+electrify/commands/ticket/HelloWorld.py,sha256=Nu2AmtORJkRfHSGf7xNWcNAs7vstX9AsARATH355WVY,343
+electrify/commands/ticket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electrify/commands/ticket/base.py,sha256=Se6BaPiB9Mgz8EFs_HAqgn8LKtlooHjm9apcdlizohc,177
+electrify_cli-0.1.0.dist-info/METADATA,sha256=dzdQpvr510V4ZeMWGDeiwd-Oo0zj8HrOK9ja0i1xPqw,194
+electrify_cli-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+electrify_cli-0.1.0.dist-info/entry_points.txt,sha256=Fo-4EjrtqJlZMVfX9dr7om89Sxc2yBz-40i5sYmb3yk,48
+electrify_cli-0.1.0.dist-info/top_level.txt,sha256=y3US8IhqsQO4X5lsVd6KTuydEakTUKDw1yxcDVkrEfY,10
+electrify_cli-0.1.0.dist-info/RECORD,,
