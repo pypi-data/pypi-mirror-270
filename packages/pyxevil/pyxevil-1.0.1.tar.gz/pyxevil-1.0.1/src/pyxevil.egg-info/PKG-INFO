@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyxevil
+Version: 1.0.1
+Summary: Unofficial python library to use service of xevil telegram
+Home-page: https://github.com/akasakaid/pyxevil
+Author: AkasakaID
+Author-email: akasakaid.gov@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# PYXEVIL

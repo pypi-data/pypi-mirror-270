@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/pyxevil/__init__.py
+src/pyxevil/__version__.py
+src/pyxevil/pyxevil.py
+src/pyxevil.egg-info/PKG-INFO
+src/pyxevil.egg-info/SOURCES.txt
+src/pyxevil.egg-info/dependency_links.txt
+src/pyxevil.egg-info/requires.txt
+src/pyxevil.egg-info/top_level.txt
