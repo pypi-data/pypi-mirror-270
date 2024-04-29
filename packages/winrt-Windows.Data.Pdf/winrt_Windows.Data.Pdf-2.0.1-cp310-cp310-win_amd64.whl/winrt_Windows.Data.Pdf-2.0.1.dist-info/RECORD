@@ -1,0 +1,8 @@
+winrt/_winrt_windows_data_pdf.cp310-win_amd64.pyd,sha256=YEXSAFwN40KHtRKjtqlyXbBs-zHX_hq7Eqsgc5GsXlE,86016
+winrt/_winrt_windows_data_pdf.pyi,sha256=HGNzPffTWLcXsB9MjTpsn-FuVPZRdJr3hHYoiJ-aDdM,4604
+winrt/windows/data/pdf/__init__.py,sha256=G8ACZOviaECLw_Pv29JRSzlBxVO7C3ST5MK3oaL2M9E,610
+winrt/windows/data/pdf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Data.Pdf-2.0.1.dist-info/METADATA,sha256=DHhuJ_joQmSLFadjkKuuFbfMrflZPhVLG2eKQMDmFyA,1232
+winrt_Windows.Data.Pdf-2.0.1.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.Data.Pdf-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Data.Pdf-2.0.1.dist-info/RECORD,,
