@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: attempt
+Version: 0.1.1
+Summary: 
+Author: J. M. F. Tsang
+Author-email: j.m.f.tsang@cantab.net
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# attempt
+
+This package provides some utilities for working with functions that
+might raise exceptions.
+
+## Example
+
+```python
+from attempt import Attempt
+
+def f(x):
+    # returns TypeError if x is a str
+    return x + 1
+
+
+xs = [1, 2, 3, "int", None, {}, 4]
+ys = map(Attempt(f), xs)
+assert list(values(ys, ignore_failures=True)) == [2, 3, 4, 5]
+```
+
