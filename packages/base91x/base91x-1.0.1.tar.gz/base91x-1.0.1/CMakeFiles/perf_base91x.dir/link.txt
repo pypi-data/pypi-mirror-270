@@ -1,0 +1,1 @@
+/usr/bin/c++   -O -pedantic -Wall -Wextra  -O3 -DNDEBUG CMakeFiles/perf_base91x.dir/perf/perf_base91x.cpp.o -o perf_base91x

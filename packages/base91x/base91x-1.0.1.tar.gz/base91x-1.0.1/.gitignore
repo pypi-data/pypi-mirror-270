@@ -1,0 +1,8 @@
+# Git files
+!.gitignore
+.*
+*.orig
+*.user
+*.autosave
+__pycache__
+

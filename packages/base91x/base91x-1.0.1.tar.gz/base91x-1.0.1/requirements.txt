@@ -1,0 +1,9 @@
+# build package
+build
+setuptools
+
+# testing
+pytest
+pytest-random-order
+pytest-repeat
+pytest-cov

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O -pedantic -Wall -Wextra  -O3 -DNDEBUG CMakeFiles/test_base91x.dir/tests/test_base91x.cpp.o -o test_base91x

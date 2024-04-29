@@ -1,0 +1,228 @@
+Start testing: Apr 29 08:50 UTC
+----------------------------------------------------------
+1/1 Testing: test_base91x
+1/1 Test: test_base91x
+Command: "/home/runner/work/base91x/base91x/test_base91x"
+Directory: /home/runner/work/base91x/base91x
+"test_base91x" start time: Apr 29 08:50 UTC
+Output:
+----------------------------------------------------------
+L_126: Test with data [0] -> encoded text [0]
+L_133: 
+L_160: Test passed with size = 0
+L_126: Test with data [0] -> encoded text [0]
+L_133: 
+L_160: Test passed with size = 0
+L_126: Test with data [1] -> encoded text [2]
+L_133: G~
+L_160: Test passed with size = 1
+L_126: Test with data [1] -> encoded text [2]
+L_133: i}
+L_160: Test passed with size = 1
+L_126: Test with data [2] -> encoded text [3]
+L_133: m+!
+L_160: Test passed with size = 2
+L_126: Test with data [2] -> encoded text [3]
+L_133: N2|
+L_160: Test passed with size = 2
+L_126: Test with data [3] -> encoded text [4]
+L_133: ^Tvj
+L_160: Test passed with size = 3
+L_126: Test with data [3] -> encoded text [4]
+L_133: gJNl
+L_160: Test passed with size = 3
+L_126: Test with data [4] -> encoded text [5]
+L_133: @iGBE
+L_160: Test passed with size = 4
+L_126: Test with data [4] -> encoded text [5]
+L_133: J=oXG
+L_160: Test passed with size = 4
+L_126: Test with data [5] -> encoded text [7]
+L_133: %2Dy,y!
+L_160: Test passed with size = 5
+L_126: Test with data [5] -> encoded text [7]
+L_133: *C=+Zf!
+L_160: Test passed with size = 5
+L_126: Test with data [6] -> encoded text [8]
+L_133: $B;T{D2}
+L_160: Test passed with size = 6
+L_126: Test with data [6] -> encoded text [8]
+L_133: 5-g#l`%{
+L_160: Test passed with size = 6
+L_126: Test with data [7] -> encoded text [9]
+L_133: w*U*5c0rt
+L_160: Test passed with size = 7
+L_126: Test with data [7] -> encoded text [9]
+L_133: 27}_:fAFu
+L_160: Test passed with size = 7
+L_126: Test with data [8] -> encoded text [10]
+L_133: +Dw_vV*VJx
+L_160: Test passed with size = 8
+L_126: Test with data [8] -> encoded text [10]
+L_133: u2lC&Xj@7n
+L_160: Test passed with size = 8
+L_126: Test with data [9] -> encoded text [12]
+L_133: Q60[*-$evx$!
+L_160: Test passed with size = 9
+L_126: Test with data [9] -> encoded text [12]
+L_133: `EBb`D+&g)K!
+L_160: Test passed with size = 9
+L_126: Test with data [10] -> encoded text [13]
+L_133: Ht();H5sn&p,~
+L_160: Test passed with size = 10
+L_126: Test with data [10] -> encoded text [13]
+L_133: [0=?=CfUjr,C}
+L_160: Test passed with size = 10
+L_126: Test with data [11] -> encoded text [14]
+L_133: C*43fG(8`Evv)x
+L_160: Test passed with size = 11
+L_126: Test with data [11] -> encoded text [14]
+L_133: 5bY#?WDjpvKT5{
+L_160: Test passed with size = 11
+L_126: Test with data [12] -> encoded text [15]
+L_133: `*On4!@X$rQBkZ{
+L_160: Test passed with size = 12
+L_126: Test with data [12] -> encoded text [15]
+L_133: z(.>Z58g/dl(]rc
+L_160: Test passed with size = 12
+L_126: Test with data [13] -> encoded text [16]
+L_133: adW!:}kI?pHQHXKo
+L_160: Test passed with size = 13
+L_126: Test with data [13] -> encoded text [16]
+L_133: kG|$`QNG2oEFWqJj
+L_160: Test passed with size = 13
+L_126: Test with data [14] -> encoded text [18]
+L_133: `zSBoP+)AF`OauQTr!
+L_160: Test passed with size = 14
+L_126: Test with data [14] -> encoded text [18]
+L_133: #}5e*(0qg*p&[J4(s~
+L_160: Test passed with size = 14
+L_126: Test with data [15] -> encoded text [19]
+L_133: f6(.qU<KCS4EaqWeAcx
+L_160: Test passed with size = 15
+L_126: Test with data [15] -> encoded text [19]
+L_133: [&B+c0%eCO>E17T[]>z
+L_160: Test passed with size = 15
+L_126: Test with data [16] -> encoded text [20]
+L_133: [aOQlT<pUF;Lqof4Ru-o
+L_160: Test passed with size = 16
+L_126: Test with data [16] -> encoded text [20]
+L_133: 0vy]x.N/YQW2(B4u_r/k
+L_160: Test passed with size = 16
+L_126: Test with data [17] -> encoded text [21]
+L_133: oDZJZ;I;4xK*9PJ?o#{z~
+L_160: Test passed with size = 17
+L_126: Test with data [17] -> encoded text [21]
+L_133: hw^&Yt81NFAYS{!GjeHNS
+L_160: Test passed with size = 17
+L_126: Test with data [18] -> encoded text [23]
+L_133: U@wkRQuN~!Cjhcv|e{lF{~!
+L_160: Test passed with size = 18
+L_126: Test with data [18] -> encoded text [23]
+L_133: @+%Lg!^P#t|Y3+P7_DkYbo~
+L_160: Test passed with size = 18
+L_126: Test with data [19] -> encoded text [24]
+L_133: :Z[EgkxhWy+KT)-#6,{oPk<!
+L_160: Test passed with size = 19
+L_126: Test with data [19] -> encoded text [24]
+L_133: w(2|n6v.3<2i3)-$iUDWYyP}
+L_160: Test passed with size = 19
+L_126: Test with data [20] -> encoded text [25]
+L_133: xe!lcLs/LW4BzA71/|FT7aV={
+L_160: Test passed with size = 20
+L_126: Test with data [20] -> encoded text [25]
+L_133: 7&lRj>:zXK7.n@$0v{Y8%iZRu
+L_160: Test passed with size = 20
+L_126: Test with data [21] -> encoded text [26]
+L_133: mDo+a+S<-^~C9G>|2?%wAzy>Et
+L_160: Test passed with size = 21
+L_126: Test with data [21] -> encoded text [26]
+L_133: !hbOTxN#VK;(Grv=^R),W]$#p^
+L_160: Test passed with size = 21
+L_126: Test with data [22] -> encoded text [28]
+L_133: ;P=n@p0N`5?[KkYii_5s2-EBOKd~
+L_160: Test passed with size = 22
+L_126: Test with data [22] -> encoded text [28]
+L_133: HbVlZNFfHVmVEW^,8N[nfxY7>#p!
+L_160: Test passed with size = 22
+L_126: Test with data [23] -> encoded text [29]
+L_133: R=)-<w/Dk27!21r!^-~-yM4*(pC~}
+L_160: Test passed with size = 23
+L_126: Test with data [23] -> encoded text [29]
+L_133: fI;V-F9zj(@0cm)hmIIS)ryc#|8~~
+L_160: Test passed with size = 23
+L_126: Test with data [24] -> encoded text [30]
+L_133: O:%tGM;Y^#Y#oK5-+p4)F>k9#6C&+y
+L_160: Test passed with size = 24
+L_126: Test with data [24] -> encoded text [30]
+L_133: fKu[F88=Wd?N{5aP<jU,Hx}/I`#[e!
+L_160: Test passed with size = 24
+L_126: Test with data [25] -> encoded text [31]
+L_133: =D}uAD=LM@<e)}Y*es/c/oyM}-k)})u
+L_160: Test passed with size = 25
+L_126: Test with data [25] -> encoded text [31]
+L_133: <v!~r$8+h|lB#=9/l8]&Hh8u1LH9~q|
+L_160: Test passed with size = 25
+L_126: Test with data [26] -> encoded text [32]
+L_133: pNK3TYa2HNQ}7]+zC(W1vqO)u.59+N,0
+L_160: Test passed with size = 26
+L_126: Test with data [26] -> encoded text [32]
+L_133: `=^)4tfgJT}Ye?>@v=!@oM|G-t>lhKEI
+L_160: Test passed with size = 26
+L_126: Test with data [27] -> encoded text [34]
+L_133: A?,R$WsI)Per!,$i8L6=1d<ae>OWxd)^m~
+L_160: Test passed with size = 27
+L_126: Test with data [27] -> encoded text [34]
+L_133: ks]mx}F0sF=U[isyYLlvpV[)zYL5O:8:5!
+L_160: Test passed with size = 27
+L_126: Test with data [28] -> encoded text [35]
+L_133: gMS-|b_8F7Iys@_EwIG:%W!ii0/l0Pby,f~
+L_160: Test passed with size = 28
+L_126: Test with data [28] -> encoded text [35]
+L_133: y,@_sHgyMTZl2AryoLE,b8eYw6BE8eRUB@y
+L_160: Test passed with size = 28
+L_126: Test with data [29] -> encoded text [36]
+L_133: 38y!OCBaYLiIVF+*x4~hyID8``K|5qyY</{k
+L_160: Test passed with size = 29
+L_126: Test with data [29] -> encoded text [36]
+L_133: KLBId/gf*nIFui)hRZU=8s$CT[xAoC_SON_{
+L_160: Test passed with size = 29
+L_126: Test with data [30] -> encoded text [37]
+L_133: wBb]#:Q85B4|ye0({md5Hm$Ed(Q[_hEAG!abM
+L_160: Test passed with size = 30
+L_126: Test with data [30] -> encoded text [37]
+L_133: Mr$7J_j;}Esv]|^D>3s@L#h1LH!{LL&s{s;XZ
+L_160: Test passed with size = 30
+L_126: Test with data [31] -> encoded text [39]
+L_133: ABv.93S@4T0q)4VIKviVYZ9.t]W1q`)0nwohqX!
+L_160: Test passed with size = 31
+L_126: Test with data [31] -> encoded text [39]
+L_133: tt,*3^5GeKx5RjF7E]SDJ;ThgydX=_ZSz[8GCf!
+L_160: Test passed with size = 31
+L_126: Test with data [32] -> encoded text [40]
+L_133: r{Hj.0It;{&3nRR~*R1DgEX,C>i[1-uJf0{f&if|
+L_160: Test passed with size = 32
+L_126: Test with data [32] -> encoded text [40]
+L_133: eC(|Jf+Ad+p&zg`52M6Z>70A#aq0S?P[q4_:st0}
+L_160: Test passed with size = 32
+L_126: Test with data [576749] -> encoded text [709845]
+L_129: Limit to first 80 symbols:
+xK~z=Oo;,R+O)S77]$C57s}e61?`R^Dz][d~m]z%5}UHWT>uS-`STCpekuruT$[TM+IE*cq|3@pQm/@
+L_160: Test passed with size = 576749
+L_126: Test with data [64821] -> encoded text [79780]
+L_129: Limit to first 80 symbols:
+T/-gFu|Y)0,=^:pJ4[}3x[/;LiY/SIQV@.m?ahVjY<rQN]me({dM3gnfQR(KO^#ETIJ/#97+~@H)-~!
+L_160: Test passed with size = 64821
+L_224: Static test passed
+L_99: Alphabets tests passed
+L_237: Stress test: from 1048576 symbols were decoded 302767 bytes
+L_238: Stress test passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_base91x" end time: Apr 29 08:50 UTC
+"test_base91x" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 29 08:50 UTC
