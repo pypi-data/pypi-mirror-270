@@ -1,0 +1,16 @@
+README.md
+setup.py
+bambot/__init__.py
+bambot/agent.py
+bambot/cli.py
+bambot/docker_utils.py
+bambot/log_utils.py
+bambot/logger.py
+bambot/utils.py
+bambot.egg-info/PKG-INFO
+bambot.egg-info/SOURCES.txt
+bambot.egg-info/dependency_links.txt
+bambot.egg-info/entry_points.txt
+bambot.egg-info/requires.txt
+bambot.egg-info/top_level.txt
+tests/test_bambot.py
