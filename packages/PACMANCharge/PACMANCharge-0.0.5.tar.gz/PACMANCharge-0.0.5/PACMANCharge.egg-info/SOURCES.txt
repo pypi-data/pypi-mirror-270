@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+PACMANCharge/PACMaN.py
+PACMANCharge/__init__.py
+PACMANCharge/atom_init.json
+PACMANCharge.egg-info/PKG-INFO
+PACMANCharge.egg-info/SOURCES.txt
+PACMANCharge.egg-info/dependency_links.txt
+PACMANCharge.egg-info/requires.txt
+PACMANCharge.egg-info/top_level.txt
+test/Cu-BTC.cif
+test/__init__.py
