@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+historicaldates.egg-info/PKG-INFO
+historicaldates.egg-info/SOURCES.txt
+historicaldates.egg-info/dependency_links.txt
+historicaldates.egg-info/top_level.txt
