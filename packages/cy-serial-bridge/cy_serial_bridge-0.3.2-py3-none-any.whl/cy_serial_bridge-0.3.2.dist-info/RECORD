@@ -1,0 +1,16 @@
+CHANGELOG.md,sha256=Gm-mmDa6dDpdJuLPz6sm2E-00ZBAzvbiuAEQQKUYu-k,3615
+LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+py.typed,sha256=Be0NODMWodN8_r6ymJ09tZBCLWMpWA5VpL_J-HI1syg,83
+cy_serial_bridge/__init__.py,sha256=DZXAMrC_QmF77XiP8AoJJapwRZzeHE-PWhQMls8RoGs,770
+cy_serial_bridge/cli.py,sha256=oLiT74iC2VlJhGn__LAoDllVb8DsHhiI6VyOqG-PXGY,20019
+cy_serial_bridge/configuration_block.py,sha256=1mPgw36X8wUsmMts7A5q980Am4tE8OHBCmpZ5MLR5Gc,13062
+cy_serial_bridge/cy_scb_context.py,sha256=AOVA9-mih6bApLCKYh3emrS6RYda3IuMnft530UWLZg,17402
+cy_serial_bridge/driver.py,sha256=H83NgCYWy1lztB-MIon8-V-BGXxX7xcHmzR9QjAiFDA,51581
+cy_serial_bridge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cy_serial_bridge/usb_constants.py,sha256=w2UgyNH0d864MP224R6lvHXXaTfQ5vLGph2frKIFEP0,8179
+cy_serial_bridge/utils.py,sha256=3kRZJaxynCazzi9EDYH0JRcZlgdSYZ_8zHEzwgznXgM,2270
+cy_serial_bridge-0.3.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+cy_serial_bridge-0.3.2.dist-info/METADATA,sha256=WR7iqNgJXlqvbhoWOFaeI2SXLSQ2SrjTzjxgWiCbxcw,31756
+cy_serial_bridge-0.3.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cy_serial_bridge-0.3.2.dist-info/entry_points.txt,sha256=tjrZOPDKG5A3NeDJ3XKYVSasWXXU9E7DoESLJuq54oo,59
+cy_serial_bridge-0.3.2.dist-info/RECORD,,
