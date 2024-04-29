@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+helloworldsamhello/__init__.py
+helloworldsamhello/cnn_254.py
+helloworldsamhello/helloworld20234.py
+helloworldsamhello/mcculloch_dsfs.py
+helloworldsamhello/perceptron_fdsfs.py
+helloworldsamhello.egg-info/PKG-INFO
+helloworldsamhello.egg-info/SOURCES.txt
+helloworldsamhello.egg-info/dependency_links.txt
+helloworldsamhello.egg-info/top_level.txt
