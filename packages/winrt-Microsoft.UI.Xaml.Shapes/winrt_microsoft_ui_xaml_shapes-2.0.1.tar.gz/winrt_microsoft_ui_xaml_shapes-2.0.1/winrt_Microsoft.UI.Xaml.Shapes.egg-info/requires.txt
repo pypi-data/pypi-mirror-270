@@ -1,0 +1,6 @@
+winrt-runtime==2.0.1
+
+[all]
+winrt-Microsoft.UI.Composition[all]==2.0.1
+winrt-Microsoft.UI.Xaml[all]==2.0.1
+winrt-Microsoft.UI.Xaml.Media[all]==2.0.1
