@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewed Hosts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+{% include 'navbar.html' %}
+
+<div class="container d-flex justify-content-center mt-5">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Host</th>
+            <th scope="col">Total Requests</th>
+            <th scope="col">Acceptable Requests</th>
+            <th scope="col">Unacceptable Requests</th>
+            <th scope="col">View Requests</th>
+            <th scope="col">View IP Details</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for host in hosts %}
+        <tr>
+            <th scope="row">{{ loop.index }}</th>
+            <td>{{ host.host }}</td>
+            <td>{{ host.total_requests }}</td>
+            <td>{{ host.valid_requests }}</td>
+            <td>{{ host.invalid_requests }}</td>
+            <td>
+                <a href="/view_requests?host={{ host.host }}">
+                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#viewRequestsModal{{ loop.index }}">
+                        View Requests
+                    </button>
+                </a>
+            </td>
+            <td>
+                <a href="https://whatismyipaddress.com/ip/{{ host.host }}" target="_blank">
+                    <button type="button" class="btn btn-primary">
+                        IP Details
+                    </button>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
