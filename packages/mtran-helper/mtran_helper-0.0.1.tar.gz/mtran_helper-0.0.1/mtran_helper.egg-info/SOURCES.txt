@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+MtranHelperProject/__init__.py
+MtranHelperProject/layers.py
+MtranHelperProject/loggingin.py
+MtranHelperProject/speedfilein.py
+mtran_helper.egg-info/PKG-INFO
+mtran_helper.egg-info/SOURCES.txt
+mtran_helper.egg-info/dependency_links.txt
+mtran_helper.egg-info/requires.txt
+mtran_helper.egg-info/top_level.txt
