@@ -1,0 +1,13 @@
+sqlfluff_common_conventions/CC01.py,sha256=7wld8yD4Q8oPCh0zq87BKila1Ny0tk2bKlimFd6LePc,3992
+sqlfluff_common_conventions/CC02.py,sha256=0hjOgrbjz7-ZRPk8E7IRZY3JkwhoLfOV0nr3Vy0zU-U,2557
+sqlfluff_common_conventions/CC03.py,sha256=G7trOoL1YEkbNs-Akv8yrX9n6MkkSLCHey8GzjYe3Ko,2319
+sqlfluff_common_conventions/CC04.py,sha256=k-DyfrQn_jPYLywqgvcAekzNmmPq3leZb84LGlLOLkc,3410
+sqlfluff_common_conventions/CC05.py,sha256=OdvfY7MQebOPcz3abmSPHSt4ZiHKGp_LOKZPdtsVGBY,3304
+sqlfluff_common_conventions/__init__.py,sha256=DEZvYoQ0_EajJVtOArDXCb3-_Bl-2B8BuYa6VVk9zv8,1429
+sqlfluff_common_conventions/plugin_default_config.cfg,sha256=5cyLLGLo0pbj8jpyPxs-jUp_rk3dZakQzOupuq5bteA,244
+sqlfluff_common_conventions-0.2.0.dist-info/LICENSE,sha256=oOakFHLDeNuvzltz4Nzjh6xZPn4VAamU2DbLUjRovhA,1067
+sqlfluff_common_conventions-0.2.0.dist-info/METADATA,sha256=EPuyYWXgnimMPRufe05uaBxtXZ5f_JpWFxHJgGyvHNk,3046
+sqlfluff_common_conventions-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sqlfluff_common_conventions-0.2.0.dist-info/entry_points.txt,sha256=HCEiRe5a-VNa57u5dYIbU-iQtMuwoPWI0GtzE1DiP4M,69
+sqlfluff_common_conventions-0.2.0.dist-info/top_level.txt,sha256=rhDR2FpPZsRv6WfS3FVryF2Er3R-mbG2UEx_MHVH2Uo,28
+sqlfluff_common_conventions-0.2.0.dist-info/RECORD,,
