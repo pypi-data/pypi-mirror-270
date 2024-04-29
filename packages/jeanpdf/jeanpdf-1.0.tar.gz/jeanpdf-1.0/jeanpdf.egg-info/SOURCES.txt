@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+jeanpdf.egg-info/PKG-INFO
+jeanpdf.egg-info/SOURCES.txt
+jeanpdf.egg-info/dependency_links.txt
+jeanpdf.egg-info/top_level.txt
