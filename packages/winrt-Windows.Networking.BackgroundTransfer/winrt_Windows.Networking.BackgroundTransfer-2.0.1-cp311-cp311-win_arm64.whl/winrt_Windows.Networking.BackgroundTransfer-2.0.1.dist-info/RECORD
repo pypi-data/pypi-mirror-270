@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_backgroundtransfer.cp311-win_arm64.pyd,sha256=GCdkZTHU_l3ienkVl8AOWgwT_blBxB1I9iQj_efvLMg,519168
+winrt/_winrt_windows_networking_backgroundtransfer.pyi,sha256=RC-gU3KpceJ7vjgQfvzIQoKiMkugBsPFsEAFBaQ5xoo,23714
+winrt/windows/networking/backgroundtransfer/__init__.py,sha256=ac-W6nEHKq_mSyo7_OUN5Vb68Dh_JRlfWlcjmEoOP08,3654
+winrt/windows/networking/backgroundtransfer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.BackgroundTransfer-2.0.1.dist-info/METADATA,sha256=v3YyETyHt5JJar6l3DGoJRrSz61PlfI7cN_jl4B_D_w,1654
+winrt_Windows.Networking.BackgroundTransfer-2.0.1.dist-info/WHEEL,sha256=KYdEOsdUN8GC50wETE93-AKMCFYWlcSEIynIYo-Bwus,102
+winrt_Windows.Networking.BackgroundTransfer-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.BackgroundTransfer-2.0.1.dist-info/RECORD,,
