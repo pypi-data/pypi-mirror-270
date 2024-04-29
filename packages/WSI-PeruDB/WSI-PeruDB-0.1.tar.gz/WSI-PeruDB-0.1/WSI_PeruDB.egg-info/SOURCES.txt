@@ -1,0 +1,14 @@
+setup.py
+WSI_PeruDB.egg-info/PKG-INFO
+WSI_PeruDB.egg-info/SOURCES.txt
+WSI_PeruDB.egg-info/dependency_links.txt
+WSI_PeruDB.egg-info/requires.txt
+WSI_PeruDB.egg-info/top_level.txt
+libname/FilterDepartment.py
+libname/__init__.py
+libname/dataset_downloading.py
+libname/departments_comparison.py
+libname/lmwl_filtering.py
+libname/map.py
+libname/siteinformation_downloading.py
+libname/temporalseries.py
