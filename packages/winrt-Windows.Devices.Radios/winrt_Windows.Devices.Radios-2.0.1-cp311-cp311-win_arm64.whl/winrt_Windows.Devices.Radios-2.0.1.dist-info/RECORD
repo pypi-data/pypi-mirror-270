@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_radios.cp311-win_arm64.pyd,sha256=hNYfNrIgBA-geWsaJ0zYUgmU-y-yRUXfaJGcCJo4WXU,103424
+winrt/_winrt_windows_devices_radios.pyi,sha256=x2TcY86Ek2AqOMnimmXZ6qJNc8wkEe6_wno0EzDbsEw,1563
+winrt/windows/devices/radios/__init__.py,sha256=Q8b5ZJey2O85Q4P4ocsRX5ZNHrz6tiHSxqLOQJCx0Fo,623
+winrt/windows/devices/radios/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Radios-2.0.1.dist-info/METADATA,sha256=YubXVwDKmhJoA6w8bLnuowxjqgX0NQRVGDJvTCVOTGQ,1128
+winrt_Windows.Devices.Radios-2.0.1.dist-info/WHEEL,sha256=KYdEOsdUN8GC50wETE93-AKMCFYWlcSEIynIYo-Bwus,102
+winrt_Windows.Devices.Radios-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Radios-2.0.1.dist-info/RECORD,,
