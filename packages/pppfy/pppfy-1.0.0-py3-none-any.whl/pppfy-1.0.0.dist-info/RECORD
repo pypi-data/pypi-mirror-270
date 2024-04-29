@@ -1,0 +1,9 @@
+ppp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ppp/data/ppp-gdp.csv,sha256=YUwT-RhSwtX26TaWWpyM7ck0nlIekBg3mXD10MjT42o,221712
+pppfy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pppfy/converter.py,sha256=RfeFCFVQKnn8BFwSvNe_Yhl4cTs-6hH3YbaWOEnGq4k,4584
+pppfy-1.0.0.dist-info/LICENSE,sha256=cz-IjCUtW1wzj1g2Db7U-5XbyLICZWIiGYY1rp2L5cM,716
+pppfy-1.0.0.dist-info/METADATA,sha256=2V7JpIyu5YclLiblWvKMaC0TMPGzXGcacyFOklaYqVw,742
+pppfy-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pppfy-1.0.0.dist-info/top_level.txt,sha256=joOpX5wL09UGWluCda_mp2Pzs7_Hx5YccZXQwIgv0HE,10
+pppfy-1.0.0.dist-info/RECORD,,
