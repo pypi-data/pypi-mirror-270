@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simulation-engine
+Version: 1.0.1
+Summary: Engine for simulating relic in Warframe.
+Author: Jacob McBride
+Author-email: jake55111@gmail.com
+Keywords: warframe,fissures
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy~=1.26.4
+Requires-Dist: relic-engine~=0.2.10
+
+Engine that allows the full simluation of any relic in Warframe, shows each individual reward screen as well as the number of each "best drop," the order at which the best drop is chosen is customizable.
