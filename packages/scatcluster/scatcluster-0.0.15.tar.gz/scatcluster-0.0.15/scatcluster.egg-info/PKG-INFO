@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: scatcluster
+Version: 0.0.15
+Summary: A workflow for clustering continuous time series with a deep scattering network.
+Home-page: https://github.com/INGV/ScatCluster
+Author: christopher.zerafa@ingv.it
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: gpu
+License-File: LICENSE
+
+A workflow for clustering continuous time series with a deep scattering network.
