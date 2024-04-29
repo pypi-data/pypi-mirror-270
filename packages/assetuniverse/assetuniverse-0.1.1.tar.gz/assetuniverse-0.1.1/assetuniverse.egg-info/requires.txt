@@ -1,0 +1,8 @@
+appdirs
+diskcache
+ib_insync
+numpy
+pandas
+pandas-datareader
+plotly
+yfinance

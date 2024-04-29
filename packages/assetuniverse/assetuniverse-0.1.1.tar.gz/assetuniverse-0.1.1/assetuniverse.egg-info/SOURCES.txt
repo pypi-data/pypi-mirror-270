@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+assetuniverse/__init__.py
+assetuniverse/core.py
+assetuniverse.egg-info/PKG-INFO
+assetuniverse.egg-info/SOURCES.txt
+assetuniverse.egg-info/dependency_links.txt
+assetuniverse.egg-info/requires.txt
+assetuniverse.egg-info/top_level.txt
+assetuniverse/utils/__init__.py
+assetuniverse/utils/asset.py
+assetuniverse/utils/downloaders.py
