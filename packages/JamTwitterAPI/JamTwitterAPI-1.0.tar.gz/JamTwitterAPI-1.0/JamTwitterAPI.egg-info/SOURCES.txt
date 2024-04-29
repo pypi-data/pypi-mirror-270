@@ -1,0 +1,5 @@
+setup.py
+JamTwitterAPI.egg-info/PKG-INFO
+JamTwitterAPI.egg-info/SOURCES.txt
+JamTwitterAPI.egg-info/dependency_links.txt
+JamTwitterAPI.egg-info/top_level.txt
