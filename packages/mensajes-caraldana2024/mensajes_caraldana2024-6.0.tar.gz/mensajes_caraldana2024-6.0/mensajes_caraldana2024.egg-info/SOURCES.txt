@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+mensajes/__init__.py
+mensajes/Hola/__init__.py
+mensajes/Hola/saludo.py
+mensajes/adios/__init__.py
+mensajes/adios/despedidas.py
+mensajes_caraldana2024.egg-info/PKG-INFO
+mensajes_caraldana2024.egg-info/SOURCES.txt
+mensajes_caraldana2024.egg-info/dependency_links.txt
+mensajes_caraldana2024.egg-info/requires.txt
+mensajes_caraldana2024.egg-info/top_level.txt
+tests/__init__.py
+tests/test_hola.py
