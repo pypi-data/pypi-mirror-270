@@ -1,0 +1,13 @@
+pygel3d/PyGEL.dll,sha256=Fs-NSJacOfpwzBQcQBdYWq1gkT__F7q2dXIg2XhhG28,1242112
+pygel3d/__init__.py,sha256=UShuOg5v5NP-1I0jLfbNtDjWiDLHAnjLkOimubsK4Ls,18035
+pygel3d/gl_display.py,sha256=ctxVZiuiClnK4cFZDBny3bqQYZbpBk38ewlTnSJ3iuc,5764
+pygel3d/graph.py,sha256=g8O3qvRBZ0eyxebYqeH67pUBs9S9xwh3URE-gcf98g4,14023
+pygel3d/hmesh.py,sha256=9Wr4VzXb-08BR8aFAsoOv6SBld_wfEfksUKUCEuh3Dw,37820
+pygel3d/jupyter_display.py,sha256=MktKpOoHrct5hqFpCANvmtxdcHsqxzPEq1vhGsT_ei0,3987
+pygel3d/libPyGEL.dylib,sha256=ICUsc8wX8-tRPzsMJ_TQFuK1YjT6oY-t75kfT1kRrFE,5397680
+pygel3d/libPyGEL.so,sha256=wxTBtw2Y1sCcTVhyf8UY1mzhBphxNVbnZySTqd2Vxr0,2698736
+pygel3d/spatial.py,sha256=zbIWho3qV0x09uwrb3YmC1PFYzs_mvth4xQDTWfW4os,1728
+PyGEL3D-0.5.2.dist-info/METADATA,sha256=Jm5zpZFbj88YTR5WATmy8wT8dIO03AOhGp1jOUB05WQ,6154
+PyGEL3D-0.5.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PyGEL3D-0.5.2.dist-info/top_level.txt,sha256=XYT44w7XBWjKeQ6N329yLcEd-Y8TmcBDTnTx43-yPJk,8
+PyGEL3D-0.5.2.dist-info/RECORD,,
