@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+src/nnz/__init__.py
+src/nnz.egg-info/PKG-INFO
+src/nnz.egg-info/SOURCES.txt
+src/nnz.egg-info/dependency_links.txt
+src/nnz.egg-info/top_level.txt
