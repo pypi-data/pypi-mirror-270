@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_xaml_printing.cp310-win_amd64.pyd,sha256=1cQjrecfTR6y2OXFDIaup8nghtZf1o8ayjaHmqxiFpA,70144
+winrt/_winrt_windows_ui_xaml_printing.pyi,sha256=B1BT_C9WxCmuH7AM0lfQeePjevCTblObOshOSveWOXg,3359
+winrt/windows/ui/xaml/printing/__init__.py,sha256=QpVIdbIjvhMEMv3rDwZDEtYFRAcMZXL79O0ZHUVp6OA,1172
+winrt/windows/ui/xaml/printing/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.Xaml.Printing-2.0.1.dist-info/METADATA,sha256=Bogvh-es3Ofd4yEBJr2gqm_G3uL3AbjGOq2QFPefHTY,1201
+winrt_Windows.UI.Xaml.Printing-2.0.1.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.UI.Xaml.Printing-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.Xaml.Printing-2.0.1.dist-info/RECORD,,
