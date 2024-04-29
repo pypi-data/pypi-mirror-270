@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+FastqToFastaConverter/__init__.py
+FastqToFastaConverter/fastq2fasta.py
+FastqToFastaConverter.egg-info/PKG-INFO
+FastqToFastaConverter.egg-info/SOURCES.txt
+FastqToFastaConverter.egg-info/dependency_links.txt
+FastqToFastaConverter.egg-info/top_level.txt
