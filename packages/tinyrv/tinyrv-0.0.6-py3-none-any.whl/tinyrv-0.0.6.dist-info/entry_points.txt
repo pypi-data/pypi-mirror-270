@@ -1,0 +1,3 @@
+[console_scripts]
+tinyrv-dump = tinyrv.dump:main
+tinyrv-sim = tinyrv.sim:main

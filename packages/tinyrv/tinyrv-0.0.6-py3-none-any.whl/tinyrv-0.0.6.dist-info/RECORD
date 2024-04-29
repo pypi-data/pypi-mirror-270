@@ -1,0 +1,10 @@
+tinyrv/__init__.py,sha256=gbDDtJ-YpsfVAFCgUC26aysku0Y22ApshkDjoyshvYg,22
+tinyrv/dump.py,sha256=Qu_AcgG6BTnBYoZNzJZagwlNNejR6arGfN6dDi8e0e8,397
+tinyrv/opcodes.py,sha256=aJFffBgkBL67NQNmv5fljIgm6FJpcBzRnTQj0bqrEus,391925
+tinyrv/sim.py,sha256=49CzNkKLTKydi6FUMC3oZGhw8z7thwAhnymmonqDqVg,547
+tinyrv/tinyrv.py,sha256=57AxR1VcNDK1aoiO6K2jmBD9IEoYCt_SkfC1bSrcQ7M,23962
+tinyrv-0.0.6.dist-info/METADATA,sha256=2qh9b_co-GpoBHjb5YCPsp7POUfAvDQtq-xaVUXOPdw,9078
+tinyrv-0.0.6.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+tinyrv-0.0.6.dist-info/entry_points.txt,sha256=urnRCPYXBEELUSKBUooTvjUnh0WC0hy2OQHQBV7VpaI,78
+tinyrv-0.0.6.dist-info/licenses/LICENSE,sha256=_wYH6Cx59lF341mQS3sgz6_TUIYzk1oen_-8Ij09TIc,1069
+tinyrv-0.0.6.dist-info/RECORD,,
