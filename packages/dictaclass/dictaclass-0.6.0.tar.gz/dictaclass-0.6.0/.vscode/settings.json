@@ -1,0 +1,16 @@
+{
+    "python.testing.pytestArgs": [
+        "-s",
+        "tests",
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "dataclass",
+        "dataclasses",
+        "dockerenv",
+        "isinstance",
+        "klass",
+        "typehint"
+    ]
+}
