@@ -1,0 +1,8 @@
+README.md
+setup.py
+number-theory-calculator/__init__.py
+number-theory-calculator/functions.py
+numbertheorypkg.egg-info/PKG-INFO
+numbertheorypkg.egg-info/SOURCES.txt
+numbertheorypkg.egg-info/dependency_links.txt
+numbertheorypkg.egg-info/top_level.txt
