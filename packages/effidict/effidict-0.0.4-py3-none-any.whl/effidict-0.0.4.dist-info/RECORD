@@ -1,0 +1,10 @@
+effidict/__init__.py,sha256=Y7k4J3jEgZYiKbbWqGgXIet31N_rzRWCRxpytNO7exg,69
+effidict/_base.py,sha256=G4yAQ8eSnCHN2FgNpjFHiMuqya-kH6Ol6ia7EGDOtxk,3487
+effidict/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+effidict/db_dict.py,sha256=Bj3pZWvGCZ40w58V9_y4FI6eu-vqRkHM1oCM4jrcDgU,1629
+effidict/lru_dict.py,sha256=58FV5X4Ljt7dxZrU89CSXy5_hCStu7O7gORcrKzQukU,10116
+effidict-0.0.4.dist-info/LICENSE,sha256=E_DboUop0RrB6gQEHFI9T64i__MqqD98PFLbfMMFAfw,1084
+effidict-0.0.4.dist-info/METADATA,sha256=hSVRbWZv6L9ca1Al5nUv6utPXGm5EjMTlLpbIMLuYoU,905
+effidict-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+effidict-0.0.4.dist-info/top_level.txt,sha256=68CGze1eCEl7qqZPDNJkX_8yG6G9Lw1ph6rrfI60Bi8,9
+effidict-0.0.4.dist-info/RECORD,,
