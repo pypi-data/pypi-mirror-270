@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_faceanalysis.cp39-win32.pyd,sha256=hfKj91gBAVH6Ov7ayhkdPswtSKIh1Ruc89aW9JtiQMs,110080
+winrt/_winrt_windows_media_faceanalysis.pyi,sha256=oDnYtaKmsYJaE6VlO-q7Ia_93tE2kAjh_AsJkU5Rpv4,3683
+winrt/windows/media/faceanalysis/__init__.py,sha256=cbQl8RTi3YxrAB5oZiN6PMqXRbi4z_uMiMY9KkPUPEE,412
+winrt/windows/media/faceanalysis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.FaceAnalysis-2.0.1.dist-info/METADATA,sha256=f5RWg87-KhKriWk2lWbOAY_0y_nPjdcTiT0SZ2UAA68,1291
+winrt_Windows.Media.FaceAnalysis-2.0.1.dist-info/WHEEL,sha256=1aMbN4t2zTDfBHuhuWzAfIzzQesiKpXOWwJmQwUBD2M,96
+winrt_Windows.Media.FaceAnalysis-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.FaceAnalysis-2.0.1.dist-info/RECORD,,
