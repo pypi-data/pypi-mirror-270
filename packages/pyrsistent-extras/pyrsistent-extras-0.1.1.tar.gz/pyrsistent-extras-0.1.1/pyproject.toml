@@ -1,0 +1,110 @@
+[build-system]
+requires = [
+	"cmake",
+	"ninja",
+	"scikit-build-core",
+	"nanobind",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "pyrsistent_extras"
+version = "0.1.1"
+description = "Extra data structures for pyrsistent"
+readme = "README.rst"
+license = { file = "LICENSE.mit" }
+requires-python = ">=3.8"
+authors = [ { name = "mingmingrr", email = "mingmingrr@gmail.com" } ]
+dependencies = [
+	"typing-extensions",
+]
+classifiers = [
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.optional-dependencies]
+test = [
+	"pyrsistent",
+	"lenses",
+	"pytest",
+	"hypothesis",
+]
+docs = [
+	"sphinx",
+	"sphinx_rtd_theme",
+]
+coverage = [
+	"coverage",
+	"coveralls",
+	"cpp-coveralls",
+]
+
+[project.urls]
+Homepage = "https://github.com/mingmingrr/pyrsistent-extras"
+Changelog = "https://github.com/mingmingrr/pyrsistent-extras/blob/master/CHANGELOG.md"
+Docs = "https://pyrsistent-extras.readthedocs.io/en/latest"
+Issues = "https://github.com/mingmingrr/pyrsistent-extras/issues"
+
+[tool.scikit-build]
+minimum-version = "0.4"
+build-dir = "build/{wheel_tag}"
+wheel.py-api = "cp312"
+
+[tool.mypy]
+
+[[tool.mypy.overrides]]
+module = "lenses"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = [
+	"--showlocals",
+	"--doctest-modules",
+	"--new-first",
+	"--failed-first",
+	"--capture", "no",
+	"--no-header",
+]
+doctest_optionflags =  [
+	"ELLIPSIS",
+	"NORMALIZE_WHITESPACE",
+	"IGNORE_EXCEPTION_DETAIL",
+]
+testpaths = [
+	"src",
+	"tests",
+]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38,py39,py310,py311,py312,py313,pypy3
+
+[gh-actions]
+python =
+	3.8: py38
+	3.9: py39
+	3.10: py310
+	3.11: py311
+	3.12: py312
+	3.13: py313
+
+[testenv]
+pass_env =
+	PYTEST_ADDOPTS
+	HYPOTHESIS_PROFILE
+	NIX_LD
+	NIX_LD_LIBRARY_PATH
+commands =
+	{envpython} -m pytest {env_site_packages_dir}/pyrsistent_extras {toxinidir}/tests
+extras = test
+"""

@@ -1,0 +1,117 @@
+name: build
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Release target'
+        required: true
+        default: 'test'
+
+jobs:
+  build_wheels:
+    name: Build ${{ matrix.python }} wheels on ${{ matrix.platform.os }}-${{ matrix.platform_id }}
+    runs-on: ${{ matrix.platform.os }}
+    strategy:
+      # Ensure the wheels build even if one fails.
+      fail-fast: false
+      matrix:
+        python: [38, 39, 310, 311, 312]
+        platform:
+          - id: win_amd64
+            os: windows-latest
+            qemu: false
+          - id: win32
+            os: windows-latest
+            qemu: false
+          - id: manylinux_x86_64
+            os: ubuntu-latest
+            qemu: false
+          - id: manylinux_i686
+            os: ubuntu-latest
+            qemu: true
+          - id: manylinux_aarch64
+            os: ubuntu-latest
+            qemu: true
+          - id: macosx_universal2
+            os: macos-latest
+            qemu: false
+    env:
+      CIBW_ARCHS_LINUX: auto aarch64
+      CIBW_ARCHS_MACOS: universal2
+      CIBW_BUILD: cp${{ matrix.python }}-${{ matrix.platform.id }}
+      CIBW_TEST_REQUIRES: pyrsistent lenses pytest==6.* hypothesis==6.*
+      CIBW_TEST_COMMAND: "bash {project}/tools/test_wheels.sh {project}"
+      CIBW_MANYLINUX_X86_64_IMAGE: manylinux2014
+      CIBW_MANYLINUX_I686_IMAGE: manylinux2014
+      CIBW_MANYLINUX_AARCH64_IMAGE: manylinux2014
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        if: matrix.platform.qemu
+        uses: docker/setup-qemu-action@v2
+        with:
+          platforms: all
+
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.17.0
+
+      - uses: actions/upload-artifact@v3
+        with:
+          path: ./wheelhouse/*.whl
+
+  build_dist:
+    name: Build source distribution
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        name: Install Python
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build
+
+      - name: Build sdist
+        run: python -m build --sdist
+
+      - uses: actions/upload-artifact@v3
+        with:
+          path: dist/*
+
+  publish_pypi:
+    needs: [ build_wheels, build_dist ]
+    runs-on: ubuntu-latest
+    # TODO: Migrate to automated release once verified?
+    # upload to PyPI on every tag starting with 'v'
+    # if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags/v')
+    # alternatively, to publish when a GitHub Release is created, use the following rule:
+    # if: github.event_name == 'release' && github.event.action == 'published'
+
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: artifact
+          path: dist
+
+      - name: Publish test release
+        if: github.event.inputs.target == 'test'
+        uses: pypa/gh-action-pypi-publish@v1.5.1
+        with:
+          user: __token__
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          repository_url: https://test.pypi.org/legacy/
+          verbose: true
+
+      - name: Publish release
+        if: github.event.inputs.target != 'test'
+        uses: pypa/gh-action-pypi-publish@v1.5.1
+        with:
+         user: __token__
+         password: ${{ secrets.PYPI_API_TOKEN }}
