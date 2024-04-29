@@ -1,0 +1,14 @@
+pyvisjs/__init__.py,sha256=GI37unJWXxXodEXWhDdsqdb2U0Xm8XbRk2Uz3n_fEGs,103
+pyvisjs/_version.py,sha256=1wtqU4WoHn5rwahI3corZZpU8uwtKEJlLTrrAWpLkOU,105
+pyvisjs/base_dictable.py,sha256=t5voQEEr1Fw_97INidKFaeWKqepEoXXapsVtzQP52nk,1558
+pyvisjs/edge.py,sha256=1_TvGPcBTFXOgBWUWd4HIeEXOnmxHWhawpgaDAmt2dk,478
+pyvisjs/network.py,sha256=cz9Z5aQVViy1G0Ux5a0zASaT9OAnAu70l2vpxHl0e5I,3006
+pyvisjs/node.py,sha256=6QuqYfQF3tB091gB6g9_d81wnPI-2I4FNNdE4Hh9pJE,478
+pyvisjs/options.py,sha256=w9sTCcDRD6XPr8c_Gk5smVCz1C-BeySNMB-x2rhjyoU,1560
+pyvisjs/utils.py,sha256=CIq1ZXSoflNel13X0VeOnVH66yaEo_NPbetB9tCGoBk,998
+pyvisjs/templates/basic.html,sha256=TDXJV5DpLnyITRqwk2Y4B0DbGRIrL7ZTK0JCbnrlDvw,923
+pyvisjs-0.0.0.dev6.dist-info/LICENSE,sha256=hJ2CYlp0n352dXNClXkNKZlRxb5PX1H2GbkpSdp9_zM,1091
+pyvisjs-0.0.0.dev6.dist-info/METADATA,sha256=OI6-YalWgse8AwxaLe81ErzbAE7riUNqqOdFyQU1p7Y,3386
+pyvisjs-0.0.0.dev6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyvisjs-0.0.0.dev6.dist-info/top_level.txt,sha256=yC6lot-4QCzCbG-G-rNadNOTuzUmna2YQbFSraHsHMg,8
+pyvisjs-0.0.0.dev6.dist-info/RECORD,,
