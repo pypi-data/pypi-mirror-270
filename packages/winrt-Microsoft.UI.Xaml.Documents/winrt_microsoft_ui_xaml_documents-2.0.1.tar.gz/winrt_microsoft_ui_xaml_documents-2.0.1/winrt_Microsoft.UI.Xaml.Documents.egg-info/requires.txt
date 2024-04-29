@@ -1,0 +1,9 @@
+winrt-runtime==2.0.1
+
+[all]
+winrt-Microsoft.UI.Xaml[all]==2.0.1
+winrt-Microsoft.UI.Xaml.Input[all]==2.0.1
+winrt-Microsoft.UI.Xaml.Media[all]==2.0.1
+winrt-Windows.Foundation[all]==2.0.1
+winrt-Windows.Foundation.Collections[all]==2.0.1
+winrt-Windows.UI.Text[all]==2.0.1
