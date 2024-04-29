@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: IslandSheds
+Version: 0.0.16
+Summary: A Caribbean watershed shapefile downloader package.
+Home-page: https://github.com/kgdthomas/IslandSheds
+Author: Kent Thomas
+Author-email: kthomas.wsrn@gmail.com
+License: MIT
+Project-URL: Documentation, https://islandsheds.readthedocs.io/
+Project-URL: Source, https://github.com/kgdthomas/IslandSheds
+Project-URL: Tracker, https://github.com/kgdthomas/IslandSheds/issues
+Keywords: watershed geospatial data download Caribbean
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: geopandas
+Requires-Dist: requests
+
+Python package for downloading country-specific Caribbean watershed data.
