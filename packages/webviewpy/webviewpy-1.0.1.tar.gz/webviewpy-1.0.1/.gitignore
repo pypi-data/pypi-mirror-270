@@ -1,0 +1,6 @@
+*.pyc
+dist
+webviewpy/__version__.py
+webviewpy.egg-info
+webviewpy/platform
+build/
