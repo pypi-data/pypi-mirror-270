@@ -1,0 +1,33 @@
+KleioTranslator - server version 12.5 - build 570 2024-02-29 07:39:02
+28-4-2024 7-49
+
+Processing data file auc-alunos.cli
+-------------------------------------------
+Generic Act translation module with geoentities (XML).
+     Joaquim Ramos de Carvalho (joaquim@uc.pt) 
+** New document: kleio
+=========================
+kleio translation started
+=========================
+Structure: gacto2.str
+Prefix: 
+Autorel: 
+Translation count: 8
+Obs: 
+** Processing source fonte$auc-alunos
+30: lista$auc-alumni-A-140337-140771
+*** End of File
+
+
+Structure file: /kleio-home/projects/test-project/structures/sources.str
+Structure processing report: /kleio-home/projects/test-project/structures/sources.srpt
+Structure in JSON: /kleio-home/projects/test-project/structures/sources.str.json
+
+Kleio file: /kleio-home/projects/tutorial/kleio/auc-alunos.cli
+Original file: /kleio-home/projects/tutorial/kleio/auc-alunos.org
+Previous version: /kleio-home/projects/tutorial/kleio/auc-alunos.old
+Temp file with ids: /kleio-home/projects/tutorial/kleio/auc-alunos.ids
+** - /kleio-home/projects/tutorial/kleio/auc-alunos.cli-renamed to- /kleio-home/projects/tutorial/kleio/auc-alunos.old
+0  errors. 
+0  warnings.
+Translation finished.
