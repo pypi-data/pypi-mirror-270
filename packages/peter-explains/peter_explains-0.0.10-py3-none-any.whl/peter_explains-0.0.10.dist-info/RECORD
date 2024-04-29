@@ -1,0 +1,11 @@
+peter_explains/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peter_explains/_version.py,sha256=-nNlMKS9nph3FR78_ZG9RGKrbxseeNp2K6nMr0pVGaU,23
+peter_explains/main.py,sha256=xFkqvkhZyk9e03fDgewySVn3RwBVQcdAlWgHaN-AgK4,1513
+peter_explains/peter_ai.py,sha256=TI753q7AuZUOdvm4YbGJOcetjdKiosr5jSwdTMpAYjI,4938
+peter_explains/utils.py,sha256=lsyrSWWwbk5kYzg-IotHWEoiBIdPQb5IduadRP2Gbtk,7712
+peter_explains-0.0.10.dist-info/LICENSE,sha256=HbUUEN8Kpnnekmmt6lyxIWb4NBASIppWdQ1897zqV3M,1068
+peter_explains-0.0.10.dist-info/METADATA,sha256=U99FTcTXB0leZogy3bJ4dbvoD4epwzmdPXhTdXWdzh0,3385
+peter_explains-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+peter_explains-0.0.10.dist-info/entry_points.txt,sha256=azXsXY2aWQ4-GSbHvT1xDo4o3J0GMEl_MVjLZnv1vB0,52
+peter_explains-0.0.10.dist-info/top_level.txt,sha256=R96I8OvU4VDOK4e4AcMigpyNVhTwpcoTg0gs3C_Ewk4,15
+peter_explains-0.0.10.dist-info/RECORD,,
