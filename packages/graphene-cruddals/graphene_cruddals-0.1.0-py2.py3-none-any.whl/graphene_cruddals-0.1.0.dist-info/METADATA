@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: graphene-cruddals
+Version: 0.1.0
+Summary: Library base for create others libraries with the objective of create a CRUD+DALS with GraphQL
+Home-page: https://github.com/juanjcardona13/graphene_cruddals
+Author: Juan J Cardona
+Author-email: juanjcardona13@gmail.com
+License: Apache 2.0
+Keywords: api graphql crud graphene cruddals
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: graphene >=3.0.0
+Provides-Extra: dev
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-random-order ; extra == 'dev'
+Requires-Dist: pytest >=7.3.1 ; extra == 'dev'
+Requires-Dist: pytz ; extra == 'dev'
+Requires-Dist: ruff ==0.1.2 ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coveralls ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-random-order ; extra == 'test'
+Requires-Dist: pytest >=7.3.1 ; extra == 'test'
+Requires-Dist: pytz ; extra == 'test'
+
+Coming soon
+
+
