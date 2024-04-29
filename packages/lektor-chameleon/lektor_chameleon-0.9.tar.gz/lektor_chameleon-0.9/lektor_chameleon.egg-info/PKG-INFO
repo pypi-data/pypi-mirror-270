@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: lektor-chameleon
+Version: 0.9
+Summary: Chameleon template support for Lektor.
+Author-email: "H. Turgut Uyar" <uyar@tekir.org>
+License: Copyright 2018-2024 H. Turgut Uyar <uyar@tekir.org>
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice,
+           this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its contributors
+           may be used to endorse or promote products derived from this software
+           without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: repository, https://github.com/uyar/lektor-chameleon
+Keywords: lektor,plugin,chameleon,template
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Lektor
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Requires-Python: ~=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: lektor
+Requires-Dist: chameleon
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Provides-Extra: style
+Requires-Dist: ruff; extra == "style"
+Provides-Extra: dev
+Requires-Dist: lektor-chameleon[style,tests]; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+
+lektor-chameleon
+================
+
+lektor-chameleon is a plugin for the `Lektor <https://www.getlektor.com>`_
+static site generator
+that makes is possible to write the templates
+using `Chameleon <https://chameleon.readthedocs.io/>`_.
+
+To use the plugin, add it to your project::
+
+  lektor plugin add lektor-chameleon
+
+Templates must have the ``.pt`` file extension.
+
+Usage examples:
+
+.. code:: html
+
+   <html lang="${this.alt}">
+
+   <h1 tal:content="this.title">Page title</h1>
+
+   <span tal:replace="bag('translate', this.alt, 'message')">message</span>
+
+The following Lektor filters are available as functions:
+
+- `asseturl <https://www.getlektor.com/docs/api/templates/filters/asseturl/>`_
+- `dateformat <https://www.getlektor.com/docs/api/templates/filters/dateformat/>`_
+- `datetimeformat <https://www.getlektor.com/docs/api/templates/filters/datetimeformat/>`_
+- `latformat <https://www.getlektor.com/docs/api/templates/filters/latformat/>`_
+- `latlongformat <https://www.getlektor.com/docs/api/templates/filters/latlongformat/>`_
+- `longformat <https://www.getlektor.com/docs/api/templates/filters/longformat/>`_
+- `markdown <https://www.getlektor.com/docs/api/templates/filters/markdown/>`_
+- `tojson <https://www.getlektor.com/docs/api/templates/filters/tojson/>`_
+- `url <https://www.getlektor.com/docs/api/templates/filters/url/>`_
+
+The following Jinja filters are available as functions:
+
+- `filesizeformat <https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.filesizeformat>`_
+- `indent <https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.indent>`_
+- `striptags <https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.striptags>`_
+- `truncate <https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.truncate>`_
+- `wordwrap <https://jinja.palletsprojects.com/en/3.0.x/templates/#jinja-filters.wordwrap>`_
+
+Usage examples:
+
+.. code:: html
+
+   <a href="${url('/')}">Home page</a>
+
+   <a href="${url('/', alt=this.alt)">link text</a>
+
+   <link rel="stylesheet" href="${asseturl('/static/custom.css')}"/>
+
+   <div tal:content="striptags(this.body)">Shortened body text</div>
+
+   <div tal:replace="indent(this.body.html, 2)">Page body</div>
+
+   <body>
+     ${ structure:wordwrap(this.body.html, width=72) }
+   </body>
