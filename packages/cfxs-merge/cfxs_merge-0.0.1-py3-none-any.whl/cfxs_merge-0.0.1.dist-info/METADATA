@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cfxs_merge
+Version: 0.0.1
+Summary: cfxs merge
+Home-page: https://github.com/bitfugui/cfxs_merge
+Author: bitfugui
+Author-email: bitfugui@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: web3 >=6.5.0
+
+# cfsx_merge
+
+cfsx_merge 是 conflux链生态项目cfxs的合并工具，旨在帮助用户轻松地进行cfxs符文合并。
+cfxs官网：https://cfxs.world/
+
+### 安装依赖
+
+在开始使用之前，请确保安装了所有必要的依赖。
+
+执行以下命令以安装依赖：
+
+```
+pip install -r requirements.txt
+```
+
+### 工具使用
+
+填写钱包的地址和私钥
+配置好id_addr
+执行以下命令
+
+```
+python3 merge.py
+```
