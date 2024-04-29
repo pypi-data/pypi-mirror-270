@@ -1,0 +1,50 @@
+"""setup.py"""
+
+from setuptools import setup, find_packages
+
+setup(
+    name='compile-api',
+    version='0.0.1',
+    author='Digital Back Office',
+    description='API for Dataflow ENV',
+    long_description='This is a backend package',
+    install_requires=["annotated-types==0.6.0",
+"anyio==4.3.0",
+"build==1.2.1",
+"certifi==2024.2.2",
+"charset-normalizer==3.3.2",
+"click==8.1.7",
+"colorama==0.4.6",
+"fastapi==0.110.1",
+"greenlet==3.0.3",
+"h11==0.14.0",
+"httpcore==1.0.5",
+"httpx==0.27.0",
+"idna==3.6",
+"iniconfig==2.0.0",
+"packaging==24.0",
+"pip-tools==7.4.1",
+"pluggy==1.4.0",
+"pydantic==2.6.4",
+"pydantic_core==2.16.3",
+"pyproject_hooks==1.0.0",
+"pytest==8.1.1",
+"requests==2.31.0",
+"sniffio==1.3.1",
+"SQLAlchemy==2.0.29",
+"starlette==0.37.2",
+"typing_extensions==4.11.0",
+"urllib3==2.2.1",
+"uvicorn==0.29.0"
+],
+keywords=["compile"],
+license='MIT',
+classifiers=[
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Operating System :: Unix",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+    ]
+)
