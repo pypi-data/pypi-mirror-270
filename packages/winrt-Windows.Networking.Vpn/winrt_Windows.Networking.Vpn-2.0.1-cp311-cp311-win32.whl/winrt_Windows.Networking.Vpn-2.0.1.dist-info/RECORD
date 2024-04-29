@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_vpn.cp311-win32.pyd,sha256=R2IvEjfbNdQg2lIsBFuBtvdLneyITyb9nQU7UELnHS4,532480
+winrt/_winrt_windows_networking_vpn.pyi,sha256=ffGonINhZo0-6k4QjIO4GaNlQcIGBeOX_H6nlBmy31Q,42355
+winrt/windows/networking/vpn/__init__.py,sha256=sFrJMlYtjLIpr-twwLBj6BBFTQbSPVmPWJjd8Xbi1Aw,6844
+winrt/windows/networking/vpn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.Vpn-2.0.1.dist-info/METADATA,sha256=JWPHHiJNqI5W6y-qrqOHd4UsfYSf6NtghIMR9x7MpM4,1699
+winrt_Windows.Networking.Vpn-2.0.1.dist-info/WHEEL,sha256=4_gqTcsEhdxj3Ssg4q283IXTSwrMvsE7HL9ju9Nna7Q,98
+winrt_Windows.Networking.Vpn-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.Vpn-2.0.1.dist-info/RECORD,,
