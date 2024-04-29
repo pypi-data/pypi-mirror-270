@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/nsnap/__init__.py
+src/nsnap/__main__.py
+src/nsnap.egg-info/PKG-INFO
+src/nsnap.egg-info/SOURCES.txt
+src/nsnap.egg-info/dependency_links.txt
+src/nsnap.egg-info/requires.txt
+src/nsnap.egg-info/top_level.txt
