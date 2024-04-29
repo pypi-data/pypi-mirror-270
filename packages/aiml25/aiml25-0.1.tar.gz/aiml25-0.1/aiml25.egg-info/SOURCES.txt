@@ -1,0 +1,7 @@
+setup.py
+aiml25.egg-info/PKG-INFO
+aiml25.egg-info/SOURCES.txt
+aiml25.egg-info/dependency_links.txt
+aiml25.egg-info/top_level.txt
+src/__init__.py
+src/aiml25.py
