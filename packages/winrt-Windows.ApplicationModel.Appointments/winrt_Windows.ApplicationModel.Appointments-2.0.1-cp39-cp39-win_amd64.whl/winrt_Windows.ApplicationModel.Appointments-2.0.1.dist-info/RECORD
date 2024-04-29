@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_appointments.cp39-win_amd64.pyd,sha256=T8cItEO-PAgv4xxVjGqNzAX-MRfHBOrXgyCisacfvDs,464896
+winrt/_winrt_windows_applicationmodel_appointments.pyi,sha256=ucR11npkUBFi6FJFYCE9hulia2lyXOQ1zT5eMIb22j4,32386
+winrt/windows/applicationmodel/appointments/__init__.py,sha256=olaPcu2g5s3fB8oFP1jzTwKSSeKrQjI3m-_IG7cc2-0,5513
+winrt/windows/applicationmodel/appointments/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.Appointments-2.0.1.dist-info/METADATA,sha256=617TZJO5NPSvBbnE1GqW1LCvEBX8SwTVBkiCuAZp0u8,1394
+winrt_Windows.ApplicationModel.Appointments-2.0.1.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+winrt_Windows.ApplicationModel.Appointments-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.Appointments-2.0.1.dist-info/RECORD,,
