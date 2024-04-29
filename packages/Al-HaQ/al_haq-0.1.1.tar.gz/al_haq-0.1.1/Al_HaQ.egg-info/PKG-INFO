@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Al-HaQ
+Version: 0.1.1
+Summary: A fight for truth. A better democracy.  
+Home-page: https://github.com/Haq-Lense/Al-HaQ
+Author: [Ahmad], [Emanuel], [Ghada], [Mariam], [Omar], [Pablo], [Salma], [Savar], [Favour], [Akash]
+Author-email: akant1@asu.edu
+Project-URL: Documentation, https://github.com/Haq-Lense/Al-HaQ
+Project-URL: Source Code, https://github.com/Haq-Lense/Al-HaQ
+Project-URL: Tutorials, https://github.com/Haq-Lense/Al-HaQ/tree/main/code
+Project-URL: Machine Learning, https://github.com/Haq-Lense/Al-HaQ/tree/main/qml-simulation
+Keywords: Quantum Computing,QUBO,Quantum ML,Optimization
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: qiskit
+Requires-Dist: amazon-braket-default-simulator
+Requires-Dist: amazon-braket-sdk
+
+Fake news can spread up to 10 times faster than true reporting on social media. These often reach 100,000+ people within a few hours, and the implications can be devastating in spreading misinformation, even when corrected. AlHaq is a cross-platform service that tailors any user’s social media feed to amplify trusted information within their social network using quantum computing. AlHaq can detect fake news from a social media user, rank the trustedness of members in their social network, and adapt their social media feed to boost true news sources and filter disinformation.

@@ -1,0 +1,4 @@
+numpy
+qiskit
+amazon-braket-default-simulator
+amazon-braket-sdk
