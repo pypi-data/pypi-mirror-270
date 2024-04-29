@@ -1,0 +1,8 @@
+winrt/_winrt_windows_security_cryptography_dataprotection.cp312-win_arm64.pyd,sha256=sE70q2Cx985Ce5pLstgna9izExfd4Ca5btPdO2scWOg,64512
+winrt/_winrt_windows_security_cryptography_dataprotection.pyi,sha256=NbnpoqQ6Sw4ii5Q8naUZ2INo0S0nV1kb7eYEB-lY-7g,1547
+winrt/windows/security/cryptography/dataprotection/__init__.py,sha256=dfilemMkIB3ADsTa4Amg3vfjJekWSCEdlUgQmc4CTNU,317
+winrt/windows/security/cryptography/dataprotection/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Security.Cryptography.DataProtection-2.0.1.dist-info/METADATA,sha256=q5YjERnS5w2Sc5yUo034hQTgW0Q0cLiM9Kn4oL-6EAs,1209
+winrt_Windows.Security.Cryptography.DataProtection-2.0.1.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.Security.Cryptography.DataProtection-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Cryptography.DataProtection-2.0.1.dist-info/RECORD,,
