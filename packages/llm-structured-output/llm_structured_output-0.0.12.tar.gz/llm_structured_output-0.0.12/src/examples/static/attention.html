@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Attention</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 15px;
+            color: rgba(10, 10, 20, 0.9);
+            background-color: #d8d3b6;
+        }
+
+        label {
+            text-transform: uppercase;
+            font-size: 0.9em;
+            font-weight: 500;
+            padding: 2px 4px 0px 4px;
+            color: #555;
+        }
+
+        button {
+            font-size: 0.8em;
+            background-color: #c8c3a6;
+            border: 2px solid gray;
+            border-radius: 0.5em;
+            padding: 0.66em;
+            cursor: pointer;
+        }
+
+        button:focus {
+            outline: none;
+            border: 2px solid blue;
+        }
+
+        textarea {
+            font-family: monospace;
+            font-size: 1em;
+            padding: 3px;
+            border-radius: 3px;
+            border: 1px solid gray;
+            form-sizing: content;
+        }
+
+        textarea:focus {
+            outline: none;
+            border: 1px solid blue;
+        }
+
+        #ui {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            gap: 16px;
+        }
+
+        #prompt-div,
+        #attention-div {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            gap: 5px;
+        }
+
+        tokens {
+            background-color: white;
+            padding: 12px;
+            border-radius: 3px;
+        }
+        token {
+            white-space: pre;
+            padding: 3px 1px;
+            margin: 5px 0;
+            border-left: 1px dashed gray;
+            cursor: default;
+        }
+
+        token:last-of-type {
+            border-right: 1px dashed gray;
+        }
+
+        ul.token-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            list-style-type: none;
+            margin-block-start: 8px;
+            margin-block-end: 8px;
+            padding-inline-start: 0;
+        }
+
+        [data-tooltip],
+        token[data-tooltip] {
+            cursor: crosshair;
+        }
+
+        [data-tooltip]:hover::after {
+            display: block;
+            position: absolute;
+            content: attr(data-tooltip);
+            border: 1px solid black;
+            border-radius: 2px;
+            background: #eee;
+            padding: .2em;
+            font-size: 0.8em;
+        }
+    </style>
+    <script>
+        const sanitize = (text) =>
+            String(text)
+                .replaceAll('&', '&amp')
+                .replaceAll('<', '&lt')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#x27;')
+                .replaceAll('\n', '&#x240A;\n')
+                .replaceAll('\r', '&#x240D;\r')
+                .replaceAll('\t', '&#x21E5;\t');
+
+        async function apiRequest(path, payload, { method, statusText } = {}) {
+            const response = await fetch(`${document.location.href}/${path}`,
+                payload
+                    ? {
+                        method: method || 'POST',
+                        body: JSON.stringify(payload),
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                    }
+                    : {
+                        method: method || 'GET',
+                    }
+            );
+
+            if (response.ok) {
+                const json = await response.json();
+                return { success: true, response: json };
+            }
+
+            const error = new Error(`${response.status} ${response.statusText}`);
+            error.statusCode = response.status;
+            return { success: false, error };
+        }
+
+        const update = (response) => {
+            const attentionDiv = document.getElementById('attention-div');
+            let scores = response.fragments.map(
+                (_, i) => response.attention_scores.reduce(
+                    (layer_sum, layer) => layer_sum + layer.reduce((head_sum, head) => head_sum + head[i], 0),
+                    0
+                )
+            );
+            // Transformers dedicate a very large amount of non-productive attention to
+            // the first token. Literature has referred to this effect as "null attention".
+            // See https://aclanthology.org/W19-4808.pdf
+            scores[0] = 0;
+            // Weighting the scores according to the max instead of the total produces
+            // more revealing visualizations.
+            const total = scores.reduce((t, s) => t + s, 0);
+            const max = Math.max(...scores);
+            const scoreToColorValue = (score) => Math.round(255 * (1 - score / max));
+            attentionDiv.innerHTML = '<label>Attention</label><tokens>' + scores.map(
+                (score, i) => `<token style="background-color: rgb(255, ${scoreToColorValue(0.66*score)}, ${scoreToColorValue(score)})">${sanitize(response.fragments[i])}</token>`
+            ).join('') + '</tokens>';
+
+            const tokensDiv = document.getElementById('tokens-div');
+            tokensDiv.innerHTML = '<label>Top continuation tokens</label><ul class="token-list">' +
+                response.top_tokens.map(([token, fragment, p, rejected]) =>
+                    `<li><token data-token-id=${sanitize(token)} data-tooltip="id=${sanitize(token)} p=${Math.round(p * 1e4) / 1e4}" style="background-color: rgb(${255 * (1 - p)}, 255, ${255 * (1 - p)})">${sanitize(fragment)}</li>`
+                ).join('')
+                + '</ul>';
+            document.querySelectorAll('.token-list token[data-token-id]').forEach((tokenElement) => {
+                tokenElement.addEventListener('click', async (event) => {
+                    const { response } = await apiRequest('generation/token', { token: tokenElement.getAttribute('data-token-id') });
+                    if (response) update(response);
+                    event.preventDefault();
+                })
+            })
+        }
+
+        window.addEventListener('load', () => {
+            const promptInput = document.getElementById('prompt-input');
+            const startGenerationButton = document.getElementById('start-generation-btn');
+            startGenerationButton.addEventListener('click', async (event) => {
+                const { response } = await apiRequest('generation/start', { prompt: promptInput.value });
+                if (response) update(response);
+                event.preventDefault();
+            });
+        });
+
+    </script>
+</head>
+
+<body id="ui">
+    <div id="prompt-div">
+        <label for="prompt-input">Prompt</label>
+        <textarea id="prompt-input" rows="10">Once upon a midnight dreary,</textarea>
+        <div>
+            <button id="start-generation-btn">Start generation</button>
+        </div>
+    </div>
+    <div id="attention-div">
+    </div>
+    <div id="tokens-div">
+    </div>
+</body>
+
+</html>
