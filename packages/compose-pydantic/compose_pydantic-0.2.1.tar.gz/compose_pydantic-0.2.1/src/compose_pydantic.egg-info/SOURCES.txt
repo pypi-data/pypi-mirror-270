@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/compose_pydantic/__init__.py
+src/compose_pydantic/lib.py
+src/compose_pydantic/models.py
+src/compose_pydantic.egg-info/PKG-INFO
+src/compose_pydantic.egg-info/SOURCES.txt
+src/compose_pydantic.egg-info/dependency_links.txt
+src/compose_pydantic.egg-info/not-zip-safe
+src/compose_pydantic.egg-info/requires.txt
+src/compose_pydantic.egg-info/top_level.txt
+tests/test_lib.py
