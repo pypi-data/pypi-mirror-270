@@ -1,0 +1,8 @@
+README.md
+setup.py
+Cl1pAPI/Cl1pAPI.py
+Cl1pAPI/__init__.py
+Cl1pAPI.egg-info/PKG-INFO
+Cl1pAPI.egg-info/SOURCES.txt
+Cl1pAPI.egg-info/dependency_links.txt
+Cl1pAPI.egg-info/top_level.txt
