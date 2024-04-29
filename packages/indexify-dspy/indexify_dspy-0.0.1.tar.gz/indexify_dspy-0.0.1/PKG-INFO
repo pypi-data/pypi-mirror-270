@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: indexify-dspy
+Version: 0.0.1
+Summary: 
+Author: Lucas Jackson
+Author-email: lucas@tensorlake.ai
+Requires-Python: >=3.10.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dspy-ai (>=0,<1)
+Requires-Dist: indexify (>=0,<1)
+Requires-Dist: langchain (>=0,<1)
+Description-Content-Type: text/markdown
+
+# Indexify Retreiver for DSPy
+
+Please see the detailed documentation here - https://getindexify.ai/integrations/dspy/python_dspy/
+
