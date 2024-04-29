@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_scanners.cp310-win_amd64.pyd,sha256=7j2LbT65ON4XqBjxKo_hhi-3LxhfY1PvfX6OvRXw1CA,187904
+winrt/_winrt_windows_devices_scanners.pyi,sha256=3AVv0SdnEsrHuB9Sx8j51nnRdDIfIt8VVDlQgHXisjs,13770
+winrt/windows/devices/scanners/__init__.py,sha256=VqLto0Rs3mQB-StS3wbHQ_zXtjYNfYSQx38GVHvmmQs,1906
+winrt/windows/devices/scanners/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Scanners-2.0.1.dist-info/METADATA,sha256=P74X9WEW6Wu3vjcCEcWHpBziv00R97LGvsYh2GY-pXs,1364
+winrt_Windows.Devices.Scanners-2.0.1.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.Devices.Scanners-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Scanners-2.0.1.dist-info/RECORD,,
