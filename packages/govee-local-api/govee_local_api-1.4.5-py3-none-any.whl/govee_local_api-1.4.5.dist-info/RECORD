@@ -1,0 +1,9 @@
+govee_local_api/__init__.py,sha256=EwTp1PldoI3Jzbw0tK6e7f4pr1vtJhTPAH4UiGyRXks,219
+govee_local_api/controller.py,sha256=lOhznY00SV0a2NCPgHFfeJGjCNzG-xISeQTsYZ2Y15Q,13573
+govee_local_api/device.py,sha256=_WJ8i5E1wA-od5Tc2wTm53j2qqPMVxmKCOI-csscBac,4062
+govee_local_api/light_capabilities.py,sha256=6o8MqCUbV_Yya0_gstfy-KDxKfR0N8U_XgoGpGJ_fLA,11156
+govee_local_api/message.py,sha256=M5bhACnyg7zEBHaihNq3HF9mc4-RkYzqE4ZCL0zQI50,3755
+govee_local_api-1.4.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+govee_local_api-1.4.5.dist-info/METADATA,sha256=X79ei8eeFFJxXGExz7FK18pmzaGfTpf-JOba1qPvFiI,1439
+govee_local_api-1.4.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+govee_local_api-1.4.5.dist-info/RECORD,,
