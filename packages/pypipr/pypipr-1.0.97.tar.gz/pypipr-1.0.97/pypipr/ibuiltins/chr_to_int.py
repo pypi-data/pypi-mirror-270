@@ -1,0 +1,20 @@
+def chr_to_int(s, start=1, numbers="abcdefghijklmnopqrstuvwxyz"):
+    """
+    Fungsi ini berguna untuk mengubah urutan huruf menjadi angka.
+
+    ```python
+    print(chr_to_int('z'))  # Output: 26
+    print(chr_to_int('aa'))  # Output: 27
+    print(chr_to_int('abc', numbers="abc"))  # Output: 10
+    ```
+    """
+    result = 0
+    digit = len(numbers)
+    for char in s:
+        result = result * digit + numbers.index(char) + 1
+    return result - start
+
+if __name__ == "__main__":
+    print(chr_to_int('z'))  # Output: 25
+    print(chr_to_int('aa'))  # Output: 26
+    print(chr_to_int('abc', numbers="abc"))  # Output: 5
