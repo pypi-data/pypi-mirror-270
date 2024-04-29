@@ -1,0 +1,3 @@
+[console_scripts]
+aws-idc-list-user-permissions=aws_idc_list_user_permissions.aws_idc_list_user_permissions:main
+
