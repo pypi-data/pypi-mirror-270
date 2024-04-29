@@ -1,0 +1,47 @@
+# bambot/templates/Dockerfile.lightweight.j2
+FROM python:3.9-alpine
+
+WORKDIR /app
+
+# Install the required packages
+RUN apk add --no-cache \
+    build-base \
+    musl-dev \
+    libffi-dev
+
+# Copy the bambot directory
+COPY bambot/ bambot/
+
+# Install required packages for the app
+RUN pip install --no-cache-dir click tqdm jinja2 requests
+
+# Copy the requirements.txt file if it exists, otherwise create an empty file
+COPY requirements.txt* ./
+RUN touch requirements.txt
+
+# Install additional packages from requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the bot file
+COPY bot.py ./
+
+# Remove the build dependencies
+RUN apk del \
+    build-base \
+    musl-dev \
+    libffi-dev
+
+# Set the PYTHONUNBUFFERED environment variable to ensure real-time output
+ENV PYTHONUNBUFFERED=1
+
+# Disable Python's generation of .pyc files
+ENV PYTHONDONTWRITEBYTECODE=1
+
+# Copy the run script
+COPY run.sh /app/run.sh
+
+# Make the run script executable
+RUN chmod +x /app/run.sh
+
+# Start the agent
+CMD ["/app/run.sh"]
