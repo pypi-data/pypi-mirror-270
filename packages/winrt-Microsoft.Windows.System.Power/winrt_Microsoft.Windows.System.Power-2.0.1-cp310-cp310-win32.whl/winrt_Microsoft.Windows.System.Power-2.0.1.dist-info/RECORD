@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_windows_system_power.cp310-win32.pyd,sha256=_7c4V50k0W9ZS64WV_ifQzYHeX3PZyZ7Z6qwL8evmz0,79872
+winrt/_winrt_microsoft_windows_system_power.pyi,sha256=PkNq2bHULm8zoVgh9VKTwzgI9E2Y4r6mVbjxksyl4Aw,4798
+winrt/microsoft/windows/system/power/__init__.py,sha256=f51l4m8fSHAv1u3sJsewROmibJpusQKx_gx-gcryOVk,1293
+winrt/microsoft/windows/system/power/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Windows.System.Power-2.0.1.dist-info/METADATA,sha256=nj8Mnk4MG9Tsllu5V-YvT2Ny-TLklkXpShmL-OVmfb4,1075
+winrt_Microsoft.Windows.System.Power-2.0.1.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Microsoft.Windows.System.Power-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Windows.System.Power-2.0.1.dist-info/RECORD,,
