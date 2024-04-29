@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: eink-calendar
+Version: 0.1.0
+Summary: 
+Author: Tyler Compton
+Author-email: xaviosx@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-api-python-client (>=2.100.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.1.1,<0.2.0)
+Requires-Dist: google-auth-oauthlib (>=1.1.0,<2.0.0)
+Requires-Dist: inky[example-depends,rpi] (>=1.5.0,<2.0.0)
+Requires-Dist: pillow (>=10.0.1,<11.0.0)
+Requires-Dist: pysdl2 (>=0.9.16,<0.10.0)
+Requires-Dist: pyxdg (>=0.28,<0.29)
+Description-Content-Type: text/markdown
+
+# eInk Calendar
+
+Displays Google Calendar events on an Inky Impression display.
+
+![Example showing how the UI looks](https://i.imgur.com/cKqnSmU.png)
+
