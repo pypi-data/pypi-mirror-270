@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: haulsrv
+Version: 0.0.0
+Summary: A log sequencer with bottomless storage
+Author-email: Alex Kwiatkowski <alex@fremantle.io>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aioquic >=1.0.0
+Requires-Dist: hypercorn[uvloop] >=0.16.0
+Requires-Dist: nuitka ~=2.1.2
+Requires-Dist: opendal >=0.45.1
+Requires-Dist: pydantic >=2.5.0
+Requires-Dist: pydantic-settings >=2.2.1
+Requires-Dist: pydanticutils >=0.0.3
+Requires-Dist: quart >=0.19.5
+Requires-Dist: quart-schema[pydantic] >=0.19.1
+Requires-Dist: result ~=0.16.0
+Requires-Dist: rich ~=13.7.0
+Requires-Dist: typer[all] ~=0.9.0
+Requires-Dist: typerutils >=0.0.0
+Requires-Dist: universal-pathlib ~=0.1.4
+Provides-Extra: test
+Requires-Dist: build >=1.2.1 ; extra == 'test'
+Requires-Dist: requests-mock >=1.11.0 ; extra == 'test'
+Requires-Dist: ruff >=0.3.4 ; extra == 'test'
+Requires-Dist: pip-tools >=7.4.1 ; extra == 'test'
+Requires-Dist: pygments >=2.17.0 ; extra == 'test'
+Requires-Dist: pyhamcrest >=2.1.0 ; extra == 'test'
+Requires-Dist: pyright >=1.1.0 ; extra == 'test'
+Requires-Dist: pytest >=8.1.0 ; extra == 'test'
+Requires-Dist: pytest-asyncio >=0.23.0 ; extra == 'test'
+Requires-Dist: pytest-cov >=5.0.0 ; extra == 'test'
+Requires-Dist: pytest-recording >=0.13.1 ; extra == 'test'
+Requires-Dist: pytest-unordered >=0.6.0 ; extra == 'test'
+Requires-Dist: pytest-watcher >=0.4.0 ; extra == 'test'
+Requires-Dist: twine >=5.0.0 ; extra == 'test'
+
+# haulsrv
+![pypi](https://img.shields.io/pypi/v/haulsrv.svg)
+![versions](https://img.shields.io/pypi/pyversions/haulsrv.svg)
+
+Hauler server. A log sequencer with bottomless storage adapters.
+
+## Usage
+
+Run the docker container
+
+```console
+> docker run rupurt/haulsrv:latest \
+    -p 8080:8080 \
+    -p 8081:8081
+```
+
+## Development
+
+This repository manages the dev environment as a Nix flake and requires [Nix to be installed](https://github.com/DeterminateSystems/nix-installer)
+
+```console
+> nix develop -c $SHELL
+```
+
+```shell
+> make setup
+```
+
+```shell
+> make test
+```
+
+## Publish Package to PyPi
+
+```shell
+> make pypi
+```
+
+## License
+
+`haulsrv` is released under the [MIT license](./LICENSE)
