@@ -1,0 +1,8 @@
+winrt/_winrt_windows_phone_personalinformation.cp310-win_amd64.pyd,sha256=_UxsTpppAXXykcd1Jtw7ye6rHKl2TpyHhCv_jpdIZDs,288768
+winrt/_winrt_windows_phone_personalinformation.pyi,sha256=wLN9QKjVKZJvglb2CBP9lVs9gqJYQI4akpzrqsbFAuQ,13992
+winrt/windows/phone/personalinformation/__init__.py,sha256=nYjZRhWJvAZDgSQ986WFA3hLF1ItHGwHfdn8gruC3e4,1877
+winrt/windows/phone/personalinformation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Phone.PersonalInformation-2.0.1.dist-info/METADATA,sha256=9QDt9PtsQHIUQ7nC93OO45Gmbr0asJZJYj7DU7hl3xM,1250
+winrt_Windows.Phone.PersonalInformation-2.0.1.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+winrt_Windows.Phone.PersonalInformation-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Phone.PersonalInformation-2.0.1.dist-info/RECORD,,
