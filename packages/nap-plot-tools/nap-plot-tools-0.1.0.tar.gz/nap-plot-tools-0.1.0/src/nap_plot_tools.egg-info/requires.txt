@@ -1,0 +1,13 @@
+numpy
+qtpy
+cmap
+deprecated
+matplotlib
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+pyqt5
+deprecated
