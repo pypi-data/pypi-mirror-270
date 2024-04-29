@@ -1,0 +1,5 @@
+*.log
+*.pyc
+*.cpython*
+*.pyc
+/mkv_episode_matcher/__pycache__
