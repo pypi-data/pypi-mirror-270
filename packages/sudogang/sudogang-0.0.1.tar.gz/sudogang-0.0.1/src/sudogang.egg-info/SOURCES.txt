@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/sudogang/__init__.py
+src/sudogang/example.py
+src/sudogang.egg-info/PKG-INFO
+src/sudogang.egg-info/SOURCES.txt
+src/sudogang.egg-info/dependency_links.txt
+src/sudogang.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sudogang
+Version: 0.0.1
+Summary: A small example package
+Author-email: Author <rimsovankiry@gmail.com>
+Project-URL: Homepage, https://github.com/sovankiry/sudogang
+Project-URL: Issues, https://github.com/sovankiry/sudogang/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sudogang
+sudogang is the project build on Flask &amp; Python for farmer airdrop keep tracking, get new airdrop release, testnet, total earn from airdrop and expense.
