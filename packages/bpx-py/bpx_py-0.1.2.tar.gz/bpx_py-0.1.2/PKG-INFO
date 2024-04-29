@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bpx-py
+Version: 0.1.2
+Summary: Backpack API SDK tool
+Home-page: https://backpack.exchange
+License: Apache-2.0
+Keywords: api,sdk,backpack,client,wrapper
+Author: sndmndss
+Author-email: yanfedorov120505@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.9.5,<4.0.0)
+Requires-Dist: cryptography (>=42.0.5,<43.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/sndmndss/bpx-py/issues
+Project-URL: Get help in discord, https://discord.gg/backpack
+Project-URL: Repository, https://github.com/sndmndss/bpx-py/
+Description-Content-Type: text/markdown
+
+
