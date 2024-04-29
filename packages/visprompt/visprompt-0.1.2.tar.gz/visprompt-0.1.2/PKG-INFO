@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: visprompt
+Version: 0.1.2
+Summary: 
+Author: mschnei
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python-headless
+Requires-Dist: opencv-python-headless
+Requires-Dist: pillow
+Requires-Dist: pyside6 (>=6.5.2,<7.0.0)
+Requires-Dist: pyzmq (==26.0.0)
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: transformers
