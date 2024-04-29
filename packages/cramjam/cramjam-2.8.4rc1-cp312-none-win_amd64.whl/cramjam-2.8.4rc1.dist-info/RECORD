@@ -1,0 +1,9 @@
+cramjam/cramjam.cp312-win_amd64.pyd,sha256=VsLI-HR00ipoPlbAuhyG1QAqJh-itmZAC8rO0SqpftU,4179968
+cramjam/__init__.py,sha256=AuqhpoZxtAChtj3AiqJm0C_VnoZmUlqMwdDetm0ZeMs,439
+cramjam-2.8.4rc1.dist-info/DELVEWHEEL,sha256=vWH9czXiyNyljoE68sOC-1x34xn7vxFbLPwMG9JgLjA,183
+cramjam-2.8.4rc1.dist-info/METADATA,sha256=0hiE8dZA7nnI3-FImobkZCsqcFPOSpAuziXmIr6tsas,4386
+cramjam-2.8.4rc1.dist-info/RECORD,,
+cramjam-2.8.4rc1.dist-info/WHEEL,sha256=2DMsMEuToPssnNZjzCLc-JDvpJNvE9njw6VIV5f_RP4,95
+cramjam-2.8.4rc1.dist-info/license_files/LICENSE,sha256=zCXOSBOs-0xyeQ1JcQ3BB1Lp9RGl3Scav4inSK6Yxuo,1091
+cramjam.libs/libblosc2-fab45eb91b8f528b1231c34920fa9a34.dll,sha256=BDvtcyFtZQHaYR8UTLAL25x9zGcHDgWvIg24G6QjJu0,1137152
+cramjam.libs/vcruntime140-30c65f099a82f40fe697282790538f6d.dll,sha256=TSkmI1FvZcgEgggeYtXa23WdwW6FHeXbJMPLtXuH24M,119192
