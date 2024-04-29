@@ -1,0 +1,8 @@
+winrt-runtime==2.0.1
+
+[all]
+winrt-Microsoft.UI[all]==2.0.1
+winrt-Microsoft.UI.Composition[all]==2.0.1
+winrt-Windows.Foundation[all]==2.0.1
+winrt-Windows.UI[all]==2.0.1
+winrt-Windows.UI.Composition[all]==2.0.1
