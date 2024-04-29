@@ -1,0 +1,8 @@
+winrt/_winrt_windows_graphics_holographic.cp310-win32.pyd,sha256=5ox8dLnV7gpH9akaVoF90t6oezuU2nVfSTZeR3wMb5k,257024
+winrt/_winrt_windows_graphics_holographic.pyi,sha256=ylW6xBW4KBfe-9WkBJS2yKQiS-sukLzQ95DIrnluijs,19441
+winrt/windows/graphics/holographic/__init__.py,sha256=rOTx29rmrG5oX1ttqDovVgR70lA7yJbSP-iE_5OZ5Do,3785
+winrt/windows/graphics/holographic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Graphics.Holographic-2.0.1.dist-info/METADATA,sha256=G3ap0xCWuxYaftBXyS_3AfnhC9BgWPB38fTncLCSEUQ,1627
+winrt_Windows.Graphics.Holographic-2.0.1.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Windows.Graphics.Holographic-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.Holographic-2.0.1.dist-info/RECORD,,
