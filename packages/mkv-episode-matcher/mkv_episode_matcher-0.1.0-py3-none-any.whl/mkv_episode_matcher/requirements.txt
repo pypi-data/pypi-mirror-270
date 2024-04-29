@@ -1,0 +1,8 @@
+requests
+loguru
+pillow
+imagehash
+configparser
+tmdb_client
+pytesseract
+opensubtitlescom
