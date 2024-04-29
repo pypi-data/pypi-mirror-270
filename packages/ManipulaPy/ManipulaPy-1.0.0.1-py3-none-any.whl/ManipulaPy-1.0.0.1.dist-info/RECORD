@@ -1,0 +1,13 @@
+ManipulaPy/__init__.py,sha256=4dEHqk0Nh5uIM56WdL-DKRI4-hGWgNHZI-vpAW4mvbg,319
+ManipulaPy/dynamics.py,sha256=WWT9C4xp387VN0ig2FnQPFU0XUzuirvrNlkM7hhBOsA,6775
+ManipulaPy/kinematics.py,sha256=IKzxo39oLlkBkWQmEGaQBhex3csc5AZm3GuQOfQgB-o,8642
+ManipulaPy/path_planning.py,sha256=kw9qP2Fef3XWTJpxsOzLBjye2mCeAcjGeMXkt6pMLmc,11551
+ManipulaPy/singularity.py,sha256=j9QEn6htTZJkBoocSMYPP0X9jgTPLXTFkgs44kjS-aI,9557
+ManipulaPy/transformations.py,sha256=jKdaFB3uNCGC2788SM6HPXQybryGwq0nqiXw9UbUwLc,2001
+ManipulaPy/urdf_processor.py,sha256=cGHVT5orvK8lo0OPiuHk3DMoFYeXWsuEN75EY9bcJq0,10370
+ManipulaPy/utils.py,sha256=sFF7_Dp94SJ0BbW2MqvSkfgm99sxuA7FsbEoA3LKvsk,9408
+ManipulaPy-1.0.0.1.dist-info/LICENSE.md,sha256=H4sN5gwdGISryc0JDRAurbG323RrcYTrJcpI-KOGqbU,1077
+ManipulaPy-1.0.0.1.dist-info/METADATA,sha256=XkG26hBk7qaT8Px87xwcPp1UlY6v-8DPp0n2oGsNSjc,1538
+ManipulaPy-1.0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ManipulaPy-1.0.0.1.dist-info/top_level.txt,sha256=sA7iXqtMISzZnrFx_ZkxkeXyiVM5yncb8KSa2cygH4A,11
+ManipulaPy-1.0.0.1.dist-info/RECORD,,
