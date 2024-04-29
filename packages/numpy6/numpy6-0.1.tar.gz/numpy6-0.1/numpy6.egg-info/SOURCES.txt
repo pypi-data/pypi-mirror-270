@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+numpy6/__init__.py
+numpy6/cnn.py
+numpy6/mcculloch.py
+numpy6/perceptron.py
+numpy6.egg-info/PKG-INFO
+numpy6.egg-info/SOURCES.txt
+numpy6.egg-info/dependency_links.txt
+numpy6.egg-info/top_level.txt
