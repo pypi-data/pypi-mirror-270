@@ -1,0 +1,38 @@
+[build-system]
+requires = [
+    "setuptools >= 67",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "two_comp"
+version = "0.0.1"
+authors = [
+    {name = "james_tate"}
+]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/james-tate/two_comp"
+Repository = "https://github.com/james-tate/two_comp"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 90
+include = 'src'
+
+[project.optional-dependencies]
+develop = [
+    "isort",
+    "black",
+    "pylint",
+    "pre-commit-hooks",
+    "pytest",
+    "random",
+    "ctypes",
+]

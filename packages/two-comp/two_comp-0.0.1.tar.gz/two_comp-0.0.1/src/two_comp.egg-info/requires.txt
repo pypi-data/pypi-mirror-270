@@ -1,0 +1,9 @@
+
+[develop]
+isort
+black
+pylint
+pre-commit-hooks
+pytest
+random
+ctypes
