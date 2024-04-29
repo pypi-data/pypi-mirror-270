@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: video-toolkit
+Version: 0.1.0
+Summary: package to help you with extraction of video information eg audio, subtitle
+Home-page: UNKNOWN
+Author: Dear Norathee
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: os-toolkit
+Requires-Dist: pandas
+Requires-Dist: dataframe-short
+Requires-Dist: seaborn
+Requires-Dist: python-wizard
+Requires-Dist: pysrt
+Requires-Dist: pydub
+Requires-Dist: playsound
+
+UNKNOWN
+
