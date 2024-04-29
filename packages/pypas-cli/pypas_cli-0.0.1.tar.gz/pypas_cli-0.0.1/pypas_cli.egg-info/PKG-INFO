@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pypas-cli
+Version: 0.0.1
+Summary: pypas
+Home-page: https://github.com/sdelquin/pypas.git
+Author: Sergio Delgado Quintero
+Author-email: sdelquin@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypas-cli

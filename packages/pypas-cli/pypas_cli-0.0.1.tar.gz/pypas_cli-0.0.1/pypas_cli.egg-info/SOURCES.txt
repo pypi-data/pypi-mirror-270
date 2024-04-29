@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pypas/core.py
+pypas_cli.egg-info/PKG-INFO
+pypas_cli.egg-info/SOURCES.txt
+pypas_cli.egg-info/dependency_links.txt
+pypas_cli.egg-info/top_level.txt
