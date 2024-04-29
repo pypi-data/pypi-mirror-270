@@ -1,0 +1,13 @@
+passive_honeypot_OTTODANP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+passive_honeypot_OTTODANP/config.py,sha256=tGVutxJs6FZAxSl3BE8l7iUzW_Uv5cnhugT2WTMAh-I,1733
+passive_honeypot_OTTODANP/database.py,sha256=Bubd__yuLoB-PYR-tILa-aJ27k-iiMK0GVXaYACVmYQ,4555
+passive_honeypot_OTTODANP/favicon.ico,sha256=vsawexmOxloJnL39WKHATTY4p44f8_FrM4KioyM4Fjc,23461
+passive_honeypot_OTTODANP/honeypot.py,sha256=EvD0tdYpNPd8r4hR1g5BFRNUtXb0UlvSSqqA-yMt9DY,6035
+passive_honeypot_OTTODANP/templates/home.html,sha256=6ZXMfiisPKJ1wbGMhbV-gLYG8wwLaOVPFQtOHdkCMLw,1508
+passive_honeypot_OTTODANP/templates/navbar.html,sha256=x1y7MYgUi8zky5wr-_XajnQAWlumAbG78p9iGx51jW0,749
+passive_honeypot_OTTODANP/templates/view_hosts.html,sha256=4FG9BOF1J6C-37ctT5SwykiieITayBj3RHnHWYJbN_k,2224
+passive_honeypot_OTTODANP/templates/view_requests.html,sha256=JfHB9BkXgrp6z3fdUZmLVcr0a88M7ai66QzG59LTGSE,4217
+passive_honeypot_ottodanp-0.1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+passive_honeypot_ottodanp-0.1.0.dist-info/METADATA,sha256=SooBO8EpCztCJ9NooNf117IetfrC2xkec2UYBTDvBL8,607
+passive_honeypot_ottodanp-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+passive_honeypot_ottodanp-0.1.0.dist-info/RECORD,,
