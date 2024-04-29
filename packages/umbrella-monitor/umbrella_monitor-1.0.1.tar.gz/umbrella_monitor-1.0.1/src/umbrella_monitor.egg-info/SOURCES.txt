@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/umbrella_monitor/__init__.py
+src/umbrella_monitor/__main__.py
+src/umbrella_monitor/toml_config_mgr.py
+src/umbrella_monitor.egg-info/PKG-INFO
+src/umbrella_monitor.egg-info/SOURCES.txt
+src/umbrella_monitor.egg-info/dependency_links.txt
+src/umbrella_monitor.egg-info/requires.txt
+src/umbrella_monitor.egg-info/top_level.txt

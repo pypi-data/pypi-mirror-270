@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: umbrella_monitor
+Version: 1.0.1
+Summary: Python service to check and update Umbrella network IP addressing.
+Author-email: Thomas Dunteman <git@learningtopi.com>
+Project-URL: homepage, https://www.learningtopi.com/python-modules-applications/umbrella_monitor/
+Project-URL: bug tracker, https://github.com/LearningToPi/umbrella_monitor/issues
+Project-URL: source code, https://github.com/LearningToPi/umbrella_monitor
+Keywords: umbrella,dns
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Communications :: Email :: Mail Transport Agents
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: validators==0.28.1
+Requires-Dist: six==1.16.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: logging-handler==1.0.7
+Requires-Dist: ipcalc==1.99.0
+Requires-Dist: hvac==2.1.0
+
+# umbrella_monitor
+Monitor / Update Cisco Umbrella dynamic network addresses
