@@ -1,0 +1,10 @@
+bykml/__init__.py,sha256=Dc4tSEJLGpKnqb3Y__pBzaaKOsn494b6jt9TwC0ZDL8,21
+bykml/__main__.py,sha256=l1mxYl9u38L-lE8CzPiC5QjJVlAqHaGAFwxM4UkPPI8,87
+bykml/config.toml,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bykml/kmlfactory.py,sha256=hULQ2P23awfHKD6wHW651tPm2-z9kyEUQWkKySHqreA,3186
+bykml-1.5.0.dist-info/LICENCE,sha256=07d9gsaWWl5DC9o9RrAIegULwpuTPvdTQLOnuGtS7Og,1061
+bykml-1.5.0.dist-info/METADATA,sha256=K_IADNGbOPfRcFtxVcdawt7RSTHUhD4ZtygT8BaCnsQ,1930
+bykml-1.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bykml-1.5.0.dist-info/entry_points.txt,sha256=6up07rYxoiRl79G5UT4k7qAomTqdWgX3_VBAQgJWJgo,51
+bykml-1.5.0.dist-info/top_level.txt,sha256=w7MIaS4w8aK4VOCp9VxHsi0z3ng3y0oh7HDlaWUXadc,6
+bykml-1.5.0.dist-info/RECORD,,
