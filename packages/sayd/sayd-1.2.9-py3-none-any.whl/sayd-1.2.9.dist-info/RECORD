@@ -1,0 +1,11 @@
+sayd/__init__.py,sha256=Iqliw2AiXoWKFSHhE1PVDxLB8iKThlGrpTMqWMvlqn4,777
+sayd/__main__.py,sha256=pr2nzooBvYVwnNILqFguFgzpS7MrvOQnLWbFUK_7-hA,2192
+sayd/_client.py,sha256=k2O2sbwfDaF7VZcEhQA7YmOEfZEsDne6hEpDGw-d_0E,14856
+sayd/_server.py,sha256=R1-ZUQQRzOkFip_b2gZ0YOQf-YOwajhbeA2UGQFIe5Y,20538
+sayd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sayd-1.2.9.dist-info/LICENSE,sha256=w3eD7MRg_5j8EvkDZsCHdojan_Sgp36eT6AhTFUmKu0,9162
+sayd-1.2.9.dist-info/METADATA,sha256=OGSRyd17VsoOWkOawXO66-XZcANnuWfibgA9Uul6fmQ,4466
+sayd-1.2.9.dist-info/NOTICE,sha256=lg_YDJB9oN_IarEbDaaqGvR_PUvIjG1kV8zaAzDV_74,542
+sayd-1.2.9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sayd-1.2.9.dist-info/entry_points.txt,sha256=SzsUPoDoDbdPTOIgYZ2z8la6ntiKGzDuQ83tBh9xkls,46
+sayd-1.2.9.dist-info/RECORD,,
