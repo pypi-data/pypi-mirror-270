@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: ood_detectors
+Version: 0.0.3
+Project-URL: Documentation, https://github.com/Arty-Facts/ood_detectors#readme
+Project-URL: Issues, https://github.com/Arty-Facts/ood_detectors/issues
+Project-URL: Source, https://github.com/Arty-Facts/ood_detectors
+Author-email: Arturas Aleksandraus <arturas@aleksandraus.se>, Yifan Ding <yifan.ding@liu.se>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: docker
+Requires-Dist: einops
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: spacy[cuda11x]
+Requires-Dist: torch
+Requires-Dist: torchdiffeq
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# ood_detectors
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ood_detectors.svg)](https://pypi.org/project/ood_detectors)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ood_detectors.svg)](https://pypi.org/project/ood_detectors)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install ood_detectors
+```
+
+## License
+
+`ood_detectors` is distributed under the terms of the [apache-2.0](https://choosealicense.com/licenses/apache-2.0/) license.
