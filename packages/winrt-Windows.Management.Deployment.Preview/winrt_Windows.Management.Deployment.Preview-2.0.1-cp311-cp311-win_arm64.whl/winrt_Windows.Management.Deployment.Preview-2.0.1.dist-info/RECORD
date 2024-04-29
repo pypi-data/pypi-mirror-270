@@ -1,0 +1,8 @@
+winrt/_winrt_windows_management_deployment_preview.cp311-win_arm64.pyd,sha256=jahu2ejvKxkJjZufGhswJBnHUm9a73g18QoZqFkLN3A,36864
+winrt/_winrt_windows_management_deployment_preview.pyi,sha256=MCTVFLjPD8rCTCGuTLN3W_5-sk3kEWXFjbMoF3MY-eY,888
+winrt/windows/management/deployment/preview/__init__.py,sha256=ZClbstDZDXzD9oejYFyQ3nsYDpnNJ14JOrDWEEcBa1Q,414
+winrt/windows/management/deployment/preview/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Management.Deployment.Preview-2.0.1.dist-info/METADATA,sha256=a41VU1AO97S_Qu8NT0jsG-1SifTzcOywYUnu63-BvUY,1009
+winrt_Windows.Management.Deployment.Preview-2.0.1.dist-info/WHEEL,sha256=KYdEOsdUN8GC50wETE93-AKMCFYWlcSEIynIYo-Bwus,102
+winrt_Windows.Management.Deployment.Preview-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Management.Deployment.Preview-2.0.1.dist-info/RECORD,,
