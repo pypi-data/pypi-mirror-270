@@ -1,0 +1,14 @@
+aiocsv/__init__.py,sha256=dXvdqhxxOVgiGXBwABTdElAVCHtWF3NxXaImJIZwWzI,587
+aiocsv/_parser.c,sha256=-2EuAsZbaKaJpBWrDtDZ-XkNSmLSlrsfZmYu07Dcbw8,33230
+aiocsv/_parser.cp38-win_amd64.pyd,sha256=ZAej9DwndBvDWXd27G_mPBq_nqsP2EXLnrMTzi28rZ0,19456
+aiocsv/_parser.pyi,sha256=sxHir1e70HibgVjTncWjd5ASszHMd9cgldslr_LAQo4,519
+aiocsv/parser.py,sha256=dxZRNt3ZBwOAzZ7us-GbVN4g7D5r-NvfCJ_3glGHiX8,10915
+aiocsv/protocols.py,sha256=bL6zmizeukYEsByreYam8V_h2ky26n-RxR8evuwG-oA,1025
+aiocsv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocsv/readers.py,sha256=p5ou7cps-QQXdUmMkK66Ibjs-GMKntSbhqA9wnGacNQ,4143
+aiocsv/writers.py,sha256=4kcW9EoTSzCgMfT6qVou0rh0XhnbNPfJCg4g5p92aao,4031
+aiocsv-1.3.2.dist-info/LICENSE,sha256=GgYeGEdn3UgZoin2IGybwlEkJlceWI6xFNgUrRhLI5A,1073
+aiocsv-1.3.2.dist-info/METADATA,sha256=RsA6-wVNl4qhK0nezquSoZQH7TXUzRGD2EogTAx_SuQ,13248
+aiocsv-1.3.2.dist-info/WHEEL,sha256=Wb4yjwIXVKEpht4JWFUZNCzpG7JLBNZnqtK2YNdqLkI,100
+aiocsv-1.3.2.dist-info/top_level.txt,sha256=OdDe092gj_o74s619Yjp23cCp_nTyoAWvFgC5K4ZlXQ,7
+aiocsv-1.3.2.dist-info/RECORD,,
