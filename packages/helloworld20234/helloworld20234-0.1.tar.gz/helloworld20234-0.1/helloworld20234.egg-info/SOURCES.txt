@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+helloworld20234.egg-info/PKG-INFO
+helloworld20234.egg-info/SOURCES.txt
+helloworld20234.egg-info/dependency_links.txt
+helloworld20234.egg-info/top_level.txt
+src/__init__.py
+src/cnn.py
+src/mcculloch.py
+src/perceptron.py
