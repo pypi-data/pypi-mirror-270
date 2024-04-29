@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: kayoc
+Version: 0.0.7
+Requires-Dist: requests==2.31.0
+Requires-Dist: aiohttp==3.9.3
