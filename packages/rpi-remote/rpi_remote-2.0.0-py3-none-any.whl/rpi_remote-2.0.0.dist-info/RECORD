@@ -1,0 +1,9 @@
+rpi_remote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpi_remote/forward.py,sha256=Z_6nTHNCN6ljntrLOZtybhgCCf6_5zn_h4T4TRuOpmU,1271
+rpi_remote/rpi_remote.py,sha256=Cpup2PP5R7tTKP1mCBXO3lK-hQvr_e75Q0SC_n2AlJo,5212
+rpi_remote-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rpi_remote-2.0.0.dist-info/METADATA,sha256=lPo0HuNKh5-XQx6jzuprLESObzP5eBMiz-QH-NuGDMM,1848
+rpi_remote-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rpi_remote-2.0.0.dist-info/entry_points.txt,sha256=RAfip6A9X5aC_-IVQxm7s3yNLBoqLJ263BYDVbQ_Vrs,58
+rpi_remote-2.0.0.dist-info/top_level.txt,sha256=iaHK5OZ54mzo3kfgaeibr4xJBXC00qXPua1NcneTEbQ,11
+rpi_remote-2.0.0.dist-info/RECORD,,
