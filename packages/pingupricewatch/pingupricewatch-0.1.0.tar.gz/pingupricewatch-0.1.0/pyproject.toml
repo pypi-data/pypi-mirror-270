@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pingupricewatch"
+version = "0.1.0"
+description = ""
+authors = ["Pinguin <ponguout@posteo.net>", "Tuxilio"]
+readme = "README.md"
+repository = "https://codeberg.org/PinguPriceWatch/PinguPriceWatch"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+pydantic = "^2.7.1"
+
+
+[tool.poetry.group.development.dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
