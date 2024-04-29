@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: traffic_anonymous
+Version: 1.0.1
+Summary: 流量匿名化工具
+Home-page: https://pypi.org/project/traffic_anonymous
+Author: aimafan
+Author-email: chongrufan@nuaa.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 信工所流量匿名
+
+主要任务是将流日志的IP和Port进行匿名化处理，并且要求这种匿名化处理是可逆的
+
+## 流日志形式
+
+```
+2024-03-15 01:58:59	192.168.107.22.62510>10.28.8.78.53	6	1,36,1710439139;1,36,1710439139;2,52,1710439139;2,52,1710439139;
+2024-03-15 01:58:59	192.168.107.49.59637>10.28.8.78.53	6	1,57,1710439139;1,57,1710439139;2,153,1710439139;2,153,1710439139;
+2024-03-15 01:59:59	192.168.107.93.50492>159.226.227.107.80	17	1,277,1710439199;2,755,1710439199;
+2024-03-15 01:59:58	192.168.107.93.50436>159.226.227.117.80	17	1,277,1710439198;2,1460,1710439198;2,13,1710439198;1,277,1710439198;2,1460,1710439198;2,421,1710439198;
+```
+
+这些流日志依次是
+
+日期 时间 源IP.源Port>目的IP.目的Port 协议类型(6代表TCP，17代表UDP) 方向(1代表c2s，2代表s2c),包大小,时间戳;方向(1代表c2s，2代表s2c),包大小,时间戳;.....
+
+
+## how to use
+
+使用
+```
+traffic_anonymous --help
+```
+进行查询
