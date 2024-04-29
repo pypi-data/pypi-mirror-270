@@ -1,0 +1,6 @@
+validators==0.28.1
+six==1.16.0
+requests==2.31.0
+logging-handler==1.0.7
+ipcalc==1.99.0
+hvac==2.1.0
