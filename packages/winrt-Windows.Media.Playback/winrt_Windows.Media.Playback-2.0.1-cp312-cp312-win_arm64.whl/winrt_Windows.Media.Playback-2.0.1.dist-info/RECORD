@@ -1,0 +1,8 @@
+winrt/_winrt_windows_media_playback.cp312-win_arm64.pyd,sha256=-EEhefP2HZ9xcJiQX5LGYe0qDXViPJgjPtWay1sLqsA,752128
+winrt/_winrt_windows_media_playback.pyi,sha256=uYmJBT-knQVw8CrYLFus_uTJw9SOun9UyKHE42KzboE,55685
+winrt/windows/media/playback/__init__.py,sha256=k-0p9bUKZXNWAdnokJYhFW8d9yINV4fCQDT7pBbGhTk,9120
+winrt/windows/media/playback/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Media.Playback-2.0.1.dist-info/METADATA,sha256=20mRXDhWDcbW92e9ZwJHYPG4j1BE0_Nfh9nas1rqQJ4,2061
+winrt_Windows.Media.Playback-2.0.1.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.Media.Playback-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Media.Playback-2.0.1.dist-info/RECORD,,
