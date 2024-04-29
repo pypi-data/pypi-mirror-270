@@ -1,0 +1,8 @@
+winrt/_winrt_windows_networking_pushnotifications.cp39-win32.pyd,sha256=3MYb_G7oOHEt2Kpqd04YztMauwnGlm5IiGmuAcb1Jjg,99328
+winrt/_winrt_windows_networking_pushnotifications.pyi,sha256=VqugYxWRFQGw6_OnN-SDEFWUzr4tkoxLG7d-iJUwb0A,5341
+winrt/windows/networking/pushnotifications/__init__.py,sha256=URnGZ4qttSHwy1i7pmv6BC1F8o5qCfGDBPj_TOYz-4c,1206
+winrt/windows/networking/pushnotifications/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Networking.PushNotifications-2.0.1.dist-info/METADATA,sha256=kdOaKlysYyvQgLNv2y8lrCQTNPJW-tbPX5Otd0VGrRE,1410
+winrt_Windows.Networking.PushNotifications-2.0.1.dist-info/WHEEL,sha256=1aMbN4t2zTDfBHuhuWzAfIzzQesiKpXOWwJmQwUBD2M,96
+winrt_Windows.Networking.PushNotifications-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Networking.PushNotifications-2.0.1.dist-info/RECORD,,
