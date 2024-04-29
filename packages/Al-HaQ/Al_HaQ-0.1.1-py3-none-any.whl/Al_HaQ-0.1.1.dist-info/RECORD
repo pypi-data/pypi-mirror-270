@@ -1,0 +1,10 @@
+al-haq/__init__.py,sha256=bwqR3R9ZJEOAE7ABN8rFYyOg4r-bPE2qbVlqw1Y6za4,551
+al-haq/bqm_utils.py,sha256=EKg_NhU6KUG73p1KksUbo3yoFThtYeCwtQPz4r7WKiU,5352
+al-haq/flask-backend.py,sha256=xwDX--_fW56TPwSPc4j25qcOJKeuZUI29fxrgKfLMnc,6192
+al-haq/preprocessing.py,sha256=uuR-U0Imrns8w_KN2tYvGZ3byoROcyitApo9qryjf_k,1851
+al-haq/train.py,sha256=bbzfcx3x1StvEPQ4Yf3NeVeXrwQslloPfuQA_4oY9Jk,3764
+Al_HaQ-0.1.1.dist-info/LICENSE,sha256=-00DU9Q1Rt7n6VFYgIaiMehKLJYjUXxcNHKK7EgFpOk,1066
+Al_HaQ-0.1.1.dist-info/METADATA,sha256=dn3EmzMvR5Mpw7JYdXk87Xln2lw4WgJ3TIfbjdR8CCM,1833
+Al_HaQ-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+Al_HaQ-0.1.1.dist-info/top_level.txt,sha256=2y3rpsuIcur6ehva2oBr8UMfj7WewHviR9mm6otFOME,7
+Al_HaQ-0.1.1.dist-info/RECORD,,
