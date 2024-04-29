@@ -1,0 +1,10 @@
+README.md
+setup.py
+pycheckers/__init__.py
+pycheckers/checkers.py
+pycheckers/host.py
+pycheckers.egg-info/PKG-INFO
+pycheckers.egg-info/SOURCES.txt
+pycheckers.egg-info/dependency_links.txt
+pycheckers.egg-info/requires.txt
+pycheckers.egg-info/top_level.txt
