@@ -1,0 +1,2 @@
+[console_scripts]
+pdfwordify = pdfwordify.pdf2word:main_cli
