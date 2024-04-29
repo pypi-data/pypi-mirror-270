@@ -1,0 +1,66 @@
+Metadata-Version: 2.3
+Name: mip2
+Version: 0.0.1
+Summary: A mixed integer modeling tool with code style similar to gurobi
+Project-URL: Homepage, https://pypi.org/manage/projects/
+Project-URL: Issues, https://pypi.org/manage/projects/
+Author-email: allen2233 <author@example.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# mip2
+
+mip2 is a mip modeling tool that imitates gurobi's API syntax, making mip modeling easier.
+
+The mip2 backend supports cbc, gurobi, scip, and copt solvers.
+
+mip2 is not a re-implemented modeling tool, but is integrated based on py-mip, pyscipopt, coptpy and other tools. Therefore, when you need to use a specific solver, you need to install the corresponding tool package.
+
+**CBC,GUROBI** 
+```sh
+pip install mip
+```
+
+**SCIP** 
+```sh
+conda install --channel conda-forge pyscipopt
+```
+
+**COPT** 
+```sh
+pip install coptpy
+```
+
+
+## examples
+Here is a simple example.
+
+```python
+
+from mip2.api import Model, Param
+
+m = Model(solver_name="CBC")
+x = m.addVars([1,2,3], vtype="I", name="x")
+
+m.addConstr(x[1] == 10)
+m.addConstr(x.sum() <= 20)
+m.addConstr(x.sum() >= 15)
+
+m.setObjective(x.sum())
+m.setParam(Param.MIPGap, 0.01)
+m.setParam(Param.TimeLimit, 10)
+status = m.optimize()
+
+print("x value is:", [x[i].x for i in [1,2,3]])
+print("obj value is:", m.objVal)
+print("model status is:", status)
+```
+
+
+
+## api
+
