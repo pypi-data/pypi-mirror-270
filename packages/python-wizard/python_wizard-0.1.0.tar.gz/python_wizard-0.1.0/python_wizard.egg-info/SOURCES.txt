@@ -1,0 +1,7 @@
+setup.py
+python_wizard/__init__.py
+python_wizard/utils.py
+python_wizard.egg-info/PKG-INFO
+python_wizard.egg-info/SOURCES.txt
+python_wizard.egg-info/dependency_links.txt
+python_wizard.egg-info/top_level.txt
