@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pyzdoc
+Version: 2024.4.29
+Summary: A collection of (cool) scripts / utilities
+Home-page: https://github.com/CristiFati/pyzdoc
+Download-URL: https://pypi.org/project/pyzdoc
+Author: Cristi Fati
+Author-email: fati_utcluj@yahoo.com
+Maintainer: Cristi Fati
+Maintainer-email: fati_utcluj@yahoo.com
+License: MIT
+Platform: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# *PyZDoc*
+
+A collection of (cool) scripts / utilities
+
+
+## Install
+
+Use *PIP*:
+
+```shell
+python -m pip install --upgrade pyzdoc
+```
+
+
+## Usage example
+
+```python
+# --- Windows only ---
+import pyzdoc
+
+pyzdoc.MessageBox("Title", "Text to display", 200, 200)
+```
+
