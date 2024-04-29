@@ -1,0 +1,2 @@
+[console_scripts]
+securenv = securenv.cli:main
