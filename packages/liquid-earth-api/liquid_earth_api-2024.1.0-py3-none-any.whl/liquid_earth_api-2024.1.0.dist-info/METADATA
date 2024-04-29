@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: liquid_earth_api
+Version: 2024.1.0
+Summary: Python API to interact with Liquid Earth
+Home-page: 
+Author: Miguel de la Varga
+Author-email: miguel@terranigma-solutions.com
+License: EUPL-v1.2
+License-File: LICENSE.txt
+Requires-Dist: python-dotenv ~=1.0.1
+Requires-Dist: pytest
+Requires-Dist: azure-storage-blob
+Requires-Dist: setuptools ~=65.5.1
+Requires-Dist: requests ~=2.31.0
+Requires-Dist: subsurface
+
