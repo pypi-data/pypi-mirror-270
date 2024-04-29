@@ -1,0 +1,16 @@
+pyrsistent_extras-0.1.1.dist-info/METADATA,sha256=W4lxWDAskYx0xL5sy-4XBgrhXX48ep-5TeC5wd8_Jro,5276
+pyrsistent_extras-0.1.1.dist-info/RECORD,,
+pyrsistent_extras-0.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrsistent_extras-0.1.1.dist-info/WHEEL,sha256=vt49DtXUhUkh-clfcSyaPVHABq6OZH4HcLIiU5tExEo,157
+pyrsistent_extras-0.1.1.dist-info/licenses/LICENSE.mit,sha256=txkWpwv1Lx4h-gBAAVoUjeDyj8b-2xMzjh9ZtK_OCnc,1054
+pyrsistent_extras/_pheap.py,sha256=ycckU-niMPOvkbQm71LOqA4sD4UiIEB3TyEz_OXWxRc,21070
+pyrsistent_extras/lenses.py,sha256=Y70KR7lmnqAMMUBnn7xvJAZem3hXewjpANGWkPzB0zk,2141
+pyrsistent_extras/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrsistent_extras/_utility.py,sha256=GGKnLqKMDEMUOXjQrZkB0sH_kG5ecSBqp-DDvOjTti0,1881
+pyrsistent_extras/__init__.py,sha256=6aQDHHMAs1EUG-4JX2vHlZ5C4NP1V82gekw8d0X84Wk,150
+pyrsistent_extras/_version.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+pyrsistent_extras/_psequence/_base.py,sha256=Rg93AVWIZzlz1mnS-Z3qvSi50letAGtAGik0DAFsZaA,19486
+pyrsistent_extras/_psequence/_c_ext.c,sha256=XLmeLogyZlvaICp0ElQ_F6iIeg7-b4erp-8LZR_GIPo,126647
+pyrsistent_extras/_psequence/__init__.py,sha256=e7wZsRCI1JTD8SpNywL6YMyiYrQOaPzbA6cU8cB5k5A,916
+pyrsistent_extras/_psequence/_c_ext.h,sha256=-dhXWtaE1XR2EZMc4S1T-6v8KQIy67GKh9WQ9YnFqd0,20777
+pyrsistent_extras/_psequence/_c_ext.cpython-310-aarch64-linux-gnu.so,sha256=6HB01abDqiHOtG8ICbAMDpVObpEn8k7CBnrcJMYAF5M,156256
