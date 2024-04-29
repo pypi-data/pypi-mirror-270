@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+torch>=1.7.1
+tqdm
+plotly
+matplotlib
+networkx
+seaborn
+ipywidgets
+IPython
+
+[get_ngl_link]
+nglscenes
+
+[wandb]
+wandb
