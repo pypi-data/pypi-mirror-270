@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: swit-core
+Version: 3.1.2
+Summary: this is a switbuilder core package
+Author-email: ur-team <developers@swit.io>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx >=0.26.0
+Requires-Dist: fastapi ~=0.109.2
+Requires-Dist: SQLAlchemy >=2.0.27
+Requires-Dist: PyMySQL >=1.1.0
+Requires-Dist: ur-tunnel >=0.0.13
+Requires-Dist: python-dotenv >=1.0.1
+Requires-Dist: uvicorn >=0.27.1
+Requires-Dist: PyJWT ==2.8.0
+
+this is swit core
