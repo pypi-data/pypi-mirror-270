@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+binspec/__init__.py
+binspec/errors.py
+binspec/spec.py
+binspec.egg-info/PKG-INFO
+binspec.egg-info/SOURCES.txt
+binspec.egg-info/dependency_links.txt
+binspec.egg-info/top_level.txt
+binspec/types/__init__.py
+binspec/types/spec_type.py
+binspec/ui/__init__.py
+binspec/ui/ui.py
+binspec/utilities/__init__.py
+binspec/utilities/utilities.py
