@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tamilscraper/src/tamilscraper.egg-info/PKG-INFO
+tamilscraper/src/tamilscraper.egg-info/SOURCES.txt
+tamilscraper/src/tamilscraper.egg-info/dependency_links.txt
+tamilscraper/src/tamilscraper.egg-info/top_level.txt
+tamilscraper/src/tamilscraper.py
+tamilscraper/src/tamilscraper.egg-info/PKG-INFO
+tamilscraper/src/tamilscraper.egg-info/SOURCES.txt
+tamilscraper/src/tamilscraper.egg-info/dependency_links.txt
+tamilscraper/src/tamilscraper.egg-info/top_level.txt
