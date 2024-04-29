@@ -1,0 +1,8 @@
+httpx>=0.26.0
+fastapi~=0.109.2
+SQLAlchemy>=2.0.27
+PyMySQL>=1.1.0
+ur-tunnel>=0.0.13
+python-dotenv>=1.0.1
+uvicorn>=0.27.1
+PyJWT==2.8.0
