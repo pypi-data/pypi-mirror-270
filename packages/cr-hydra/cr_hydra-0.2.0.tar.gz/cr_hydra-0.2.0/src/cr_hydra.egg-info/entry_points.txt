@@ -1,0 +1,5 @@
+[console_scripts]
+crh_add = crh_add:main
+crh_get_file = crh_get_file:main
+crh_retrieve = crh_retrieve:main
+crh_worker = crh_worker:main
