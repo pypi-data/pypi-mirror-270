@@ -1,0 +1,10 @@
+era5_torch/__init__.py,sha256=t1w6sSp7lLQ_vMl8q8K9_SvKXATLKiOa8V6QAdx8k-Y,397
+era5_torch/_auxiliaries.py,sha256=RUYLqVLHIz_bQ02qIXSbjlYq2rnGy6e264r6eUA6qyA,7994
+era5_torch/_chunkers.py,sha256=dMzmRATpqVUr4NRv-ZEdl-EBi_TSWc129EmmnXyZFSo,8649
+era5_torch/_dataset_class.py,sha256=1LsrNZKkRDo5rtJfy0ct4pubSGXt36MT2dEhElk9_40,12381
+era5_torch/_patchers.py,sha256=zZ1nK4dSkFhVs7eBBxUDEs_XbybV0YWp4yJjj5IS8-4,2014
+era5_torch-0.1.1.dist-info/LICENSE.MIT,sha256=1vAUBqiXONheCopOwc3TKJMF1aCCAnBvWqvNAeHdmQw,1070
+era5_torch-0.1.1.dist-info/METADATA,sha256=qbY07GOp4lVE1DJN386P564vSl7aaUpgt5wZUDnqD18,2773
+era5_torch-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+era5_torch-0.1.1.dist-info/top_level.txt,sha256=1mZ24oumEtMwLp0qLF3lOPQmDxkMlHUxxy_kOYslSOs,11
+era5_torch-0.1.1.dist-info/RECORD,,
