@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: pawz_core
+Version: 0.2.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Summary: pawz core functionality (Rust!)
+Author-email: Cody <cody@dkdc.dev>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/lostmygithubaccount/pawz
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/pawz/issues
+
+# pawz-core
+
+Core `pawz` functionality written in Rust.
+
