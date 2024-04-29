@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/custjson/__init__.py
+src/custjson/main.py
+src/custjson.egg-info/PKG-INFO
+src/custjson.egg-info/SOURCES.txt
+src/custjson.egg-info/dependency_links.txt
+src/custjson.egg-info/top_level.txt
