@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: azure-mgmt-azurelargeinstance
+Version: 1.0.0b2
+Summary: Microsoft Azure Azurelargeinstance Management Client Library for Python
+Home-page: https://github.com/Azure/azure-sdk-for-python
+Author: Microsoft Corporation
+Author-email: azpysdkhelp@microsoft.com
+License: MIT License
+Keywords: azure,azure sdk
+Classifier: Development Status :: 7 - Inactive
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Microsoft Azure SDK for Python
+
+This package is no longer being maintained. Use the [azure-mgmt-largeinstance](https://pypi.org/project/azure-mgmt-largeinstance/) package instead, which has exactly same API.
+
+# Release History
+
+## 1.0.0b2 (2024-04-29)
+
+### Other Changes
+
+- This package is no longer being maintained. Use the [azure-mgmt-largeinstance](https://pypi.org/project/azure-mgmt-largeinstance/) package instead, which has exactly same API.
+
+## 1.0.0b1 (2024-03-04)
+
+* Initial Release
