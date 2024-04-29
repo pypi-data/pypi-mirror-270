@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_windows_applifecycle.cp310-win_arm64.pyd,sha256=l5HkrQrBi-rGZLLt3AomQYMOv_XdECSHY_oHkvi0UOM,107008
+winrt/_winrt_microsoft_windows_applifecycle.pyi,sha256=QL3SV3NroeyAFT1B6141rkaO8aOl2eNLsAmG6aGv1Bk,3021
+winrt/microsoft/windows/applifecycle/__init__.py,sha256=ph43_n0JIFtkUmpPyfs-JMcFISXkgE66IG8aLYIU2Y4,1870
+winrt/microsoft/windows/applifecycle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Windows.AppLifecycle-2.0.1.dist-info/METADATA,sha256=y5ze-hC1AjsE8myeTDInmF5gc_EeRuMCGLB3zdgZf50,1244
+winrt_Microsoft.Windows.AppLifecycle-2.0.1.dist-info/WHEEL,sha256=CcAI0PRTe_I4keOFlnkSD5f8JWpqn-d3pa3DI_LtI6E,102
+winrt_Microsoft.Windows.AppLifecycle-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Windows.AppLifecycle-2.0.1.dist-info/RECORD,,
