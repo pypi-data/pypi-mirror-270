@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+pyproject.toml
+imghdr2/__init__.py
+imghdr2.egg-info/PKG-INFO
+imghdr2.egg-info/SOURCES.txt
+imghdr2.egg-info/dependency_links.txt
+imghdr2.egg-info/top_level.txt
