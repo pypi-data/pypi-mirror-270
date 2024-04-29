@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: txm-sandbox
+Version: 0.3.0.post5
+Summary: Integrated Spectro-Imaging Analysis Toolbox
+Home-page: https://github.com/xianghuix/TXM_Sandbox
+Author: Xianghui Xiao
+Author-email: xianghuix@gmail.com
+License: MIT
+License-File: LICENSE
