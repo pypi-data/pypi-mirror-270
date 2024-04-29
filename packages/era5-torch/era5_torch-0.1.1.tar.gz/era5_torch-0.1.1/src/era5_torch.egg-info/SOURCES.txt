@@ -1,0 +1,15 @@
+LICENSE.MIT
+README.md
+pyproject.toml
+src/era5_torch/__init__.py
+src/era5_torch/_auxiliaries.py
+src/era5_torch/_chunkers.py
+src/era5_torch/_dataset_class.py
+src/era5_torch/_patchers.py
+src/era5_torch.egg-info/PKG-INFO
+src/era5_torch.egg-info/SOURCES.txt
+src/era5_torch.egg-info/dependency_links.txt
+src/era5_torch.egg-info/requires.txt
+src/era5_torch.egg-info/top_level.txt
+tests/test_chunkers.py
+tests/test_datasets.py
