@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rgtestpython
+Version: 2.1
+Summary: 测试python包
+Author: rongge
+Author-email: 78380834@qq.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pillow
+
+# pip install rgpython 
+
+## usage:from rgpython import *
+
+## rgpython.rg.rg()
+
+## rgpython.rg1.Cmsg.view('hello')
