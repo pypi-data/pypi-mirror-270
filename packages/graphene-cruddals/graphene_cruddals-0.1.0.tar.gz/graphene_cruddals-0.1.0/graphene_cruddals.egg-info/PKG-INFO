@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: graphene-cruddals
+Version: 0.1.0
+Summary: Library base for create others libraries with the objective of create a CRUD+DALS with GraphQL
+Home-page: https://github.com/juanjcardona13/graphene_cruddals
+Author: Juan J Cardona
+Author-email: juanjcardona13@gmail.com
+License: Apache 2.0
+Keywords: api graphql crud graphene cruddals
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.2
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+Coming soon
+
+
