@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: bambot
+Version: 0.3.0
+Summary: Lightweight containers for AI agents
+Home-page: https://github.com/BamCorp/bambot
+Author: Bam Corp
+Author-email: spencer@bam.bot
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: jinja2
+Requires-Dist: tqdm
+
+# Bambot
+
+Bambot is a container framework for AI agents
+
+## Installation
+
+To install Bambot, run the following command:
+```sh
+pip install bambot
+```
