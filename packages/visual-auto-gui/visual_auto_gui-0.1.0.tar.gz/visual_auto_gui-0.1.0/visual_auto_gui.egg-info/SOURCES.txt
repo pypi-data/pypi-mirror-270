@@ -1,0 +1,7 @@
+setup.py
+visual_auto_gui/__init__.py
+visual_auto_gui/utils.py
+visual_auto_gui.egg-info/PKG-INFO
+visual_auto_gui.egg-info/SOURCES.txt
+visual_auto_gui.egg-info/dependency_links.txt
+visual_auto_gui.egg-info/top_level.txt
