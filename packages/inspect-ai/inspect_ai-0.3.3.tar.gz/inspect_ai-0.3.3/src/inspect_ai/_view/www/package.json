@@ -1,0 +1,11 @@
+{
+  "name": "logview",
+  "version": "1.0.0",
+  "description": "logview",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htm": "^3.1.1",
+    "preact": "^10.19.6"
+  }
+}
