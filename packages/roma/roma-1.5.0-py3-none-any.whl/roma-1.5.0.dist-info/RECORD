@@ -1,0 +1,12 @@
+roma/__init__.py,sha256=CQqDt7wIQmwziVvePpNHZE67ikiOmJOKKERMiyMxKZk,156
+roma/euler.py,sha256=VGxK4QuBcXZAVAFdCKSYQePXruIAtcI7WGDHgyPAcZU,9863
+roma/internal.py,sha256=o1r1uR7mUh_uW_Tm4w_gzF1UXBP7mwtz2L884_4rvcE,3872
+roma/mappings.py,sha256=PzJYn9Uvuya3Uz0PXCVoYLM7HHS4twmCR3sSMF2cmk4,19387
+roma/transforms.py,sha256=f0dmkhsvuN9ix9oBl5X5nDkgKzbG519iqO0gt3HAwog,15139
+roma/utils.py,sha256=qGE6RPttT4iklktsyE9ddW7ynJV-HdkKajDTZVPPJ2Q,21728
+roma-1.5.0.dist-info/LICENSE,sha256=wKDPmR79OiEDxNtmigT42AlXrnktW-Y0b4meFwEcpo0,1468
+roma-1.5.0.dist-info/METADATA,sha256=LNvlhA3UVflxdMXdwj84uCNSB4mhsAxnDyJ1NFS_QMM,4747
+roma-1.5.0.dist-info/NOTICE,sha256=wMx37TVzSIyBSupkVAk8cPRgTarLsf6Pr8xNas6lYvc,2276
+roma-1.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+roma-1.5.0.dist-info/top_level.txt,sha256=-DezflB1S3SXoeRyBsQHwWSN4MHrHbjnRFhjqWrda8U,5
+roma-1.5.0.dist-info/RECORD,,
