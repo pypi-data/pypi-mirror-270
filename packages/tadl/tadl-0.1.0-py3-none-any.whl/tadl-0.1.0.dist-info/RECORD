@@ -1,0 +1,11 @@
+tadl/__init__.py,sha256=lGeGMJB5bTtwd9tO8xlYH4hBSWBcH2j4izA_ShwapVg,135
+tadl/descriptor.py,sha256=NaXAkznhclAcOHL0jhWPaDF2szCbcrvp72SqsC4eg_Q,3003
+tadl/match.py,sha256=dwS6FWaY-7VsCkpancK6ST-oHzOAWRmnWmj0_aYOwgU,1857
+tadl/query.py,sha256=6WVNqmzLnSBjX4Zwj-rmlo2wRjj7_kbq5aLqD71LJNo,4672
+tadl/query_batch.py,sha256=okGiuFEJYhS0NJ2hWZTIz-jERvB0L2hV01dgdVki6ro,1866
+tadl/query_group.py,sha256=M73t18EKKqsu3n9ZdicKTMAfvupNJPFm0TChH6EuQG0,1829
+tadl/query_interface.py,sha256=hrhoKi0OwLJbQQBm4x4E4rs0dqv1Wfuj95fsYtncHro,204
+tadl/types.py,sha256=Ve2ZOGuQ9xODGL1ua9bh-vZSpJa3-xeT0MlXCTefcQo,206
+tadl-0.1.0.dist-info/METADATA,sha256=kQGFoArrIF7Bp1kHcxxyCTpDbYkjzSeecvAU23ZYOnA,7274
+tadl-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tadl-0.1.0.dist-info/RECORD,,
