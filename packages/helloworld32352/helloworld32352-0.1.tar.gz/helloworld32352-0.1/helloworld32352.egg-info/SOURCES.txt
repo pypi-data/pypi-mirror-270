@@ -1,0 +1,7 @@
+setup.py
+helloworld32352/__init__.py
+helloworld32352/hello.py
+helloworld32352.egg-info/PKG-INFO
+helloworld32352.egg-info/SOURCES.txt
+helloworld32352.egg-info/dependency_links.txt
+helloworld32352.egg-info/top_level.txt
