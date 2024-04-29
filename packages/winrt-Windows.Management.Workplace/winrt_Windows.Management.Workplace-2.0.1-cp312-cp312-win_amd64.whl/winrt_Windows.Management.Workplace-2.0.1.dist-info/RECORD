@@ -1,0 +1,8 @@
+winrt/_winrt_windows_management_workplace.cp312-win_amd64.pyd,sha256=mC8tUi7EZpZLHfExsNi_wfljlidCgrNHmF_iZKyyuPg,34304
+winrt/_winrt_windows_management_workplace.pyi,sha256=D9zXHoIlNSt8ZgK2ZBpmqGlvoKbHPDRpwrnGrtQLqY4,1107
+winrt/windows/management/workplace/__init__.py,sha256=kEmQ2B1WgFgeSurusIGG4Fl3gh7aKN3IBNVcKDqUISo,479
+winrt/windows/management/workplace/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Management.Workplace-2.0.1.dist-info/METADATA,sha256=9_BCpZlcqgGGoYX2Zzk0EDdS4Xg2_ETi7HQyy3BfehM,973
+winrt_Windows.Management.Workplace-2.0.1.dist-info/WHEEL,sha256=0znJHI9IehnsAdqJtPz_4BTd2JY6ZK4iNYnscTuOOBE,102
+winrt_Windows.Management.Workplace-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Management.Workplace-2.0.1.dist-info/RECORD,,
