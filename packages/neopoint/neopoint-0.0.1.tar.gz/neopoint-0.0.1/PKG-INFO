@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: neopoint
+Version: 0.0.1
+Summary: Just a web framework for myself learning how they work.
+License: MIT
+Keywords: web,framework,HTTP
+Author: NeoTheBestDeveloper
+Author-email: neothebestmain@protonmail.com
+Requires-Python: >=3.10,<=3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Neopoint
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+# Neopoint
+
+## Warning - project is unstable.
+
+Neopoint is a simple backend framework, which support routing, parsing query and path parametrs etc.
+
+## Examples
+
+### Create base app
+
+```python
+from neopoint import App
+from neopoint.routing import Router
+
+
+router = Router(prefix="/api")
+
+app = App(debug=True)
+app.include_router(router)
+```
+
+### Let's add some endpoints
+```py 
+from neopoint.http import JsonResponse
+
+@router.get("/users/{user_id}")
+def get_user_by_id(user_id: int) -> JsonResponse:
+    return JsonResponse(
+        {
+            "id": user_id,
+            "first_name": "John",
+            "last_name": "Doe",
+        }
+    )
+```
+
+
+You can add pattern at endpoint path like {NAME_OF_PARAMETR} and it will be passed to your controller function.
+
+### Let's parse also query parametrs.
+
+```py 
+from neopoint.http import JsonResponse
+
+@router.get("/users")
+def get_users(limit: int = 15, sort: str = "ASC") -> JsonResponse:
+    return JsonResponse(
+        {
+            "id": user_id,
+            "limit": limit,
+            "sort": sort,
+        }
+    )
+```
+
+### How to handle post and other requests with payload?
+
+```python
+@router.post("/theme")
+def create_theme(req: Request) -> JsonResponse:
+    return JsonResponse(req.json)
+```
+
+For handling requests you can pass request parametr to your controller.
+
+Request attributes:
+- headers -> MappingProxyType\[str, str]
+- query_params -> QueryParams
+- path_params -> PathParams
+- method -> RequestMethod
+- path -> str
+- json -> Any
+- content -> bytes
+
