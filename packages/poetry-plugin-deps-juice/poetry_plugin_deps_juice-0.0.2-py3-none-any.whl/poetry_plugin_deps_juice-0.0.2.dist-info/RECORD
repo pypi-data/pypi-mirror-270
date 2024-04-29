@@ -1,0 +1,8 @@
+poetry_plugin_deps_juice/__init__.py,sha256=i14Z25LChEUUZi_3hvzhF_ulDkou6IoHu5c26TOLY1U,171
+poetry_plugin_deps_juice/command.py,sha256=L010kgUTLtnFfNx2yo-bkjxSW6YzQcLVW_ytSZVAM3k,4023
+poetry_plugin_deps_juice/plugins.py,sha256=kNrqppA7Ja_Nx8aiTPdyxa187-CepILLjswG4ORKsrI,899
+poetry_plugin_deps_juice-0.0.2.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+poetry_plugin_deps_juice-0.0.2.dist-info/METADATA,sha256=OHqCw3YGyT1N3o-FWYyqewa073YedSXdonGHn6NZzbw,5189
+poetry_plugin_deps_juice-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poetry_plugin_deps_juice-0.0.2.dist-info/entry_points.txt,sha256=uCGwzHC8OuAQAHW_HsCy7srWocdG-LQZjlBUKTCGoV0,103
+poetry_plugin_deps_juice-0.0.2.dist-info/RECORD,,

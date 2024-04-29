@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+build=poetry_plugin_deps_juice.plugins:DependenciesJuiceApplicationPlugin
+
