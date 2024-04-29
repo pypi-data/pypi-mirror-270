@@ -1,0 +1,26 @@
+[project]
+name = "pyunited"
+version = "0.1.0"
+requires-python = ">=3.6"
+license = {text = "MIT License"}
+authors = [
+  {name = "simonfall", email = "12427009+simonfall@users.noreply.github.com"},
+]
+maintainers = [
+  {name = "simonfall", email = "12427009+simonfall@users.noreply.github.com"},
+]
+
+description = """
+A Python library for handling SI and other units.
+"""
+readme = "README.md"
+
+dependencies = []
+
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
