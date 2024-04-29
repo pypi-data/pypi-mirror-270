@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+valida_doc/__init__.py
+valida_doc/main.py
+valida_doc.egg-info/PKG-INFO
+valida_doc.egg-info/SOURCES.txt
+valida_doc.egg-info/dependency_links.txt
+valida_doc.egg-info/top_level.txt

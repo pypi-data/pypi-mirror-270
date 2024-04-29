@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: valida_doc
+Version: 0.0.1
+Summary: Biblioteca para validação de documentos
+Author-email: caseiro.gui@hotmail.com
+License: MIT License
+Keywords: validar documento cpf rg
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Validador de Documentos 
+
+Uma biblioteca de fácil uso para validar se um documento é válido ou não, considerando as regras de autenticidade de cada órgão expeditor daquele documento.
+
+## Documentos disponíveis para validação
+
+- CPF
+- RG
+    - São Paulo 
+
+## Documentos em roadmap
+- RG
+    - Rio de Janeiro
+    - Bahia
+    - Minas Gerais
+    - Goiáis
+    - Paraná
+    - Santa Catarina
+- CNH
+
+## Instalação
+Para instalar basta utilizar o comando abaixo
+
+```python
+pip install valida_doc
+```
+
+## Validação de CPF
+Abaixo coloco um exemplo de como poderá ser feita a validação de um CPF. Lembrando que sempre será necessário utilizar uma ```string``` para requisitar a validação.
+
+```python
+from valida_doc import cpf
+forma1 = cpf("XXX.XXX.XXX-XX") # exemplo de como informar o CPF
+forma2 = cpf("XXXXXXXXX-XX") # exemplo de como informar o CPF
+forma3 = cpf("XXXXXXXXXXX") # exemplo de como informar o CPF
+```
+
+Caso sejam inseridos letras e símbolos será apresentado uma mensagem do tipo ```string``` informando o erro
+Caso sejam inseridos quantidade maior ou menor de dígitos será apresentado uma mensagem do tipo ```string``` informando o erro
+
+Se o CPF atender os padrões específicos, retornará ```True``` se for válido ou ```False``` se for inválido.
+
+## Validação de RG (Apenas para São Paulo)
+Abaixo coloco um exemplo de como poderá ser feita a validação de um SP para São Paulo. Lembrando que sempre será necessário utilizar uma ```string``` para requisitar a validação.
+
+```python
+from valida_doc import rg_sp
+forma1 = rg_sp("XX.XXX.XXX-X") # exemplo de como informar o RG
+forma2 = rg_sp("XXXXXXXX-X") # exemplo de como informar o RG
+forma3 = rg_sp("XXXXXXXXX") # exemplo de como informar o RG
+```
+
+Caso sejam inseridos letras e símbolos será apresentado uma mensagem do tipo ```string``` informando o erro
+Caso sejam inseridos quantidade maior ou menor de dígitos será apresentado uma mensagem do tipo ```string``` informando o erro
+
+Se o rg atender os padrões específicos, retornará ```True``` se for válido ou ```False``` se for inválido.
+
+## Informação Geral
+Sempre haverá a retirada de símbolos como ```.``` e ```-```, não necessitando nenhum tipo de tratativa pelo usuário que irá consumir a biblioteca.
+
+
+## Licença
+
+MIT
