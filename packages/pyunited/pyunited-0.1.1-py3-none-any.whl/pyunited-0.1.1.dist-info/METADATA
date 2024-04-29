@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: pyunited
+Version: 0.1.1
+Summary: A Python library for handling SI and other units.
+Author-email: simonfall <12427009+simonfall@users.noreply.github.com>
+Maintainer-email: simonfall <12427009+simonfall@users.noreply.github.com>
+License: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Pyunited
+
+
