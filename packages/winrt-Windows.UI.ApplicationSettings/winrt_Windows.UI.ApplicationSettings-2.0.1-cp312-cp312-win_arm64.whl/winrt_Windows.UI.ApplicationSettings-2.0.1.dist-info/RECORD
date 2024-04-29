@@ -1,0 +1,8 @@
+winrt/_winrt_windows_ui_applicationsettings.cp312-win_arm64.pyd,sha256=ytcErhExYwq4G28mU8ovaMP3mkWhb_dx6b5W4kijSHw,223744
+winrt/_winrt_windows_ui_applicationsettings.pyi,sha256=oMIMgAesgABUPy8Vq1IDph98Mj1XYYRxxgi8NDlpFV0,7899
+winrt/windows/ui/applicationsettings/__init__.py,sha256=B1kPYkhDe0bl1koEOkvWCiwNRNrlu7sPuyCKSOx8cV8,2499
+winrt/windows/ui/applicationsettings/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.UI.ApplicationSettings-2.0.1.dist-info/METADATA,sha256=QlEK5l2G7GyXeBAyDlmq3gGn14WOpo2bZmt6PRjcTIk,1384
+winrt_Windows.UI.ApplicationSettings-2.0.1.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.UI.ApplicationSettings-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.UI.ApplicationSettings-2.0.1.dist-info/RECORD,,
