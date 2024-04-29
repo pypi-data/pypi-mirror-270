@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+decoutilities/__init__.py
+decoutilities.egg-info/PKG-INFO
+decoutilities.egg-info/SOURCES.txt
+decoutilities.egg-info/dependency_links.txt
+decoutilities.egg-info/top_level.txt
