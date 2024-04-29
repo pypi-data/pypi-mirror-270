@@ -1,0 +1,13 @@
+didi_notebook_extension/__init__.py,sha256=qBQ21RTXIglwhFvdSZdQclI9aBf39nsKtK02nOABs44,604
+didi_notebook_extension/_version.py,sha256=hciK36I7ee_IfZTO0Nj8rhRTUNaYUh5D8OywYPrgK64,171
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/package.json,sha256=dwTT_oQiumLkKqlGaA41w5r0XGVLRLmEA8l81WTDfOc,5834
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/static/728.adf73d00115832453a58.js,sha256=rfc9ABFYMkU6WOlnopzQtfRPe6JiCzKImIEhbGIZ1eE,5764
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/static/958.eb0e437e53b6a86814b4.js,sha256=6w5DflO2qGgUtAdZlIHGeRLgWZu-5YhRfRHJ05Qkd8I,8649
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/static/remoteEntry.669ff8394f95a035c486.js,sha256=Zp_4OU-VoDXEhgXaMIgNDcbNfw1rogKkhwW1mkLcCwQ,6784
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/static/style.js,sha256=nFqFW6PxJtpvEd6BDYW1ad5hnir7Kkch3qszbOvWzU0,166
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/static/third-party-licenses.json,sha256=W6N2sSD7tQihMqQk64F9xMd1Flfr2KO97esAiHUOYdM,2453
+didi_notebook_extension-0.2.7.data/data/share/jupyter/labextensions/didi-notebook-extension/install.json,sha256=CuzYMhhM6FadcSW50POocOs6w-uDlsy3v3EzNXgDj88,207
+didi_notebook_extension-0.2.7.dist-info/METADATA,sha256=RQyrAZ_NevpIHAmhuaxSOXFMBupdi6o1GCXVcF57opE,6055
+didi_notebook_extension-0.2.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+didi_notebook_extension-0.2.7.dist-info/licenses/LICENSE,sha256=YKc19v45LGpDfJHRR78VQuA_JYBatPH5ui_CcjZMHVM,1517
+didi_notebook_extension-0.2.7.dist-info/RECORD,,
