@@ -1,0 +1,9 @@
+django_hierarchical_models/__init__.py,sha256=5cx6EiOxhHiTBZzX8r9zJTp9CdupQ8k05kWXS0Ixu6k,22
+django_hierarchical_models/models/__init__.py,sha256=xT90D--fORRRysDXd8e_FZJiBLNM_7LZNWII42qHl1k,285
+django_hierarchical_models/models/exceptions.py,sha256=RL7rXyLGqVhWNOTs-N3C8HpwgMOrsd-2-t66nRcj7xw,597
+django_hierarchical_models/models/hierarchical_model.py,sha256=GxS5y9jnehPGnLdfg9KGyF0AMUjvK3LYIfwLignFmsY,5441
+django_hierarchical_models/models/node.py,sha256=yVTtEwzaiMC09942j_LbcjWbxTxYqKwlxlSrIOBtQNE,900
+django_hierarchical_models-2.1.0.dist-info/LICENSE,sha256=HMl4eLi9FhZcLihID9K6X-X_PIK0_3EITLLcUxiL4e0,1069
+django_hierarchical_models-2.1.0.dist-info/METADATA,sha256=dbMBwT9dy5-XoVB8_QRjY2vhHuE3BOc9G41I6ZKYf00,6148
+django_hierarchical_models-2.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_hierarchical_models-2.1.0.dist-info/RECORD,,
