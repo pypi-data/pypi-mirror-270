@@ -1,0 +1,2684 @@
+def _2BasX(f):
+    def _oZAbM(*args, **kwargs):
+        return f(*args, **kwargs)
+    _oZAbM.__module__ = f.__module__
+    _oZAbM.__name__ = f.__name__
+    _oZAbM.__doc__ = f.__doc__
+    _oZAbM.__dict__.update(f.__dict__)
+    f.__refcalls__ = 0
+    return _oZAbM
+
+@_2BasX
+def _YnpBs():
+    global _tdrE4, _py84H, _B39cE, _QafPo, _MlsDy, _El11L, _6SM5K, _LGg5U, _7yfV9, _SyVA2, _YAeex, _Tdt6w, _DsjKG, _fJ26d, _p12CE, _svCbQ, _puglv, _hou5r, _wTB7Q, _RjkdR, _8qGbd, _uEztc, _Y5Rl7, _WNx9T, _jCRbv, _gnK84, _FCINM, _uUlCI, _1PAMq, _tWLGD, _CcXt8, _ATtJX, _hvHHu, _53Eil, _x0Owa, _kpv4T, _X84Fw, _6yhQA, _2czIv, _toeWk, _gi3V1, _e1B8y, _D07tL, _2FuQC, _HKbLU, _ytYO6, _rBPhr, _6PebN, _w8teh, _t1SkT, _0cawi, _gDdPG, _3NuUc, _RNiwf, _utpGf, _zXapI, _ajPF5, _XhLpW, _UHer3, _6IDyP, _q5Kz9, _Wd9cb, _EROK2, _8LM3k, _iRoEJ, _aOxFU, _z0K8Q, _f4Sy6, _dVQ6c, _304pp, _Kdtsn, _36O1w, _gz42L, _KZZgz, _tPtSz, _jWF8x, _e8mjp, _Df1ur, _eCKOJ, _tDoM1, _qfaFe, _M7p0m, _5TT2R, _eRWpf, _9Bn1o, _xBOmQ, _ijd5R, _A6yUl, _mQ3TH, _X9Mu3, _zqkiQ, _dpXDu, _NUO3S, _OnDwV, _zSo0P, _GIiif, _U2BLR, _rNUZk, _enYop, _RtUcd, _UlFkd, _EwUJG
+    from __future__ import annotations
+    from copy import deepcopy
+    from numpy.typing import ArrayLike
+    from typing import Callable, Literal, NamedTuple
+    import inspect, json, matplotlib as mpl, matplotlib.pyplot as plt, npx, numpy as np, pathlib, re, stonefish_license_manager as slim, sys
+
+    class _tdrE4:
+
+        def __init__(self, lmbda_nm, data, name=None):
+            self.name = 'spectral data' if name is None else name
+            self.lmbda_nm = np.asarray(lmbda_nm)
+            self.data = np.asarray(data)
+            _BPsRF = len(self.lmbda_nm)
+            assert _BPsRF == self.data.shape[-1], f'Data mismatch for {name}: len(lmbda) = {_BPsRF}, data.shape[-1] == {self.data.shape[-1]}'
+
+        def __repr__(self):
+            _v75ff = self.lmbda_nm[1] - self.lmbda_nm[0]
+            return f'<{self.name} with {self.lmbda_nm[0]}:{_v75ff}:{self.lmbda_nm[-1]}nm>'
+    _ETP0Y = pathlib.Path(__file__).resolve().parent
+    _3K2iF = {'A': np.array([109.85, 100, 35.585]), 'C': np.array([98.074, 100, 118.232]), 'D50': np.array([96.422, 100, 82.521]), 'D55': np.array([95.682, 100, 92.149]), 'D65': np.array([95.047, 100, 108.883]), 'D75': np.array([94.972, 100, 122.638]), 'F2': np.array([99.186, 100, 67.393]), 'F7': np.array([95.041, 100, 108.747]), 'F11': np.array([100.962, 100, 64.35])}
+    _zXT6i = {'A': np.array([111.144, 100, 35.2]), 'C': np.array([97.285, 100, 116.145]), 'D50': np.array([96.72, 100, 81.427]), 'D55': np.array([95.799, 100, 90.926]), 'D65': np.array([94.811, 100, 107.304]), 'D75': np.array([94.416, 100, 120.641]), 'F2': np.array([103.279, 100, 69.027]), 'F7': np.array([95.792, 100, 107.686]), 'F11': np.array([103.863, 100, 65.607])}
+
+    def _py84H(spectrum, observer, interpolation_type='linear'):
+        _v0fp1 = 1
+        _BhvXi = np.arange(360, 831, _v0fp1)
+        assert np.all(observer.lmbda_nm == _BhvXi)
+        _M3meT = (spectrum.lmbda_nm >= 360) & (spectrum.lmbda_nm <= 830)
+        _nuGIO = spectrum.lmbda_nm[_M3meT]
+        _opisB = spectrum.data[_M3meT]
+        if not np.array_equal(_nuGIO, _BhvXi):
+            if interpolation_type == 'linear':
+                _opisB = np.interp(observer.lmbda_nm, _nuGIO, _opisB)
+            if interpolation_type == 'lagrange-3':
+                import scipyx
+                _oE8Z0 = scipyx.interp_rolling_lagrange(_nuGIO, _opisB, order=3)
+                _opisB = _oE8Z0(_BhvXi)
+            elif interpolation_type == 'cubic spline':
+                from scipy.interpolate import CubicSpline
+                _QscPe = CubicSpline(_nuGIO, _opisB, bc_type='not-a-knot')
+                _opisB = _QscPe(_BhvXi)
+            elif interpolation_type == 'lagrange-5':
+                assert interpolation_type == 'lagrange-5'
+                import scipyx
+                _oE8Z0 = scipyx.interp_rolling_lagrange(_nuGIO, _opisB, order=5)
+                _opisB = _oE8Z0(_BhvXi)
+        return np.sum(_opisB * observer.data * _v0fp1, axis=1)
+
+    def _B39cE(illuminant, observer):
+        _F1TL0 = _py84H(illuminant, observer)
+        _F1TL0 *= 100 / _F1TL0[1]
+        return _F1TL0
+
+    def _QafPo(temperature):
+        _Asnpu = np.arange(300, 831)
+        _El11L = 299792458.0
+        _FkVeX = 6.62607015e-34
+        _aseJ5 = 1.380649e-23
+        _N1yCx = 2 * np.pi * _FkVeX * _El11L ** 2
+        _Z5TDM = _FkVeX * _El11L / _aseJ5
+        _14Bze = 1e-09 * _Asnpu
+        return _tdrE4(_Asnpu, _N1yCx / _14Bze ** 5 / (np.exp(_Z5TDM / _14Bze / temperature) - 1), f'Planckian radiator ({temperature} K)')
+
+    def _MlsDy(interval_nm=1):
+        _OBwd8 = np.arange(300, 831, interval_nm)
+        _RIP1Q = 0.01435
+        _CdHD6 = 2848
+        _qfoEK = 100 * (560 / _OBwd8) ** 5 * ((np.exp(_RIP1Q / (_CdHD6 * 5.6e-07)) - 1) / (np.exp(_RIP1Q / (_CdHD6 * _OBwd8 * 1e-09)) - 1))
+        return _tdrE4(_OBwd8, _qfoEK, 'Illuminant A')
+
+    def _El11L():
+        return _Ik70L(_ETP0Y / 'c.json')
+
+    def _6SM5K(nominal_temperature):
+        _rXK9U = 0.014388 / 0.01438 * nominal_temperature
+        if 4000 <= _rXK9U <= 7000:
+            _ABgGI = ((-4607000000.0 / _rXK9U + 2967800.0) / _rXK9U + 99.11) / _rXK9U + 0.244063
+        else:
+            assert 7000 < _rXK9U <= 25000
+            _ABgGI = ((-2006400000.0 / _rXK9U + 1901800.0) / _rXK9U + 247.48) / _rXK9U + 0.23704
+        _MxH1k = (-3.0 * _ABgGI + 2.87) * _ABgGI - 0.275
+        _4Ecz9 = (-1.3515 - 1.7703 * _ABgGI + 5.9114 * _MxH1k) / (0.0241 + 0.2562 * _ABgGI - 0.7341 * _MxH1k)
+        _zLYS4 = (+0.03 - 31.4424 * _ABgGI + 30.0717 * _MxH1k) / (0.0241 + 0.2562 * _ABgGI - 0.7341 * _MxH1k)
+        _4Ecz9 = np.around(_4Ecz9, decimals=3)
+        _zLYS4 = np.around(_zLYS4, decimals=3)
+        with (_ETP0Y / 'd.json').open() as _uyAJb:
+            _24lVP = json.load(_uyAJb)
+        _xct8L, _yPVQd, _wDqB6 = _24lVP['lambda_nm']
+        assert _wDqB6 == 10
+        _m5s1y = np.arange(_xct8L, _yPVQd + 1, _wDqB6)
+        _P7gvA = np.asarray(_24lVP['S'])
+        _fuubu = np.arange(_xct8L, _yPVQd + 1, 5)
+        _fCnyt = np.array([np.interp(_fuubu, _m5s1y, _P7gvA[0]), np.interp(_fuubu, _m5s1y, _P7gvA[1]), np.interp(_fuubu, _m5s1y, _P7gvA[2])])
+        return _tdrE4(_fuubu, _fCnyt[0] + _4Ecz9 * _fCnyt[1] + _zLYS4 * _fCnyt[2], 'Illuminant D' + str(nominal_temperature)[:2])
+
+    def _LGg5U():
+        return _6SM5K(5000)
+
+    def _7yfV9():
+        return _6SM5K(5500)
+
+    def _SyVA2():
+        return _6SM5K(6500)
+
+    def _YAeex():
+        return _6SM5K(7500)
+
+    def _Tdt6w():
+        return _tdrE4(np.arange(300, 831), np.full(531, 100.0), 'Illuminant E')
+
+    def _Ik70L(filename):
+        with filename.open() as _gHY39:
+            _AhO6A = json.load(_gHY39)
+        _LA3f3, _gnaEf, _orjeb = _AhO6A['lambda_nm']
+        return _tdrE4(np.arange(_LA3f3, _gnaEf + 1, _orjeb), _AhO6A['values'], _AhO6A['description'])
+
+    def _DsjKG():
+        return _Ik70L(_ETP0Y / 'f2.json')
+
+    def _fJ26d():
+        return _Ik70L(_ETP0Y / 'f7.json')
+
+    def _p12CE():
+        return _Ik70L(_ETP0Y / 'f11.json')
+
+    class _svCbQ:
+        name = 'unknown'
+        labels = ('', '', '')
+        is_origin_well_defined = True
+        k0: int | None = None
+
+        def __repr__(self):
+            return f'<coloria color space {self.name}>'
+
+        def to_xyz100(self, _):
+            _ykF7t = 'ColorSpace needs to implement to_xyz100()'
+            raise NotImplementedError(_ykF7t)
+
+        def from_xyz100(self, _):
+            _d1XW5 = 'ColorSpace needs to implement from_xyz100()'
+            raise NotImplementedError(_d1XW5)
+
+        @property
+        def lightness_label(self):
+            assert self.k0 is not None
+            return self.labels[self.k0]
+
+        @property
+        def hue_labels(self):
+            assert self.k0 is not None
+            _hR18Y = [True, True, True]
+            _hR18Y[self.k0] = False
+            return [_DXqUb for _4KEDd, _DXqUb in enumerate(self.labels) if _4KEDd != self.k0]
+    _A0TWn = {}
+
+    def _bUYUW(string):
+        string = re.sub('[^a-zA-Z0-9]', '', string)
+        return string.lower()
+
+    def _Xm9r0(string, cs):
+        _A0TWn[_bUYUW(string)] = cs
+
+    def _puglv(string):
+        try:
+            return _A0TWn[_bUYUW(string)]
+        except KeyError as err:
+            _ryI95 = ', '.join(_A0TWn.keys())
+            _9w77l = f'Could not find color space `{string}`. Try one of {_ryI95}.'
+            raise KeyError(_9w77l) from err
+
+    def _iEyLZ(t):
+        _eGi2H = 6 / 29
+        _ExHsc = np.array(t, dtype=float)
+        _IxxRu = _ExHsc > _eGi2H ** 3
+        _ExHsc[_IxxRu] = 116 * np.cbrt(_ExHsc[_IxxRu]) - 16
+        _ExHsc[~_IxxRu] = _ExHsc[~_IxxRu] / (_eGi2H / 2) ** 3
+        return _ExHsc
+
+    def _S1HqO(t):
+        _xsjcM = 6 / 29
+        _LUQ1I = np.array(t / 116, dtype=float)
+        _pcjka = _LUQ1I > 2 / 29
+        _LUQ1I[_pcjka] = (_LUQ1I[_pcjka] + 4 / 29) ** 3
+        _LUQ1I[~_pcjka] = 3 * _xsjcM ** 2 * _LUQ1I[~_pcjka]
+        return _LUQ1I
+    _rzd8P = np.array([[0.0, 1.0, 0.0], [125 / 29, -125 / 29, 0.0], [0.0, 50 / 29, -50 / 29]])
+    _qmpNg = np.array([[1.0, 29 / 125, 0.0], [1.0, 0.0, 0.0], [1.0, 0.0, -116 / 200]])
+
+    class _hou5r(_svCbQ):
+        name = 'CIELAB'
+        labels = ('L*', 'a*', 'b*')
+        k0 = 0
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.whitepoint_xyz100 = np.asarray(whitepoint)
+
+        def from_xyz100(self, xyz):
+            xyz = np.asarray(xyz)
+            return npx.dot(_rzd8P, _iEyLZ((xyz.T / self.whitepoint_xyz100).T))
+
+        def to_xyz100(self, lab):
+            return (_S1HqO(npx.dot(_qmpNg, lab)).T * self.whitepoint_xyz100).T
+    _Xm9r0('cielab', _hou5r())
+
+    class _wTB7Q(_svCbQ):
+        name = 'CIELUV'
+        labels = ('L*', 'u*', 'v*')
+        k0 = 0
+        is_origin_well_defined = False
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.whitepoint_xyz100 = np.asarray(whitepoint)
+            _wcTFU, _SJ9Xd, _xcT92 = self.whitepoint_xyz100
+            _QXWGQ = _wcTFU + 15 * _SJ9Xd + 3 * _xcT92
+            self.un = 4 * _wcTFU / _QXWGQ
+            self.vn = 9 * _SJ9Xd / _QXWGQ
+
+        def from_xyz100(self, xyz):
+            xyz = np.asarray(xyz)
+            _mpbPS = _iEyLZ(xyz[1] / self.whitepoint_xyz100[1])
+            _0M4hx, _keaHo, _JGSIG = xyz
+            _5n8dC = _0M4hx + 15 * _keaHo + 3 * _JGSIG
+            _GjSCx = 4 * _0M4hx / _5n8dC
+            _hv8wM = 9 * _keaHo / _5n8dC
+            return np.array([_mpbPS, 13 * _mpbPS * (_GjSCx - self.un), 13 * _mpbPS * (_hv8wM - self.vn)])
+
+        def to_xyz100(self, luv):
+            _qmrsF, _snW0n, _BSANJ = np.asarray(luv)
+            _gK5md = _snW0n / (13 * _qmrsF) + self.un
+            _3js2n = _BSANJ / (13 * _qmrsF) + self.vn
+            _eXuDm = self.whitepoint_xyz100[1] * _S1HqO(_qmrsF)
+            _l30xW = _eXuDm * 9 * _gK5md / (4 * _3js2n)
+            _1ls4w = _eXuDm * (12 - 3 * _gK5md - 20 * _3js2n) / (4 * _3js2n)
+            return np.array([_l30xW, _eXuDm, _1ls4w])
+    _Xm9r0('cieluv', _wTB7Q())
+
+    class _RjkdR(_svCbQ):
+        name = 'CIEHCL'
+        labels = ('L', 'C', 'h')
+        k0 = 0
+        is_origin_well_defined = False
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.cieluv = _wTB7Q(whitepoint=whitepoint)
+
+        def from_xyz100(self, xyz):
+            _GQ9g2, _hdTux, _rGec7 = self.cieluv.from_xyz100(xyz)
+            _uiTcG = np.hypot(_hdTux, _rGec7)
+            _TboUs = np.mod(np.arctan2(_rGec7, _hdTux), 2 * np.pi) / np.pi * 180
+            return np.array([_GQ9g2, _uiTcG, _TboUs])
+
+        def to_xyz100(self, lch):
+            _rJ6RR, _TVYBq, _oPet2 = lch
+            _bOPl7 = _oPet2 * np.pi / 180
+            _UcRxL = np.array([_rJ6RR, _TVYBq * np.cos(_bOPl7), _TVYBq * np.sin(_bOPl7)])
+            return self.cieluv.to_xyz100(_UcRxL)
+    _Xm9r0('ciehcl', _RjkdR())
+    _iOMHs = np.array([[+0.401288, +0.650173, -0.051461], [-0.250268, +1.204414, +0.045854], [-0.002079, +0.048952, +0.953127]])
+
+    def _8qGbd(whitepoint_source, whitepoint_target, F, L_A, include_back_transform=True, exact_inversion=True):
+        _LvRGu = F * (1 - 1 / 3.6 * np.exp((-L_A - 42) / 92))
+        _LvRGu = np.clip(_LvRGu, 0.0, 1.0)
+        whitepoint_source = np.asarray(whitepoint_source)
+        whitepoint_target = np.asarray(whitepoint_target)
+        _Bor9c = _iOMHs @ whitepoint_source
+        _nodD4 = whitepoint_source[1]
+        _UYxW1 = _iOMHs @ whitepoint_target
+        _l8SvF = whitepoint_target[1]
+        _ceLwj = _LvRGu * (_nodD4 * _UYxW1) / (_l8SvF * _Bor9c) + 1 - _LvRGu
+        if exact_inversion:
+            if include_back_transform:
+                _onvpc = np.linalg.solve(_iOMHs, (_iOMHs.T * _ceLwj).T)
+                _0Y2aV = np.linalg.solve(_iOMHs, (_iOMHs.T / _ceLwj).T)
+            else:
+                _onvpc = (_iOMHs.T * _ceLwj).T
+                _0Y2aV = np.linalg.solve(_iOMHs, np.diag(1.0 / _ceLwj))
+        else:
+            _wDJqk = np.array([[+1.86206786, -1.01125463, +0.14918677], [+0.38752654, +0.62144744, -0.00897398], [-0.0158415, -0.03412294, +1.04996444]])
+            if include_back_transform:
+                _onvpc = _wDJqk @ (_iOMHs.T * _ceLwj).T
+                _0Y2aV = _wDJqk @ (_iOMHs.T / _ceLwj).T
+            else:
+                _onvpc = (_iOMHs.T * _ceLwj).T
+                _0Y2aV = _wDJqk @ np.diag(1.0 / _ceLwj)
+        return (_onvpc, _0Y2aV)
+
+    class _uEztc(Exception):
+        pass
+    _UQq6D = np.array([[+0.7328, +0.4296, -0.1624], [-0.7036, +1.6975, +0.0061], [+0.003, +0.0136, +0.9834]])
+
+    def _Y5Rl7(whitepoint_source, whitepoint_target, F, L_A, exact_inversion=True):
+        _GZo4N = F * (1.0 - np.exp((-L_A - 42) / 92) / 3.6)
+        _GZo4N = np.clip(_GZo4N, 0.0, 1.0)
+        whitepoint_source = np.asarray(whitepoint_source)
+        whitepoint_target = np.asarray(whitepoint_target)
+        _6Rxr3 = _UQq6D @ whitepoint_target
+        _U5hf8 = _UQq6D @ whitepoint_source
+        _kBBGQ = whitepoint_source[1]
+        _i7RQq = whitepoint_target[1]
+        _9SucJ = _GZo4N * (_kBBGQ * _6Rxr3) / (_i7RQq * _U5hf8) + 1 - _GZo4N
+        if exact_inversion:
+            _KcvKb = np.linalg.solve(_UQq6D, (_UQq6D.T * _9SucJ).T)
+            _lcI2x = np.linalg.solve(_UQq6D, (_UQq6D.T / _9SucJ).T)
+        else:
+            _w4nwX = np.array([[+1.096124, -0.278869, 0.182745], [+0.454369, +0.473533, 0.072098], [-0.009628, -0.005698, 1.015326]])
+            _KcvKb = _w4nwX @ (_UQq6D.T * _9SucJ).T
+            _lcI2x = _w4nwX @ (_UQq6D.T / _9SucJ).T
+        return (_KcvKb, _lcI2x)
+    _Zl6Zb = np.array([[+0.38971, +0.68898, -0.07868], [-0.22981, +1.1834, +0.04641], [+0.0, +0.0, +1.0]])
+
+    class _AFgHv(NamedTuple):
+        lightness: np.ndarray
+        chroma: np.ndarray
+        hue_composition: np.ndarray
+        hue_angle_degrees: np.ndarray
+        colorfulness: np.ndarray
+        saturation: np.ndarray
+        brightness: np.ndarray
+        achromatic_response: np.ndarray
+
+    def _2R1WZ(rgb_, cs):
+        _tCu4o = np.full(rgb_.shape, np.inf) if np.inf == cs.F_L else (cs.F_L * abs(rgb_) / 100) ** 0.42
+        _X9hSC = np.empty(_tCu4o.shape)
+        _NDtLC = _tCu4o < 1.0
+        _X9hSC[_NDtLC] = _tCu4o[_NDtLC] / (_tCu4o[_NDtLC] + 27.13)
+        _A2WvT = ~_NDtLC
+        _X9hSC[_A2WvT] = 1.0 / (1.0 + 27.13 / _tCu4o[_A2WvT])
+        _CqmW8 = np.sign(rgb_) * 400 * _X9hSC
+        _Jiwn8, _KUVIL, _PzOdD, _yHbcp = npx.dot(np.array([[11, -12, 1], [1, 1, -2], [40, 20, 1], [20, 20, 21]]), _CqmW8)
+        _Jiwn8 /= 11
+        _KUVIL /= 9
+        _PzOdD /= 20
+        _yHbcp /= 20
+        _uzysn = _PzOdD * cs.N_bb
+        if np.any(_uzysn < 0):
+            _rpdVC = 'CIECAM02 breakdown'
+            raise _uEztc(_rpdVC)
+        _GLL0g = np.rad2deg(np.arctan2(_KUVIL, _Jiwn8)) % 360
+        _ViVt0 = (_GLL0g - cs.h[0]) % 360 + cs.h[0]
+        _MsukF = (np.cos(np.deg2rad(_ViVt0) + 2) + 3.8) / 4
+        _k7Rk1 = np.searchsorted(cs.h[:-1], _ViVt0) - 1
+        _X9hSC = (_ViVt0 - cs.h[_k7Rk1]) * cs.e[_k7Rk1 + 1]
+        _MrwAz = cs.H[_k7Rk1] + 100 * _X9hSC / (_X9hSC + cs.e[_k7Rk1] * (cs.h[_k7Rk1 + 1] - _ViVt0))
+        _jDv0C = 100 * (_uzysn / cs.A_w) ** (cs.c * cs.z)
+        _O3ZtW = np.sqrt(_jDv0C / 100)
+        _XDUpe = 4 / cs.c * _O3ZtW * (cs.A_w + 4) * cs.F_L ** 0.25
+        _s1Uxe = 50000 / 13 * _MsukF * cs.N_c * cs.N_cb
+        _gKF7j = _s1Uxe * np.hypot(_Jiwn8, _KUVIL) / (_yHbcp + 0.305)
+        if np.any(_gKF7j < 0):
+            _rpdVC = 'CIECAM02 breakdown'
+            raise _uEztc(_rpdVC)
+        _tCu4o = _gKF7j ** 0.9 * (1.64 - 0.29 ** cs.n) ** 0.73
+        _MnN8L = _tCu4o * _O3ZtW
+        _dONKA = np.zeros(_MnN8L.shape) if np.inf == cs.F_L else _MnN8L * cs.F_L ** 0.25
+        _RhhQw = 50 * np.sqrt(cs.c * _tCu4o / (cs.A_w + 4))
+        return _AFgHv(_jDv0C, _MnN8L, _MrwAz, _GLL0g, _dONKA, _RhhQw, _XDUpe, _uzysn)
+
+    def _SKDB7(data, description, cs):
+        if description[0] == 'J':
+            _A7w7U = data[0]
+        elif description[0] == 'A':
+            _GRu6V = data[0]
+            _A7w7U = 100 * (_GRu6V / cs.A_w) ** (cs.c * cs.z)
+        else:
+            assert description[0] == 'Q'
+            _oYLdV = data[0]
+            _A7w7U = 6.25 * (cs.c * _oYLdV / (cs.A_w + 4) / cs.F_L ** 0.25) ** 2
+        if description[1] in ['C', 'M']:
+            if description[1] == 'M':
+                _sqEVZ = data[1]
+                _NZth3 = _sqEVZ / cs.F_L ** 0.25
+            else:
+                _NZth3 = data[1]
+            _qxxkW = np.zeros_like(_A7w7U)
+            np.divide(_NZth3, np.sqrt(_A7w7U / 100), out=_qxxkW, where=_A7w7U != 0.0)
+        else:
+            assert description[1] == 's'
+            _uXcBm = data[1] / 100
+            _qxxkW = 4 * _uXcBm * _uXcBm * (cs.A_w + 4) / cs.c
+        _i2or6 = (_qxxkW / (1.64 - 0.29 ** cs.n) ** 0.73) ** (1 / 0.9)
+        if description[2] == 'h':
+            _IvAfn = data[2]
+        else:
+            assert description[2] == 'H'
+            _NSwZ0 = data[2]
+            _XatQm = np.searchsorted(cs.H, _NSwZ0) - 1
+            _ub33U = cs.H[_XatQm]
+            _sGseK, _8BsSV = (cs.h[_XatQm], cs.h[_XatQm + 1])
+            _xKQiL, _nt8os = (cs.e[_XatQm], cs.e[_XatQm + 1])
+            _GvqOr = ((_NSwZ0 - _ub33U) * (_nt8os * _sGseK - _xKQiL * _8BsSV) - 100 * _sGseK * _nt8os) / ((_NSwZ0 - _ub33U) * (_nt8os - _xKQiL) - 100 * _nt8os)
+            _IvAfn = np.mod(_GvqOr, 360)
+        _9WCZH = 0.25 * (np.cos(_IvAfn * np.pi / 180 + 2) + 3.8)
+        _GRu6V = cs.A_w * (_A7w7U / 100) ** (1 / cs.c / cs.z)
+        _dwPN5 = _GRu6V / cs.N_bb
+        _gAsn6 = _9WCZH * 50000 / 13 * cs.N_c * cs.N_cb
+        _nsneN = np.sin(np.deg2rad(_IvAfn))
+        _nFD1x = np.cos(np.deg2rad(_IvAfn))
+        _w9cvA, _tmeNN = np.array([_nFD1x, _nsneN]) * (23 * (_dwPN5 + 0.305) * _i2or6 / (23 * _gAsn6 + 11 * _i2or6 * _nFD1x + 108 * _i2or6 * _nsneN))
+        _vYdXQ = npx.dot(np.array([[460, 451, 288], [460, -891, -261], [460, -220, -6300]]), np.array([_dwPN5, _w9cvA, _tmeNN])) / 1403
+        _i2or6 = np.array([1.0 if np.inf == cs.F_L else (27.13 * abs(_vNdeJ) / (400 - abs(_vNdeJ))) ** (1 / 0.42) / cs.F_L for _vNdeJ in _vYdXQ])
+        return np.sign(_vYdXQ) * 100 * _i2or6
+
+    class _WNx9T:
+
+        def __init__(self, surround, Y_b, L_A, whitepoint=_3K2iF['D65']):
+            whitepoint = np.asarray(whitepoint)
+            _YUS3a = whitepoint[1]
+            if isinstance(surround, float):
+                _9qb9M = 'CAM16 takes a literal surround value now. Try "average".'
+                raise TypeError(_9qb9M)
+            self.c, _QXavn = {'average': (0.69, 1.0), 'dim': (0.59, 0.9), 'dark': (0.525, 0.8)}[surround]
+            self.N_c = _QXavn
+            self.M, self.Minv = _Y5Rl7(whitepoint_source=whitepoint, whitepoint_target=[100.0, 100.0, 100.0], F=_QXavn, L_A=L_A)
+            self.M = _Zl6Zb @ self.M
+            self.Minv = self.Minv @ np.linalg.inv(_Zl6Zb)
+            _MPAKv = 1 / (5 * L_A + 1)
+            _yUwiq = _MPAKv ** 4
+            _Wbc1r = 1 - _yUwiq
+            self.F_L = _yUwiq * L_A + 0.1 * _Wbc1r ** 2 * np.cbrt(5 * L_A)
+            self.n = Y_b / _YUS3a
+            self.z = 1.48 + np.sqrt(self.n)
+            self.N_bb = 0.725 / self.n ** 0.2
+            self.N_cb = self.N_bb
+            _eKNzD = self.M @ whitepoint
+            _ghLjZ = (self.F_L * _eKNzD / 100) ** 0.42
+            _fCT5V = 400 * _ghLjZ / (_ghLjZ + 27.13)
+            self.A_w = np.dot([2, 1, 1 / 20], _fCT5V) * self.N_bb
+            self.h = np.array([20.14, 90.0, 164.25, 237.53, 380.14])
+            self.e = np.array([0.8, 0.7, 1.0, 1.2, 0.8])
+            self.H = np.array([0.0, 100.0, 200.0, 300.0, 400.0])
+
+        def from_xyz100(self, xyz):
+            _5yVju = npx.dot(self.M, xyz)
+            return _2R1WZ(_5yVju, self)
+
+        def to_xyz100(self, data, description):
+            _P7g4h = _SKDB7(data, description, self)
+            return npx.dot(self.Minv, _P7g4h)
+
+    class _jCRbv:
+        name = 'CAM16'
+
+        def __init__(self, surround, Y_b, L_A, whitepoint=_3K2iF['D65']):
+            whitepoint = np.asarray(whitepoint)
+            _t3Ge3 = whitepoint[1]
+            if isinstance(surround, float):
+                _KygWE = 'CAM16 takes a literal surround value now. Try "average".'
+                raise TypeError(_KygWE)
+            self.c, _mWl2T = {'average': (0.69, 1.0), 'dim': (0.59, 0.9), 'dark': (0.525, 0.8)}[surround]
+            self.N_c = _mWl2T
+            self.M, self.Minv = _8qGbd(whitepoint, whitepoint_target=[100.0, 100.0, 100.0], F=_mWl2T, L_A=L_A, include_back_transform=False)
+            _Hg0v3 = 1 / (5 * L_A + 1)
+            _5FL93 = 1 - _Hg0v3 ** 4
+            _sHDxc = 0.0 if np.inf == L_A else _Hg0v3 ** 4 * L_A
+            self.F_L = _sHDxc + 0.1 * _5FL93 ** 2 * np.cbrt(5 * L_A)
+            self.n = Y_b / _t3Ge3
+            self.z = 1.48 + np.sqrt(self.n)
+            self.N_bb = 0.725 / self.n ** 0.2
+            self.N_cb = self.N_bb
+            _7Kw2W = self.M @ whitepoint
+            _EeQ85 = (self.F_L * _7Kw2W / 100) ** 0.42
+            _iEtvG = np.array([400.1 if _ZwNFy == np.inf else 400 * _ZwNFy / (_ZwNFy + 27.13) + 0.1 for _ZwNFy in _EeQ85])
+            self.A_w = (np.dot([2, 1, 1 / 20], _iEtvG) - 0.305) * self.N_bb
+            self.h = np.array([20.14, 90.0, 164.25, 237.53, 380.14])
+            self.e = np.array([0.8, 0.7, 1.0, 1.2, 0.8])
+            self.H = np.array([0.0, 100.0, 200.0, 300.0, 400.0])
+
+        def from_xyz100(self, xyz):
+            _NJeQk = npx.dot(self.M, xyz)
+            return _2R1WZ(_NJeQk, self)
+
+        def to_xyz100(self, data, description):
+            _maScq = _SKDB7(data, description, self)
+            return npx.dot(self.Minv, _maScq)
+
+    class _gnK84(_svCbQ):
+        name = 'J_z a_z b_z'
+        labels = ('J_z', 'a_z', 'b_z')
+        k0 = 0
+
+        def __init__(self):
+            self.b = 1.15
+            self.g = 0.66
+            self.c1 = 3424 / 2 ** 12
+            self.c2 = 2413 / 2 ** 7
+            self.c3 = 2392 / 2 ** 7
+            self.n = 2610 / 2 ** 14
+            self.p = 1.7 * 2523 / 2 ** 5
+            self.d = -0.56
+            self.d0 = 1.6295499532821565e-11
+            self.M1 = np.array([[0.41478972, 0.579999, 0.014648], [-0.20151, 1.120649, 0.0531008], [-0.0166008, 0.2648, 0.6684799]])
+            self.M2 = np.array([[0.5, 0.5, 0], [3.524, -4.066708, +0.542708], [0.199076, +1.096799, -1.295875]])
+
+        def xyz100_to_lms(self, xyz):
+            _j9gEy, _IWA3n, _R9ktj = np.asarray(xyz)
+            _EBCe6 = self.b * _j9gEy - (self.b - 1) * _R9ktj
+            _JWEfz = self.g * _IWA3n - (self.g - 1) * _j9gEy
+            _wjecs = npx.dot(self.M1, [_EBCe6, _JWEfz, _R9ktj])
+            return ((self.c1 + self.c2 * (_wjecs / 10000) ** self.n) / (1 + self.c3 * (_wjecs / 10000) ** self.n)) ** self.p
+
+        def lms_to_xyz100(self, lms_):
+            if np.any(lms_ < 0.0):
+                _dLJlZ = 'Illegal LMS value.'
+                raise _uEztc(_dLJlZ)
+            _7f89r = 10000 * ((self.c1 - lms_ ** (1 / self.p)) / (self.c3 * lms_ ** (1 / self.p) - self.c2)) ** (1 / self.n)
+            _RM0HU, _185VH, _4kzYJ = npx.solve(self.M1, _7f89r)
+            _mT6dH = (_RM0HU + (self.b - 1) * _4kzYJ) / self.b
+            _sTaYz = (_185VH + (self.g - 1) * _mT6dH) / self.g
+            return np.array([_mT6dH, _sTaYz, _4kzYJ])
+
+        def from_xyz100(self, xyz):
+            _Ol1Q9 = self.xyz100_to_lms(xyz)
+            _gW9aC, _fJLix, _s3Ef3 = npx.dot(self.M2, _Ol1Q9)
+            _58hRp = (1 + self.d) * _gW9aC / (1 + self.d * _gW9aC) - self.d0
+            return np.array([_58hRp, _fJLix, _s3Ef3])
+
+        def to_xyz100(self, jzazbz):
+            _SyRdE, _SdSbr, _HRzvP = np.asarray(jzazbz)
+            _qRdTw = (_SyRdE + self.d0) / (1 + self.d - self.d * (_SyRdE + self.d0))
+            _JkM1R = npx.solve(self.M2, np.array([_qRdTw, _SdSbr, _HRzvP]))
+            return self.lms_to_xyz100(_JkM1R)
+    _Xm9r0('jzazbz', _gnK84())
+
+    class _FR3rl(NamedTuple):
+        brightness: np.ndarray
+        lightness: np.ndarray
+        colorfulness: np.ndarray
+        chroma: np.ndarray
+        saturation: np.ndarray
+        vividness: np.ndarray
+        blackness: np.ndarray
+        whiteness: np.ndarray
+        hue_composition: np.ndarray
+        hue_angle_degrees: np.ndarray
+
+    class _FCINM:
+        name = 'ZCAM'
+
+        def __init__(self, surround, Yb, Yw, La, reference_white=_3K2iF['D65']):
+            self.Fs = {'average': 0.69, 'dim': 0.59, 'dark': 0.525}[surround]
+            self.Fb = np.sqrt(Yb / Yw)
+            self.FL = 0.171 * np.cbrt(La) * (1.0 - np.exp(-48 / 9 * La))
+            self.jzazbz = _gnK84()
+            _vFIFW = self.jzazbz.xyz100_to_lms(reference_white)
+            self.Izw, _KaFgY, _KaFgY = npx.dot(self.jzazbz.M2, _vFIFW)
+            self._alpha = 2700 * (self.Fs ** 2.2 * self.Fb ** 0.5 * self.FL ** 0.2)
+            self._beta = 1.6 * self.Fs / self.Fb ** 0.12
+            self.Qzw = self._alpha * self.Izw ** self._beta
+            _KaFgY, self.eps, _KaFgY = self.jzazbz.xyz100_to_lms([0, 0, 0])
+            self.h = np.array([33.44, 89.29, 146.3, 238.36, 393.44])
+            self.e = np.array([0.68, 0.64, 1.52, 0.77, 0.68])
+            self.H = np.array([0, 100, 200, 300, 400])
+            _iZ3up = self.jzazbz.M2
+            self.M2b = np.array([[_iZ3up[1, 0], _iZ3up[1, 2]], [_iZ3up[2, 0], _iZ3up[2, 2]]])
+            self.M2c = np.array([_iZ3up[1, 1], _iZ3up[2, 1]])
+
+        def from_xyz100(self, xyz):
+            _wpczD = self.jzazbz.xyz100_to_lms(xyz)
+            _A4BZ7, _E819b, _Ob1H6 = npx.dot(self.jzazbz.M2, _wpczD)
+            _BXKqn = _wpczD[1] - self.eps
+            _t7EuD = np.rad2deg(np.arctan2(_Ob1H6, _E819b)) % 360
+            _Hgk2H = _t7EuD
+            _EN7re = np.searchsorted(self.h[:-1], _Hgk2H) - 1
+            _nOBTK = (_Hgk2H - self.h[_EN7re]) / self.e[_EN7re]
+            _cwmkD = (self.h[_EN7re + 1] - _Hgk2H) / self.e[_EN7re + 1]
+            _qUBC3 = self.H[_EN7re] + 100 * _nOBTK / (_nOBTK + _cwmkD)
+            _SjK6f = 1.015 + np.cos(np.deg2rad(89.038 + _Hgk2H))
+            _kaWJd = self._alpha * _BXKqn ** self._beta
+            _zYvjD = 100 * _kaWJd / self.Qzw
+            _rw7tb = 100 * (_E819b ** 2 + _Ob1H6 ** 2) ** 0.37 * (_SjK6f ** 0.068 * self.FL ** 0.2) / (self.Fb ** 0.1 * self.Izw ** 0.78)
+            _959pJ = 100 * _rw7tb / self.Qzw
+            _acTUr = 100 * self.FL ** 0.6 * np.sqrt(_rw7tb / _kaWJd)
+            _oFXk9 = np.sqrt((_zYvjD - 58) ** 2 + 3.4 * _959pJ ** 2)
+            _bq6HJ = 100 - 0.8 * np.sqrt(_zYvjD ** 2 + 8 * _959pJ ** 2)
+            _MqQKD = 100 - np.sqrt((100 - _zYvjD) ** 2 + _959pJ ** 2)
+            return _FR3rl(_kaWJd, _zYvjD, _rw7tb, _959pJ, _acTUr, _oFXk9, _bq6HJ, _MqQKD, _qUBC3, _t7EuD)
+
+        def to_xyz100(self, data, description):
+            if description[0] == 'J':
+                _DiQKN = data[0]
+                _a0pLI = _DiQKN / 100 * self.Qzw
+            else:
+                assert description[0] == 'Q'
+                _a0pLI = data[0]
+                _DiQKN = 100 * _a0pLI / self.Qzw
+            _brJ47 = (_a0pLI / self._alpha) ** (1 / self._beta)
+            _EXdpo = _brJ47 + self.eps
+            if description[1] == 'M':
+                _VSWFO = data[1]
+            elif description[1] == 'S':
+                _8FyuP = data[1]
+                _VSWFO = _a0pLI * (_8FyuP / 100 / self.FL ** 0.6) ** 2
+            else:
+                if description[1] == 'C':
+                    _aWd3u = data[1]
+                elif description[1] == 'V':
+                    _A3beE = data[1]
+                    _aWd3u = np.sqrt((_A3beE ** 2 - (_DiQKN - 58) ** 2) / 3.4)
+                elif description[1] == 'K':
+                    _tecws = data[1]
+                    _aWd3u = np.sqrt((((100 - _tecws) / 0.8) ** 2 - _DiQKN ** 2) / 8)
+                else:
+                    assert description[1] == 'W'
+                    _Oe8hN = data[1]
+                    _aWd3u = np.sqrt((100 - _Oe8hN) ** 2 - (100 - _DiQKN) ** 2)
+                _VSWFO = _aWd3u / 100 * self.Qzw
+            if description[2] == 'h':
+                _nQVml = data[2]
+            else:
+                assert description[2] == 'H'
+                _rERtk = data[2]
+                _tVwMI = np.searchsorted(self.H, _rERtk) - 1
+                _WGj2n = self.H[_tVwMI]
+                _oKos9 = len(self.h)
+                _PesYJ, _fkMT9 = (self.h[_tVwMI], self.h[(_tVwMI + 1) % _oKos9])
+                _Uw1Sc, _VoWX1 = (self.e[_tVwMI], self.e[(_tVwMI + 1) % _oKos9])
+                _Boe6a = ((_rERtk - _WGj2n) * (_VoWX1 * _PesYJ - _Uw1Sc * _fkMT9) - 100 * _PesYJ * _VoWX1) / ((_rERtk - _WGj2n) * (_VoWX1 - _Uw1Sc) - 100 * _VoWX1)
+                _nQVml = np.mod(_Boe6a, 360)
+            _JCLCm = 1.015 + np.cos(np.deg2rad(89.038 + _nQVml))
+            _VxwaA = (_VSWFO * (self.Fb ** 0.1 * self.Izw ** 0.78) / (_JCLCm ** 0.068 * self.FL ** 0.2) / 100) ** (1 / 0.37)
+            _3sBVV = np.cos(np.deg2rad(_nQVml)) * np.sqrt(_VxwaA)
+            _7Qu7F = np.sin(np.deg2rad(_nQVml)) * np.sqrt(_VxwaA)
+            _5K30s, _vT2DL = npx.solve(self.M2b, np.array([_3sBVV, _7Qu7F]) - np.multiply.outer(self.M2c, _EXdpo))
+            _5utOW = np.array([_5K30s, _EXdpo, _vT2DL])
+            return self.jzazbz.lms_to_xyz100(_5utOW)
+
+    class _uUlCI(_svCbQ):
+        labels = ("J'", "a'", "b'")
+        k0 = 0
+
+        def __init__(self, variant, surround, Y_b, L_A, whitepoint=_3K2iF['D65']):
+            _xWElH = {'LCD': (0.77, 0.007, 0.0053), 'SCD': (1.24, 0.007, 0.0363), 'UCS': (1.0, 0.007, 0.0228)}
+            self.K_L, self.c1, self.c2 = _xWElH[variant]
+            self.ciecam02 = _WNx9T(surround, Y_b, L_A, whitepoint)
+            self.name = f'CAM02 ({variant})'
+
+        def from_xyz100(self, xyz):
+            _sHrwl = self.ciecam02.from_xyz100(xyz)
+            _RrrFm = _sHrwl.lightness
+            _nKhaf = _sHrwl.colorfulness
+            _cYO7R = _sHrwl.hue_angle_degrees
+            _FEO9q = (1 + 100 * self.c1) * _RrrFm / (1 + self.c1 * _RrrFm)
+            _8MgMj = 1 / self.c2 * np.log(1 + self.c2 * _nKhaf)
+            _1oB33 = _cYO7R / 180 * np.pi
+            return np.array([_FEO9q, _8MgMj * np.cos(_1oB33), _8MgMj * np.sin(_1oB33)])
+
+        def to_xyz100(self, jab):
+            _EKxmf, _yaB0j, _qytXZ = np.asarray(jab)
+            _eqpDy = _EKxmf / (1 - (_EKxmf - 100) * self.c1)
+            _Im989 = np.mod(np.arctan2(_qytXZ, _yaB0j), 2 * np.pi) / np.pi * 180
+            _XNm5z = np.hypot(_yaB0j, _qytXZ)
+            _7T4hX = (np.exp(_XNm5z * self.c2) - 1) / self.c2
+            return self.ciecam02.to_xyz100(np.array([_eqpDy, _7T4hX, _Im989]), 'JMh')
+
+    class _1PAMq(_uUlCI):
+        name = 'CAM02 (LCD)'
+
+        def __init__(self, surround, Y_b, L_A, whitepoint):
+            super().__init__('LCD', surround, Y_b, L_A, whitepoint)
+
+    class _tWLGD(_uUlCI):
+        name = 'CAM02 (SCD)'
+
+        def __init__(self, surround, Y_b, L_A, whitepoint):
+            super().__init__('SCD', surround, Y_b, L_A, whitepoint)
+
+    class _CcXt8(_uUlCI):
+        name = 'CAM02 (UCS)'
+
+        def __init__(self, surround, Y_b, L_A, whitepoint):
+            super().__init__('UCS', surround, Y_b, L_A, whitepoint)
+    _Xm9r0('cam02lcd', _1PAMq('average', 18.0, 20.0, _3K2iF['D65']))
+    _Xm9r0('cam02scd', _tWLGD('average', 18.0, 20.0, _3K2iF['D65']))
+    _Xm9r0('cam02ucs', _CcXt8('average', 18.0, 20.0, _3K2iF['D65']))
+
+    class _ATtJX(_svCbQ):
+        name = 'CAM16 (UCS)'
+        labels = ("J'", "a'", "b'")
+        k0 = 0
+
+        def __init__(self, surround, Y_b, L_A, whitepoint=_3K2iF['D65']):
+            self.K_L = 1.0
+            self.c1 = 0.007
+            self.c2 = 0.0228
+            self.cam16 = _jCRbv(surround, Y_b, L_A, whitepoint)
+
+        def from_xyz100(self, xyz):
+            _p45Tf = self.cam16.from_xyz100(xyz)
+            _WOi5w = _p45Tf.lightness
+            _lvYia = _p45Tf.colorfulness
+            _eUvYX = _p45Tf.hue_angle_degrees
+            _gBuTI = (1 + 100 * self.c1) * _WOi5w / (1 + self.c1 * _WOi5w)
+            _4XJjg = 1 / self.c2 * np.log(1 + self.c2 * _lvYia)
+            _ppFiw = _eUvYX * np.pi / 180
+            return np.array([_gBuTI, _4XJjg * np.cos(_ppFiw), _4XJjg * np.sin(_ppFiw)])
+
+        def to_xyz100(self, jab):
+            _m811x, _pYKhi, _MrGwW = np.asarray(jab)
+            _XO93f = _m811x / (1 - (_m811x - 100) * self.c1)
+            _IPqre = np.mod(np.arctan2(_MrGwW, _pYKhi) / np.pi * 180, 360)
+            _lgnlr = np.hypot(_pYKhi, _MrGwW)
+            _wkH16 = (np.exp(_lgnlr * self.c2) - 1) / self.c2
+            return self.cam16.to_xyz100(np.array([_XO93f, _wkH16, _IPqre]), 'JMh')
+    _Xm9r0('cam16ucs', _ATtJX('average', 18.0, 20.0))
+
+    def _SsaOF(Lab):
+        _AnHdD, _1RnaF, _Ojqye = np.asarray(Lab)
+        _KIFVO = np.hypot(_1RnaF, _Ojqye)
+        _alIg3 = np.degrees(np.arctan2(_Ojqye, _1RnaF)) % 360
+        return np.array([_AnHdD, _KIFVO, _alIg3])
+
+    def _BkS0T(lch):
+        _V8iKU, _3xiRK, _Aezxa = np.asarray(lch)
+        _nxniJ = np.radians(_Aezxa)
+        return np.array([_V8iKU, _3xiRK * np.cos(_nxniJ), _3xiRK * np.sin(_nxniJ)])
+
+    class _hvHHu(_svCbQ):
+        name = 'CIELCH'
+        labels = ('L', 'C', 'h')
+        k0 = 0
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.cielab = _hou5r(whitepoint=whitepoint)
+
+        def from_xyz100(self, xyz):
+            return _SsaOF(self.cielab.from_xyz100(xyz))
+
+        def to_xyz100(self, lch):
+            return self.cielab.to_xyz100(_BkS0T(lch))
+    _Xm9r0('cielch', _hvHHu())
+
+    class _53Eil:
+
+        def __init__(self, data, color_space):
+            self.data = np.asarray(data)
+            if self.data.shape[0] != 3:
+                _mxrYl = f'Input data needs shape [3,...], got {self.data.shape}.'
+                raise ValueError(_mxrYl)
+            self.color_space = _puglv(color_space) if isinstance(color_space, str) else color_space
+
+        def __repr__(self):
+            return f'<ColorCoordinates, {self.color_space.name}, data.shape={self.data.shape}>'
+
+        def __mul__(self, alpha):
+            return _53Eil(alpha * self.data, self.color_space)
+        __rmul__ = __mul__
+
+        def __add__(self, other):
+            if isinstance(other, _53Eil):
+                if self.color_space.name != other.color_space.name:
+                    _EFK9p = f'Color spaces not equal ({self.color_space.name} != {other.color_space.name})'
+                    raise ValueError(_EFK9p)
+                return _53Eil(self.data + other.data, self.color_space)
+            return _53Eil(self.data + other, self.color_space)
+        __radd__ = __add__
+
+        def __eq__(self, other):
+            if isinstance(other, _53Eil):
+                if self.color_space.name != other.color_space.name:
+                    _jb5ZU = f'Color spaces not equal ({self.color_space.name} != {other.color_space.name})'
+                    raise ValueError(_jb5ZU)
+                return self.data == other.data
+            return self.data == other
+
+        def __lt__(self, other):
+            return self.data < other
+
+        def __le__(self, other):
+            return self.data <= other
+
+        def __gt__(self, other):
+            return self.data > other
+
+        def __ge__(self, other):
+            return self.data >= other
+
+        def copy(self):
+            return deepcopy(self)
+
+        def convert(self, cs, **_ttXbZ):
+            if isinstance(cs, str):
+                cs = _puglv(cs)
+            if cs == self.color_space:
+                return
+            self.data = cs.from_xyz100(self.color_space.to_xyz100(self.data), **_ttXbZ)
+            self.color_space = cs
+
+        @property
+        def lightness(self):
+            assert self.color_space.k0 is not None
+            return self.data[self.color_space.k0]
+
+        @property
+        def hue(self):
+            assert self.color_space.k0 is not None
+            _1xHNJ = np.array([True, True, True])
+            _1xHNJ[self.color_space.k0] = False
+            return self.data[_1xHNJ]
+
+    def _x0Owa(coords, cs, **_qowwF):
+        _GXDlH = coords.copy()
+        _GXDlH.convert(cs, **_qowwF)
+        return _GXDlH
+
+    class _kpv4T(_svCbQ):
+        name = 'DIN99'
+        labels = ('L99', 'a99', 'b99')
+        k0 = 0
+
+        def __init__(self, k_E=1.0, k_CH=1.0, variant=None):
+            self.k_E = k_E
+            self.k_CH = k_CH
+            self.cielab = _hou5r()
+            if variant is None:
+                self.p = [105.51, 0.0158, 16.0, 0.7, 200 / 9, 9 / 200, 0.0]
+            elif variant == 'b':
+                self.p = [303.67, 0.0039, 26.0, 0.83, 23.0, 0.075, 26.0]
+            elif variant == 'c':
+                self.p = [317.65, 0.0037, 0.0, 0.94, 23.0, 0.066, 0.0]
+            else:
+                assert variant == 'd'
+                self.p = [325.22, 0.0036, 50.0, 1.14, 22.5, 0.06, 50.0]
+            self.sin_p2 = np.sin(np.radians(self.p[2]))
+            self.cos_p2 = np.cos(np.radians(self.p[2]))
+            self.sin_p6 = np.sin(np.radians(self.p[6]))
+            self.cos_p6 = np.cos(np.radians(self.p[6]))
+
+        def from_xyz100(self, xyz):
+            _snGDm, _fQaCq, _HVVRT = self.cielab.from_xyz100(xyz)
+            _AjLJu = self.p[0] * np.log(1 + self.p[1] * _snGDm) / self.k_E
+            _3YKG3 = _fQaCq * self.cos_p2 + _HVVRT * self.sin_p2
+            _GGNmf = self.p[3] * (-_fQaCq * self.sin_p2 + _HVVRT * self.cos_p2)
+            _D9zTK = np.hypot(_3YKG3, _GGNmf)
+            _NeLlr = self.p[4] * np.log(1 + self.p[5] * _D9zTK)
+            _eEYZo = np.zeros_like(_D9zTK)
+            np.divide(_3YKG3, _D9zTK, out=_eEYZo, where=_D9zTK != 0.0)
+            _sCgA0 = np.zeros_like(_D9zTK)
+            np.divide(_GGNmf, _D9zTK, out=_sCgA0, where=_D9zTK != 0.0)
+            _MVeIS = self.cos_p6 * _eEYZo - self.sin_p6 * _sCgA0
+            _gE6Zj = self.sin_p6 * _eEYZo + self.cos_p6 * _sCgA0
+            _d7pq9 = _NeLlr * _MVeIS
+            _qweeJ = _NeLlr * _gE6Zj
+            return np.array([_AjLJu, _d7pq9, _qweeJ])
+
+        def to_xyz100(self, lab99):
+            _kJJSd, _PYrca, _Jy3rv = np.asarray(lab99)
+            _kaczF = np.hypot(_PYrca, _Jy3rv)
+            _JVd2d = (np.exp(_kaczF / self.p[4] * self.k_CH * self.k_E) - 1) / self.p[5]
+            _7G2al = np.zeros_like(_kaczF)
+            np.divide(_PYrca, _kaczF, out=_7G2al, where=_kaczF != 0.0)
+            _pKXji = np.zeros_like(_kaczF)
+            np.divide(_Jy3rv, _kaczF, out=_pKXji, where=_kaczF != 0.0)
+            _sOwUH = self.cos_p6 * _7G2al + self.sin_p6 * _pKXji
+            _gibjd = -self.sin_p6 * _7G2al + self.cos_p6 * _pKXji
+            _OvGGz = _JVd2d * _sOwUH
+            _2D7wr = _JVd2d * _gibjd
+            _4CZpX = _OvGGz * self.cos_p2 - _2D7wr / self.p[3] * self.sin_p2
+            _IIbIr = _OvGGz * self.sin_p2 + _2D7wr / self.p[3] * self.cos_p2
+            _mR9Wy = (np.exp(_kJJSd * self.k_E / self.p[0]) - 1) / self.p[1]
+            return self.cielab.to_xyz100([_mR9Wy, _4CZpX, _IIbIr])
+    _Xm9r0('din99', _kpv4T())
+    _Xm9r0('din99b', _kpv4T(variant='b'))
+    _Xm9r0('din99c', _kpv4T(variant='c'))
+    _Xm9r0('din99d', _kpv4T(variant='d'))
+
+    class _N39B4(NamedTuple):
+        success: bool
+        ab: np.ndarray
+        numsteps: int
+        intervals: np.ndarray
+        resnorms: np.ndarray
+
+    def _jc3XA(*_GaKAF, **_XZB56):
+
+        def _MqMRC(f, a, b, fa, fb, _):
+            _3yimp = (a + b) / 2
+            _Hj6sz = f(_3yimp)
+            if (_Hj6sz > 0) == (fa > 0):
+                return (_3yimp, b, _Hj6sz, fb)
+            return (a, _3yimp, fa, _Hj6sz)
+        return _YZv5D(_MqMRC, *_GaKAF, **_XZB56)
+
+    def _YZv5D(new_interval, f, a, b, tol, maxiter=100):
+        _YiHNx = f(a)
+        _kOtpb = f(b)
+        _ZMk5W = []
+        _N5Aip = []
+        _DDngr = 0
+        _WgmTg = False
+        if _YiHNx == 0:
+            return ((a, a), _N39B4(True, (a, a), _DDngr, np.asarray([]), np.asarray([])))
+        if _kOtpb == 0:
+            return ((b, b), _N39B4(True, (b, b), _DDngr, np.asarray([]), np.asarray([])))
+        if (_YiHNx > 0) == (_kOtpb > 0):
+            _q6LTd = 'Signs of f(a) and f(b) must be opposite.'
+            raise ValueError(_q6LTd)
+        while True:
+            _ZMk5W.append((a, b))
+            _N5Aip.append((_YiHNx, _kOtpb))
+            if abs(a - b) < tol:
+                _WgmTg = True
+                break
+            if maxiter is not None and _DDngr >= maxiter:
+                break
+            a, b, _YiHNx, _kOtpb = new_interval(f, a, b, _YiHNx, _kOtpb, _DDngr)
+            _DDngr += 1
+        return ((a, b) if _WgmTg else None, _N39B4(_WgmTg, (a, b), _DDngr, np.asarray(_ZMk5W), np.asarray(_N5Aip)))
+
+    class _X84Fw(_svCbQ):
+        name = 'HCT'
+        labels = ('H', 'C', 'T')
+        k0 = 2
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.cielab = _hou5r(whitepoint=whitepoint)
+            self.cam16 = _jCRbv('average', 18.0, 20.0)
+
+        def to_xyz100(self, hct, tol=1e-10, maxiter=1000):
+            hct = np.asarray(hct)
+            _hfFGp = hct.shape
+            hct = hct.reshape(3, -1)
+            _3oIdO = []
+            for _3RRcX, _0jGyr, _TDGTS in hct.T:
+                if np.isnan(_3RRcX) or np.isnan(_0jGyr) or np.isnan(_TDGTS):
+                    _3oIdO.append([np.nan, np.nan, np.nan])
+                    continue
+
+                def _lr587(J, C=_0jGyr, h=_3RRcX, T=_TDGTS):
+                    _iwnEA = self.cam16.to_xyz100(np.array([J, C, h]), 'JCh')
+                    _lVE0h, _5ivRw, _5ivRw = self.cielab.from_xyz100(_iwnEA)
+                    return _lVE0h - T
+                _bxbcJ, _5ivRw = _jc3XA(_lr587, 0.0, 100.0, tol=tol, maxiter=maxiter)
+                if _bxbcJ is None:
+                    print(f'Warning: Could not determine XYZ100 values corresponding to HCT ({_3RRcX}, {_0jGyr}, {_TDGTS}).', file=sys.stderr)
+                    _3oIdO.append([np.nan, np.nan, np.nan])
+                else:
+                    _3oIdO.append([_bxbcJ[0], _0jGyr, _3RRcX])
+            _3oIdO = np.array(_3oIdO).T.reshape(_hfFGp)
+            return self.cam16.to_xyz100(_3oIdO, 'JCh')
+
+        def from_xyz100(self, xyz):
+            _d90b2, _AVV9m, _AVV9m = self.cielab.from_xyz100(xyz)
+            _uCgj1 = self.cam16.from_xyz100(xyz)
+            return np.array([_uCgj1.hue_angle_degrees, _uCgj1.chroma, _d90b2])
+
+    class _6yhQA(_svCbQ):
+        name = 'HCTLAB'
+        labels = ('L', 'a', 'b')
+        k0 = 2
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.hct = _X84Fw(whitepoint)
+
+        def to_xyz100(self, lab, **_StVPq):
+            _yNUh2, _AOZcZ, _ATg1w = _SsaOF(lab)
+            return self.hct.to_xyz100([_ATg1w, _AOZcZ, _yNUh2], **_StVPq)
+
+        def from_xyz100(self, xyz):
+            _tNwb0, _f8bbd, _S2xVR = self.hct.from_xyz100(xyz)
+            return _BkS0T([_S2xVR, _f8bbd, _tNwb0])
+    _Xm9r0('hct', _X84Fw())
+    _Xm9r0('hctlab', _6yhQA())
+
+    def _ZcAhX(xyy):
+        _obNzS, _8HUJT, _JciwZ = xyy
+        return np.array([_JciwZ / _8HUJT * _obNzS, _JciwZ, _JciwZ / _8HUJT * (1 - _obNzS - _8HUJT)]) * 100
+
+    class _2czIv(_svCbQ):
+        name = 'HDR (linear)'
+
+        def __init__(self):
+            _wgind = np.array([[0.708, 0.292, 1 / 3], [0.17, 0.797, 1 / 3], [0.131, 0.046, 1 / 3]])
+            self.invM = _ZcAhX(_wgind.T) / 100
+            self.alpha = 1.09929682680944
+            self.beta = 0.018053968510807
+            self.is_origin_well_defined = True
+
+        def from_xyz100(self, xyz100):
+            return npx.solve(self.invM, np.asarray(xyz100) / 100)
+
+        def to_xyz100(self, hdr_linear):
+            return 100 * npx.dot(self.invM, hdr_linear)
+
+        def from_rgb1(self, hdr1):
+            _X0lYs = np.asarray(hdr1, dtype=float)
+            _7Y14f = _X0lYs <= 4.5 * self.beta
+            _X0lYs[_7Y14f] /= 4.5
+            _X0lYs[~_7Y14f] = ((_X0lYs[~_7Y14f] + self.alpha - 1) / self.alpha) ** (1 / 0.45)
+            return _X0lYs
+
+        def to_rgb1(self, hdr_linear):
+            _2Q8ek = np.asarray(hdr_linear, dtype=float)
+            _cBcyJ = hdr_linear <= self.beta
+            _2Q8ek[_cBcyJ] *= 4.5
+            _2Q8ek[~_cBcyJ] = self.alpha * _2Q8ek[~_cBcyJ] ** 0.45 - self.alpha + 1
+            return _2Q8ek
+
+        def from_rgb255(self, srgb255):
+            return self.from_rgb1(np.asarray(srgb255) / 255)
+
+        def to_rgb255(self, srgb_linear):
+            return 255 * self.to_rgb1(srgb_linear)
+    _Xm9r0('hdrlinear', _2czIv())
+
+    def _NZxPj(xyy):
+        _ZJ86B, _8EVyy, _8bhpo = xyy
+        return np.array([_8bhpo / _8EVyy * _ZJ86B, _8bhpo, _8bhpo / _8EVyy * (1 - _ZJ86B - _8EVyy)]) * 100
+
+    class _toeWk(_svCbQ):
+
+        def __init__(self, default_mode='error', whitepoint_correction=True):
+            _ogQes = np.array([[0.64, 0.33, 0.2126], [0.3, 0.6, 0.7152], [0.15, 0.06, 0.0722]])
+            self.invM = _NZxPj(_ogQes.T)
+            if whitepoint_correction:
+                _wZUgc = _3K2iF['D65'] / np.sum(self.invM, axis=1)
+                self.invM = (self.invM.T * _wZUgc).T
+            self.invM /= 100
+            self.default_mode = default_mode
+            self.name = 'sRGB (linear)'
+            self.labels = ('R', 'G', 'B')
+
+        def from_xyz100(self, xyz, mode=None):
+            if mode is None:
+                mode = self.default_mode
+            _By6vl = npx.solve(self.invM, xyz) / 100
+            return _koJxU(_By6vl, 0, 1, mode, 'SRGB')
+
+        def to_xyz100(self, srgb1_linear):
+            return 100 * npx.dot(self.invM, srgb1_linear)
+
+    class _gi3V1(_svCbQ):
+
+        def __init__(self, default_mode='error'):
+            self._srgb_linear = _toeWk(default_mode=default_mode)
+            self.name = 'sRGB-1'
+
+        def from_xyz100(self, xyz, mode=None):
+            _1t5bO = self._srgb_linear.from_xyz100(xyz, mode=mode)
+            _odq3k = 0.055
+            _YKEm1 = _1t5bO <= 0.0031308
+            _1t5bO[_YKEm1] *= 12.92
+            _1t5bO[~_YKEm1] = (1 + _odq3k) * _1t5bO[~_YKEm1] ** (1 / 2.4) - _odq3k
+            return _1t5bO
+
+        def to_xyz100(self, coords):
+            coords = np.asarray(coords)
+            _y4mIg = 0.055
+            _IkI6r = coords <= 0.040449936
+            coords[_IkI6r] /= 12.92
+            coords[~_IkI6r] = ((coords[~_IkI6r] + _y4mIg) / (1 + _y4mIg)) ** 2.4
+            return self._srgb_linear.to_xyz100(coords)
+
+    class _e1B8y(_svCbQ):
+
+        def __init__(self, default_mode='error'):
+            self._srgb1 = _gi3V1(default_mode=default_mode)
+            self.name = 'sRGB-255'
+
+        def from_xyz100(self, xyz, mode=None):
+            return 255 * self._srgb1.from_xyz100(xyz, mode=mode)
+
+        def to_xyz100(self, coords):
+            return self._srgb1.to_xyz100(np.asarray(coords) / 255)
+
+    class _D07tL(_svCbQ):
+
+        def __init__(self, default_mode='error', prepend='#'):
+            self._srgb255 = _e1B8y(default_mode=default_mode)
+            self.name = 'sRGB-hex'
+            self.prepend = prepend
+
+        def from_xyz100(self, xyz, mode=None):
+            _D56Fm = self._srgb255.from_xyz100(xyz, mode=mode)
+            _8Wllc = np.around(_D56Fm).astype(int)
+            if mode == 'error':
+                _GuWGq = f'Rounding in sRGB-hex conversion from\n\n{_D56Fm.tolist()}\nto\n{_8Wllc.tolist()}\n'
+                raise ValueError(_GuWGq)
+            _vlsaK = _8Wllc.shape
+            assert _vlsaK[0] == 3
+            _8Wllc = _8Wllc.reshape(3, -1)
+            return np.array([self.prepend + f'{_cZJUY:02x}{_6nL8a:02x}{_YHdq4:02x}' for _cZJUY, _6nL8a, _YHdq4 in _8Wllc.T]).reshape(_vlsaK[1:])
+
+        def to_xyz100(self, coords):
+
+            def _3UaQI(string):
+                return [int(string[0:2], 16), int(string[2:4], 16), int(string[4:6], 16)]
+            coords = np.asarray(coords)
+            _hensn = coords.shape
+            _py8l3 = [_3UaQI(_IAKmM.item()[len(self.prepend):]) for _IAKmM in coords.reshape(-1)]
+            return self._srgb255.to_xyz100(np.asarray(_py8l3).T).reshape(3, *_hensn)
+
+    def _koJxU(vals, min_val, max_val, mode, name):
+        if mode == 'ignore':
+            return vals
+        _3Xykw = (vals < min_val) | (vals > max_val)
+        if not np.any(_3Xykw):
+            return vals
+        if mode == 'error':
+            _W2FUS = f'Not all {name} values are between {min_val} and {max_val}. Try with `mode="clip"`.'
+            raise ValueError(_W2FUS)
+        if mode == 'nan':
+            vals[_3Xykw] = np.nan
+            return vals
+        assert mode == 'clip'
+        return vals.clip(min_val, max_val)
+    _Xm9r0('srgblinear', _toeWk())
+    _Xm9r0('srgb1', _gi3V1())
+    _Xm9r0('srgb255', _e1B8y())
+    _Xm9r0('srgbhex', _D07tL())
+
+    class _2FuQC(_svCbQ):
+        name = 'HSL'
+        labels = ('H', 'S', 'L')
+        k0 = 2
+
+        def __init__(self, default_mode='error'):
+            self.default_mode = default_mode
+            self.srgb1 = _gi3V1(default_mode)
+
+        def from_srgb1(self, srgb1, mode=None):
+            if mode is None:
+                mode = self.default_mode
+            _oLrJJ = np.asarray(srgb1, dtype=float)
+            _KyDa5 = _oLrJJ.shape
+            _oLrJJ = _oLrJJ.reshape(3, -1)
+            if mode == 'error':
+                if np.any(srgb1 < 0) or np.any(srgb1 > 1):
+                    _Dyge8 = 'Not all srgb1 values are between 0 and 1. Try with `mode="clip"`.'
+                    raise ValueError(_Dyge8)
+            elif mode == 'ignore':
+                pass
+            elif mode == 'nan':
+                srgb1[srgb1 < 0] = np.nan
+                srgb1[srgb1 > 1] = np.nan
+            else:
+                assert mode == 'clip'
+                return srgb1.clip(0.0, 1.0)
+            _SuEVR = np.argmax(_oLrJJ, axis=0)
+            _dgxdh = np.max(_oLrJJ, axis=0)
+            _CEOiX = np.min(_oLrJJ, axis=0)
+            _UdP9B = _dgxdh - _CEOiX
+            _XBfJK = _UdP9B == 0.0
+            _ec3FY = np.empty(_oLrJJ.shape[1:], dtype=float)
+            _ec3FY[_XBfJK] = 0.0
+            _zvGbt = (_SuEVR == 0) & ~_XBfJK
+            _ec3FY[_zvGbt] = 60 * (0 + (_oLrJJ[1][_zvGbt] - _oLrJJ[2][_zvGbt]) / _UdP9B[_zvGbt])
+            _zvGbt = (_SuEVR == 1) & ~_XBfJK
+            _ec3FY[_zvGbt] = 60 * (2 + (_oLrJJ[2][_zvGbt] - _oLrJJ[0][_zvGbt]) / _UdP9B[_zvGbt])
+            _zvGbt = (_SuEVR == 2) & ~_XBfJK
+            _ec3FY[_zvGbt] = 60 * (4 + (_oLrJJ[0][_zvGbt] - _oLrJJ[1][_zvGbt]) / _UdP9B[_zvGbt])
+            _ec3FY = np.mod(_ec3FY, 360)
+            _jOAqE = np.empty(_oLrJJ.shape[1:], dtype=float)
+            _84g8A = 1 - np.abs(_dgxdh + _CEOiX - 1)
+            _8wni8 = _84g8A == 0.0
+            _jOAqE[~_8wni8] = _UdP9B[~_8wni8] / _84g8A[~_8wni8]
+            _jOAqE[_8wni8] = 0.0
+            _mWT3j = (_dgxdh + _CEOiX) / 2
+            _ec3FY = _ec3FY.reshape(_KyDa5[1:])
+            _jOAqE = _jOAqE.reshape(_KyDa5[1:])
+            _mWT3j = _mWT3j.reshape(_KyDa5[1:])
+            return np.array([_ec3FY, _jOAqE, _mWT3j])
+
+        def to_srgb1(self, hsl, mode=None):
+            if mode is None:
+                mode = self.default_mode
+            _D0zz6, _Jy8YV, _lRpQm = hsl
+            _D0zz6 = _koJxU(_D0zz6, 0, 360, mode, 'H')
+            _Jy8YV = _koJxU(_Jy8YV, 0, 1, mode, 'S')
+            _lRpQm = _koJxU(_lRpQm, 0, 1, mode, 'L')
+            _jkCYb = (1 - np.abs(2 * _lRpQm - 1)) * _Jy8YV
+            _Sv5Sy = _D0zz6 / 60
+            _ZGyGD = _jkCYb * (1 - np.abs(np.mod(_Sv5Sy, 2) - 1))
+            _OMkOV = np.zeros(_jkCYb.shape)
+            _wbbJg = np.empty(_jkCYb.shape)
+            _qrJa4 = np.empty(_jkCYb.shape)
+            _9rTRX = np.empty(_jkCYb.shape)
+            _SY6nE = (_Sv5Sy >= 0) & (_Sv5Sy <= 1)
+            _wbbJg[_SY6nE], _qrJa4[_SY6nE], _9rTRX[_SY6nE] = (_jkCYb[_SY6nE], _ZGyGD[_SY6nE], _OMkOV[_SY6nE])
+            _SY6nE = (_Sv5Sy > 1) & (_Sv5Sy <= 2)
+            _wbbJg[_SY6nE], _qrJa4[_SY6nE], _9rTRX[_SY6nE] = (_ZGyGD[_SY6nE], _jkCYb[_SY6nE], _OMkOV[_SY6nE])
+            _SY6nE = (_Sv5Sy > 2) & (_Sv5Sy <= 3)
+            _wbbJg[_SY6nE], _qrJa4[_SY6nE], _9rTRX[_SY6nE] = (_OMkOV[_SY6nE], _jkCYb[_SY6nE], _ZGyGD[_SY6nE])
+            _SY6nE = (_Sv5Sy > 3) & (_Sv5Sy <= 4)
+            _wbbJg[_SY6nE], _qrJa4[_SY6nE], _9rTRX[_SY6nE] = (_OMkOV[_SY6nE], _ZGyGD[_SY6nE], _jkCYb[_SY6nE])
+            _SY6nE = (_Sv5Sy > 4) & (_Sv5Sy <= 5)
+            _wbbJg[_SY6nE], _qrJa4[_SY6nE], _9rTRX[_SY6nE] = (_ZGyGD[_SY6nE], _OMkOV[_SY6nE], _jkCYb[_SY6nE])
+            _SY6nE = (_Sv5Sy > 5) & (_Sv5Sy <= 6)
+            _wbbJg[_SY6nE], _qrJa4[_SY6nE], _9rTRX[_SY6nE] = (_jkCYb[_SY6nE], _OMkOV[_SY6nE], _ZGyGD[_SY6nE])
+            _9Z4sW = _lRpQm - _jkCYb / 2
+            return np.array([_wbbJg + _9Z4sW, _qrJa4 + _9Z4sW, _9rTRX + _9Z4sW])
+
+        def from_srgb256(self, srgb256):
+            return self.from_srgb1(np.asarray(srgb256) / 255.0)
+
+        def to_xyz100(self, hsl):
+            return self.srgb1.to_xyz100(self.to_srgb1(hsl))
+
+        def from_xyz100(self, xyz):
+            return self.from_srgb1(self.srgb1.from_xyz100(xyz))
+
+    class _HKbLU(_svCbQ):
+        name = 'HSV'
+        labels = ('H', 'S', 'V')
+        k0 = 2
+        is_origin_well_defined = False
+
+        def __init__(self, default_mode='error'):
+            self.default_mode = default_mode
+            self.srgb1 = _gi3V1(default_mode)
+
+        def from_srgb1(self, srgb1, mode=None):
+            if mode is None:
+                mode = self.default_mode
+            _eh0jO = np.asarray(srgb1, dtype=float)
+            _q3qbk = _eh0jO.shape
+            _eh0jO = _eh0jO.reshape(3, -1)
+            _eh0jO = _koJxU(_eh0jO, 0, 1, mode, 'SRGB')
+            _caTET = np.argmax(_eh0jO, axis=0)
+            _EKDcP = np.max(_eh0jO, axis=0)
+            _R947t = np.min(_eh0jO, axis=0)
+            _QZ3fQ = _EKDcP - _R947t
+            _KLRT0 = np.empty(_eh0jO.shape[1:], dtype=float)
+            _KLRT0[_EKDcP == _R947t] = 0
+            _7OTE8 = _caTET == 0
+            _KLRT0[_7OTE8] = 60 * (0 + (_eh0jO[1][_7OTE8] - _eh0jO[2][_7OTE8]) / _QZ3fQ[_7OTE8])
+            _7OTE8 = _caTET == 1
+            _KLRT0[_7OTE8] = 60 * (2 + (_eh0jO[2][_7OTE8] - _eh0jO[0][_7OTE8]) / _QZ3fQ[_7OTE8])
+            _7OTE8 = _caTET == 2
+            _KLRT0[_7OTE8] = 60 * (4 + (_eh0jO[0][_7OTE8] - _eh0jO[1][_7OTE8]) / _QZ3fQ[_7OTE8])
+            _KLRT0 = np.mod(_KLRT0, 360)
+            _cBLsf = np.empty(_eh0jO.shape[1:], dtype=float)
+            _cBLsf[_EKDcP == 0] = 0
+            _7OTE8 = (_EKDcP > 0) & (_R947t < 1)
+            _cBLsf[_7OTE8] = _QZ3fQ[_7OTE8] / _EKDcP[_7OTE8]
+            _KLRT0 = _KLRT0.reshape(_q3qbk[1:])
+            _cBLsf = _cBLsf.reshape(_q3qbk[1:])
+            _ArHez = _EKDcP.reshape(_q3qbk[1:])
+            return np.array([_KLRT0, _cBLsf, _ArHez])
+
+        def to_srgb1(self, hsl, mode=None):
+            if mode is None:
+                mode = self.default_mode
+            hsl = np.asarray(hsl)
+            _uokgO, _0itlm, _wM8bs = hsl
+            _uokgO = _koJxU(_uokgO, 0, 360, mode, 'H')
+            _0itlm = _koJxU(_0itlm, 0, 1, mode, 'S')
+            _wM8bs = _koJxU(_wM8bs, 0, 1, mode, 'V')
+            _sNw76 = _wM8bs * _0itlm
+            _obxID = _uokgO / 60
+            _R0CRG = _sNw76 * (1 - np.abs(np.mod(_obxID, 2) - 1))
+            _xpfWr = np.zeros(_sNw76.shape)
+            _6c8QO = np.empty(_sNw76.shape)
+            _9VI9M = np.empty(_sNw76.shape)
+            _Zjnf5 = np.empty(_sNw76.shape)
+            _4xBwT = (_obxID >= 0) & (_obxID <= 1)
+            _6c8QO[_4xBwT], _9VI9M[_4xBwT], _Zjnf5[_4xBwT] = (_sNw76[_4xBwT], _R0CRG[_4xBwT], _xpfWr[_4xBwT])
+            _4xBwT = (_obxID > 1) & (_obxID <= 2)
+            _6c8QO[_4xBwT], _9VI9M[_4xBwT], _Zjnf5[_4xBwT] = (_R0CRG[_4xBwT], _sNw76[_4xBwT], _xpfWr[_4xBwT])
+            _4xBwT = (_obxID > 2) & (_obxID <= 3)
+            _6c8QO[_4xBwT], _9VI9M[_4xBwT], _Zjnf5[_4xBwT] = (_xpfWr[_4xBwT], _sNw76[_4xBwT], _R0CRG[_4xBwT])
+            _4xBwT = (_obxID > 3) & (_obxID <= 4)
+            _6c8QO[_4xBwT], _9VI9M[_4xBwT], _Zjnf5[_4xBwT] = (_xpfWr[_4xBwT], _R0CRG[_4xBwT], _sNw76[_4xBwT])
+            _4xBwT = (_obxID > 4) & (_obxID <= 5)
+            _6c8QO[_4xBwT], _9VI9M[_4xBwT], _Zjnf5[_4xBwT] = (_R0CRG[_4xBwT], _xpfWr[_4xBwT], _sNw76[_4xBwT])
+            _4xBwT = (_obxID > 5) & (_obxID <= 6)
+            _6c8QO[_4xBwT], _9VI9M[_4xBwT], _Zjnf5[_4xBwT] = (_sNw76[_4xBwT], _xpfWr[_4xBwT], _R0CRG[_4xBwT])
+            _AbDVa = _wM8bs - _sNw76
+            return np.array([_6c8QO + _AbDVa, _9VI9M + _AbDVa, _Zjnf5 + _AbDVa])
+
+        def from_srgb256(self, srgb256):
+            return self.from_srgb1(np.asarray(srgb256) / 255.0)
+
+        def to_xyz100(self, hsl):
+            return self.srgb1.to_xyz100(self.to_srgb1(hsl))
+
+        def from_xyz100(self, xyz):
+            return self.from_srgb1(self.srgb1.from_xyz100(xyz))
+
+    class _ytYO6(_svCbQ):
+        name = 'IC_TC_P'
+        labels = ('I', 'C_T', 'C_P')
+        k0 = 0
+
+        def __init__(self):
+            self.M1 = np.array([[1688, 2146, 262], [683, 2951, 462], [99, 309, 3688]]) / 4096
+            self.m1 = 2610 / 4096 / 4
+            self.m2 = 2523 / 4096 * 128
+            self.c1 = 3424 / 4096
+            self.c2 = 2413 / 4096 * 32
+            self.c3 = 2392 / 4096 * 32
+            self.M2 = np.array([[2048, 2048, 0], [6610, -13613, 7003], [17933, -17390, -543]]) / 4096
+            self._hdr = _2czIv()
+
+        def from_rec2100(self, rgb):
+            _jhLOe = npx.dot(self.M1, rgb)
+            _lvfZV = ((self.c1 + self.c2 * _jhLOe ** self.m1) / (1 + self.c3 * _jhLOe ** self.m1)) ** self.m2
+            return npx.dot(self.M2, _lvfZV)
+
+        def to_rec2100(self, ictcp):
+            _GFIdw = npx.solve(self.M2, ictcp)
+            _zG1um = _GFIdw ** (1 / self.m2) - self.c1
+            _sWkpj = (_zG1um / (self.c2 - self.c3 * _GFIdw ** (1 / self.m2))) ** (1 / self.m1)
+            return npx.solve(self.M1, _sWkpj)
+
+        def from_xyz100(self, xyz100):
+            return self.from_rec2100(self._hdr.from_xyz100(xyz100))
+
+        def to_xyz100(self, ictcp):
+            return self._hdr.to_xyz100(self.to_rec2100(ictcp))
+    _Xm9r0('ictcp', _ytYO6())
+
+    class _rBPhr(_svCbQ):
+        name = 'IGPGTG'
+        labels = ('IG', 'PG', 'TG')
+        k0 = 0
+
+        def __init__(self):
+            self.M1 = np.array([[2.968, 2.741, -0.649], [1.237, 5.969, -0.173], [-0.318, 0.387, 2.311]])
+            self.M2 = np.array([[0.117, 1.464, 0.13], [8.285, -8.361, 21.4], [-1.208, 2.412, -36.53]])
+            self.s = np.array([18.36, 21.46, 19435])
+
+        def from_xyz100(self, xyz):
+            xyz = np.asarray(xyz)
+            _CNIAH = npx.dot(self.M1, (xyz.T / _3K2iF['D65']).T)
+            if np.any(_CNIAH < 0.0):
+                _dOK77 = 'Cannot handle input value'
+                raise ValueError(_dOK77)
+            _Mo4x2 = (_CNIAH.T / self.s).T ** 0.427
+            return npx.dot(self.M2, _Mo4x2)
+
+        def to_xyz100(self, ipt):
+            _46gOv = npx.solve(self.M2, ipt)
+            _VIdbJ = ((_46gOv ** (1 / 0.427)).T * self.s).T
+            _zYAPs = npx.solve(self.M1, _VIdbJ)
+            return (_zYAPs.T * _3K2iF['D65']).T
+    _Xm9r0('igpgtg', _rBPhr())
+
+    class _6PebN(_svCbQ):
+        name = 'IPT'
+        labels = ('I', 'P', 'T')
+        k0 = 0
+
+        def __init__(self):
+            self.M1 = np.array([[0.4002, 0.7075, -0.0807], [-0.228, 1.15, 0.0612], [0.0, 0.0, 0.9184]])
+            self.M2 = np.array([[0.4, 0.4, 0.2], [4.455, -4.851, 0.396], [0.8056, 0.3572, -1.1628]])
+
+        def from_xyz100(self, xyz):
+            _vTQnO = npx.dot(self.M1, xyz)
+            _5qtyy = np.sign(_vTQnO) * np.abs(_vTQnO) ** 0.43
+            return npx.dot(self.M2, _5qtyy)
+
+        def to_xyz100(self, ipt):
+            _kLW79 = npx.solve(self.M2, ipt)
+            _wi0y4 = np.sign(_kLW79) * np.abs(_kLW79) ** (1 / 0.43)
+            return npx.solve(self.M1, _wi0y4)
+    _Xm9r0('ipt', _6PebN())
+
+    class _w8teh(_svCbQ):
+        name = 'Oklab'
+        labels = ('L', 'a', 'b')
+        k0 = 0
+
+        def __init__(self, lightness_type='L'):
+            self.M1 = np.array([[0.8189330101, 0.3618667424, -0.1288597137], [0.0329845436, 0.9293118715, 0.0361456387], [0.0482003018, 0.2643662691, 0.633851707]])
+            self.M1inv = np.linalg.inv(self.M1)
+            self.M2 = np.array([[0.2104542553, +0.793617785, -0.0040720468], [+1.9779984951, -2.428592205, +0.4505937099], [+0.0259040371, +0.7827717662, -0.808675766]])
+            self.M2inv = np.linalg.inv(self.M2)
+            assert lightness_type in ['L', 'Lr']
+            self.lightness_type = lightness_type
+            self.k1 = 0.206
+            self.k2 = 0.03
+            self.k3 = (1 + self.k1) / (1 + self.k2)
+            self.name = f'Oklab ({lightness_type})'
+
+        def from_xyz100(self, xyz100):
+            _XBTqw = np.asarray(xyz100) / 100
+            _YlYUB = npx.dot(self.M2, np.cbrt(npx.dot(self.M1, _XBTqw)))
+            if self.lightness_type == 'Lr':
+                _YlYUB[0] = (self.k3 * _YlYUB[0] - self.k1 + np.sqrt((self.k3 * _YlYUB[0] - self.k1) ** 2 + 4 * self.k2 * self.k3 * _YlYUB[0])) / 2
+            return _YlYUB
+
+        def to_xyz100(self, lab):
+            if self.lightness_type == 'Lr':
+                lab[0] = lab[0] * (lab[0] + self.k1) / (self.k3 * (lab[0] + self.k2))
+            return npx.dot(self.M1inv, npx.dot(self.M2inv, lab) ** 3) * 100
+
+    class _t1SkT(_svCbQ):
+        name = 'OKLCH'
+        labels = ('L', 'C', 'h')
+        k0 = 0
+
+        def __init__(self, lightness_type='L'):
+            self.lab = _w8teh(lightness_type=lightness_type)
+
+        def from_xyz100(self, xyz):
+            return _SsaOF(self.lab.from_xyz100(xyz))
+
+        def to_xyz100(self, lch):
+            return self.lab.to_xyz100(_BkS0T(lch))
+    _Xm9r0('oklab', _w8teh())
+    _Xm9r0('oklch', _t1SkT())
+
+    class _0cawi(_svCbQ):
+        name = 'OSA-UCS'
+        labels = ('L', 'j', 'g')
+        k0 = 0
+
+        def __init__(self):
+            self.M = np.array([[+0.799, 0.4194, -0.1648], [-0.4493, 1.3265, +0.0927], [-0.1149, 0.3394, +0.717]])
+            self.Minv = np.linalg.inv(self.M)
+
+        def from_xyz100(self, xyz100):
+            _xhhgf, _v6zYC, _cY7rQ = np.asarray(xyz100)
+            _nh1dA = np.sum(xyz100, axis=0)
+            _63qLA = 4.4934 * _v6zYC * _xhhgf ** 2 + 4.3034 * _v6zYC ** 3 - 4.276 * _xhhgf * _v6zYC ** 2 - 1.3744 * _xhhgf * _v6zYC * _nh1dA - 2.5643 * _v6zYC ** 2 * _nh1dA + 1.8103 * _v6zYC * _nh1dA ** 2
+            _i1sE9 = np.zeros_like(_nh1dA)
+            np.divide(_63qLA, _nh1dA ** 2, out=_i1sE9, where=_nh1dA != 0.0)
+            _F0tKM = 5.9 * (np.cbrt(_i1sE9) - 2 / 3 + 0.042 * np.cbrt(_i1sE9 - 30))
+            _eJeUQ = _F0tKM / (5.9 * (np.cbrt(_i1sE9) - 2 / 3))
+            _lw2X4, _fHYnB, _l7QpK = npx.dot(self.M, xyz100)
+            _M6e8v = -13.7 * np.cbrt(_lw2X4) + 17.7 * np.cbrt(_fHYnB) - 4 * np.cbrt(_l7QpK)
+            _uKlhA = 1.7 * np.cbrt(_lw2X4) + 8 * np.cbrt(_fHYnB) - 9.7 * np.cbrt(_l7QpK)
+            _dloOf = (_F0tKM - 14.3993) / np.sqrt(2)
+            _vN8gI = _eJeUQ * _M6e8v
+            _omfPj = _eJeUQ * _uKlhA
+            return np.array([_dloOf, _omfPj, _vN8gI])
+
+        def to_xyz100(self, ljg, tol=1e-13, max_num_newton_steps=100):
+            _6Ihp0, _qPLCk, _rGoAU = np.asarray(ljg)
+            _o3tUt = _6Ihp0 * np.sqrt(2) + 14.3993
+            _ASslu = _o3tUt / 5.9 + 2 / 3
+            _DvdEJ = 0.042 ** 3
+            _Od4tV = -(_DvdEJ + 1)
+            _U94Lx = 3 * _ASslu
+            _ii6JI = -3 * _ASslu ** 2
+            _ZYeHE = _ASslu ** 3 + _DvdEJ * 30
+            _jJABf = (3 * _Od4tV * _ii6JI - _U94Lx ** 2) / (3 * _Od4tV ** 2)
+            _IFGn3 = (2 * _U94Lx ** 3 - 9 * _Od4tV * _U94Lx * _ii6JI + 27 * _Od4tV ** 2 * _ZYeHE) / (27 * _Od4tV ** 3)
+            _EcR22 = np.sqrt((_IFGn3 / 2) ** 2 + (_jJABf / 3) ** 3)
+            _5pz7P = np.cbrt(-_IFGn3 / 2 + _EcR22) + np.cbrt(-_IFGn3 / 2 - _EcR22)
+            _5pz7P -= _U94Lx / (3 * _Od4tV)
+            _De3s3 = _5pz7P ** 3
+            _FGcyj = _o3tUt / (5.9 * (_5pz7P - 2 / 3))
+            _Od4tV = _rGoAU / _FGcyj
+            _U94Lx = _qPLCk / _FGcyj
+            _KiXcs = -17.7 * 9.7 + 4 * 8
+            _eDZhP = (-9.7 * _Od4tV + 4 * _U94Lx) / _KiXcs
+            _p9LCY = (-8 * _Od4tV + 17.7 * _U94Lx) / _KiXcs
+
+            def _bONEl(omega):
+                omega = np.full_like(_eDZhP, omega)
+                _QCNRt = np.array([omega, omega + _eDZhP, omega + _p9LCY])
+                _GToXB = _QCNRt ** 3
+                _NA3jm = npx.dot(self.Minv, _GToXB)
+                _XgLDn, _MJbKF, _YUuDy = _NA3jm
+                _uihFM = np.sum(_NA3jm, axis=0)
+                _hrXGf = _XgLDn / _uihFM
+                _Gp4Yl = _MJbKF / _uihFM
+                _NS1VW = 4.4934 * _hrXGf ** 2 + 4.3034 * _Gp4Yl ** 2 - 4.276 * _hrXGf * _Gp4Yl - 1.3744 * _hrXGf - 2.5643 * _Gp4Yl + 1.8103
+                _2iWr3 = _MJbKF * _NS1VW - _De3s3
+                _HPqSC = 3 * _QCNRt ** 2
+                _AqWE1 = npx.dot(self.Minv, _HPqSC)
+                _1iisy, _7qEw5, _YUuDy = _AqWE1
+                _77oVF = np.sum(_AqWE1, axis=0)
+                _GycBA = (_1iisy * _uihFM - _XgLDn * _77oVF) / _uihFM ** 2
+                _xJRuE = (_7qEw5 * _uihFM - _MJbKF * _77oVF) / _uihFM ** 2
+                _gCUGZ = 4.4934 * 2 * _hrXGf * _GycBA + 4.3034 * 2 * _Gp4Yl * _xJRuE - 4.276 * (_GycBA * _Gp4Yl + _hrXGf * _xJRuE) - 1.3744 * _GycBA - 2.5643 * _xJRuE
+                _rV73g = _7qEw5 * _NS1VW + _MJbKF * _gCUGZ
+                return (_2iWr3, _rV73g, _NA3jm)
+            _yvSty = np.cbrt((0.799 + 0.4194) * 100)
+            _Yrp0J, _7gZ40, _z6AbE = _bONEl(_yvSty)
+            _bW58M = 0
+            while np.any(np.abs(_Yrp0J) > tol):
+                if _bW58M >= max_num_newton_steps:
+                    _gegWf = 'OSA-USC.to_xyz100 exceeded max number of Newton steps'
+                    raise RuntimeError(_gegWf)
+                _yvSty -= _Yrp0J / _7gZ40
+                _Yrp0J, _7gZ40, _z6AbE = _bONEl(_yvSty)
+                _bW58M += 1
+            return _z6AbE
+    _Xm9r0('osaucs', _0cawi())
+
+    class _gDdPG(_svCbQ):
+        name = 'proLab'
+        labels = ('L', 'a', 'b')
+        k0 = 0
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.Q = np.array([[75.54, 486.66, 167.39], [617.72, -595.45, -22.27], [48.34, 194.94, -243.28]])
+            self.q = np.array([0.7554, 3.8666, 1.6739])
+            self.Qinv = np.linalg.inv(self.Q)
+            self.whitepoint_xyz100 = np.asarray(whitepoint)
+            self.whitepoint = np.array([100.0, 0.0, 0.0])
+
+        def from_xyz100(self, xyz):
+            xyz = np.asarray(xyz)
+            xyz = (xyz.T / self.whitepoint_xyz100).T
+            return npx.dot(self.Q, xyz) / (npx.dot(self.q, xyz) + 1)
+
+        def to_xyz100(self, lab):
+            _cqbU7 = npx.dot(self.Qinv, lab)
+            _WUaXj = _cqbU7 / (1 - npx.dot(self.q, _cqbU7))
+            return (_WUaXj.T * self.whitepoint_xyz100).T
+    _Xm9r0('prolab', _gDdPG())
+
+    class _3NuUc(_svCbQ):
+        name = 'RLAB'
+        labels = ('LR', 'aR', 'bR')
+        k0 = 0
+
+        def __init__(self, Y_n=318.0, D=0.0, whitepoint=_3K2iF['D65'], sigma=1.0 / 2.3):
+            _UBy8G = np.array([[0.3897, 0.689, -0.0787], [-0.2298, 1.1834, 0.0464], [0.0, 0.0, 1.0]])
+            self.whitepoint = np.asarray(whitepoint)
+            _pkcWb = _UBy8G @ self.whitepoint
+            _rIa11 = 3.0 * _pkcWb / np.sum(_pkcWb)
+            _qQaw0 = Y_n ** (1 / 3)
+            _CbPBK = (1.0 + _qQaw0 + _rIa11) / (1.0 + _qQaw0 + 1.0 / _rIa11)
+            _VPBO8 = (_CbPBK + D * (1 - _CbPBK)) / _pkcWb
+            _XOhfl = np.array([[1.03565229, -0.05781178, 0.02215949], [-0.0060366, 1.00482272, 0.00121388], [0.0, 0.0, 1.0]])
+            self.sigma = sigma
+            self.A = _XOhfl @ np.linalg.solve(_UBy8G, (_VPBO8 * _UBy8G.T).T)
+            self.Ainv = np.linalg.solve(_UBy8G, ((_UBy8G @ np.linalg.inv(_XOhfl)).T / _VPBO8).T)
+
+        def from_xyz100(self, xyz):
+            _7y4At = npx.dot(self.A, xyz)
+            _qwEQK, _CLu6k, _8XP3l = _7y4At ** self.sigma
+            _ZTb7m = 100 * _CLu6k
+            _ySPKm = 430 * (_qwEQK - _CLu6k)
+            _s1NHO = 170 * (_CLu6k - _8XP3l)
+            return np.array([_ZTb7m, _ySPKm, _s1NHO])
+
+        def to_xyz100(self, lab):
+            _IEcqM, _ZhxKy, _9CYCb = np.asarray(lab)
+            _XjTdI = _IEcqM / 100
+            _9iv2B = _ZhxKy / 430 + _XjTdI
+            _M2O7O = _XjTdI - _9CYCb / 170
+            _YzV8H = np.array([_9iv2B, _XjTdI, _M2O7O]) ** (1.0 / self.sigma)
+            return npx.dot(self.Ainv, _YzV8H)
+    _Xm9r0('rlab', _3NuUc())
+
+    class _RNiwf(_svCbQ):
+        name = 'SRLAB2'
+        labels = ('L', 'a', 'b')
+        k0 = 0
+
+        def __init__(self, whitepoint=_3K2iF['D65']):
+            self.whitepoint_xyz100 = np.asarray(whitepoint)
+            _CISzI = _UQq6D @ self.whitepoint_xyz100
+            self.B = _Zl6Zb @ np.linalg.inv(_UQq6D) @ (_UQq6D.T / _CISzI).T
+            self.C = _rzd8P @ np.linalg.inv(_Zl6Zb)
+            self.Binv = np.linalg.inv(self.B)
+            self.Cinv = np.linalg.inv(self.C)
+
+        def from_xyz100(self, xyz):
+            return npx.dot(self.C, _iEyLZ(npx.dot(self.B, xyz)))
+
+        def to_xyz100(self, lab):
+            return npx.dot(self.Binv, _S1HqO(npx.dot(self.Cinv, lab)))
+    _Xm9r0('srlab2', _RNiwf())
+
+    class _utpGf(_svCbQ):
+        name = 'xyY'
+        labels = ('x', 'y', 'Y')
+        k0 = 2
+        is_origin_well_defined = False
+
+        def __init__(self, Y_scaling):
+            if Y_scaling not in [1, 100]:
+                _WqVhM = 'Y_scaling needs to be 1 or 100.'
+                raise _uEztc(_WqVhM)
+            self.Y_scaling = Y_scaling
+
+        def from_xyz100(self, xyz100):
+            xyz100 = np.asarray(xyz100)
+            if np.any(xyz100 < 0):
+                _4ToRv = 'Negative XYZ100 value.'
+                raise _uEztc(_4ToRv)
+            _UMJyu = xyz100
+            if self.Y_scaling == 1:
+                _UMJyu = xyz100 / 100
+            _6P27c = np.sum(_UMJyu, axis=0)
+            _K00Xj = _UMJyu[0]
+            _F8VFZ = _UMJyu[1]
+            return np.array([_K00Xj / _6P27c, _F8VFZ / _6P27c, _F8VFZ])
+
+        def to_xyz100(self, xyy):
+            xyy = np.asarray(xyy)
+            if np.any(xyy < 0):
+                _i2tVj = 'Negative xyY value.'
+                raise _uEztc(_i2tVj)
+            _2WjGN, _JmCuT, _27Jkz = xyy
+            _k3xwg = np.array([_27Jkz / _JmCuT * _2WjGN, _27Jkz, _27Jkz / _JmCuT * (1 - (_2WjGN + _JmCuT))])
+            if self.Y_scaling == 1:
+                _k3xwg *= 100
+            return _k3xwg
+
+    class _zXapI(_utpGf):
+        name = 'xyY1'
+        labels = ('x', 'y', 'Y1')
+
+        def __init__(self):
+            super().__init__(1)
+
+    class _ajPF5(_utpGf):
+        name = 'xyY100'
+        labels = ('x', 'y', 'Y100')
+
+        def __init__(self):
+            super().__init__(100)
+    _Xm9r0('xyy1', _zXapI())
+    _Xm9r0('xyy100', _ajPF5())
+
+    class _XhLpW(_svCbQ):
+        name = 'XYZ'
+        labels = ('X', 'Y', 'Z')
+        k0 = None
+
+        def __init__(self, scaling):
+            if scaling not in [1, 100]:
+                _q4y8m = 'scaling needs to be 1 or 100.'
+                raise _uEztc(_q4y8m)
+            self.scaling = scaling
+
+        def from_xyz100(self, xyz):
+            xyz = np.asarray(xyz)
+            if self.scaling == 100:
+                return xyz
+            return xyz / 100
+
+        def to_xyz100(self, xyz):
+            xyz = np.asarray(xyz)
+            if self.scaling == 100:
+                return xyz
+            return xyz * 100
+
+    class _UHer3(_XhLpW):
+        name = 'XYZ1'
+
+        def __init__(self):
+            super().__init__(1)
+
+    class _6IDyP(_svCbQ):
+        name = 'XYZ100'
+        labels = ('X', 'Y', 'Z')
+
+        def __init__(self):
+            super().__init__()
+
+        def from_xyz100(self, xyz):
+            return np.asarray(xyz)
+
+        def to_xyz100(self, xyz):
+            return np.asarray(xyz)
+    _Xm9r0('xyz1', _UHer3())
+    _Xm9r0('xyz100', _6IDyP())
+
+    def _q5Kz9(cs_class, whitepoint, surround, Y_b, L_A):
+        _ZukJ7 = inspect.getfullargspec(cs_class)
+        _OftQ8 = {}
+        if 'whitepoint' in _ZukJ7.args:
+            _OftQ8['whitepoint'] = whitepoint
+        if 'surround' in _ZukJ7.args:
+            _OftQ8['surround'] = surround
+        if 'Y_b' in _ZukJ7.args:
+            _OftQ8['Y_b'] = Y_b
+        if 'L_A' in _ZukJ7.args:
+            _OftQ8['L_A'] = L_A
+        return cs_class(**_OftQ8)
+
+    def _Wd9cb(target, actual, weights=1.0):
+        target = np.asarray(target)
+        actual = np.asarray(actual)
+        weights = np.asarray(weights)
+        _zY0Zl = weights * target
+        _vMRbk = np.dot(_zY0Zl, actual) / np.dot(_zY0Zl, target)
+        _O3n6Y = _vMRbk * target - actual
+        _tWgqE = np.dot(weights * _O3n6Y, _O3n6Y) / np.dot(weights * actual, actual)
+        return 100 * np.sqrt(_tWgqE)
+
+    def _EROK2(target, actual, weights=1.0):
+        target = np.asarray(target)
+        actual = np.asarray(actual)
+        weights = np.asarray(weights)
+        _4ko0g = weights * target
+        _6Yg0y = np.sum(_4ko0g) / np.sum(_4ko0g * target / actual)
+        _AxrsU = _6Yg0y * target - actual
+        _mhCPM = np.sum(weights * _AxrsU ** 2 / actual) / np.sum(weights * actual)
+        return 100 * np.sqrt(_mhCPM)
+
+    class _8LM3k:
+
+        def __init__(self, name, arms, whitepoint_xyz100, surround, Y_b, L_A, neutral_gray=None):
+            self.name = name
+            self.arms = arms
+            self.whitepoint_xyz100 = np.asarray(whitepoint_xyz100)
+            self.surround = surround
+            self.Y_b = Y_b
+            self.L_A = L_A
+            self.neutral_gray = self.whitepoint_xyz100 if neutral_gray is None else neutral_gray
+
+        def plot(self, cs_class):
+            _W1F8a = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _pOGw9 = _x0Owa(_53Eil(self.neutral_gray, 'XYZ100'), _W1F8a).hue
+            _GXZNX = []
+            _3Lc0a = []
+            for _dgci9 in self.arms:
+                _NG4va = _x0Owa(_53Eil(_dgci9, 'XYZ100'), _W1F8a)
+                _NgbGZ = _x0Owa(_NG4va, 'SRGB1', mode='clip').data
+                _0hLwq = _NG4va.hue
+                _ifCCA = (_0hLwq.T - _pOGw9).T
+                _SUBJz, _KOzAQ = np.linalg.eigh(_ifCCA @ _ifCCA.T)
+                _bbz47 = _KOzAQ[:, 0] if _SUBJz[0] > _SUBJz[1] else _KOzAQ[:, 1]
+                if np.dot(_bbz47, np.average(_ifCCA, axis=1)) < 0:
+                    _bbz47 = -_bbz47
+                _zIPUm = np.max(np.linalg.norm(_ifCCA, axis=0))
+                _fw7ZT = _pOGw9 + _zIPUm * _bbz47
+                plt.plot([_pOGw9[0], _fw7ZT[0]], [_pOGw9[1], _fw7ZT[1]], '-', color='0.5', zorder=0)
+                _GXZNX.append(_0hLwq)
+                _3Lc0a.append(_NgbGZ)
+            _uflAg = np.hstack(_GXZNX)
+            _cnmLQ = np.hstack(_3Lc0a)
+            _BMaEQ = np.all((_cnmLQ >= 0) & (_cnmLQ <= 1), axis=0)
+            _R2q8W = _cnmLQ.T.copy()
+            _R2q8W[~_BMaEQ] = [1.0, 1.0, 1.0]
+            _azsr2 = _cnmLQ.T.copy()
+            _azsr2[~_BMaEQ] = [0.0, 0.0, 0.0]
+            plt.scatter(_uflAg[0], _uflAg[1], marker='o', color=_R2q8W, edgecolors=_azsr2)
+            _vhCVh, _Ur2CO = _W1F8a.hue_labels
+            plt.xlabel(_vhCVh)
+            plt.ylabel(_Ur2CO, rotation=0)
+            plt.axis('equal')
+            plt.grid(visible=False)
+            _KZmcC = plt.gca()
+            _KZmcC.spines['top'].set_visible(False)
+            _KZmcC.spines['right'].set_visible(False)
+            _KZmcC.spines['bottom'].set_visible(False)
+            _KZmcC.spines['left'].set_visible(False)
+            plt.title(f'{self.name} hue linearity data for {_W1F8a.name}')
+            return plt
+
+        def stress(self, cs_class):
+            _lJljF = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            assert _lJljF.k0 is not None
+            _pBFXh = [True, True, True]
+            _pBFXh[_lJljF.k0] = False
+            _lSoRB = _lJljF.from_xyz100(self.neutral_gray)[_pBFXh]
+            _73V2o = []
+            for _RMflx in self.arms:
+                _u6TFb = _lJljF.from_xyz100(_RMflx)[_pBFXh]
+                _u6TFb = (_u6TFb.T - _lSoRB).T
+                _rncG3, _UvclI = np.linalg.svd(_u6TFb, compute_uv=False)
+                _73V2o.append(_UvclI / _rncG3)
+            return 100 * np.array(_73V2o)
+
+    class _iRoEJ(_8LM3k):
+
+        def __init__(self):
+            _cHFqY = pathlib.Path(__file__).resolve().parent
+            with (_cHFqY / 'ebner_fairchild.json').open() as _kmhbe:
+                _rPecN = json.load(_kmhbe)
+            _qGZz9 = [np.column_stack([_JI6H4['reference xyz'], np.array(_JI6H4['same']).T]) for _JI6H4 in _rPecN['data']]
+            super().__init__('Ebner-Fairchild', _qGZz9, _rPecN['white point'], surround='dark', L_A=25, Y_b=35)
+
+    def _aOxFU(lab1, lab2, l=2.0, c=1.0):
+        lab1 = _53Eil(lab1, 'cielab')
+        lab2 = _53Eil(lab2, 'cielab')
+        _Uhs7k = _x0Owa(lab1, 'cielch')
+        _POchz = _x0Owa(lab2, 'cielch')
+        _tnVHX, _BdhEQ, _5FFZn = _Uhs7k.data
+        _MsLKA, _BPHwf, _VbQ64 = _POchz.data
+        _OitR6 = np.sqrt(_BdhEQ ** 4 / (_BdhEQ ** 4 + 1900))
+        _y9MpP = (_5FFZn >= 164) & (_5FFZn <= 345)
+        _6SzfF = np.empty_like(_5FFZn)
+        _6SzfF[_y9MpP] = 0.56
+        _6SzfF[~_y9MpP] = 0.36
+        _eYtZk = np.empty_like(_5FFZn)
+        _eYtZk[_y9MpP] = 0.2
+        _eYtZk[~_y9MpP] = 0.4
+        _a4sbZ = np.empty_like(_5FFZn)
+        _a4sbZ[_y9MpP] = 168
+        _a4sbZ[~_y9MpP] = 35
+        _cGMoN = _6SzfF + np.abs(_eYtZk * np.cos(np.radians(_5FFZn + _a4sbZ)))
+        _hzpHu = np.empty_like(_tnVHX)
+        _y9MpP = _tnVHX < 16
+        _hzpHu[_y9MpP] = 0.511
+        _hzpHu[~_y9MpP] = 0.040975 * _tnVHX[~_y9MpP] / (1 + 0.01765 * _tnVHX[~_y9MpP])
+        _8HZzp = 0.0638 * _BdhEQ / (1 + 0.0131 * _BdhEQ) + 0.638
+        _gidng = _8HZzp * (_OitR6 * _cGMoN + 1 - _OitR6)
+        _VbQ64, _xtPRw, _ibqfg = lab1.data
+        _VbQ64, _ngQE0, _ySGDT = lab2.data
+        _jgLbm = _BdhEQ - _BPHwf
+        _hXFl9 = _xtPRw - _ngQE0
+        _OrghV = _ibqfg - _ySGDT
+        _GXD75 = _hXFl9 ** 2 + _OrghV ** 2 - _jgLbm ** 2
+        return np.sqrt(((_MsLKA - _tnVHX) / l / _hzpHu) ** 2 + (_jgLbm / c / _8HZzp) ** 2 + _GXD75 / _gidng ** 2)
+
+    class _z0K8Q(_8LM3k):
+
+        def __init__(self):
+            _RxUve = pathlib.Path(__file__).resolve().parent
+            with (_RxUve / 'averages.json').open() as _YD7vQ:
+                _cAkGm = json.load(_YD7vQ)
+            self.Lw = 114.6
+            _KcDGx = _cAkGm.pop('neutral-gray', None)[0]
+            _lYMxX = np.moveaxis(list(_cAkGm.values()), 1, 2)
+            super().__init__('Xiao', _lYMxX, whitepoint_xyz100=np.array([98.0, 100.0, 139.7]), surround='dim', Y_b=20, L_A=23, neutral_gray=_KcDGx)
+
+    def _aVG0W(M, whitepoint_source, whitepoint_target):
+        whitepoint_source = np.asarray(whitepoint_source)
+        whitepoint_target = np.asarray(whitepoint_target)
+        _JC2DA = M @ whitepoint_target
+        _jpcDW = M @ whitepoint_source
+        _2Yp4p = _JC2DA / _jpcDW
+        _4MZeg = np.linalg.solve(M, (M.T * _2Yp4p).T)
+        _FzdpK = np.linalg.solve(M, (M.T / _2Yp4p).T)
+        return (_4MZeg, _FzdpK)
+
+    def _f4Sy6(whitepoint_source, whitepoint_target):
+        _uciMX = np.array([[0.0, 1.0, 0.0], [-0.46, 1.36, 0.1], [0.0, 0.0, 1.0]])
+        return _aVG0W(_uciMX, whitepoint_source, whitepoint_target)
+
+    def _dVQ6c(whitepoint_source, whitepoint_target):
+        _ZLSfn = np.array([[0.8752, 0.2787, -0.1539], [-0.8904, 1.8709, 0.0195], [-0.0061, 0.0162, 0.9899]])
+        return _aVG0W(_ZLSfn, whitepoint_source, whitepoint_target)
+
+    def _304pp(whitepoint_source, whitepoint_target):
+        _DIHH8 = np.array([[0.6489, 0.3915, -0.0404], [-0.3775, 1.3055, 0.072], [-0.0271, 0.0888, 0.9383]])
+        return _aVG0W(_DIHH8, whitepoint_source, whitepoint_target)
+    _o2WKi = pathlib.Path(__file__).resolve().parent
+
+    def _Kdtsn(stepsize=1):
+        return _J673u(_o2WKi / 'cie-1931-2.json', stepsize)
+
+    def _36O1w(stepsize=1):
+        return _J673u(_o2WKi / 'cie-1964-10.json', stepsize)
+
+    def _J673u(filename, stepsize):
+        with filename.open() as _1EXUG:
+            _OTofV = json.load(_1EXUG)
+        _axnsJ, _cqYr9, _Eanes = _OTofV['lambda_nm']
+        assert _Eanes == 1
+        _3t5Qs = np.arange(_axnsJ, _cqYr9 + 1, stepsize)
+        _LQzC5 = np.array(_OTofV['xyz'])[:, ::stepsize]
+        return _tdrE4(_3t5Qs, _LQzC5, _OTofV['name'])
+
+    def _gz42L(lmbda):
+
+        def _XVBc0(x, alpha, mu, sigma1, sigma2):
+            _hiFOf = np.full(x.shape, sigma1)
+            _hiFOf[x > mu] = sigma2
+            return alpha * np.exp(-0.5 * ((x - mu) / _hiFOf) ** 2)
+        _4OKwF = _XVBc0(lmbda, 0.362, 442.0, 16.0, 26.7) + _XVBc0(lmbda, 1.056, 599.8, 37.9, 31.0) + _XVBc0(lmbda, -0.065, 501.1, 20.4, 26.2)
+        _C5eot = _XVBc0(lmbda, 0.821, 568.8, 46.9, 40.5) + _XVBc0(lmbda, 0.286, 530.9, 16.3, 31.1)
+        _dSjY4 = _XVBc0(lmbda, 1.217, 437.0, 11.8, 36.0) + _XVBc0(lmbda, 0.681, 459.0, 26.0, 13.8)
+        return np.array([_4OKwF, _C5eot, _dSjY4])
+
+    def _KZZgz(lmbda):
+        _MujQ3 = +0.398 * np.exp(-1250 * np.log((lmbda + 570.1) / 1014) ** 2) + 1.132 * np.exp(-234 * np.log((1338 - lmbda) / 734.5) ** 2)
+        _y4T7S = 1.011 * np.exp(-0.5 * ((lmbda - 556.1) / 46.14) ** 2)
+        _xw1kR = 2.06 * np.exp(-32.0 * np.log((lmbda - 265.8) / 180.4) ** 2)
+        return np.array([_MujQ3, _y4T7S, _xw1kR])
+
+    def _1Uio1(n, k):
+        _hoTDB = np.zeros(n)
+        _hoTDB[k] = 1.0
+        return _hoTDB
+
+    def _I6i93(observer, fill_horseshoe=True):
+        _tJEHl = np.arange(380, 701)
+        _cBPOT = len(_tJEHl)
+        _GKvsg = _53Eil(np.array([_py84H(_tdrE4(_tJEHl, _1Uio1(_cBPOT, _xt71w)), observer) for _xt71w in range(_cBPOT)]).T, 'XYZ100')
+        _GKvsg = _x0Owa(_GKvsg, 'XYY100').hue.T
+        _hMLF1 = np.linspace(0.0, 1.0, 101)
+        _ERXQk = np.outer(_GKvsg[0], _hMLF1) + np.outer(_GKvsg[-1], 1 - _hMLF1)
+        _GAUBP = np.concatenate([_GKvsg, _ERXQk.T])
+        if fill_horseshoe:
+            plt.fill(*_GAUBP.T, color=[0.8, 0.8, 0.8], zorder=0)
+        plt.plot(_GKvsg[:, 0], _GKvsg[:, 1], '-k')
+        plt.plot(_ERXQk[0], _ERXQk[1], ':k')
+
+    def _2sJCz(observer):
+        _2IIJO = _53Eil(np.array([_py84H(_QafPo(_C9JhO), observer) for _C9JhO in np.arange(1000, 20001, 100)]).T, 'XYZ100')
+        _MZtjv, _bhwZg = _x0Owa(_2IIJO, 'XYY100').data[:2]
+        plt.plot(_MZtjv, _bhwZg, ':k', label='Planckian locus')
+
+    def _tPtSz(fill_horseshoe=True, plot_planckian_locus=True):
+        _U3xEi = _Kdtsn()
+        _I6i93(_U3xEi, fill_horseshoe=fill_horseshoe)
+        if plot_planckian_locus:
+            _2sJCz(_U3xEi)
+        plt.gca().set_aspect('equal')
+        plt.xlabel('x')
+        plt.ylabel('y')
+        return plt
+
+    def _hRPyS(observer, max_stepsize):
+        _cCN9P = observer.lmbda_nm.shape[0]
+        _XKYvL = np.zeros(_cCN9P)
+        _XKYvL[:] = 0.0
+        _XKYvL[-1] = 1.0
+        _6X96a = _tdrE4(observer.lmbda_nm, _XKYvL)
+        _igRgd = _x0Owa(_53Eil(_py84H(_6X96a, observer), 'XYZ100'), 'XYY100').data[:2]
+        _XKYvL[:] = 0.0
+        _XKYvL[0] = 1.0
+        _6X96a = _tdrE4(observer.lmbda_nm, _XKYvL)
+        _Jmjji = _x0Owa(_53Eil(_py84H(_6X96a, observer), 'XYZ100'), 'XYY100').data[:2]
+        _q5eVh = _igRgd - _Jmjji
+        _ZhXos = np.sqrt(np.sum(_q5eVh ** 2))
+        _KqgpR = _ZhXos / max_stepsize
+        _KqgpR = int(_KqgpR) + 2
+        _N7j6u = np.array([_igRgd * (1 - _WG8K9) + _Jmjji * _WG8K9 for _WG8K9 in np.linspace(0, 1, _KqgpR)])
+        _fjcgO = [_N7j6u[-1]]
+        for _Nou47 in range(1, _cCN9P):
+            _XKYvL[:] = 0.0
+            _XKYvL[_Nou47] = 1.0
+            _6X96a = _tdrE4(observer.lmbda_nm, _XKYvL)
+            _1iXwR = _x0Owa(_53Eil(_py84H(_6X96a, observer), 'XYZ100'), 'XYY100').data[:2]
+            _q5eVh = _fjcgO[-1] - _1iXwR
+            _ZhXos = np.sqrt(np.dot(_q5eVh, _q5eVh))
+            if _ZhXos > max_stepsize:
+                _fjcgO.append(_1iXwR)
+        _fjcgO.append(_N7j6u[0])
+        _fjcgO = np.array(_fjcgO)
+        return (_fjcgO, _N7j6u)
+
+    def _ktR9s(colorspace, srgb0, srgb1, n=256):
+        _0xzwJ = _IqRdQ(colorspace, srgb0, srgb1, n=n)
+        _M0xLw = mpl.colors.LinearSegmentedColormap.from_list('empty', _0xzwJ, n)
+        _nJUVY = np.linspace(0.0, 1.0, n)
+        _nJUVY = np.vstack((_nJUVY, _nJUVY))
+        plt.imshow(_nJUVY, aspect='auto', cmap=_M0xLw)
+        plt.axis('off')
+        _Vw7OC = _puglv(colorspace) if isinstance(colorspace, str) else colorspace
+        plt.title(f'SRGB gradient in {_Vw7OC.name}')
+        return plt
+
+    def _IqRdQ(colorspace, srgb0, srgb1, n):
+        _N6rH1 = _x0Owa(_53Eil(srgb0, 'srgb_linear'), colorspace).data
+        _TNPIh = _x0Owa(_53Eil(srgb1, 'srgb_linear'), colorspace).data
+        _9ODG4 = np.linspace(_N6rH1, _TNPIh, endpoint=True, num=n, axis=0)
+        _o8P09 = _53Eil(_9ODG4.T, colorspace)
+        return _x0Owa(_o8P09, 'srgb1', mode='clip').data.T
+
+    def _jWF8x(colorspace, srgb0, srgb1, n=256):
+        srgb0 = np.asarray(srgb0)
+        srgb1 = np.asarray(srgb1)
+        return _ktR9s(colorspace, srgb0 / 255, srgb1 / 255, n)
+
+    def _5HwGT(colorspace, srgb0, srgb1, n):
+        srgb0 = np.asarray(srgb0)
+        srgb1 = np.asarray(srgb1)
+        return _IqRdQ(colorspace, srgb0 / 255, srgb1 / 255, n) * 255
+
+    def _e8mjp(colorspace, n=256):
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        _P7Cta = [[([1, 1, 1], [1, 0, 0]), ([1, 0, 0], [0, 1, 0])], [([1, 1, 1], [0, 1, 0]), ([0, 1, 0], [0, 0, 1])], [([1, 1, 1], [0, 0, 1]), ([0, 0, 1], [1, 0, 0])], [([0, 0, 0], [1, 0, 0]), ([1, 0, 0], [0, 1, 1])], [([0, 0, 0], [0, 1, 0]), ([0, 1, 0], [1, 0, 1])], [([0, 0, 0], [0, 0, 1]), ([0, 0, 1], [1, 1, 0])]]
+        _epxOR, _ZJe7l = plt.subplots(len(_P7Cta), 2)
+        for _MBVK8 in range(len(_P7Cta)):
+            for _jpTWe in range(2):
+                _Lytyw = _P7Cta[_MBVK8][_jpTWe]
+                _e4Nmz = _ZJe7l[_MBVK8][_jpTWe]
+                _QYZwi = _IqRdQ(colorspace, _Lytyw[0], _Lytyw[1], n=n)
+                _EF2Fh = mpl.colors.LinearSegmentedColormap.from_list('', _QYZwi, n)
+                _VqbkS = np.linspace(0.0, 1.0, n)
+                _VqbkS = np.vstack((_VqbkS, _VqbkS))
+                _e4Nmz.imshow(_VqbkS, aspect='auto', cmap=_EF2Fh)
+                _e4Nmz.axis('off')
+        _epxOR.suptitle(f'primary SRGB gradients in {colorspace.name}')
+        return plt
+
+    def _Df1ur(colorspace, lightness, outline_prec=0.01, fill_color='0.8'):
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        _AcBgq, _vrWji = _hRPyS(observer=_Kdtsn(), max_stepsize=outline_prec)
+        _ZXHcG = _53Eil(np.array([_SF3wD(colorspace, _EyH8l, lightness).data for _EyH8l in _AcBgq]).T, colorspace)
+        _bvHyh = _53Eil(np.array([_SF3wD(colorspace, _cD2gl, lightness).data for _cD2gl in _vrWji]).T, colorspace)
+        plt.plot(*_ZXHcG.hue, '-', color='k')
+        plt.plot(*_bvHyh.hue, ':', color='k')
+        if fill_color is not None:
+            _kgSHf, _jCEKN = np.column_stack([_ZXHcG.hue, _bvHyh.hue[:, 1:]])
+            plt.fill(_kgSHf, _jCEKN, facecolor=fill_color, zorder=0)
+        plt.axis('equal')
+        plt.xlabel(colorspace.hue_labels[0])
+        plt.ylabel(colorspace.hue_labels[1])
+        plt.title(f'visible gamut slice in {colorspace.name} with {colorspace.lightness_label}={lightness}')
+        return plt
+
+    def _SF3wD(cs, xy, level, tol=1e-05):
+        _GjySW, _lCRxm = xy
+        _2GP5P = 0.0
+        _nTw6S = _53Eil([_GjySW, _lCRxm, _2GP5P], 'xyy1')
+        _stH9J = _x0Owa(_nTw6S, cs).lightness
+        assert _stH9J <= level
+        _5u8z6 = 1.0
+        while _x0Owa(_53Eil([_GjySW, _lCRxm, _5u8z6], 'xyy1'), cs).lightness < level:
+            _5u8z6 *= 2
+        while True:
+            _Gintf = (_5u8z6 + _2GP5P) / 2
+            _HAD8j = _x0Owa(_53Eil([_GjySW, _lCRxm, _Gintf], 'xyy1'), cs)
+            if abs(_HAD8j.lightness - level) < tol:
+                break
+            if _HAD8j.lightness > level:
+                _5u8z6 = _Gintf
+            else:
+                assert _HAD8j.lightness < level
+                _2GP5P = _Gintf
+        return _HAD8j
+
+    def _eCKOJ(whitepoint_source, whitepoint_target):
+        _zPVQV = np.array([[+0.8951, +0.2664, -0.1614], [-0.7502, +1.7135, +0.0367], [+0.0389, -0.0685, +1.0296]])
+        return _aVG0W(_zPVQV, whitepoint_source, whitepoint_target)
+
+    def _tDoM1(whitepoint_source, whitepoint_target, F, L_A1, L_A2, exact_inversion=True):
+        _1R3FB = np.array([[0.7982, 0.3389, -0.1371], [-0.5918, 1.5512, 0.0406], [0.0008, 0.0239, 0.9753]])
+        _RTNxJ = 0.5 * (L_A1 + L_A2)
+        _inq1S = F * (0.08 * np.log10(_RTNxJ) + 0.76 - 0.45 * (L_A1 - L_A2) / (L_A1 + L_A2))
+        _inq1S = np.clip(_inq1S, 0.0, 1.0)
+        whitepoint_source = np.asarray(whitepoint_source)
+        whitepoint_target = np.asarray(whitepoint_target)
+        _ohL1b = _1R3FB @ whitepoint_source
+        _TmEvz = _1R3FB @ whitepoint_target
+        _F4X96 = _inq1S * whitepoint_source[1] / whitepoint_target[1]
+        _Rbph8 = _F4X96 * (_TmEvz / _ohL1b) + 1 - _inq1S
+        if exact_inversion:
+            _8B7a2 = np.linalg.solve(_1R3FB, (_1R3FB.T * _Rbph8).T)
+            _6GfSO = np.linalg.solve(_1R3FB, (_1R3FB.T / _Rbph8).T)
+        else:
+            _joTy6 = np.array([[1.07645, -0.237662, 0.161212], [0.410964, 0.554342, 0.034694], [-0.010954, -0.013389, 1.024343]])
+            _8B7a2 = _joTy6 @ (_1R3FB.T * _Rbph8).T
+            _6GfSO = _joTy6 @ (_1R3FB.T / _Rbph8).T
+        return (_8B7a2, _6GfSO)
+
+    def _qfaFe(whitepoint_source, whitepoint_target):
+        _gWRa5 = np.array([[1.2694, 0.0988, -0.1706], [-0.8364, 1.8006, 0.0357], [0.0297, -0.0315, 1.0018]])
+        return _aVG0W(_gWRa5, whitepoint_source, whitepoint_target)
+
+    def _M7p0m(filename, colorspace, variant='srgb', n=50):
+        import meshio
+        import meshzoo
+        if variant.lower() in ['srgb', 'rec709']:
+            _WIxwG = 'SRGBlinear'
+        else:
+            assert variant.lower() in ['hdr', 'rec2020', 'rec2100']
+            _WIxwG = 'HdrLinear'
+        _YLI08, _4ljbl = meshzoo.cube_hexa(np.linspace(0.0, 1.0, n + 1), np.linspace(0.0, 1.0, n + 1), np.linspace(0.0, 1.0, n + 1))
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        if not colorspace.is_origin_well_defined:
+            _YLI08 = _YLI08[1:]
+            _4ljbl = _4ljbl[~np.any(_4ljbl == 0, axis=1)]
+            _4ljbl -= 1
+        _pqMuS = _53Eil(_YLI08.T, _WIxwG)
+        _kE8XD = _x0Owa(_pqMuS, colorspace)
+        meshio.write_points_cells(filename, _kE8XD.data.T, {'hexahedron': _4ljbl}, point_data={'srgb': _x0Owa(_kE8XD, 'srgb1', mode='clip').data.T})
+
+    def _5TT2R(colorspace, n=51, show_grid=True):
+        import meshzoo
+        import pyvista as pv
+        import vtk
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        _ifrzS, _IZNA2 = meshzoo.cube_hexa(np.linspace(0.0, 1.0, n + 1), np.linspace(0.0, 1.0, n + 1), np.linspace(0.0, 1.0, n + 1))
+        _IZNA2 = np.column_stack([np.full(_IZNA2.shape[0], _IZNA2.shape[1]), _IZNA2])
+        _Zagmz = _53Eil(_ifrzS.T, 'SRGBlinear')
+        _zbxr4 = _x0Owa(_Zagmz, colorspace)
+        _mVq8n = np.full(len(_IZNA2), vtk.VTK_HEXAHEDRON, dtype=np.uint8)
+        _zpgZC = pv.UnstructuredGrid(_IZNA2.ravel(), _mVq8n, _zbxr4.data.T)
+        _MLD2G = pv.Plotter()
+        _MLD2G.add_mesh(_zpgZC, scalars=_x0Owa(_zbxr4, 'srgb1', mode='clip').data.T, rgb=True)
+        if show_grid:
+            _MLD2G.show_grid(xtitle=colorspace.labels[0], ytitle=colorspace.labels[1], ztitle=colorspace.labels[2])
+        return _MLD2G
+
+    def _eRWpf(colorspace, lightness, camera_elevation, n=50, variant='srgb', off_screen=False):
+        import meshzoo
+        import pyvista as pv
+        import vtk
+        assert variant in ['srgb', 'rec709']
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        _hnx4d, _BBCzT = meshzoo.cube_hexa(np.linspace(0.0, 1.0, n + 1), np.linspace(0.0, 1.0, n + 1), np.linspace(0.0, 1.0, n + 1))
+        _BBCzT = np.column_stack([np.full(_BBCzT.shape[0], _BBCzT.shape[1]), _BBCzT])
+        _Ujk44 = _53Eil(_hnx4d.T, 'SRGBlinear')
+        _QgLYm = _x0Owa(_Ujk44, colorspace)
+        _r7rCc = np.full(len(_BBCzT), vtk.VTK_HEXAHEDRON, dtype=np.uint8)
+        _Ft8Mj = pv.UnstructuredGrid(_BBCzT.ravel(), _r7rCc, _QgLYm.data.T)
+        _Ft8Mj['rgb'] = _x0Owa(_QgLYm, 'srgb1', mode='clip').data.T
+        _tnlcY = _Ft8Mj.slice([1.0, 0.0, 0.0], [lightness, 0.0, 0.0])
+        _B7Q79 = pv.Plotter(off_screen=off_screen)
+        _B7Q79.show_bounds(xtitle=colorspace.labels[0], ytitle=colorspace.labels[1], ztitle=colorspace.labels[2])
+        _B7Q79.add_mesh(_tnlcY, scalars='rgb', rgb=True, lighting=False)
+        _B7Q79.camera.position = (camera_elevation, 0.0, 0.0)
+        _B7Q79.camera.focal_point = (lightness, 0.0, 0.0)
+        _B7Q79.reset_camera_clipping_range()
+        return _B7Q79
+
+    class _9Bn1o:
+
+        def __init__(self, name, target_dist, xyz_pairs, whitepoint_xyz100, surround, Y_b, L_A, weights=1.0):
+            self.name = name
+            self.target_dist = np.asarray(target_dist)
+            _O5Khr = len(self.target_dist)
+            self.xyz_pairs = np.asarray(xyz_pairs)
+            assert _O5Khr == len(self.xyz_pairs)
+            self.whitepoint_xyz100 = whitepoint_xyz100
+            self.surround = surround
+            self.Y_b = Y_b
+            self.L_A = L_A
+            self.weights = np.asarray(weights)
+
+        def plot(self, cs_class):
+            _7cZdm = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _NA4CI = _7cZdm.from_xyz100(self.xyz_pairs.T).T
+            assert _7cZdm.k0 is not None
+            _NA4CI = np.roll(_NA4CI, 2 - _7cZdm.k0, axis=0)
+            _BKAcy = np.roll(_7cZdm.labels, 2 - _7cZdm.k0, axis=0)
+            _Tfp3j = plt.axes(projection='3d')
+            for _5zlJV in _NA4CI:
+                _Tfp3j.plot(_5zlJV[:, 0], _5zlJV[:, 1], _5zlJV[:, 2], '-k')
+            _Tfp3j.set_xlabel(_BKAcy[0])
+            _Tfp3j.set_ylabel(_BKAcy[1])
+            _Tfp3j.set_zlabel(_BKAcy[2])
+            _Tfp3j.set_title(f'{self.name} dataset in {_7cZdm.name}')
+            return plt
+
+        def stress(self, cs_class, variant='absolute'):
+            _1HXkj = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _AAy6b = _1HXkj.from_xyz100(self.xyz_pairs.T).T
+            _ZKqHC = _AAy6b[:, 1] - _AAy6b[:, 0]
+            _6JTqs = np.sqrt(np.einsum('ij,ij->i', _ZKqHC, _ZKqHC))
+            _JZneb = _Wd9cb if variant == 'absolute' else _EROK2
+            return _JZneb(self.target_dist, _6JTqs, self.weights)
+
+        def stress_lab_diff(self, fun, variant='absolute'):
+            _tB49n = _hou5r(self.whitepoint_xyz100)
+            _CFoRC = _tB49n.from_xyz100(self.xyz_pairs.T)
+            _o3Rq6 = fun(_CFoRC[:, 0], _CFoRC[:, 1])
+            fun = _Wd9cb if variant == 'absolute' else _EROK2
+            return fun(self.target_dist, _o3Rq6, self.weights)
+
+    class _xBOmQ:
+
+        def __init__(self, name, centers, points):
+            self.name = name
+            self.centers = centers
+            self.points = points
+
+        def stress(self, cs):
+            _pufQC = _x0Owa(self.centers, cs)
+            _EVJbY = _x0Owa(self.points, cs)
+            _mwYMY = (_pufQC.data[:, None] - _EVJbY.data).reshape(3, -1)
+            _ilI3b = np.sqrt(np.einsum('ij,ij->j', _mwYMY, _mwYMY))
+            _wD4rY = np.average(_ilI3b)
+            return 100 * np.sqrt(np.sum((_wD4rY - _ilI3b) ** 2) / np.sum(_ilI3b ** 2))
+
+        def plot(self, cs, ellipse_scaling=1.0):
+            if isinstance(cs, str):
+                cs = _puglv(cs)
+            _sKS4L = [_53Eil(np.column_stack([_iVPKc, _lJ6En.T]), self.centers.color_space) for _iVPKc, _lJ6En in zip(self.centers.data.T, self.points.data.T)]
+            _4eSxX(cs, _sKS4L, ellipse_scaling=ellipse_scaling)
+            plt.title(f'{self.name} ellipses for {cs.name}')
+            return plt
+
+    def _4eSxX(cs, centers_points, ellipse_scaling):
+        from matplotlib.patches import Ellipse
+        from scipy.optimize import leastsq
+        _w6sSD = plt.gca().xaxis.label.get_color()
+        _VqvuM = []
+        for _7rcTP in centers_points:
+            _aiaB6 = _x0Owa(_7rcTP, cs).hue
+            _TEJWE = _aiaB6[:, 0]
+            _VqvuM.append(_TEJWE)
+            _KFmyf = _aiaB6[:, 1:]
+            _njJbh = (_KFmyf.T - _TEJWE).T
+
+            def _HHOjw(a_b_theta, X=_njJbh):
+                _YSyk4, _iRtJj, _Spma2 = a_b_theta
+                _798Yf = np.sin(_Spma2)
+                _p9tNx = np.cos(_Spma2)
+                return +_YSyk4 ** 2 * (X[0] * _p9tNx + X[1] * _798Yf) ** 2 + _iRtJj ** 2 * (X[0] * _798Yf - X[1] * _p9tNx) ** 2 - 1.0
+
+            def _t2nkd(a_b_theta, X=_njJbh):
+                _YSyk4, _iRtJj, _Spma2 = a_b_theta
+                _zwxTb = X[0] * np.sin(_Spma2)
+                _tXLM5 = X[0] * np.cos(_Spma2)
+                _tob3l = X[1] * np.sin(_Spma2)
+                _vXpXk = X[1] * np.cos(_Spma2)
+                return np.array([+2 * _YSyk4 * (_tXLM5 + _tob3l) ** 2, +2 * _iRtJj * (_zwxTb - _vXpXk) ** 2, +_YSyk4 ** 2 * 2 * (_tXLM5 + _tob3l) * (-_zwxTb + _vXpXk) + _iRtJj ** 2 * 2 * (_zwxTb - _vXpXk) * (_tXLM5 + _tob3l)]).T
+            (_YSyk4, _iRtJj, _Spma2), _gZAfR = leastsq(_HHOjw, [1.0, 1.0, 0.0], Dfun=_t2nkd)
+            _AVnDI = Ellipse(xy=_TEJWE, width=ellipse_scaling * 2 / _YSyk4, height=ellipse_scaling * 2 / _iRtJj, angle=_Spma2 / np.pi * 180)
+            plt.gca().add_patch(_AVnDI)
+            _AVnDI.set_facecolor(_w6sSD)
+        plt.gca().set_aspect('equal')
+        plt.xlabel(cs.hue_labels[0])
+        plt.ylabel(cs.hue_labels[1], rotation=0)
+        _sLJAZ = np.array(_VqvuM)
+        _u2rhr = np.min(_sLJAZ[:, 0])
+        _KU8Hg = np.max(_sLJAZ[:, 0])
+        _eEynH = np.min(_sLJAZ[:, 1])
+        _hFtzt = np.max(_sLJAZ[:, 1])
+        _MFf4s = _KU8Hg - _u2rhr
+        _DIRE2 = _hFtzt - _eEynH
+        plt.xlim(_u2rhr - 0.2 * _MFf4s, _KU8Hg + 0.2 * _MFf4s)
+        plt.ylim(_eEynH - 0.2 * _DIRE2, _hFtzt + 0.2 * _DIRE2)
+
+    class _ijd5R(_9Bn1o):
+
+        def __init__(self, Y):
+            self.Y = Y
+            _mBoBR = pathlib.Path(__file__).resolve().parent
+            with (_mBoBR / 'm42-table3.json').open() as _aVLfM:
+                _VwPnl = json.load(_aVLfM)
+            self.xy_centers = []
+            self.xy_offsets = []
+            for _LRLhY in _VwPnl:
+                _WfJ74, _WfJ74, _WfJ74, _WfJ74, _2jzAf, _wjTYe = np.array(_LRLhY['data']).T
+                _EKuqt = np.array([np.ones(_2jzAf.shape[0]), _2jzAf]) / np.sqrt(1 + _2jzAf ** 2) * _wjTYe
+                if _EKuqt.shape[1] < 2:
+                    continue
+                self.xy_centers.append(np.array([_LRLhY['x'], _LRLhY['y']]))
+                self.xy_offsets.append(np.column_stack([+_EKuqt, -_EKuqt]))
+            _MHBwd = []
+            for _SQlJY, _k6wb5 in zip(self.xy_centers, self.xy_offsets):
+                _MHBwd += [[[*_SQlJY, Y], [*_x1u1t, Y]] for _x1u1t in _SQlJY + _k6wb5.T]
+            _MHBwd = _53Eil(np.array(_MHBwd).T, 'xyy100')
+            _LGA0D = _x0Owa(_MHBwd, 'xyz100')
+            _VwPnl = _LGA0D.data.T
+            super().__init__('MacAdam (1942)', np.ones(len(_VwPnl)), _VwPnl, whitepoint_xyz100=_3K2iF['C'], surround='average', L_A=24, Y_b=20)
+
+        def plot(self, cs_class, ellipse_scaling=10.0):
+            _0pGok = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _6DWXF = self.Y
+            _O7N4F = []
+            for _Hpxhw, _Wobsl in zip(self.xy_centers, self.xy_offsets):
+                _FnfC2 = np.array([*_Hpxhw, _6DWXF])
+                _8P3du = (_Hpxhw + _Wobsl.T).T
+                _kpHDt = np.array([*_8P3du, np.full(_8P3du.shape[1], _6DWXF)])
+                _O7N4F.append(_53Eil(np.column_stack([_FnfC2, _kpHDt]), 'xyy100'))
+            _4eSxX(_0pGok, _O7N4F, ellipse_scaling)
+            plt.title(f'MacAdam ellipses for {_0pGok.name}')
+            return plt
+
+    class _A6yUl(_9Bn1o):
+
+        def __init__(self):
+            _5F7wk = pathlib.Path(__file__).resolve().parent
+            with (_5F7wk / 'm74-table2.json').open() as _2RNcD:
+                _LXcEb = json.load(_2RNcD)
+            _7ja6x = dict(zip(_LXcEb.keys(), range(len(_LXcEb))))
+            _SO6d1 = _53Eil(np.array([[_26S5K[0], _26S5K[1], _26S5K[2]] for _26S5K in _LXcEb.values()]).T, 'xyy100')
+            self.xyz100_tiles = _x0Owa(_SO6d1, 'xyz100')
+            with (_5F7wk / 'm74-table1.json').open() as _NtRoR:
+                _LXcEb = json.load(_NtRoR)
+            _34fle = np.array([_JsCIo[3] for _JsCIo in _LXcEb])
+            _nrcoS = np.array([[_7ja6x[_rJMP8[1]], _7ja6x[_rJMP8[2]]] for _rJMP8 in _LXcEb])
+            self.is_flat_pair = np.all(_nrcoS <= 43, axis=1)
+            super().__init__('MacAdam (1974)', _34fle, self.xyz100_tiles.data.T[_nrcoS], whitepoint_xyz100=_zXT6i['D65'], surround='average', Y_b=20, L_A=60)
+
+        def plot(self, cs_class):
+            _toytI = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _23bSy = self.xyz_pairs[self.is_flat_pair]
+            _23bSy = _toytI.from_xyz100(_23bSy.T).T
+            _i2GII = np.linalg.norm(_23bSy[:, 0] - _23bSy[:, 1], axis=1)
+            _QbdKn = self.target_dist[self.is_flat_pair]
+            _3uJGK = np.dot(_QbdKn, _i2GII) / np.dot(_QbdKn, _QbdKn)
+            _QbdKn *= _3uJGK
+            _vSqed = [True, True, True]
+            _vSqed[_toytI.k0] = False
+            _OTGE5 = plt.gca().xaxis.label.get_color()
+            for _Uljdt, _PZFNR in zip(_QbdKn, _23bSy):
+                _WuuG9 = _PZFNR[0][_vSqed]
+                _wgbyN = _PZFNR[1] - _PZFNR[0]
+                _DCwUS = _wgbyN / np.linalg.norm(_wgbyN, 2) * _Uljdt / 2
+                _DCwUS = _DCwUS[_vSqed]
+                plt.plot([_WuuG9[0], _WuuG9[0] + _DCwUS[0]], [_WuuG9[1], _WuuG9[1] + _DCwUS[1]], color=_OTGE5, linewidth=3.0, alpha=0.3)
+                _WuuG9 = _PZFNR[1][_vSqed]
+                _DCwUS = -_DCwUS
+                plt.plot([_WuuG9[0], _WuuG9[0] + _DCwUS[0]], [_WuuG9[1], _WuuG9[1] + _DCwUS[1]], color=_OTGE5, linewidth=3.0, alpha=0.3)
+            _fPu0t = _53Eil(self.xyz100_tiles.data[:, :43], 'xyz100')
+            _Jk13B = _x0Owa(_fPu0t, _toytI)
+            plt.scatter(_Jk13B.hue[0], _Jk13B.hue[1], marker='s', color=_x0Owa(_fPu0t, 'srgb1', mode='clip').data.T, edgecolors='w', zorder=2)
+            plt.gca().set_aspect('equal')
+            plt.title(f'MacAdam 1974 color distance data for {_toytI.name}')
+            _eKzmC = _toytI.hue_labels
+            plt.xlabel(_eKzmC[0])
+            plt.ylabel(_eKzmC[1], rotation=0)
+            return plt
+
+    class _mQ3TH:
+
+        def __init__(self):
+            self.surround = 'average'
+            self.L_A = 100
+            self.Y_b = 20
+            self.target_dist = []
+            self.xyz_pairs = []
+            self.whitepoints = []
+            _09M5w = pathlib.Path(__file__).resolve().parent
+            for _k2S6E in ['bfd-c.json', 'bfd-d65.json', 'bfd-m.json']:
+                with (_09M5w / _k2S6E).open() as _CIouB:
+                    _oajCG = json.load(_CIouB)
+                _ygeNg = np.asarray(_oajCG['xyz'])
+                _ZiSqb = np.asarray(_oajCG['pairs'])
+                self.target_dist.append(_oajCG['dv'])
+                self.xyz_pairs.append(_ygeNg[_ZiSqb])
+                self.whitepoints.append(_oajCG['reference_white'])
+
+        def stress(self, cs_class, variant='absolute'):
+            _iqm1c = []
+            for _9b14G, _qt79N in zip(self.xyz_pairs, self.whitepoints):
+                _9Dtd8 = _q5Kz9(cs_class, _qt79N, self.surround, self.Y_b, self.L_A)
+                _SFZ1C = _9Dtd8.from_xyz100(_9b14G.T).T
+                _wC1zl = _SFZ1C[:, 1] - _SFZ1C[:, 0]
+                _iqm1c.append(np.sqrt(np.einsum('ij,ij->i', _wC1zl, _wC1zl)))
+            _w9xTi = np.concatenate(_iqm1c)
+            _3kYsS = np.concatenate(self.target_dist)
+            _Ha7Br = _Wd9cb if variant == 'absolute' else _EROK2
+            return _Ha7Br(_3kYsS, _w9xTi)
+
+        def stress_lab_diff(self, fun, variant='absolute'):
+            _LZENy = []
+            for _SGuqr, _dznWs in zip(self.xyz_pairs, self.whitepoints):
+                _mx3yS = _hou5r(_dznWs).from_xyz100(_SGuqr.T)
+                _LZENy.append(fun(_mx3yS[:, 0], _mx3yS[:, 1]))
+            _CpWUu = np.concatenate(_LZENy)
+            _jikMl = np.concatenate(self.target_dist)
+            fun = _Wd9cb if variant == 'absolute' else _EROK2
+            return fun(_jikMl, _CpWUu)
+    _bzwXg = pathlib.Path(__file__).resolve().parent
+
+    class _X9Mu3:
+
+        def __init__(self, key):
+            assert key in ['SL1', 'SL2']
+            with (_bzwXg / 'fairchild_chen.json').open() as _J0ipR:
+                _YueYo = json.load(_J0ipR)
+            if key == 'SL1':
+                self.surround = 'average'
+                self.Y_b = 20
+                self.L_A = 168
+            else:
+                assert key == 'SL2'
+                self.surround = 'average'
+                self.Y_b = 20
+                self.Lw = 997
+                self.L_A = 199
+            self.whitepoint_xyz100 = _3K2iF['D65']
+            self.data = _YueYo[key]
+            self.key = key
+            for _d5F1Q in self.data:
+                self.data[_d5F1Q] = np.asarray(self.data[_d5F1Q])
+
+        def plot(self, cs_class):
+            _D9XQV = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _Clq9B = self.data['lightness']
+            _NWeGX = _D9XQV.from_xyz100(self.data['xyz'].T)[_D9XQV.k0]
+            _wRr85 = np.dot(_Clq9B, _NWeGX) / np.dot(_Clq9B, _Clq9B)
+            _XlyLy = self.data['xyz'][:, 1]
+            plt.plot(_XlyLy, _Clq9B * _wRr85, 'o', label='experimental (scaled)')
+            plt.plot(_XlyLy, _NWeGX, '-', label=f'{_D9XQV.name}')
+            plt.xlabel('Y')
+            plt.ylabel(_D9XQV.labels[_D9XQV.k0], rotation=0)
+            plt.title(f'Fairchild-Chen {self.key} lightness data')
+            plt.legend()
+            return plt
+
+        def stress(self, cs_class):
+            _TAZpf = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _JNU1g = self.data['lightness']
+            assert _TAZpf.k0 is not None
+            _N6P3B = _TAZpf.from_xyz100(np.zeros(3))[_TAZpf.k0]
+            _zW5Oy = _TAZpf.from_xyz100(self.data['xyz'].T)[_TAZpf.k0] - _N6P3B
+            return _Wd9cb(_JNU1g, _zW5Oy)
+
+    class _zqkiQ(_9Bn1o):
+
+        def __init__(self):
+            _YkOTf = pathlib.Path(__file__).resolve().parent
+            with (_YkOTf / 'leeds.json').open() as _01NFW:
+                _21mK1 = json.load(_01NFW)
+            _zcL05 = np.asarray(_21mK1['xyz'])
+            _yXWfg = np.asarray(_21mK1['pairs'])
+            super().__init__('Leeds', _21mK1['dv'], _zcL05[_yXWfg], whitepoint_xyz100=_21mK1['reference_white'], surround='average', L_A=100, Y_b=20)
+
+    class _dpXDu(_9Bn1o):
+
+        def __init__(self):
+            _UzFt1 = pathlib.Path(__file__).resolve().parent
+            with (_UzFt1 / 'rit-dupont.json').open() as _E1o5G:
+                _hk57Q = json.load(_E1o5G)
+            _vVshJ = np.asarray(_hk57Q['xyz'])
+            _yqviO = np.asarray(_hk57Q['pairs'])
+            super().__init__('RIT-DuPont', _hk57Q['dv'], _vVshJ[_yqviO], whitepoint_xyz100=_hk57Q['reference_white'], surround='average', L_A=127.3, Y_b=10.9)
+
+    class _NUO3S(_9Bn1o):
+
+        def __init__(self):
+            _mdvYa = pathlib.Path(__file__).resolve().parent
+            with (_mdvYa / 'witt.json').open() as _RzTW2:
+                _fGNGS = json.load(_RzTW2)
+            _ZInCP = np.asarray(_fGNGS['xyz'])
+            _qTPNw = np.asarray(_fGNGS['pairs'])
+            super().__init__('Witt', _fGNGS['dv'], _ZInCP[_qTPNw], whitepoint_xyz100=_fGNGS['reference_white'], surround='average', L_A=82.8, Y_b=24.9)
+
+    class _OnDwV:
+
+        def __init__(self):
+            self.bfd_p = _mQ3TH()
+            self.leeds = _zqkiQ()
+            self.rit_dupont = _dpXDu()
+            self.witt = _NUO3S()
+
+        def stress(self, cs_class, variant='absolute'):
+            _EqBR9 = []
+            _EtH42 = []
+            _DueEf = []
+            for _fBIAA, _JIPLi, _Nru99 in zip(self.bfd_p.xyz_pairs, self.bfd_p.whitepoints, self.bfd_p.target_dist):
+                _vUDeA = _q5Kz9(cs_class, _JIPLi, self.bfd_p.surround, self.bfd_p.Y_b, self.bfd_p.L_A)
+                _VhjR4 = _vUDeA.from_xyz100(_fBIAA.T).T
+                _XvuJG = _VhjR4[:, 1] - _VhjR4[:, 0]
+                _EqBR9.append(np.sqrt(np.einsum('ij,ij->i', _XvuJG, _XvuJG)))
+                _EtH42.append(_Nru99)
+                _DueEf.append(np.full(len(_Nru99), 1.0))
+            for _m8mYX, _1fTVP in [(self.leeds, 9.0), (self.rit_dupont, 9.0), (self.witt, 7.0)]:
+                _vUDeA = _q5Kz9(cs_class, _m8mYX.whitepoint_xyz100, _m8mYX.surround, _m8mYX.Y_b, _m8mYX.L_A)
+                _VhjR4 = _vUDeA.from_xyz100(_m8mYX.xyz_pairs.T).T
+                _XvuJG = _VhjR4[:, 1] - _VhjR4[:, 0]
+                _EqBR9.append(np.sqrt(np.einsum('ij,ij->i', _XvuJG, _XvuJG)))
+                _EtH42.append(_m8mYX.target_dist)
+                _DueEf.append(np.full(len(_m8mYX.target_dist), _1fTVP))
+            _EtH42 = np.concatenate(_EtH42)
+            _7Z7lI = np.concatenate(_EqBR9)
+            _DueEf = np.concatenate(_DueEf)
+            _yLcZM = _Wd9cb if variant == 'absolute' else _EROK2
+            return _yLcZM(_EtH42, _7Z7lI, _DueEf)
+
+        def stress_lab_diff(self, fun, variant='absolute'):
+            _oTL8G = []
+            _tRBAj = []
+            _ChL1w = []
+            for _kPmUM, _5x4TM, _UcEPi in zip(self.bfd_p.xyz_pairs, self.bfd_p.whitepoints, self.bfd_p.target_dist):
+                _hG4lA = _hou5r(_5x4TM).from_xyz100(_kPmUM.T)
+                _oTL8G.append(fun(_hG4lA[:, 0], _hG4lA[:, 1]))
+                _tRBAj.append(_UcEPi)
+                _ChL1w.append(np.full(len(_UcEPi), 1.0))
+            for _3DbTZ, _lqgse in [(self.leeds, 9.0), (self.rit_dupont, 9.0), (self.witt, 7.0)]:
+                _hG4lA = _hou5r(_3DbTZ.whitepoint_xyz100).from_xyz100(_3DbTZ.xyz_pairs.T)
+                _oTL8G.append(fun(_hG4lA[:, 0], _hG4lA[:, 1]))
+                _tRBAj.append(_3DbTZ.target_dist)
+                _ChL1w.append(np.full(len(_3DbTZ.target_dist), _lqgse))
+            _tRBAj = np.concatenate(_tRBAj)
+            _X44wT = np.concatenate(_oTL8G)
+            _ChL1w = np.concatenate(_ChL1w)
+            fun = _Wd9cb if variant == 'absolute' else _EROK2
+            return fun(_tRBAj, _X44wT, _ChL1w)
+
+    def _zSo0P(lab1, lab2):
+        _eIsa4 = np.asarray(lab1) - np.asarray(lab2)
+        return np.sqrt(np.einsum('i...,i...->...', _eIsa4, _eIsa4))
+
+    class _GIiif(_8LM3k):
+
+        def __init__(self):
+            _wUJru = pathlib.Path(__file__).resolve().parent
+            with (_wUJru / 'hb-table3.json').open() as _VfdNe:
+                _rYlrR = json.load(_VfdNe)
+            _2BNdm = [np.array(list(_hI141.values())).T for _hI141 in _rYlrR.values()]
+            super().__init__('Hung-Berns', _2BNdm, whitepoint_xyz100=_3K2iF['C'], surround='dark', Y_b=20, L_A=10)
+
+    class _U2BLR(_xBOmQ):
+
+        def __init__(self, num_offset_points):
+            _m3H0R = pathlib.Path(__file__).resolve().parent
+            with (_m3H0R / 'luo-rigg.json').open() as _Yp3Gf:
+                _QlaW9 = json.load(_Yp3Gf)
+            _oRvTU = []
+            _5rwzk = []
+            _245Jq = np.linspace(0.0, 2 * np.pi, num_offset_points, endpoint=False)
+            _iyRvi = np.array([np.cos(_245Jq), np.sin(_245Jq)])
+            for _cj4vy in _QlaW9.values():
+                for _ExNzH, _ehZWF, _3UUKy, _44D5G, _eK8z5, _MrUtr, _VCf6K in _cj4vy.values():
+                    _cWY5Z = _MrUtr * 2 * np.pi / 360
+                    _1Yrz8 = _44D5G / 10000.0
+                    _1Yrz8 *= (_3UUKy / 30) ** 0.2
+                    _R5G1F = _1Yrz8 / _eK8z5
+                    _zBOcX = np.array([_ExNzH, _ehZWF])
+                    _kdksc = np.array([[+_1Yrz8 * np.cos(_cWY5Z), -_R5G1F * np.sin(_cWY5Z)], [+_1Yrz8 * np.sin(_cWY5Z), +_R5G1F * np.cos(_cWY5Z)]])
+                    _05EoD = np.dot(_kdksc, _iyRvi)
+                    _JfdFf = (_zBOcX + _05EoD.T).T
+                    _oRvTU.append(np.array([*_zBOcX, _3UUKy]))
+                    _5rwzk.append(np.array([*_JfdFf, np.full(_JfdFf.shape[1], _3UUKy)]).T)
+            _tuOXS = _53Eil(np.array(_oRvTU).T, 'XYY100')
+            _hRbm6 = _53Eil(np.array(_5rwzk).T, 'XYY100')
+            super().__init__('Luo-Rigg', _tuOXS, _hRbm6)
+    _thXKE = pathlib.Path(__file__).resolve().parent
+
+    class _rNUZk:
+
+        def __init__(self):
+            with (_thXKE / 'real.json').open() as _O3t97:
+                _jdxi6 = json.load(_O3t97)
+            self.h = np.array(_jdxi6['h'])
+            self.V = np.array(_jdxi6['V'])
+            self.C = np.array(_jdxi6['C'])
+            _BVfSJ = _53Eil([_jdxi6['x'], _jdxi6['y'], _jdxi6['Y']], 'XYY100')
+            self.xyz100 = _x0Owa(_BVfSJ, 'XYZ100')
+            self.whitepoint_xyz100 = _3K2iF['C']
+            self.surround = 'average'
+            self.L_A = 64
+            self.Y_b = 20
+            with (_thXKE / 'lightness.json').open() as _M5wHr:
+                self.lightness = json.load(_M5wHr)
+
+        def plot(self, cs_class, V):
+            _VosPO = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _NclCo = _53Eil(self.xyz100.data[:, V == self.V], 'XYZ100')
+            _LS34S = _x0Owa(_NclCo, _VosPO)
+            _r7sww = _x0Owa(_LS34S, 'SRGB1', mode='nan').data
+            _d3O6r = ~np.any(np.isnan(_r7sww), axis=0)
+            _oPCHY = _r7sww.T.copy()
+            _oPCHY[~_d3O6r] = [1.0, 1.0, 1.0]
+            _FZ7vN = _r7sww.T.copy()
+            _FZ7vN[~_d3O6r] = [0.0, 0.0, 0.0]
+            plt.scatter(_LS34S.hue[0], _LS34S.hue[1], marker='o', color=_oPCHY, edgecolors=_FZ7vN)
+            plt.title(f'Munsell points at lightness V={V} in {_VosPO.name}')
+            plt.xlabel(_VosPO.hue_labels[0])
+            plt.ylabel(_VosPO.hue_labels[1], rotation=0)
+            plt.axis('equal')
+            return plt
+
+        def plot_lightness(self, cs_class):
+            _8qfKc = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _a83x2 = _53Eil(np.zeros(3), 'XYZ100')
+            _LYdJL = _x0Owa(_a83x2, _8qfKc).lightness
+            _t4qVh = _x0Owa(self.xyz100, _8qfKc).lightness - _LYdJL
+            _3rYLe = self.V
+            _hgAnT = np.dot(_3rYLe, _t4qVh) / np.dot(_3rYLe, _3rYLe)
+            _xemKw, _NDh2R = self.lightness
+            _xemKw = np.asarray(_xemKw)
+            plt.plot(_NDh2R, _hgAnT * _xemKw, label='scaled Munsell lightness')
+            plt.xlabel('Y')
+            plt.ylabel(_8qfKc.lightness_label, rotation=0)
+            plt.title(f'{_8qfKc.name} lightness of Munsell samples')
+            _mc5Nk = []
+            _vlSxj = []
+            _EroLG = []
+            _pIb9S = []
+            _8kY5o = []
+            _QaDsA = []
+            for _typSs in range(1, 10):
+                _7gIEg = _typSs == self.V
+                _mc5Nk.append(self.xyz100.data[1, _7gIEg][0])
+                _EgzoN = np.sqrt(np.mean(_t4qVh[_7gIEg] ** 2))
+                _vlSxj.append(_EgzoN)
+                _EroLG.append(_EgzoN - np.min(_t4qVh[_7gIEg]))
+                _pIb9S.append(np.max(_t4qVh[_7gIEg]) - _EgzoN)
+                _8kY5o.append(self.xyz100.data[1, _7gIEg])
+                _QaDsA.append(_t4qVh[_7gIEg])
+            plt.errorbar(_mc5Nk, _vlSxj, yerr=[_EroLG, _pIb9S], fmt='o', label=f'{_8qfKc.name} lightness')
+            return plt
+
+        def stress_lightness(self, cs_class):
+            _L3Ypn = _q5Kz9(cs_class, self.whitepoint_xyz100, self.surround, self.Y_b, self.L_A)
+            _5ZA4d = _53Eil(np.zeros(3), 'XYZ100')
+            _8JP8s = _x0Owa(_5ZA4d, _L3Ypn).lightness
+            _JAQzn = _x0Owa(self.xyz100, _L3Ypn).lightness - _8JP8s
+            return _Wd9cb(self.V, _JAQzn)
+        stress = stress_lightness
+
+    def _enYop(lab1, lab2, k_L=1.0, K_1=0.045, K_2=0.015):
+        _3Y5hQ, _osxXl, _uFVkG = np.asarray(lab1)
+        _eQ1gQ, _75fTd, _5b0vA = np.asarray(lab2)
+        _ob5mr = _3Y5hQ - _eQ1gQ
+        _Z3ZS5 = np.sqrt(_osxXl ** 2 + _uFVkG ** 2)
+        _o6mJb = np.sqrt(_75fTd ** 2 + _5b0vA ** 2)
+        _RyjAJ = _Z3ZS5 - _o6mJb
+        _hqDlT = _osxXl - _75fTd
+        _GtGO7 = _uFVkG - _5b0vA
+        _3tvEQ = _hqDlT ** 2 + _GtGO7 ** 2 - _RyjAJ ** 2
+        _dIuaW = 1.0
+        _kYZud = 1 + K_1 * _Z3ZS5
+        _u96Ap = 1 + K_2 * _Z3ZS5
+        _l8jGK = 1.0
+        _s6U5u = 1.0
+        return np.sqrt((_ob5mr / k_L / _dIuaW) ** 2 + (_RyjAJ / _l8jGK / _kYZud) ** 2 + _3tvEQ / (_s6U5u * _u96Ap) ** 2)
+
+    def _RtUcd(lab1, lab2, k_L=1.0, k_C=1.0, k_H=1.0):
+        lab1 = np.asarray(lab1)
+        lab2 = np.asarray(lab2)
+        _UPURH, _YXtAI, _wfLyW = lab1
+        _aetYO, _QjTu5, _Ypsvq = lab2
+        _c1L0U = np.sqrt(_YXtAI ** 2 + _wfLyW ** 2)
+        _Eco3t = np.sqrt(_QjTu5 ** 2 + _Ypsvq ** 2)
+        _PdF5E = (_c1L0U + _Eco3t) / 2
+        _GOsJH = 0.5 * (1 - np.sqrt(_PdF5E ** 7 / (_PdF5E ** 7 + 25 ** 7)))
+        _4po4j = (1 + _GOsJH) * _YXtAI
+        _q4ScF = (1 + _GOsJH) * _QjTu5
+        _Q5Lr4 = np.sqrt(_4po4j ** 2 + _wfLyW ** 2)
+        _ITp81 = np.sqrt(_q4ScF ** 2 + _Ypsvq ** 2)
+        _C7AAG = np.degrees(np.arctan2(_wfLyW, _4po4j)) % 360
+        _FREWb = np.degrees(np.arctan2(_Ypsvq, _q4ScF)) % 360
+        _MRst8 = _FREWb - _C7AAG
+        _tpXwP = (_MRst8 + 180) % 360 - 180
+        _Yc0RC = _aetYO - _UPURH
+        _8vtjZ = _ITp81 - _Q5Lr4
+        _WcoAj = 2 * np.sqrt(_Q5Lr4 * _ITp81) * np.sin(np.radians(_tpXwP / 2))
+        _bJIvv = (_UPURH + _aetYO) / 2
+        _CPu4D = (_Q5Lr4 + _ITp81) / 2
+        _tXLUx = (_tpXwP / 2 + _C7AAG) % 360
+        _QMF20 = 1.0 - 0.17 * np.cos(np.radians(_tXLUx - 30)) + 0.24 * np.cos(np.radians(2 * _tXLUx)) + 0.32 * np.cos(np.radians(3 * _tXLUx + 6)) - 0.2 * np.cos(np.radians(4 * _tXLUx - 63))
+        _OOmPM = 30 * np.exp(-((_tXLUx - 275) / 25) ** 2)
+        _VHVIe = 2 * np.sqrt(_CPu4D ** 7 / (_CPu4D ** 7 + 25 ** 7))
+        _8hWdz = 1 + 0.015 * (_bJIvv - 50) ** 2 / np.sqrt(20 + (_bJIvv - 50) ** 2)
+        _pYAaH = 1 + 0.045 * _CPu4D
+        _9iA8A = 1 + 0.015 * _CPu4D * _QMF20
+        _j2QqO = -np.sin(np.radians(2 * _OOmPM)) * _VHVIe
+        return np.sqrt((_Yc0RC / k_L / _8hWdz) ** 2 + (_8vtjZ / k_C / _pYAaH) ** 2 + (_WcoAj / k_H / _9iA8A) ** 2 + _j2QqO * (_8vtjZ / k_C / _pYAaH) * (_WcoAj / k_H / _9iA8A))
+
+    def _IUtv2():
+        try:
+            slim.keygen.find_license_and_validate(account_id='109c23d2-6cdd-4faf-bd8a-96c242733638', product_id='b44778d5-5823-4c01-a718-0141b5c6c402', variable_names=['COLORIA_LIC', 'COLORIA_LICENSE', 'COLORIA_LICENSE_KEY'])
+        except slim.LicenseError as e:
+            e.show()
+            sys.exit(1)
+
+    def _UlFkd(colorspace, observer, illuminant):
+        from scipy.spatial import ConvexHull
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        _0sacF = len(illuminant.lmbda_nm)
+        _QvxpG = np.zeros(_0sacF, dtype=int)
+        _JSiNt = []
+        _oIjqm = _py84H(_tdrE4(illuminant.lmbda_nm, _QvxpG), observer)
+        _JSiNt.append(_oIjqm)
+        for _NwDTz in range(1, _0sacF):
+            _QvxpG[:] = 0
+            _QvxpG[:_NwDTz] = 1
+            for _PE8TW in range(_0sacF):
+                _r9KBH = _tdrE4(illuminant.lmbda_nm, _QvxpG * illuminant.data)
+                _oIjqm = _py84H(_r9KBH, observer)
+                assert np.all(_oIjqm >= 0), _oIjqm
+                _JSiNt.append(_oIjqm)
+                _QvxpG = np.roll(_QvxpG, shift=1)
+        _JSiNt.append(_py84H(illuminant, observer))
+        _bOVVP = np.array(_JSiNt)
+        _bOVVP *= 100 / _bOVVP[-1][1]
+        _aSIeM = ConvexHull(_bOVVP).simplices
+        if not colorspace.is_origin_well_defined:
+            _bOVVP = _bOVVP[1:]
+            _aSIeM = _aSIeM[~np.any(_aSIeM == 0, axis=1)]
+            _aSIeM -= 1
+        _Vwtwx = colorspace.from_xyz100(_bOVVP.T).T
+        return (_Vwtwx, _aSIeM)
+
+    def _EwUJG(colorspace, observer, illuminant, show_grid=True):
+        import pyvista as pv
+        import vtk
+        if isinstance(colorspace, str):
+            colorspace = _puglv(colorspace)
+        _gPOMJ, _jEjEw = _UlFkd(colorspace, observer, illuminant)
+        _jEjEw = np.column_stack([np.full(_jEjEw.shape[0], _jEjEw.shape[1], dtype=_jEjEw.dtype), _jEjEw])
+        _xBBlI = np.full(len(_jEjEw), vtk.VTK_TRIANGLE)
+        _FzaWh = pv.UnstructuredGrid(_jEjEw.ravel(), _xBBlI, _gPOMJ)
+        _HT0cq = pv.Plotter()
+        _HT0cq.add_mesh(_FzaWh)
+        if show_grid:
+            _HT0cq.show_grid(xtitle=colorspace.labels[0], ytitle=colorspace.labels[1], ztitle=colorspace.labels[2])
+        return _HT0cq
+    _IUtv2()
+_YnpBs()
+del _YnpBs
