@@ -1,0 +1,8 @@
+winrt/_winrt_windows_graphics_printing_printticket.cp39-win32.pyd,sha256=IQoyFx3WJ4jmygRW-NLudFL3tiK_aCr-qcON6u7Bpkw,124416
+winrt/_winrt_windows_graphics_printing_printticket.pyi,sha256=dNfvGtibvOLcISaKUU0dpg1xoN_hs-l4KHpBg2Yi3BQ,8993
+winrt/windows/graphics/printing/printticket/__init__.py,sha256=uA80mN7H2l-elozv7tGe9cPzmpcyfsfMK2ccXVsrdqg,1603
+winrt/windows/graphics/printing/printticket/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Graphics.Printing.PrintTicket-2.0.1.dist-info/METADATA,sha256=rvsXrVFQxgFlxKKcuN5x4hWdFZ6ch9s5joOtSZRHiiA,1263
+winrt_Windows.Graphics.Printing.PrintTicket-2.0.1.dist-info/WHEEL,sha256=1aMbN4t2zTDfBHuhuWzAfIzzQesiKpXOWwJmQwUBD2M,96
+winrt_Windows.Graphics.Printing.PrintTicket-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Graphics.Printing.PrintTicket-2.0.1.dist-info/RECORD,,
