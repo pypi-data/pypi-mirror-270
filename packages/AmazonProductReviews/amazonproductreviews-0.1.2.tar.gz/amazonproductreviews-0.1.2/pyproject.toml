@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "AmazonProductReviews"
+version = "0.1.2"
+description = "Analyze Amazon product reviews"
+authors = ["olamine zakaria <olaminezakaria03@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4 = "*"
+selenium = "*"
+pandas = "*"
+nltk = "*"
+spacy = "*"
+textblob = "*"
+plotly = "*"
+wordcloud = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
