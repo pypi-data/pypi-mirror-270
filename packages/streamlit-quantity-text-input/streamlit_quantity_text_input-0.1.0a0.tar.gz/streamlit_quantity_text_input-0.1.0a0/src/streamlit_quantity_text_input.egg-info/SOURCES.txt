@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/streamlit_quantity_text_input/__init__.py
+src/streamlit_quantity_text_input/streamlit_quantity_text_input.py
+src/streamlit_quantity_text_input.egg-info/PKG-INFO
+src/streamlit_quantity_text_input.egg-info/SOURCES.txt
+src/streamlit_quantity_text_input.egg-info/dependency_links.txt
+src/streamlit_quantity_text_input.egg-info/requires.txt
+src/streamlit_quantity_text_input.egg-info/top_level.txt
