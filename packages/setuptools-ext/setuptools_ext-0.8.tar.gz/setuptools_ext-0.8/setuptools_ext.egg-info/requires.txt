@@ -1,0 +1,7 @@
+setuptools>=61.0.0
+
+[:python_version < "3.11"]
+tomli
+
+[:python_version < "3.8"]
+importlib_metadata
