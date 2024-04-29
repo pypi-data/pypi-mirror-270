@@ -1,0 +1,13 @@
+landcover_lca/database/__init__.py,sha256=qUTDMJm52TtQBea6mn-EEWdZ8M6uxtUPCmeyYCf0CSU,222
+landcover_lca/database/landcover_lca_database.db,sha256=Kt-9LGJ0twNDxa1zeLwE366E2PhxESbNTZizJttROwQ,102400
+landcover_lca/land_utils.py,sha256=Y5IFlxqyNtC9APNX1SrzdppPNm3okkNqrNOcp9mL2mQ,81247
+landcover_lca/lca_emission.py,sha256=7dU6MwMGS0Q_qgY4HwVJTXqGDvPmlxxrr5e6nvm6ouc,58465
+landcover_lca/models.py,sha256=Mj-L9F7j2QTqAUQQ176g3EHXQOB30DcdR9dlYKisnak,26082
+landcover_lca/resource_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+landcover_lca/resource_manager/data_loader.py,sha256=faCO0rb3wShhgXtb2blMVeP8-H9Lfy41_vqF6oABwHs,3089
+landcover_lca/resource_manager/database_manager.py,sha256=4Ssq1h2BkAGF_C-NCqOcNfkf2kFXXnJT19qgnEblDfI,4741
+landcover_lca/resource_manager/landcover_data_manager.py,sha256=LZy8KGykm6WURbGvFvyNa3EXzbWixYjnC6olF9RVDHw,4919
+landcover_lca-0.1.2.dist-info/LICENSE,sha256=Dy10hVB9Gd35oqUZWETQs-uVngmMPxT2fzWvqjq6GZ0,1088
+landcover_lca-0.1.2.dist-info/METADATA,sha256=8qoB9jetBAOTiHTIvB8e9GPKh89tVGwV_Yw-ULmW-bY,9579
+landcover_lca-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+landcover_lca-0.1.2.dist-info/RECORD,,
