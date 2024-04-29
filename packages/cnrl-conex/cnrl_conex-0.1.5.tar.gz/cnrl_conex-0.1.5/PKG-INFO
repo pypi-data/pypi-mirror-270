@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cnrl-conex
+Version: 0.1.5
+Summary: Cortical Network for everything!
+Home-page: https://github.com/cnrl/CoNeX
+Author: CNRL
+Author-email: ashenatena@gmail.com
+License: MIT license
+Keywords: cnrl-conex
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy>=1.23.4
+Requires-Dist: torch>=1.13.1
+Requires-Dist: pymonntorch>=0.1.0
+
+# CoNeX
+
+
+## installation
+
+install from PyPi
+
+```bash
+pip install cnrl-conex
+```
+
+<details>
+    <summary>Or install via git</summary>
+  
+```bash
+pip install git+https://github.com/cnrl/conex
+```
+</details>
+
+
+=======
+History
+=======
