@@ -1,0 +1,6 @@
+database_automation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+database_automation/mongo_crud.py,sha256=XcNP3RcFoVehxINKKwxa1kJE63ACiJKaKWJweYv4aTU,2464
+database_automation_test-0.0.4.dist-info/METADATA,sha256=59Y-1RFyKs98tGyJW1k_UtgA-SgiRphm9aApL8B7Btw,2451
+database_automation_test-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+database_automation_test-0.0.4.dist-info/top_level.txt,sha256=M5AgnIEtQlXEpTZezriFJuOx1kbMhaxZL2TQdQnJick,20
+database_automation_test-0.0.4.dist-info/RECORD,,
