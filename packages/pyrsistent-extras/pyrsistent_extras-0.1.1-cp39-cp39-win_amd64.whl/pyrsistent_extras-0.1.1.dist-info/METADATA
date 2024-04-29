@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: pyrsistent-extras
+Version: 0.1.1
+Summary: Extra data structures for pyrsistent
+Author-Email: mingmingrr <mingmingrr@gmail.com>
+License: Copyright (c) 2022 mingmingrr
+        
+        Permission is hereby granted, free of charge, to any person
+        obtaining a copy of this software and associated documentation
+        files (the "Software"), to deal in the Software without
+        restriction, including without limitation the rights to use,
+        copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the
+        Software is furnished to do so, subject to the following
+        conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+        OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+        WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+        FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Project-URL: Homepage, https://github.com/mingmingrr/pyrsistent-extras
+Project-URL: Changelog, https://github.com/mingmingrr/pyrsistent-extras/blob/master/CHANGELOG.md
+Project-URL: Docs, https://pyrsistent-extras.readthedocs.io/en/latest
+Project-URL: Issues, https://github.com/mingmingrr/pyrsistent-extras/issues
+Requires-Python: >=3.8
+Requires-Dist: typing-extensions
+Requires-Dist: pyrsistent; extra == "test"
+Requires-Dist: lenses; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: hypothesis; extra == "test"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Requires-Dist: coverage; extra == "coverage"
+Requires-Dist: coveralls; extra == "coverage"
+Requires-Dist: cpp-coveralls; extra == "coverage"
+Provides-Extra: test
+Provides-Extra: docs
+Provides-Extra: coverage
+Description-Content-Type: text/x-rst
+
+Pyrsistent-Extras
+=================
+
+|docs-badge| |coverage-badge| |tests-badge| |mypy-badge| |pypi-badge|
+
+.. |docs-badge| image:: https://readthedocs.org/projects/pyrsistent-extras/badge/?version=latest
+	:target: https://pyrsistent-extras.readthedocs.io/en/latest/?badge=latest
+.. |coverage-badge| image:: https://coveralls.io/repos/github/mingmingrr/pyrsistent-extras/badge.svg?branch=main
+	:target: https://coveralls.io/github/mingmingrr/pyrsistent-extras?branch=main
+.. |tests-badge| image:: https://github.com/mingmingrr/pyrsistent-extras/actions/workflows/tests.yaml/badge.svg
+	:target: https://github.com/mingmingrr/pyrsistent-extras/actions/workflows/tests.yaml
+.. |mypy-badge| image:: https://github.com/mingmingrr/pyrsistent-extras/actions/workflows/mypy.yaml/badge.svg
+	:target: https://github.com/mingmingrr/pyrsistent-extras/actions/workflows/mypy.yaml
+.. |pypi-badge| image:: https://badge.fury.io/py/pyrsistent-extras.svg
+	:target: https://badge.fury.io/py/pyrsistent-extras
+
+Extra data structures for `pyrsistent <http://github.com/tobgu/pyrsistent>`_
+
+Below are examples of common usage patterns for some of the structures and
+features. More information and full documentation for all data structures is
+available in the `documentation <http://pyrsistent-extras.readthedocs.org>`_.
+
+PSequence
+---------
+
+Persistent sequences implemented with finger trees,
+with :math:`O(\log{n})` merge/split/lookup
+and :math:`O(1)` access at both ends.
+
+.. code-block:: python
+
+	>>> from pyrsistent_extras import psequence
+	>>> seq1 = psequence([1, 2, 3])
+	>>> seq1
+	psequence([1, 2, 3])
+	>>> seq2 = seq1.append(4)
+	>>> seq2
+	psequence([1, 2, 3, 4])
+	>>> seq3 = seq1 + seq2
+	>>> seq3
+	psequence([1, 2, 3, 1, 2, 3, 4])
+	>>> seq1
+	psequence([1, 2, 3])
+	>>> seq3[3]
+	1
+	>>> seq3[2:5]
+	psequence([3, 1, 2])
+	>>> seq1.set(1, 99)
+	psequence([1, 99, 3])
+
+
+PHeap
+-----
+
+Persistent heaps implemented with binomial heaps,
+with :math:`O(1)` findMin/insert and :math:`O(\log{n})` merge/deleteMin.
+Comes in two flavors: ``PMinHeap`` and ``PMaxHeap``.
+
+.. code-block:: python
+
+	>>> from pyrsistent_extras import pminheap
+	>>> heap1 = pminheap([(1,'a'), (2,'b')])
+	>>> heap1
+	pminheap([(1, 'a'), (2, 'b')])
+	>>> heap2 = heap1.push(3,'c')
+	>>> heap2
+	pminheap([(1, 'a'), (2, 'b'), (3, 'c')])
+	>>> heap3 = heap1 + heap2
+	>>> heap3
+	pminheap([(1, 'a'), (1, 'a'), (2, 'b'), (2, 'b'), (3, 'c')])
+	>>> key, value, heap4 = heap3.pop()
+	>>> (key, value)
+	(1, 'a')
+	>>> heap4
+	pminheap([(1, 'a'), (2, 'b'), (2, 'b'), (3, 'c')])
+
