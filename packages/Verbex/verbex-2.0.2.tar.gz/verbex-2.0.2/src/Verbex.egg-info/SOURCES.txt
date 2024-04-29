@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/Verbex.egg-info/PKG-INFO
+src/Verbex.egg-info/SOURCES.txt
+src/Verbex.egg-info/dependency_links.txt
+src/Verbex.egg-info/requires.txt
+src/Verbex.egg-info/top_level.txt
+src/verbex/__init__.py
+src/verbex/py.typed
+src/verbex/verbex.py
+tests/test_verbex.py
