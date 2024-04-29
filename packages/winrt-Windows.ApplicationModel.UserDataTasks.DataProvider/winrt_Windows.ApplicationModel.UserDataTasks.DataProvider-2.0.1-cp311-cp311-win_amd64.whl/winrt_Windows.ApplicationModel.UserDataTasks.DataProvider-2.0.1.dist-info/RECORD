@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_userdatatasks_dataprovider.cp311-win_amd64.pyd,sha256=_Fjp8oEfo3ebRnz5btYLEFqH6ofurWY9XXwFkgltScQ,103424
+winrt/_winrt_windows_applicationmodel_userdatatasks_dataprovider.pyi,sha256=QxO6vnDJ_MMR9PTYF0dKIpveyTwGDTko6cbbCgKO0CM,7018
+winrt/windows/applicationmodel/userdatatasks/dataprovider/__init__.py,sha256=0n_Rw8gNfPbi8AiKfX1cD1ApZsWWN7k9ist181j2JUo,2501
+winrt/windows/applicationmodel/userdatatasks/dataprovider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.UserDataTasks.DataProvider-2.0.1.dist-info/METADATA,sha256=yN2QiF7ASbXdfde5Z8gQdJAAEz_9Wgow_10JUh_LmUQ,1252
+winrt_Windows.ApplicationModel.UserDataTasks.DataProvider-2.0.1.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+winrt_Windows.ApplicationModel.UserDataTasks.DataProvider-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.UserDataTasks.DataProvider-2.0.1.dist-info/RECORD,,
