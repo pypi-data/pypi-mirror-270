@@ -1,0 +1,8 @@
+os_toolkit
+pandas
+dataframe_short
+seaborn
+python_wizard
+pysrt
+pydub
+playsound
