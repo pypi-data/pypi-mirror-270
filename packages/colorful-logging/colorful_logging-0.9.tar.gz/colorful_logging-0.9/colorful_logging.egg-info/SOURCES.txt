@@ -1,0 +1,8 @@
+README.md
+setup.py
+colorful_logging/__init__.py
+colorful_logging/colorful_logging.py
+colorful_logging.egg-info/PKG-INFO
+colorful_logging.egg-info/SOURCES.txt
+colorful_logging.egg-info/dependency_links.txt
+colorful_logging.egg-info/top_level.txt
