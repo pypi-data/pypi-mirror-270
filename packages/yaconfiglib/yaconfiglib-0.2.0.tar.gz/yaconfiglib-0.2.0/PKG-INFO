@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: yaconfiglib
+Version: 0.2.0
+Summary: Another Config lib for python, basically load config/yaml/toml/... files and add some features like relative import and templating.
+Project-URL: Homepage, https://github.com/jose-pr/yaconfiglib/
+Project-URL: Issues, https://github.com/jose-pr/yaconfiglib/issues
+Author: Jose A
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: pathlib-next
+Provides-Extra: jinja2
+Requires-Dist: jinja2; extra == 'jinja2'
+Provides-Extra: toml
+Requires-Dist: toml; extra == 'toml'
+Provides-Extra: transform
+Requires-Dist: jinja2; extra == 'transform'
+Provides-Extra: yaml
+Requires-Dist: pyyaml; extra == 'yaml'
+Description-Content-Type: text/markdown
+
+# yaconfiglib
+Another Config lib for python, basically load config/yaml/toml/... files and add some features like relative import and templating.
+
+# Inspire/Based on v1 of yamlinclude:
+Source: https://github.com/tanbro/pyyaml-include 
+
+# Also based on hiyapyco for chain loading/merge template support
+Source: https://github.com/zerwes/hiyapyco
+
+
