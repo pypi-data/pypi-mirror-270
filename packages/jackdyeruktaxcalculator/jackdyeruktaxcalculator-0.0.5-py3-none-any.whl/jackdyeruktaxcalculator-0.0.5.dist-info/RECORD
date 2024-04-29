@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/income_calculator.py,sha256=PrubbEAGLwASZ4I3X4z2fEhV83vVI1spCKtlrdOY-9I,4605
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_income_calculator.py,sha256=T6N_ssOM7XDd9VDYD2ZY8B1PNZxjdCFC8p7gd6_x_xk,9563
+jackdyeruktaxcalculator-0.0.5.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+jackdyeruktaxcalculator-0.0.5.dist-info/METADATA,sha256=l9VlauBHFx8jaA3z8AaKrh3Ld8EjpMj7oV0wLzset34,503
+jackdyeruktaxcalculator-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jackdyeruktaxcalculator-0.0.5.dist-info/top_level.txt,sha256=ko5Zp-GH1-aCqmTB-_pzAfcKWZ9D29cRgzo8EmAy2_k,9
+jackdyeruktaxcalculator-0.0.5.dist-info/RECORD,,
