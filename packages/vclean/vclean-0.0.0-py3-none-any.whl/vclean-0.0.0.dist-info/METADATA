@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vclean
+Version: 0.0.0
+Summary: vClean: Assessing the contamination of viral genomes
+Author-email: Ryota Wagatsuma <cold_bz@ruri.waseda.jp>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: lightgb
+Requires-Dist: biopython
+Requires-Dist: checkv
+Requires-Dist: seqkit
+Requires-Dist: kmer-jellyfish
+Requires-Dist: prodigal
+Requires-Dist: mmseqs2
+Project-URL: Home, https://github.com/TsumaR/vclean
+Project-URL: Source, https://github.com/TsumaR/vclean
+
+## vclean
+
+inputを一つのvSAG, vMAGごとにする
+
