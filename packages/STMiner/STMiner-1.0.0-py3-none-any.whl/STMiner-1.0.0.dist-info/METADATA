@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: STMiner
+Version: 1.0.0
+Summary: Python package for spatial transcriptomics data analysis
+Home-page: https://github.com/PSSUN/STMiner
+Author: Peisen Sun
+Author-email: sunpeisen@stu.xjtu.edu.cn
+License: MIT License
+Keywords: STMiner,bioinformatics,GMM,hellinger distance,Spatial transcriptomics
+Platform: Linux
+Platform: Mac
+Platform: Windows
+License-File: LICENSE
+Requires-Dist: anndata (==0.10.7)
+Requires-Dist: bioservices (==1.11.2)
+Requires-Dist: hotspot (==0.0.2)
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: networkx (==3.1)
+Requires-Dist: numba (==0.57.0)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: Pillow (==10.3.0)
+Requires-Dist: plotly (==5.9.0)
+Requires-Dist: POT (==0.9.1)
+Requires-Dist: scanpy (==1.10.1)
+Requires-Dist: scikit-learn (==1.3.0)
+Requires-Dist: scipy (==1.11.1)
+Requires-Dist: seaborn (==0.13.2)
+Requires-Dist: setuptools (==68.0.0)
+Requires-Dist: tifffile (==2021.4.8)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: umap-learn (==0.5.3)
+
