@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+ManipulaPy.egg-info/PKG-INFO
+ManipulaPy.egg-info/SOURCES.txt
+ManipulaPy.egg-info/dependency_links.txt
+ManipulaPy.egg-info/requires.txt
+ManipulaPy.egg-info/top_level.txt
