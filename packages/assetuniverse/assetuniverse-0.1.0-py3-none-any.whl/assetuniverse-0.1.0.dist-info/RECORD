@@ -1,0 +1,10 @@
+assetuniverse/__init__.py,sha256=dfKOo6Xi7bqMaHpNe7Gxm6MXCtEpuT5z085KJqo9NVE,63
+assetuniverse/core.py,sha256=9gwwXYEqNiWaQqlCceVDZT2KO566mlduQsemDsMXg54,15240
+assetuniverse/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assetuniverse/utils/asset.py,sha256=Ak46W9jueL1_X557alrn0OLOsHvufRGLH35bBNScBt0,2627
+assetuniverse/utils/downloaders.py,sha256=aPLh025CiBkLOlmotaac-EWZY7faHHPMzCuxwL7GaA4,7755
+assetuniverse-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+assetuniverse-0.1.0.dist-info/METADATA,sha256=pOYHpdtKDT9aHzJcGVgdpOu2gZyC1wVwR490YvdJNcs,3298
+assetuniverse-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+assetuniverse-0.1.0.dist-info/top_level.txt,sha256=4A6qyzAhUq2LX-yjCZCwQ2Xg8cMKu0niFxxx385zCs8,14
+assetuniverse-0.1.0.dist-info/RECORD,,
