@@ -1,0 +1,16 @@
+cover_letter_automation/__init__.py,sha256=e4znaHBLAc-PkFj5UTtDuMn3ToDCRVMxIaaSi7cbBzo,39
+cover_letter_automation/agents/__init__.py,sha256=WfQR0HZEDF103FoeCVOUro313CC-peCMr_WE4i5bYMo,617
+cover_letter_automation/agents/client.py,sha256=uUxJ0riKe9qzC0h6U65k1dJdzHc2mex6MeQhufE265M,415
+cover_letter_automation/agents/company_researcher.py,sha256=HK8b2JkZHFP3Cig7Z-Lob-ZLPwNfK6_6PYCrbLDrLU4,1503
+cover_letter_automation/agents/critic.py,sha256=4A3uvcIFwqMMQlmlgJtjC3KGNSIomdIpcYpCco-LHT8,2860
+cover_letter_automation/agents/job_description_ingester.py,sha256=MoJZvQBc92INOSLeNOcNb_OdoA60gKoMetKQvpHTg6Q,1889
+cover_letter_automation/agents/resume_retriever.py,sha256=h4DsvWe8c4FTD7Xqlb1MAEFbNFuJcFnHPfLYidGsJwQ,2134
+cover_letter_automation/agents/writer.py,sha256=02FCX-I7eOIGfwZDja1ibMej8gSwDzCvZt3bqlJt1FA,3302
+cover_letter_automation/cli.py,sha256=nbfc6wxks2kaBzciGDxYZF4bcUKPaAAGV9LotJNK-wI,1539
+cover_letter_automation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cover_letter_automation/session.py,sha256=rHT9c-4EBtcz6NWfqzrQMjRZ4RG1CeBZ56KNgQgcEnk,2531
+cover_letter_automation/tools.py,sha256=UhjQRyS1ZrhiPqio-vKzVwtXbWlhpHk96dEROD88Idk,924
+cover_letter_automation-0.4.0.dist-info/METADATA,sha256=vixgihvOD45dojjsakyiciNmFoVbROEh2cdc01jT6G8,4289
+cover_letter_automation-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cover_letter_automation-0.4.0.dist-info/entry_points.txt,sha256=VQQmv6hZS6EpSzu5PWlYolWwBExtWL-YHxxP5RV2L6I,69
+cover_letter_automation-0.4.0.dist-info/RECORD,,
