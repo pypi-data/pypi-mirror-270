@@ -1,0 +1,13 @@
+code_goes_here/__init__.py,sha256=f9LZhErbRO6w-5fKqyepxP8YZpqQjsUbXZIZgpk_e50,25
+code_goes_here/cnn.py,sha256=3ZXa-aIfK7X-MGiIcDLs0z2D8PNMw5gp9rTtAnbZMKA,1070
+code_goes_here/mcculloch.py,sha256=BUbEbawvXabmv-g8bh0aLYHViDUIPQi24mPQhkeiwdE,562
+code_goes_here/perceptron.py,sha256=t5a4F2blvYmQCUNu9bFvS3puXR3V2lX5yQuMi5W0UgA,985
+src/__init__.py,sha256=f9LZhErbRO6w-5fKqyepxP8YZpqQjsUbXZIZgpk_e50,25
+src/cnn.py,sha256=3ZXa-aIfK7X-MGiIcDLs0z2D8PNMw5gp9rTtAnbZMKA,1070
+src/mcculloch.py,sha256=BUbEbawvXabmv-g8bh0aLYHViDUIPQi24mPQhkeiwdE,562
+src/perceptron.py,sha256=t5a4F2blvYmQCUNu9bFvS3puXR3V2lX5yQuMi5W0UgA,985
+helloworld20234-0.12.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helloworld20234-0.12.dist-info/METADATA,sha256=praW_M0IoPBccWMxzlg76S9Eo7hNquKajgeuLUIhwes,81
+helloworld20234-0.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+helloworld20234-0.12.dist-info/top_level.txt,sha256=17VW5pgCnSrsJ0Aaia9HvdY4kM_0uQV5ipI3MriboRU,15
+helloworld20234-0.12.dist-info/RECORD,,
