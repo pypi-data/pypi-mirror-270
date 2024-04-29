@@ -1,0 +1,14 @@
+zodchy/__init__.py,sha256=AKGDMdv_p75ZHrayvCCh3THuc6zGORJvXUcc88PtBp8,39
+zodchy/codex/__init__.py,sha256=urDMI-HoxKKyHW2CyMPsQIlesY24PIk2b8h_CZRU5JQ,60
+zodchy/codex/cqea/__init__.py,sha256=K2qS8o4RVZeYDAgwfEVdzoohs36ZKTlyr6EOVQ3OaG8,304
+zodchy/codex/cqea/actors.py,sha256=OrclpdCl_GjMFSs3c5TfZz-xggneGdHAC971GXJ9SQ0,648
+zodchy/codex/cqea/messages.py,sha256=kq4JbRgLXC59265dkshsIGrbWGZMQWI3v9C8zKA9Y4I,1083
+zodchy/codex/di.py,sha256=x-2ZGFVKSdpum-O7rJFm-xtTjMe4RXycrxuhfpmDA6g,1468
+zodchy/codex/identity.py,sha256=937LEVgsPtDCMyQXRKT4Kugg4CZchVpk7X_Fcm_m-Qs,171
+zodchy/codex/query/__init__.py,sha256=l4qkFUbEZ0lQhw_qJ4bgFpAHc2TRtYnqLt7919B-QTg,260
+zodchy/codex/query/bits.py,sha256=tPQvclHO6K0qhTygokg8zibx6C9WZcCNde4_SfbSwlA,2438
+zodchy/codex/query/parsing.py,sha256=-haqhOf0SP9_vdBFSHNdFuGzAyPGaAitOxIpNl-p_pw,226
+zodchy/types.py,sha256=6IL-NF6dYuz9aIMuQf5lzOIOI2PdaMLYU2p_lMTyzdo,53
+zodchy-0.2.1.dist-info/METADATA,sha256=Ox5R64ABzcleLHjdlJt92ScwlJrGYWM_6E-i8_B4sjs,554
+zodchy-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+zodchy-0.2.1.dist-info/RECORD,,
