@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pratac/__init__.py
+pratac/__main__.py
+pratac/argparser.py
+pratac/definitions.py
+pratac.egg-info/PKG-INFO
+pratac.egg-info/SOURCES.txt
+pratac.egg-info/dependency_links.txt
+pratac.egg-info/entry_points.txt
+pratac.egg-info/top_level.txt
