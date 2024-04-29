@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: DuckReporter
+Version: 0.0.2
+Summary: A package to trace python functions
+Project-URL: Homepage, https://github.com/duckyio
+Project-URL: Issues, https://github.com/duckyio
+Author-email: Drop Tables <build@droptables.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# DuckReporter
+
+This package generates traces from a python function

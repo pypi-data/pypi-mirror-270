@@ -1,0 +1,8 @@
+duckreporter/__init__.py,sha256=o4WTaxBQ5ztArKHZUHsFvBztyOJmJdhjjnGVcKcoywI,28
+duckreporter/emitter.py,sha256=1y7cZ4QZPtLXx5UswGc1WdXS9woW-SArwGUt8Y28ECw,702
+duckreporter/trace.py,sha256=rfCJAsUOn3uuglbVTiCN3jqCpgz9doW-rMYC6DyaLBg,4245
+duckreporter/worker.py,sha256=IA70--5yN1hpuy04cTG0GCWwDH2tIVUO9tY81hDhpVI,1234
+duckreporter-0.0.2.dist-info/METADATA,sha256=Dho8vQVc6YTfTJfB-pqfXCwUXG1HWdyFlxRJOUhfAvg,572
+duckreporter-0.0.2.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+duckreporter-0.0.2.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+duckreporter-0.0.2.dist-info/RECORD,,
