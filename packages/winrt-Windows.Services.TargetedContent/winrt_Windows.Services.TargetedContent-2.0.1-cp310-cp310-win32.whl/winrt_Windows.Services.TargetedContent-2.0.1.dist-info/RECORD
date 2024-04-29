@@ -1,0 +1,8 @@
+winrt/_winrt_windows_services_targetedcontent.cp310-win32.pyd,sha256=bGYsJYE_3t6FRMgyV3AUdnSG_APcg874Y2qSXrYmRq4,244736
+winrt/_winrt_windows_services_targetedcontent.pyi,sha256=RJcgeBI2I6f_jYYVjkq2S-Xr383B7tm1OmTd_NcJYEw,9601
+winrt/windows/services/targetedcontent/__init__.py,sha256=BBIB0TTk-9ylrGC7hNO_HZPUL2YD89XRhD4LT5HOGY0,3031
+winrt/windows/services/targetedcontent/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Services.TargetedContent-2.0.1.dist-info/METADATA,sha256=ieVnfESlBNYwZ7IS_-5_t9Qv5BLc94iepoq5XRMD-Og,1246
+winrt_Windows.Services.TargetedContent-2.0.1.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Windows.Services.TargetedContent-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Services.TargetedContent-2.0.1.dist-info/RECORD,,
