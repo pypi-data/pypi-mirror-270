@@ -1,0 +1,5 @@
+include ACKNOWLEDGEMENTS.txt CHANGES.txt HISTORY.txt LICENSE.txt README.txt tutorial.txt 
+include nzmathconf.py.example
+recursive-include manual *.pdf
+recursive-include enttakagi *.py
+include data/*
