@@ -1,0 +1,16 @@
+dsws_client-1.0.0.dist-info/METADATA,sha256=xVtxumZ7F-j8yGOj4Es7GHHMWKUREMsHPUNgfxKcCBo,1235
+dsws_client-1.0.0.dist-info/WHEEL,sha256=7sv5iXvIiTVJSnAxCz2tGBm9DHsb2vPSzeYeT7pvGUY,90
+dsws_client/__init__.py,sha256=VYThj8fOCGWP5epFfjPdIsGsmcKdq96GdssSazC8JTk,319
+dsws_client/client.py,sha256=EtL6aSkcLEdv16c7zIH3BGDns3_xrrMh9Zq355H6fSY,11479
+dsws_client/config.py,sha256=LRB63m1EBg7Ynj2oLcBacNXtAI5DCmMFOmFTSVruTAw,1589
+dsws_client/converters.py,sha256=vKIWYS1Ksyxxz2_qkfZnkNThr1OIpwBO6bttfqWP77U,757
+dsws_client/ds_request.py,sha256=RXcSB1RmidY0SwMzXA8PznWh7AoftmtC_FZ4tQ-26N8,9523
+dsws_client/ds_response.py,sha256=BSux4_DAi0w6HtFheVA2MnQn4g7ATTcGwJNM9RMlwqw,5417
+dsws_client/exceptions.py,sha256=rL-HDMVRIJ7HJoKGKJbQCshqyprbADg-XFdEjXgJdvQ,510
+dsws_client/parse.py,sha256=40Xd-4Kz7x-63OcolJ23eeHPff8R3js6JNDFHl_o8tI,5698
+dsws_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsws_client/value_objects/__init__.py,sha256=eZeP7W-76ITzI9xJVvTyIFNwMFWJnSR2_v7lV-wCWqE,508
+dsws_client/value_objects/enums.py,sha256=FrnzyJx0cRMNz4iBIXeXcUXRgpeKMj6UtGPkpuXLUWc,1603
+dsws_client/value_objects/types.py,sha256=Uh72NzPrAhH8gBkh00qAs7hSeqvNbJUSX431qTOKeJ0,563
+dsws_client/version.py,sha256=lGtSKbF1DsYaDkmrG3Da-VmpCzekNZNzZroIeSr06eI,77
+dsws_client-1.0.0.dist-info/RECORD,,
