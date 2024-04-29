@@ -1,0 +1,10 @@
+requests
+pydantic
+astropy
+python-dateutil
+
+[dev]
+check-manifest
+
+[test]
+coverage
