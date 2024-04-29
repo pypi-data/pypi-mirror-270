@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ros-msg-transform
+Version: 0.2.2
+Summary: Transform ROS messages to Python structures
+License: MIT
+Author: Konstantinos Panayiotou
+Author-email: klpanagi@ece.auth.gr
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# ros-msg-transform
+Transform ROS messages to Python structures.
+
