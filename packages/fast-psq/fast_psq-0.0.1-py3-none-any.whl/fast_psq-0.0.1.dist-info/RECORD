@@ -1,0 +1,11 @@
+fast_psq/__init__.py,sha256=qSJuqTtmNRea0HnONW4_ipPMF-inYn0oDL4dqRp3tgk,89
+fast_psq/index.py,sha256=G1DixaBt0pcwIC3sPIGWjfcwkdW15MPzon8wQEHio00,11909
+fast_psq/search.py,sha256=qDqxtsIadu5ZOAqoSB1XXkJccB8MRhTfag26EpyfIis,5643
+fast_psq/tokenizer.py,sha256=fWjkZo6-K8yTwny9lnc1l50bIf2cDZW8JtJw__EdmBM,2942
+fast_psq/utils.py,sha256=xIS4MC_hU252sJDeTDoxREny1r2619ji7ax3KUGgKhs,1869
+fast_psq/vectorizer.py,sha256=vKm83bR76_CzcoOdyKon47Kbls_231WxiEQIlxNhXGc,5845
+fast_psq-0.0.1.dist-info/LICENSE,sha256=49MwgbxEnbEYNpT8xluOOAnRims6jzd4vZGbjhg8Slc,1581
+fast_psq-0.0.1.dist-info/METADATA,sha256=1TYYos9CspA8X1qqDHV1eRZLi523mqHh4gk975CpTyc,693
+fast_psq-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fast_psq-0.0.1.dist-info/top_level.txt,sha256=OwdncGp7wDhvtVZYVtFnrraYh7GTccfkM8rplILLMag,9
+fast_psq-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fast_psq
+Version: 0.0.1
+Summary: Efficient Implementation of Probabilistic Structured Queries
+Home-page: https://github.com/hltcoe/PSQ
+Author: Eugene Yang
+Author-email: eugene.yang@jhu.edu
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: nltk
+Requires-Dist: mosestokenizer
+Requires-Dist: huggingface-hub
+
+# Efficient Implementation of Probabilistic Structured Queries
+
+## Get started
+
+```bash
+pip install fast_psq
+```
+
+## Indexing
+
+```bash
+python -m fast_psq.index ...
+```
+
+## Searching
+
+```bash
+python -m fast_psq.search ...
+```
+
+## Citation
+
+TODO...
