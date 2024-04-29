@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_windows_security_accesscontrol.cp311-win32.pyd,sha256=apdfc4JRNb_RDkMvAEDjZNf7Qcrj1Cmc9DtkkbUl37s,34304
+winrt/_winrt_microsoft_windows_security_accesscontrol.pyi,sha256=8KlHU97F6TuYbqDmgmyW0DfSLDl9rkeh11ZztK2Eo54,1178
+winrt/microsoft/windows/security/accesscontrol/__init__.py,sha256=5l4-bu7oUF6GVJ5QrOdlqYClhL_Q-LAnOfh5dg9noPg,453
+winrt/microsoft/windows/security/accesscontrol/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Windows.Security.AccessControl-2.0.1.dist-info/METADATA,sha256=LrQpFVC2wPyK9Pb2m4us76UxCK8GISQcEMHMlHM7YHI,1021
+winrt_Microsoft.Windows.Security.AccessControl-2.0.1.dist-info/WHEEL,sha256=4_gqTcsEhdxj3Ssg4q283IXTSwrMvsE7HL9ju9Nna7Q,98
+winrt_Microsoft.Windows.Security.AccessControl-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Windows.Security.AccessControl-2.0.1.dist-info/RECORD,,
