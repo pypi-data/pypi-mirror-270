@@ -1,0 +1,15 @@
+wasmfunc/__init__.py,sha256=mu9w-9Rf5eccorlvHEdy9eXgJJtMvCE2EsKtjv1YuzQ,47
+wasmfunc/__main__.py,sha256=4h_SzM34JJivWLsvHUWivLzAtai5YFZTDzaMLPMRdOk,3023
+wasmfunc/compiler.py,sha256=NktZhEOEc46gZ8CAo2lkedasSrBFfOMZF49QV4-m4G0,42249
+wasmfunc/decorators.py,sha256=IKK87ZvgD9sC6KPqqhg3KkxFb8f_zCYm5pJxp5VseQA,1358
+wasmfunc/file_handler.py,sha256=cdRQ4TcIdQTr3GNjih1MwoNaztWZXY84mD1x_euo98o,3615
+wasmfunc/mini_std.py,sha256=H99SF_mGsPbDJyys0KVm59gqjHwp3XA_U27FNP6j-Cw,5565
+wasmfunc/pre_compiler.py,sha256=xrRie7Qx_lffJ8kbPZ05XNHY3vvkOcuLHpECZa9VICE,4726
+wasmfunc/runWasmGC.js,sha256=m8T5l781ttxelCVmh__u9RrA6V8gnmiyyOJzgnQwTLI,736
+wasmfunc/types.py,sha256=XnAEAmoFlA9vvMLXeCoa3nlJXt0f-pE-7c39fLUEZWw,1940
+wasmfunc-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+wasmfunc-0.0.1.dist-info/METADATA,sha256=9HMWrLMa22bAQYQv6NMb96dWiRrvwNYETmHY4iwSYBY,14637
+wasmfunc-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wasmfunc-0.0.1.dist-info/entry_points.txt,sha256=fqv_opPNQat26q2Na0XETcK2bPRKI8yW8NUXw7fpnYQ,52
+wasmfunc-0.0.1.dist-info/top_level.txt,sha256=3WGWqfLodkRgI8lJwiM6qWoBTaHk5GDOtxlIh65otkU,9
+wasmfunc-0.0.1.dist-info/RECORD,,
