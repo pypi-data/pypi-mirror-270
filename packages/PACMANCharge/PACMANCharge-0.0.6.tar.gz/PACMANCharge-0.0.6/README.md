@@ -1,0 +1,59 @@
+<h1 align="center">PACMAN</h1>
+
+<h4 align="center">
+
+</h4>              
+
+**P**artial **A**tomic **C**harges Predicter for Porous **Ma**terials based on Graph Convolutional Neural **N**etwork (**PACMAN**)   
+
+[![Requires Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white)](https://python.org/downloads) [![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.10822403-blue)](https://doi.org/10.5281/zenodo.10822403)  [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sxm13/PACMAN/LICENSE.txt) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sxmzhaogb@gmail.com) [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]() [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()          
+
+
+# Usage
+
+```sh      
+from PACMANCharge import PACMaN
+PACMaN.predict(cif_file="./test/Cu-BTC.cif",model_name="MOF",charge_type="DDEC",digits=10,atom_type=True,neutral=True)
+```
+
+* cif_file: your original structure **[absolute path]**                                          
+* model_name: what type of structure is yours **[MOF/COF]**                                           
+* charge_type: what type of charge do you want to assignment **[DDEC/Bader/CM5]**                             
+note: for COF, just can use DDEC charge
+* digits: digits of charge
+note: model is trained on 6 digits
+* atom_type: keep the same partial atomic charge for the same type atom **[True/False]**                             
+* neutral: keep the net charge is zero **[True/False]**                                                  
+
+# Website & Zenodo
+PACMAN-APP[link](https://gcn-charge-predicter-mtap.streamlit.app/)       
+DOWNLOAD full code and dataset[link](https://zenodo.org/records/10822403) But we will not update new vesion in Zenodo.            
+
+# Reference
+If you use PACMAN Charge, please cite [this paper]:
+```
+@article{,
+    title={A Robust Partial Atomic Charge Estimator for Nanoporous Materials using Crystal Graph Convolution Network},
+    journal={Journal of Chemical Theory and Computation},
+    author={Zhao, Guobin and Chung, Yongchul},
+    year={2024},
+}
+```
+
+# Bugs
+
+ If you encounter any problem during using ***PACMAN***, please talk to me ```sxmzhaogb@gmail.com```.                   
+
+ 
+# Development
+
+                  
+| Database with Charges                                                                                                                                      | url                                                                                                                                        | size                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| QMOF | [link](https://github.com/Andrew-S-Rosen/QMOF) | 16,779 |
+| CoRE MOF 2014 DDEC | [link](https://zenodo.org/records/3986573#.XzfKiJMzY8N) | 2,932 |
+| CoRE MOF 2014 DFT-optimized | [link](https://zenodo.org/records/3986569#.XzfKcpMzY8N) | 502 | 
+| CURATED-COFs | [link](https://github.com/danieleongari/CURATED-COFs) | 612 |
+        
+ 
+**Group:**   [Molecular Thermodynamics & Advance Processes Laboratory](https://sites.google.com/view/mtap-lab/home?authuser=0)                                
