@@ -1,0 +1,12 @@
+doc2image/__init__.py,sha256=ct27TzxPgaUGVVHVJ5QVqt6oVMxuX-Q6-mZPL_jrhDY,60
+doc2image/pdf2img.py,sha256=VEUu-AOgkEcwotHX_t6C2pWa6p6xlxtkqa8Cn_uZmUA,919
+doc_parse/__init__.py,sha256=ct27TzxPgaUGVVHVJ5QVqt6oVMxuX-Q6-mZPL_jrhDY,60
+doc_parse/pdf_parse.py,sha256=QMDEBBD98EMCi5aynVx5l5Z3SZmQZERvjfXBCr-tNHw,2130
+layout/__init__.py,sha256=ct27TzxPgaUGVVHVJ5QVqt6oVMxuX-Q6-mZPL_jrhDY,60
+utils/__init__.py,sha256=ct27TzxPgaUGVVHVJ5QVqt6oVMxuX-Q6-mZPL_jrhDY,60
+utils/util.py,sha256=FiHqkdPaOrpAwK6xqPPEFyOXRpNlX_ld1P9_uOwvQZM,163
+docminer-0.0.1.dist-info/LICENSE,sha256=gO47PfkFB2qmlsF8vo98Kb38cAiivCnsnlTk7p4-nA4,1066
+docminer-0.0.1.dist-info/METADATA,sha256=BbPuE8G0uCwEo9dZWMinrstfDqA6SLaFpsr_P49M7F4,419
+docminer-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+docminer-0.0.1.dist-info/top_level.txt,sha256=3dMVCVpQVpnI_yB71IUaV3gMTXo8Ie7vrbl7DnEb56A,33
+docminer-0.0.1.dist-info/RECORD,,

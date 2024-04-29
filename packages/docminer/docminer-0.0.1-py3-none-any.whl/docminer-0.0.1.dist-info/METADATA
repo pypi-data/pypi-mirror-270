@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: docminer
+Version: 0.0.1
+Summary: Non OCR document parsing
+Home-page: https://www.yunquna.com/
+Author: wangzhe
+Author-email: wang91zhe@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+支持PDF、Word、Excel等文档解析
