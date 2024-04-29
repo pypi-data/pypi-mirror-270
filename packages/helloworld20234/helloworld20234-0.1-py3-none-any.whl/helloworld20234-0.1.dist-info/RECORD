@@ -1,0 +1,9 @@
+src/__init__.py,sha256=f9LZhErbRO6w-5fKqyepxP8YZpqQjsUbXZIZgpk_e50,25
+src/cnn.py,sha256=3ZXa-aIfK7X-MGiIcDLs0z2D8PNMw5gp9rTtAnbZMKA,1070
+src/mcculloch.py,sha256=BUbEbawvXabmv-g8bh0aLYHViDUIPQi24mPQhkeiwdE,562
+src/perceptron.py,sha256=t5a4F2blvYmQCUNu9bFvS3puXR3V2lX5yQuMi5W0UgA,985
+helloworld20234-0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helloworld20234-0.1.dist-info/METADATA,sha256=1GSiaWNyq2Th10KpUkUla-dD1B8mETxtm-PIeSF0zmw,80
+helloworld20234-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+helloworld20234-0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+helloworld20234-0.1.dist-info/RECORD,,
