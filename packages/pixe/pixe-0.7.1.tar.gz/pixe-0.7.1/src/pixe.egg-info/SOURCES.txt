@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/pixe.py
+src/filetypes/__init__.py
+src/filetypes/base.py
+src/filetypes/image_file.py
+src/filetypes/video_file.py
+src/pixe.egg-info/PKG-INFO
+src/pixe.egg-info/SOURCES.txt
+src/pixe.egg-info/dependency_links.txt
+src/pixe.egg-info/entry_points.txt
+src/pixe.egg-info/requires.txt
+src/pixe.egg-info/top_level.txt
+tests/test_integration.py
+tests/test_unit.py
