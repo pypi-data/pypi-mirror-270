@@ -1,0 +1,9 @@
+numpy6/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numpy6/cnn.py,sha256=3ZXa-aIfK7X-MGiIcDLs0z2D8PNMw5gp9rTtAnbZMKA,1070
+numpy6/mcculloch.py,sha256=BUbEbawvXabmv-g8bh0aLYHViDUIPQi24mPQhkeiwdE,562
+numpy6/perceptron.py,sha256=t5a4F2blvYmQCUNu9bFvS3puXR3V2lX5yQuMi5W0UgA,985
+numpy6-0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numpy6-0.1.dist-info/METADATA,sha256=6Y8FhEm4jgE_pFlwzruzH6o9UuB_UezHx7T-UQVv0RI,71
+numpy6-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+numpy6-0.1.dist-info/top_level.txt,sha256=FrtD-RWGMUFBR1Ttw45GvraU_uywdgjgBL4Oa4HkGLk,7
+numpy6-0.1.dist-info/RECORD,,
