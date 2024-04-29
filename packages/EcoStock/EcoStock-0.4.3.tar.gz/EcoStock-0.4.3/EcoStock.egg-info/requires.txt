@@ -1,0 +1,10 @@
+fastapi
+argparse
+uvicorn
+pandas
+numpy
+matplotlib
+yfinance
+plotly
+requests
+seaborn
