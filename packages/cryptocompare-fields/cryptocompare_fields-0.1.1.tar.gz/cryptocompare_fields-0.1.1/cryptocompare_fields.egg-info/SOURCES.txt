@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cryptocompare/__init__.py
+cryptocompare/cryptocompare.py
+cryptocompare_fields.egg-info/PKG-INFO
+cryptocompare_fields.egg-info/SOURCES.txt
+cryptocompare_fields.egg-info/dependency_links.txt
+cryptocompare_fields.egg-info/requires.txt
+cryptocompare_fields.egg-info/top_level.txt
