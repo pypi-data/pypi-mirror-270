@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: wasm-runtime
+Version: 0.1
+Summary: WebAssembly-powered, sandboxed implementation of Python runtime for safely exec()-cuting dynamic Python code.
+Author-email: AWeirdDev <aweirdscratcher@gmail.com>
+Project-URL: Source, https://github.com/AWeirdScratcher/wasm_runtime
+Project-URL: Bug Tracker, https://github.com/AWeirdScratcher/wasm_runtime/issues
+Keywords: wasm,runtime,python,sandbox,restricted,limited
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# wasm-runtime
+
+WebAssembly-powered, sandboxed implementation of Python runtime for safely `exec()`-cuting dynamic Python code.
+
+This is an active version of [wasm_exec](https://github.com/Jflick58/wasm_exec) created by [Justin Flick](https://github.com/Jflick58).
+
+<div align="center">
+
+`$ pip install wasm-runtime`
+
+</div>
+
+```python
+from wasm_runtime import WasmRuntime
+
+runtime = WasmRuntime()
+result = runtime.exec("print('Hi, Mom!')")
+
+print(result)
+# Result(stdout='Hi, Mom!\n', stderr='', ...)
+```
