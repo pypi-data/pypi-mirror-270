@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+IslandSheds/__init__.py
+IslandSheds/downloader.py
+IslandSheds.egg-info/PKG-INFO
+IslandSheds.egg-info/SOURCES.txt
+IslandSheds.egg-info/dependency_links.txt
+IslandSheds.egg-info/entry_points.txt
+IslandSheds.egg-info/requires.txt
+IslandSheds.egg-info/top_level.txt
