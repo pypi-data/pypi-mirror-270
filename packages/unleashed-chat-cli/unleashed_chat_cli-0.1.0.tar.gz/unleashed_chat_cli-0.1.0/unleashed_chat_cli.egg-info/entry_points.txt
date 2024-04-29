@@ -1,0 +1,2 @@
+[console_scripts]
+unleashed-chat = unleashed_chat_cli.main:main

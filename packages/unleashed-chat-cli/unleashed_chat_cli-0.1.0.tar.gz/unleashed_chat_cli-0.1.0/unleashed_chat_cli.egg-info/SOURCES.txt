@@ -1,0 +1,10 @@
+README.md
+setup.py
+unleashed_chat_cli/__init__.py
+unleashed_chat_cli/main.py
+unleashed_chat_cli.egg-info/PKG-INFO
+unleashed_chat_cli.egg-info/SOURCES.txt
+unleashed_chat_cli.egg-info/dependency_links.txt
+unleashed_chat_cli.egg-info/entry_points.txt
+unleashed_chat_cli.egg-info/requires.txt
+unleashed_chat_cli.egg-info/top_level.txt
