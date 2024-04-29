@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+PDBViewer/PDBViewer.py
+PDBViewer/__init__.py
+PDBViewer.egg-info/PKG-INFO
+PDBViewer.egg-info/SOURCES.txt
+PDBViewer.egg-info/dependency_links.txt
+PDBViewer.egg-info/requires.txt
+PDBViewer.egg-info/top_level.txt
