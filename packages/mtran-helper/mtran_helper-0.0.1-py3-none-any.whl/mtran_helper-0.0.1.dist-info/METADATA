@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mtran_helper
+Version: 0.0.1
+Summary: This is the simplest module for compile cpp files.
+Author: ilya tsikhanionak
+Author-email: ilya.tsikhanionak@gmail.com
+Keywords: cpp c++ compile
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
