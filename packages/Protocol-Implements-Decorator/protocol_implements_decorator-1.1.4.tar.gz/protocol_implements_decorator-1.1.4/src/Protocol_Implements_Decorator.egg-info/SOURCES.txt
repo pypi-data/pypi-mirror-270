@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/Protocol_Implements_Decorator.egg-info/PKG-INFO
+src/Protocol_Implements_Decorator.egg-info/SOURCES.txt
+src/Protocol_Implements_Decorator.egg-info/dependency_links.txt
+src/Protocol_Implements_Decorator.egg-info/requires.txt
+src/Protocol_Implements_Decorator.egg-info/top_level.txt
+src/protocolimplementsdecorator/__init__.py
+src/protocolimplementsdecorator/implements.py
+src/protocolimplementsdecorator/py.typed
+tests/test_protocolimplementsdecorator.py
