@@ -1,0 +1,12 @@
+libname/FilterDepartment.py,sha256=ZwlgBUba1eDCSN7RTpPGY_IjhP1Ef9TmKY5K9SeRWOg,2858
+libname/__init__.py,sha256=sywqRv_lxouhAiujeGsvj5j4_qf1MtlHPMPwRnHyZBo,342
+libname/dataset_downloading.py,sha256=Zu3Xgm1y-mc3PW24xUuYfM_sJT_ISYdM6ms7EqxLG0k,4650
+libname/departments_comparison.py,sha256=PXmNDCCOBWzh29arXKUz-7IMoI34UBI37gBxxSq4kaM,5897
+libname/lmwl_filtering.py,sha256=DtIj17yoky0Mqa8x6Pijget26Y4_LRjL1t8n28890FY,5486
+libname/map.py,sha256=i2lBmgBxDhCHfUkR2ZrxvW1tFRnmuSwM-UY-khGYlHg,2885
+libname/siteinformation_downloading.py,sha256=roALjivmZdB5tbuKdak5qftl3EqTWPj-pR0qk849dmw,4273
+libname/temporalseries.py,sha256=p3bR4hp1m6nEfbSRGIg0PAU5o_mTSLlrJXkLQ6h-eK0,4816
+WSI_PeruDB-0.1.dist-info/METADATA,sha256=-6myPI9dNsRs2A2vAxKtrdh2osKljKkigkHbW1I0tRE,884
+WSI_PeruDB-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+WSI_PeruDB-0.1.dist-info/top_level.txt,sha256=F8SAi3S3n6gD3xYqzHD5I-0D7fExfrC5ppvjVK5G_Ks,8
+WSI_PeruDB-0.1.dist-info/RECORD,,
