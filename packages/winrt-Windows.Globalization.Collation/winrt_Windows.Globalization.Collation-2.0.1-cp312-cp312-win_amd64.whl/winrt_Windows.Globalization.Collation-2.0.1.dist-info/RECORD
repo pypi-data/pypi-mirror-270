@@ -1,0 +1,8 @@
+winrt/_winrt_windows_globalization_collation.cp312-win_amd64.pyd,sha256=iqb0xiFbzkXs1vWWEC4-Mbz3TxD86zJIzcoen5EGtAE,52224
+winrt/_winrt_windows_globalization_collation.pyi,sha256=S1x7K-divHPg6mCcgsWyLnQtbJPCY3Nst4XpY0s6YAg,1873
+winrt/windows/globalization/collation/__init__.py,sha256=Od8VOIqpSLkAc8s1LqbvA4zGj1K4qkYAhDq69TB4_0E,430
+winrt/windows/globalization/collation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Globalization.Collation-2.0.1.dist-info/METADATA,sha256=a3f9SjY-Tvj5bDLvFw15PKpoPBlMBopiLAlzg-5R1a4,1091
+winrt_Windows.Globalization.Collation-2.0.1.dist-info/WHEEL,sha256=0znJHI9IehnsAdqJtPz_4BTd2JY6ZK4iNYnscTuOOBE,102
+winrt_Windows.Globalization.Collation-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Globalization.Collation-2.0.1.dist-info/RECORD,,
