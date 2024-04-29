@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pawz"
+version = "0.2.1"
+authors = [{ name = "Cody", email = "cody@dkdc.dev" }]
+description = "a demo of Python + Rust"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = ["pawz_core"]
+
+[project.urls]
+"Homepage" = "https://github.com/lostmygithubaccount/pawz"
+"Bug Tracker" = "https://github.com/lostmygithubaccount/pawz/issues"

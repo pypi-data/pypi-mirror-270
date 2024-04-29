@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: pawz
+Version: 0.2.1
+Summary: a demo of Python + Rust
+Project-URL: Homepage, https://github.com/lostmygithubaccount/pawz
+Project-URL: Bug Tracker, https://github.com/lostmygithubaccount/pawz/issues
+Author-email: Cody <cody@dkdc.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: pawz-core
+Description-Content-Type: text/markdown
+
+# pawz
+
+A demo of Python + Rust.

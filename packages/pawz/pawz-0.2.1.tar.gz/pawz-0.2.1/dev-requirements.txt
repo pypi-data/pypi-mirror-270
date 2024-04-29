@@ -1,0 +1,7 @@
+# python
+ruff
+build
+twine
+
+# rust
+maturin
