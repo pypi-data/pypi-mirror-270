@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pylacc"
+version = "0.0.3"
+readme = "README.md"
+authors = [
+  { name="Jared Deckard", email="jared@shademaps.com" },
+]
+description = "Python Linear Analog Circuit Caclulator"
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Handhelds/PDA's",
+    "Intended Audience :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/deckar01/pylacc"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "--cov-report=term-missing",
+    "--cov=pylacc",
+    "--cov-branch",
+]
