@@ -1,0 +1,10 @@
+cramjam/cramjam.cp39-win32.pyd,sha256=zIztowt3SRCrX_48R75Xl7tTrv9-NMFNfS97jzmNTMs,3634176
+cramjam/__init__.py,sha256=wNcUiG4vEugZLuvPY6gY-sefOtT0BA853azJcg_WH-Y,1462
+cramjam-2.8.4rc1.dist-info/DELVEWHEEL,sha256=GRfhjpUFMu-D1c5GLg4dzIDpI9PHPsaL0-FpAJdfZTE,178
+cramjam-2.8.4rc1.dist-info/METADATA,sha256=0hiE8dZA7nnI3-FImobkZCsqcFPOSpAuziXmIr6tsas,4386
+cramjam-2.8.4rc1.dist-info/RECORD,,
+cramjam-2.8.4rc1.dist-info/WHEEL,sha256=Hev7SdkjNsau9rRsL5RRKsJ_ZFF6pGbJQFjPMZr3VnE,90
+cramjam-2.8.4rc1.dist-info/license_files/LICENSE,sha256=zCXOSBOs-0xyeQ1JcQ3BB1Lp9RGl3Scav4inSK6Yxuo,1091
+cramjam.libs/.load-order-cramjam-2.8.4rc1,sha256=oCzIpxVwsKBG3e9EKEURYD0aCTBq8wmEd7RLv7_YWJI,97
+cramjam.libs/libblosc2-c3de726e1206fd006cc914465b3c1cb8.dll,sha256=u_IR9V1o6vb_Hb_7MJ-hRgDORUXCBYRTraWEp9eRkI4,948736
+cramjam.libs/vcruntime140-f9fe5071856dca2107911fd9ce3fc02a.dll,sha256=n66qRejMmGr1byg1CzgjiwPAHDVelWS4SWBLjWkJGcU,76168
