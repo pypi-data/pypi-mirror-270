@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pingupricewatch
+Version: 0.1.0
+Summary: 
+Home-page: https://codeberg.org/PinguPriceWatch/PinguPriceWatch
+Author: Pinguin
+Author-email: ponguout@posteo.net
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0.0.2,<0.0.3)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://codeberg.org/PinguPriceWatch/PinguPriceWatch
+Description-Content-Type: text/markdown
+
+# PinguPriceWatch
+### How to run it?
+Just run the main.py file, and look into it for some code detail and stuff like that!
+
+### Currently supported shops
+* [Alternate](https://www.alternate.de/)
+* [Berrybase](https://www.berrybase.de/)
+* [Welectron](https://www.welectron.com/)
+* [botland](https://botland.de/)
+* [Rossmann](https://www.rossmann.de/)
+* [Aldi Süd](https://www.aldi-onlineshop.de/)
+* [Lidl](https://www.lidl.de/)
+* [Skandic](https://www.skandic.de)
+* [Struck](https://schreiben-lesen-spielen.de)
+* [IKEA](https://www.ikea.com/de/de)
