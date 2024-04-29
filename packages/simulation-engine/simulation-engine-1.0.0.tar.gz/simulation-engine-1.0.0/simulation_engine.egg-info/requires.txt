@@ -1,0 +1,2 @@
+numpy~=1.26.4
+relic-engine~=0.2.8
