@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: FastqToFastaConverter
+Version: 0.1
+Summary: FastQ to FASTA file converter
+Home-page: https://github.com/sharifrahmanie/FastqToFastaConverter/archive/refs/tags/v0.1.tar.gz
+Author: Edris Sharif Rahmani
+Author-email: rahmani.biotech@gmail.com
+License: MIT
+Keywords: FASTQ,FASTA,Bioinformatics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+**FastQ to FASTA file converter**
+
+# Installation
+
+```r{}
+pip install FastqToFastaConverter
+```
+# Running
+
+```r{}
+from FastqToFastaConverter.fastq2fasta import FastqToFastaConverter
+converter = FastqToFastaConverter()
+converter.convert('input.fastq')
+
+```
+
+
