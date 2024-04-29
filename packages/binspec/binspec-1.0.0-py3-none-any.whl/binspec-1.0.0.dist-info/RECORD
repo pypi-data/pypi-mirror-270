@@ -1,0 +1,14 @@
+binspec/__init__.py,sha256=8Kj0RITeIfp0tYmNdn4kaSmruDGiUI44OFSKXGOEep0,91
+binspec/errors.py,sha256=TzW2rAtQ7PpAnD3asvjO9ztxbe0irwu3Q1zGCu_kkvg,419
+binspec/spec.py,sha256=hg4TgYoaWiY44i_P_IYMxkbzEPeFKF8xSe_b49U5ASk,4248
+binspec/types/__init__.py,sha256=20E6Of4mBxRLyMK-f4-h2x4JSkjyms06dOlmDBox_uU,24
+binspec/types/spec_type.py,sha256=S4SrNLBSMryKNDwJ4IlQWhF_3OsgOw3_VbwEl26H15k,8310
+binspec/ui/__init__.py,sha256=c1cQLcDbO99DSq402aj5rFxuhsc6J5Uxbv5QQbxrZZA,20
+binspec/ui/ui.py,sha256=wrYMh1d1GAGeS5gKKLGdPhwuuJ0-i2s4sM3angQibwI,5405
+binspec/utilities/__init__.py,sha256=CTP1hRHmRMxInY-C6kAzUeRYuwxkB1idiRj3rYfbxyw,24
+binspec/utilities/utilities.py,sha256=b_r43BXV2Ugs9zKWleeNacilOvqe9A8d7xFhF5GFh74,2562
+binspec-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+binspec-1.0.0.dist-info/METADATA,sha256=vttLY0oWWIxLAS-wW0SBOPEqa4ZhssP2PoWqgZMbxNw,3714
+binspec-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+binspec-1.0.0.dist-info/top_level.txt,sha256=9Z4v8fsW2ASC9Y-kJGUTpZG6NoEI_vFuvfF2GEJjuDg,8
+binspec-1.0.0.dist-info/RECORD,,
