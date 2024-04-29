@@ -1,0 +1,3 @@
+[console_scripts]
+meni=meni.__main__:main
+
