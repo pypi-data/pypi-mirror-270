@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: AmazonProductReviews
+Version: 0.1.3
+Summary: Analyze Amazon product reviews
+Author: olamine zakaria
+Author-email: olaminezakaria03@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4
+Requires-Dist: nltk
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: selenium
+Requires-Dist: spacy
+Requires-Dist: textblob
+Requires-Dist: wordcloud
