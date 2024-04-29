@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+code_goes_here_dgdfasd/__init__.py
+code_goes_here_dgdfasd/cnn_254.py
+code_goes_here_dgdfasd/mcculloch_dsfs.py
+code_goes_here_dgdfasd/perceptron_fdsfs.py
+helloworld20234.egg-info/PKG-INFO
+helloworld20234.egg-info/SOURCES.txt
+helloworld20234.egg-info/dependency_links.txt
+helloworld20234.egg-info/top_level.txt
