@@ -1,0 +1,51 @@
+[project]
+name = "micromanubot"
+version = "0.4.2"
+description = "A build tool for academic manuscripts"
+authors = [
+    { name = "zietzm", email = "michael.zietz@gmail.com" }
+]
+dependencies = [
+    "tomlkit>=0.12.4",
+    "pydantic>=2.7.1",
+    "pylatexenc>=2.10",
+    "bibtexparser>=2.0.0b7",
+    "requests>=2.31.0",
+    "pyrate-limiter>=3.6.0",
+    "rich>=13.7.1",
+    "validators>=0.28.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+"umb" = "micromanubot.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.1.2",
+    "pymupdf>=1.24.2",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/micromanubot"]
