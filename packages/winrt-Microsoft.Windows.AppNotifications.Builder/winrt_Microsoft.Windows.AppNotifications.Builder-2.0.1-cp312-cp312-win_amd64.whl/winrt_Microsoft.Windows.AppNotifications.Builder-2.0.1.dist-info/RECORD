@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_windows_appnotifications_builder.cp312-win_amd64.pyd,sha256=_RYM4AO3D4E06C6Ym0Uv6hhB8y6507sbbkSsqJSPNtw,144384
+winrt/_winrt_microsoft_windows_appnotifications_builder.pyi,sha256=4rNbcE0j3lPBwjVc9AtI0S649H9ThJcDC2S12HidC8Q,11741
+winrt/microsoft/windows/appnotifications/builder/__init__.py,sha256=P9NqxE5tUETKm0fiDM38EUkF76p8Jv793gh2Kr5XLjk,1949
+winrt/microsoft/windows/appnotifications/builder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.Windows.AppNotifications.Builder-2.0.1.dist-info/METADATA,sha256=CCn_KIgpc6RLP_Y-0GKDt1-so-5Gb8ML1trC0on8Np4,1297
+winrt_Microsoft.Windows.AppNotifications.Builder-2.0.1.dist-info/WHEEL,sha256=0znJHI9IehnsAdqJtPz_4BTd2JY6ZK4iNYnscTuOOBE,102
+winrt_Microsoft.Windows.AppNotifications.Builder-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.Windows.AppNotifications.Builder-2.0.1.dist-info/RECORD,,
