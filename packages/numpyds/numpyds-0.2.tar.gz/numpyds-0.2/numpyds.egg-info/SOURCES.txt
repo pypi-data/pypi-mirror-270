@@ -1,0 +1,8 @@
+setup.py
+numpyds/__init__.py
+numpyds/main.py
+numpyds.egg-info/PKG-INFO
+numpyds.egg-info/SOURCES.txt
+numpyds.egg-info/dependency_links.txt
+numpyds.egg-info/not-zip-safe
+numpyds.egg-info/top_level.txt
