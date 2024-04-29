@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastnorm
+Version: 24.4
+Summary: Fast evaluation of multivariate normal distribution
+Home-page: https://github.com/mvds314/fastnorm
+Author: Martin van der Schans
+License: BSD
+Keywords: statistics
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
