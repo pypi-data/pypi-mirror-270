@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: djecorator
+Version: 1.0
+Summary: A flask-style decorator for Django views
+Author-email: Stephan Fitzpatrick <knowsuchagency@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: django
