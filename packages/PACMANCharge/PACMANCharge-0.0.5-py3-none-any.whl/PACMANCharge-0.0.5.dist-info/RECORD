@@ -1,0 +1,14 @@
+PACMANCharge/PACMaN.py,sha256=B_3JISTPrqoRTV1nRcqrCfxicBpwBFEGjzMZAJRx9qw,27638
+PACMANCharge/__init__.py,sha256=7bbP9Vxzmeuht5oc4SVjrze8ysdz4FRM7XYZDDR906k,31
+PACMANCharge/atom_init.json,sha256=y5C9Ilfb-M_E5rK21DSNRhbo6WgPEzmxRhE3Ay4PGJQ,28392
+PACMANCharge/mof-bader.pkl,sha256=Ex3MrQ7s2YnaNMQhCbtA5k7Az0f4JhptJjEQwGnm2Jk,723
+PACMANCharge/mof-bader.pth,sha256=a4nDMmbbelpubohvtgsJDvOD1fILm8-3-aS0js5EcjE,39102641
+PACMANCharge/mof-cm5.pkl,sha256=ESWx1osRfsiC-u2wSNqm0A7nu4rS5X5xQsZU0EOgoqs,723
+PACMANCharge/mof-cm5.pth,sha256=X6_XNsl2aWcA8Uj-K9Y_HTp3ny-oSPPZKUku2YDzN4M,39102897
+test/Cu-BTC.cif,sha256=G7OAoPdVlhQHD-vDKktZ0-ae31Z8LKMVbHWxR1C_Gn8,34098
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PACMANCharge-0.0.5.dist-info/LICENSE,sha256=JN3XUyglr9eHd04K6BNjL90hOlGfDqijvtkdS3MBz2o,1068
+PACMANCharge-0.0.5.dist-info/METADATA,sha256=wAegBCGP0IwIuBqUIC9E3Hww1SQCHwUYHR7K0nuLMWI,5051
+PACMANCharge-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PACMANCharge-0.0.5.dist-info/top_level.txt,sha256=ahTWdrVMSQB5reqTbVSeBGdEuCOb0VSImb_Shy4NtXc,18
+PACMANCharge-0.0.5.dist-info/RECORD,,
