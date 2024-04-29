@@ -1,0 +1,37 @@
+{
+  "states": {
+    "s": {
+      "type": "susceptible"
+    },
+    "e": {
+      "type": "infected"
+    },
+    "i": {
+      "type": "infected"
+    },
+    "r": {
+      "type": "recovered"
+    }
+  },
+  "transition": [
+    {
+      "source": "i",
+      "target": "r",
+      "param": "gamma"
+    },
+    {
+      "source": "e",
+      "target": "i",
+      "param": "alpha"
+    }
+  ],
+  "transmission_rules": [
+    {
+      "source": "s",
+      "target": "e",
+      "actors-params": {
+        "i": null
+      }
+    }
+  ]
+}
