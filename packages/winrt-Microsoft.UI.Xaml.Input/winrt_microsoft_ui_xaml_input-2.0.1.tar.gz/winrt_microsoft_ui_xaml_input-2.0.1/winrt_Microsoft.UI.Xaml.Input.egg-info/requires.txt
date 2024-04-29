@@ -1,0 +1,10 @@
+winrt-runtime==2.0.1
+
+[all]
+winrt-Microsoft.UI.Input[all]==2.0.1
+winrt-Microsoft.UI.Xaml[all]==2.0.1
+winrt-Microsoft.UI.Xaml.Controls[all]==2.0.1
+winrt-Windows.Foundation[all]==2.0.1
+winrt-Windows.Foundation.Collections[all]==2.0.1
+winrt-Windows.System[all]==2.0.1
+winrt-Windows.UI.Core[all]==2.0.1
