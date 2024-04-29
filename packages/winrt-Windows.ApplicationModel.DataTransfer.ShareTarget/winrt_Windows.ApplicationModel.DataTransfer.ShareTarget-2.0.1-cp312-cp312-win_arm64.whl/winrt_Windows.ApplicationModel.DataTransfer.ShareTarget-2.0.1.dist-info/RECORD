@@ -1,0 +1,8 @@
+winrt/_winrt_windows_applicationmodel_datatransfer_sharetarget.cp312-win_arm64.pyd,sha256=ygtUX8jZ3Q3VVsBs6ux7J-ogcmq0HMmTVjHWR_Zpki4,104448
+winrt/_winrt_windows_applicationmodel_datatransfer_sharetarget.pyi,sha256=8M4NBvdYcXNlB80FuxGyy1Wj2op7aEYPs2pGneX_Zlc,2316
+winrt/windows/applicationmodel/datatransfer/sharetarget/__init__.py,sha256=H9Zr_auvFolGcwQsM454npRzEVf6PmBHHP0fd1KEUrk,399
+winrt/windows/applicationmodel/datatransfer/sharetarget/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.ApplicationModel.DataTransfer.ShareTarget-2.0.1.dist-info/METADATA,sha256=ZlhdkKZHID5L11ejg495PhxdzgArNGBMZSq1eDhPJE0,1421
+winrt_Windows.ApplicationModel.DataTransfer.ShareTarget-2.0.1.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.ApplicationModel.DataTransfer.ShareTarget-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.ApplicationModel.DataTransfer.ShareTarget-2.0.1.dist-info/RECORD,,
