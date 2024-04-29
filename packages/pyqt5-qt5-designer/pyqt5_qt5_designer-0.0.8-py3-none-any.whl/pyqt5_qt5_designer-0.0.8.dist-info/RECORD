@@ -1,0 +1,14 @@
+PyQt5/Qt5/bin/Qt5DesignerComponents.dll,sha256=HU6vCqtMdbuJGjF4cfIpT9nHuE9yBS_Hcm8pi1k1L90,1895920
+PyQt5/Qt5/bin/designer.exe,sha256=eIx8iJyObAxaisud95HwvVeSeHuEDyNqJGtwvG7z9oA,562672
+PyQt5/Qt5/bin/qt.conf,sha256=orSa2sQM2ly7qHGUz5ON5f8I_xniaZMZ2AOqJW1g5No,20
+PyQt5/Qt5/translations/designer_ar.qm,sha256=G13Dhn86GBr8yIodVX8VhEyDk70zwXvoUABN31kdIGQ,139157
+PyQt5/Qt5/translations/designer_en.qm,sha256=mVm1ELFdGJN4SK0TAH4wRZ0umTxn5WS62_wY-TVpXIU,16
+PyQt5/Qt5/translations/designer_fr.qm,sha256=lhyg18f-zhInzzO__XRAl-oH67DEX6GVwpJ6U6SgZQo,154036
+pyqt5_qt5_designer/__about__.py,sha256=yU0NqtmJauPfrAZulsdWd-u19XJsfcjCusd3LFV_lqk,132
+pyqt5_qt5_designer/__init__.py,sha256=Or63XoDLo5R_kfpNalh_RJyOdP-MBUbg-AQm1ik2aCg,110
+pyqt5_qt5_designer/designer_runner.py,sha256=xTmscAtbML7AA6mkMuK6-xAskhVFGRsJPF-4rhg9Rfk,542
+pyqt5_qt5_designer-0.0.8.dist-info/METADATA,sha256=HIyocc_zx1dw5VcRGGbCfG98UeTOHLgoXOs8wJPTsmw,1886
+pyqt5_qt5_designer-0.0.8.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+pyqt5_qt5_designer-0.0.8.dist-info/entry_points.txt,sha256=uTySYMXEK2LmNxIuw8J0VLo8OF_e7CzU0B8ntzmPHYk,84
+pyqt5_qt5_designer-0.0.8.dist-info/licenses/LICENSE.txt,sha256=RMSLID7jCBPOnw5KZ3sMTKy1HPBVmdjUtgIm3BEaYh0,1102
+pyqt5_qt5_designer-0.0.8.dist-info/RECORD,,
