@@ -1,0 +1,61 @@
+[I 2024-04-29 09:47:42.677 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-04-29 09:47:42.709 ServerApp] Package jupyter_lsp took 0.0316s to import
+[W 2024-04-29 09:47:42.709 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-04-29 09:47:42.721 ServerApp] Package jupyter_server_terminals took 0.0119s to import
+[I 2024-04-29 09:47:42.725 ServerApp] Package jupyterlab_myst took 0.0033s to import
+[I 2024-04-29 09:47:42.874 ServerApp] Package jupytext took 0.1487s to import
+[I 2024-04-29 09:47:42.875 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-04-29 09:47:42.875 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-04-29 09:47:42.876 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-04-29 09:47:42.882 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2024-04-29 09:47:42.884 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-29 09:47:42.884 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-04-29 09:47:42.888 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[W 2024-04-29 09:47:42.888 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[I 2024-04-29 09:47:42.888 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-04-29 09:47:42.888 ServerApp] jupyterlab_myst | extension was successfully linked.
+[I 2024-04-29 09:47:42.888 ServerApp] jupytext | extension was successfully linked.
+[I 2024-04-29 09:47:43.345 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-04-29 09:47:43.412 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-04-29 09:47:43.415 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-04-29 09:47:43.417 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-04-29 09:47:43.424 LabApp] JupyterLab extension loaded from /Users/tparment/miniconda3/envs/jupyterlab-courselevels/lib/python3.11/site-packages/jupyterlab
+[I 2024-04-29 09:47:43.424 LabApp] JupyterLab application directory is /Users/tparment/miniconda3/envs/jupyterlab-courselevels/share/jupyter/lab
+[I 2024-04-29 09:47:43.425 LabApp] Extension Manager is 'pypi'.
+[I 2024-04-29 09:47:43.428 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-04-29 09:47:43.430 ServerApp] jupyterlab_myst | extension was successfully loaded.
+[W 2024-04-29 09:47:43.430 ServerApp] [Jupytext Server Extension] Async contents managers like AsyncLargeFileManager are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2024-04-29 09:47:43.430 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2024-04-29 09:47:43.432 ServerApp] jupytext | extension was successfully loaded.
+[I 2024-04-29 09:47:43.433 ServerApp] Serving notebooks from local directory: /Users/tparment/git/jupyterlab-courselevels
+[I 2024-04-29 09:47:43.433 ServerApp] Jupyter Server 2.10.1 is running at:
+[I 2024-04-29 09:47:43.433 ServerApp] http://localhost:55428/lab?token=...
+[I 2024-04-29 09:47:43.433 ServerApp]     http://127.0.0.1:55428/lab?token=...
+[I 2024-04-29 09:47:43.433 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-04-29 09:47:43.947 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-04-29 09:47:50.063 ServerApp] Loaded Jupytext configuration file at /Users/tparment/.config/jupytext/jupytext.toml
+[W 2024-04-29 09:47:50.328 ServerApp] 404 GET /api/contents/examples/other.ipynb?content=0&1714376870323 (2c4d0b60332d434c9bee775def9ccca6@::1) 1.51ms referer=http://localhost:55428/lab
+[W 2024-04-29 09:47:50.328 ServerApp] 404 GET /api/contents/examples/other.ipynb?content=0&1714376870323 (::1): file or directory does not exist: 'examples/other.ipynb'
+[W 2024-04-29 09:47:50.362 ServerApp] 404 GET /api/contents/examples/hide-input-tools-sample.ipynb?content=0&1714376870324 (2c4d0b60332d434c9bee775def9ccca6@::1) 2.21ms referer=http://localhost:55428/lab
+[W 2024-04-29 09:47:50.363 ServerApp] 404 GET /api/contents/examples/hide-input-tools-sample.ipynb?content=0&1714376870324 (::1): file or directory does not exist: 'examples/hide-input-tools-sample.ipynb'
+[I 2024-04-29 09:47:50.522 LabApp] Build is up to date
+[I 2024-04-29 09:47:53.528 ServerApp] Kernel started: b6940571-9915-4db0-9bf4-bc00dc7fa540
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-04-29 09:47:54.445 ServerApp] Connecting to kernel b6940571-9915-4db0-9bf4-bc00dc7fa540.
+[I 2024-04-29 09:47:54.447 ServerApp] Connecting to kernel b6940571-9915-4db0-9bf4-bc00dc7fa540.
+[I 2024-04-29 09:47:54.465 ServerApp] Connecting to kernel b6940571-9915-4db0-9bf4-bc00dc7fa540.
+[I 2024-04-29 09:48:14.194 ServerApp] Saving file at /examples/courselevels.ipynb
+[I 2024-04-29 09:48:14.198 ServerApp] Saving courselevels.ipynb
+[I 2024-04-29 09:48:17.230 ServerApp] Saving file at /examples/courselevels.ipynb
+[I 2024-04-29 09:48:17.234 ServerApp] Saving courselevels.ipynb
+[C 2024-04-29 09:50:45.360 ServerApp] received signal 15, stopping
+[I 2024-04-29 09:50:45.362 ServerApp] Shutting down 6 extensions
+[I 2024-04-29 09:50:45.363 ServerApp] Shutting down 1 kernel
+[I 2024-04-29 09:50:45.363 ServerApp] Kernel shutdown: b6940571-9915-4db0-9bf4-bc00dc7fa540
