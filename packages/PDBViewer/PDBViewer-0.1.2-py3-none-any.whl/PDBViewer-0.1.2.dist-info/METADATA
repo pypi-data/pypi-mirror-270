@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: PDBViewer
+Version: 0.1.2
+Summary: Automatically retrieve a PDB file for a given RCSB PDB id and visualize its 3D structure.
+Home-page: https://github.com/sharifrahmanie/PDBViewer/archive/refs/tags/v0.1.1.tar.gz
+Author: Edris Sharif Rahmani
+Author-email: rahmani.biotech@gmail.com
+License: MIT
+Keywords: PDB,RCSB,Protein,3D structure,Bioinformatics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: py3Dmol
+Requires-Dist: requests
+
+**Automatically retrieve a PDB file for a given RCSB PDB id and visualize its 3D structure.**
+
+# Installation
+
+```r{}
+pip install PDBViewer
+```
+# Running
+
+```r{}
+from PDBViewer.PDBViewer import PDBViewer
+viewer = PDBViewer()
+viewer.view('8DC4')
+```
+
+
