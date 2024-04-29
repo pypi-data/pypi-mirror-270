@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/Something_like_piano/_init_.py
+src/Something_like_piano/try.py
+src/Something_like_piano.egg-info/PKG-INFO
+src/Something_like_piano.egg-info/SOURCES.txt
+src/Something_like_piano.egg-info/dependency_links.txt
+src/Something_like_piano.egg-info/top_level.txt
