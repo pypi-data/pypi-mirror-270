@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_perception_provider.cp310-win32.pyd,sha256=gra2VNd1skKZMSGPId6ob0hhXZjaIrF8bToJJF017rA,160256
+winrt/_winrt_windows_devices_perception_provider.pyi,sha256=o2_Y_na7ojq_pN_SU7rw8QiJldI3eeWgIBvxq9Mrj0k,9178
+winrt/windows/devices/perception/provider/__init__.py,sha256=TswT4gpMyMKVPl7piDQnD-Csfcmj31qKK6fG8tHATqY,2166
+winrt/windows/devices/perception/provider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Perception.Provider-2.0.1.dist-info/METADATA,sha256=2bkVWSil_aJdpEXedgBtGV2kTWCFy1FBQ8AUj3n5FzY,1490
+winrt_Windows.Devices.Perception.Provider-2.0.1.dist-info/WHEEL,sha256=yXMlTXjHPYBFmMOeF4b9ZM_ASRm_Q54GxZmxQGPAzx4,98
+winrt_Windows.Devices.Perception.Provider-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Perception.Provider-2.0.1.dist-info/RECORD,,
