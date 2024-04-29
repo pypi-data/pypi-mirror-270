@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dcentralab_auto_infra
+Version: 1.5.0
+Summary: Infrastructure Package to initialize the WebDriver with a Web3 wallet Extension before any test
+License-File: LICENSE
+Requires-Dist: selenium~=4.20.0
+Requires-Dist: numpy==2.0.0rc1
+Requires-Dist: allure-pytest==2.13.5
+Requires-Dist: pytest==8.1.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: webdriver-manager==4.0.1
+Requires-Dist: json5~=0.9.25

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dcentralab_auto_infra/__init__.py
+dcentralab_auto_infra.egg-info/PKG-INFO
+dcentralab_auto_infra.egg-info/SOURCES.txt
+dcentralab_auto_infra.egg-info/dependency_links.txt
+dcentralab_auto_infra.egg-info/requires.txt
+dcentralab_auto_infra.egg-info/top_level.txt
+tests/test_open_browser_with_extension.py
