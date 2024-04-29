@@ -1,0 +1,8 @@
+winrt/_winrt_microsoft_ui_composition.cp312-win_amd64.pyd,sha256=qfFLv0i-bY9MvRSCFCw8lyilFug36lRnuUtkgNTSon0,922112
+winrt/_winrt_microsoft_ui_composition.pyi,sha256=RhT_ZNlvyQ2D406zZav7i5aJxpFo5VD6QJG7Bl_YBvM,99125
+winrt/microsoft/ui/composition/__init__.py,sha256=XmkAJgoTTfVjlkNWq5NmGuqiqQ-bElYcuUUH5AvdOPM,16240
+winrt/microsoft/ui/composition/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Microsoft.UI.Composition-2.0.1.dist-info/METADATA,sha256=nCzKCCHTrD5fclVEkcp2NlDiZKQKnng024OQtOfhuTY,1670
+winrt_Microsoft.UI.Composition-2.0.1.dist-info/WHEEL,sha256=0znJHI9IehnsAdqJtPz_4BTd2JY6ZK4iNYnscTuOOBE,102
+winrt_Microsoft.UI.Composition-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Microsoft.UI.Composition-2.0.1.dist-info/RECORD,,
