@@ -1,0 +1,8 @@
+winrt/_winrt_windows_security_cryptography_core.cp39-win32.pyd,sha256=uLoJSpR4iyMNhzBBYHSwZCzeG9bkwrYIo43tdR9sRak,238592
+winrt/_winrt_windows_security_cryptography_core.pyi,sha256=X82fRNVwSHindTW4E_RYpUsojrMTxlK1yo3TNoxJFcU,20027
+winrt/windows/security/cryptography/core/__init__.py,sha256=1nvBR6gpUBU3X_5ALhFB4hS6Z2ZaOw5tSOrB4lD9KXA,2974
+winrt/windows/security/cryptography/core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Security.Cryptography.Core-2.0.1.dist-info/METADATA,sha256=_qzWAw33q_ut8ZzXeS_Vpb2oJMDci8BSst1gT-dHcDU,1351
+winrt_Windows.Security.Cryptography.Core-2.0.1.dist-info/WHEEL,sha256=1aMbN4t2zTDfBHuhuWzAfIzzQesiKpXOWwJmQwUBD2M,96
+winrt_Windows.Security.Cryptography.Core-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Security.Cryptography.Core-2.0.1.dist-info/RECORD,,
