@@ -1,0 +1,6 @@
+fiona>=1.8.21
+numpy>=1.22
+packaging
+pandas>=1.4.0
+pyproj>=3.3.0
+shapely>=1.8.0
