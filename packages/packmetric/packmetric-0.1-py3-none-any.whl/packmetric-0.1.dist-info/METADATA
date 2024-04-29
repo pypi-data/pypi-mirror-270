@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: packmetric
+Version: 0.1
+Summary: PackMetric
+Home-page: 
+Author: e_yi
+Requires-Dist: lightning >=2
+Requires-Dist: torch >=2.0.0
+
+A lightweight collection for easy batch updates of torchmetrics, designed to integrate seamlessly with PyTorch Lightning.
