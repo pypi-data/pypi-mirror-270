@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dazbo_commons
+Version: 0.1.2
+Summary: Handy utility code, such as coloured logging.
+Home-page: https://github.com/derailed-dash/dazbo-commons-py
+Author: Darren Lester
+Author-email: derailed.dash@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Provides-Extra: dev
+Requires-Dist: pytest >=5.4 ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+See the README in the project repo
