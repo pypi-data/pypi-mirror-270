@@ -1,0 +1,19 @@
+tasks:
+  - type: docker-build
+    image: charon
+    auto_push_on:
+      - source: push
+        has_tag: true
+        tag_source: tag
+      - source: push
+        has_tag: true
+        tag_source: latest
+    context: .
+    registries:
+      - gitlab
+  - type: python-build
+    auto_push_on:
+      - source: push
+    package: haondt-charon
+    registries:
+      - pypi
