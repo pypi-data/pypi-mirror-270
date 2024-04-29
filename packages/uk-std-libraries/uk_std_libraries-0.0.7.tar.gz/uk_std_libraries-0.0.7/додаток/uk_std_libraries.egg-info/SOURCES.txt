@@ -1,0 +1,11 @@
+README.md
+setup.py
+додаток/uk_std_libraries.egg-info/PKG-INFO
+додаток/uk_std_libraries.egg-info/SOURCES.txt
+додаток/uk_std_libraries.egg-info/dependency_links.txt
+додаток/uk_std_libraries.egg-info/requires.txt
+додаток/uk_std_libraries.egg-info/top_level.txt
+додаток/вбудовані_елементи/__init__.py
+додаток/вбудовані_елементи/вбудовані_функції.py
+додаток/вбудовані_елементи/типи_данних.py
+додаток/вбудовані_елементи/фіксовані_значення.py
