@@ -1,0 +1,8 @@
+pycheckers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycheckers/checkers.py,sha256=zAcfU7wb3zjvVd445GBtn7unDh7Rxnsjo0AULatxbFc,16380
+pycheckers/host.py,sha256=1YVMK3r03mYXeaRetmyvUuZdIoEwIY5GA_0KTgNc-yc,5955
+pycheckers-0.0.3.dist-info/METADATA,sha256=JzhfZRH4s0uNh8nxDlP9x2oo6PpPedbbd9NQ0Bvlczw,82
+pycheckers-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pycheckers-0.0.3.dist-info/entry_points.txt,sha256=vsqNdUI5Wkn3Kj-aebQ0no7WhOLxay8Wc3APyd4y_Eo,50
+pycheckers-0.0.3.dist-info/top_level.txt,sha256=-7b3zBMNEe1NmJXuRm8ZYpePCU44OQZ0wLPmlm0qKtk,11
+pycheckers-0.0.3.dist-info/RECORD,,
