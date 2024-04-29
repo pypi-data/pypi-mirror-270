@@ -1,0 +1,8 @@
+setup.py
+inspect_py/__init__.py
+inspect_py/utils.py
+inspect_py.egg-info/PKG-INFO
+inspect_py.egg-info/SOURCES.txt
+inspect_py.egg-info/dependency_links.txt
+inspect_py.egg-info/requires.txt
+inspect_py.egg-info/top_level.txt
