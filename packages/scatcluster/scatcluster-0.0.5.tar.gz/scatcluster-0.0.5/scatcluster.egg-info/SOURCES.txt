@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+setup.py
+scatcluster.egg-info/PKG-INFO
+scatcluster.egg-info/SOURCES.txt
+scatcluster.egg-info/dependency_links.txt
+scatcluster.egg-info/requires.txt
+scatcluster.egg-info/top_level.txt
