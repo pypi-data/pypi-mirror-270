@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "databricks-pydabs"
+version = "0.0.0"
+authors = [
+  { name="Gleb Kanterov", email="gleb.kanterov@databricks.com" },
+]
+description = "TODO"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
