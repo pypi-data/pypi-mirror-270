@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dataformer
+Version: 0.0.1
+Summary: Create, Curate & Clean Datasets for Large Language Models.
+Home-page: https://github.com/BhabhaAI/dataformer
+Author: Bhabha AI
+Author-email: contact@dataformer.ai
+
