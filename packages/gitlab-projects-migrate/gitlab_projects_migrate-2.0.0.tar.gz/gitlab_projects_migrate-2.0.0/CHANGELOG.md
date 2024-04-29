@@ -1,0 +1,69 @@
+
+<a name="2.0.0"></a>
+## [2.0.0](https://gitlab.com/AdrianDC/gitlab-projects-migrate/compare/1.1.0...2.0.0) (2024-04-28)
+
+### Bug Fixes
+
+* **entrypoint:** safeguard group handlings for '--dry-run'
+* **gitlab:** resolve '--dry-run' usage upon projects migration
+* **main:** ensure GitLab token has been defined
+
+### Ci
+
+* **gitlab-ci:** disable 'typing' mypy caching with 'MYPY_CACHE_DIR'
+* **gitlab-ci:** implement 'readme' local job to update README details
+
+### Cleanups
+
+* **src:** ignore 'import-error' over '__init__' and '__main__'
+
+### Code Refactoring
+
+* **migration:** isolate project migration feature sources
+* **migration:** refactor into 'entrypoint' main function
+* **src:** isolate all sources under 'src/'
+
+### Documentation
+
+* **readme:** regenerate '--help' details in 'README.md'
+
+### Features
+
+* **cli:** isolate 'features/migration.py' to 'cli/entrypoint.py'
+* **entrypoint:** isolate 'group' function to 'subgroup'
+* **gitlab:** prepare group settings functions for future usage
+* **main:** enforce 'output_group' value is always passed by CLI
+* **main:** align 'RawTextHelpFormatter' to 30 chars columns
+* **main:** add support for 'GITLAB_TOKEN' environment variable
+* **main:** isolate CLI argument into specific sections
+* **main:** limit '--help' width to terminal width or 120 chars
+* **migration:** implement nested projects migration support
+* **migration:** implement GitLab subgroups creation
+* **migration:** implement support for input project along group
+* **migration:** sort group projects in ascending 'path' order
+* **settings:** change project/group descriptions color
+
+
+<a name="1.1.0"></a>
+## [1.1.0](https://gitlab.com/AdrianDC/gitlab-projects-migrate/compare/1.0.0...1.1.0) (2024-04-22)
+
+### Bug Fixes
+
+* **migration:** prevent '--set-avatar' already closed input file
+
+### Cleanups
+
+* **migration:** minor output flush improvements
+
+### Features
+
+* **migration:** implement '--overwrite' to delete and reimport
+
+
+<a name="1.0.0"></a>
+## 1.0.0 (2024-04-21)
+
+### Features
+
+* **gitlab-projects-migrate:** initial sources implementation
+
