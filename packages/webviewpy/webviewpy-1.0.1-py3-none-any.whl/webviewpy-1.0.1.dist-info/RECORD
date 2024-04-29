@@ -1,0 +1,11 @@
+webviewpy/__init__.py,sha256=1knMPlLCYmThJYF4vEGsQDDTD5TkdTHWeBUanYeUPbk,11050
+webviewpy/__version__.py,sha256=XglbmfebHuSdifAMbIgy8xq3Isq3dxwcF1ZQoKBpUa0,427
+webviewpy/platform/darwin/x64/libwebview.dylib,sha256=yW_wJsWFaY7t1OMaMYX-TB1rk2d-BAzry_JSHIwkSes,438216
+webviewpy/platform/linux/x64/libwebview.so,sha256=CcPSTDUr0PzUh3m0AH7QVAR9evi2o8vgHaOlrawZWsE,226984
+webviewpy/platform/win32/x64/webview.dll,sha256=rmTHexEFcno9ZsfgTkAUQNraLHtWW6jUKqvyBzoHPbQ,301568
+webviewpy/platform/win32/x86/webview.dll,sha256=BRC6FgVvIPTaNYXG2gm20JhcRQbx8wpWRM2sY-ZGhdk,240128
+webviewpy-1.0.1.dist-info/LICENSE,sha256=LIgBqREdosgP7FFNxA2LKNPs5hKzPwRgCYsTSQ2L0CY,1098
+webviewpy-1.0.1.dist-info/METADATA,sha256=M-GjB4o6J9ig8kvw_zHrZQQjYqyZp0Y3VZwXYoEzcE8,2860
+webviewpy-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+webviewpy-1.0.1.dist-info/top_level.txt,sha256=Fb4hw7N24oJFFtUku2VnifOWdPCs2eKZYHQ1adqDagQ,10
+webviewpy-1.0.1.dist-info/RECORD,,
