@@ -1,0 +1,6 @@
+pyproject.toml
+capymoa/__init__.py
+capymoa.egg-info/PKG-INFO
+capymoa.egg-info/SOURCES.txt
+capymoa.egg-info/dependency_links.txt
+capymoa.egg-info/top_level.txt

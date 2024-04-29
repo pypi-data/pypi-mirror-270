@@ -1,0 +1,7 @@
+[project]
+name = "capymoa"
+authors = [
+    {name = "Your Name", email = "you@example.com"},
+]
+version = "0.0.0"
+description = "Empty Package to Reserve Name. Coming soon!"
