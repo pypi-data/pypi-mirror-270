@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: assertbr
+Version: 0.0.2
+Summary: Framework pra testes de API
+Author: André Vieira dos Santos
+Author-email: assertbr7@gmail.com
+License: MIT License
+Keywords: assert br
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Um repositorio em experimento ainda.
