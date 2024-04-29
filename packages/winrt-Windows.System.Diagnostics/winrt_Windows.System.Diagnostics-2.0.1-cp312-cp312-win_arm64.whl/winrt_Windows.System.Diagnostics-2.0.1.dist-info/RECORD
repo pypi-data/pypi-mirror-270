@@ -1,0 +1,8 @@
+winrt/_winrt_windows_system_diagnostics.cp312-win_arm64.pyd,sha256=Q7VhBM9H6QWq3IaXahH2TFVXN-I45w_-ex9AcEMAp4k,194048
+winrt/_winrt_windows_system_diagnostics.pyi,sha256=LnwnrfhGaaJv4_x29_br2PdOT1O7LmxPqIsbWdb_bwU,7659
+winrt/windows/system/diagnostics/__init__.py,sha256=ToO1BBr2OszzX9fDRcbgZgB4_F7ew1kFsEvc8Kjay1o,1857
+winrt/windows/system/diagnostics/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.System.Diagnostics-2.0.1.dist-info/METADATA,sha256=UoLQBNqX7flpL5ZfxEwRVBjfyrr2v1UKLB1WLfshyhc,1285
+winrt_Windows.System.Diagnostics-2.0.1.dist-info/WHEEL,sha256=Bv7J8O_-FnSb3IGeFWkp4bS4m9uc0RAAXyF4lKsep6k,102
+winrt_Windows.System.Diagnostics-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.System.Diagnostics-2.0.1.dist-info/RECORD,,
