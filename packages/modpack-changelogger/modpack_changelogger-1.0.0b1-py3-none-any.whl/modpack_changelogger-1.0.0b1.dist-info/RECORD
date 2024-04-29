@@ -1,0 +1,17 @@
+modpack_changelogger/__init__.py,sha256=xKBfF7cSWWes2vJCxQPxG_t5UXCeFy6ekoV5pIWSgKU,38
+modpack_changelogger/cli_wrapper.py,sha256=hWd7OYamMBkv-Eml0vX8eHWOS8MV2UjLthxd2n35OJw,1129
+modpack_changelogger/compare_packs.py,sha256=AkS8HJ5hUnZpfCCmOYfslborpveXUm1GdfVa7wWg7E8,2035
+modpack_changelogger/config_handler.py,sha256=B0VewMrLaw46JzIBj-WjeVeJuqEBYgpHIglfFb-yIj8,1951
+modpack_changelogger/constants.py,sha256=fL9m4PIPrjd8UkG7M8RAgkIKrdsR3Tyz1QVT0GgSwhk,1061
+modpack_changelogger/extract_pack_data.py,sha256=NUTLFbEdibnR98ylZu6aPWNHWJ_nysYjvCrbuaw7hUo,2308
+modpack_changelogger/get_json.py,sha256=k5uGUk2TMr6ONL3z_Wr8phLwwRxDA6uKystl3Mh88X4,3203
+modpack_changelogger/get_mod_names.py,sha256=dEQyhAG9j20C4Q8Eon3xOqy6ZmrhNIciIsvWF3DmlVs,2227
+modpack_changelogger/main.py,sha256=tFiIj64-EM_oeD6RrVgMm6fiubkkM98oi5AxIB3LDfM,4374
+modpack_changelogger/out.py,sha256=oOQ-MOmPAma0EhROYPP39KppbCXVDT44hNW01NcdunM,3302
+modpack_changelogger/overrides_detection.py,sha256=V8C3_V69LVUxt54ixP_FnqYU5t-qS8R7uw9_CGBf_O0,2281
+modpack_changelogger-1.0.0b1.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+modpack_changelogger-1.0.0b1.dist-info/METADATA,sha256=OBYmAjHhVMRrkGAZzlYcyfiPF1aiM_FUfGXjQCySMF8,2701
+modpack_changelogger-1.0.0b1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+modpack_changelogger-1.0.0b1.dist-info/entry_points.txt,sha256=yCGQFeKkcb2CjeCpJaDEjaLSMM_60-tlsHB3l9pRyuY,82
+modpack_changelogger-1.0.0b1.dist-info/top_level.txt,sha256=AYa-315nAoILOdnmvUGHKSIZvjskQEJZ_mx2kMoTSY0,21
+modpack_changelogger-1.0.0b1.dist-info/RECORD,,
