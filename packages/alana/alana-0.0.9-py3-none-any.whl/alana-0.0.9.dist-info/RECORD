@@ -1,0 +1,11 @@
+alana/__init__.py,sha256=hy5BclpJhOeYGlpOkFBZbe0wPfBWCnhCcKyL-S5FBPA,1056
+alana/aliases.py,sha256=lBQIloL0wr6gpgO40xOb6P3tondMjvGqDP6Ox5sVMeI,2422
+alana/color.py,sha256=4lWo7tNQ0eyGVEME1y6LHGKT7k6EGi3ONZuLk0MpSVk,3799
+alana/globals.py,sha256=NXmx2xmJVnOCdfLUj-nPSIKEqnh6k91vpqxSwz6e1Rw,6540
+alana/prompt.py,sha256=NWxHqVtf2CCgEfNQ-U_Nq-hRPumqi8iQeXo95pE4N28,23894
+alana/prompt_async.py,sha256=1bRuZbqxxvU5ozg5TdMK0XpuBBZlvAuWe6NSnyy1oz4,13980
+alana-0.0.9.dist-info/LICENSE,sha256=WKS-AQ0EoHLkiLcrRtX9qzPEWzHlypQ6vp1IrNbUgaY,1062
+alana-0.0.9.dist-info/METADATA,sha256=Mlbjv16XH7YhNJmVi45HHmEJ7O79Fn00npN1D7Glf8w,4020
+alana-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+alana-0.0.9.dist-info/top_level.txt,sha256=XJxQLLwJNHem0pes7cjlPyh7VNU-kPupVm3DGtfpS10,6
+alana-0.0.9.dist-info/RECORD,,
