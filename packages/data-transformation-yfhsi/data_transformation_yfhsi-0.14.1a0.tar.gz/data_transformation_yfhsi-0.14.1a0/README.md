@@ -1,0 +1,53 @@
+The Data Transformation Libraries package contains one module:<br>
+data_transformation<br>
+
+
+The data_transformation module contains three functions:<br>
+
+**transpose2d**<br>
+The "transpose2d" function switches the axes of a 2D tensor.<br>
+The transpose function has a signature: **transpose2d(input_matrix: list[list[float]]) -> list**<br>
+Parameters:<br>
+    input_matrix (list[list[float]]): The input 2D matrix to be transposed.<br>
+Returns:<br>
+    list: The transposed 2D matrix.<br>
+
+How to use an example:<br>
+input_matrix = [[1.0, 2.0, -3.0, 4.0], [4.0, 5.0, 6.3, 7.0], [7.0, 8.0, 9.0, 10.0], [11.0, 12.0, 13.0, 14.0]]
+transpose2d(input_matrix)
+Returns:<br>
+[[1.0, 4.0, 7.0, 11.0], [2.0, 5.0, 8.0, 12.0], [-3.0, 6.3, 9.0, 13.0], [4.0, 7.0, 10.0, 14.0]]<br>
+
+**window1d**<br>
+The "window1d" function is used for time series windowing.<br>
+The time series windowing function has a signature: **window1d(input_array: list | np.ndarray, size: int, shift: int = 1, stride: int = 1) -> list[list | np.ndarray]**<br>
+Parameters:<br>
+    input_array (list | np.ndarray): The input 1D array or numpy array.<br>
+    size (int): The size of the sliding window.<br>
+    shift (int): The amount to shift the window by for each step. Default is 1.<br>
+    stride (int): The stride of the window. Default is 1.<br>
+Returns:<br>
+    list[list | np.ndarray]: A list of windows, each containing elements from the input array.<br>
+
+How to use an example:<br>
+input_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10.0, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]<br>
+window1d(input_array, 4)<br>
+Returns:<br>
+[[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6], [4, 5, 6, 7], [5, 6, 7, 8], [6, 7, 8, 9], [7, 8, 9, 10.0], [8, 9, 10.0, 11], [9, 10.0, 11, 12], [10.0, 11, 12, 13], [11, 12, 13, 14], [12, 13, 14, 15], [13, 14, 15, 16], [14, 15, 16, 17], [15, 16, 17, 18], [16, 17, 18, 19], [17, 18, 19, 20]]<br>
+
+**convolution2d**<br>
+The "convolution2d" function performs cross-correlation.<br>
+The cross correlation function has a signature: **convolution2d(input_matrix: np.ndarray, kernel: np.ndarray, stride : int = 1) -> np.ndarray**<br>
+Parameters:<br>
+    input_matrix (np.ndarray): The input 2D matrix.<br>
+    kernel (np.ndarray): The 2D convolution kernel.<br>
+    stride (int): The stride of the convolution operation. Default is 1.<br>
+Returns:<br>
+    np.ndarray: The result of the 2D convolution operation.<br>
+
+How to use an example:<br>
+input_matrix = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8]])<br>
+kernel = np.array([[0, 1], [2, 3]])<br>
+convolution2d(input_matrix, kernel)<br>
+Returns:<br>
+[[19. 25.], [37. 43.]]<br>
