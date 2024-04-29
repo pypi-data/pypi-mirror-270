@@ -1,0 +1,7 @@
+setup.py
+panadas/__init__.py
+panadas/dl.py
+panadas.egg-info/PKG-INFO
+panadas.egg-info/SOURCES.txt
+panadas.egg-info/dependency_links.txt
+panadas.egg-info/top_level.txt
