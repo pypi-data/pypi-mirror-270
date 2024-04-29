@@ -1,0 +1,9 @@
+milvus_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_api/db_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_api/db_model/milvus_db.py,sha256=0TXQbtySolb6XmGOYgEpcy2pCg4USy1rNUTeLS2IowY,7790
+milvus_api/embed_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milvus_api/embed_model/bgem3.py,sha256=PTOyHJCpfjRKOPRmNFvNrIUXli4Iyhc4hZJ4q_a6fC4,1257
+milvus_api-0.2.1.1.dist-info/METADATA,sha256=r9-1TWkrS3jBrzgMUIh5BY5g-PjhkgjyLx6RR2QhUSw,3378
+milvus_api-0.2.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+milvus_api-0.2.1.1.dist-info/top_level.txt,sha256=M7AdkIoVjdZagPThUZ4YvTGXV5_ZXB8ETR59zaNmvbs,11
+milvus_api-0.2.1.1.dist-info/RECORD,,
