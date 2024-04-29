@@ -1,0 +1,11 @@
+jeeves_pr_stack/__init__.py,sha256=TLE1nLoI2pV2XHXJINAlxsi2ryui7J92raxpf-4W-m4,36
+jeeves_pr_stack/app.py,sha256=zjIR_8NFXAjpdnW7Mp3qOegbeLs9MhpNqLUQlYH-NxE,6932
+jeeves_pr_stack/errors.py,sha256=wYY2s17XNhOi0SSoAXBYAKvtjTyjJ-wcUrjSOBCrP74,606
+jeeves_pr_stack/format.py,sha256=5lRkkZggrxcVbcDVSnSxkWGAPlymWOs6OhOCjaPNJRU,3336
+jeeves_pr_stack/github.py,sha256=8WgeENU5OdZdjlsm-MgsAayMJRfky6RupdxEBm7Rbrg,2802
+jeeves_pr_stack/logic.py,sha256=okFhnmVFyQJOVDoe5szkirQeioR8DpXs4KsqVYQ57do,4449
+jeeves_pr_stack/models.py,sha256=UNA_zDGa-hoWWjUwvZ8Cyn6NdnhrV1F7-GUM_5FLOt4,1929
+jeeves_pr_stack-0.1.3.dist-info/METADATA,sha256=jXfEjTDrhtpa4t05tacAU-2n1O-JxT67A7qdJ_qH5bA,2446
+jeeves_pr_stack-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jeeves_pr_stack-0.1.3.dist-info/entry_points.txt,sha256=HxUjky5I5ws7Xmg46NsQtBtQFr1G5do9jXr7GC96JkE,36
+jeeves_pr_stack-0.1.3.dist-info/RECORD,,
