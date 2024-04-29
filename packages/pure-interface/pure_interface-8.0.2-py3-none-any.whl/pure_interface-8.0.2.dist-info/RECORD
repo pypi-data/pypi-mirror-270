@@ -1,0 +1,13 @@
+pure_interface/__init__.py,sha256=nRaUlgoGUX1X-h4_afGIgq64nsbrHRUZ7yTdpD2wczo,559
+pure_interface/_sub_interface.py,sha256=OYk0schr5567StdNV7ELU-nq9oLZdDMMP-s0gMHZnOs,2858
+pure_interface/adaption.py,sha256=LXemTrXKlkOShbX8Y1NtEJyVnvio2s6YQ9ekHTjHNQI,8071
+pure_interface/delegation.py,sha256=mbFwAbXuE7gMJ3vMqvJmwjl-PojioikSE5Pey0C0Kd4,8730
+pure_interface/errors.py,sha256=7EHpGpeoac8Ml-yShplmio4OT-CiILIWvX5ZUrPJe5M,374
+pure_interface/interface.py,sha256=2mjRb4ftbNGXnQHuDhaKmEaKWGMfgfxqqdwy3AtlGVE,35707
+pure_interface/mypy_plugin.py,sha256=03Oy4hbBzO588EVzrQglr8hvNy-GWzfGurggJ1fUT0k,8775
+pure_interface/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pure_interface-8.0.2.dist-info/LICENSE,sha256=sJ5e4j4lDNdU1ipp2tiPIQgZ_RQughGCgyeaPN53A38,1070
+pure_interface-8.0.2.dist-info/METADATA,sha256=qvJZjh3hG-EvHLbZl6WSBTS77C3yk-rsJAOgYdiCsQ8,38688
+pure_interface-8.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pure_interface-8.0.2.dist-info/top_level.txt,sha256=sBKv5vbVvXSiBU6VEfJL7Q1bRMSeQZUMozSFsvdzuyU,15
+pure_interface-8.0.2.dist-info/RECORD,,
