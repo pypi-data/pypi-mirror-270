@@ -1,0 +1,8 @@
+winrt/_winrt_windows_perception.cp39-win_amd64.pyd,sha256=fyk7ZPaS0FYd23PsclQWw0ch6ziWoHtsN0umYMwUEu0,37376
+winrt/_winrt_windows_perception.pyi,sha256=5hMW65EJwjHtvHRqdcZEv018Pevz0rgkjMIuS4LsjZc,1198
+winrt/windows/perception/__init__.py,sha256=084gT0Y2cj1oe-oaX8M3yQBnSebh61B4SkGVGfYI_pQ,369
+winrt/windows/perception/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Perception-2.0.1.dist-info/METADATA,sha256=B4-bIqAd2ZFxjSYZtVPAwTYp_bgX7RQI4rwdnZiEfmE,1027
+winrt_Windows.Perception-2.0.1.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+winrt_Windows.Perception-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Perception-2.0.1.dist-info/RECORD,,
