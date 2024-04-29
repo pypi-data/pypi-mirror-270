@@ -1,0 +1,7 @@
+README.md
+setup.py
+вбудовані_елементи/uk_std_libraries.egg-info/PKG-INFO
+вбудовані_елементи/uk_std_libraries.egg-info/SOURCES.txt
+вбудовані_елементи/uk_std_libraries.egg-info/dependency_links.txt
+вбудовані_елементи/uk_std_libraries.egg-info/requires.txt
+вбудовані_елементи/uk_std_libraries.egg-info/top_level.txt
