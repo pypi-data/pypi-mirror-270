@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web3morebundlers"
+version = "0.1.0"
+description = "Superset of Flashbots' plugin for Web3.py allowing bundles to be submitted to many miners."
+authors = ["Vile <111662603+vile@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "web3morebundlers" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+web3 = "^5.22.0"
+flashbots = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
