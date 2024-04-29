@@ -1,0 +1,2 @@
+[console_scripts]
+csv_reconciler = csv_reconciler.__main__:main
