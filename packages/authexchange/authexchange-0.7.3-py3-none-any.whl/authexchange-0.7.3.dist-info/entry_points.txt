@@ -1,0 +1,3 @@
+[console_scripts]
+authexchange=authexchange.__main__:cli
+

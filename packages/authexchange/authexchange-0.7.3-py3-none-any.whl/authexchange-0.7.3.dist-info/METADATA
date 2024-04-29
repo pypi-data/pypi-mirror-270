@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: authexchange
+Version: 0.7.3
+Summary: A server to handle the OAuth token exchange with FusionAuth.
+Author-email: Robert Adams <r0b4dams@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Flask ~= 3.0.3
+Requires-Dist: Flask-Cors ~= 4.0.0
+Requires-Dist: gunicorn ~= 22.0.0
+Requires-Dist: pkce ~= 1.0.3
+Requires-Dist: requests ~= 2.31.0
+Requires-Dist: black ~= 24.4.2 ; extra == "dev"
+Requires-Dist: mypy ~= 1.10.0 ; extra == "dev"
+Requires-Dist: pylint ~= 3.1.0 ; extra == "dev"
+Requires-Dist: pytest ~= 8.2.0 ; extra == "dev"
+Provides-Extra: dev
+
+# authexchange
+
+A server to perform the OAuth token exchange with FusionAuth.
