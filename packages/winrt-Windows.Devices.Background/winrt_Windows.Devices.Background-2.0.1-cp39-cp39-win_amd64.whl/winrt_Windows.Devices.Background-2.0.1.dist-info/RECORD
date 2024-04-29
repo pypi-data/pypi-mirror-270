@@ -1,0 +1,8 @@
+winrt/_winrt_windows_devices_background.cp39-win_amd64.pyd,sha256=qBPtFeNJlo6rryR1-xpfTz7YjopB8sDt2qOd_0QAf94,35840
+winrt/_winrt_windows_devices_background.pyi,sha256=M085pESNafD7xV5P8VJ5Ib2cBOfnc89rjlJXJibf3wM,886
+winrt/windows/devices/background/__init__.py,sha256=bDscmtj26M2TConSzrmsiTMQzAV_Mu79SD5LhQjrqhY,375
+winrt/windows/devices/background/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+winrt_Windows.Devices.Background-2.0.1.dist-info/METADATA,sha256=HSrJPg6_jXJCgXahsWr6KltKfm9D3lWnqgcV4mD0X6A,1059
+winrt_Windows.Devices.Background-2.0.1.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+winrt_Windows.Devices.Background-2.0.1.dist-info/top_level.txt,sha256=BzwQb4dZRt0NxCXi10ARjWsox7Asmtf_lXrw_KR-D_E,6
+winrt_Windows.Devices.Background-2.0.1.dist-info/RECORD,,
