@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=99Cc9ras3LSI_XvyzhgXKr18i4dSy1exHN5ImZYyZSI,39
+mensajes/Hola/__init__.py,sha256=xAfJlIIsmW3AG4u2dTMcmDUaheasJ62QUF-94qK9ixo,47
+mensajes/Hola/saludo.py,sha256=iKWI8FsGmt3xKrbjQ0KQ7N8x95m9v36Z0x5Q-MLHD1A,385
+mensajes/adios/__init__.py,sha256=6q-Y8bQJDwfLIp6L9UMgs5MH4O0bpDDvp_gp-_WDf1Q,46
+mensajes/adios/despedidas.py,sha256=4nrB49sBHGmVgFzMSkHV5WzYWeOBHLvVBplPZHW54wk,196
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=Y-_LRV4u9E1chWeODf1v0POdaqfkGjYOQSJLAkYbX-Y,277
+mensajes_caraldana2024-6.0.dist-info/LICENSE,sha256=mtQdQAuWCDqBoAS400jzh_PtLvJ3xEs0vfmpiLwlhuI,1104
+mensajes_caraldana2024-6.0.dist-info/METADATA,sha256=vlq03YTLjhQE0ZzEOUMgG-WEhUToy_uFRAs_FxndxFg,706
+mensajes_caraldana2024-6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mensajes_caraldana2024-6.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+mensajes_caraldana2024-6.0.dist-info/RECORD,,
