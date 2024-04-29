@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: NCBIGeneInfo
+Version: 0.1
+Summary: A package to retrieve gene information from NCBI
+Home-page: https://github.com/sharifrahmanie/NCBIGeneInfo/archive/refs/tags/v0.1.tar.gz
+Author: Edris Sharif Rahmani
+Author-email: rahmani.biotech@gmail.com
+License: MIT
+Keywords: NCBI,Gene symbol,Gene,Bioinformatics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+**Retrieve information about genes from NCBI.**
+
+# Installation
+
+```r{}
+pip install NCBIGeneInfo
+```
+# Running
+
+```r{}
+from NCBIGeneInfo.gene_info import NCBIGeneInfo
+ncbi = NCBIGeneInfo()
+ncbi.fetch_gene_info(["SLC8A1", "MEIS1", "ASCL2"])
+
+```
+
+

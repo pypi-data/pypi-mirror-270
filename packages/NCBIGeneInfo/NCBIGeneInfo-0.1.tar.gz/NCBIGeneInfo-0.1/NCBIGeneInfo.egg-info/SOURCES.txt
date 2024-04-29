@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+NCBIGeneInfo/NCBI_gene_dict
+NCBIGeneInfo/__init__.py
+NCBIGeneInfo/gene_info.py
+NCBIGeneInfo.egg-info/PKG-INFO
+NCBIGeneInfo.egg-info/SOURCES.txt
+NCBIGeneInfo.egg-info/dependency_links.txt
+NCBIGeneInfo.egg-info/requires.txt
+NCBIGeneInfo.egg-info/top_level.txt
