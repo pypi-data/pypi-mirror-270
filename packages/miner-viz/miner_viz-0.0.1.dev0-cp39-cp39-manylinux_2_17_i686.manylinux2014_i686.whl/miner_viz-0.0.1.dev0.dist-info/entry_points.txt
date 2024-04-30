@@ -1,0 +1,3 @@
+[console_scripts]
+miner-viz = miner_viz:test_func
+
