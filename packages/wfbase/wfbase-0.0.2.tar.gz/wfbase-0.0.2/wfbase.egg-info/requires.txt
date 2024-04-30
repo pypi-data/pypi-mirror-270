@@ -1,0 +1,14 @@
+wannierberri
+pyfftw
+spglib
+irrep
+untangle
+imgcat
+opt_einsum
+sympy
+numpy
+numba
+pyparsing
+matplotlib
+pillow
+requests
