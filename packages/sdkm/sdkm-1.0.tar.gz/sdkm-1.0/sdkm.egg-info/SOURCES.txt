@@ -1,0 +1,5 @@
+setup.py
+sdkm.egg-info/PKG-INFO
+sdkm.egg-info/SOURCES.txt
+sdkm.egg-info/dependency_links.txt
+sdkm.egg-info/top_level.txt
