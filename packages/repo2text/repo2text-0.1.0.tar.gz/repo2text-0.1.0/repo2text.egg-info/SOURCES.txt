@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+repo2text/__init__.py
+repo2text/repo2text.py
+repo2text.egg-info/PKG-INFO
+repo2text.egg-info/SOURCES.txt
+repo2text.egg-info/dependency_links.txt
+repo2text.egg-info/entry_points.txt
+repo2text.egg-info/requires.txt
+repo2text.egg-info/top_level.txt
