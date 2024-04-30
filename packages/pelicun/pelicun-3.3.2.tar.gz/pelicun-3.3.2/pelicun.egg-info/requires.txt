@@ -1,0 +1,6 @@
+numpy<2.0,>=1.22.0
+scipy<2.0,>=1.7.0
+pandas<3.0,>=1.4.0
+
+[testing]
+pytest
