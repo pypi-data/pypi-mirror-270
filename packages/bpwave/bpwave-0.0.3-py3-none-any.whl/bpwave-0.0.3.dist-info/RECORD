@@ -1,0 +1,11 @@
+bpwave/__init__.py,sha256=qEbuuvfUrST7MHRMyf73IegnEtAV4hF65H8D3n_qXqA,149
+bpwave/_version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+bpwave/io.py,sha256=H2V7fu5likv3k9uuGL_ajYkTO45qYHpMO5aNhaC3jKk,10533
+bpwave/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpwave/signal.py,sha256=gyYXbigR-tCtDFm8InPASg_rNO8eJuHz2pAUUXAd7H8,34083
+bpwave/visu.py,sha256=htATnGbfZWHtPAWjXCwb4QC4wY7mQHr-SlLjsPg8nPM,3035
+bpwave-0.0.3.dist-info/LICENSE.txt,sha256=wscXcH2Of8s9HlGHRLHm60uhvHgPraPPTnUmdPiWCfY,1070
+bpwave-0.0.3.dist-info/METADATA,sha256=jNJmOKjA1nyRQyQVqAaTsh8J5veF8ig5I_f1Zmpj-aA,4780
+bpwave-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bpwave-0.0.3.dist-info/top_level.txt,sha256=mMMDrtCWec2fncFBPznrD0GsGaUCKq517xphL35MqIU,7
+bpwave-0.0.3.dist-info/RECORD,,
