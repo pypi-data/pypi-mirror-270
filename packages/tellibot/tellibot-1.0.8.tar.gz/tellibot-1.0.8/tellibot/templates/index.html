@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TelliBot</title>
+
+    <link rel="stylesheet" href="/static/css/editor.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">TelliBot</div>
+            <div class="controls">
+                <button class="new-script">New Script</button>
+            </div>
+        </header>
+    </div>
+
+    <div class="scripts wrap">
+        {% for script in scripts %}
+        <div class="script">
+            <div class="title">{{ script.title }}</div>
+            <div class="controls">
+                <a href="#" class="btn run" data-uid="{{ script.uid }}">
+                    {% if script.is_running %}
+                    <i class="material-icons">stop</i> Stop Bot
+                    {% else %}
+                    <i class="material-icons">play_arrow</i> Run Bot
+                    {% endif %}
+                </a>
+                <a href="{{ url_for('editor', name=script.title, uid=script.uid) }}" class="btn"><i class="material-icons">edit</i> Edit Bot</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        function uuidv4() {
+            return "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c =>
+                (+c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> +c / 4).toString(16)
+            );
+        }
+
+        let newScriptBtn = document.querySelector(".new-script")
+        newScriptBtn.addEventListener("click", e => {
+            let name = prompt("Script name")
+            location.href = "/editor?name=" + encodeURIComponent(name) + "&uid=" + uuidv4()
+        })
+
+        var socket = io();
+
+        {% for script in scripts %}
+        document.querySelector("[data-uid='{{ script.uid }}']").addEventListener("click", e => {
+            if (document.querySelector("[data-uid='{{ script.uid }}']").textContent.indexOf("Run Bot") > -1) {
+                fetch("/run/{{ script.uid }}").then(r => {
+                    r.text()
+                }).then(text => {
+                    console.log(text)
+                }).catch(err => {
+                    console.error(err)
+                })
+            } else {
+                fetch("/stop/{{ script.uid }}").then(r => {
+                    r.text()
+                }).then(text => {
+                    console.log(text)
+                }).catch(err => {
+                    console.error(err)
+                })
+            }
+        }, false)
+
+        socket.on("{{ script.uid }}", function(msg) {
+            console.log(msg)
+        });
+        
+        socket.on("is_running_{{ script.uid }}", function(msg) {
+            if (msg == "running") {
+                document.querySelector("[data-uid='{{ script.uid }}']").innerHTML = `<i class="material-icons">stop</i> Stop Bot`
+            } else {
+                document.querySelector("[data-uid='{{ script.uid }}']").innerHTML = `<i class="material-icons">play_arrow</i> Run Bot`
+            }
+        })
+        {% endfor %}
+
+    </script>
+</body>
+
+</html>

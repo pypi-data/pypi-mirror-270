@@ -1,0 +1,3 @@
+include LICENSE.txt
+recursive-include tellibot/static *
+recursive-include tellibot/templates *
