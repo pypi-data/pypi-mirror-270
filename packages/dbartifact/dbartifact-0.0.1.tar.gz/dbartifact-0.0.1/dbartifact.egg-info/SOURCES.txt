@@ -1,0 +1,5 @@
+setup.py
+dbartifact.egg-info/PKG-INFO
+dbartifact.egg-info/SOURCES.txt
+dbartifact.egg-info/dependency_links.txt
+dbartifact.egg-info/top_level.txt
