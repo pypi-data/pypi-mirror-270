@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='csulb_dataset',
+    version='0.1.6',
+    packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        'csulb_mock_dataset': ['data/*.csv'],  # Ensure this correctly points to where your CSV files are relative to the package modules
+    },
+    install_requires=[
+        'pandas',  # Ensure pandas is installed with your package
+    ],
+    author='Gurucharan Raju',
+    author_email='Gurucharan.Raju-SA@csulb.edu@csulb.edu',
+    description='A simple package containing a CSV dataset',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    license='MIT',
+)
