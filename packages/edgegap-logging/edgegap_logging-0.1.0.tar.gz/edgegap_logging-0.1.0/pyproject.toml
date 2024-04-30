@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "edgegap-logging"
+version = "0.1.0"
+description = "The Edgegap Logging library includes various tools and helpers for interacting with Standard Logging Formatter and Colored Logs. It is designed for use within the Edgegap organization."
+authors = ["Bastien Roy <bastien@edgegap.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
