@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: llm_blender
+Version: 0.0.1
+Summary: LLM-Blender, an innovative ensembling framework to attain consistently superior performance by leveraging the diverse strengths and weaknesses of multiple open-source large language models (LLMs). LLM-Blender cut the weaknesses through ranking and integrate the strengths through fusing generation to enhance the capability of LLMs.
+Home-page: https://yuchenlin.xyz/LLM-Blender/
+Author: Dongfu Jiang
+Author-email: dongfu.jdf@gmail.com
+Provides-Extra: example
+Provides-Extra: train
+Provides-Extra: data
+Provides-Extra: eval
+License-File: LICENSE
