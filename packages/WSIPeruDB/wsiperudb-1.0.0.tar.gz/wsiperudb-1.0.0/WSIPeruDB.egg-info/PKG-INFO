@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: WSIPeruDB
+Version: 1.0.0
+Summary: Water Stable Isotope Database in Peru
+Home-page: https://github.com/karoru23/WSI-PeruDB
+Author: Carol Romero
+Author-email: romeroroldancarol@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: mysql-connector-python
+Requires-Dist: folium
+Requires-Dist: scikit-learn
+Requires-Dist: plotly_express
+Requires-Dist: ipywidgets
+Requires-Dist: geopandas
+Requires-Dist: xlsxwriter
+Requires-Dist: notebook==6.5.2
+
+This package allows users to access the Water Stable Isotope Database in Peru. It includes 464 stations over Peru, updated until 2023, and provides an interactive map for exploring the spatial distribution of all the stations. Additionally, it offers features for technical validation and display temporal series for each station and department across Peru
