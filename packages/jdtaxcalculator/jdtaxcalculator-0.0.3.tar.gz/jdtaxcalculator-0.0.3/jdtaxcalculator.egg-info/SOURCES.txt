@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jdtaxcalculator/__init__.py
+jdtaxcalculator/jdtaxcalculator.py
+jdtaxcalculator.egg-info/PKG-INFO
+jdtaxcalculator.egg-info/SOURCES.txt
+jdtaxcalculator.egg-info/dependency_links.txt
+jdtaxcalculator.egg-info/top_level.txt
+test/__init__.py
+test/test_income_calculator.py
