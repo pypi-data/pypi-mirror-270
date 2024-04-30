@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: json2gbnf
+Version: 0.0.1
+Author-email: Kevin Scott <kevin@autogrammer.dev>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# JSON2GBNF
