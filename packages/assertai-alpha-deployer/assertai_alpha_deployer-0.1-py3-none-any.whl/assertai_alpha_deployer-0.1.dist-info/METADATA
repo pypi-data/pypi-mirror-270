@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: assertai_alpha_deployer
+Version: 0.1
+Requires-Dist: psutil
+
