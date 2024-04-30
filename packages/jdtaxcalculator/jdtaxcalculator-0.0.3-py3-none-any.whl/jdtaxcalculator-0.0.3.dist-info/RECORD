@@ -1,0 +1,9 @@
+jdtaxcalculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdtaxcalculator/jdtaxcalculator.py,sha256=-7fxxILgX6NODSRBvYCwXB_NPJDeCTnbTc17ZdYsPkM,4612
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_income_calculator.py,sha256=T5Jbe3N-Jbg6mi_wSaMeLT4p2slLCgBA75S2w0WTMIc,9788
+jdtaxcalculator-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+jdtaxcalculator-0.0.3.dist-info/METADATA,sha256=HuNRT646MLhEwdLWuDTEmTJBfjlOryobOoowRGOdRb4,495
+jdtaxcalculator-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jdtaxcalculator-0.0.3.dist-info/top_level.txt,sha256=H-sneBvqGmgiIs5psfyOqfdVqy5x3izjYS7j-fn5AC8,21
+jdtaxcalculator-0.0.3.dist-info/RECORD,,
