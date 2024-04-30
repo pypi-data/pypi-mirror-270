@@ -1,0 +1,32 @@
+[project]
+name = "llmbot_plugin_bilisearch"
+version = "0.2.0"
+description = "LLMBOT PLUGIN"
+authors = [
+    { name = "sudoskys", email = "coldlando@hotmail.com" },
+]
+dependencies = [
+    "bilibili-api-python>=16.2.0",
+]
+requires-python = ">=3.9,<3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.entry-points."llmkira.extra.plugin"]
+bilisearch = "llmbot_plugin_bilisearch"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "llmkira>=1.0.5",
+]
