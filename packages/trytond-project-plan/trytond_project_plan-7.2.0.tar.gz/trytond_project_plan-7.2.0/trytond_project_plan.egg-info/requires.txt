@@ -1,0 +1,4 @@
+trytond_company<7.3,>=7.2
+trytond_project<7.3,>=7.2
+trytond_timesheet<7.3,>=7.2
+trytond<7.3,>=7.2
