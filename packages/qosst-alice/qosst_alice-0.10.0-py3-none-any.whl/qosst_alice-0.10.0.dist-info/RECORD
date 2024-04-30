@@ -1,0 +1,13 @@
+qosst_alice/__init__.py,sha256=RFFn2iPUFW6kVXk7qhvJ2Il26LJteO3Ijye3ezoe-SA,873
+qosst_alice/alice.py,sha256=mHDaamnmaotFOzCmxYRPWnYQ0E_G0KLjX8gSAru-Xy4,38992
+qosst_alice/dsp.py,sha256=V_9eceq_kzbb72x0funAaIC8URYj_1wAyPsu_aVV9g0,17321
+qosst_alice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qosst_alice/tools/__init__.py,sha256=cZ-Z8SCVFR1QkM04NUynd3j5se_D2NyOWwlYprQhqO4,801
+qosst_alice/tools/calibrate_conversion_factor.py,sha256=jXZ1TylY2q4wHaLenD1BooolWrD8lwPsWhDmOqPchKY,7806
+qosst_alice/tools/charaterization_voa.py,sha256=u73PL-KpZczZO7IbLxNMq5HLpL9bpfoGk8bh7gBQbwo,8946
+qosst_alice/tools/commands.py,sha256=nWngZSFYmXbIBZ3ALsvt5ljSaK3DIS5L419OAmP2BCs,3036
+qosst_alice-0.10.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+qosst_alice-0.10.0.dist-info/METADATA,sha256=9C7fFu56T1vfNPe4w8xbVaUzCaeCOGaD_6OGZJXQOww,3497
+qosst_alice-0.10.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+qosst_alice-0.10.0.dist-info/entry_points.txt,sha256=ofUb2Ib-9CC10qCW2xJHwDbUID3CZeqcZA2MFxpqsHg,104
+qosst_alice-0.10.0.dist-info/RECORD,,

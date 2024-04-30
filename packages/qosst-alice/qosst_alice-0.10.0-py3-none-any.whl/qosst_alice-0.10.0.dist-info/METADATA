@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: qosst-alice
+Version: 0.10.0
+Summary: Alice submodule of QOSST, containing the server and DSP of Alice.
+Home-page: https://github.com/qosst
+License: GPLv3
+Author: Yoann Piétri
+Author-email: Yoann.Pietri@lip6.fr
+Requires-Python: >=3.9,<3.13
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Security :: Cryptography
+Requires-Dist: qosst-core (>=0.10.0,<0.11.0)
+Requires-Dist: qosst-hal (>=0.10.0,<0.11.0)
+Project-URL: Documentation, https://qosst-alice.readthedocs.io/
+Project-URL: Repository, https://github.com/qosst/qosst-alice
+Description-Content-Type: text/markdown
+
+# qosst-alice
+
+<center>
+
+![QOSST Logo](qosst_logo_full.png)
+
+</center>
+
+This project is part of [QOSST](https://github.com/qosst/qosst).
+
+## Features
+
+`qosst-alice` is the module of QOSST in charge of the functionalities of Alice for CV-QKD. In particular it includes:
+
+* Generation of symbols according to a given constellation of points with an associated distribution;
+* Digital Signal Processing of those symbols to generate a sequence to apply on a modulator;
+* Interface to apply the sequence to the hardware;
+* Estimation of Alice's parameters (in particular the average number of photons per symbols);
+* Alice's server code.
+
+## Installation
+
+The module can be installed with the following command: 
+
+```console
+pip install qosst-alice
+```
+
+It is also possible to install it directly from the github repository:
+
+```console
+pip install git+https://github.com/qosst/qosst-alice
+```
+
+It also possible to clone the repository before and install it with pip or poetry
+
+```console
+git clone https://github.com/qosst/qosst-alice
+cd qosst-alice
+poetry install
+pip install .
+```
+
+## Documentation
+
+The whole documentation can be found at https://qosst-alice.readthedocs.io/en/latest/
+
+## Command line usage
+
+A command line is shipped with the project to be able to launch Alice's server. The first step is to create a configuration file. This can be done with a command line tool shipped with the `qosst-core` package (which is a dependency of `qosst-alice`):
+
+```console
+qosst configuration create
+```
+
+This will create the default configuration file at the location `config.toml` (you change the location with the `-f` or `--file` option). For more information on the meaning of each parameter in the configuration and how to change them, check the [qosst tutorial](https://qosst.readthedocs.io/en/latest/tutorial.html).
+
+Alice's server can then be launched with the following command: 
+
+```console
+qosst-alice -f config.toml
+```
+
+## License
+
+As for all submodules of QOSST, `qosst-alice` is shipped under the [Gnu General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
+
+## Contributing
+
+Contribution are more than welcomed, either by reporting issues or proposing merge requests. Please check the contributing section of the [QOSST](https://github.com/qosst/qosst) project fore more information.

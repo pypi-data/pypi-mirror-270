@@ -1,0 +1,4 @@
+[console_scripts]
+qosst-alice=qosst_alice.alice:main
+qosst-alice-tools=qosst_alice.tools.commands:main
+
