@@ -1,0 +1,51 @@
+[tool.flake8]
+max_line_length = 120
+max-doc-length = 120
+inline-quotes = "double"
+
+[tool.mypy]
+no_incremental = true
+ignore_missing_imports = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_any_generics = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unreachable = true
+allow_untyped_decorators = true
+namespace_packages = true
+explicit_package_bases = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ml_validation"
+version = "0.0.1"
+authors = [
+  { name="Viktor Moskalenko", email="moskalenkoviktor@list.ru" },
+]
+description = "Package for machine learning validation"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/moskalenkoviktor/ml_validation"
+Issues = "https://gitlab.com/moskalenkoviktor/ml_validation/-/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ml_validation"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "*.ipynb",
+  "*.sh",
+  ".gitlab-ci.yml",
+]

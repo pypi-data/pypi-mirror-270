@@ -1,0 +1,17 @@
+mypy==1.10.0
+
+flake8==7.0.0
+Flake8-pyproject==1.2.3
+flake8-quotes==3.4.0
+
+isort==5.13.2
+nbqa==1.8.5
+
+requests==2.31.0
+types-requests==2.31.0
+
+tqdm==4.66.2
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
