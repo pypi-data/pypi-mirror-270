@@ -1,0 +1,13 @@
+IPD/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IPD/__main__.py,sha256=3MoH8nR1fBmETdng1VAjvci5ORwD57kQGwLQ3eR27fE,194
+IPD/data.py,sha256=xzjLzTs0j6qs5Y3XiFeY46YcObGfnF-S8Nt_J2b_KNM,3700
+IPD/gui.py,sha256=Jhn-34u0lWynWI8Eziq9FxucOJp2O0nRsbHB9nw8oQw,10184
+IPD/main.py,sha256=pKZ6M1Ury9Gyd2R7E2jw2Y_kGX_Y5b_PN5anVXAOYDM,2271
+IPD/play.py,sha256=ncf5rePdA8DTINmZwZ544y7pOgLsxrX4lwn92bjVbms,1245
+IPD/profiles.py,sha256=Inah1Q4eFLuRzBB8acY6nMwkr_CPotSapo2vMWn2pm8,1319
+IPD/strategies.py,sha256=yEjUlExzFl3KfVVVOVQiZVQq4EQBdomgOOAR-eovwzU,5335
+IPD_axelrod-1.1.0.dist-info/LICENSE,sha256=DPUixDjOjEPZ0FLOhNzHweERaU8pF-4rGzJrPoH4KSo,1069
+IPD_axelrod-1.1.0.dist-info/METADATA,sha256=puw7YVDRjzM03KbVJS0kinmeJa2eLTstuetPvVLeQNI,634
+IPD_axelrod-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+IPD_axelrod-1.1.0.dist-info/top_level.txt,sha256=6Kw2Tnwxd2Xp1BJG9WBjfCRlexXhYbZyIdjRCISlwVI,4
+IPD_axelrod-1.1.0.dist-info/RECORD,,
