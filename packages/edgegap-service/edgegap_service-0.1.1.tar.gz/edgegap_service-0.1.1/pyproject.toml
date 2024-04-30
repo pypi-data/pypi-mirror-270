@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "edgegap-service"
+version = "0.1.1"
+description = "The Edgegap Service library includes various tools and helpers for creating FastAPI Service with easy integration. It is designed for use within the Edgegap organization."
+authors = ["Bastien Roy <bastien@edgegap.com>"]
+readme = "README.md"
+include = ["static/*"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.2"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+colorama = "^0.4.6"
+elastic-apm = "^6.22.0"
+jinja2 = "^3.1.3"
+edgegap-consul = "^0.1.0"
+edgegap-database = "^0.1.0"
+edgegap-settings = "^0.1.0"
+edgegap-scheduling = "^0.1.0"
+edgegap-logging = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
