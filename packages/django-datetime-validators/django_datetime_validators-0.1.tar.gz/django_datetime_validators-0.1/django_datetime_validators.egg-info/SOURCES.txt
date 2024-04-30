@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+datetime_validators/__init__.py
+datetime_validators/apps.py
+datetime_validators/tests.py
+datetime_validators/validators.py
+django_datetime_validators.egg-info/PKG-INFO
+django_datetime_validators.egg-info/SOURCES.txt
+django_datetime_validators.egg-info/dependency_links.txt
+django_datetime_validators.egg-info/requires.txt
+django_datetime_validators.egg-info/top_level.txt
