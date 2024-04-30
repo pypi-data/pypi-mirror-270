@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: eprime_data
+Version: 0.2.dev2
+Summary: handling e-prime txt data files
+Author-email: Oliver Lindemann <lindemann@essb.eur.nl>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas>=2.1
+Requires-Dist: pyarrow>=16.0
+Project-URL: Home, https://github.com/lindemann09/eprime-data
