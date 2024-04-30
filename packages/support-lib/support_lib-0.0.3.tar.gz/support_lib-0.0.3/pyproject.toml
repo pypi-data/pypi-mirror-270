@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools",
+            "wheel",
+            'jira==3.8.0',
+            'opsgenie-sdk==2.1.5',
+            'oracledb==1.3.2',
+            'mysql-connector==2.2.9']
+build-backend = "setuptools.build_meta"
+
+[project]
+name="support_lib"
+version="0.0.3"
+description="A sample test package"
+license= { file = "LICENSE" }
