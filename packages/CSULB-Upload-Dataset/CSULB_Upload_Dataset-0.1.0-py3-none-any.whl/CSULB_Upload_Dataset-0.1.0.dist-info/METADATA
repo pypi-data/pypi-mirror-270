@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CSULB-Upload-Dataset
+Version: 0.1.0
+Summary: A simple package containing a CSV dataset
+Home-page: https://github.com/yourusername/your_package
+Author: Your Name
+Author-email: Gurucharan.Raju-SA@csulb.edu@csulb.edu
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+cmp1.csv dataset
