@@ -1,0 +1,2 @@
+[salt.loader]
+saltstack-age = saltstack_age

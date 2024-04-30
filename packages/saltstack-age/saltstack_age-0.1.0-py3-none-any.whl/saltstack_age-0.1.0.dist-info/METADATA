@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: saltstack-age
+Version: 0.1.0
+Summary: age renderer for Saltstack
+Author: Philippe Muller
+Requires-Python: >=3.8
+Requires-Dist: pyrage>=1.1.2
+Description-Content-Type: text/markdown
+
+# saltstack-age-renderer
+
+Prototype of an [age](https://github.com/FiloSottile/age) renderer for
+[Saltstack](https://saltproject.io/).
