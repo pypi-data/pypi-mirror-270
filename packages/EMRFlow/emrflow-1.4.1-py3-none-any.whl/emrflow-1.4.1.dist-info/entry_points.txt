@@ -1,0 +1,3 @@
+[console_scripts]
+emrflow=emrflow.main:app
+

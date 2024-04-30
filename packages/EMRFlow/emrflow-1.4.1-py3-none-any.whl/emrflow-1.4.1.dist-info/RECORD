@@ -1,0 +1,16 @@
+emrflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emrflow/deployment/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emrflow/deployment/emr.py,sha256=vpcvkLsUOQbCj5ExwENKQ7bUFHhUNaM66Tt1SkLmdYk,6763
+emrflow/deployment/emr_sls.py,sha256=7vF4em3umsay4FmFYphRdNmHHU2dTPqeWLqIGpaaCWs,7676
+emrflow/emr_serverless.py,sha256=I174BGmrGMrPzxH2YIcvqXqnSasoJqAV3sMeLFfQZyM,8881
+emrflow/main.py,sha256=2c8oRcJrP8u0NSk-98aPK5NVuuamLl7QLB30RuY5KkE,277
+emrflow/package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emrflow/package/build_package.py,sha256=gXYuZzSvjFh9yJfMYPTIrFopbRkBeIfctsjGRYrW6jw,1929
+emrflow/package/create_env.py,sha256=ItlJrWZtGCkfOjiwFs6aYAN9Q7tlTktDAFlUNUAxonk,4260
+emrflow/package/project_dependency_src.py,sha256=sgOMY3qGNaSrIErjpRssWopxrPhNbimvMnw3LugtxBA,1220
+emrflow/utils/__init__.py,sha256=-4mBCYzteZVe1zhaDPGpuFBeA4xWNDZ_PzuTg4MTg0k,4408
+emrflow-1.4.1.dist-info/LICENSE,sha256=G076gKy80nYO2OWh7fm7AopdAmTURU4eWP0U9kmA4wE,11349
+emrflow-1.4.1.dist-info/METADATA,sha256=rCHCj_L7Hd0payHBIlXRlKxPna_VJ78Zzas9vPKXEgY,4569
+emrflow-1.4.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+emrflow-1.4.1.dist-info/entry_points.txt,sha256=mV5rUlSdxSTUMmyQcFVA5Jezp4ButJCMIz0OnPq5bnQ,44
+emrflow-1.4.1.dist-info/RECORD,,
