@@ -1,0 +1,16 @@
+import os
+import pprint
+from setuptools import setup, find_packages
+
+# Define the setup parameters
+setup(
+    name="CC-EXPTS",
+    version="0.4",
+    description="CC EXPTS package",
+    author="Ishannaik",
+    author_email="ishannaik7@gmail.com",
+    packages=find_packages(),
+    package_data={
+        "CC_EXPTS": ["*.pdf", "*.py"]
+    },  # Include all files in the CC_EXPTS package
+)
