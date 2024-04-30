@@ -1,0 +1,3 @@
+[pytest11]
+django_environment_config=pytest_plugin.hooks
+
