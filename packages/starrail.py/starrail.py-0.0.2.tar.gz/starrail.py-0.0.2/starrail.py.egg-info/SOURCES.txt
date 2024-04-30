@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+starrail/__init__.py
+starrail/client.py
+starrail/utils.py
+starrail.py.egg-info/PKG-INFO
+starrail.py.egg-info/SOURCES.txt
+starrail.py.egg-info/dependency_links.txt
+starrail.py.egg-info/requires.txt
+starrail.py.egg-info/top_level.txt
