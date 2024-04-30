@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: owl-framework
+Version: 0.1.1
+Summary: Extensible framework for comparing methods of converting video to audio
+Home-page: https://github.com/Kuba314/owl
+License: MIT
+Keywords: conversion,blindness,visual-aid,video-to-audio
+Author: Jakub Rozek
+Author-email: jakub.rozek314@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Typing :: Typed
+Requires-Dist: arcparse (>=0.6.0,<0.7.0)
+Requires-Dist: hilbertcurve (>=2.0.5,<3.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: opencv-python (>=4.7.0.68,<5.0.0.0)
+Requires-Dist: pyaudio (>=0.2.13,<0.3.0)
+Project-URL: Repository, https://github.com/Kuba314/owl
+Description-Content-Type: text/markdown
+
+# owl
+`owl` is a python project aimed at developing and evaluating the effectiveness of conversion methods from video to audio. The resulting audio could be used to learn certain method and "see" with just sound.
+
+## Requirements
+- [`poetry`](https://python-poetry.org/docs/#installation)
+- `portaudio-devel` - required by `pyaudio`
+
+## Installation
+```
+poetry install
+```
+
+## Converter hierarchy
+The main aim of this project is to be extensible so that new converters can be easily built and integrated into the existing converter hierarchy.
+
+Some converters are already implemented. The most simple ones are the `CurveConverter` family of converters. These converters map a space-filling curve over each frame of the input. Then the curve is walked and mapped with a frequency range. Each pixel's brightness contributes to a single sine-wave's amplitude. All sine waves (one for each pixel) are then combined into the final sound. This conversion technique is simple, but does not convey much information. It is only effective at low resolutions since higher resolutions always turn to white noise.
+
+Another family of converters are the `ScanConverter` family of converters. These converters are dynamic, i.e. a single frame generates a sound which (unlike static converters) cannot be represented as a set of frequencies and their amplitudes. Converters of the `ScanConverter` family split the image into strips (either horizontal, vertical or circular). Then each strip is mapped with a frequency range, same as in the `CurveConverter` family. Each strip's sound is then sequentially played for each frame. A sound cue may be inserted at the start of each frame to signify a frame start to the user.
+
+## Examples
+```shell
+# each frame walked by hilbert curve of order 1 (2x2)
+poetry run owl curve hilbert
+
+# each frame walked by peano curve of order 1 (3x3)
+poetry run owl curve peano
+
+# every frame (each 500ms) gets scanned with 4 circles all having 4 samples on each circle
+poetry run owl scan circular -c4 -n4 --ms-per-frame 500
+
+# every frame (each 100ms) gets scanned column-wise left to right, 4 columns each having 4 samples
+poetry run owl scan horizontal -c4 -n4 --ms-per-frame 100
+```
+
