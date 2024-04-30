@@ -1,0 +1,53 @@
+Metadata-Version: 2.3
+Name: sphinx_rust
+Version: 0.0.2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Text Processing :: Markup
+Requires-Dist: sphinx ~=7.3
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: defusedxml ; extra == 'test'
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: sphinx-needs ; extra == 'docs'
+Requires-Dist: sphinxcontrib-plantuml ; extra == 'docs'
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE
+Summary: Sphinx plugin for documentation of Rust projects.
+Keywords: sphinx,rust
+Author: Chris Sewell <chrisj_sewell@hotmail.com>
+Author-email: Chris Sewell <chrisj_sewell@hotmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/sphinx-extensions2/sphinx-rust
+Project-URL: Documentation, http://sphinx-rust.readthedocs.io
+
+# sphinx-rust
+
+[![PyPI][pypi-badge]][pypi-link]
+
+Sphinx plugin for documentation of Rust projects.
+
+**UNDER DEVELOPMENT!**
+
+See [docs/](docs/) for more information.
+
+[pypi-badge]: https://img.shields.io/pypi/v/sphinx-rust.svg
+[pypi-link]: https://pypi.org/project/sphinx-rust
+
