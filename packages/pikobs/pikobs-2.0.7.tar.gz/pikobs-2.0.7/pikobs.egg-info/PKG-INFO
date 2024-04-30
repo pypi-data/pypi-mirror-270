@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pikobs
+Version: 2.0.7
+Summary: pikobs
+Home-page: https://gitlab.science.gc.ca/dlo001/pikobs
+Author: David Lobon
+Author-email: dhlobon@gmail.com
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Installation 
+~~~bash
+git clone https://gitlab.science.gc.ca/dlo001/pikobs.git
+~~~
