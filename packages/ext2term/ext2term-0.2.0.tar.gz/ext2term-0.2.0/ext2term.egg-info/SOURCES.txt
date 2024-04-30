@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+ext2term/__init__.py
+ext2term/cli.py
+ext2term/directory.py
+ext2term/ext2.py
+ext2term/group_descriptor.py
+ext2term/inode.py
+ext2term/io.py
+ext2term/superblock.py
+ext2term/terminal.py
+ext2term.egg-info/PKG-INFO
+ext2term.egg-info/SOURCES.txt
+ext2term.egg-info/dependency_links.txt
+ext2term.egg-info/entry_points.txt
+ext2term.egg-info/top_level.txt
