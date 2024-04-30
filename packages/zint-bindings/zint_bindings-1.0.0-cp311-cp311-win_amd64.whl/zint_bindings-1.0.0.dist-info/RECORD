@@ -1,0 +1,7 @@
+zint-stubs/__init__.pyi,sha256=f3AsiazpGoicsX_BzF2iRhiAuM__VNUukc7IjMY9Ypk,48028
+zint.cp311-win_amd64.pyd,sha256=fWIMAyy9NfCsp-eEDl3hwuKBVzTMeivEfJIK0qK2hQs,1533440
+zint_bindings-1.0.0.dist-info/METADATA,sha256=KR0KAYwTZ9D1FQ3bHxbvnlwgzz2jygYqseoF9l16wwU,3219
+zint_bindings-1.0.0.dist-info/WHEEL,sha256=4_8jhafS1DuVrtyOjx_AaZYxAXAgGEcOhytArlk1oWQ,105
+zint_bindings-1.0.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zint_bindings-1.0.0.dist-info/licenses/LICENSE.md,sha256=gNL2T9Q_te_VwdrYvrQeD2gVvcKM9b7gLz0uabsB2fE,10483
+zint_bindings-1.0.0.dist-info/RECORD,,
