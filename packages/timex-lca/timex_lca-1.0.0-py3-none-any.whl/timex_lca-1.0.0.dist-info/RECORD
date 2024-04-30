@@ -1,0 +1,15 @@
+timex_lca/__init__.py,sha256=Q45Em_QjPyvd6qDsxeuv82hhc6vS24xLGQW3_gI0Igc,330
+timex_lca/dynamic_biosphere_builder.py,sha256=kIqu6yD5EIknZpgJBrM1KQP4v2YxgHRwDhSOrRFp0HY,7729
+timex_lca/dynamic_characterization.py,sha256=gGJWMQV9kWYAUeA9qmHMJZl6clHc5WEvNfTwPKHyh20,31708
+timex_lca/edge_extractor.py,sha256=duYVnKCfJvRVDQ2v7h6OSP-5mVKCUGhMG0OQj6TpVJA,8715
+timex_lca/matrix_modifier.py,sha256=MBHPqkGrEMGA9ZLnBpSYqzMJlosJS8F6e-pS104emcE,11962
+timex_lca/remapping.py,sha256=OMHL-kzM3ZdJxtehUTfxKMj2HEfk6Bnn1-CrpA_4YrA,1080
+timex_lca/timeline_builder.py,sha256=JAz8kehv0hFgisC9fNsyQ5xpQCIsYivBU7OhYLfG0o0,19042
+timex_lca/timex_lca.py,sha256=VaIWaACsqkbszixQPyT89HKHTc8A5ZowpEw5tSi6ETE,35961
+timex_lca/utils.py,sha256=X0zrzEhNbLCbsGMKqBbPdFGROCDABTyYIlauKBgwfAQ,7323
+timex_lca/data/hodnebrog20.csv,sha256=UeQjM274js1Gn86pfYzoDA0DUCOm-uRo0CG85MSWBKY,69114
+timex_lca-1.0.0.dist-info/LICENSE,sha256=KLzab0tr2L3KUoQ_3OvTIJfgvlzPM8I1_h-HH4xfAso,1675
+timex_lca-1.0.0.dist-info/METADATA,sha256=XVjdz1eQM9dKuZk3LZHZ12UPurPwhbCgtinuBGC83jo,7099
+timex_lca-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+timex_lca-1.0.0.dist-info/top_level.txt,sha256=rpsTHAWzvaBa0W2aTktwTPSTWG1lYnwWOfM-gPqU_Ug,10
+timex_lca-1.0.0.dist-info/RECORD,,
