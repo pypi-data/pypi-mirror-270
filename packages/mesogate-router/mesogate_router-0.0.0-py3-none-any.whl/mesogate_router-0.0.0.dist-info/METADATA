@@ -1,0 +1,24 @@
+Metadata-Version: 2.3
+Name: mesogate-router
+Version: 0.0.0
+Summary: Route messages between an input source and multiple destinations
+Project-URL: Homepage, https://github.com/mesogate/router
+Project-URL: Issues, https://github.com/mesogate/router/issues
+Author-email: Voquis Limited <opensource@voquis.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: boto3
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: pylint; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Mesogate Router
