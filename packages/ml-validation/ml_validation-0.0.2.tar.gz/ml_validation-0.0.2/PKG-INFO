@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: ml_validation
+Version: 0.0.2
+Summary: Package for machine learning validation
+Project-URL: Homepage, https://gitlab.com/moskalenkoviktor/ml_validation
+Project-URL: Issues, https://gitlab.com/moskalenkoviktor/ml_validation/-/issues
+Author-email: Viktor Moskalenko <moskalenkoviktor@list.ru>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: requests==2.31.0
+Requires-Dist: scikit-learn==1.4.2
+Requires-Dist: tqdm==4.66.2
+Provides-Extra: test
+Requires-Dist: flake8-pyproject==1.2.3; extra == 'test'
+Requires-Dist: flake8-quotes==3.4.0; extra == 'test'
+Requires-Dist: flake8==7.0.0; extra == 'test'
+Requires-Dist: isort==5.13.2; extra == 'test'
+Requires-Dist: mypy==1.10.0; extra == 'test'
+Requires-Dist: nbqa==1.8.5; extra == 'test'
+Requires-Dist: types-requests==2.31.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# ML Validation
+
+TODO: написать инструкцию
+
+# Check repo
+```bash
+$ ./check.sh
+```
