@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+# recursive-include chubl_pypi_action_test/data *.dat
+# recursive-include chubl_pypi_action_test/docs *.txt
+recursive-exclude chubl_pypi_action_test/tests *
