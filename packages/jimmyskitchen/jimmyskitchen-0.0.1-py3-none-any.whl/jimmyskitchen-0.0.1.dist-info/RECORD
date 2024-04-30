@@ -1,0 +1,15 @@
+jimmyskitchen/__init__.py,sha256=90CtseP_iHCd5IhqHzGpO4gEJ73Yjf4yx8vh1wDH3ew,410
+jimmyskitchen/check_chart_extended.py,sha256=SmriTI-rNrUwi8MdVmbmjrsRrmvobBOnpjT29bMuPMc,2428
+jimmyskitchen/check_returns_extented.py,sha256=Ks_qF2vKshmB-p2GCqfZ7msflc1LvzDsgI2zxJNeikI,2410
+jimmyskitchen/check_top_gainers_losers.py,sha256=mHC7mXxzzdLoSZoRfhvj7bZXqifSt1HACobhORnaehk,2090
+jimmyskitchen/check_volume_change.py,sha256=gGq1Q0KeKJ3dSLpZKnpRKDcFaFeCD-BaIFTxnOS5kQo,1866
+jimmyskitchen/git_utils.py,sha256=brs-3L_7w7dFi_iNcuhM-UwTQQSmpgCluF-h0V3hv-k,176
+jimmyskitchen/import_data.py,sha256=T2AUC12BHjVtByl8ClU0P2uAiGtTtXtcy34uwLMUywA,2521
+jimmyskitchen/main.py,sha256=ObKnr2z0EFBhnCGRPcZ1n_OJzYhI-w0TA-9vNnUqLv4,689
+jimmyskitchen/resources.py,sha256=aodHoKq8G3OG7YD_gGKnvz1zc5Kq05Y0oyGeEFwdAaU,215
+jimmyskitchen/scrap_tickers.py,sha256=ZlXoqhd_b4s-IyStOi-xtJ7Pj7CFr2IHtkYqUNKsHCE,653
+jimmyskitchen-0.0.1.dist-info/LICENSE,sha256=QS4LFHzDanmC6Hjk9oIUxGF39xAjdNzoN2SbLGhKyag,1072
+jimmyskitchen-0.0.1.dist-info/METADATA,sha256=jHSh6AgZxUfRVf-2qjisnBjkJYeIjkHPcCnsBeq9FxQ,7841
+jimmyskitchen-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jimmyskitchen-0.0.1.dist-info/top_level.txt,sha256=vKZRRgbV3qtBEeViPxwNuUOzGqSovt-qlhtUhUw_NBs,14
+jimmyskitchen-0.0.1.dist-info/RECORD,,
