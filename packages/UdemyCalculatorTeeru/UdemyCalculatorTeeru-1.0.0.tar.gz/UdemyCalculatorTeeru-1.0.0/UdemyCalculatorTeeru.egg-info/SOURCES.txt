@@ -1,0 +1,8 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+UdemyCalculatorTeeru.egg-info/PKG-INFO
+UdemyCalculatorTeeru.egg-info/SOURCES.txt
+UdemyCalculatorTeeru.egg-info/dependency_links.txt
+UdemyCalculatorTeeru.egg-info/top_level.txt
