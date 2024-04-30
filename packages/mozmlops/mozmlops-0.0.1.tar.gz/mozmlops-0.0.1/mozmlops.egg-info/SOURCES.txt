@@ -1,0 +1,7 @@
+setup.py
+mozmlops/__init__.py
+mozmlops/artifact_store.py
+mozmlops.egg-info/PKG-INFO
+mozmlops.egg-info/SOURCES.txt
+mozmlops.egg-info/dependency_links.txt
+mozmlops.egg-info/top_level.txt

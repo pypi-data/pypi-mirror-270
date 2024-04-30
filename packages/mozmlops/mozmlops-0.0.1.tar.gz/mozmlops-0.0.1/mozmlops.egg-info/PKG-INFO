@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mozmlops
+Version: 0.0.1
+Summary: Artifact store tools
+Author: Mozilla
+Author-email: <ctroy@mozilla.com>
+Keywords: python,machine learning operations,mozilla
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Tools for interacting with GCS in Mozilla model flows
