@@ -1,0 +1,15 @@
+gytrash/__about__.py,sha256=GZjHceK5qNUk9QSaYUPwtIKY_5qFtydEInLSnaYr3QM,3373
+gytrash/__init__.py,sha256=wgXEmmZo-c0rqois-kpXPR2hQZmvGVX6_QP_QHolwdg,3253
+gytrash/filters/__init__.py,sha256=GFVnm5jpxcmHDxiWbIbuhS_nN4LIq7lOBt7905lfEYc,76
+gytrash/filters/messenger.py,sha256=aD7vswDCXcgv5wV3qj2B1rqQEgbdE2tvhW71chhrMQM,384
+gytrash/formatters/__init__.py,sha256=RXRrulhOzC6YQ_OnPlcgQhTkTE3fO9nC9GJhQjjqQcU,191
+gytrash/formatters/slack.py,sha256=29p7JVMIZasMid_CEfvrEyBXU5-ZAtcjB6NHLVsp-Bg,2546
+gytrash/formatters/teams.py,sha256=L04Hx-zr1VTayfWbFGTptaI7WpXAcCYJsC2RmMjVU_Q,2579
+gytrash/handlers/__init__.py,sha256=Lgpt9K_xIBnmyl2YJY4-wnsyyEEtEhym1ulsB3M3bcQ,163
+gytrash/handlers/slack.py,sha256=s5_K2Gktdz2pFfA76wqGtBpV5ZznpAvqREGwXT7vDmY,2792
+gytrash/handlers/teams.py,sha256=9WGHtuczFSUFriur0bKxae41B6EZfyofLo7RulR6upc,2129
+gytrash/logging_mixin.py,sha256=ouKd8UQfTS6R40ymGrzC2AlG5tsSXVnPAdjJqM18zwc,1403
+gytrash-0.0.22.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gytrash-0.0.22.dist-info/METADATA,sha256=_niUCaLXURN7dEh4CmaoDgiBZeePixzlTjRzemLuC70,3163
+gytrash-0.0.22.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gytrash-0.0.22.dist-info/RECORD,,
