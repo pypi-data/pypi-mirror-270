@@ -1,0 +1,11 @@
+numpy
+rich
+pandas
+matplotlib
+seaborn
+cmocean
+pyproj
+dill
+pathos
+progressbar
+cloudpickle
