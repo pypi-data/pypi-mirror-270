@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+src/juxta/__init__.py
+src/juxta.egg-info/PKG-INFO
+src/juxta.egg-info/SOURCES.txt
+src/juxta.egg-info/dependency_links.txt
+src/juxta.egg-info/top_level.txt
