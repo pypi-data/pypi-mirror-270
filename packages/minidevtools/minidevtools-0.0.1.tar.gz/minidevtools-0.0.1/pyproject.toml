@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "minidevtools"
+version = "0.0.1"
+description = "A Swiss Army knife for developers"
+authors = ["odest <destrochloridium@gmail.com>"]
+maintainers = ["odest <destrochloridium@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/odest/MiniDevTools"
+documentation = "https://minidevtools.readthedocs.io/en/latest/"
+keywords = ["Developers", "Tools"]
+packages = [{include = "minidevtools"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    'Intended Audience :: Education',
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+[tool.poetry.urls]
+"Source" = "https://github.com/odest/MiniDevTools"
+"Changelog" = "https://github.com/odest/MiniDevTools/releases"
+"Bug Tracker" = "https://github.com/odest/MiniDevTools/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.9.0"
+packaging = "^24.0"
+requests = "^2.31.0"
+typing_extensions = "^4.10.0"
+
+[tool.poetry.scripts]
+mdt = 'minidevtools.cli:app'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.MASTER]
+disable = 'redefined-builtin'
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "F403"]
+
+[tool.pyright]
+reportArgumentType = false
+reportUnusedImport = false
+reportMissingTypeStubs = false
+reportUnknownVariableType = false
+reportAttributeAccessIssue = false
+reportUnnecessaryComparison = false
