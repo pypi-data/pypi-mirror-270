@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+selenium2.egg-info/PKG-INFO
+selenium2.egg-info/SOURCES.txt
+selenium2.egg-info/dependency_links.txt
+selenium2.egg-info/requires.txt
+selenium2.egg-info/top_level.txt
