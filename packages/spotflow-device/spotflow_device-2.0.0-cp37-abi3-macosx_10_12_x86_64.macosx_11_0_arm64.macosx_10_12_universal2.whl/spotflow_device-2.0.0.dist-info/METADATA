@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: spotflow_device
+Version: 2.0.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Device SDK for Spotflow IoT Platform
+Keywords: spotflow,iot,device,sdk
+Author-email: Spotflow <support@spotflow.io>
+Requires-Python: >=3.7
+Project-URL: homepage, https://spotflow.io
+Project-URL: documentation, https://docs.spotflow.io/reference/device-sdk/python
