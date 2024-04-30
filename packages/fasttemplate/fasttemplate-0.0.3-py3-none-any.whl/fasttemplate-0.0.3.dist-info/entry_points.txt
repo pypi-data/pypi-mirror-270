@@ -1,0 +1,3 @@
+[console_scripts]
+fasttemplate=fasttemplate.console.application:main
+
