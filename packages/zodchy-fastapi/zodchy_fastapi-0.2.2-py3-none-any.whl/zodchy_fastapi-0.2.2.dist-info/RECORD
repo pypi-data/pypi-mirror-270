@@ -1,0 +1,12 @@
+zodchy_fastapi/__init__.py,sha256=8PMVy-r11HCzk7ut-G_cRfmc4vrUN8TD56l01qdH_1I,72
+zodchy_fastapi/adapters/__init__.py,sha256=KZCEqYlYGryz_73xxe-Rvw35dAkC1GKlctxASLkQvBA,40
+zodchy_fastapi/adapters/query.py,sha256=KGQfxEM88KjJaGgnIC5WDDT5bBpD-VtzyoAYoZf-_l0,1021
+zodchy_fastapi/contracts/__init__.py,sha256=vJVLy9oEIXTtf8AQJE5iBxF1czsiyLq3JbHLgEhrlnE,293
+zodchy_fastapi/contracts/request.py,sha256=cPnmZp7R6jjGIWwMlW242jUGDaySm6GrzFuuJi39b3I,618
+zodchy_fastapi/contracts/response.py,sha256=BkCTT4NPj9oJtbCRZaWk2SgXwIBa7Go_O9dAI7y-BAY,1306
+zodchy_fastapi/contracts/tools.py,sha256=ciDZNUsvtFz3BUI6VDqyuMjQPxGXS4hzjWpElWZuojI,173
+zodchy_fastapi/handlers.py,sha256=s-Oxr-J0ofZ7U2VI8axcAzKUeveQJYX8EgbnBmup6Nc,1209
+zodchy_fastapi/router.py,sha256=GpuFeEq3Td9mUgnPGIvYZBEDw6MTlrDU0wAmaqWlSbg,784
+zodchy_fastapi-0.2.2.dist-info/METADATA,sha256=eVq1ZHq5nA6Dge8sH8dIYbPQXvWsB5lk6DDA0Cj7ywc,616
+zodchy_fastapi-0.2.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+zodchy_fastapi-0.2.2.dist-info/RECORD,,
