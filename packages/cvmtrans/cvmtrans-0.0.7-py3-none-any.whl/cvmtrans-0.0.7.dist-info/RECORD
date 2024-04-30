@@ -1,0 +1,14 @@
+cvmtrans/__init__.py,sha256=-KITJ8cWxYAJyMQy10T4sqGR6y3a0ZY_ynxa3Em1cBw,297
+cvmtrans/cvmtrans.py,sha256=69G1_CSvjteAMOyeUEFJb8oEcAW4izxo-uZwScLOCGA,8775
+cvmtrans/cvmtrans_cut_tags.py,sha256=RA6At3dUeWvrFrttiLEf607PtOMsAvBmf5yEyJfLDwk,3719
+cvmtrans/cvmtrans_extract_reads.py,sha256=yWsC8ZdX6iKx7PiydqwXRvLI9rCvEmkRyM-nxEjF0l4,3539
+cvmtrans/data_process.sh,sha256=9jj8XJncu0a2sVovetZ0V2Azb1mSjmnYpAPfbEgTzkI,536
+cvmtrans/embl_parse.py,sha256=Pgwy8zwqQVDJu5P_AUF7y-tF5x0mWmQ7vy9IT4GnfXA,4417
+cvmtrans/embl_parse_test.py,sha256=rupwYUnPbxTOUZMFRWDvruJMx9tlJiaCYgtECn2YCRY,4689
+cvmtrans/gb2fa.py,sha256=fTTNlCb1d5FJKDc-PEStXnXyKGqDz05q8cgRZdlfskQ,152
+cvmtrans/parse_bam.py,sha256=YYSP2EtmQw03tkbRcx8SuliB1049cOLNZBlJoUZvhk0,3216
+cvmtrans-0.0.7.dist-info/METADATA,sha256=dm3TLZGQ_ItZvcDymE0IJVkMDEheo4patHb5W2UxIS8,2633
+cvmtrans-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cvmtrans-0.0.7.dist-info/entry_points.txt,sha256=w5Wai6Bgn64Kvy5CJHibNY4nKM90BdCblDJmPvBraoY,167
+cvmtrans-0.0.7.dist-info/top_level.txt,sha256=9zd49B4SK84Qp1f3Un_kLszhPaDYVcEm6vwN5AE9K3A,9
+cvmtrans-0.0.7.dist-info/RECORD,,
