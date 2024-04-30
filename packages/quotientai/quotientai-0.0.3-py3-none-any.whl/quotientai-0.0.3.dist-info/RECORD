@@ -1,0 +1,12 @@
+quotientai/__init__.py,sha256=tpdMH6w1AE23v2rZTPoi0w8GCAis90hhiUjmG5gryo4,288
+quotientai/cli/__init__.py,sha256=cvy-WkiKMfji1KUE0BhACEA3KF2hKMe94VVirPizt4A,47
+quotientai/cli/entrypoint.py,sha256=syGjbK3pM1gvj3JxLg7_azopovQzDdWH9qxSvZmQwj0,18956
+quotientai/cli/format.py,sha256=U4KfUJo-RExj9bcCePfDkXCpzCE8VqSMGpAUDCNcVDQ,7961
+quotientai/client.py,sha256=VXkSxE1QV6QahBaOaYPscrr02Jc7DnezuvQMCXSSRt4,41452
+quotientai/exceptions.py,sha256=FTQj7lsA2iCliYvMZplCJ0W2UxVb8POgem0kXlM7oss,181
+quotientai/utils.py,sha256=UP2lKlUnZX1mf3Ginrty18ONe3pa7S9m8C4LY6HdToE,4280
+quotientai-0.0.3.dist-info/LICENSE,sha256=LO3hBBeoSorBuKNwZJL57ys3OhKL2uJ8IPKNyoF708g,11345
+quotientai-0.0.3.dist-info/METADATA,sha256=Gb9bZTfhL6k6r7ekm86ds9BNDTL8CLqiBh-1qwc2GA4,1372
+quotientai-0.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+quotientai-0.0.3.dist-info/entry_points.txt,sha256=f_W9Afv4LT21FBhZHPNdH5QjYIxO5_WCNV6_32kAnp8,58
+quotientai-0.0.3.dist-info/RECORD,,
