@@ -1,0 +1,13 @@
+makeit/__init__.py,sha256=NwQj7qXPgmGRsYXWTec_-n96OaheuT3YWCBaBYeywPs,50
+makeit/__main__.py,sha256=HfwwJbVvB47idby-TieXjGG0OECb5JKCx7LJrkWJfbU,68
+makeit/main.py,sha256=pvDrxylpF5fRi7LbyFYtNfO_blYDnoc6foekOGmyiSs,508
+makeit/make.py,sha256=91PDkcCKO9_en8PB2O8n_LcoZ4F8HfzN2Fp2NJZ7tvw,2930
+makeit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makeit/tui.py,sha256=1sgYIinMxyU5crROv8IMFJfsW3QSif-f-jquJO-VtNg,3011
+makeit/version.py,sha256=PNiDER4qM19h9zdsdfgKt2_dT4WgYK7EguJ8RU2qA_g,22
+makit-0.2.3.dist-info/LICENSE,sha256=8dcvBcUzY_rccIfPEP5o9U7J3ztgLd4wmDrociN5lm8,1063
+makit-0.2.3.dist-info/METADATA,sha256=w_Y5IPCFwYk7xny2bSEsv_rw9kk5BIjCKd1rpQfzLfs,996
+makit-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+makit-0.2.3.dist-info/entry_points.txt,sha256=b8I6MOrO_1ETFl6e2MLAO9bPzLI_xf608we2V-HG6ZU,69
+makit-0.2.3.dist-info/top_level.txt,sha256=En8Ti6JDlceULtP-qQKPGlit7ma4B0gtYc0KDwq1GrQ,7
+makit-0.2.3.dist-info/RECORD,,
