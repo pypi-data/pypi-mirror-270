@@ -1,0 +1,17 @@
+[project]
+name = "Calculator_tvaino"
+version = "0.0.13"
+authors = [
+  { name="Tomas Vainoras", email="vainoras@gmail.com" },
+]
+description = "Basic arithmetic operations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/TuringCollegeSubmissions/tvaino-DWWP.1.5/tree/master/Calculator_pack"
