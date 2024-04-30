@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hurricaneapi
+Version: 0.1.8
+Summary: Hurricaneapi framework
+Home-page: https://github.com/daniil49926/hurricaneapi
+Author: Shchipko Daniil
+Author-email: daniil49925@ya.ru
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+# HurricaneApi
+![Build status](https://github.com/daniil49926/hurricaneapi/actions/workflows/lint.yml/badge.svg?branch=main)
+![PyPi version](https://img.shields.io/pypi/v/hurricaneapi?color=%2334D058&label=pypi%20package)
+
+
