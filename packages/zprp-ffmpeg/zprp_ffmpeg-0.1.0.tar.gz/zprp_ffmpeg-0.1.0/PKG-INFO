@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: zprp-ffmpeg
+Version: 0.1.0
+Summary: Implementation of the successor to the ffmpeg-python library
+Home-page: https://github.com/Madghostek/zprp-ffmpeg
+Author: 
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://zprp-ffmpeg.readthedocs.io/
+Project-URL: Changelog, https://zprp-ffmpeg.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/Madghostek/zprp-ffmpeg/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+===============
+Design proposal
+===============
+Biblioteka ma za zadanie zastąpić i rozszerzyć istniejącą bibliotekę (https://github.com/kkroening/ffmpeg-python)
+
+Minimalną funkcjonalność, którą chcemy zaimplementować, to ta oferowana przez powyższą bibliotekę, czyli korzystanie z grafów filtrów poprzez prosty interfejs. Poza tym, zależy nam na lepszej integracji z IDE (opisy filtrów w docstringach, typy argumentów), żeby ograniczyć potrzebę krążenia po dokumentacji FFmpeg.
+
+====================
+Stack technologiczny
+====================
+* szablon cookiecutter: https://github.com/ionelmc/cookiecutter-pylibrary
+* dokumentacja mkdocs
+* linter ruff
+* Poetry do budowania paczki
+* tox do automatycznych testów
+* CI/CD przy użyciu github actions (uruchomienie testów, budowanie paczki, automatyczny release do PyPI)
+
+=======================
+Planowany rozkład jazdy
+=======================
+#. 18.03-24.03
+    * Struktura projektu (cookiecutter)
+    * Chcemy mieć możliwość uruchomienia testów, zbudowania dokumentacji (narazie pustej), zbudowania paczki.
+#. 25.03-31.03
+    * Podstawowa interakcja z procesem FFmpeg jako subproces
+    * metody `input`, `output`
+    * testy potwierdzające działanie
+#. 01.04-07.04
+    * metoda `filter`, `run`, `compile`
+#. 08.04-14.04
+    * implementacja części logiki grafu filtrów
+    * jakiś podzbiór funkcjonalności np. `concat` tylko
+#. 15.04-21.04
+    * dalsza część logiki grafów
+#. 22.04-28.04
+    * poboczne metody: `probe`, `view`, `run_async`
+#. 29.04-05.05
+    * dodanie osobnych metod na popularne filtry np. `hfilp`.
+    * ? automatyczna generacja metod z kodu źródłowego ffmpeg
+
+Tygodnie 8-13 przewidziane na potencjalne przesunięcia w planie.
+
+Dokumentacja będzie pisana regularnie wraz z kodem jako docstringi
+
+
+========
+Overview
+========
+
+
+
+Implementation of the successor to the ffmpeg-python library
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install zprp-ffmpeg
+
+You can also install the in-development version with::
+
+    pip install https://github.com/ffpmeg-zprp/zprp-ffmpeg/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://zprp-ffmpeg.readthedocs.io/
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+### Changelog
+
+All notable changes to this project will be documented in this file. Dates are displayed in UTC.
+
+#### [v0.1.0](https://github.com/Madghostek/zprp-ffmpeg/compare/v0.0.0...v0.1.0)
+
+> 29 April 2024
+
+- Mypy [`#2`](https://github.com/Madghostek/zprp-ffmpeg/pull/2)
+- Ffmpeg connector and initial stream class logic [`#1`](https://github.com/Madghostek/zprp-ffmpeg/pull/1)
+- feature: add very basic graph structure and crucial api parts [`cb6c4fd`](https://github.com/Madghostek/zprp-ffmpeg/commit/cb6c4fd2473b66f968131dfd806e82902395f78b)
+- feature: crucial base classes for the package [`e133438`](https://github.com/Madghostek/zprp-ffmpeg/commit/e133438f08fbf248f28e7d67b4c40640ed9f3717)
+- fix: remove not needed class, fix mypy type errors [`91aa8cf`](https://github.com/Madghostek/zprp-ffmpeg/commit/91aa8cf23ad051d4126083c57f6749bd49d4d517)
+
+#### v0.0.0
+
+> 26 March 2024
+
+- Change authors [`2892f0f`](https://github.com/Madghostek/zprp-ffmpeg/commit/2892f0fac9b13743e06969e8e8a46ee8792541dd)
+- Restore design proposal [`09e47f5`](https://github.com/Madghostek/zprp-ffmpeg/commit/09e47f5279fc933980b10e220292e400f2635b4e)
+- Try to revert merge. [`6c4fda6`](https://github.com/Madghostek/zprp-ffmpeg/commit/6c4fda6d834687cc2a3e4e9cca4df722df1356aa)
