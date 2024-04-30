@@ -1,0 +1,9 @@
+matplotlib
+numpy
+scipy
+cvxpy
+scikit-learn
+
+[optional]
+gurobi
+mosek
