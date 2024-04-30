@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hqstage
+Version: 0.0.3
+Summary: Dummy package for hqstage - For the real package please refer to https://docs.cloud.quantumsimulations.de/
+Author-email: HQS Quantum Simulations GmbH <info@quantumsimulations.de>
+Maintainer-email: Sebastian Lehmann <sebastian.lehmann@quantumsimulations.de>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# HQStage Dummy Package
+
+This package is a stub. Currently, hqstage can NOT be
+installed via pypi.org.
+
+For instructions on how to install and get started
+using the real hqstage package, please visit
+https://docs.cloud.quantumsimulations.de/.
+
+Thank you very much!
