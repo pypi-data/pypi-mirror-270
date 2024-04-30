@@ -1,0 +1,14 @@
+omnipose/__init__.py,sha256=Vn3ZftdtTABwqU6oIcdrg5ZTcCq_NSruhBnmWVuWXmA,39
+omnipose/__main__.py,sha256=U3CEVKDu8XrpmWWRPIZRVnFYh3wP86LYR2qHAthV-bo,95
+omnipose/core.py,sha256=BM99Ckl9BUdMPJBJsLKUogOhYmwBuKHQio8yz_e2J3E,81225
+omnipose/utils.py,sha256=VtBFoUdnfbF5FHSuG4q9QdEDbxlURBgXeDacSdz63o0,10873
+omnipose/__pycache__/__init__.cpython-38.pyc,sha256=YncB-jJfmNx2m1Al8Y7OnTnJOMlWHyJ-cA_vd5tuafk,201
+omnipose/__pycache__/core.cpython-38.pyc,sha256=dEGIejoYL7Hm3MZ26nZt0tdZ-Qoixn2Rs8Bdv3D7uiA,50432
+omnipose/__pycache__/core.cpython-39.pyc,sha256=FqdfAL-A7qKWXPDd2wm67a_MDjWNn9ijqi6tyXeg7e0,50146
+omnipose/__pycache__/utils.cpython-38.pyc,sha256=K46c_ZE6QzMmM7k9Cu2d4k74HdB4CjGAL9n5Qp22CJ4,9866
+omnipose/__pycache__/utils.cpython-39.pyc,sha256=5Jb_0O_lEt9OdeIX-muhL89DIrXqJpgbRPSzaM4nxSA,9867
+omnipose_acdc-0.3.5.dist-info/LICENSE,sha256=N_01JpS6hOygfAD-tr6fyviqTRSYWqdBVOQYU-HnqX0,1809
+omnipose_acdc-0.3.5.dist-info/METADATA,sha256=OxcaapYjx8NU_6BB17yrDcwjoD67JuAaIuXzTUa--lc,13065
+omnipose_acdc-0.3.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+omnipose_acdc-0.3.5.dist-info/top_level.txt,sha256=wrw3LHkcgwxMk82P82hcLZvNfmF1w7tU8c25mnKPr8M,9
+omnipose_acdc-0.3.5.dist-info/RECORD,,
