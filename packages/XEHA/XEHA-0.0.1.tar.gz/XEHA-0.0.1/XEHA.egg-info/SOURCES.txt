@@ -1,0 +1,6 @@
+setup.py
+XEHA.egg-info/PKG-INFO
+XEHA.egg-info/SOURCES.txt
+XEHA.egg-info/dependency_links.txt
+XEHA.egg-info/requires.txt
+XEHA.egg-info/top_level.txt
