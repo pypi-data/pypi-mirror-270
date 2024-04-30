@@ -1,0 +1,9 @@
+rdflib
+sparqlwrapper
+pint
+pyld
+ucumvert
+
+[dev]
+pytest
+deepdiff
