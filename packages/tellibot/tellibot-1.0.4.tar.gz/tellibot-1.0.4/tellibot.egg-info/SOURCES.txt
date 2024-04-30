@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+tellibot/argparse.py
+tellibot/model.py
+tellibot/tellibot.py
+tellibot.egg-info/PKG-INFO
+tellibot.egg-info/SOURCES.txt
+tellibot.egg-info/dependency_links.txt
+tellibot.egg-info/entry_points.txt
+tellibot.egg-info/requires.txt
+tellibot.egg-info/top_level.txt
