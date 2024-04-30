@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: IRWPy
+Version: 0.0.3
+Summary: Inverse Radius Weighting Interpolation
+Author-email: Bahnam Sadeghi <z5218858@zmail.unsw.edu.au>, Ahmed Eleish <ahmedmorad@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This program estimates interpolated values for 2-coordinate points given a set of points, their elevations and associated features. This method is titled Inverse Radius Weighting (IRW) which is a new interpolation technique that incorporates elevation fluctuations, thereby integrating geological context into geochemical map interpolations for enhanced geochemical interpretability.
