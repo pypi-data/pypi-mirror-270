@@ -1,0 +1,11 @@
+edfio/__init__.py,sha256=FSc_-XFu-Sq_jZbwEg20mTGs6gEUllcQHOk6Aml1pVA,481
+edfio/_header_field.py,sha256=2MtorrWhC91-LwQiPCOQYbFWGV7eiCIXWWqlkaDc7_Y,2349
+edfio/edf.py,sha256=CaPM8ty-KTSaznmyaLhIFCIAGuTApc-mbfDTLM8x4fw,40733
+edfio/edf_annotations.py,sha256=P8YTVoooYDLzbbul1X389z4iry57Tr71tXkkq2baMHk,4733
+edfio/edf_header.py,sha256=JlcOQoaYySsYiE1yPkFCXBWvI8vhcIUKyHrsgDGaHLk,9612
+edfio/edf_signal.py,sha256=fBBuwW1P99er9Vnh-7vmfhcxLcfn1GSksih3ob08Sb8,14927
+edfio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edfio-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+edfio-0.4.1.dist-info/METADATA,sha256=w8F4YRAVqmo_W68bQ-MC4p6_uv26RyVWeX8c8_MfEYU,3971
+edfio-0.4.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+edfio-0.4.1.dist-info/RECORD,,
