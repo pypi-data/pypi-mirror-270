@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aiotx
+Version: 0.0.1
+Requires-Dist: aiohttp
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: mypy >=0.910 ; extra == 'test'
+Requires-Dist: pyproj ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: build ; extra == 'test'
+
