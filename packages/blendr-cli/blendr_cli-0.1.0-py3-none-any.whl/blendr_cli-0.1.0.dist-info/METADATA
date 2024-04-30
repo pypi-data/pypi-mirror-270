@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: blendr-cli
+Version: 0.1.0
+Summary: Blendr CLI tool for GPU Lending
+Home-page: https://www.blendr.network
+Author: Blendr Network
+Author-email: tech@blendr.network
+License: MIT
+Keywords: blendr cli
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: colorama
+
