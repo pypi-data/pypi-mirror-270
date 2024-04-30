@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: qosst-sim
+Version: 0.10.0
+Summary: Simulation module of QOSST.
+Home-page: https://github.com/qosst
+License: GPLv3
+Author: Mayeul Chavanne
+Author-email: mayeul.chavanne@ensta-paris.fr
+Requires-Python: >=3.9,<3.13
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Security :: Cryptography
+Requires-Dist: qosst-core (>=0.10.0,<0.11.0)
+Requires-Dist: qosst-skr (>=0.10.0,<0.11.0)
+Project-URL: Documentation, https://qosst-sim.readthedocs.io/
+Project-URL: Repository, https://github.com/qosst/qosst-sim
+Description-Content-Type: text/markdown
+
+# qosst-sim
+
+<center>
+
+![QOSST Logo](qosst_logo_full.png)
+
+</center>
+
+This project is part of [QOSST](https://github.com/qosst/qosst).
+
+## Features
+
+`qosst-sim` allows to perform some simulations.
+
+## Installation
+
+The module can be installed with the following command:
+
+```console
+pip install qosst-sim
+```
+
+It is also possible to install it directly from the github repository:
+
+```console
+pip install git+https://github.com/qosst/qosst-sim
+```
+
+It also possible to clone the repository before and install it with pip or poetry
+
+```console
+git clone https://github.com/qosst/qosst-sim
+cd qosst-alice
+poetry install
+pip install .
+```
+
+## Documentation
+
+The whole documentation can be found at https://qosst-sim.readthedocs.io/en/latest/
+
+## License
+
+As for all submodules of QOSST, `qosst-sim` is shipped under the [Gnu General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
+
+## Contributing
+
+Contribution are more than welcomed, either by reporting issues or proposing merge requests. Please check the contributing section of the [QOSST](https://github.com/qosst/qosst) project fore more information.
+
