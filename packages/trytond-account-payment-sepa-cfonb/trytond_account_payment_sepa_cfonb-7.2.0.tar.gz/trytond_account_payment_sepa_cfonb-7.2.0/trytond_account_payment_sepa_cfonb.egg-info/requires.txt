@@ -1,0 +1,10 @@
+Genshi
+lxml
+trytond_account_payment<7.3,>=7.2
+trytond_account_payment_sepa<7.3,>=7.2
+trytond_company<7.3,>=7.2
+trytond_bank<7.3,>=7.2
+trytond_party<7.3,>=7.2
+trytond<7.3,>=7.2
+
+[test]
