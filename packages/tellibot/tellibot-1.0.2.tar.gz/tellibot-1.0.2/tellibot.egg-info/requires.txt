@@ -1,0 +1,6 @@
+Flask==3.0.3
+peewee==3.17.3
+requests==2.31.0
+python-telegram-bot==21.1.1
+PyMySQL==1.1.0
+Flask-SocketIO==5.3.6
