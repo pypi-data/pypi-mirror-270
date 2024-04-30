@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: create-app-fastapi
+Version: 0.0.4
+Summary: Package to create fastapi project
+Home-page: UNKNOWN
+Author: Ravishnu
+Author-email: ravishnu60@gmail.com
+License: UNKNOWN
+Keywords: fastapi,fastapi project,project structure,api structure,python fastapi project structure
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+A package used to create fastAPI project structure with virtual environment and dependencies.
+    Once you install this package use below command to create fastapi project,
+    
+    create-app-fastapi project-name
+    
+    
+
