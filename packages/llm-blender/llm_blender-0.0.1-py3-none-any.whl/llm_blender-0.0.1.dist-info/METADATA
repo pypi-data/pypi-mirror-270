@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: llm-blender
+Version: 0.0.1
+Summary: LLM-Blender, an innovative ensembling framework to attain consistently superior performance by leveraging the diverse strengths and weaknesses of multiple open-source large language models (LLMs). LLM-Blender cut the weaknesses through ranking and integrate the strengths through fusing generation to enhance the capability of LLMs.
+Home-page: https://yuchenlin.xyz/LLM-Blender/
+Author: Dongfu Jiang
+Author-email: dongfu.jdf@gmail.com
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: accelerate
+Requires-Dist: safetensors
+Requires-Dist: dataclasses-json
+Requires-Dist: sentencepiece
+Requires-Dist: protobuf
+Provides-Extra: data
+Requires-Dist: datasets ; extra == 'data'
+Requires-Dist: openai ; extra == 'data'
+Requires-Dist: peft ; extra == 'data'
+Requires-Dist: fschat ; extra == 'data'
+Provides-Extra: eval
+Requires-Dist: datasets ; extra == 'eval'
+Requires-Dist: pycocoevalcap ; extra == 'eval'
+Requires-Dist: spacy ; extra == 'eval'
+Requires-Dist: prettytable ; extra == 'eval'
+Requires-Dist: evaluate ; extra == 'eval'
+Requires-Dist: bert-score ; extra == 'eval'
+Requires-Dist: tabulate ; extra == 'eval'
+Requires-Dist: scipy ; extra == 'eval'
+Requires-Dist: nltk ; extra == 'eval'
+Requires-Dist: scikit-learn ; extra == 'eval'
+Requires-Dist: sacrebleu ; extra == 'eval'
+Requires-Dist: rouge-score ; extra == 'eval'
+Provides-Extra: example
+Requires-Dist: datasets ; extra == 'example'
+Requires-Dist: scipy ; extra == 'example'
+Requires-Dist: jupyter ; extra == 'example'
+Provides-Extra: train
+Requires-Dist: datasets ; extra == 'train'
+Requires-Dist: bitsandbytes ; extra == 'train'
+Requires-Dist: deepspeed ; extra == 'train'
+Requires-Dist: wandb ; extra == 'train'
+
