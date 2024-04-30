@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: g3shvnodes
+Version: 0.1.0
+Summary: PLC System G3 SHV Nodes
+Author: Elektroline a.s.
+Project-URL: Homepage, https://gitlab.elektroline.cz/plc/systemg3-py/SystemG3SHVNodes
+Keywords: Elektroline,System G3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pyshv==0.6.1
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-asyncio==0.21.1; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Provides-Extra: cli
+Requires-Dist: rich; extra == "cli"
+
+# G3SHVNodes: A node-centric wrapper of the PySHV library
+
+The **G3SHVNodes** library provides the ``SHVNode`` class — a node-centric
+wrapper of the ``shv.ValueClient`` class, which allows to work with nodes as
+*objects*. See documentation for more information.
+
+## Installation
+
+The installation can be done with the package manager `pip`.
+
+```console
+$ pip install g3shvnodes
+```

@@ -1,0 +1,12 @@
+pyshv==0.6.1
+
+[cli]
+rich
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-asyncio==0.21.1
