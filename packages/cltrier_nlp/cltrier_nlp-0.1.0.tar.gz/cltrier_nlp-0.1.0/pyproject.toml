@@ -1,0 +1,30 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "cltrier_nlp"
+version = "0.1.0"
+description = ""
+authors = ["Simon Münker <muenker@uni-trier.de>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/python-poetry/poetry"
+packages = [{include = "cltrier_nlp"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.8.1"
+pydantic = "^2.7.1"
+langdetect = "^1.0.9"
+langcodes = "^3.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
+testpaths = [
+    "tests",
+]
