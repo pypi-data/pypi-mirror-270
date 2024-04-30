@@ -1,0 +1,15 @@
+specifipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/diagram_engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/diagram_engines/hashable_connection.py,sha256=8m-dCBmLAJ5jGuPE7j2_xRlnUvXZ--Xd0GMW1oitfIM,440
+specifipy/file_scanners/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/file_scanners/directory_scanner.py,sha256=hzpEpsGyaYi3GgGVAKI3U5SQlCinKN87K3fka-uiA4s,4196
+specifipy/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/parsers/diagram_generator_d2.py,sha256=FoTCuJ6yEcxj9fToHUVJ4StC-8xg9sX2epSVCiRmN_E,5253
+specifipy/parsers/generic_parser.py,sha256=jPfyf2bjsI6uP7_-iKUl5ugCGaxbQD5aArSADidmuw8,5572
+specifipy/parsers/results.py,sha256=OGyXRX1qeIFq3y88NQyiOsVPqX3J0ZUhMLPi4A3kPwA,372
+specifipy/parsers/structure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/parsers/structure/code_structure_definitions.py,sha256=OAfSUCkS32FBY0kKDMeUB4ncDXjIIUp0Rq0zGkw5PhA,1946
+specifipy-0.2.1.dist-info/LICENSE,sha256=eSIlzWTmCZglwLIQ3ghsqkpvIA1m391oamc7VmZlZcY,787
+specifipy-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+specifipy-0.2.1.dist-info/METADATA,sha256=Aa7ugXjNkqqAlgqjuSI7kiQqa34nKVCcer6fmmeif7E,566
+specifipy-0.2.1.dist-info/RECORD,,
