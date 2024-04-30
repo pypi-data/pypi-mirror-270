@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+custom_fields/__init__.py
+custom_fields/admin.py
+custom_fields/fields.py
+custom_fields/functions.py
+custom_fields/models.py
+django_custom_fieldsets.egg-info/PKG-INFO
+django_custom_fieldsets.egg-info/SOURCES.txt
+django_custom_fieldsets.egg-info/dependency_links.txt
+django_custom_fieldsets.egg-info/top_level.txt
