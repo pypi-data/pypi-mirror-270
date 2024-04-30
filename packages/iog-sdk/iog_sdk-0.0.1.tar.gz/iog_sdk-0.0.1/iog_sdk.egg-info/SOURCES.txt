@@ -1,0 +1,16 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+iog/__init__.py
+iog/cli.py
+iog_sdk.egg-info/PKG-INFO
+iog_sdk.egg-info/SOURCES.txt
+iog_sdk.egg-info/dependency_links.txt
+iog_sdk.egg-info/entry_points.txt
+iog_sdk.egg-info/not-zip-safe
+iog_sdk.egg-info/requires.txt
+iog_sdk.egg-info/top_level.txt
+tests/__init__.py
+tests/test_iog.py
