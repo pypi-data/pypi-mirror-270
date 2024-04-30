@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+pygen-controlcharts/__init__.py
+pygen_controlcharts.egg-info/PKG-INFO
+pygen_controlcharts.egg-info/SOURCES.txt
+pygen_controlcharts.egg-info/dependency_links.txt
+pygen_controlcharts.egg-info/top_level.txt
