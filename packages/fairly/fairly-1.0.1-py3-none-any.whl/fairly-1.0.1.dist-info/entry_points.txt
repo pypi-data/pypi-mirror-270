@@ -1,0 +1,2 @@
+[console_scripts]
+fairly = fairly.cli:app
