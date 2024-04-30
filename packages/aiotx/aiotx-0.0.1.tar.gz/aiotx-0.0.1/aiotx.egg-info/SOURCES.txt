@@ -1,0 +1,11 @@
+.gitignore
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+aiotx/__init__.py
+aiotx.egg-info/PKG-INFO
+aiotx.egg-info/SOURCES.txt
+aiotx.egg-info/dependency_links.txt
+aiotx.egg-info/requires.txt
+aiotx.egg-info/top_level.txt
