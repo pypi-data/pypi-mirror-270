@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "jinja2_csrf"
+version = "1.0"
+description = "Jinja2 extension to render csrf hidden input"
+authors = [{name = "Stephan Fitzpatrick", email = "knowsuchagency@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+readme = "README.md"
+dependencies = [
+    "jinja2",
+]
+
+[project.urls]
+Home = "https://github.com/knowsuchagency/jinja2_csrf"
