@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: yara-x
+Version: 0.2.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: BSD License
+Summary: Python bindings for YARA-X
+Keywords: pattern-matching,cybersecurity,forensics,malware,yara
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://virustotal.github.io/yara-x
+Project-URL: repository, https://github.com/VirusTotal/yara-x.git
+
+This Python package allows using [YARA-X](https://virustotal.github.com/yara-x)
+from your Python programs.
+
+```python
+import yara_x
+
+rules = yara_x.compile('''
+  rule test { 
+    strings: 
+      $a = "foobar" 
+    condition: 
+      $a
+  }''')
+
+results = rules.scan(b"foobar")
+
+assert results.matching_rules[0].identifier == "test"
+assert results.matching_rules[0].patterns[0].identifier == "$a"
+assert results.matching_rules[0].patterns[0].matches[0].offset == 0
+assert results.matching_rules[0].patterns[0].matches[0].length == 6
+```
