@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sapit
+Version: 1.2.0
+Summary: A Text-to-speech module
+Author: Ali Lodhi
+Author-email: alilodhibusiness@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: pyttsx3 ==2.90
+Requires-Dist: pydub ==0.25.1
+Requires-Dist: ffmpeg ==1.4
+
+# Sapit - Python Text-to-Speech Module
+
+Sapit is a Python module that enables users to utilize a text-to-speech function similar to the "say" command on macOS. With Sapit, you can easily convert text into speech in your Python scripts or projects.
+
+
+
+## Installation
+
+You can install Sapit using pip:
+
+```bash
+pip install sapit
+```
+
+## Usage
+
+Using Sapit is simple. Just import the `say` function from the `sapit` module and call it with the text you want to convert into speech:
+
+```python
+from sapit import say
+
+say("Hello, World!")
+```
+# Founder
+
+Sapit was created by "ALI LODHI" He is from Pakistan, Ali lodhi is well experienced python programmer who loves writing python code. The Idea of Sapit came when he was making a Desktop Assistant for his personal use and he had to write a lot of code so that's why to ease of use he created sapit. 
+
+# Versions
+
+## Sapit 1.0
+
+In Sapit 1.0 you can use `say` function to speak something with the default voice of your Computer
+
+### Example
+
+```python
+from sapit import say
+
+say ("Hello, World!")
+
+# This will result in the text "Hello, World!" being spoken aloud using the default system text-to-speech engine.
+```
+
+## Sapit 1.1 (Latest)
+
+In Sapit 1.1 which is the latest version of Sapit so far you can even specify the voice you want to use It can be male or female
+
+### For Example
+
+```python
+from sapit import say
+
+say ("Hello, World!", gender = "male") # This will speak in Male voice 
+say ("Hello, World!", gender = "female") # This will speak in Female voice
+say ("Hello, World!")# This will speak in Male voice which is default
+```
