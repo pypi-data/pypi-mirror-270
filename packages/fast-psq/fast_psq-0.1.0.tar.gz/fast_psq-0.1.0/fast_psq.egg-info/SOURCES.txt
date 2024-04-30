@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+fast_psq/__init__.py
+fast_psq/index.py
+fast_psq/search.py
+fast_psq/tokenizer.py
+fast_psq/utils.py
+fast_psq/vectorizer.py
+fast_psq.egg-info/PKG-INFO
+fast_psq.egg-info/SOURCES.txt
+fast_psq.egg-info/dependency_links.txt
+fast_psq.egg-info/requires.txt
+fast_psq.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+numpy
+scipy
+tqdm
+nltk
+mosestokenizer
+huggingface_hub
