@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: wfbase
+Version: 0.0.2
+Summary: Easy way to compute from first-principles various properties depending on the electronic structure of periodic solids.
+Home-page: https://coh.ucr.edu/wfbase
+Download-URL: https://coh.ucr.edu/wfbase
+Author: Sinisa Coh
+Author-email: sinisa.coh@ucr.edu
+License: gpl-3.0
+Keywords: wannier functions,parsing mathematical expressions,einstein sum,solid state physics,condensed matter physics,materials science,high-throughput calculations
+Platform: UNIX
+Platform: MAC OS X
+Platform: Windows
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wannierberri
+Requires-Dist: pyfftw
+Requires-Dist: spglib
+Requires-Dist: irrep
+Requires-Dist: untangle
+Requires-Dist: imgcat
+Requires-Dist: opt-einsum
+Requires-Dist: sympy
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: pyparsing
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: requests
+
+WfBase is a software package providing an easy way to compute from first-principles various properties depending on the electronic structure of periodic solids.  This package can parse user-provided mathematical expressions, in a human-readable format, using the Einstein notation for indices.  This package also comes with a built-in database of some simple materials.  For more details, please see:
+
+https://coh.ucr.edu/wfbase
+   
