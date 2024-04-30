@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+mithypdf.egg-info/PKG-INFO
+mithypdf.egg-info/SOURCES.txt
+mithypdf.egg-info/dependency_links.txt
+mithypdf.egg-info/top_level.txt
