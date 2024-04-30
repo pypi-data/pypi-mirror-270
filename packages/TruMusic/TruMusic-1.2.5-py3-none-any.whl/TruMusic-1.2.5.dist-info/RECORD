@@ -1,0 +1,10 @@
+tru_music/__init__.py,sha256=bK5F0dYJVRpn4j5Z-VoPgaOaWyWRBVibAKFiZTOFBSY,15766
+tru_music/artist_album.py,sha256=cE3t3Tn-wxU6dEk0EXk9FIfa-BgQOsATZ6dlmDXU7lA,1441
+tru_music/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tru_music/scripts/cleanup.py,sha256=j6jvrAJ2dlkDXosTnBnq1n5Hs5tU8lZMDVMWWBIlkN4,1019
+tru_music/scripts/trumusic.py,sha256=tH5Br1Fcl-JVrBX-GEa6OFHJozT9MBZ4fuhDQsCZ0vQ,1952
+TruMusic-1.2.5.dist-info/METADATA,sha256=I7xRQ1d5mqbPx7SnCqjNlCSn0AsFUtSMV2a-G_zphEs,832
+TruMusic-1.2.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+TruMusic-1.2.5.dist-info/entry_points.txt,sha256=iEIClQaGgnTrxZ8Gi-fVrmiOaLxOMOP_SZBSHUU71bk,111
+TruMusic-1.2.5.dist-info/top_level.txt,sha256=H7e4uUFhEoB3TwNhai2VMT7UO6jnhYE6v295HzRmP8g,10
+TruMusic-1.2.5.dist-info/RECORD,,
