@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+readme-pypi.md
+src/IPD/__init__.py
+src/IPD/__main__.py
+src/IPD/data.py
+src/IPD/gui.py
+src/IPD/main.py
+src/IPD/play.py
+src/IPD/profiles.py
+src/IPD/strategies.py
+src/IPD_axelrod.egg-info/PKG-INFO
+src/IPD_axelrod.egg-info/SOURCES.txt
+src/IPD_axelrod.egg-info/dependency_links.txt
+src/IPD_axelrod.egg-info/top_level.txt
