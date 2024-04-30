@@ -1,0 +1,3 @@
+[console_scripts]
+qosst=qosst_core.commands:main
+
