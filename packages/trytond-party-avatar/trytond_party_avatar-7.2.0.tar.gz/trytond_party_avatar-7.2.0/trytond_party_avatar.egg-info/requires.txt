@@ -1,0 +1,5 @@
+trytond_party<7.3,>=7.2
+trytond<7.3,>=7.2
+
+[test]
+trytond_company<7.3,>=7.2
