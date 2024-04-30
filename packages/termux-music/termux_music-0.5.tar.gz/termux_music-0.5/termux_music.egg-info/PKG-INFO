@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: termux-music
+Version: 0.5
+Summary: Script to Run Music in Termux
+Home-page: https://github.com/androlinuxs/termux-music
+Author: Alexander Krefting
+Author-email: linuxdevalex@outlook.de
+License: Apache License 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pytube
+
+Termux-Music
+============
+
+This Script Download Music via Pytube from YouTube and safe this in an extra Folder
+
+Setup
+-----
+
+.. code-block:: bash
+
+   apt-get update -qq
+   apt-get install -y python python-pip
+   pip install pipx
+   pipx install termux-music
