@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "miniqmt_xtquant"
+version = "20240329"
+description = "mini QMT工具"
+license = "MIT"
+authors = ["thinktrader"]
+homepage = "https://dict.thinktrader.net/nativeApi/download_xtquant.html"
+keywords = ["quant", "tools","qmt"]
+readme = "README.md"
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+packages = [
+    { include = "xtquant" },
+]
+
+
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "*"
+pylint = "*"
+twine = "*"
+black = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
