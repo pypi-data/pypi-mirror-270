@@ -1,0 +1,10 @@
+requests
+
+[docs]
+sphinx
+
+[testing]
+pytest
+pytest-env
+coverage
+pytest-cov

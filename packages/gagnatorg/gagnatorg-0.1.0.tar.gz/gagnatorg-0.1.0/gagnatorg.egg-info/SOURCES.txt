@@ -1,0 +1,11 @@
+README.md
+setup.py
+gagnatorg/__init__.py
+gagnatorg/client.py
+gagnatorg/errors.py
+gagnatorg.egg-info/PKG-INFO
+gagnatorg.egg-info/SOURCES.txt
+gagnatorg.egg-info/dependency_links.txt
+gagnatorg.egg-info/requires.txt
+gagnatorg.egg-info/top_level.txt
+tests/test_gagnatorg_methods.py
