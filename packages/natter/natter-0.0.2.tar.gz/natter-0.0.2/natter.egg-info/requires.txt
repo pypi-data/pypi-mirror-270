@@ -1,0 +1,4 @@
+textual>=0.48.2
+ollama
+xdg-base-dirs
+textual-fspicker
