@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/focuscreen/__init__.py
+src/focuscreen/app.py
+src/focuscreen/focus_region_updater.py
+src/focuscreen.egg-info/PKG-INFO
+src/focuscreen.egg-info/SOURCES.txt
+src/focuscreen.egg-info/dependency_links.txt
+src/focuscreen.egg-info/requires.txt
+src/focuscreen.egg-info/top_level.txt
