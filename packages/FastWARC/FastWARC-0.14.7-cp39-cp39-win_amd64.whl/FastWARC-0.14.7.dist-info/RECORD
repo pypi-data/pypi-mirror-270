@@ -1,0 +1,14 @@
+fastwarc/cli.py,sha256=JkG2QWF4OjkMEEKmCmU-sJWLfQz6XGnqRHsEi7-owcI,19518
+fastwarc/stream_io.cp39-win_amd64.pyd,sha256=Hdk5kKu0_Sh5vOgugceg197QffoYBW8n41_taxvlM68,202240
+fastwarc/tools.cp39-win_amd64.pyd,sha256=ZgdabAaqxLkd68aXEsqtaLFYIB0kbIjE3-0Z0bLHcRA,126464
+fastwarc/warc.cp39-win_amd64.pyd,sha256=qDM9eupoD_9nyDZeSD_KPYXXDuxAoM8KG4MpWPV4Zs8,332288
+fastwarc/__init__.py,sha256=wulmLsUCxrzW1rHF1JmQFXCIXCjWJdwvoG00iZ1W4bE,2138
+FastWARC-0.14.7.dist-info/DELVEWHEEL,sha256=NFh4ALwEufHZBk-Gj2P8a2He8MwYETBASLFHLga7LY0,452
+FastWARC-0.14.7.dist-info/METADATA,sha256=4DE2wnA9ahmdQGrnPer5cAxON1Ydzzk-67hnzmpRFAE,3295
+FastWARC-0.14.7.dist-info/RECORD,,
+FastWARC-0.14.7.dist-info/top_level.txt,sha256=kd2NdQA_61TyRclx6gmvrHOEiEqZh8LDqGMxfmsOEDw,9
+FastWARC-0.14.7.dist-info/WHEEL,sha256=GZFS91_ufm4WrNPBaFVPB9MvOXR6bMZQhPcZRRTN5YM,100
+FastWARC.libs/.load-order-FastWARC-0.14.7,sha256=BFwYq4Ti7H4-UlqN84zPrUZM6RfvmFovnEjeMV8YCcc,130
+FastWARC.libs/lz4-c44cc41e8e584b7dbe9c40f5cb8dcce4.dll,sha256=MUIE2F3gcCwv2p-8i72TDQDlnwJih0TNveRE9IRAUWQ,119808
+FastWARC.libs/msvcp140-aef915156093201eec821730598e136d.dll,sha256=hUSON2360YWXQK7aolRLVl6Kbk4uVV3mxGOPSrGyiEM,621960
+FastWARC.libs/zlib1-b0cc08358410a07263906e81a39ef6d4.dll,sha256=hEw_uq2Ik5OWtZGGV_0lKANiMQ3O1GQ7kGDX7QaS5QQ,89600
