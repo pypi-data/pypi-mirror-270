@@ -1,0 +1,17 @@
+numpy>=1.17
+dask
+torch>=2.0
+torchvision>=0.10
+lightning
+tensorboard
+transformers
+timm
+xgboost
+scikit-learn
+scikit-image
+rasterio>=1.2
+rioxarray
+pyproj
+geopandas
+geocube
+zarr
