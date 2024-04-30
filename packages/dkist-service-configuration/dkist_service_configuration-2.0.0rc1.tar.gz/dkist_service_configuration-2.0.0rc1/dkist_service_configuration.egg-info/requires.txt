@@ -1,0 +1,7 @@
+loguru
+pydantic-settings
+pydantic[dotenv]>2.0
+
+[test]
+pytest
+pytest-cov
