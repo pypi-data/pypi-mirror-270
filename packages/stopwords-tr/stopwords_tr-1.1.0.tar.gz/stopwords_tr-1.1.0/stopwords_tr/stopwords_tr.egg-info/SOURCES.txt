@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+stopwords_tr/stopwords_tr.egg-info/PKG-INFO
+stopwords_tr/stopwords_tr.egg-info/SOURCES.txt
+stopwords_tr/stopwords_tr.egg-info/dependency_links.txt
+stopwords_tr/stopwords_tr.egg-info/top_level.txt
