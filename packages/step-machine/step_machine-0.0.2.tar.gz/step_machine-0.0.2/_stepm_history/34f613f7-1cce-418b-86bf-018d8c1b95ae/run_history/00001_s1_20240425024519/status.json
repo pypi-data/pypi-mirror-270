@@ -1,0 +1,1 @@
+{"state": "FINISHED", "timestamp": 123, "output": {"signature": "# something", "timestamp": 123, "exit_code": 0, "stdout": "This is working.", "stderr": "warning..."}}
