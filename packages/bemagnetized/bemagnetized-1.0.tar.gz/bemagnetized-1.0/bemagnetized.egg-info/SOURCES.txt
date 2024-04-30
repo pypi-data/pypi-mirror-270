@@ -1,0 +1,7 @@
+setup.py
+bemagnetized.egg-info/PKG-INFO
+bemagnetized.egg-info/SOURCES.txt
+bemagnetized.egg-info/dependency_links.txt
+bemagnetized.egg-info/top_level.txt
+hellofire/__init__.py
+hellofire/hari.py
