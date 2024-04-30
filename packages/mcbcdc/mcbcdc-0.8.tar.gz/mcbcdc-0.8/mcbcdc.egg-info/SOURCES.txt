@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+file/__init__.py
+file/file2.py
+file/../data/daa.txt
+file/../data/ddos.txt
+file/../data/dns.txt
+file/../data/ip_spoofing.txt
+file/../data/sniffer_A.txt
+file/../data/sniffer_B.txt
+file/../data/spam_mail.txt
+mcbcdc.egg-info/PKG-INFO
+mcbcdc.egg-info/SOURCES.txt
+mcbcdc.egg-info/dependency_links.txt
+mcbcdc.egg-info/top_level.txt
