@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "edi-835-parser-brewer"
+version = "1.7.2"
+description = "A simple EDI 835 file format parser."
+authors = ["Keiron Stoddart <keiron.stoddart@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "edi_835_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+pip = "^24.0"
+pytest = "^8.1.2"
