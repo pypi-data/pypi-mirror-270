@@ -1,0 +1,2 @@
+[console_scripts]
+txdir = txdir:main
