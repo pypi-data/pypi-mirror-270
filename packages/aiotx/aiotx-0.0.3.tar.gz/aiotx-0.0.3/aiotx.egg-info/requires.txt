@@ -1,0 +1,13 @@
+aiohttp
+
+[test]
+black
+flake8
+hypothesis
+isort
+mypy>=0.910
+pyproj
+pytest
+pytest-cov
+tox
+build

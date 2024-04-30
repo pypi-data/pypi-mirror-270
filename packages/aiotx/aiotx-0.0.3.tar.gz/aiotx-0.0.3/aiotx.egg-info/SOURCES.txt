@@ -1,0 +1,16 @@
+.gitignore
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+aiotx/__init__.py
+aiotx/exceptions.py
+aiotx.egg-info/PKG-INFO
+aiotx.egg-info/SOURCES.txt
+aiotx.egg-info/dependency_links.txt
+aiotx.egg-info/requires.txt
+aiotx.egg-info/top_level.txt
+aiotx/clients/__init__.py
+aiotx/clients/_bitcoin_base_client.py
+aiotx/clients/_evm_base_client.py
+aiotx/types/__init__.py
