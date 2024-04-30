@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"main"
+
+
+import os
+import pwd
+import sys
+
+
+from rssbot.client  import cmnd, parse_cmd
+from rssbot.command import add
+from rssbot.default import Default
+from rssbot.errors  import enable, errors
+from rssbot.runtime import scan
+from rssbot.workdir import Workdir, skel
+
+
+from rssbot import modules
+
+
+Cfg             = Default()
+Cfg.dis         = ""
+Cfg.mod         = "cmd,irc,rss"
+Cfg.opts        = ""
+Cfg.name        = "rssbot"
+Cfg.version     = "555"
+Cfg.wdr         = os.path.expanduser(f"~/.{Cfg.name}")
+Cfg.pidfile     = os.path.join(Cfg.wdr, f"{Cfg.name}.pid")
+
+
+Workdir.workdir = Cfg.wdr
+
+
+def privileges(username):
+    "drop privileges."
+    pwnam = pwd.getpwnam(username)
+    os.setgid(pwnam.pw_gid)
+    os.setuid(pwnam.pw_uid)
+
+
+def ver(event):
+    "show version."
+    event.reply(f"{Cfg.name.upper()} {Cfg.version}")
+
+
+def main():
+    "main"
+    enable(print)
+    add(ver)
+    skel()
+    parse_cmd(Cfg, " ".join(sys.argv[1:]))
+    scan(modules, Cfg.mod)
+    cmnd(Cfg.otxt, print)
+
+
+if __name__ == "__main__":
+    main()
+    errors()
