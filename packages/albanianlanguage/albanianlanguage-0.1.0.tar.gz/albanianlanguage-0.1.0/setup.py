@@ -1,0 +1,20 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='albanianlanguage',
+    version='0.1.0',
+    packages=find_packages(),
+    install_requires=[
+        'csv',
+    ],
+    author='Florijan Qosja',
+    author_email='florijanqosja@gmail.com',
+    description='A package with a few functionalities for albanian language.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='http://github.com/florijanqosja/albanianlanguage',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+    ],
+)
