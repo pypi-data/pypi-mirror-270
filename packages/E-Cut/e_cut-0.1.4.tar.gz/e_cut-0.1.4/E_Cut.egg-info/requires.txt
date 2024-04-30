@@ -1,0 +1,11 @@
+numpy
+scikit-learn
+PuLP
+scipy
+scikit-learn
+scikit-image
+tqdm
+pandas
+
+[docs]
+pdoc
