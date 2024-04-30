@@ -1,0 +1,34 @@
+README.md
+setup.py
+CC_EXPTS/CC EXPT 2.rmp
+CC_EXPTS/CC EXPT 3.rmp
+CC_EXPTS/CC EXPT 4.rmp
+CC_EXPTS/CC EXPT 5.rmp
+CC_EXPTS/CC EXPT 6.rmp
+CC_EXPTS/CC EXPT 7.rmp
+CC_EXPTS/CC EXPT 8.rmp
+CC_EXPTS/CC Expt 5.pdf
+CC_EXPTS/CC_01.pdf
+CC_EXPTS/CC_02.pdf
+CC_EXPTS/CC_03.pdf
+CC_EXPTS/CC_04.pdf
+CC_EXPTS/CC_06.pdf
+CC_EXPTS/CC_07.pdf
+CC_EXPTS/CC_08.pdf
+CC_EXPTS/CC_10.pdf
+CC_EXPTS/__init__.py
+CC_EXPTS/cc_0708.py
+CC_EXPTS.egg-info/PKG-INFO
+CC_EXPTS.egg-info/SOURCES.txt
+CC_EXPTS.egg-info/dependency_links.txt
+CC_EXPTS.egg-info/top_level.txt
+SC_EXPTS/SC experiments.py
+SC_EXPTS/SC_01.pdf
+SC_EXPTS/SC_02.pdf
+SC_EXPTS/SC_03.pdf
+SC_EXPTS/SC_04.pdf
+SC_EXPTS/SC_05.pdf
+SC_EXPTS/SC_06.pdf
+SC_EXPTS/SC_07.pdf
+SC_EXPTS/SC_08.pdf
+SC_EXPTS/__init__.py
