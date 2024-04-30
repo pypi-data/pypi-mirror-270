@@ -1,0 +1,17 @@
+allpairspy~=2.5
+ansicolors~=1.1
+colorama~=0.4
+colorlog~=6.7
+filelock~=3.12
+junitparser~=2.8
+lxml~=4.9
+parameterized~=0.9
+psutil~=5.9
+tabulate~=0.9
+
+[dev]
+coverage~=6.5
+pylint~=2.17
+restructuredtext_lint~=1.4
+setuptools~=68.2
+unittest-xml-reporting~=3.2
