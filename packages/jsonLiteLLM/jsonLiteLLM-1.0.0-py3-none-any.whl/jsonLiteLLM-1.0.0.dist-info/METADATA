@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jsonLiteLLM
+Version: 1.0.0
+Author: Maher AMARA
+Requires-Python: >=3.7
+Requires-Dist: litellm
+Requires-Dist: regex
+Requires-Dist: jsonschema
+
