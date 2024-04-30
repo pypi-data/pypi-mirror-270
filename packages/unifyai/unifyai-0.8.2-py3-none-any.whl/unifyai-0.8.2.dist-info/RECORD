@@ -1,0 +1,10 @@
+unify/__init__.py,sha256=wcJye-J5yPD2QGWNITjM44s45Xn-usmNTTzlOd5UxgM,199
+unify/chat.py,sha256=lVm8oAFpqgitLlQ-FUrKbTgA7cDh4RRukxURKMDGsUc,6875
+unify/clients.py,sha256=TBetorUqgP_VKl1OYqkIwLWwvu2JJVLhk1PwX9ELnMg,15137
+unify/exceptions.py,sha256=trUHBiMwHUlPTIzN1SYGOWMdvr0GlVqOI7cHj2LyVgg,1166
+unify/tests.py,sha256=U6KgFyYyUgkTft7maBks8ic-usi7XdbvYg44taIibPc,4321
+unify/utils.py,sha256=f_ulz-QiGjvUg-Tieam1o1d10AjgXdswn9W-p6Y4CAg,3472
+unifyai-0.8.2.dist-info/LICENSE,sha256=fHR4VQQbAiPujN_VxeJZkQ7sUtkAj-xoCUQZcUmaZYs,11336
+unifyai-0.8.2.dist-info/METADATA,sha256=4T963IS-g8TF212CMeT4V3-xd9ngwpWPBiw3ZhS-xsE,7250
+unifyai-0.8.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+unifyai-0.8.2.dist-info/RECORD,,
