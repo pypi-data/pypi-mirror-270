@@ -1,0 +1,13 @@
+Log file created at: 2024/04/30 07:47:59
+Running on machine: 059a6f7fbd75
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20240430 07:47:59.474509    20 FunctionUdfManager.cpp:41] UDF Folder doesn't Exist!
+E20240430 07:47:59.490378    18 Serializer.h:43] Thrift serialization is only defined for structs and unions, not containers thereof. Attemping to serialize a value of type `nebula::Value`.
+E20240430 07:48:04.532117    18 QueryInstance.cpp:151] SemanticError: `invalidTag': Unknown tag, query: MATCH (v:invalidTag {name: "Bob"}) RETURN v
+E20240430 07:48:33.534653    20 QueryInstance.cpp:151] SyntaxError: Variable definition conflicts with a parameter near `$p1', query: $p1=go from "Bob" over like yield like._dst;
+E20240430 07:48:33.535251    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: go from $p3 over like yield like._dst;
+E20240430 07:48:33.535825    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: fetch prop on person $p3 yield vertex as v
+E20240430 07:48:33.536407    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: find all path from $p3 to "Yao Ming" over like yield path as p
+E20240430 07:48:33.536964    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: get subgraph from $p3 both like yield vertices as v
+E20240430 07:48:33.537554    20 QueryInstance.cpp:151] SemanticError: Limit/Sample element type must be Integer., query: go 3 steps from "Bob" over like yield like._dst limit [1,$p1,3]

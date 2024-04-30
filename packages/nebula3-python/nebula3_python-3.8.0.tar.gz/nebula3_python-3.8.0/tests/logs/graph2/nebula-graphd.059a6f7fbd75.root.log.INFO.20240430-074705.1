@@ -1,0 +1,138 @@
+Log file created at: 2024/04/30 07:47:05
+Running on machine: 059a6f7fbd75
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240430 07:47:05.349929     1 GraphDaemon.cpp:122] Starting Graph HTTP Service
+I20240430 07:47:05.354100     6 WebService.cpp:124] Web service started on HTTP[19669]
+I20240430 07:47:05.354225     1 GraphDaemon.cpp:136] Number of networking IO threads: 4
+I20240430 07:47:05.354238     1 GraphDaemon.cpp:145] Number of worker threads: 4
+I20240430 07:47:05.358058     1 MetaClient.cpp:80] Create meta client to "172.28.1.2":9559
+I20240430 07:47:05.358083     1 MetaClient.cpp:81] root path: /usr/local/nebula, data path size: 0
+I20240430 07:47:07.373805     1 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:47:07.373824     1 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:47:07.373828     1 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 0 space
+I20240430 07:47:07.373831     1 MetaClient.cpp:3269] Load leader ok
+I20240430 07:47:07.374497     1 MetaClient.cpp:162] Register time task for heartbeat!
+I20240430 07:47:07.374724     1 GraphSessionManager.cpp:337] Total of 0 sessions are loaded
+I20240430 07:47:07.390360     1 MemoryUtils.cpp:171] MemoryTracker set static ratio: 0.8
+I20240430 07:47:07.390614     1 Snowflake.cpp:17] WorkerId init success: 1
+I20240430 07:47:07.390733    37 GraphServer.cpp:63] Starting nebula-graphd on 127.0.0.1:9669
+I20240430 07:47:54.466595    20 GraphService.cpp:77] Authenticating user root from 172.28.0.1:37610
+I20240430 07:47:54.469473    20 SwitchSpaceExecutor.cpp:45] Graph switched to `test_data', space id: 1
+I20240430 07:47:54.570451    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 0 space
+I20240430 07:47:54.570472    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:47:54.570475    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:47:54.570478    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:47:56.576768    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 1 space
+I20240430 07:47:56.576797    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 1 space
+I20240430 07:47:56.576808    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 1 space
+I20240430 07:47:56.576812    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:47:59.474436    20 FunctionUdfManager.cpp:93] Load UDF so library: /home/nebula/dev/nebula/udf/
+E20240430 07:47:59.474509    20 FunctionUdfManager.cpp:41] UDF Folder doesn't Exist!
+E20240430 07:47:59.490378    18 Serializer.h:43] Thrift serialization is only defined for structs and unions, not containers thereof. Attemping to serialize a value of type `nebula::Value`.
+I20240430 07:47:59.512372    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:60016
+I20240430 07:47:59.514070    20 SwitchSpaceExecutor.cpp:45] Graph switched to `test_data', space id: 1
+E20240430 07:48:04.532117    18 QueryInstance.cpp:151] SemanticError: `invalidTag': Unknown tag, query: MATCH (v:invalidTag {name: "Bob"}) RETURN v
+I20240430 07:48:04.617480    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:60028
+I20240430 07:48:04.619766    20 SwitchSpaceExecutor.cpp:45] Graph switched to `test_graph_storage_client', space id: 2
+I20240430 07:48:05.596596    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 1 space
+I20240430 07:48:05.596623    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 1 space
+I20240430 07:48:05.596634    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 1 space
+I20240430 07:48:05.596637    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:06.602236    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 2 space
+I20240430 07:48:06.602264    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 2 space
+I20240430 07:48:06.602275    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 2 space
+I20240430 07:48:06.602278    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:11.617416    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 2 space
+I20240430 07:48:11.617452    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 2 space
+I20240430 07:48:11.617466    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 2 space
+I20240430 07:48:11.617470    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:12.625782    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:12.625808    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 2 space
+I20240430 07:48:12.625818    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 2 space
+I20240430 07:48:12.625821    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:13.634003    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:13.634052    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:13.634074    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:13.634078    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:21.471647    19 GraphService.cpp:77] Authenticating user root from 172.28.0.1:40388
+I20240430 07:48:21.474200    20 SwitchSpaceExecutor.cpp:45] Graph switched to `parameter_test', space id: 5
+I20240430 07:48:21.655619    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:21.655669    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:21.655694    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:21.655697    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:23.667582    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 5 space
+I20240430 07:48:23.667631    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 5 space
+I20240430 07:48:23.667676    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 5 space
+I20240430 07:48:23.667680    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:27.682945    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 5 space
+I20240430 07:48:27.682996    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 5 space
+I20240430 07:48:27.683034    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 5 space
+I20240430 07:48:27.683038    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:33.527266    18 GraphService.cpp:77] Authenticating user root from 172.28.0.1:40388
+I20240430 07:48:33.528877    18 SwitchSpaceExecutor.cpp:45] Graph switched to `parameter_test', space id: 5
+E20240430 07:48:33.534653    20 QueryInstance.cpp:151] SyntaxError: Variable definition conflicts with a parameter near `$p1', query: $p1=go from "Bob" over like yield like._dst;
+E20240430 07:48:33.535251    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: go from $p3 over like yield like._dst;
+E20240430 07:48:33.535825    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: fetch prop on person $p3 yield vertex as v
+E20240430 07:48:33.536407    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: find all path from $p3 to "Yao Ming" over like yield path as p
+E20240430 07:48:33.536964    20 QueryInstance.cpp:151] SyntaxError: Parameter is not supported in vid near `$p3', query: get subgraph from $p3 both like yield vertices as v
+E20240430 07:48:33.537554    20 QueryInstance.cpp:151] SemanticError: Limit/Sample element type must be Integer., query: go 3 steps from "Bob" over like yield like._dst limit [1,$p1,3]
+I20240430 07:48:33.583070    18 GraphService.cpp:77] Authenticating user root from 172.28.0.1:40388
+I20240430 07:48:33.705300    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:33.705346    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:33.705368    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:33.705371    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:34.714581    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:34.714643    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:34.714664    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:34.714668    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:35.724186    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:35.724244    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:35.724278    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:35.724283    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:38.758765    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:38.758821    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:38.758853    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:38.758858    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:39.777729    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:39.777751    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:39.777757    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:39.777761    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:40.795558    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 10 space
+I20240430 07:48:40.795580    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:40.795585    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:40.795590    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:41.941315    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 10 space
+I20240430 07:48:41.941334    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:41.941339    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:41.941344    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:43.029731    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 10 space
+I20240430 07:48:43.029750    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:43.029755    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:43.029760    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:47.123940    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 60 space
+I20240430 07:48:47.123963    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:47.123968    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:47.123973    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:54.240108    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 60 space
+I20240430 07:48:54.240129    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:54.240134    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:54.240139    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:57.328490    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 61 space
+I20240430 07:48:57.328512    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:48:57.328517    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:48:57.328521    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:17.599496    20 GraphService.cpp:77] Authenticating user root from 172.28.0.1:40234
+I20240430 07:49:20.159551    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:40234
+I20240430 07:49:20.457669    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 61 space
+I20240430 07:49:20.457695    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:49:20.457700    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:49:20.457705    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:22.552603    34 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:22.552632    34 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:49:22.552637    34 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:49:22.552642    34 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:40.190084     1 GraphDaemon.cpp:176] Signal 15(Terminated) received, stopping this server
+I20240430 07:49:40.593413    37 GraphServer.cpp:74] nebula-graphd on 127.0.0.1:9669 has been stopped
+I20240430 07:49:40.593545     1 GraphDaemon.cpp:161] The graph Daemon stopped
+I20240430 07:49:40.593555     1 GraphServer.cpp:109] The graph server has been stopped

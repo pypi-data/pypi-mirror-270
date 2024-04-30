@@ -1,0 +1,44 @@
+Log file created at: 2024/04/30 07:49:41
+Running on machine: 0a65c7010caf
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240430 07:49:41.143795     1 GraphDaemon.cpp:122] Starting Graph HTTP Service
+I20240430 07:49:41.158807     8 WebService.cpp:124] Web service started on HTTP[19669]
+I20240430 07:49:41.164335     1 GraphDaemon.cpp:136] Number of networking IO threads: 4
+I20240430 07:49:41.164350     1 GraphDaemon.cpp:145] Number of worker threads: 4
+I20240430 07:49:41.165252     1 MetaClient.cpp:80] Create meta client to "172.28.1.3":9559
+I20240430 07:49:41.165267     1 MetaClient.cpp:81] root path: /usr/local/nebula, data path size: 0
+I20240430 07:49:42.312877     1 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:42.312899     1 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:49:42.312906     1 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:49:42.312909     1 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:42.318985     1 MetaClient.cpp:162] Register time task for heartbeat!
+I20240430 07:49:42.319434     1 GraphSessionManager.cpp:337] Total of 17 sessions are loaded
+I20240430 07:49:42.338399     1 MemoryUtils.cpp:171] MemoryTracker set static ratio: 0.8
+I20240430 07:49:42.342731     1 Snowflake.cpp:17] WorkerId init success: 1
+I20240430 07:49:42.343025    39 GraphServer.cpp:63] Starting nebula-graphd on 127.0.0.1:9669
+I20240430 07:49:51.589040    22 GraphService.cpp:77] Authenticating user root from 172.28.0.2:36762
+E20240430 07:49:51.598992    20 QueryInstance.cpp:151] Existed!, query: ADD HOSTS "172.28.2.1":9779,"172.28.2.2":9779,"172.28.2.3":9779;
+I20240430 07:49:53.214911    36 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:53.215030    36 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 10 space
+I20240430 07:49:53.215142    36 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240430 07:49:53.215152    36 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:54.320842    36 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:54.320989    36 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 10 space
+I20240430 07:49:54.321101    36 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240430 07:49:54.321112    36 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:55.422600    36 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:55.422767    36 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 10 space
+I20240430 07:49:55.422878    36 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240430 07:49:55.422883    36 MetaClient.cpp:3269] Load leader ok
+I20240430 07:50:27.659000    22 GraphService.cpp:77] Authenticating user root from 172.28.0.1:48566
+I20240430 07:50:27.668248    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:48572
+I20240430 07:50:27.673647    23 GraphService.cpp:77] Authenticating user root from 172.28.0.1:48576
+E20240430 07:50:39.680527    23 GraphSessionManager.cpp:50] Get session `1714463427681321' failed:Session not existed!
+E20240430 07:50:39.680572    23 GraphService.cpp:165] Get session for sessionId: 1714463427681321 failed: Session `1714463427681321' not found: Session not existed!
+I20240430 07:50:39.686218    20 GraphService.cpp:77] Authenticating user root from 172.28.0.1:49004
+I20240430 07:50:39.694025    20 GraphService.cpp:77] Authenticating user root from 172.28.0.1:49024
+I20240430 07:50:39.699448    23 GraphService.cpp:77] Authenticating user root from 172.28.0.1:49026
+E20240430 07:50:51.706446    21 GraphSessionManager.cpp:50] Get session `1714463439709094' failed:Session not existed!
+E20240430 07:50:51.706499    21 GraphService.cpp:165] Get session for sessionId: 1714463439709094 failed: Session `1714463439709094' not found: Session not existed!
+I20240430 07:50:51.721660    21 GraphService.cpp:77] Authenticating user root from 172.28.0.1:50796

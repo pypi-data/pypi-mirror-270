@@ -1,0 +1,1292 @@
+I20240430 07:47:05.163259     1 StorageDaemon.cpp:132] localhost = "172.28.2.2":9779
+I20240430 07:47:05.163544     1 StorageDaemon.cpp:147] data path= /data/storage
+I20240430 07:47:05.172672     1 MetaClient.cpp:80] Create meta client to "172.28.1.1":9559
+I20240430 07:47:05.172706     1 MetaClient.cpp:81] root path: /usr/local/nebula, data path size: 1
+W20240430 07:47:05.172744     1 FileBasedClusterIdMan.cpp:43] Open file failed, error No such file or directory
+I20240430 07:47:07.187939    47 MetaClient.cpp:2672] Persist the cluster Id from metad 7168007031816769947
+I20240430 07:47:07.188026    47 FileBasedClusterIdMan.cpp:21] Remove the existed file cluster.id
+I20240430 07:47:07.188141    47 FileBasedClusterIdMan.cpp:34] Persist clusterId 7168007031816769947 succeeded!
+I20240430 07:47:07.193640     1 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:47:07.193661     1 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 0 space
+I20240430 07:47:07.193667     1 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:47:07.193672     1 MetaClient.cpp:3269] Load leader ok
+I20240430 07:47:07.214278     1 MetaClient.cpp:162] Register time task for heartbeat!
+I20240430 07:47:07.214303     1 StorageServer.cpp:250] Init schema manager
+I20240430 07:47:07.214308     1 StorageServer.cpp:253] Init index manager
+I20240430 07:47:07.214313     1 StorageServer.cpp:256] Init kvstore
+I20240430 07:47:07.214323     1 NebulaStore.cpp:48] Start the raft service...
+I20240430 07:47:07.214744     1 NebulaSnapshotManager.cpp:25] Send snapshot is rate limited to 10485760 for each part by default
+I20240430 07:47:07.231164     1 RaftexService.cpp:46] Start raft service on 9780
+I20240430 07:47:07.231282     1 NebulaStore.cpp:82] Scan the local path, and init the spaces_
+E20240430 07:47:07.231298     1 FileUtils.cpp:377] Failed to read the directory "/data/storage/nebula" (2): No such file or directory
+I20240430 07:47:07.231467     1 NebulaStore.cpp:292] Init data from partManager for "172.28.2.2":9779
+I20240430 07:47:07.231479     1 NebulaStore.cpp:75] Register handler...
+I20240430 07:47:07.231484     1 StorageServer.cpp:259] Init LogMonitor
+I20240430 07:47:07.231614     1 StorageServer.cpp:126] Starting Storage HTTP Service
+I20240430 07:47:07.231818     1 StorageServer.cpp:130] Http Thread Pool started
+I20240430 07:47:07.233119    79 WebService.cpp:124] Web service started on HTTP[19779]
+I20240430 07:47:07.233444     1 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:47:07.233456     1 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:47:07.233460     1 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:47:07.233639     1 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:47:07.248374     1 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/0/data
+I20240430 07:47:07.248497     1 AdminTaskManager.cpp:22] max concurrent subtasks: 10
+I20240430 07:47:07.248569   103 AdminTaskManager.cpp:224] waiting for incoming task
+I20240430 07:47:07.248585     1 AdminTaskManager.cpp:40] exit AdminTaskManager::init()
+I20240430 07:47:07.275700     1 MemoryUtils.cpp:171] MemoryTracker set static ratio: 0.8
+I20240430 07:47:54.746402    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 0 space
+I20240430 07:47:54.746430    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 0 space
+I20240430 07:47:54.746435    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 0 space
+I20240430 07:47:54.746439    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:47:54.746502    64 NebulaStore.cpp:417] Create data space 1
+I20240430 07:47:54.746915   154 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:47:54.746927   154 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:47:54.746937   154 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:47:54.747227   154 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:47:54.754120   154 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/1/data
+I20240430 07:47:54.754339    64 NebulaStore.cpp:480] Space 1, part 45 has been added, asLearner 0
+I20240430 07:47:54.754422    64 NebulaStore.cpp:480] Space 1, part 42 has been added, asLearner 0
+I20240430 07:47:54.754499    64 NebulaStore.cpp:480] Space 1, part 39 has been added, asLearner 0
+I20240430 07:47:54.754576    64 NebulaStore.cpp:480] Space 1, part 36 has been added, asLearner 0
+I20240430 07:47:54.754654    64 NebulaStore.cpp:480] Space 1, part 33 has been added, asLearner 0
+I20240430 07:47:54.754725    64 NebulaStore.cpp:480] Space 1, part 30 has been added, asLearner 0
+I20240430 07:47:54.754797    64 NebulaStore.cpp:480] Space 1, part 27 has been added, asLearner 0
+I20240430 07:47:54.754866    64 NebulaStore.cpp:480] Space 1, part 24 has been added, asLearner 0
+I20240430 07:47:54.754933    64 NebulaStore.cpp:480] Space 1, part 9 has been added, asLearner 0
+I20240430 07:47:54.755005    64 NebulaStore.cpp:480] Space 1, part 6 has been added, asLearner 0
+I20240430 07:47:54.755077    64 NebulaStore.cpp:480] Space 1, part 72 has been added, asLearner 0
+I20240430 07:47:54.755148    64 NebulaStore.cpp:480] Space 1, part 3 has been added, asLearner 0
+I20240430 07:47:54.755224    64 NebulaStore.cpp:480] Space 1, part 69 has been added, asLearner 0
+I20240430 07:47:54.755297    64 NebulaStore.cpp:480] Space 1, part 63 has been added, asLearner 0
+I20240430 07:47:54.755368    64 NebulaStore.cpp:480] Space 1, part 51 has been added, asLearner 0
+I20240430 07:47:54.755437    64 NebulaStore.cpp:480] Space 1, part 66 has been added, asLearner 0
+I20240430 07:47:54.755504    64 NebulaStore.cpp:480] Space 1, part 99 has been added, asLearner 0
+I20240430 07:47:54.755570    64 NebulaStore.cpp:480] Space 1, part 87 has been added, asLearner 0
+I20240430 07:47:54.755641    64 NebulaStore.cpp:480] Space 1, part 18 has been added, asLearner 0
+I20240430 07:47:54.755713    64 NebulaStore.cpp:480] Space 1, part 54 has been added, asLearner 0
+I20240430 07:47:54.755787    64 NebulaStore.cpp:480] Space 1, part 90 has been added, asLearner 0
+I20240430 07:47:54.755860    64 NebulaStore.cpp:480] Space 1, part 21 has been added, asLearner 0
+I20240430 07:47:54.755931    64 NebulaStore.cpp:480] Space 1, part 57 has been added, asLearner 0
+I20240430 07:47:54.756002    64 NebulaStore.cpp:480] Space 1, part 60 has been added, asLearner 0
+I20240430 07:47:54.756073    64 NebulaStore.cpp:480] Space 1, part 96 has been added, asLearner 0
+I20240430 07:47:54.756143    64 NebulaStore.cpp:480] Space 1, part 93 has been added, asLearner 0
+I20240430 07:47:54.756209    64 NebulaStore.cpp:480] Space 1, part 84 has been added, asLearner 0
+I20240430 07:47:54.756276    64 NebulaStore.cpp:480] Space 1, part 15 has been added, asLearner 0
+I20240430 07:47:54.756346    64 NebulaStore.cpp:480] Space 1, part 81 has been added, asLearner 0
+I20240430 07:47:54.756419    64 NebulaStore.cpp:480] Space 1, part 12 has been added, asLearner 0
+I20240430 07:47:54.756487    64 NebulaStore.cpp:480] Space 1, part 78 has been added, asLearner 0
+I20240430 07:47:54.756561    64 NebulaStore.cpp:480] Space 1, part 75 has been added, asLearner 0
+I20240430 07:47:54.756631    64 NebulaStore.cpp:480] Space 1, part 48 has been added, asLearner 0
+I20240430 07:47:56.763530    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 1 space
+I20240430 07:47:56.763556    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 1 space
+I20240430 07:47:56.763569    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 1 space
+I20240430 07:47:56.763573    64 MetaClient.cpp:3269] Load leader ok
+E20240430 07:47:59.492122   134 Serializer.h:43] Thrift serialization is only defined for structs and unions, not containers thereof. Attemping to deserialize a value of type `nebula::Value`.
+I20240430 07:48:04.783339    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 1 space
+I20240430 07:48:04.783373    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 1 space
+I20240430 07:48:04.783396    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 1 space
+I20240430 07:48:04.783401    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:04.783490    64 NebulaStore.cpp:417] Create data space 2
+I20240430 07:48:04.783844   170 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:48:04.783856   170 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:48:04.783860   170 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:48:04.783978   170 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:48:04.790743   170 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/2/data
+I20240430 07:48:04.790910    64 NebulaStore.cpp:480] Space 2, part 3 has been added, asLearner 0
+I20240430 07:48:04.791009    64 NebulaStore.cpp:480] Space 2, part 9 has been added, asLearner 0
+I20240430 07:48:04.791100    64 NebulaStore.cpp:480] Space 2, part 6 has been added, asLearner 0
+I20240430 07:48:06.803071    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 2 space
+I20240430 07:48:06.803103    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 2 space
+I20240430 07:48:06.803119    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 2 space
+I20240430 07:48:06.803123    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:11.818670    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 2 space
+I20240430 07:48:11.818701    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 2 space
+I20240430 07:48:11.818722    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 2 space
+I20240430 07:48:11.818725    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:11.818949    64 NebulaStore.cpp:417] Create data space 4
+I20240430 07:48:11.819273   192 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:48:11.819285   192 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:48:11.819289   192 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:48:11.819413   192 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:48:11.827097   192 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/4/data
+I20240430 07:48:11.827258    64 NebulaStore.cpp:480] Space 4, part 45 has been added, asLearner 0
+I20240430 07:48:11.827347    64 NebulaStore.cpp:480] Space 4, part 42 has been added, asLearner 0
+I20240430 07:48:11.827430    64 NebulaStore.cpp:480] Space 4, part 39 has been added, asLearner 0
+I20240430 07:48:11.827518    64 NebulaStore.cpp:480] Space 4, part 36 has been added, asLearner 0
+I20240430 07:48:11.827600    64 NebulaStore.cpp:480] Space 4, part 33 has been added, asLearner 0
+I20240430 07:48:11.827679    64 NebulaStore.cpp:480] Space 4, part 30 has been added, asLearner 0
+I20240430 07:48:11.827760    64 NebulaStore.cpp:480] Space 4, part 27 has been added, asLearner 0
+I20240430 07:48:11.827847    64 NebulaStore.cpp:480] Space 4, part 24 has been added, asLearner 0
+I20240430 07:48:11.827931    64 NebulaStore.cpp:480] Space 4, part 9 has been added, asLearner 0
+I20240430 07:48:11.828012    64 NebulaStore.cpp:480] Space 4, part 6 has been added, asLearner 0
+I20240430 07:48:11.828094    64 NebulaStore.cpp:480] Space 4, part 72 has been added, asLearner 0
+I20240430 07:48:11.828186    64 NebulaStore.cpp:480] Space 4, part 3 has been added, asLearner 0
+I20240430 07:48:11.828274    64 NebulaStore.cpp:480] Space 4, part 69 has been added, asLearner 0
+I20240430 07:48:11.828353    64 NebulaStore.cpp:480] Space 4, part 63 has been added, asLearner 0
+I20240430 07:48:11.828430    64 NebulaStore.cpp:480] Space 4, part 51 has been added, asLearner 0
+I20240430 07:48:11.828521    64 NebulaStore.cpp:480] Space 4, part 66 has been added, asLearner 0
+I20240430 07:48:11.828610    64 NebulaStore.cpp:480] Space 4, part 99 has been added, asLearner 0
+I20240430 07:48:11.828691    64 NebulaStore.cpp:480] Space 4, part 87 has been added, asLearner 0
+I20240430 07:48:11.828765    64 NebulaStore.cpp:480] Space 4, part 18 has been added, asLearner 0
+I20240430 07:48:11.828855    64 NebulaStore.cpp:480] Space 4, part 54 has been added, asLearner 0
+I20240430 07:48:11.828939    64 NebulaStore.cpp:480] Space 4, part 90 has been added, asLearner 0
+I20240430 07:48:11.829016    64 NebulaStore.cpp:480] Space 4, part 21 has been added, asLearner 0
+I20240430 07:48:11.829097    64 NebulaStore.cpp:480] Space 4, part 57 has been added, asLearner 0
+I20240430 07:48:11.829183    64 NebulaStore.cpp:480] Space 4, part 60 has been added, asLearner 0
+I20240430 07:48:11.829273    64 NebulaStore.cpp:480] Space 4, part 96 has been added, asLearner 0
+I20240430 07:48:11.829368    64 NebulaStore.cpp:480] Space 4, part 93 has been added, asLearner 0
+I20240430 07:48:11.829453    64 NebulaStore.cpp:480] Space 4, part 84 has been added, asLearner 0
+I20240430 07:48:11.829537    64 NebulaStore.cpp:480] Space 4, part 15 has been added, asLearner 0
+I20240430 07:48:11.829619    64 NebulaStore.cpp:480] Space 4, part 81 has been added, asLearner 0
+I20240430 07:48:11.829694    64 NebulaStore.cpp:480] Space 4, part 12 has been added, asLearner 0
+I20240430 07:48:11.829766    64 NebulaStore.cpp:480] Space 4, part 78 has been added, asLearner 0
+I20240430 07:48:11.829852    64 NebulaStore.cpp:480] Space 4, part 75 has been added, asLearner 0
+I20240430 07:48:11.829943    64 NebulaStore.cpp:480] Space 4, part 48 has been added, asLearner 0
+I20240430 07:48:11.829952    64 NebulaStore.cpp:417] Create data space 3
+I20240430 07:48:11.830219   208 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:48:11.830230   208 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:48:11.830235   208 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:48:11.830322   208 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:48:11.837226   208 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/3/data
+I20240430 07:48:11.837368    64 NebulaStore.cpp:480] Space 3, part 47 has been added, asLearner 0
+I20240430 07:48:11.837457    64 NebulaStore.cpp:480] Space 3, part 46 has been added, asLearner 0
+I20240430 07:48:11.837553    64 NebulaStore.cpp:480] Space 3, part 45 has been added, asLearner 0
+I20240430 07:48:11.837646    64 NebulaStore.cpp:480] Space 3, part 78 has been added, asLearner 0
+I20240430 07:48:11.837730    64 NebulaStore.cpp:480] Space 3, part 79 has been added, asLearner 0
+I20240430 07:48:11.837815    64 NebulaStore.cpp:480] Space 3, part 80 has been added, asLearner 0
+I20240430 07:48:11.837905    64 NebulaStore.cpp:480] Space 3, part 81 has been added, asLearner 0
+I20240430 07:48:11.837993    64 NebulaStore.cpp:480] Space 3, part 82 has been added, asLearner 0
+I20240430 07:48:11.838074    64 NebulaStore.cpp:480] Space 3, part 83 has been added, asLearner 0
+I20240430 07:48:11.838181    64 NebulaStore.cpp:480] Space 3, part 84 has been added, asLearner 0
+I20240430 07:48:11.838276    64 NebulaStore.cpp:480] Space 3, part 85 has been added, asLearner 0
+I20240430 07:48:11.838363    64 NebulaStore.cpp:480] Space 3, part 86 has been added, asLearner 0
+I20240430 07:48:11.838445    64 NebulaStore.cpp:480] Space 3, part 93 has been added, asLearner 0
+I20240430 07:48:11.838529    64 NebulaStore.cpp:480] Space 3, part 94 has been added, asLearner 0
+I20240430 07:48:11.838625    64 NebulaStore.cpp:480] Space 3, part 95 has been added, asLearner 0
+I20240430 07:48:11.838712    64 NebulaStore.cpp:480] Space 3, part 97 has been added, asLearner 0
+I20240430 07:48:11.838797    64 NebulaStore.cpp:480] Space 3, part 96 has been added, asLearner 0
+I20240430 07:48:11.838876    64 NebulaStore.cpp:480] Space 3, part 92 has been added, asLearner 0
+I20240430 07:48:11.838971    64 NebulaStore.cpp:480] Space 3, part 91 has been added, asLearner 0
+I20240430 07:48:11.839061    64 NebulaStore.cpp:480] Space 3, part 90 has been added, asLearner 0
+I20240430 07:48:11.839145    64 NebulaStore.cpp:480] Space 3, part 89 has been added, asLearner 0
+I20240430 07:48:11.839231    64 NebulaStore.cpp:480] Space 3, part 88 has been added, asLearner 0
+I20240430 07:48:11.839319    64 NebulaStore.cpp:480] Space 3, part 87 has been added, asLearner 0
+I20240430 07:48:11.839407    64 NebulaStore.cpp:480] Space 3, part 74 has been added, asLearner 0
+I20240430 07:48:11.839488    64 NebulaStore.cpp:480] Space 3, part 73 has been added, asLearner 0
+I20240430 07:48:11.839593    64 NebulaStore.cpp:480] Space 3, part 72 has been added, asLearner 0
+I20240430 07:48:11.839694    64 NebulaStore.cpp:480] Space 3, part 71 has been added, asLearner 0
+I20240430 07:48:11.839780    64 NebulaStore.cpp:480] Space 3, part 58 has been added, asLearner 0
+I20240430 07:48:11.839867    64 NebulaStore.cpp:480] Space 3, part 57 has been added, asLearner 0
+I20240430 07:48:11.839949    64 NebulaStore.cpp:480] Space 3, part 55 has been added, asLearner 0
+I20240430 07:48:11.840041    64 NebulaStore.cpp:480] Space 3, part 56 has been added, asLearner 0
+I20240430 07:48:11.840128    64 NebulaStore.cpp:480] Space 3, part 53 has been added, asLearner 0
+I20240430 07:48:11.840209    64 NebulaStore.cpp:480] Space 3, part 100 has been added, asLearner 0
+I20240430 07:48:11.840289    64 NebulaStore.cpp:480] Space 3, part 3 has been added, asLearner 0
+I20240430 07:48:11.840382    64 NebulaStore.cpp:480] Space 3, part 54 has been added, asLearner 0
+I20240430 07:48:11.840471    64 NebulaStore.cpp:480] Space 3, part 99 has been added, asLearner 0
+I20240430 07:48:11.840551    64 NebulaStore.cpp:480] Space 3, part 2 has been added, asLearner 0
+I20240430 07:48:11.840639    64 NebulaStore.cpp:480] Space 3, part 52 has been added, asLearner 0
+I20240430 07:48:11.840750    64 NebulaStore.cpp:480] Space 3, part 98 has been added, asLearner 0
+I20240430 07:48:11.840837    64 NebulaStore.cpp:480] Space 3, part 1 has been added, asLearner 0
+I20240430 07:48:11.840920    64 NebulaStore.cpp:480] Space 3, part 51 has been added, asLearner 0
+I20240430 07:48:11.841003    64 NebulaStore.cpp:480] Space 3, part 59 has been added, asLearner 0
+I20240430 07:48:11.841094    64 NebulaStore.cpp:480] Space 3, part 60 has been added, asLearner 0
+I20240430 07:48:11.841185    64 NebulaStore.cpp:480] Space 3, part 61 has been added, asLearner 0
+I20240430 07:48:11.841269    64 NebulaStore.cpp:480] Space 3, part 62 has been added, asLearner 0
+I20240430 07:48:11.841360    64 NebulaStore.cpp:480] Space 3, part 63 has been added, asLearner 0
+I20240430 07:48:11.841451    64 NebulaStore.cpp:480] Space 3, part 64 has been added, asLearner 0
+I20240430 07:48:11.841542    64 NebulaStore.cpp:480] Space 3, part 65 has been added, asLearner 0
+I20240430 07:48:11.841629    64 NebulaStore.cpp:480] Space 3, part 66 has been added, asLearner 0
+I20240430 07:48:11.841718    64 NebulaStore.cpp:480] Space 3, part 67 has been added, asLearner 0
+I20240430 07:48:11.841814    64 NebulaStore.cpp:480] Space 3, part 68 has been added, asLearner 0
+I20240430 07:48:11.841905    64 NebulaStore.cpp:480] Space 3, part 69 has been added, asLearner 0
+I20240430 07:48:11.841998    64 NebulaStore.cpp:480] Space 3, part 70 has been added, asLearner 0
+I20240430 07:48:11.842087    64 NebulaStore.cpp:480] Space 3, part 77 has been added, asLearner 0
+I20240430 07:48:11.842217    64 NebulaStore.cpp:480] Space 3, part 76 has been added, asLearner 0
+I20240430 07:48:11.842317    64 NebulaStore.cpp:480] Space 3, part 75 has been added, asLearner 0
+I20240430 07:48:11.842409    64 NebulaStore.cpp:480] Space 3, part 50 has been added, asLearner 0
+I20240430 07:48:11.842497    64 NebulaStore.cpp:480] Space 3, part 49 has been added, asLearner 0
+I20240430 07:48:11.842589    64 NebulaStore.cpp:480] Space 3, part 48 has been added, asLearner 0
+I20240430 07:48:11.842684    64 NebulaStore.cpp:480] Space 3, part 23 has been added, asLearner 0
+I20240430 07:48:11.842777    64 NebulaStore.cpp:480] Space 3, part 22 has been added, asLearner 0
+I20240430 07:48:11.842869    64 NebulaStore.cpp:480] Space 3, part 21 has been added, asLearner 0
+I20240430 07:48:11.842973    64 NebulaStore.cpp:480] Space 3, part 20 has been added, asLearner 0
+I20240430 07:48:11.843070    64 NebulaStore.cpp:480] Space 3, part 19 has been added, asLearner 0
+I20240430 07:48:11.843187    64 NebulaStore.cpp:480] Space 3, part 18 has been added, asLearner 0
+I20240430 07:48:11.843330    64 NebulaStore.cpp:480] Space 3, part 17 has been added, asLearner 0
+I20240430 07:48:11.843475    64 NebulaStore.cpp:480] Space 3, part 16 has been added, asLearner 0
+I20240430 07:48:11.843606    64 NebulaStore.cpp:480] Space 3, part 15 has been added, asLearner 0
+I20240430 07:48:11.843740    64 NebulaStore.cpp:480] Space 3, part 14 has been added, asLearner 0
+I20240430 07:48:11.843888    64 NebulaStore.cpp:480] Space 3, part 13 has been added, asLearner 0
+I20240430 07:48:11.844010    64 NebulaStore.cpp:480] Space 3, part 12 has been added, asLearner 0
+I20240430 07:48:11.844120    64 NebulaStore.cpp:480] Space 3, part 5 has been added, asLearner 0
+I20240430 07:48:11.844213    64 NebulaStore.cpp:480] Space 3, part 4 has been added, asLearner 0
+I20240430 07:48:11.844313    64 NebulaStore.cpp:480] Space 3, part 6 has been added, asLearner 0
+I20240430 07:48:11.844416    64 NebulaStore.cpp:480] Space 3, part 7 has been added, asLearner 0
+I20240430 07:48:11.844509    64 NebulaStore.cpp:480] Space 3, part 8 has been added, asLearner 0
+I20240430 07:48:11.844596    64 NebulaStore.cpp:480] Space 3, part 9 has been added, asLearner 0
+I20240430 07:48:11.844696    64 NebulaStore.cpp:480] Space 3, part 10 has been added, asLearner 0
+I20240430 07:48:11.844800    64 NebulaStore.cpp:480] Space 3, part 11 has been added, asLearner 0
+I20240430 07:48:11.844903    64 NebulaStore.cpp:480] Space 3, part 24 has been added, asLearner 0
+I20240430 07:48:11.844990    64 NebulaStore.cpp:480] Space 3, part 25 has been added, asLearner 0
+I20240430 07:48:11.845086    64 NebulaStore.cpp:480] Space 3, part 26 has been added, asLearner 0
+I20240430 07:48:11.845191    64 NebulaStore.cpp:480] Space 3, part 27 has been added, asLearner 0
+I20240430 07:48:11.845291    64 NebulaStore.cpp:480] Space 3, part 28 has been added, asLearner 0
+I20240430 07:48:11.845379    64 NebulaStore.cpp:480] Space 3, part 29 has been added, asLearner 0
+I20240430 07:48:11.845479    64 NebulaStore.cpp:480] Space 3, part 30 has been added, asLearner 0
+I20240430 07:48:11.845587    64 NebulaStore.cpp:480] Space 3, part 31 has been added, asLearner 0
+I20240430 07:48:11.845683    64 NebulaStore.cpp:480] Space 3, part 32 has been added, asLearner 0
+I20240430 07:48:11.845777    64 NebulaStore.cpp:480] Space 3, part 33 has been added, asLearner 0
+I20240430 07:48:11.845872    64 NebulaStore.cpp:480] Space 3, part 34 has been added, asLearner 0
+I20240430 07:48:11.845979    64 NebulaStore.cpp:480] Space 3, part 35 has been added, asLearner 0
+I20240430 07:48:11.846074    64 NebulaStore.cpp:480] Space 3, part 36 has been added, asLearner 0
+I20240430 07:48:11.846186    64 NebulaStore.cpp:480] Space 3, part 37 has been added, asLearner 0
+I20240430 07:48:11.846293    64 NebulaStore.cpp:480] Space 3, part 38 has been added, asLearner 0
+I20240430 07:48:11.846396    64 NebulaStore.cpp:480] Space 3, part 39 has been added, asLearner 0
+I20240430 07:48:11.846493    64 NebulaStore.cpp:480] Space 3, part 40 has been added, asLearner 0
+I20240430 07:48:11.846582    64 NebulaStore.cpp:480] Space 3, part 41 has been added, asLearner 0
+I20240430 07:48:11.846685    64 NebulaStore.cpp:480] Space 3, part 42 has been added, asLearner 0
+I20240430 07:48:11.846796    64 NebulaStore.cpp:480] Space 3, part 43 has been added, asLearner 0
+I20240430 07:48:11.846896    64 NebulaStore.cpp:480] Space 3, part 44 has been added, asLearner 0
+I20240430 07:48:12.856202    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:12.856258    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:12.856278    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 2 space
+I20240430 07:48:12.856282    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:13.865453    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:13.865504    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:13.865530    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:13.865535    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:21.889351    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:21.889400    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:21.889422    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:21.889426    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:21.889693    64 NebulaStore.cpp:417] Create data space 5
+I20240430 07:48:21.889909   154 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:48:21.889920   154 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:48:21.889925   154 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:48:21.890028   154 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:48:21.896464   154 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/5/data
+I20240430 07:48:21.896636    64 NebulaStore.cpp:480] Space 5, part 45 has been added, asLearner 0
+I20240430 07:48:21.896736    64 NebulaStore.cpp:480] Space 5, part 42 has been added, asLearner 0
+I20240430 07:48:21.896843    64 NebulaStore.cpp:480] Space 5, part 39 has been added, asLearner 0
+I20240430 07:48:21.896948    64 NebulaStore.cpp:480] Space 5, part 36 has been added, asLearner 0
+I20240430 07:48:21.897035    64 NebulaStore.cpp:480] Space 5, part 33 has been added, asLearner 0
+I20240430 07:48:21.897128    64 NebulaStore.cpp:480] Space 5, part 30 has been added, asLearner 0
+I20240430 07:48:21.897229    64 NebulaStore.cpp:480] Space 5, part 27 has been added, asLearner 0
+I20240430 07:48:21.897326    64 NebulaStore.cpp:480] Space 5, part 24 has been added, asLearner 0
+I20240430 07:48:21.897411    64 NebulaStore.cpp:480] Space 5, part 9 has been added, asLearner 0
+I20240430 07:48:21.897505    64 NebulaStore.cpp:480] Space 5, part 6 has been added, asLearner 0
+I20240430 07:48:21.897605    64 NebulaStore.cpp:480] Space 5, part 72 has been added, asLearner 0
+I20240430 07:48:21.897709    64 NebulaStore.cpp:480] Space 5, part 3 has been added, asLearner 0
+I20240430 07:48:21.897797    64 NebulaStore.cpp:480] Space 5, part 69 has been added, asLearner 0
+I20240430 07:48:21.897887    64 NebulaStore.cpp:480] Space 5, part 63 has been added, asLearner 0
+I20240430 07:48:21.897987    64 NebulaStore.cpp:480] Space 5, part 51 has been added, asLearner 0
+I20240430 07:48:21.898082    64 NebulaStore.cpp:480] Space 5, part 66 has been added, asLearner 0
+I20240430 07:48:21.898198    64 NebulaStore.cpp:480] Space 5, part 99 has been added, asLearner 0
+I20240430 07:48:21.898311    64 NebulaStore.cpp:480] Space 5, part 87 has been added, asLearner 0
+I20240430 07:48:21.898416    64 NebulaStore.cpp:480] Space 5, part 18 has been added, asLearner 0
+I20240430 07:48:21.898510    64 NebulaStore.cpp:480] Space 5, part 54 has been added, asLearner 0
+I20240430 07:48:21.898597    64 NebulaStore.cpp:480] Space 5, part 90 has been added, asLearner 0
+I20240430 07:48:21.898687    64 NebulaStore.cpp:480] Space 5, part 21 has been added, asLearner 0
+I20240430 07:48:21.898810    64 NebulaStore.cpp:480] Space 5, part 57 has been added, asLearner 0
+I20240430 07:48:21.898911    64 NebulaStore.cpp:480] Space 5, part 60 has been added, asLearner 0
+I20240430 07:48:21.899008    64 NebulaStore.cpp:480] Space 5, part 96 has been added, asLearner 0
+I20240430 07:48:21.899101    64 NebulaStore.cpp:480] Space 5, part 93 has been added, asLearner 0
+I20240430 07:48:21.899205    64 NebulaStore.cpp:480] Space 5, part 84 has been added, asLearner 0
+I20240430 07:48:21.899303    64 NebulaStore.cpp:480] Space 5, part 15 has been added, asLearner 0
+I20240430 07:48:21.899395    64 NebulaStore.cpp:480] Space 5, part 81 has been added, asLearner 0
+I20240430 07:48:21.899490    64 NebulaStore.cpp:480] Space 5, part 12 has been added, asLearner 0
+I20240430 07:48:21.899619    64 NebulaStore.cpp:480] Space 5, part 78 has been added, asLearner 0
+I20240430 07:48:21.899715    64 NebulaStore.cpp:480] Space 5, part 75 has been added, asLearner 0
+I20240430 07:48:21.899799    64 NebulaStore.cpp:480] Space 5, part 48 has been added, asLearner 0
+I20240430 07:48:23.912369    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 5 space
+I20240430 07:48:23.912426    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 5 space
+I20240430 07:48:23.912470    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 5 space
+I20240430 07:48:23.912475    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:27.929438    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 5 space
+I20240430 07:48:27.929497    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 5 space
+I20240430 07:48:27.929538    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 5 space
+I20240430 07:48:27.929543    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:33.487048    43 AdminTask.cpp:21] createAdminTask (6, 2)
+I20240430 07:48:33.487151    43 RebuildIndexTask.cpp:40] Rebuild index task is rate limited to 4194304 for each subtask by default
+I20240430 07:48:33.487198    43 AdminTaskManager.cpp:155] enqueue task(6, 2)
+I20240430 07:48:33.487227   103 AdminTaskManager.cpp:236] dequeue task(6, 2)
+I20240430 07:48:33.487319   103 AdminTaskManager.cpp:279] run task(6, 2), 33 subtasks in 10 thread
+I20240430 07:48:33.488099   239 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.488183   239 RebuildIndexTask.cpp:119] Building index successful, space=5, part=3
+I20240430 07:48:33.488193   239 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=3
+I20240430 07:48:33.488445   240 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.488638   241 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.488708   241 RebuildIndexTask.cpp:119] Building index successful, space=5, part=9
+I20240430 07:48:33.488718   241 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=9
+I20240430 07:48:33.488828   240 RebuildIndexTask.cpp:119] Building index successful, space=5, part=6
+I20240430 07:48:33.488852   240 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=6
+I20240430 07:48:33.489039   242 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.489126   241 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=9
+I20240430 07:48:33.489137   241 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 32
+I20240430 07:48:33.489157   242 RebuildIndexTask.cpp:119] Building index successful, space=5, part=12
+I20240430 07:48:33.489202   242 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=12
+I20240430 07:48:33.489202   240 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=6
+I20240430 07:48:33.489239   239 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=3
+I20240430 07:48:33.489275   240 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 31
+I20240430 07:48:33.489300   243 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.489292   239 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 30
+I20240430 07:48:33.489374   243 RebuildIndexTask.cpp:119] Building index successful, space=5, part=15
+I20240430 07:48:33.489385   243 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=15
+I20240430 07:48:33.489674   243 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=15
+I20240430 07:48:33.489686   243 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 29
+I20240430 07:48:33.489854   245 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.489931   244 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.490000   245 RebuildIndexTask.cpp:119] Building index successful, space=5, part=21
+I20240430 07:48:33.490016   245 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=21
+I20240430 07:48:33.490064   244 RebuildIndexTask.cpp:119] Building index successful, space=5, part=18
+I20240430 07:48:33.490072   244 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=18
+I20240430 07:48:33.490226   246 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.490325   246 RebuildIndexTask.cpp:119] Building index successful, space=5, part=24
+I20240430 07:48:33.490336   246 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=24
+I20240430 07:48:33.490446   245 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=21
+I20240430 07:48:33.490459   245 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 28
+I20240430 07:48:33.490501   242 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=12
+I20240430 07:48:33.490511   242 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 27
+I20240430 07:48:33.490813   246 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=24
+I20240430 07:48:33.490824   246 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 26
+I20240430 07:48:33.490841   103 AdminTaskManager.cpp:224] waiting for incoming task
+I20240430 07:48:33.490890   246 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.490967   246 RebuildIndexTask.cpp:119] Building index successful, space=5, part=30
+I20240430 07:48:33.490975   246 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=30
+I20240430 07:48:33.491021   249 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491086   247 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491163   239 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491179   247 RebuildIndexTask.cpp:119] Building index successful, space=5, part=27
+I20240430 07:48:33.491503   247 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=27
+I20240430 07:48:33.491762   246 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=30
+I20240430 07:48:33.491775   246 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 25
+I20240430 07:48:33.491851   246 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491884   245 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491910   242 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491933   246 RebuildIndexTask.cpp:119] Building index successful, space=5, part=45
+I20240430 07:48:33.491945   246 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=45
+I20240430 07:48:33.491958   240 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491487   243 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.491168   249 RebuildIndexTask.cpp:119] Building index successful, space=5, part=33
+I20240430 07:48:33.492050   249 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=33
+I20240430 07:48:33.491251   239 RebuildIndexTask.cpp:119] Building index successful, space=5, part=36
+I20240430 07:48:33.492172   239 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=36
+I20240430 07:48:33.492394   243 RebuildIndexTask.cpp:119] Building index successful, space=5, part=39
+I20240430 07:48:33.492406   243 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=39
+I20240430 07:48:33.492414   247 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=27
+I20240430 07:48:33.492419   242 RebuildIndexTask.cpp:119] Building index successful, space=5, part=48
+I20240430 07:48:33.492435   242 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=48
+I20240430 07:48:33.492539   246 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=45
+I20240430 07:48:33.492563   246 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 23
+I20240430 07:48:33.492586   245 RebuildIndexTask.cpp:119] Building index successful, space=5, part=51
+I20240430 07:48:33.492612   245 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=51
+I20240430 07:48:33.492623   246 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.492633   249 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=33
+I20240430 07:48:33.492642   249 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 22
+I20240430 07:48:33.492462   240 RebuildIndexTask.cpp:119] Building index successful, space=5, part=42
+I20240430 07:48:33.492713   240 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=42
+I20240430 07:48:33.492761   243 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=39
+I20240430 07:48:33.492774   243 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 21
+I20240430 07:48:33.492813   249 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.492911   243 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.492929   245 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=51
+I20240430 07:48:33.492939   245 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 20
+I20240430 07:48:33.492988   243 RebuildIndexTask.cpp:119] Building index successful, space=5, part=63
+I20240430 07:48:33.492998   243 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=63
+I20240430 07:48:33.493026   245 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.493068   245 RebuildIndexTask.cpp:119] Building index successful, space=5, part=66
+I20240430 07:48:33.493077   245 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=66
+I20240430 07:48:33.492421   247 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 24
+I20240430 07:48:33.492563   239 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=36
+I20240430 07:48:33.493175   242 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=48
+I20240430 07:48:33.493199   242 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 18
+I20240430 07:48:33.492700   246 RebuildIndexTask.cpp:119] Building index successful, space=5, part=57
+I20240430 07:48:33.493220   246 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=57
+I20240430 07:48:33.493182   239 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 19
+I20240430 07:48:33.493213   249 RebuildIndexTask.cpp:119] Building index successful, space=5, part=60
+I20240430 07:48:33.493338   249 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=60
+I20240430 07:48:33.493341   239 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.493384   242 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.493440   242 RebuildIndexTask.cpp:119] Building index successful, space=5, part=75
+I20240430 07:48:33.493451   242 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=75
+I20240430 07:48:33.493453   239 RebuildIndexTask.cpp:119] Building index successful, space=5, part=72
+I20240430 07:48:33.493475   239 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=72
+I20240430 07:48:33.492658   241 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.493578   246 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=57
+I20240430 07:48:33.493577   241 RebuildIndexTask.cpp:119] Building index successful, space=5, part=54
+I20240430 07:48:33.493222   247 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.493667   245 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=66
+I20240430 07:48:33.493676   245 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 16
+I20240430 07:48:33.493682   247 RebuildIndexTask.cpp:119] Building index successful, space=5, part=69
+I20240430 07:48:33.493700   247 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=69
+I20240430 07:48:33.493795   242 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=75
+I20240430 07:48:33.493818   242 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 15
+I20240430 07:48:33.493798   239 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=72
+I20240430 07:48:33.493850   239 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 14
+I20240430 07:48:33.493852   245 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.493589   246 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 17
+I20240430 07:48:33.493606   241 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=54
+I20240430 07:48:33.492666   244 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=18
+I20240430 07:48:33.493963   244 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 13
+I20240430 07:48:33.493996   242 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.494088   243 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=63
+I20240430 07:48:33.494099   243 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 12
+I20240430 07:48:33.494308   241 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=54
+I20240430 07:48:33.494320   241 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 11
+I20240430 07:48:33.494359   243 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.494415   241 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.494477   241 RebuildIndexTask.cpp:119] Building index successful, space=5, part=96
+I20240430 07:48:33.494488   241 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=96
+I20240430 07:48:33.494561   243 RebuildIndexTask.cpp:119] Building index successful, space=5, part=93
+I20240430 07:48:33.494570   243 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=93
+I20240430 07:48:33.494634   244 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.494163   239 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.494180   246 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.494225   245 RebuildIndexTask.cpp:119] Building index successful, space=5, part=78
+I20240430 07:48:33.494752   239 RebuildIndexTask.cpp:119] Building index successful, space=5, part=84
+I20240430 07:48:33.494764   239 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=84
+I20240430 07:48:33.494771   246 RebuildIndexTask.cpp:119] Building index successful, space=5, part=87
+I20240430 07:48:33.494791   246 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=87
+I20240430 07:48:33.494834   245 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=78
+I20240430 07:48:33.494920   247 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=69
+I20240430 07:48:33.494930   247 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 10
+I20240430 07:48:33.494922   241 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=96
+I20240430 07:48:33.494969   241 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 9
+I20240430 07:48:33.495002   243 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=93
+I20240430 07:48:33.495011   243 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 8
+I20240430 07:48:33.494244   249 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=60
+I20240430 07:48:33.495034   249 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 7
+I20240430 07:48:33.495056   244 RebuildIndexTask.cpp:119] Building index successful, space=5, part=90
+I20240430 07:48:33.495075   246 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=87
+I20240430 07:48:33.495193   246 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 6
+I20240430 07:48:33.495143   245 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=78
+I20240430 07:48:33.495215   239 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=84
+I20240430 07:48:33.495249   239 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 4
+I20240430 07:48:33.495227   245 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 5
+I20240430 07:48:33.495234   247 RebuildIndexTask.cpp:113] Start building index
+I20240430 07:48:33.495239   244 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=90
+I20240430 07:48:33.495576   247 RebuildIndexTask.cpp:119] Building index successful, space=5, part=99
+I20240430 07:48:33.495584   247 RebuildIndexTask.cpp:122] Processing operation logs, space=5, part=99
+I20240430 07:48:33.495647   240 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=42
+I20240430 07:48:33.495661   240 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 3
+I20240430 07:48:33.496007   244 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=90
+I20240430 07:48:33.496016   244 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 2
+I20240430 07:48:33.496033   247 RebuildIndexTask.cpp:130] RebuildIndexTask Finished, space=5, part=99
+I20240430 07:48:33.496037   247 AdminTaskManager.cpp:315] subtask of task(6, 2) finished, unfinished task 1
+I20240430 07:48:33.505043   241 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.505088   249 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.505090   243 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.505265   246 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.505322   239 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.505554   245 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.505736   240 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.506084   247 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.506095   244 AdminTaskManager.cpp:326] task(6, 2) runSubTask() exit
+I20240430 07:48:33.950644    64 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 4 space
+I20240430 07:48:33.950693    64 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:48:33.950717    64 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:48:33.950722    64 MetaClient.cpp:3269] Load leader ok
+I20240430 07:48:33.952518    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 45] Clean rocksdb part data
+I20240430 07:48:33.952577    64 NebulaStore.cpp:594] Space 5, part 45 has been removed!
+I20240430 07:48:33.953125    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 42] Clean rocksdb part data
+I20240430 07:48:33.953152    64 NebulaStore.cpp:594] Space 5, part 42 has been removed!
+I20240430 07:48:33.953740    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 39] Clean rocksdb part data
+I20240430 07:48:33.953771    64 NebulaStore.cpp:594] Space 5, part 39 has been removed!
+I20240430 07:48:33.954349    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 36] Clean rocksdb part data
+I20240430 07:48:33.954380    64 NebulaStore.cpp:594] Space 5, part 36 has been removed!
+I20240430 07:48:33.954890    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 33] Clean rocksdb part data
+I20240430 07:48:33.954916    64 NebulaStore.cpp:594] Space 5, part 33 has been removed!
+I20240430 07:48:33.955612    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 30] Clean rocksdb part data
+I20240430 07:48:33.955641    64 NebulaStore.cpp:594] Space 5, part 30 has been removed!
+I20240430 07:48:33.956135    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 27] Clean rocksdb part data
+I20240430 07:48:33.956158    64 NebulaStore.cpp:594] Space 5, part 27 has been removed!
+I20240430 07:48:33.956653    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 24] Clean rocksdb part data
+I20240430 07:48:33.956677    64 NebulaStore.cpp:594] Space 5, part 24 has been removed!
+I20240430 07:48:33.957146    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 9] Clean rocksdb part data
+I20240430 07:48:33.957176    64 NebulaStore.cpp:594] Space 5, part 9 has been removed!
+I20240430 07:48:33.957875    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 6] Clean rocksdb part data
+I20240430 07:48:33.957901    64 NebulaStore.cpp:594] Space 5, part 6 has been removed!
+I20240430 07:48:33.958408    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 72] Clean rocksdb part data
+I20240430 07:48:33.958441    64 NebulaStore.cpp:594] Space 5, part 72 has been removed!
+I20240430 07:48:33.959087    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 3] Clean rocksdb part data
+I20240430 07:48:33.959113    64 NebulaStore.cpp:594] Space 5, part 3 has been removed!
+I20240430 07:48:33.959720    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 69] Clean rocksdb part data
+I20240430 07:48:33.959748    64 NebulaStore.cpp:594] Space 5, part 69 has been removed!
+I20240430 07:48:33.960214    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 63] Clean rocksdb part data
+I20240430 07:48:33.960240    64 NebulaStore.cpp:594] Space 5, part 63 has been removed!
+I20240430 07:48:33.960742    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 51] Clean rocksdb part data
+I20240430 07:48:33.960768    64 NebulaStore.cpp:594] Space 5, part 51 has been removed!
+I20240430 07:48:33.961231    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 66] Clean rocksdb part data
+I20240430 07:48:33.961266    64 NebulaStore.cpp:594] Space 5, part 66 has been removed!
+I20240430 07:48:33.961776    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 99] Clean rocksdb part data
+I20240430 07:48:33.961802    64 NebulaStore.cpp:594] Space 5, part 99 has been removed!
+I20240430 07:48:33.962247    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 87] Clean rocksdb part data
+I20240430 07:48:33.962275    64 NebulaStore.cpp:594] Space 5, part 87 has been removed!
+I20240430 07:48:33.962707    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 18] Clean rocksdb part data
+I20240430 07:48:33.962733    64 NebulaStore.cpp:594] Space 5, part 18 has been removed!
+I20240430 07:48:33.963325    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 54] Clean rocksdb part data
+I20240430 07:48:33.963351    64 NebulaStore.cpp:594] Space 5, part 54 has been removed!
+I20240430 07:48:33.963793    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 90] Clean rocksdb part data
+I20240430 07:48:33.963824    64 NebulaStore.cpp:594] Space 5, part 90 has been removed!
+I20240430 07:48:33.964315    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 21] Clean rocksdb part data
+I20240430 07:48:33.964342    64 NebulaStore.cpp:594] Space 5, part 21 has been removed!
+I20240430 07:48:33.964833    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 57] Clean rocksdb part data
+I20240430 07:48:33.964864    64 NebulaStore.cpp:594] Space 5, part 57 has been removed!
+I20240430 07:48:33.965363    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 60] Clean rocksdb part data
+I20240430 07:48:33.965390    64 NebulaStore.cpp:594] Space 5, part 60 has been removed!
+I20240430 07:48:33.965875    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 96] Clean rocksdb part data
+I20240430 07:48:33.965901    64 NebulaStore.cpp:594] Space 5, part 96 has been removed!
+I20240430 07:48:33.966415    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 93] Clean rocksdb part data
+I20240430 07:48:33.966447    64 NebulaStore.cpp:594] Space 5, part 93 has been removed!
+I20240430 07:48:33.967288    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 84] Clean rocksdb part data
+I20240430 07:48:33.967314    64 NebulaStore.cpp:594] Space 5, part 84 has been removed!
+I20240430 07:48:33.967839    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 15] Clean rocksdb part data
+I20240430 07:48:33.967866    64 NebulaStore.cpp:594] Space 5, part 15 has been removed!
+I20240430 07:48:33.968384    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 81] Clean rocksdb part data
+I20240430 07:48:33.968411    64 NebulaStore.cpp:594] Space 5, part 81 has been removed!
+I20240430 07:48:33.968915    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 12] Clean rocksdb part data
+I20240430 07:48:33.968950    64 NebulaStore.cpp:594] Space 5, part 12 has been removed!
+I20240430 07:48:33.969498    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 78] Clean rocksdb part data
+I20240430 07:48:33.969529    64 NebulaStore.cpp:594] Space 5, part 78 has been removed!
+I20240430 07:48:33.970077    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 75] Clean rocksdb part data
+I20240430 07:48:33.970105    64 NebulaStore.cpp:594] Space 5, part 75 has been removed!
+I20240430 07:48:33.970593    64 Part.cpp:494] [Port: 9780, Space: 5, Part: 48] Clean rocksdb part data
+I20240430 07:48:33.970621    64 NebulaStore.cpp:594] Space 5, part 48 has been removed!
+I20240430 07:48:33.970628    64 AdminTask.h:189] task(6, 2) cancelled
+I20240430 07:48:33.970645    64 AdminTaskManager.cpp:362] cancel task(6, 2), spaceId: 5
+I20240430 07:48:42.312494    65 Part.h:59] [Port: 9780, Space: 5, Part: 18] ~Part()
+I20240430 07:48:42.350602    65 Part.h:59] [Port: 9780, Space: 5, Part: 60] ~Part()
+I20240430 07:48:42.410480    67 Part.h:59] [Port: 9780, Space: 5, Part: 39] ~Part()
+I20240430 07:48:42.458431    66 Part.h:59] [Port: 9780, Space: 5, Part: 87] ~Part()
+I20240430 07:48:42.486605    67 Part.h:59] [Port: 9780, Space: 5, Part: 24] ~Part()
+I20240430 07:48:42.494587    66 Part.h:59] [Port: 9780, Space: 5, Part: 93] ~Part()
+I20240430 07:48:42.544742    66 Part.h:59] [Port: 9780, Space: 5, Part: 75] ~Part()
+I20240430 07:48:42.554868    65 Part.h:59] [Port: 9780, Space: 5, Part: 3] ~Part()
+I20240430 07:48:42.559134    66 Part.h:59] [Port: 9780, Space: 5, Part: 57] ~Part()
+I20240430 07:48:42.582970    67 Part.h:59] [Port: 9780, Space: 5, Part: 90] ~Part()
+I20240430 07:48:42.586153    67 Part.h:59] [Port: 9780, Space: 5, Part: 21] ~Part()
+I20240430 07:48:42.771412    66 Part.h:59] [Port: 9780, Space: 5, Part: 9] ~Part()
+I20240430 07:48:42.799268    65 Part.h:59] [Port: 9780, Space: 5, Part: 66] ~Part()
+I20240430 07:48:42.819242    68 Part.h:59] [Port: 9780, Space: 5, Part: 27] ~Part()
+I20240430 07:48:42.838609    65 Part.h:59] [Port: 9780, Space: 5, Part: 72] ~Part()
+I20240430 07:48:42.842785    66 Part.h:59] [Port: 9780, Space: 5, Part: 6] ~Part()
+I20240430 07:48:42.882512    67 Part.h:59] [Port: 9780, Space: 5, Part: 30] ~Part()
+I20240430 07:48:42.884061    68 Part.h:59] [Port: 9780, Space: 5, Part: 99] ~Part()
+I20240430 07:48:42.898708    67 Part.h:59] [Port: 9780, Space: 5, Part: 12] ~Part()
+I20240430 07:48:42.930294    67 Part.h:59] [Port: 9780, Space: 5, Part: 51] ~Part()
+I20240430 07:48:42.966589    68 Part.h:59] [Port: 9780, Space: 5, Part: 45] ~Part()
+I20240430 07:48:42.966617    68 Part.h:59] [Port: 9780, Space: 5, Part: 84] ~Part()
+I20240430 07:48:42.966629    68 Part.h:59] [Port: 9780, Space: 5, Part: 48] ~Part()
+I20240430 07:48:43.112705    66 Part.h:59] [Port: 9780, Space: 5, Part: 36] ~Part()
+I20240430 07:48:43.143884    65 Part.h:59] [Port: 9780, Space: 5, Part: 63] ~Part()
+I20240430 07:48:43.151053    68 Part.h:59] [Port: 9780, Space: 5, Part: 54] ~Part()
+I20240430 07:48:43.158608    65 Part.h:59] [Port: 9780, Space: 5, Part: 42] ~Part()
+I20240430 07:48:43.234835    67 Part.h:59] [Port: 9780, Space: 5, Part: 15] ~Part()
+I20240430 07:48:43.262532    67 Part.h:59] [Port: 9780, Space: 5, Part: 96] ~Part()
+I20240430 07:48:43.315290    65 Part.h:59] [Port: 9780, Space: 5, Part: 81] ~Part()
+I20240430 07:48:43.378346    65 Part.h:59] [Port: 9780, Space: 5, Part: 33] ~Part()
+I20240430 07:48:43.475188    66 Part.h:59] [Port: 9780, Space: 5, Part: 78] ~Part()
+I20240430 07:48:43.496680    65 Part.h:59] [Port: 9780, Space: 5, Part: 69] ~Part()
+I20240430 07:49:40.208539     1 StorageDaemon.cpp:201] Signal 15(Terminated) received, stopping this server
+I20240430 07:49:40.218873     1 NebulaStore.cpp:343] Stop the raft service...
+I20240430 07:49:40.218896     1 RaftexService.cpp:67] Stopping the raftex service on port 9780
+I20240430 07:49:40.219369     1 RaftexService.cpp:77] All partitions have stopped
+I20240430 07:49:40.219393     1 NebulaStore.cpp:346] Stop kv engine...
+I20240430 07:49:40.226552    47 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42c8328 in thread 0x7f60b641f000
+I20240430 07:49:40.227016    53 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42c8828 in thread 0x7f60bbbfe480
+I20240430 07:49:40.227290    54 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42c8d28 in thread 0x7f60bb549000
+I20240430 07:49:40.227380    54 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f6085cc8d28 in thread 0x7f60bb549000
+I20240430 07:49:40.227687    55 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42c9228 in thread 0x7f60b9706000
+I20240430 07:49:40.227815    55 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f6085cc9228 in thread 0x7f60b9706000
+I20240430 07:49:40.230085    56 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42c9728 in thread 0x7f60b9133000
+I20240430 07:49:40.231145    57 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42c9c28 in thread 0x7f60b8b32000
+I20240430 07:49:40.231343    58 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42ca128 in thread 0x7f60b8532000
+I20240430 07:49:40.231544    59 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42ca628 in thread 0x7f60b8033000
+I20240430 07:49:40.231863    60 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f60b42cab28 in thread 0x7f60b7a32000
+I20240430 07:49:40.234791    61 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f609684c028 in thread 0x7f60b7031000
+I20240430 07:49:40.235138    62 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f609684c528 in thread 0x7f60b6a23000
+I20240430 07:49:40.235436    63 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f609684ca28 in thread 0x7f60b64b5000
+I20240430 07:49:40.235770    70 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f609684cf28 in thread 0x7f60bb590000
+I20240430 07:49:40.236099    72 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f609684d928 in thread 0x7f60b9175000
+I20240430 07:49:40.236374    73 Acceptor.cpp:527] Dropping all connections from Acceptor=0x7f609684de28 in thread 0x7f60b8b7c000
+I20240430 07:49:40.237284     1 AdminTaskManager.cpp:176] enter AdminTaskManager::shutdown()
+I20240430 07:49:40.237316   104 AdminTaskManager.cpp:146] Unreported-Admin-Thread stopped
+I20240430 07:49:40.245471   103 AdminTaskManager.cpp:231] detect AdminTaskManager::shutdown()
+I20240430 07:49:40.245571     1 AdminTask.h:189] task(6, 2) cancelled
+I20240430 07:49:51.110580     1 StorageDaemon.cpp:132] localhost = "172.28.2.2":9779
+I20240430 07:49:51.110778     1 StorageDaemon.cpp:147] data path= /data/storage
+I20240430 07:49:51.122236     1 MetaClient.cpp:80] Create meta client to "172.28.1.3":9559
+I20240430 07:49:51.122282     1 MetaClient.cpp:81] root path: /usr/local/nebula, data path size: 1
+W20240430 07:49:51.122329     1 FileBasedClusterIdMan.cpp:43] Open file failed, error No such file or directory
+I20240430 07:49:51.136309    47 MetaClient.cpp:2672] Persist the cluster Id from metad 7168007031816769947
+I20240430 07:49:51.136339    47 FileBasedClusterIdMan.cpp:21] Remove the existed file cluster.id
+I20240430 07:49:51.136399    47 FileBasedClusterIdMan.cpp:34] Persist clusterId 7168007031816769947 succeeded!
+I20240430 07:49:51.353983     1 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:51.354300     1 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 4 space
+I20240430 07:49:51.354346     1 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 4 space
+I20240430 07:49:51.354350     1 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:51.357029     1 MetaClient.cpp:162] Register time task for heartbeat!
+I20240430 07:49:51.357057     1 StorageServer.cpp:250] Init schema manager
+I20240430 07:49:51.357066     1 StorageServer.cpp:253] Init index manager
+I20240430 07:49:51.357074     1 StorageServer.cpp:256] Init kvstore
+I20240430 07:49:51.357085     1 NebulaStore.cpp:48] Start the raft service...
+I20240430 07:49:51.357371     1 NebulaSnapshotManager.cpp:25] Send snapshot is rate limited to 10485760 for each part by default
+I20240430 07:49:51.392341     1 RaftexService.cpp:46] Start raft service on 9780
+I20240430 07:49:51.392432     1 NebulaStore.cpp:82] Scan the local path, and init the spaces_
+I20240430 07:49:51.392481     1 NebulaStore.cpp:90] Scan path "/data/storage/nebula/2"
+I20240430 07:49:51.395110     1 NebulaStore.cpp:90] Scan path "/data/storage/nebula/5"
+I20240430 07:49:51.395301    76 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.395316    76 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.395324    76 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.395489    76 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.395761     1 NebulaStore.cpp:90] Scan path "/data/storage/nebula/0"
+I20240430 07:49:51.395773     1 NebulaStore.cpp:90] Scan path "/data/storage/nebula/4"
+E20240430 07:49:51.395843    77 MetaClient.cpp:2016] Space 5 not found!
+E20240430 07:49:51.397038    77 MetaClient.cpp:2016] Space 5 not found!
+I20240430 07:49:51.397131    77 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.397141    77 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.397150    77 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.397297    77 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.396350     1 NebulaStore.cpp:90] Scan path "/data/storage/nebula/3"
+I20240430 07:49:51.396435    79 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.398451    79 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.398458    79 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.398558    79 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.399048     1 NebulaStore.cpp:90] Scan path "/data/storage/nebula/1"
+I20240430 07:49:51.399159    81 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.399175    81 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.399194    81 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.399329    81 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.418861    77 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/5/data
+I20240430 07:49:51.419890    81 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/3/data
+I20240430 07:49:51.422530    76 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/2/data
+I20240430 07:49:51.422634    76 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.422647    76 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.422653    76 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.422776    76 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.423107    79 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/4/data
+I20240430 07:49:51.438818    76 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/1/data
+I20240430 07:49:51.438858     1 NebulaStore.cpp:117] Load space 2 from disk
+I20240430 07:49:51.438866     1 NebulaStore.cpp:117] Load space 5 from disk
+I20240430 07:49:51.438869     1 NebulaStore.cpp:117] Load space 4 from disk
+I20240430 07:49:51.438874     1 NebulaStore.cpp:117] Load space 3 from disk
+I20240430 07:49:51.438877     1 NebulaStore.cpp:117] Load space 1 from disk
+I20240430 07:49:51.438941     1 NebulaStore.cpp:220] Load space 1 from disk
+I20240430 07:49:51.438946     1 NebulaStore.cpp:229] Need to open 33 parts of space 1
+I20240430 07:49:51.439246    71 NebulaStore.cpp:252] Load part 1, 9 from disk
+I20240430 07:49:51.439365    70 NebulaStore.cpp:252] Load part 1, 6 from disk
+I20240430 07:49:51.439494    70 NebulaStore.cpp:252] Load part 1, 18 from disk
+I20240430 07:49:51.439556    72 NebulaStore.cpp:252] Load part 1, 12 from disk
+I20240430 07:49:51.439618    70 NebulaStore.cpp:252] Load part 1, 30 from disk
+I20240430 07:49:51.439684    72 NebulaStore.cpp:252] Load part 1, 24 from disk
+I20240430 07:49:51.439741    70 NebulaStore.cpp:252] Load part 1, 42 from disk
+I20240430 07:49:51.439798    72 NebulaStore.cpp:252] Load part 1, 36 from disk
+I20240430 07:49:51.439844    70 NebulaStore.cpp:252] Load part 1, 54 from disk
+I20240430 07:49:51.439904    72 NebulaStore.cpp:252] Load part 1, 48 from disk
+I20240430 07:49:51.439965    70 NebulaStore.cpp:252] Load part 1, 66 from disk
+I20240430 07:49:51.440088    72 NebulaStore.cpp:252] Load part 1, 60 from disk
+I20240430 07:49:51.440176    69 NebulaStore.cpp:252] Load part 1, 3 from disk
+I20240430 07:49:51.440207    72 NebulaStore.cpp:252] Load part 1, 72 from disk
+I20240430 07:49:51.440289    69 NebulaStore.cpp:252] Load part 1, 15 from disk
+I20240430 07:49:51.440317    70 NebulaStore.cpp:252] Load part 1, 78 from disk
+I20240430 07:49:51.440416    69 NebulaStore.cpp:252] Load part 1, 27 from disk
+I20240430 07:49:51.440448    70 NebulaStore.cpp:252] Load part 1, 90 from disk
+I20240430 07:49:51.440493    72 NebulaStore.cpp:252] Load part 1, 84 from disk
+I20240430 07:49:51.440552    69 NebulaStore.cpp:252] Load part 1, 39 from disk
+I20240430 07:49:51.440606    72 NebulaStore.cpp:252] Load part 1, 96 from disk
+I20240430 07:49:51.440675    69 NebulaStore.cpp:252] Load part 1, 51 from disk
+I20240430 07:49:51.440761    69 NebulaStore.cpp:252] Load part 1, 63 from disk
+I20240430 07:49:51.440831    69 NebulaStore.cpp:252] Load part 1, 75 from disk
+I20240430 07:49:51.440912    69 NebulaStore.cpp:252] Load part 1, 87 from disk
+I20240430 07:49:51.441001    69 NebulaStore.cpp:252] Load part 1, 99 from disk
+I20240430 07:49:51.441033    71 NebulaStore.cpp:252] Load part 1, 21 from disk
+I20240430 07:49:51.441124    71 NebulaStore.cpp:252] Load part 1, 33 from disk
+I20240430 07:49:51.441202    71 NebulaStore.cpp:252] Load part 1, 45 from disk
+I20240430 07:49:51.441272    71 NebulaStore.cpp:252] Load part 1, 57 from disk
+I20240430 07:49:51.441366    71 NebulaStore.cpp:252] Load part 1, 69 from disk
+I20240430 07:49:51.441470    71 NebulaStore.cpp:252] Load part 1, 81 from disk
+I20240430 07:49:51.441547    71 NebulaStore.cpp:252] Load part 1, 93 from disk
+I20240430 07:49:51.441568     1 NebulaStore.cpp:286] Load space 1 complete
+I20240430 07:49:51.441752     1 NebulaStore.cpp:220] Load space 3 from disk
+I20240430 07:49:51.441761     1 NebulaStore.cpp:229] Need to open 100 parts of space 3
+I20240430 07:49:51.441907    71 NebulaStore.cpp:252] Load part 3, 1 from disk
+I20240430 07:49:51.441987    72 NebulaStore.cpp:252] Load part 3, 2 from disk
+I20240430 07:49:51.442036    71 NebulaStore.cpp:252] Load part 3, 5 from disk
+I20240430 07:49:51.442107    72 NebulaStore.cpp:252] Load part 3, 6 from disk
+I20240430 07:49:51.442168    71 NebulaStore.cpp:252] Load part 3, 9 from disk
+I20240430 07:49:51.442245    72 NebulaStore.cpp:252] Load part 3, 10 from disk
+I20240430 07:49:51.442277    71 NebulaStore.cpp:252] Load part 3, 13 from disk
+I20240430 07:49:51.442363    72 NebulaStore.cpp:252] Load part 3, 14 from disk
+I20240430 07:49:51.442384    71 NebulaStore.cpp:252] Load part 3, 17 from disk
+I20240430 07:49:51.442483    72 NebulaStore.cpp:252] Load part 3, 18 from disk
+I20240430 07:49:51.442516    71 NebulaStore.cpp:252] Load part 3, 21 from disk
+I20240430 07:49:51.442611    72 NebulaStore.cpp:252] Load part 3, 22 from disk
+I20240430 07:49:51.442641    71 NebulaStore.cpp:252] Load part 3, 25 from disk
+I20240430 07:49:51.442728    72 NebulaStore.cpp:252] Load part 3, 26 from disk
+I20240430 07:49:51.442752    71 NebulaStore.cpp:252] Load part 3, 29 from disk
+I20240430 07:49:51.442845    72 NebulaStore.cpp:252] Load part 3, 30 from disk
+I20240430 07:49:51.442878    71 NebulaStore.cpp:252] Load part 3, 33 from disk
+I20240430 07:49:51.442966    72 NebulaStore.cpp:252] Load part 3, 34 from disk
+I20240430 07:49:51.442997    71 NebulaStore.cpp:252] Load part 3, 37 from disk
+I20240430 07:49:51.464918    69 NebulaStore.cpp:252] Load part 3, 3 from disk
+I20240430 07:49:51.465093    69 NebulaStore.cpp:252] Load part 3, 7 from disk
+I20240430 07:49:51.465169    70 NebulaStore.cpp:252] Load part 3, 4 from disk
+I20240430 07:49:51.465226    69 NebulaStore.cpp:252] Load part 3, 11 from disk
+I20240430 07:49:51.465350    69 NebulaStore.cpp:252] Load part 3, 15 from disk
+I20240430 07:49:51.465430    71 NebulaStore.cpp:252] Load part 3, 41 from disk
+I20240430 07:49:51.465482    70 NebulaStore.cpp:252] Load part 3, 8 from disk
+I20240430 07:49:51.465516    69 NebulaStore.cpp:252] Load part 3, 19 from disk
+I20240430 07:49:51.465708    69 NebulaStore.cpp:252] Load part 3, 23 from disk
+I20240430 07:49:51.465824    71 NebulaStore.cpp:252] Load part 3, 45 from disk
+I20240430 07:49:51.465858    69 NebulaStore.cpp:252] Load part 3, 27 from disk
+I20240430 07:49:51.465955    71 NebulaStore.cpp:252] Load part 3, 49 from disk
+I20240430 07:49:51.465988    69 NebulaStore.cpp:252] Load part 3, 31 from disk
+I20240430 07:49:51.466084    71 NebulaStore.cpp:252] Load part 3, 53 from disk
+I20240430 07:49:51.466121    69 NebulaStore.cpp:252] Load part 3, 35 from disk
+I20240430 07:49:51.466233    71 NebulaStore.cpp:252] Load part 3, 57 from disk
+I20240430 07:49:51.466264    70 NebulaStore.cpp:252] Load part 3, 12 from disk
+I20240430 07:49:51.466351    72 NebulaStore.cpp:252] Load part 3, 38 from disk
+I20240430 07:49:51.466430    70 NebulaStore.cpp:252] Load part 3, 16 from disk
+I20240430 07:49:51.466485    69 NebulaStore.cpp:252] Load part 3, 39 from disk
+I20240430 07:49:51.466523    71 NebulaStore.cpp:252] Load part 3, 61 from disk
+I20240430 07:49:51.466797    72 NebulaStore.cpp:252] Load part 3, 42 from disk
+I20240430 07:49:51.466915    71 NebulaStore.cpp:252] Load part 3, 65 from disk
+I20240430 07:49:51.467020    70 NebulaStore.cpp:252] Load part 3, 20 from disk
+I20240430 07:49:51.467162    70 NebulaStore.cpp:252] Load part 3, 24 from disk
+I20240430 07:49:51.467278    70 NebulaStore.cpp:252] Load part 3, 28 from disk
+I20240430 07:49:51.467393    70 NebulaStore.cpp:252] Load part 3, 32 from disk
+I20240430 07:49:51.467518    70 NebulaStore.cpp:252] Load part 3, 36 from disk
+I20240430 07:49:51.467640    70 NebulaStore.cpp:252] Load part 3, 40 from disk
+I20240430 07:49:51.467774    70 NebulaStore.cpp:252] Load part 3, 44 from disk
+I20240430 07:49:51.467900    70 NebulaStore.cpp:252] Load part 3, 48 from disk
+I20240430 07:49:51.468087    70 NebulaStore.cpp:252] Load part 3, 52 from disk
+I20240430 07:49:51.468223    70 NebulaStore.cpp:252] Load part 3, 56 from disk
+I20240430 07:49:51.468341    70 NebulaStore.cpp:252] Load part 3, 60 from disk
+I20240430 07:49:51.468452    70 NebulaStore.cpp:252] Load part 3, 64 from disk
+I20240430 07:49:51.468564    70 NebulaStore.cpp:252] Load part 3, 68 from disk
+I20240430 07:49:51.468686    70 NebulaStore.cpp:252] Load part 3, 72 from disk
+I20240430 07:49:51.468814    70 NebulaStore.cpp:252] Load part 3, 76 from disk
+I20240430 07:49:51.468977    69 NebulaStore.cpp:252] Load part 3, 43 from disk
+I20240430 07:49:51.469664    69 NebulaStore.cpp:252] Load part 3, 47 from disk
+I20240430 07:49:51.469900    69 NebulaStore.cpp:252] Load part 3, 51 from disk
+I20240430 07:49:51.470041    69 NebulaStore.cpp:252] Load part 3, 55 from disk
+I20240430 07:49:51.470350    72 NebulaStore.cpp:252] Load part 3, 46 from disk
+I20240430 07:49:51.470484    72 NebulaStore.cpp:252] Load part 3, 50 from disk
+I20240430 07:49:51.470598    72 NebulaStore.cpp:252] Load part 3, 54 from disk
+I20240430 07:49:51.470705    72 NebulaStore.cpp:252] Load part 3, 58 from disk
+I20240430 07:49:51.470809    72 NebulaStore.cpp:252] Load part 3, 62 from disk
+I20240430 07:49:51.470916    72 NebulaStore.cpp:252] Load part 3, 66 from disk
+I20240430 07:49:51.471021    72 NebulaStore.cpp:252] Load part 3, 70 from disk
+I20240430 07:49:51.471127    72 NebulaStore.cpp:252] Load part 3, 74 from disk
+I20240430 07:49:51.471232    72 NebulaStore.cpp:252] Load part 3, 78 from disk
+I20240430 07:49:51.471338    72 NebulaStore.cpp:252] Load part 3, 82 from disk
+I20240430 07:49:51.471455    72 NebulaStore.cpp:252] Load part 3, 86 from disk
+I20240430 07:49:51.468931    70 NebulaStore.cpp:252] Load part 3, 80 from disk
+I20240430 07:49:51.473229    72 NebulaStore.cpp:252] Load part 3, 90 from disk
+I20240430 07:49:51.473371    72 NebulaStore.cpp:252] Load part 3, 94 from disk
+I20240430 07:49:51.473520    72 NebulaStore.cpp:252] Load part 3, 98 from disk
+I20240430 07:49:51.473608    71 NebulaStore.cpp:252] Load part 3, 69 from disk
+I20240430 07:49:51.473747    71 NebulaStore.cpp:252] Load part 3, 73 from disk
+I20240430 07:49:51.473882    71 NebulaStore.cpp:252] Load part 3, 77 from disk
+I20240430 07:49:51.474020    71 NebulaStore.cpp:252] Load part 3, 81 from disk
+I20240430 07:49:51.474211    71 NebulaStore.cpp:252] Load part 3, 85 from disk
+I20240430 07:49:51.474303    70 NebulaStore.cpp:252] Load part 3, 84 from disk
+I20240430 07:49:51.474370    69 NebulaStore.cpp:252] Load part 3, 59 from disk
+I20240430 07:49:51.474779    71 NebulaStore.cpp:252] Load part 3, 89 from disk
+I20240430 07:49:51.474826    69 NebulaStore.cpp:252] Load part 3, 63 from disk
+I20240430 07:49:51.474910    71 NebulaStore.cpp:252] Load part 3, 93 from disk
+I20240430 07:49:51.474941    69 NebulaStore.cpp:252] Load part 3, 67 from disk
+I20240430 07:49:51.475029    71 NebulaStore.cpp:252] Load part 3, 97 from disk
+I20240430 07:49:51.475173    69 NebulaStore.cpp:252] Load part 3, 71 from disk
+I20240430 07:49:51.475312    69 NebulaStore.cpp:252] Load part 3, 75 from disk
+I20240430 07:49:51.475441    69 NebulaStore.cpp:252] Load part 3, 79 from disk
+I20240430 07:49:51.475575    69 NebulaStore.cpp:252] Load part 3, 83 from disk
+I20240430 07:49:51.475725    69 NebulaStore.cpp:252] Load part 3, 87 from disk
+I20240430 07:49:51.475857    69 NebulaStore.cpp:252] Load part 3, 91 from disk
+I20240430 07:49:51.476094    69 NebulaStore.cpp:252] Load part 3, 95 from disk
+I20240430 07:49:51.476137    70 NebulaStore.cpp:252] Load part 3, 88 from disk
+I20240430 07:49:51.476697    70 NebulaStore.cpp:252] Load part 3, 92 from disk
+I20240430 07:49:51.476966    70 NebulaStore.cpp:252] Load part 3, 96 from disk
+I20240430 07:49:51.477119    70 NebulaStore.cpp:252] Load part 3, 100 from disk
+I20240430 07:49:51.476748    69 NebulaStore.cpp:252] Load part 3, 99 from disk
+I20240430 07:49:51.477180     1 NebulaStore.cpp:286] Load space 3 complete
+I20240430 07:49:51.477316     1 NebulaStore.cpp:220] Load space 4 from disk
+I20240430 07:49:51.477325     1 NebulaStore.cpp:229] Need to open 33 parts of space 4
+I20240430 07:49:51.477515    71 NebulaStore.cpp:252] Load part 4, 3 from disk
+I20240430 07:49:51.477648    71 NebulaStore.cpp:252] Load part 4, 15 from disk
+I20240430 07:49:51.477792    71 NebulaStore.cpp:252] Load part 4, 27 from disk
+I20240430 07:49:51.477903    71 NebulaStore.cpp:252] Load part 4, 39 from disk
+I20240430 07:49:51.477998    71 NebulaStore.cpp:252] Load part 4, 51 from disk
+I20240430 07:49:51.478099    71 NebulaStore.cpp:252] Load part 4, 63 from disk
+I20240430 07:49:51.478252    71 NebulaStore.cpp:252] Load part 4, 75 from disk
+I20240430 07:49:51.478369    72 NebulaStore.cpp:252] Load part 4, 6 from disk
+I20240430 07:49:51.478475    70 NebulaStore.cpp:252] Load part 4, 12 from disk
+I20240430 07:49:51.478605    69 NebulaStore.cpp:252] Load part 4, 9 from disk
+I20240430 07:49:51.478746    69 NebulaStore.cpp:252] Load part 4, 21 from disk
+I20240430 07:49:51.478874    69 NebulaStore.cpp:252] Load part 4, 33 from disk
+I20240430 07:49:51.479004    69 NebulaStore.cpp:252] Load part 4, 45 from disk
+I20240430 07:49:51.479096    70 NebulaStore.cpp:252] Load part 4, 24 from disk
+I20240430 07:49:51.479136    69 NebulaStore.cpp:252] Load part 4, 57 from disk
+I20240430 07:49:51.479235    70 NebulaStore.cpp:252] Load part 4, 36 from disk
+I20240430 07:49:51.479269    69 NebulaStore.cpp:252] Load part 4, 69 from disk
+I20240430 07:49:51.479368    70 NebulaStore.cpp:252] Load part 4, 48 from disk
+I20240430 07:49:51.479403    72 NebulaStore.cpp:252] Load part 4, 18 from disk
+I20240430 07:49:51.479494    70 NebulaStore.cpp:252] Load part 4, 60 from disk
+I20240430 07:49:51.479558    72 NebulaStore.cpp:252] Load part 4, 30 from disk
+I20240430 07:49:51.479635    70 NebulaStore.cpp:252] Load part 4, 72 from disk
+I20240430 07:49:51.479696    72 NebulaStore.cpp:252] Load part 4, 42 from disk
+I20240430 07:49:51.479760    70 NebulaStore.cpp:252] Load part 4, 84 from disk
+I20240430 07:49:51.479818    72 NebulaStore.cpp:252] Load part 4, 54 from disk
+I20240430 07:49:51.479882    70 NebulaStore.cpp:252] Load part 4, 96 from disk
+I20240430 07:49:51.479943    72 NebulaStore.cpp:252] Load part 4, 66 from disk
+I20240430 07:49:51.480350    72 NebulaStore.cpp:252] Load part 4, 78 from disk
+I20240430 07:49:51.480485    72 NebulaStore.cpp:252] Load part 4, 90 from disk
+I20240430 07:49:51.479986    71 NebulaStore.cpp:252] Load part 4, 87 from disk
+I20240430 07:49:51.480638    71 NebulaStore.cpp:252] Load part 4, 99 from disk
+I20240430 07:49:51.480015    69 NebulaStore.cpp:252] Load part 4, 81 from disk
+I20240430 07:49:51.480924    69 NebulaStore.cpp:252] Load part 4, 93 from disk
+I20240430 07:49:51.480943     1 NebulaStore.cpp:286] Load space 4 complete
+I20240430 07:49:51.480993     1 NebulaStore.cpp:220] Load space 2 from disk
+I20240430 07:49:51.481204     1 NebulaStore.cpp:229] Need to open 3 parts of space 2
+I20240430 07:49:51.482530    69 NebulaStore.cpp:252] Load part 2, 3 from disk
+I20240430 07:49:51.482591    70 NebulaStore.cpp:252] Load part 2, 6 from disk
+I20240430 07:49:51.482626    71 NebulaStore.cpp:252] Load part 2, 9 from disk
+I20240430 07:49:51.482659     1 NebulaStore.cpp:286] Load space 2 complete
+I20240430 07:49:51.482707     1 RocksEngine.h:247] Release rocksdb on /data/storage/nebula/5
+I20240430 07:49:51.482903     1 NebulaStore.cpp:737] Try to remove space directory: /data/storage/nebula/5
+I20240430 07:49:51.484287     1 NebulaStore.cpp:739] Space directory removed: /data/storage/nebula/5
+I20240430 07:49:51.484308     1 NebulaStore.cpp:292] Init data from partManager for "172.28.2.2":9779
+I20240430 07:49:51.484396     1 NebulaStore.cpp:399] Data space 2 has existed!
+I20240430 07:49:51.484409     1 NebulaStore.cpp:451] [Space: 2, Part: 3] has existed!
+I20240430 07:49:51.484421     1 NebulaStore.cpp:451] [Space: 2, Part: 6] has existed!
+I20240430 07:49:51.484426     1 NebulaStore.cpp:451] [Space: 2, Part: 9] has existed!
+I20240430 07:49:51.484429     1 NebulaStore.cpp:417] Create data space 8
+I20240430 07:49:51.484565    77 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.484575    77 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.484578    77 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.484679    77 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.501868    77 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/8/data
+I20240430 07:49:51.502103     1 NebulaStore.cpp:480] Space 8, part 3 has been added, asLearner 0
+I20240430 07:49:51.502476     1 NebulaStore.cpp:480] Space 8, part 6 has been added, asLearner 0
+I20240430 07:49:51.502610     1 NebulaStore.cpp:480] Space 8, part 9 has been added, asLearner 0
+I20240430 07:49:51.502923     1 NebulaStore.cpp:480] Space 8, part 12 has been added, asLearner 0
+I20240430 07:49:51.503021     1 NebulaStore.cpp:480] Space 8, part 15 has been added, asLearner 0
+I20240430 07:49:51.503288     1 NebulaStore.cpp:480] Space 8, part 18 has been added, asLearner 0
+I20240430 07:49:51.503409     1 NebulaStore.cpp:480] Space 8, part 21 has been added, asLearner 0
+I20240430 07:49:51.503504     1 NebulaStore.cpp:480] Space 8, part 24 has been added, asLearner 0
+I20240430 07:49:51.503607     1 NebulaStore.cpp:480] Space 8, part 27 has been added, asLearner 0
+I20240430 07:49:51.503978     1 NebulaStore.cpp:480] Space 8, part 30 has been added, asLearner 0
+I20240430 07:49:51.504068     1 NebulaStore.cpp:480] Space 8, part 33 has been added, asLearner 0
+I20240430 07:49:51.504153     1 NebulaStore.cpp:480] Space 8, part 36 has been added, asLearner 0
+I20240430 07:49:51.504245     1 NebulaStore.cpp:480] Space 8, part 39 has been added, asLearner 0
+I20240430 07:49:51.504328     1 NebulaStore.cpp:480] Space 8, part 42 has been added, asLearner 0
+I20240430 07:49:51.504410     1 NebulaStore.cpp:480] Space 8, part 45 has been added, asLearner 0
+I20240430 07:49:51.504500     1 NebulaStore.cpp:480] Space 8, part 48 has been added, asLearner 0
+I20240430 07:49:51.505059     1 NebulaStore.cpp:480] Space 8, part 51 has been added, asLearner 0
+I20240430 07:49:51.505172     1 NebulaStore.cpp:480] Space 8, part 54 has been added, asLearner 0
+I20240430 07:49:51.505263     1 NebulaStore.cpp:480] Space 8, part 57 has been added, asLearner 0
+I20240430 07:49:51.505352     1 NebulaStore.cpp:480] Space 8, part 60 has been added, asLearner 0
+I20240430 07:49:51.505445     1 NebulaStore.cpp:480] Space 8, part 63 has been added, asLearner 0
+I20240430 07:49:51.505533     1 NebulaStore.cpp:480] Space 8, part 66 has been added, asLearner 0
+I20240430 07:49:51.505630     1 NebulaStore.cpp:480] Space 8, part 69 has been added, asLearner 0
+I20240430 07:49:51.505723     1 NebulaStore.cpp:480] Space 8, part 72 has been added, asLearner 0
+I20240430 07:49:51.505821     1 NebulaStore.cpp:480] Space 8, part 75 has been added, asLearner 0
+I20240430 07:49:51.505903     1 NebulaStore.cpp:480] Space 8, part 78 has been added, asLearner 0
+I20240430 07:49:51.505995     1 NebulaStore.cpp:480] Space 8, part 81 has been added, asLearner 0
+I20240430 07:49:51.506083     1 NebulaStore.cpp:480] Space 8, part 84 has been added, asLearner 0
+I20240430 07:49:51.506292     1 NebulaStore.cpp:480] Space 8, part 87 has been added, asLearner 0
+I20240430 07:49:51.506429     1 NebulaStore.cpp:480] Space 8, part 90 has been added, asLearner 0
+I20240430 07:49:51.506582     1 NebulaStore.cpp:480] Space 8, part 93 has been added, asLearner 0
+I20240430 07:49:51.506719     1 NebulaStore.cpp:480] Space 8, part 96 has been added, asLearner 0
+I20240430 07:49:51.506852     1 NebulaStore.cpp:480] Space 8, part 99 has been added, asLearner 0
+I20240430 07:49:51.506863     1 NebulaStore.cpp:417] Create data space 9
+I20240430 07:49:51.507092    79 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.507107    79 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.507113    79 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.507244    79 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.516697    79 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/9/data
+I20240430 07:49:51.516858     1 NebulaStore.cpp:480] Space 9, part 3 has been added, asLearner 0
+I20240430 07:49:51.516988     1 NebulaStore.cpp:480] Space 9, part 6 has been added, asLearner 0
+I20240430 07:49:51.517329     1 NebulaStore.cpp:480] Space 9, part 9 has been added, asLearner 0
+I20240430 07:49:51.517460     1 NebulaStore.cpp:480] Space 9, part 12 has been added, asLearner 0
+I20240430 07:49:51.517583     1 NebulaStore.cpp:480] Space 9, part 15 has been added, asLearner 0
+I20240430 07:49:51.517853     1 NebulaStore.cpp:480] Space 9, part 18 has been added, asLearner 0
+I20240430 07:49:51.518108     1 NebulaStore.cpp:480] Space 9, part 21 has been added, asLearner 0
+I20240430 07:49:51.518283     1 NebulaStore.cpp:480] Space 9, part 24 has been added, asLearner 0
+I20240430 07:49:51.518388     1 NebulaStore.cpp:480] Space 9, part 27 has been added, asLearner 0
+I20240430 07:49:51.518483     1 NebulaStore.cpp:480] Space 9, part 30 has been added, asLearner 0
+I20240430 07:49:51.518586     1 NebulaStore.cpp:480] Space 9, part 33 has been added, asLearner 0
+I20240430 07:49:51.518925     1 NebulaStore.cpp:480] Space 9, part 36 has been added, asLearner 0
+I20240430 07:49:51.519022     1 NebulaStore.cpp:480] Space 9, part 39 has been added, asLearner 0
+I20240430 07:49:51.519116     1 NebulaStore.cpp:480] Space 9, part 42 has been added, asLearner 0
+I20240430 07:49:51.519214     1 NebulaStore.cpp:480] Space 9, part 45 has been added, asLearner 0
+I20240430 07:49:51.519333     1 NebulaStore.cpp:480] Space 9, part 48 has been added, asLearner 0
+I20240430 07:49:51.519510     1 NebulaStore.cpp:480] Space 9, part 51 has been added, asLearner 0
+I20240430 07:49:51.520148     1 NebulaStore.cpp:480] Space 9, part 54 has been added, asLearner 0
+I20240430 07:49:51.520251     1 NebulaStore.cpp:480] Space 9, part 57 has been added, asLearner 0
+I20240430 07:49:51.520382     1 NebulaStore.cpp:480] Space 9, part 60 has been added, asLearner 0
+I20240430 07:49:51.520537     1 NebulaStore.cpp:480] Space 9, part 63 has been added, asLearner 0
+I20240430 07:49:51.520665     1 NebulaStore.cpp:480] Space 9, part 66 has been added, asLearner 0
+I20240430 07:49:51.520788     1 NebulaStore.cpp:480] Space 9, part 69 has been added, asLearner 0
+I20240430 07:49:51.520931     1 NebulaStore.cpp:480] Space 9, part 72 has been added, asLearner 0
+I20240430 07:49:51.521061     1 NebulaStore.cpp:480] Space 9, part 75 has been added, asLearner 0
+I20240430 07:49:51.521191     1 NebulaStore.cpp:480] Space 9, part 78 has been added, asLearner 0
+I20240430 07:49:51.521327     1 NebulaStore.cpp:480] Space 9, part 81 has been added, asLearner 0
+I20240430 07:49:51.521461     1 NebulaStore.cpp:480] Space 9, part 84 has been added, asLearner 0
+I20240430 07:49:51.521593     1 NebulaStore.cpp:480] Space 9, part 87 has been added, asLearner 0
+I20240430 07:49:51.527858     1 NebulaStore.cpp:480] Space 9, part 90 has been added, asLearner 0
+I20240430 07:49:51.527999     1 NebulaStore.cpp:480] Space 9, part 93 has been added, asLearner 0
+I20240430 07:49:51.528133     1 NebulaStore.cpp:480] Space 9, part 96 has been added, asLearner 0
+I20240430 07:49:51.528348     1 NebulaStore.cpp:480] Space 9, part 99 has been added, asLearner 0
+I20240430 07:49:51.528359     1 NebulaStore.cpp:417] Create data space 10
+I20240430 07:49:51.528530    81 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.528541    81 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.528550    81 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.528640    81 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.537102    81 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/10/data
+I20240430 07:49:51.537273     1 NebulaStore.cpp:480] Space 10, part 3 has been added, asLearner 0
+I20240430 07:49:51.537387     1 NebulaStore.cpp:480] Space 10, part 6 has been added, asLearner 0
+I20240430 07:49:51.537490     1 NebulaStore.cpp:480] Space 10, part 9 has been added, asLearner 0
+I20240430 07:49:51.537585     1 NebulaStore.cpp:480] Space 10, part 12 has been added, asLearner 0
+I20240430 07:49:51.537824     1 NebulaStore.cpp:480] Space 10, part 15 has been added, asLearner 0
+I20240430 07:49:51.537981     1 NebulaStore.cpp:480] Space 10, part 18 has been added, asLearner 0
+I20240430 07:49:51.538182     1 NebulaStore.cpp:480] Space 10, part 21 has been added, asLearner 0
+I20240430 07:49:51.538359     1 NebulaStore.cpp:480] Space 10, part 24 has been added, asLearner 0
+I20240430 07:49:51.538771     1 NebulaStore.cpp:480] Space 10, part 27 has been added, asLearner 0
+I20240430 07:49:51.538924     1 NebulaStore.cpp:480] Space 10, part 30 has been added, asLearner 0
+I20240430 07:49:51.539080     1 NebulaStore.cpp:480] Space 10, part 33 has been added, asLearner 0
+I20240430 07:49:51.539252     1 NebulaStore.cpp:480] Space 10, part 36 has been added, asLearner 0
+I20240430 07:49:51.539646     1 NebulaStore.cpp:480] Space 10, part 39 has been added, asLearner 0
+I20240430 07:49:51.539985     1 NebulaStore.cpp:480] Space 10, part 42 has been added, asLearner 0
+I20240430 07:49:51.540136     1 NebulaStore.cpp:480] Space 10, part 45 has been added, asLearner 0
+I20240430 07:49:51.540287     1 NebulaStore.cpp:480] Space 10, part 48 has been added, asLearner 0
+I20240430 07:49:51.540462     1 NebulaStore.cpp:480] Space 10, part 51 has been added, asLearner 0
+I20240430 07:49:51.540942     1 NebulaStore.cpp:480] Space 10, part 54 has been added, asLearner 0
+I20240430 07:49:51.541142     1 NebulaStore.cpp:480] Space 10, part 57 has been added, asLearner 0
+I20240430 07:49:51.541427     1 NebulaStore.cpp:480] Space 10, part 60 has been added, asLearner 0
+I20240430 07:49:51.541595     1 NebulaStore.cpp:480] Space 10, part 63 has been added, asLearner 0
+I20240430 07:49:51.541749     1 NebulaStore.cpp:480] Space 10, part 66 has been added, asLearner 0
+I20240430 07:49:51.541885     1 NebulaStore.cpp:480] Space 10, part 69 has been added, asLearner 0
+I20240430 07:49:51.542035     1 NebulaStore.cpp:480] Space 10, part 72 has been added, asLearner 0
+I20240430 07:49:51.542208     1 NebulaStore.cpp:480] Space 10, part 75 has been added, asLearner 0
+I20240430 07:49:51.542366     1 NebulaStore.cpp:480] Space 10, part 78 has been added, asLearner 0
+I20240430 07:49:51.542519     1 NebulaStore.cpp:480] Space 10, part 81 has been added, asLearner 0
+I20240430 07:49:51.542660     1 NebulaStore.cpp:480] Space 10, part 84 has been added, asLearner 0
+I20240430 07:49:51.542780     1 NebulaStore.cpp:480] Space 10, part 87 has been added, asLearner 0
+I20240430 07:49:51.542964     1 NebulaStore.cpp:480] Space 10, part 90 has been added, asLearner 0
+I20240430 07:49:51.543464     1 NebulaStore.cpp:480] Space 10, part 93 has been added, asLearner 0
+I20240430 07:49:51.543587     1 NebulaStore.cpp:480] Space 10, part 96 has been added, asLearner 0
+I20240430 07:49:51.543733     1 NebulaStore.cpp:480] Space 10, part 99 has been added, asLearner 0
+I20240430 07:49:51.544186     1 NebulaStore.cpp:399] Data space 4 has existed!
+I20240430 07:49:51.544203     1 NebulaStore.cpp:451] [Space: 4, Part: 3] has existed!
+I20240430 07:49:51.544209     1 NebulaStore.cpp:451] [Space: 4, Part: 6] has existed!
+I20240430 07:49:51.544214     1 NebulaStore.cpp:451] [Space: 4, Part: 9] has existed!
+I20240430 07:49:51.544217     1 NebulaStore.cpp:451] [Space: 4, Part: 12] has existed!
+I20240430 07:49:51.544220     1 NebulaStore.cpp:451] [Space: 4, Part: 15] has existed!
+I20240430 07:49:51.544224     1 NebulaStore.cpp:451] [Space: 4, Part: 18] has existed!
+I20240430 07:49:51.544234     1 NebulaStore.cpp:451] [Space: 4, Part: 21] has existed!
+I20240430 07:49:51.544238     1 NebulaStore.cpp:451] [Space: 4, Part: 24] has existed!
+I20240430 07:49:51.544242     1 NebulaStore.cpp:451] [Space: 4, Part: 27] has existed!
+I20240430 07:49:51.544246     1 NebulaStore.cpp:451] [Space: 4, Part: 30] has existed!
+I20240430 07:49:51.544251     1 NebulaStore.cpp:451] [Space: 4, Part: 33] has existed!
+I20240430 07:49:51.544260     1 NebulaStore.cpp:451] [Space: 4, Part: 36] has existed!
+I20240430 07:49:51.544266     1 NebulaStore.cpp:451] [Space: 4, Part: 39] has existed!
+I20240430 07:49:51.544273     1 NebulaStore.cpp:451] [Space: 4, Part: 42] has existed!
+I20240430 07:49:51.544281     1 NebulaStore.cpp:451] [Space: 4, Part: 45] has existed!
+I20240430 07:49:51.544286     1 NebulaStore.cpp:451] [Space: 4, Part: 48] has existed!
+I20240430 07:49:51.544289     1 NebulaStore.cpp:451] [Space: 4, Part: 51] has existed!
+I20240430 07:49:51.544293     1 NebulaStore.cpp:451] [Space: 4, Part: 54] has existed!
+I20240430 07:49:51.544297     1 NebulaStore.cpp:451] [Space: 4, Part: 57] has existed!
+I20240430 07:49:51.544301     1 NebulaStore.cpp:451] [Space: 4, Part: 60] has existed!
+I20240430 07:49:51.544304     1 NebulaStore.cpp:451] [Space: 4, Part: 63] has existed!
+I20240430 07:49:51.544308     1 NebulaStore.cpp:451] [Space: 4, Part: 66] has existed!
+I20240430 07:49:51.544312     1 NebulaStore.cpp:451] [Space: 4, Part: 69] has existed!
+I20240430 07:49:51.544317     1 NebulaStore.cpp:451] [Space: 4, Part: 72] has existed!
+I20240430 07:49:51.544320     1 NebulaStore.cpp:451] [Space: 4, Part: 75] has existed!
+I20240430 07:49:51.544330     1 NebulaStore.cpp:451] [Space: 4, Part: 78] has existed!
+I20240430 07:49:51.544548     1 NebulaStore.cpp:451] [Space: 4, Part: 81] has existed!
+I20240430 07:49:51.544559     1 NebulaStore.cpp:451] [Space: 4, Part: 84] has existed!
+I20240430 07:49:51.544569     1 NebulaStore.cpp:451] [Space: 4, Part: 87] has existed!
+I20240430 07:49:51.544574     1 NebulaStore.cpp:451] [Space: 4, Part: 90] has existed!
+I20240430 07:49:51.544577     1 NebulaStore.cpp:451] [Space: 4, Part: 93] has existed!
+I20240430 07:49:51.544580     1 NebulaStore.cpp:451] [Space: 4, Part: 96] has existed!
+I20240430 07:49:51.544584     1 NebulaStore.cpp:451] [Space: 4, Part: 99] has existed!
+I20240430 07:49:51.544588     1 NebulaStore.cpp:399] Data space 3 has existed!
+I20240430 07:49:51.544608     1 NebulaStore.cpp:451] [Space: 3, Part: 1] has existed!
+I20240430 07:49:51.544615     1 NebulaStore.cpp:451] [Space: 3, Part: 2] has existed!
+I20240430 07:49:51.544621     1 NebulaStore.cpp:451] [Space: 3, Part: 3] has existed!
+I20240430 07:49:51.544631     1 NebulaStore.cpp:451] [Space: 3, Part: 4] has existed!
+I20240430 07:49:51.544639     1 NebulaStore.cpp:451] [Space: 3, Part: 5] has existed!
+I20240430 07:49:51.544648     1 NebulaStore.cpp:451] [Space: 3, Part: 6] has existed!
+I20240430 07:49:51.544657     1 NebulaStore.cpp:451] [Space: 3, Part: 7] has existed!
+I20240430 07:49:51.544663     1 NebulaStore.cpp:451] [Space: 3, Part: 8] has existed!
+I20240430 07:49:51.544668     1 NebulaStore.cpp:451] [Space: 3, Part: 9] has existed!
+I20240430 07:49:51.544673     1 NebulaStore.cpp:451] [Space: 3, Part: 10] has existed!
+I20240430 07:49:51.544682     1 NebulaStore.cpp:451] [Space: 3, Part: 11] has existed!
+I20240430 07:49:51.544690     1 NebulaStore.cpp:451] [Space: 3, Part: 12] has existed!
+I20240430 07:49:51.544695     1 NebulaStore.cpp:451] [Space: 3, Part: 13] has existed!
+I20240430 07:49:51.544699     1 NebulaStore.cpp:451] [Space: 3, Part: 14] has existed!
+I20240430 07:49:51.544703     1 NebulaStore.cpp:451] [Space: 3, Part: 15] has existed!
+I20240430 07:49:51.544708     1 NebulaStore.cpp:451] [Space: 3, Part: 16] has existed!
+I20240430 07:49:51.544713     1 NebulaStore.cpp:451] [Space: 3, Part: 17] has existed!
+I20240430 07:49:51.544718     1 NebulaStore.cpp:451] [Space: 3, Part: 18] has existed!
+I20240430 07:49:51.544721     1 NebulaStore.cpp:451] [Space: 3, Part: 19] has existed!
+I20240430 07:49:51.544729     1 NebulaStore.cpp:451] [Space: 3, Part: 20] has existed!
+I20240430 07:49:51.544734     1 NebulaStore.cpp:451] [Space: 3, Part: 21] has existed!
+I20240430 07:49:51.544739     1 NebulaStore.cpp:451] [Space: 3, Part: 22] has existed!
+I20240430 07:49:51.544742     1 NebulaStore.cpp:451] [Space: 3, Part: 23] has existed!
+I20240430 07:49:51.544747     1 NebulaStore.cpp:451] [Space: 3, Part: 24] has existed!
+I20240430 07:49:51.544751     1 NebulaStore.cpp:451] [Space: 3, Part: 25] has existed!
+I20240430 07:49:51.544755     1 NebulaStore.cpp:451] [Space: 3, Part: 26] has existed!
+I20240430 07:49:51.544759     1 NebulaStore.cpp:451] [Space: 3, Part: 27] has existed!
+I20240430 07:49:51.544763     1 NebulaStore.cpp:451] [Space: 3, Part: 28] has existed!
+I20240430 07:49:51.544768     1 NebulaStore.cpp:451] [Space: 3, Part: 29] has existed!
+I20240430 07:49:51.544772     1 NebulaStore.cpp:451] [Space: 3, Part: 30] has existed!
+I20240430 07:49:51.544776     1 NebulaStore.cpp:451] [Space: 3, Part: 31] has existed!
+I20240430 07:49:51.544781     1 NebulaStore.cpp:451] [Space: 3, Part: 32] has existed!
+I20240430 07:49:51.544785     1 NebulaStore.cpp:451] [Space: 3, Part: 33] has existed!
+I20240430 07:49:51.544790     1 NebulaStore.cpp:451] [Space: 3, Part: 34] has existed!
+I20240430 07:49:51.544793     1 NebulaStore.cpp:451] [Space: 3, Part: 35] has existed!
+I20240430 07:49:51.544797     1 NebulaStore.cpp:451] [Space: 3, Part: 36] has existed!
+I20240430 07:49:51.544802     1 NebulaStore.cpp:451] [Space: 3, Part: 37] has existed!
+I20240430 07:49:51.544806     1 NebulaStore.cpp:451] [Space: 3, Part: 38] has existed!
+I20240430 07:49:51.544811     1 NebulaStore.cpp:451] [Space: 3, Part: 39] has existed!
+I20240430 07:49:51.544814     1 NebulaStore.cpp:451] [Space: 3, Part: 40] has existed!
+I20240430 07:49:51.544818     1 NebulaStore.cpp:451] [Space: 3, Part: 41] has existed!
+I20240430 07:49:51.544824     1 NebulaStore.cpp:451] [Space: 3, Part: 42] has existed!
+I20240430 07:49:51.544829     1 NebulaStore.cpp:451] [Space: 3, Part: 43] has existed!
+I20240430 07:49:51.544833     1 NebulaStore.cpp:451] [Space: 3, Part: 44] has existed!
+I20240430 07:49:51.544837     1 NebulaStore.cpp:451] [Space: 3, Part: 45] has existed!
+I20240430 07:49:51.544842     1 NebulaStore.cpp:451] [Space: 3, Part: 46] has existed!
+I20240430 07:49:51.544847     1 NebulaStore.cpp:451] [Space: 3, Part: 47] has existed!
+I20240430 07:49:51.544852     1 NebulaStore.cpp:451] [Space: 3, Part: 48] has existed!
+I20240430 07:49:51.544855     1 NebulaStore.cpp:451] [Space: 3, Part: 49] has existed!
+I20240430 07:49:51.544862     1 NebulaStore.cpp:451] [Space: 3, Part: 50] has existed!
+I20240430 07:49:51.544871     1 NebulaStore.cpp:451] [Space: 3, Part: 51] has existed!
+I20240430 07:49:51.544878     1 NebulaStore.cpp:451] [Space: 3, Part: 52] has existed!
+I20240430 07:49:51.544883     1 NebulaStore.cpp:451] [Space: 3, Part: 53] has existed!
+I20240430 07:49:51.544888     1 NebulaStore.cpp:451] [Space: 3, Part: 54] has existed!
+I20240430 07:49:51.544893     1 NebulaStore.cpp:451] [Space: 3, Part: 55] has existed!
+I20240430 07:49:51.544896     1 NebulaStore.cpp:451] [Space: 3, Part: 56] has existed!
+I20240430 07:49:51.544900     1 NebulaStore.cpp:451] [Space: 3, Part: 57] has existed!
+I20240430 07:49:51.544905     1 NebulaStore.cpp:451] [Space: 3, Part: 58] has existed!
+I20240430 07:49:51.544909     1 NebulaStore.cpp:451] [Space: 3, Part: 59] has existed!
+I20240430 07:49:51.544914     1 NebulaStore.cpp:451] [Space: 3, Part: 60] has existed!
+I20240430 07:49:51.544919     1 NebulaStore.cpp:451] [Space: 3, Part: 61] has existed!
+I20240430 07:49:51.544922     1 NebulaStore.cpp:451] [Space: 3, Part: 62] has existed!
+I20240430 07:49:51.544926     1 NebulaStore.cpp:451] [Space: 3, Part: 63] has existed!
+I20240430 07:49:51.544930     1 NebulaStore.cpp:451] [Space: 3, Part: 64] has existed!
+I20240430 07:49:51.544935     1 NebulaStore.cpp:451] [Space: 3, Part: 65] has existed!
+I20240430 07:49:51.544940     1 NebulaStore.cpp:451] [Space: 3, Part: 66] has existed!
+I20240430 07:49:51.544947     1 NebulaStore.cpp:451] [Space: 3, Part: 67] has existed!
+I20240430 07:49:51.544951     1 NebulaStore.cpp:451] [Space: 3, Part: 68] has existed!
+I20240430 07:49:51.544955     1 NebulaStore.cpp:451] [Space: 3, Part: 69] has existed!
+I20240430 07:49:51.544960     1 NebulaStore.cpp:451] [Space: 3, Part: 70] has existed!
+I20240430 07:49:51.544965     1 NebulaStore.cpp:451] [Space: 3, Part: 71] has existed!
+I20240430 07:49:51.544968     1 NebulaStore.cpp:451] [Space: 3, Part: 72] has existed!
+I20240430 07:49:51.544973     1 NebulaStore.cpp:451] [Space: 3, Part: 73] has existed!
+I20240430 07:49:51.544977     1 NebulaStore.cpp:451] [Space: 3, Part: 74] has existed!
+I20240430 07:49:51.544981     1 NebulaStore.cpp:451] [Space: 3, Part: 75] has existed!
+I20240430 07:49:51.544986     1 NebulaStore.cpp:451] [Space: 3, Part: 76] has existed!
+I20240430 07:49:51.544989     1 NebulaStore.cpp:451] [Space: 3, Part: 77] has existed!
+I20240430 07:49:51.544993     1 NebulaStore.cpp:451] [Space: 3, Part: 78] has existed!
+I20240430 07:49:51.544998     1 NebulaStore.cpp:451] [Space: 3, Part: 79] has existed!
+I20240430 07:49:51.545002     1 NebulaStore.cpp:451] [Space: 3, Part: 80] has existed!
+I20240430 07:49:51.545006     1 NebulaStore.cpp:451] [Space: 3, Part: 81] has existed!
+I20240430 07:49:51.545010     1 NebulaStore.cpp:451] [Space: 3, Part: 82] has existed!
+I20240430 07:49:51.545015     1 NebulaStore.cpp:451] [Space: 3, Part: 83] has existed!
+I20240430 07:49:51.545019     1 NebulaStore.cpp:451] [Space: 3, Part: 84] has existed!
+I20240430 07:49:51.545023     1 NebulaStore.cpp:451] [Space: 3, Part: 85] has existed!
+I20240430 07:49:51.545027     1 NebulaStore.cpp:451] [Space: 3, Part: 86] has existed!
+I20240430 07:49:51.545032     1 NebulaStore.cpp:451] [Space: 3, Part: 87] has existed!
+I20240430 07:49:51.545037     1 NebulaStore.cpp:451] [Space: 3, Part: 88] has existed!
+I20240430 07:49:51.545040     1 NebulaStore.cpp:451] [Space: 3, Part: 89] has existed!
+I20240430 07:49:51.545047     1 NebulaStore.cpp:451] [Space: 3, Part: 90] has existed!
+I20240430 07:49:51.545051     1 NebulaStore.cpp:451] [Space: 3, Part: 91] has existed!
+I20240430 07:49:51.545055     1 NebulaStore.cpp:451] [Space: 3, Part: 92] has existed!
+I20240430 07:49:51.545059     1 NebulaStore.cpp:451] [Space: 3, Part: 93] has existed!
+I20240430 07:49:51.545063     1 NebulaStore.cpp:451] [Space: 3, Part: 94] has existed!
+I20240430 07:49:51.545068     1 NebulaStore.cpp:451] [Space: 3, Part: 95] has existed!
+I20240430 07:49:51.545073     1 NebulaStore.cpp:451] [Space: 3, Part: 96] has existed!
+I20240430 07:49:51.545076     1 NebulaStore.cpp:451] [Space: 3, Part: 97] has existed!
+I20240430 07:49:51.545081     1 NebulaStore.cpp:451] [Space: 3, Part: 98] has existed!
+I20240430 07:49:51.545085     1 NebulaStore.cpp:451] [Space: 3, Part: 99] has existed!
+I20240430 07:49:51.545089     1 NebulaStore.cpp:451] [Space: 3, Part: 100] has existed!
+I20240430 07:49:51.545096     1 NebulaStore.cpp:417] Create data space 7
+I20240430 07:49:51.545433    76 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.545445    76 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.545449    76 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.545547    76 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.587325    76 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/7/data
+I20240430 07:49:51.591117     1 NebulaStore.cpp:480] Space 7, part 3 has been added, asLearner 0
+I20240430 07:49:51.591257     1 NebulaStore.cpp:480] Space 7, part 6 has been added, asLearner 0
+I20240430 07:49:51.591384     1 NebulaStore.cpp:480] Space 7, part 9 has been added, asLearner 0
+I20240430 07:49:51.591511     1 NebulaStore.cpp:480] Space 7, part 12 has been added, asLearner 0
+I20240430 07:49:51.591635     1 NebulaStore.cpp:480] Space 7, part 15 has been added, asLearner 0
+I20240430 07:49:51.591766     1 NebulaStore.cpp:480] Space 7, part 18 has been added, asLearner 0
+I20240430 07:49:51.591885     1 NebulaStore.cpp:480] Space 7, part 21 has been added, asLearner 0
+I20240430 07:49:51.592012     1 NebulaStore.cpp:480] Space 7, part 24 has been added, asLearner 0
+I20240430 07:49:51.592135     1 NebulaStore.cpp:480] Space 7, part 27 has been added, asLearner 0
+I20240430 07:49:51.592253     1 NebulaStore.cpp:480] Space 7, part 30 has been added, asLearner 0
+I20240430 07:49:51.592375     1 NebulaStore.cpp:480] Space 7, part 33 has been added, asLearner 0
+I20240430 07:49:51.592495     1 NebulaStore.cpp:480] Space 7, part 36 has been added, asLearner 0
+I20240430 07:49:51.592847     1 NebulaStore.cpp:480] Space 7, part 39 has been added, asLearner 0
+I20240430 07:49:51.592970     1 NebulaStore.cpp:480] Space 7, part 42 has been added, asLearner 0
+I20240430 07:49:51.593086     1 NebulaStore.cpp:480] Space 7, part 45 has been added, asLearner 0
+I20240430 07:49:51.593209     1 NebulaStore.cpp:480] Space 7, part 48 has been added, asLearner 0
+I20240430 07:49:51.593317     1 NebulaStore.cpp:480] Space 7, part 51 has been added, asLearner 0
+I20240430 07:49:51.593425     1 NebulaStore.cpp:480] Space 7, part 54 has been added, asLearner 0
+I20240430 07:49:51.593533     1 NebulaStore.cpp:480] Space 7, part 57 has been added, asLearner 0
+I20240430 07:49:51.593640     1 NebulaStore.cpp:480] Space 7, part 60 has been added, asLearner 0
+I20240430 07:49:51.593757     1 NebulaStore.cpp:480] Space 7, part 63 has been added, asLearner 0
+I20240430 07:49:51.593878     1 NebulaStore.cpp:480] Space 7, part 66 has been added, asLearner 0
+I20240430 07:49:51.593991     1 NebulaStore.cpp:480] Space 7, part 69 has been added, asLearner 0
+I20240430 07:49:51.594100     1 NebulaStore.cpp:480] Space 7, part 72 has been added, asLearner 0
+I20240430 07:49:51.594990     1 NebulaStore.cpp:480] Space 7, part 75 has been added, asLearner 0
+I20240430 07:49:51.595285     1 NebulaStore.cpp:480] Space 7, part 78 has been added, asLearner 0
+I20240430 07:49:51.595409     1 NebulaStore.cpp:480] Space 7, part 81 has been added, asLearner 0
+I20240430 07:49:51.595520     1 NebulaStore.cpp:480] Space 7, part 84 has been added, asLearner 0
+I20240430 07:49:51.595625     1 NebulaStore.cpp:480] Space 7, part 87 has been added, asLearner 0
+I20240430 07:49:51.595731     1 NebulaStore.cpp:480] Space 7, part 90 has been added, asLearner 0
+I20240430 07:49:51.595844     1 NebulaStore.cpp:480] Space 7, part 93 has been added, asLearner 0
+I20240430 07:49:51.595957     1 NebulaStore.cpp:480] Space 7, part 96 has been added, asLearner 0
+I20240430 07:49:51.596066     1 NebulaStore.cpp:480] Space 7, part 99 has been added, asLearner 0
+I20240430 07:49:51.596076     1 NebulaStore.cpp:399] Data space 1 has existed!
+I20240430 07:49:51.596088     1 NebulaStore.cpp:451] [Space: 1, Part: 3] has existed!
+I20240430 07:49:51.596096     1 NebulaStore.cpp:451] [Space: 1, Part: 6] has existed!
+I20240430 07:49:51.596101     1 NebulaStore.cpp:451] [Space: 1, Part: 9] has existed!
+I20240430 07:49:51.596107     1 NebulaStore.cpp:451] [Space: 1, Part: 12] has existed!
+I20240430 07:49:51.596113     1 NebulaStore.cpp:451] [Space: 1, Part: 15] has existed!
+I20240430 07:49:51.596119     1 NebulaStore.cpp:451] [Space: 1, Part: 18] has existed!
+I20240430 07:49:51.596125     1 NebulaStore.cpp:451] [Space: 1, Part: 21] has existed!
+I20240430 07:49:51.596132     1 NebulaStore.cpp:451] [Space: 1, Part: 24] has existed!
+I20240430 07:49:51.596138     1 NebulaStore.cpp:451] [Space: 1, Part: 27] has existed!
+I20240430 07:49:51.596143     1 NebulaStore.cpp:451] [Space: 1, Part: 30] has existed!
+I20240430 07:49:51.596149     1 NebulaStore.cpp:451] [Space: 1, Part: 33] has existed!
+I20240430 07:49:51.596155     1 NebulaStore.cpp:451] [Space: 1, Part: 36] has existed!
+I20240430 07:49:51.596160     1 NebulaStore.cpp:451] [Space: 1, Part: 39] has existed!
+I20240430 07:49:51.596166     1 NebulaStore.cpp:451] [Space: 1, Part: 42] has existed!
+I20240430 07:49:51.596172     1 NebulaStore.cpp:451] [Space: 1, Part: 45] has existed!
+I20240430 07:49:51.596184     1 NebulaStore.cpp:451] [Space: 1, Part: 48] has existed!
+I20240430 07:49:51.596191     1 NebulaStore.cpp:451] [Space: 1, Part: 51] has existed!
+I20240430 07:49:51.596196     1 NebulaStore.cpp:451] [Space: 1, Part: 54] has existed!
+I20240430 07:49:51.596202     1 NebulaStore.cpp:451] [Space: 1, Part: 57] has existed!
+I20240430 07:49:51.596208     1 NebulaStore.cpp:451] [Space: 1, Part: 60] has existed!
+I20240430 07:49:51.596215     1 NebulaStore.cpp:451] [Space: 1, Part: 63] has existed!
+I20240430 07:49:51.596220     1 NebulaStore.cpp:451] [Space: 1, Part: 66] has existed!
+I20240430 07:49:51.596225     1 NebulaStore.cpp:451] [Space: 1, Part: 69] has existed!
+I20240430 07:49:51.596231     1 NebulaStore.cpp:451] [Space: 1, Part: 72] has existed!
+I20240430 07:49:51.596237     1 NebulaStore.cpp:451] [Space: 1, Part: 75] has existed!
+I20240430 07:49:51.596243     1 NebulaStore.cpp:451] [Space: 1, Part: 78] has existed!
+I20240430 07:49:51.596248     1 NebulaStore.cpp:451] [Space: 1, Part: 81] has existed!
+I20240430 07:49:51.596254     1 NebulaStore.cpp:451] [Space: 1, Part: 84] has existed!
+I20240430 07:49:51.596264     1 NebulaStore.cpp:451] [Space: 1, Part: 87] has existed!
+I20240430 07:49:51.596271     1 NebulaStore.cpp:451] [Space: 1, Part: 90] has existed!
+I20240430 07:49:51.596276     1 NebulaStore.cpp:451] [Space: 1, Part: 93] has existed!
+I20240430 07:49:51.596282     1 NebulaStore.cpp:451] [Space: 1, Part: 96] has existed!
+I20240430 07:49:51.596287     1 NebulaStore.cpp:451] [Space: 1, Part: 99] has existed!
+I20240430 07:49:51.596293     1 NebulaStore.cpp:417] Create data space 12
+I20240430 07:49:51.596454    77 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.596465    77 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.596472    77 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.596609    77 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.643448    77 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/12/data
+I20240430 07:49:51.643680     1 NebulaStore.cpp:480] Space 12, part 3 has been added, asLearner 0
+I20240430 07:49:51.643817     1 NebulaStore.cpp:480] Space 12, part 6 has been added, asLearner 0
+I20240430 07:49:51.643965     1 NebulaStore.cpp:480] Space 12, part 9 has been added, asLearner 0
+I20240430 07:49:51.644129     1 NebulaStore.cpp:480] Space 12, part 12 has been added, asLearner 0
+I20240430 07:49:51.644264     1 NebulaStore.cpp:480] Space 12, part 15 has been added, asLearner 0
+I20240430 07:49:51.644418     1 NebulaStore.cpp:480] Space 12, part 18 has been added, asLearner 0
+I20240430 07:49:51.644562     1 NebulaStore.cpp:480] Space 12, part 21 has been added, asLearner 0
+I20240430 07:49:51.644698     1 NebulaStore.cpp:480] Space 12, part 24 has been added, asLearner 0
+I20240430 07:49:51.644845     1 NebulaStore.cpp:480] Space 12, part 27 has been added, asLearner 0
+I20240430 07:49:51.644979     1 NebulaStore.cpp:480] Space 12, part 30 has been added, asLearner 0
+I20240430 07:49:51.645117     1 NebulaStore.cpp:480] Space 12, part 33 has been added, asLearner 0
+I20240430 07:49:51.645259     1 NebulaStore.cpp:480] Space 12, part 36 has been added, asLearner 0
+I20240430 07:49:51.645418     1 NebulaStore.cpp:480] Space 12, part 39 has been added, asLearner 0
+I20240430 07:49:51.645560     1 NebulaStore.cpp:480] Space 12, part 42 has been added, asLearner 0
+I20240430 07:49:51.645691     1 NebulaStore.cpp:480] Space 12, part 45 has been added, asLearner 0
+I20240430 07:49:51.645831     1 NebulaStore.cpp:480] Space 12, part 48 has been added, asLearner 0
+I20240430 07:49:51.645992     1 NebulaStore.cpp:480] Space 12, part 51 has been added, asLearner 0
+I20240430 07:49:51.646536     1 NebulaStore.cpp:480] Space 12, part 54 has been added, asLearner 0
+I20240430 07:49:51.646819     1 NebulaStore.cpp:480] Space 12, part 57 has been added, asLearner 0
+I20240430 07:49:51.646982     1 NebulaStore.cpp:480] Space 12, part 60 has been added, asLearner 0
+I20240430 07:49:51.647137     1 NebulaStore.cpp:480] Space 12, part 63 has been added, asLearner 0
+I20240430 07:49:51.647266     1 NebulaStore.cpp:480] Space 12, part 66 has been added, asLearner 0
+I20240430 07:49:51.647387     1 NebulaStore.cpp:480] Space 12, part 69 has been added, asLearner 0
+I20240430 07:49:51.647518     1 NebulaStore.cpp:480] Space 12, part 72 has been added, asLearner 0
+I20240430 07:49:51.647637     1 NebulaStore.cpp:480] Space 12, part 75 has been added, asLearner 0
+I20240430 07:49:51.647755     1 NebulaStore.cpp:480] Space 12, part 78 has been added, asLearner 0
+I20240430 07:49:51.647881     1 NebulaStore.cpp:480] Space 12, part 81 has been added, asLearner 0
+I20240430 07:49:51.648020     1 NebulaStore.cpp:480] Space 12, part 84 has been added, asLearner 0
+I20240430 07:49:51.648152     1 NebulaStore.cpp:480] Space 12, part 87 has been added, asLearner 0
+I20240430 07:49:51.648281     1 NebulaStore.cpp:480] Space 12, part 90 has been added, asLearner 0
+I20240430 07:49:51.648413     1 NebulaStore.cpp:480] Space 12, part 93 has been added, asLearner 0
+I20240430 07:49:51.648540     1 NebulaStore.cpp:480] Space 12, part 96 has been added, asLearner 0
+I20240430 07:49:51.648669     1 NebulaStore.cpp:480] Space 12, part 99 has been added, asLearner 0
+I20240430 07:49:51.648682     1 NebulaStore.cpp:417] Create data space 11
+I20240430 07:49:51.655418    79 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.655433    79 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.655438    79 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.655531    79 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.671317    79 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/11/data
+I20240430 07:49:51.671679     1 NebulaStore.cpp:480] Space 11, part 3 has been added, asLearner 0
+I20240430 07:49:51.671846     1 NebulaStore.cpp:480] Space 11, part 6 has been added, asLearner 0
+I20240430 07:49:51.672044     1 NebulaStore.cpp:480] Space 11, part 9 has been added, asLearner 0
+I20240430 07:49:51.672178     1 NebulaStore.cpp:480] Space 11, part 12 has been added, asLearner 0
+I20240430 07:49:51.672278     1 NebulaStore.cpp:480] Space 11, part 15 has been added, asLearner 0
+I20240430 07:49:51.672374     1 NebulaStore.cpp:480] Space 11, part 18 has been added, asLearner 0
+I20240430 07:49:51.672474     1 NebulaStore.cpp:480] Space 11, part 21 has been added, asLearner 0
+I20240430 07:49:51.672571     1 NebulaStore.cpp:480] Space 11, part 24 has been added, asLearner 0
+I20240430 07:49:51.672668     1 NebulaStore.cpp:480] Space 11, part 27 has been added, asLearner 0
+I20240430 07:49:51.672772     1 NebulaStore.cpp:480] Space 11, part 30 has been added, asLearner 0
+I20240430 07:49:51.672876     1 NebulaStore.cpp:480] Space 11, part 33 has been added, asLearner 0
+I20240430 07:49:51.672979     1 NebulaStore.cpp:480] Space 11, part 36 has been added, asLearner 0
+I20240430 07:49:51.673075     1 NebulaStore.cpp:480] Space 11, part 39 has been added, asLearner 0
+I20240430 07:49:51.673177     1 NebulaStore.cpp:480] Space 11, part 42 has been added, asLearner 0
+I20240430 07:49:51.673276     1 NebulaStore.cpp:480] Space 11, part 45 has been added, asLearner 0
+I20240430 07:49:51.673381     1 NebulaStore.cpp:480] Space 11, part 48 has been added, asLearner 0
+I20240430 07:49:51.673477     1 NebulaStore.cpp:480] Space 11, part 51 has been added, asLearner 0
+I20240430 07:49:51.673578     1 NebulaStore.cpp:480] Space 11, part 54 has been added, asLearner 0
+I20240430 07:49:51.673676     1 NebulaStore.cpp:480] Space 11, part 57 has been added, asLearner 0
+I20240430 07:49:51.673779     1 NebulaStore.cpp:480] Space 11, part 60 has been added, asLearner 0
+I20240430 07:49:51.673883     1 NebulaStore.cpp:480] Space 11, part 63 has been added, asLearner 0
+I20240430 07:49:51.673985     1 NebulaStore.cpp:480] Space 11, part 66 has been added, asLearner 0
+I20240430 07:49:51.674093     1 NebulaStore.cpp:480] Space 11, part 69 has been added, asLearner 0
+I20240430 07:49:51.674227     1 NebulaStore.cpp:480] Space 11, part 72 has been added, asLearner 0
+I20240430 07:49:51.674368     1 NebulaStore.cpp:480] Space 11, part 75 has been added, asLearner 0
+I20240430 07:49:51.674566     1 NebulaStore.cpp:480] Space 11, part 78 has been added, asLearner 0
+I20240430 07:49:51.674721     1 NebulaStore.cpp:480] Space 11, part 81 has been added, asLearner 0
+I20240430 07:49:51.674862     1 NebulaStore.cpp:480] Space 11, part 84 has been added, asLearner 0
+I20240430 07:49:51.675002     1 NebulaStore.cpp:480] Space 11, part 87 has been added, asLearner 0
+I20240430 07:49:51.675153     1 NebulaStore.cpp:480] Space 11, part 90 has been added, asLearner 0
+I20240430 07:49:51.675271     1 NebulaStore.cpp:480] Space 11, part 93 has been added, asLearner 0
+I20240430 07:49:51.675401     1 NebulaStore.cpp:480] Space 11, part 96 has been added, asLearner 0
+I20240430 07:49:51.675585     1 NebulaStore.cpp:480] Space 11, part 99 has been added, asLearner 0
+I20240430 07:49:51.675700     1 NebulaStore.cpp:75] Register handler...
+I20240430 07:49:51.675705     1 StorageServer.cpp:259] Init LogMonitor
+I20240430 07:49:51.675761     1 StorageServer.cpp:126] Starting Storage HTTP Service
+I20240430 07:49:51.675908     1 StorageServer.cpp:130] Http Thread Pool started
+I20240430 07:49:51.676949   252 WebService.cpp:124] Web service started on HTTP[19779]
+I20240430 07:49:51.677026     1 RocksEngineConfig.cpp:371] Emplace rocksdb option max_bytes_for_level_base=268435456
+I20240430 07:49:51.677037     1 RocksEngineConfig.cpp:371] Emplace rocksdb option max_write_buffer_number=4
+I20240430 07:49:51.677042     1 RocksEngineConfig.cpp:371] Emplace rocksdb option write_buffer_size=67108864
+I20240430 07:49:51.677131     1 RocksEngineConfig.cpp:371] Emplace rocksdb option block_size=8192
+I20240430 07:49:51.683223     1 RocksEngine.cpp:107] open rocksdb on /data/storage/nebula/0/data
+I20240430 07:49:51.683279     1 AdminTaskManager.cpp:22] max concurrent subtasks: 10
+I20240430 07:49:51.710068   273 AdminTaskManager.cpp:224] waiting for incoming task
+I20240430 07:49:51.710075     1 AdminTaskManager.cpp:40] exit AdminTaskManager::init()
+I20240430 07:49:51.733696     1 MemoryUtils.cpp:171] MemoryTracker set static ratio: 0.8
+I20240430 07:49:53.303629    68 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:53.303725    68 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 10 space
+I20240430 07:49:53.303795    68 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240430 07:49:53.303800    68 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:54.405637    68 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:54.405751    68 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 10 space
+I20240430 07:49:54.405848    68 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240430 07:49:54.405853    68 MetaClient.cpp:3269] Load leader ok
+I20240430 07:49:55.511161    68 MetaClient.cpp:3263] Load leader of "172.28.2.1":9779 in 63 space
+I20240430 07:49:55.511286    68 MetaClient.cpp:3263] Load leader of "172.28.2.2":9779 in 10 space
+I20240430 07:49:55.511374    68 MetaClient.cpp:3263] Load leader of "172.28.2.3":9779 in 10 space
+I20240430 07:49:55.511379    68 MetaClient.cpp:3269] Load leader ok
