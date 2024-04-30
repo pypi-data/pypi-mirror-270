@@ -1,0 +1,8 @@
+openai
+anthropic
+groq
+python-dotenv
+pyperclip
+wheel
+art
+loguru
