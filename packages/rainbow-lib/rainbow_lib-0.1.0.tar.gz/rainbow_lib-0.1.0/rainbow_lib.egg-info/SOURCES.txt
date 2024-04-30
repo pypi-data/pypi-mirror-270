@@ -1,0 +1,8 @@
+README.md
+setup.py
+rainbow_lib.egg-info/PKG-INFO
+rainbow_lib.egg-info/SOURCES.txt
+rainbow_lib.egg-info/dependency_links.txt
+rainbow_lib.egg-info/requires.txt
+rainbow_lib.egg-info/top_level.txt
+tests/test_wrapper.py
