@@ -1,0 +1,6 @@
+setuptools
+webresource
+yafowil>2.2.99
+
+[test]
+coverage
