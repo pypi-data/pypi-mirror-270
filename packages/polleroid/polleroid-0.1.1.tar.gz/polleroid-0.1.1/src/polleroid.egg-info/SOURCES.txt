@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/polleroid/__init__.py
+src/polleroid/__main__.py
+src/polleroid.egg-info/PKG-INFO
+src/polleroid.egg-info/SOURCES.txt
+src/polleroid.egg-info/dependency_links.txt
+src/polleroid.egg-info/requires.txt
+src/polleroid.egg-info/top_level.txt
