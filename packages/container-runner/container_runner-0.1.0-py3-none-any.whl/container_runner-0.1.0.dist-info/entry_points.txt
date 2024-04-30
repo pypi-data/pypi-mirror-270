@@ -1,0 +1,3 @@
+[console_scripts]
+container_runner=container_runner.cli:cli
+
