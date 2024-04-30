@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gitpoll
+Version: 0.1.0
+Summary: A tool to watch a GitHub repository for changes and perform actions before and after pulling updates.
+Author-email: Cary Carter <ccarterdev@gmail.com>
+Project-URL: Homepage, https://github.com/cc-d/gitpoll
+Project-URL: Repository, https://github.com/cc-d/gitpoll
+Project-URL: Issues, https://github.com/cc-d/gitpoll/issues
+Project-URL: Documentation, https://github.com/cc-d/gitpoll
+Project-URL: Changelog, https://github.com/cc-d/gitpoll/blob/main/CHANGELOG.md
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gitpoll
+
+watches a github repo for changes and if so performs a series of actions pre/post commit
