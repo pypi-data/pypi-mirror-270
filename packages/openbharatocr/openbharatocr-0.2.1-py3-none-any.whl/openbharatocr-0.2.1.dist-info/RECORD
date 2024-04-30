@@ -1,0 +1,14 @@
+openbharatocr/__init__.py,sha256=tiCH_TJAAVK9GE3_j2ky9Pymkc2zabo19FsyRvZdOUU,411
+openbharatocr/ocr/__init__.py,sha256=Os0UXxzgaB0XjD-gLjQT63nkbQBM5Xze_3KIxxtn-II,71
+openbharatocr/ocr/aadhaar.py,sha256=wkEDAwCTgAHB-7T34TYgpbhUQQZ1x_D7j-pK2ZVGWFc,2547
+openbharatocr/ocr/api.py,sha256=98LIILK-QP4yRuBIn78HZXJCr24pGmFE4HxTkDJKiWw,283
+openbharatocr/ocr/common.py,sha256=NhYJuiRvcBaVaYaLBiqAELC7cForYvT-a2d-756cQyQ,72
+openbharatocr/ocr/driving_licence.py,sha256=geRi6XPBnnkHvZoEjg_x7EK-BQ531zAFxFVkUWaNUbU,5980
+openbharatocr/ocr/pan.py,sha256=MnpYWj0leMt8Hm5SISc5sYGGAr5mYXB3Mn3t5uXsFrc,2123
+openbharatocr/ocr/passport.py,sha256=FSBWSfg9rDVRiGgnCw1pNzssVxZCUGPiKm52QSFk8kc,3985
+openbharatocr/ocr/voter_id.py,sha256=tL7oewOB7RqY-AAiZ9SIB3CSgyO3T939GJXYvgxqU3c,6392
+openbharatocr-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openbharatocr-0.2.1.dist-info/METADATA,sha256=dkdU60Ac7TaKc6B7qlKxPVZb3RA9UdQgLMCyHPT6GWE,3128
+openbharatocr-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+openbharatocr-0.2.1.dist-info/top_level.txt,sha256=whmmV-CuzLgiRhS5fwe9GA4593c7RHDNmaD7PucnQHc,14
+openbharatocr-0.2.1.dist-info/RECORD,,
