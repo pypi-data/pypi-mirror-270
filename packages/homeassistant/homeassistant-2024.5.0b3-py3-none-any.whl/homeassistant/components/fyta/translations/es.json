@@ -1,0 +1,54 @@
+{
+    "entity": {
+        "sensor": {
+            "light_status": {
+                "state": {
+                    "high": "Alta",
+                    "low": "Baja",
+                    "no_data": "Sin datos",
+                    "perfect": "Perfecta",
+                    "too_high": "Demasiado alta",
+                    "too_low": "Demasiado baja"
+                }
+            },
+            "moisture_status": {
+                "state": {
+                    "high": "Alta",
+                    "low": "Baja",
+                    "no_data": "Sin datos",
+                    "perfect": "Perfecta",
+                    "too_high": "Demasiado alta",
+                    "too_low": "Demasiado baja"
+                }
+            },
+            "plant_status": {
+                "state": {
+                    "deleted": "Eliminado",
+                    "doing_great": "Muy bien",
+                    "need_attention": "Necesita atenci\u00f3n",
+                    "no_sensor": "Sin sensor"
+                }
+            },
+            "salinity_status": {
+                "state": {
+                    "high": "Alta",
+                    "low": "Baja",
+                    "no_data": "Sin datos",
+                    "perfect": "Perfecta",
+                    "too_high": "Demasiado alta",
+                    "too_low": "Demasiado baja"
+                }
+            },
+            "temperature_status": {
+                "state": {
+                    "high": "Alta",
+                    "low": "Baja",
+                    "no_data": "Sin datos",
+                    "perfect": "Perfecta",
+                    "too_high": "Demasiado alta",
+                    "too_low": "Demasiado baja"
+                }
+            }
+        }
+    }
+}
