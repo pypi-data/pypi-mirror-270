@@ -1,0 +1,42 @@
+name: Continuous integration testing
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  run_tests:
+
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.9', '3.10']
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install cryoDRGN with dev dependencies
+        run: |
+          python3 -m pip install .[dev]
+
+      - name: Pre-commit checks
+        run: |
+          pre-commit run --all-files --show-diff-on-failure
+
+      - name: Pyright
+        run: |
+          pyright --version
+          #pyright
+
+      - name: Pytest
+        run: |
+          pytest -v
