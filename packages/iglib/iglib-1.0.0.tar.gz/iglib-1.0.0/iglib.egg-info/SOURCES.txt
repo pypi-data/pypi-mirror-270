@@ -1,0 +1,9 @@
+README.md
+setup.py
+iglib/__init__.py
+iglib/flowerscript.py
+iglib/igarchive.py
+iglib.egg-info/PKG-INFO
+iglib.egg-info/SOURCES.txt
+iglib.egg-info/dependency_links.txt
+iglib.egg-info/top_level.txt
