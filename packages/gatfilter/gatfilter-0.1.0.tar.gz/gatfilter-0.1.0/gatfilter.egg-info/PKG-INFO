@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gatfilter
+Version: 0.1.0
+Summary: A library for filtering augment text based on geometric properties
+Home-page: https://github.com/SherryFeng123/gatfilter
+Author: Sherry J.H Feng
+Author-email: xxh8511@autuni.ac.nz
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: nltk
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: scipy

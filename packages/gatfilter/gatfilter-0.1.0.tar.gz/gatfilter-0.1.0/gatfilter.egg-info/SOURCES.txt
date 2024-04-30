@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gatfilter/__init__.py
+gatfilter/gatfilter.py
+gatfilter.egg-info/PKG-INFO
+gatfilter.egg-info/SOURCES.txt
+gatfilter.egg-info/dependency_links.txt
+gatfilter.egg-info/requires.txt
+gatfilter.egg-info/top_level.txt
+tests/test_gatfilter.py
