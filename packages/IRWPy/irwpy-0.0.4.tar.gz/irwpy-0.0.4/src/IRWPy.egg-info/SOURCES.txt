@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/IRWPy/__init__.py
+src/IRWPy.egg-info/PKG-INFO
+src/IRWPy.egg-info/SOURCES.txt
+src/IRWPy.egg-info/dependency_links.txt
+src/IRWPy.egg-info/top_level.txt
