@@ -1,0 +1,8 @@
+python-sql
+trytond_account_invoice_line_standalone<7.3,>=7.2
+trytond_party<7.3,>=7.2
+trytond_purchase<7.3,>=7.2
+trytond<7.3,>=7.2
+
+[test]
+proteus<7.3,>=7.2
