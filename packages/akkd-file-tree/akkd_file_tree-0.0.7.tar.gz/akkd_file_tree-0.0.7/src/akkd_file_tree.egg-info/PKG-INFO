@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: akkd-file-tree
+Version: 0.0.7
+Summary: Prints directory structure in a pretty format
+Home-page: https://github.com/93Akkord/file-tree
+Author: Michael Barros
+Author-email: michaelcbarros@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/93Akkord/file-tree/
+Project-URL: Source, https://github.com/93Akkord/file-tree/
+Project-URL: Tracker, https://github.com/93Akkord/file-tree/issues
+Project-URL: Download, https://pypi.org/project/akkd-file-tree/#files
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.txt
+License-File: AUTHORS.md
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+
+# file-tree
+
+## Description
+
+todo: add description
