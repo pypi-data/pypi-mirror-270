@@ -1,0 +1,13 @@
+napari_conidie/__init__.py,sha256=M5vvF1fu78uHKgBS6DCjMYwna3ISpgjTWk2YccGh7pc,191
+napari_conidie/_widget.py,sha256=dX0k8qO0f-lDoTB2fAO4jLNKiIMs3P6Hu9186VNP5Ww,20449
+napari_conidie/ilastik_search.py,sha256=P_LIWgakPL-WUh2dckWsoWoJY87E9SpqroPf-rhpXyI,1191
+napari_conidie/napari.yaml,sha256=iE24_gH-uG6KjCfRWj9zX5i3C_Pvw2WmQ4qHZz_JCkM,591
+napari_conidie/path.py,sha256=YxdfhVJ2mNPaihtXoeiGzXnEiR5izSay4BRU5rxu7og,413
+napari_conidie/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_conidie/_tests/test_widget.py,sha256=x_lIuG3sQSu6fDCnCw6xVy_PL5ipLYbS8XYTgps9P6c,84
+napari_conidie-1.0.1.dist-info/LICENSE,sha256=B5wZElgfVFNW392rz8sVVD9tlznHklVyhpJyNgnmwKE,1520
+napari_conidie-1.0.1.dist-info/METADATA,sha256=pJ9zdjVJEM1HL7Ul-6O043dBpzqvYmPtkE_8eNJev3w,5451
+napari_conidie-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+napari_conidie-1.0.1.dist-info/entry_points.txt,sha256=JcNHni_lpnzB3NR9P2a9Qo4NPOkC2kCvS4eTzTnd1wA,62
+napari_conidie-1.0.1.dist-info/top_level.txt,sha256=S6uLurZBLh5WHVSlUxME6JufIyu9_GtAqFIW0vGPjK0,15
+napari_conidie-1.0.1.dist-info/RECORD,,
