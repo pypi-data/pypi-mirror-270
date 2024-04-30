@@ -1,0 +1,2 @@
+pythoncrc==1.21
+crccheck>=0.6
