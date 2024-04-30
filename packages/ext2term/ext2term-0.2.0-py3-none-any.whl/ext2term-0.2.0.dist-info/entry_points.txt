@@ -1,0 +1,2 @@
+[console_scripts]
+ext2term = ext2term.cli:main
