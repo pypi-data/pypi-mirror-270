@@ -1,0 +1,5 @@
+[console_scripts]
+DataMLModels = DataAnalysis_Package:Run_MLModels
+DataPreproccessing = DataAnalysis_Package:DataPreProcessing
+DataStatisticalAnalysis = DataAnalysis_Package:data_analysis
+DataVisualization = DataAnalysis_Package:data_visual
