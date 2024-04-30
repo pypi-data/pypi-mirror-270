@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+termux-music
+termux_music.egg-info/PKG-INFO
+termux_music.egg-info/SOURCES.txt
+termux_music.egg-info/dependency_links.txt
+termux_music.egg-info/requires.txt
+termux_music.egg-info/top_level.txt
