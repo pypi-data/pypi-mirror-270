@@ -1,0 +1,6 @@
+click
+requests
+colorama
+GPUtil
+psutil
+keyring
