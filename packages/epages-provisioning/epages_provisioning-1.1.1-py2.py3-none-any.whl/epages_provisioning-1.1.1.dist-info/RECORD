@@ -1,0 +1,10 @@
+epages_provisioning/__init__.py,sha256=1r_hnOH9NLCoO2VHY3yzIYxhyP5FeWktk0-vtQPqbkA,216
+epages_provisioning/provisioning.py,sha256=xi2PJQDEmR2SLG1W0WVPPhaqwAGcOZnYIMVU-99xfFg,13875
+epages_provisioning/shop.py,sha256=TsA3jzCjIVGrzq2QO02BweMDwrpIpsOrTdHKwVVkAtk,7996
+epages_provisioning/zeep_utils.py,sha256=fzooR51tS9-hgmsfAIw7DcS4E1KJ3stWIl5Z1TTT2LQ,5612
+epages_provisioning-1.1.1.dist-info/AUTHORS.rst,sha256=Q2E_OgvAzu15ctNelh7197sud8eghiZwummqWcWcpls,158
+epages_provisioning-1.1.1.dist-info/LICENSE,sha256=8kMIr4sAm5cDaOg2AH4F_jC6ztBTINRwFSpU5rmdYgU,1071
+epages_provisioning-1.1.1.dist-info/METADATA,sha256=btFDYMHWQsdNgMBBbTBEGm0L5ApMYW__06U14MN_Bwc,3787
+epages_provisioning-1.1.1.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+epages_provisioning-1.1.1.dist-info/top_level.txt,sha256=tZlx222OQw-Rg89gTe2rJoGBw4z3LruHcDMZyNg6dWs,20
+epages_provisioning-1.1.1.dist-info/RECORD,,
