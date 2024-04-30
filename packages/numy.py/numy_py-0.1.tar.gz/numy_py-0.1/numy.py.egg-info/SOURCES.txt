@@ -1,0 +1,10 @@
+README.md
+numy.py
+pyproject.toml
+setup.py
+numy.py.egg-info/PKG-INFO
+numy.py.egg-info/SOURCES.txt
+numy.py.egg-info/dependency_links.txt
+numy.py.egg-info/top_level.txt
+test/__init__.py
+test/numy.py
