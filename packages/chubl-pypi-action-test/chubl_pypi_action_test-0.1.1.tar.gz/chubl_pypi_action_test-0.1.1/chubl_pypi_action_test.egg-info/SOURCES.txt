@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chubl_pypi_action_test/__init__.py
+chubl_pypi_action_test/module.py
+chubl_pypi_action_test.egg-info/PKG-INFO
+chubl_pypi_action_test.egg-info/SOURCES.txt
+chubl_pypi_action_test.egg-info/dependency_links.txt
+chubl_pypi_action_test.egg-info/top_level.txt
