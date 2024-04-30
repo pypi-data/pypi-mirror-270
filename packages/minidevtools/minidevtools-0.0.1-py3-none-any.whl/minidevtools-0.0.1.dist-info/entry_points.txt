@@ -1,0 +1,3 @@
+[console_scripts]
+mdt=minidevtools.cli:app
+
