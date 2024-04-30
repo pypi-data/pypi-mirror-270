@@ -1,0 +1,16 @@
+[project]
+name = "IRWPy"
+version = "0.0.3"
+authors = [
+  { name="Bahnam Sadeghi", email="z5218858@zmail.unsw.edu.au" },
+  { name="Ahmed Eleish", email="ahmedmorad@gmail.com" },
+]
+description = "Inverse Radius Weighting Interpolation"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research"
+]
