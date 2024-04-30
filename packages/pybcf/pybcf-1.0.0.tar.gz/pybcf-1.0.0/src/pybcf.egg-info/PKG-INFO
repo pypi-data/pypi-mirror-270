@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pybcf
+Version: 1.0.0
+Summary: Package for loading data from bcf files
+Home-page: https://github.com/jeremymcrae/pybcf
+Author: Jeremy McRae
+Author-email: jmcrae@illumina.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: pysam; extra == "test"
+
+
+### pybcf
+
+This is a package for reading BCF files (binary call format). Similar to pysam/cyvcf2, but limited to reading from BCF files only, and oriented around getting genotype data into numpy arrays quickly.
+
+'''py
+from pybcf import BcfReader
+
+bcf = BcfReader(bcf_path)
+
+for var in bcf:
+    # the usual attributes are available e.g.
+    # var.chrom, var.pos, var.ref, var.alts, var.info['AF']
+    
+    # get genotypes as numpy array
+    genotypes = var.samples['GT']  # as numpy array, missing=-1
+'''
+
+### Limitations
+ - can't fetch variants from random regions yet
+ - not extensively tested yet
+ - extracting info fields is slow at the moment
