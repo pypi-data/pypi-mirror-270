@@ -1,0 +1,2 @@
+[sqlalchemy.dialects]
+dremio = sqlalchemy_dremio.pyodbc:DremioDialect_pyodbc
