@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: pikobs
+Version: 2.0.6
+Summary: radvelso's tools for superobs
+Home-page: https://gitlab.science.gc.ca/dlo001/pikobs
+Author: David Lobon
+Author-email: dhlobon@gmail.com
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: cartopy (>=0.18.0)
+Requires-Dist: h5py
+Requires-Dist: packaging
+Requires-Dist: pygrib
+Requires-Dist: domutils
+Requires-Dist: dask
+Requires-Dist: scipy
+Requires-Dist: pytz
+
+## Installation 
+~~~bash
+git clone https://gitlab.science.gc.ca/dlo001/radvelso.git
+~~~
+     
+## Summary
+
+Radvelso is a utility designed to launch computations of average volume scans, perform dealiasing on radar data, and potentially run these processes in parallel. It provides the ability to process radar data and generate average SQLite files for MIDAS feeding.
+
+## Parameters and Options
+
+### Required Parameters
+
+- `assim_T0`: Datetime object - Central time of the assimilation window.
+- `assim_window_width`: Float - Width of the assimilation window in hours.
+- `desired_radar_list`: List - List of radars to be processed.
+- `infile_list`: List - List of input files to be superobbed.
+- `pathout`: Str - Output directory to store the average SQLite files.
+- `outfile_struc`: Str - Output file name structure; will be passed to strftime.
+- `ops_run_name`: Str - Operational run name.
+- `n_rays`: Int - Number of rays.
+- `delta_range`: Float - Delta range of the boxes.
+- `n_cpus`: Int - Number of CPUs for parallel execution. If `n_cpus=1`, jobs are launched sequentially, and Dask is not invoked.
+- `obs_percentage`: Float - Percentage of observations within the box to be averaged.
+- `obs_nyquist`: Float - Maximum Nyquist rate to process AVG+dealiases.
+- `model_outputs_for_dealiasing`: Str - Path containing the fst files with the model winds. Setting this path will trigger dealiasing.
+- `model_files_search_pattern`: Str - Search pattern.
+- `mode_cluster`: Bool - Flag indicating calculation within a cluster.
+- `mode_qsub`: Bool - Flag indicating calculation with qsub.
+
+### Optional Parameters
+
+- `thinning`: Str - A description of the thinning process.
+- `outfile_struc_thinning`: Str - The structure of the output file name for thinning, which will be passed to strftime.
+- `delta_time_thinning_min`: Float - The time interval for thinning in minutes.
+- `delta_distance_neighbours_m`: Float - The delta distance for neighbors in meters.
+- `delta_height_vertical_m`: Float - The delta of height in the vertical in meters.
+- `delta_distance_couple_m`: Float - The delta distance for coupling in meters.
+- `joinsqlitefiles`: Str - A description of joining SQLite files.
+
+## Unit Testing for Validating Average and Thinning Coding Changes
+
+This project aims to perform unit tests to validate changes in the code related to average and thinning coding. Before running the tests, make sure to download the necessary data using the `download_test.sh` script.
+
+### Data Download
+
+To obtain the required data, execute the following command in your terminal:
+
+```bash
+./download_test.sh
+```
+To run the unit tests, use the following commands:
+
+```bash
+python unittest_superobs.py TestMethods.test_qcavgobsdb_data
+python unittest_superobs.py TestMethods.test_thinning_data
+```
+
+# Requirements
+
+- numpy = 1.21.5
+- dask  = 2022.9.1
+- domutils = 2.1.0
+- xarray (importado como xr) = 2022.11.0
+- joblib = 1.3.1
+- domcmc = 2.1.1
+- dask.distributed.Client = 2022.7.0
