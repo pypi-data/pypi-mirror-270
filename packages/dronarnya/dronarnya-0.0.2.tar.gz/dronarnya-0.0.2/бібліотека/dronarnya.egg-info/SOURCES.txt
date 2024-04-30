@@ -1,0 +1,13 @@
+README.md
+setup.py
+бібліотека/dronarnya.egg-info/PKG-INFO
+бібліотека/dronarnya.egg-info/SOURCES.txt
+бібліотека/dronarnya.egg-info/dependency_links.txt
+бібліотека/dronarnya.egg-info/requires.txt
+бібліотека/dronarnya.egg-info/top_level.txt
+бібліотека/дронарня/__init__.py
+бібліотека/дронарня/lib.py
+бібліотека/дронарня/mavlink.py
+бібліотека/дронарня/origin.py
+бібліотека/дронарня/util.py
+бібліотека/дронарня/функції.py
