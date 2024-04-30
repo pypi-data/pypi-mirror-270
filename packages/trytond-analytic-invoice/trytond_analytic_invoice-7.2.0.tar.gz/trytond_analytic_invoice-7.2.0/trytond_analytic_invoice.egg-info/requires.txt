@@ -1,0 +1,8 @@
+trytond_account_invoice<7.3,>=7.2
+trytond_analytic_account<7.3,>=7.2
+trytond<7.3,>=7.2
+
+[test]
+proteus<7.3,>=7.2
+trytond_account_asset<7.3,>=7.2
+trytond_account_invoice_defer<7.3,>=7.2
