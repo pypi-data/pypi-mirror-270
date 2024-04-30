@@ -1,0 +1,17 @@
+__pycache__
+.venv/
+.vscode
+.DS_Store
+.*.swp
+.*.swo
+*.pyc
+*.so
+/dist
+*.egg-info
+/env
+.idea
+.ipynb*
+riscv-opcodes
+tests/riscof_work
+tests/riscv-arch-test
+tests/riscv-tests
