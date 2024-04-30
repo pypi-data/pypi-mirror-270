@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zfx
+Version: 20240430rc0
+Summary: 自用
+Home-page: 
+Author: zengfengxiang
+Author-email: 424491679@qq.com
+Requires-Dist: requests
+Requires-Dist: pyperclip
+Requires-Dist: pystray
