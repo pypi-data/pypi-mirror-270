@@ -1,0 +1,7 @@
+boto3
+dclab[s3]>=0.58.6
+
+[tests]
+requests
+requests_toolbelt
+pytest
