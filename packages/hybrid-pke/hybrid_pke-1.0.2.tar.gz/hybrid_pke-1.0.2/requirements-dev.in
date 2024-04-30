@@ -1,0 +1,6 @@
+absl-py
+ruff
+isort
+maturin
+pytest>=7.2
+pytest-xdist
