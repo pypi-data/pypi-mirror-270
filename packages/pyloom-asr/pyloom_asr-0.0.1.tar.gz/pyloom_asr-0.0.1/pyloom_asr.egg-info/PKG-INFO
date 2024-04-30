@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyloom_asr
+Version: 0.0.1
+Summary: Advanced real-time voice processing library using Whisper and Silero models
+Home-page: https://github.com/dibyapp/pyloom-asr
+Author: Dibyaprakash
+Author-email: dibyapp@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: scipy
+Requires-Dist: faster-whisper
+Requires-Dist: pvporcupine
+Requires-Dist: webrtcvad
+Requires-Dist: pyaudio
+Requires-Dist: halo
+Requires-Dist: numpy
+
+# PyloomASR
+
+PyloomASR is an advanced real-time voice processing library that leverages models like Whisper and Silero for voice recognition and processing.
+
+## Features
+
+- Real-time voice transcription.
+- Wake word detection.
+- Voice activity detection with multiple sensitivity settings.
+
+## Installation
+
+Install PyloomASR using pip:
+
+```bash
+pip install pyloom_asr

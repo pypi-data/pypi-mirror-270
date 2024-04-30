@@ -1,0 +1,8 @@
+torch
+scipy
+faster-whisper
+pvporcupine
+webrtcvad
+pyaudio
+halo
+numpy
