@@ -1,0 +1,12 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+src/docstub/__init__.py
+src/docstub/_version.py
+src/docstub.egg-info/PKG-INFO
+src/docstub.egg-info/SOURCES.txt
+src/docstub.egg-info/dependency_links.txt
+src/docstub.egg-info/requires.txt
+src/docstub.egg-info/top_level.txt
