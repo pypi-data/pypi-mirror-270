@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="/static/css/editor.css">
+</head>
+
+<body>
+    <div id="editor">
+        <div class="controls">
+            <a class="btn" href="/" id="home"><i class="material-icons">home</i> Home</a>
+            <button id="import"><i class="material-icons">cloud</i> Import Script</button>
+            <button id="download"><i class="material-icons">download</i> Download</button>
+            <button id="save"><i class="material-icons">save</i> Save</button>
+            <div style="flex-grow: 1;"></div>
+            <button id="run">
+                {% if is_running %}
+                <i class="material-icons">stop</i> Stop Bot
+                {% else %}
+                <i class="material-icons">play_arrow</i> Run Bot
+                {% endif %}
+            </button>
+        </div>
+        <div id="blockly-div"></div>
+        <pre id="console"></pre>
+    </div>
+
+    <div class="dialog">
+        <div class="content">
+            <textarea id="code"></textarea>
+            <button id="close">Close</button>
+        </div>
+    </div>
+
+    <div id="code" style="display: none;"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="/static/dist/bundle.min.js"></script>
+    <script src="/static/dist/editor.min.js"></script>
+
+    <script>
+        const codeData = "{{ workspace }}";
+        const uid = "{{ uid }}";
+
+        document.querySelector("#close").addEventListener("click", e => {
+            document.querySelector(".dialog").style.display = "none";
+        }, false)
+
+        document.querySelector("#run").addEventListener("click", e => {
+            if (document.querySelector("#run").textContent.indexOf("Run Bot") > -1) {
+                fetch("/run/" + uid).then(r => {
+                    r.text()
+                }).then(text => {
+                    console.log(text)
+                }).catch(err => {
+                    console.error(err)
+                })
+            } else {
+                fetch("/stop/" + uid).then(r => {
+                    r.text()
+                }).then(text => {
+                    console.log(text)
+                }).catch(err => {
+                    console.error(err)
+                })
+            }
+        }, false)
+
+        function clickElem(elem) {
+            var eventMouse = document.createEvent("MouseEvents")
+            eventMouse.initMouseEvent("click", true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
+            elem.dispatchEvent(eventMouse)
+        }
+
+        function openFile(func) {
+            readFile = function (e) {
+                var file = e.target.files[0];
+                if (!file) {
+                    return;
+                }
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var contents = e.target.result;
+                    fileInput.func(contents)
+                    document.body.removeChild(fileInput)
+                }
+                reader.readAsText(file)
+            }
+            fileInput = document.createElement("input")
+            fileInput.type = 'file'
+            fileInput.style.display = 'none'
+            fileInput.onchange = readFile
+            fileInput.func = func
+            document.body.appendChild(fileInput)
+            clickElem(fileInput)
+        }
+
+        document.querySelector("#import").addEventListener("click", e => {
+            workspace.clear();
+            openFile(data => {
+                Gumify.import(data);
+            })
+        }, false)
+
+        function download(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+
+            element.style.display = 'none';
+            document.body.appendChild(element);
+
+            element.click();
+
+            document.body.removeChild(element);
+        }
+
+        function save() {
+            let data = btoa(JSON.stringify(Gumify.generate()));
+            let formData = new FormData();
+            formData.append("uid", uid);
+            formData.append("content", data);
+            fetch("/save", {
+                method: "POST",
+                body: formData
+            })
+            .then(r => r.text())
+            .then(text => {
+                if (text == "ok") {
+                    alert("Script saved")
+                } else {
+                    alert("Unable to save the script")
+                }
+            })
+            .catch(err => alert(err));
+        }
+
+        document.querySelector("#save").addEventListener("click", e => {
+            save()
+        })
+
+        document.querySelector("#download").addEventListener("click", e => {
+            let data = btoa(JSON.stringify(Gumify.generate()));
+            download("bot.tel", data)
+
+            var code = Blockly.JavaScript.workspaceToCode(workspace)
+            var output = btoa(JSON.stringify(Gumify.generate()))
+            console.log(code)
+            localStorage.setItem("xml", Blockly.Xml.domToText(Blockly.Xml.workspaceToDom(workspace)))
+        }, false)
+
+        if (codeData != "None") {
+            workspace.clear();
+            Gumify.import(codeData);
+        }
+
+
+        var socket = io();
+
+        socket.on(uid, function(msg) {
+            console.log(msg)
+            let consoleEl = document.querySelector("#console")
+            consoleEl.textContent += `${msg}\n`
+            consoleEl.scrollTop = consoleEl.scrollHeight;
+        });
+        
+        socket.on("is_running_" + uid, function(msg) {
+            if (msg == "running") {
+                document.querySelector("#run").innerHTML = `<i class="material-icons">stop</i> Stop Bot`
+            } else {
+                document.querySelector("#run").innerHTML = `<i class="material-icons">play_arrow</i> Run Bot`
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: #3C3A38;
+    color: #eee;
+}
+
+.wrap {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+
+
+.script {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.script .controls {
+    background-color: transparent;
+    padding: 20px 0 0 0;
+}
+
+.script .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
