@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+couchdb_client/__init__.py,sha256=xl_fKlrzKE_YIcn4J6KmpFk3xh4Xl6rW_I6XSK9bcE8,60
+couchdb_client/couchdb.py,sha256=d96fH3wZNukZwwCcH5vZX4Wly8BEs22YnlCIKWamxEk,1807
+couchdb_client/document.py,sha256=y1H-qJ4ltpZH1wNlvcEPgAG0WBynUTAn8xYcn2KGW6Y,1103
+couchdb_client/example.py,sha256=ZmZOuj_c6XEXiPBkIcajICzU3LPCi1ZqIu2p63o70c4,580
+couchdb_client-1.0.1.dist-info/LICENSE,sha256=jI7az9Losh6jxGjYWY8OP771vzAilxMzFsm-WgXE7z0,1055
+couchdb_client-1.0.1.dist-info/METADATA,sha256=KY0z9S2EyR7dQUoPr4nbE8ZPG6QMb0_4QBTQSv3cuHg,1111
+couchdb_client-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+couchdb_client-1.0.1.dist-info/top_level.txt,sha256=uHx0JDiKrvLmCRAZAX58693YMh4vPI-3wKj-yQZaC98,24
+couchdb_client-1.0.1.dist-info/RECORD,,
