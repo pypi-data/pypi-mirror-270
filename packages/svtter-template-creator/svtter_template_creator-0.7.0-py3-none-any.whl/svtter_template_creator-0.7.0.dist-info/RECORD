@@ -1,0 +1,12 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svtter_template_creator/__init__.py,sha256=BcDooso_95mxBKQjiTsaUI4mrlqcSqor3ZVIj6rfg30,23
+svtter_template_creator/__main__.py,sha256=aaqHCaOVUGWACjZKpMahCw5W6VkDnujE_GzyESLqkYA,1690
+svtter_template_creator/lib.py,sha256=1FvXZMmyPvqrXdnzVQu3Yrk9QtpJYSy1Fne2dFziyOc,1241
+svtter_template_creator/repl.py,sha256=HiR2wzGx2mKtMFpB60IZslnA2Tu5-R84vg4r-hBrx9I,1377
+svtter_template_creator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svtter_template_creator/utils.py,sha256=M_reTDmTdgSPcRcvysGTep1A4N0NREeqJ1gT6IYtORs,854
+svtter_template_creator-0.7.0.dist-info/entry_points.txt,sha256=Nd4e9O93o35yPoR3r4YOLnEWvgxPTyDSVryY725m5PM,59
+svtter_template_creator-0.7.0.dist-info/LICENSE,sha256=ZzD0oRuKDkdM5J3FnRK-ckCsMoNVpYTB4RdU8sbh5Vg,1087
+svtter_template_creator-0.7.0.dist-info/METADATA,sha256=_vWrMvEyR6-0wJRx7Mr9TmSr4YpSey4vH7QEDzNEyYU,1206
+svtter_template_creator-0.7.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+svtter_template_creator-0.7.0.dist-info/RECORD,,
