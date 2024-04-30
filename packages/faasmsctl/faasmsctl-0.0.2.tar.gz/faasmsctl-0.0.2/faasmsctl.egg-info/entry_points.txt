@@ -1,0 +1,2 @@
+[console_scripts]
+faasmsctl = faasmctl.main:main
