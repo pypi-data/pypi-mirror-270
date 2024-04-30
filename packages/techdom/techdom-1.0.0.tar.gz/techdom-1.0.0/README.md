@@ -1,0 +1,29 @@
+# Simple Techdom Library
+
+## Description
+This Python library is meant to be used as a convenient way to get started developing techdom programs. 
+
+I made this library since I personally found it time-consuming to get started doing basic things related to techdom. Therefore I  have gathered a selection of functions that should be useful to have on top of an already existing idea. 
+
+The aim is to allow techdoms to focus more on their core idea by providing an easy to use library that aids with visuals and other nice-to-haves that aren't directly related to their original idea.
+
+## Features
+
+* Display images at a random place on the monitor (just like edgeware)
+* Disable the sub's mouse and keyboard
+* Hide settings on the subs computer
+* Hide files and folders
+
+* And much more!
+
+## How to install
+
+This library is published on pip and can therefore be installed by typing `pip install techdom`
+
+## Documentation
+
+Documentation can be found [here](https://github.com/FranklyShovelTrap/TechdomLibrary/wiki)
+
+## Credits
+
+Some of the code has been taken from the Edgeware++ project which you can find here: https://github.com/TheoWinters/EdgewarePlusPlus
