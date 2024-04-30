@@ -1,0 +1,6 @@
+pydantic
+networkx
+matplotlib
+beartype
+rich
+ipython
