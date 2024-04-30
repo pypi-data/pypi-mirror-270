@@ -1,0 +1,4 @@
+include README.rst
+include LICENSE
+include tox.ini
+recursive-include src *.py *.h *.c
