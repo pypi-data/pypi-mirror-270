@@ -1,0 +1,14 @@
+sparse/__init__.py,sha256=AJR1XSVVPCUOeyPm8F3BpLVQCZPCbA3N_2H297Zevdw,83
+sparse/base.py,sha256=y3KuQs1-GJ3aRAsydafTAh37GT4kVWL02OteCkjHlcE,7203
+sparse/cat.py,sha256=3aiylWKgftFqj4hvisHK3WUmkYBTI4gRSpD2MeOKDyI,3647
+sparse/indexing.py,sha256=_yJhutd_MnDMo2BkfoLDVchc-y-W8fyZkqbJPvghAhs,456
+sparse/mask.py,sha256=kwFFeRQW0CXUT1PQN7qPeccwuj4gW-0dX75AIlJ-h5Q,513
+sparse/ops.py,sha256=mepRRJXX47j4ZEbCwj_Yb9tDiz_4n2FCr3rNlP9Jrss,8257
+sparse/scatter.py,sha256=y-yxp2U2Jd5rWfjPKbza6mee9n3yKxrWruAPx5E9OQE,3252
+sparse/shape.py,sha256=rqgRNFLRAxxbECDwHySqufu77yxzBSeAq8Gq5r4AU0Q,3545
+sparse/sparse.py,sha256=DoOAdQKFPEoU2g69LOCy1DdJmLbahDTaTabkJJqu9b8,482
+sparse/type.py,sha256=fJlqc71FfsVZOjdf_I7D98revgqnEfb5e9wrLFMKorE,784
+sparse/typing.py,sha256=JniyDX9ivlfR4yguGOMiQ4dlJd64XSpXWj5koH8tx90,71
+torch_sparse_tensor-0.1.0.dist-info/METADATA,sha256=7bKuaexdaSECadAXEcKG6BKx26J2pxn__4zcEMMKr4I,523
+torch_sparse_tensor-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+torch_sparse_tensor-0.1.0.dist-info/RECORD,,
