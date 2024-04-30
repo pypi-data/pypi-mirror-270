@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/raster_zonal_stats/__init__.py
+src/raster_zonal_stats/raster_zonal_stats.py
+src/raster_zonal_stats.egg-info/PKG-INFO
+src/raster_zonal_stats.egg-info/SOURCES.txt
+src/raster_zonal_stats.egg-info/dependency_links.txt
+src/raster_zonal_stats.egg-info/top_level.txt
