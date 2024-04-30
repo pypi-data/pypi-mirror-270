@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: torch-sparse-tensor
+Version: 0.1.0
+Summary: A sparse tensor framework for Pytorch.
+Author: Astrid Klipfel
+Author-email: astridklipfel@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: torch (>=2,<3)
+Description-Content-Type: text/markdown
+
+# PyTorch Sparse Tensors
+
+A small package that implements the basic sparse tensor of any dimension.
+
