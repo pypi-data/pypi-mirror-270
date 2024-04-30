@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: clubbi-json
+Version: 0.1.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+Este pacote tem como finalidade facilitar a serialização e desserialização de JSON
