@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "edgegap-scheduling"
+version = "0.1.1"
+description = "The Edgegap Scheduling library includes various tools and helpers for helping with Scheduling Task. It is designed for use within the Edgegap organization."
+authors = ["Bastien Roy <bastien@edgegap.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.7.1"
+pytimeparse = "^1.1.8"
+edgegap-logging = "^0.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
