@@ -1,0 +1,10 @@
+cloudaciousIAC/Auth.py,sha256=Uq6MlN3-dBLJt6kCGGi7wu66A975tBNZusZ7N_poV4k,722
+cloudaciousIAC/ContainerImages.py,sha256=Nm70ohe-DmhQR8NdBn1d_WA25c9bdseFLR-55VLghMI,4107
+cloudaciousIAC/LambdaFunction.py,sha256=gXGKwmG31YUupsoNjtJtJny4uEfkH8Sjq-NorrvcpLs,2995
+cloudaciousIAC/Naming.py,sha256=TXqaRHA-Fzsc75lmI9V2-CMQHXIxZezsJXIrtl5cU84,1361
+cloudaciousIAC/README.md,sha256=B480C3DDyJwoGJetaLvgODslqo0U9xyZCGAanJ41oNw,618
+cloudaciousIAC/StackInfo.py,sha256=irplJcslZmV4qzJG6Aven1kD1xvxrEg74Mz4Fy-o13U,2513
+cloudaciousIAC/WebhookHandler.py,sha256=LBulE5K6Ij1HgY0elxMWHmLjuYLMulMI8tDGPc2HUzU,13867
+cloudaciousiac-0.0.7.dist-info/METADATA,sha256=_9_bhHwu75JzxPdEbhik7VYBh2MTM2SLyLKdlyWlEOY,58
+cloudaciousiac-0.0.7.dist-info/WHEEL,sha256=cDcbFFSNXOE-241I5PFuLkIYfR_FM7WTlPEi33njInY,105
+cloudaciousiac-0.0.7.dist-info/RECORD,,
