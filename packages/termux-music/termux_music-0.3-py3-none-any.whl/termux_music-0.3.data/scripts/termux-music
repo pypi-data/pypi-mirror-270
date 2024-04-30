@@ -1,0 +1,53 @@
+#!python
+
+import os
+import sys
+from pytube import YouTube
+
+TERMUX_MUSIC_PATH = "/data/data/com.termux/files/usr/lib/termux-music"
+
+def download_music(url, name):
+    if not url or not name:
+        print("Bitte gib eine URL und einen Namen an.")
+        sys.exit(1)
+
+    try:
+        os.makedirs(f"{TERMUX_MUSIC_PATH}/{name}", exist_ok=True)
+        os.chdir(f"{TERMUX_MUSIC_PATH}/{name}")
+        YouTube(url).streams.filter(only_audio=True).first().download(filename=name)
+        for file in os.listdir():
+            if '.mp4' in file:
+                os.rename(file, file.replace('.mp4', '.mp3'))
+                os.system(f"mv {name} {name}.mp3")
+                break
+    except Exception as e:
+        print(f"Fehler: {e}")
+        sys.exit(1)
+
+def start_music(name):
+    if not name:
+        print("Bitte gib einen Namen an.")
+        sys.exit(1)
+
+    try:
+        os.system(f"termux-media-player play {TERMUX_MUSIC_PATH}/{name}/{name}.mp3")
+    except Exception as e:
+        print(f"Fehler: {e}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    CMD = sys.argv[1]
+
+    if CMD in ["--download", "-d", "download"]:
+        download_music(*sys.argv[2:])
+    elif CMD in ["--start", "-s", "start"]:
+        start_music(sys.argv[2])
+    elif CMD in ["--stop", "-st", "stop"]:
+        os.system("termux-media-player stop")
+    elif CMD in ["--play", "-pl", "play"]:
+        os.system("termux-media-player play")
+    elif CMD in ["--pause", "-pa", "pause"]:
+        os.system("termux-media-player pause")
+    else:
+        print("Verfügbare Optionen: --download, --start, --stop, --play, --pause")
+        sys.exit(1)
