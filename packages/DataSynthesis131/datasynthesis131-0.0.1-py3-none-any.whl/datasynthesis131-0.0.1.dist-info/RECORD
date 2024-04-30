@@ -1,0 +1,11 @@
+DataSynthesis131/__init__.py,sha256=TfsdIf_9Suql-1IABPh4XgjcDxTMpXKAAzUXz_zt9qM,147
+DataSynthesis131/common/__init__.py,sha256=oXh8jkDLoTqoZwhKSQu0cgp0t1yMYoa_nX0D4Tu5AKE,81
+DataSynthesis131/common/common.py,sha256=7jGZmX1bEpMqFlnT4vRf70HRcGFf2bDpTPVnSgAn2uI,760
+DataSynthesis131/metrics131/__init__.py,sha256=9FhvIvk9eN7Epndaf3praQIeByZiaYT-89ykfaYTsmE,47
+DataSynthesis131/metrics131/quality_evaluator.py,sha256=mMDdLQcoeWRgD4vKMk45q6TbIs31V03avZY7y4srnpU,8149
+DataSynthesis131/synthesizer131/__init__.py,sha256=dzbhYieXNRUovGTo63JxauuMH3AomxcspPchHcNLRNA,36
+DataSynthesis131/synthesizer131/synthesizer.py,sha256=TWGHS-zvtg5tfleM6uX9FGf9OQF2N2DKgUJZ-0hsUtg,8985
+datasynthesis131-0.0.1.dist-info/METADATA,sha256=725h4QtTRy6zkofGDujqDfOg-0JFDAQga9CF7srDhWA,1301
+datasynthesis131-0.0.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+datasynthesis131-0.0.1.dist-info/licenses/LICENSE,sha256=x5kifoFrdXSIX_s-BM72Fe1k1Zdl3ztvVzcTr63525k,1069
+datasynthesis131-0.0.1.dist-info/RECORD,,
