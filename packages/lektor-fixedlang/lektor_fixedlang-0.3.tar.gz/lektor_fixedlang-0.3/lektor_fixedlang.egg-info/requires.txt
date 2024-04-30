@@ -1,0 +1,15 @@
+lektor
+beautifulsoup4
+
+[dev]
+lektor-fixedlang[style,tests]
+build
+twine
+tox
+
+[style]
+ruff
+
+[tests]
+pytest
+pytest-cov
