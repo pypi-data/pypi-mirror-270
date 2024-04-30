@@ -1,0 +1,7 @@
+EMGFlow/OutlierFinder.py,sha256=kcL6GFqc-0P-etpxq6jcOhwj3JyFcLyNR75ZowgDHJY,6070
+EMGFlow/PlotSignals.py,sha256=j50oA3VJIPZuvnvB4QpPbYt5Hn6LZnkapjHClNpTKWA,8864
+EMGFlow/SignalFilterer.py,sha256=9ROqaBaB3HE2OapudPlpJ54VKDm7abmSz6TrLLP8fM0,49356
+EMGFlow/__init__.py,sha256=ioMBd2TTSXSTyBg5cOYiPLxziVxsAdvIA9cv2UnBVhY,87
+emgflow-1.0.12.dist-info/METADATA,sha256=Z8u8ENWrGt5OsqmLv4biT8LYpWN-Rs10AMxLDiplM3E,3151
+emgflow-1.0.12.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+emgflow-1.0.12.dist-info/RECORD,,
