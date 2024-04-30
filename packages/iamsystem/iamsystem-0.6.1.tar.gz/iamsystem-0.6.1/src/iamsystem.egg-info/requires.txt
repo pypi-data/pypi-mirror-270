@@ -1,0 +1,17 @@
+anyascii
+pysimstring
+spellwise
+typing_extensions
+
+[dev]
+black
+flake8
+pre-commit
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[tests]
+nltk
+spacy
