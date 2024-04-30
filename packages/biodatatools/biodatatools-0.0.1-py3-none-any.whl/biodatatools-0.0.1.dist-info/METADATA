@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: biodatatools
+Version: 0.0.1
+Summary: A python package with useful biological data processing methods
+Home-page: https://github.com/aldenleung/biodatatools/
+Author: Alden Leung
+Author-email: alden.leung@gmail.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+Requires-Dist: genomictools (>=0.0.7)
+Requires-Dist: biodata (>=0.0.6)
+Requires-Dist: pysam (>=0.22.1)
+Requires-Dist: pyBigWig (>=0.3.22)
+Requires-Dist: simplevc (>=0.0.2)
+Requires-Dist: commonhelper (>=0.0.1)
+Requires-Dist: mphelper (>=0.0.1)
+
+# biodatatools
+
+A python package that provides multiple useful functions for biological data processing. 
+Many functions from his package require external programs installed.
