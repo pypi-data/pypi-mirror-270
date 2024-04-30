@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: paloalto_panorama_sdk
+Version: 0.0.2
+Summary: This SDK is designed to make it easier to work with the Palo Alto Panorama API.
+Author: Timo Riedinger
+Author-email: timo.riedinger@bechtle.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
