@@ -1,0 +1,5 @@
+setup.py
+while_patterns.egg-info/PKG-INFO
+while_patterns.egg-info/SOURCES.txt
+while_patterns.egg-info/dependency_links.txt
+while_patterns.egg-info/top_level.txt
