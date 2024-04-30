@@ -1,0 +1,13 @@
+wordc/__init__.py,sha256=MvPqikMqRAm9l2-LcTYFg6BCifQi3oKc1gLT0QZ_NKw,321
+wordc/__main__.py,sha256=r3SgFHUZlH9ubxIhNujJaMcdE58Ioh43BLXYHs_5Hq8,50
+wordc/cli.py,sha256=TWkVGyTpmTcWVb8CYnk-0Wct9Grq8gc-xmo1UJTrSZ8,1513
+wordc/config.py,sha256=EmwkKboOGQjTkyWybseABWOUfqMCIy60Eh4waDg6LJQ,273
+wordc/exceptions.py,sha256=T45XfU_uLEOx-aDQjSa3-WaMTqypwwyY5R8G2Joe3M4,975
+wordc/utils.py,sha256=bHt9Q99GO350iwHzNlbUqCDOqJbkOoK_uYHmgP_iZGg,1488
+wordc/wordc.py,sha256=O7LWTMJjoCo5zeUSraglOhUImrnH9qOqs4f3yCnZke4,2820
+wordc-0.1.2.dist-info/LICENSE,sha256=nJROEB5YInG1p7hG_5Ggqt1fFqpBXxTZp6G_I9j8MAE,1095
+wordc-0.1.2.dist-info/METADATA,sha256=Amf7fqyJVddWyo-pn5PXFoErbmA-QUbsr2E3mkbn_rg,6689
+wordc-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wordc-0.1.2.dist-info/entry_points.txt,sha256=pnOqa-hmFxXq0f_P1pRKVLS9X0Y2HMOMv-FQ-mp2AQw,43
+wordc-0.1.2.dist-info/top_level.txt,sha256=muy3vMuow5hZf5hYTEtVwJZtIXGBmSbolUQEv5CiKQs,6
+wordc-0.1.2.dist-info/RECORD,,
