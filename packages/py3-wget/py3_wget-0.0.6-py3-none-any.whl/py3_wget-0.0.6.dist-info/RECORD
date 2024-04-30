@@ -1,0 +1,9 @@
+py3_wget/__init__.py,sha256=1N4fzWTuFOok3kUWaKGK6Q-59ZmdnEulWZ--OKVY-I8,32
+py3_wget/main.py,sha256=3M--s8PoG8iXYpQWejQ2dGsrya8jo86O3AeBdOdT20I,2494
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=GB9rIGtWQA-vSIUjKc9vEr7hXL-xGVF_zMQ33OzwBqs,1619
+py3_wget-0.0.6.dist-info/LICENSE,sha256=L2Zn72KCpEn9aa2rOHM0OLYcXdZtxLDQqmwSNvjtxEQ,1072
+py3_wget-0.0.6.dist-info/METADATA,sha256=VIrhD6MDkGEZ7VNtHZuOo9GSipLO7JTO6e11wfMP_6c,1072
+py3_wget-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+py3_wget-0.0.6.dist-info/top_level.txt,sha256=mPyUi6GxEgSqJwRezoXydmopIubjlI8Lg1X4D-UmHfo,15
+py3_wget-0.0.6.dist-info/RECORD,,
