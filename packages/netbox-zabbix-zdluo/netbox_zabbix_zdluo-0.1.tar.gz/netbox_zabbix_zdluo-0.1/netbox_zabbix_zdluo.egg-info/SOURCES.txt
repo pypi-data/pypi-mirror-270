@@ -1,0 +1,8 @@
+README.md
+setup.py
+netbox_zabbix_zdluo/__init__.py
+netbox_zabbix_zdluo.egg-info/PKG-INFO
+netbox_zabbix_zdluo.egg-info/SOURCES.txt
+netbox_zabbix_zdluo.egg-info/dependency_links.txt
+netbox_zabbix_zdluo.egg-info/not-zip-safe
+netbox_zabbix_zdluo.egg-info/top_level.txt
