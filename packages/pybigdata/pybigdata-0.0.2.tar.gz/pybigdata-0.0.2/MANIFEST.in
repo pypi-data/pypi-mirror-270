@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include AUTHORS.md
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+include CHANGELOG.md
+recursive-include pybigdata *
+recursive-include examples *
+graft tests
+graft docs
+exclude *.pyc
+exclude setup.py
+recursive-include * *.log
+recursive-exclude build *
+recursive-exclude dist *
+global-exclude __pycache__
