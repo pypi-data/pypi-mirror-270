@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: Pircpy
+Version: 1.0
+Summary: Python wrapper Library for Pickering PIRC API
+Home-page: 
+Author: Pickering Interfaces
+Author-email: Pickering Interfaces <support@pickeringtest.com>
+License: Copyright (c) 2017-2024 Pickering Interfaces Ltd.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://downloads.pickeringtest.info/downloads/RelayCountingApplication/
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: enum34
+
+# Python wrapper Library for Pickering Relay Cycle Counting API #
+
+Python wrapper Library for Pickering Relay Cycle Counting API. It supports both Python 2.x and 3.x.
+
+----------
+# Installation Instructions #
+
+We provide both a python module that can be installed to the system using `pip` and can be added manually to a project by copying a file into the directory that you are working in. For either installation method please make sure that you have installed Pickering Relay Counting. Please make sure that either Pickering PXI (for PXI usage) or ClientBridge (for LXI usage) is installed as well.
+
+ - [Relay Cycle Counting Application](https://downloads.pickeringtest.info/downloads/RelayCountingApplication/)
+ - [PXI Installer Package](https://pickeringtest.info/downloads/drivers/PXI_Drivers/)
+ - [ClientBridge Driver](https://pickeringtest.info/downloads/drivers/Sys60/)
+
+----------
+# ChangeLog #
+
+> - 1.0 - Added wrapper for pirc.h, added examples
+
+----------
+## Install Using `pip` ##
+
+To install Python PIRC from pypi using pip. From there enter the following command:
+```
+pip install Pircpy
+```
+
+----------
+## Install Manually ##
+
+To install Python PIRC manually please copy pirc directory containing `__init__.py` to your project. 
+
+----------
+# Examples #
+Examples are provided with this package or can be found on the official Pickering download site.
