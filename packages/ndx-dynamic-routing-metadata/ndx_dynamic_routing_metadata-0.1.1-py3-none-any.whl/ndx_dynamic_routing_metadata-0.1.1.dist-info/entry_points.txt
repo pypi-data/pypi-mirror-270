@@ -1,0 +1,2 @@
+[console_scripts]
+create_spec = ndx_dynamic_routing_metadata.spec.create_extension_spec:main
