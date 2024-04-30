@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/jdtaxcalculator/__init__.py
+src/jdtaxcalculator/uk_tax_calculator.py
+src/jdtaxcalculator.egg-info/PKG-INFO
+src/jdtaxcalculator.egg-info/SOURCES.txt
+src/jdtaxcalculator.egg-info/dependency_links.txt
+src/jdtaxcalculator.egg-info/top_level.txt
+test/test_income_calculator.py
