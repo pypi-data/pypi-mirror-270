@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: SVInsight
+Version: 0.3.4
+Summary: Create social vulnerabilty index
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+For more information, please visit [https://github.com/mdp0023/SVInsight](https://github.com/mdp0023/SVInsight)
