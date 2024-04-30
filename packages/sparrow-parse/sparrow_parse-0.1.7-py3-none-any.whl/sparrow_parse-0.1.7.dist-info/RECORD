@@ -1,0 +1,8 @@
+sparrow_parse/__init__.py,sha256=V7LnX330m3uiAO0EYQbPUYETPj2br2y1Pv-a7ApMj40,21
+sparrow_parse/__main__.py,sha256=Xs1bpJV0n08KWOoQE34FBYn6EBXZA9HIYJKrE4ZdG78,153
+sparrow_parse/pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparrow_parse/pdf/pdf_processor.py,sha256=hyvOQX_IydRA3z7gQs_g-Ut1hvVHRRxj1_2i-G09-ow,159
+sparrow_parse-0.1.7.dist-info/METADATA,sha256=5w7-jeqUA3VKEHpaS4lpkwgVFXUW68KONbXEThyjJX4,1165
+sparrow_parse-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sparrow_parse-0.1.7.dist-info/entry_points.txt,sha256=H507qotwq3VX4lv5pY9MZYtupKNE1RRb8gEQucPiGi0,52
+sparrow_parse-0.1.7.dist-info/RECORD,,
