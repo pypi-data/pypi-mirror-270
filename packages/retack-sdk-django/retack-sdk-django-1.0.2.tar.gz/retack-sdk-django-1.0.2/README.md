@@ -1,0 +1,29 @@
+# Retack SDK for Django
+
+The Retack SDK for Django allows you to easily report errors to the Retack AI service from your Django applications.
+
+## Installation
+
+You can install the Retack SDK using pip:
+
+```bash
+pip install retack-sdk-django==1.0.2
+
+## Usage
+from retackAI_sdk import RetackClient, RetackConfig, ErrorReportRequest, UserContext
+
+# Initialize RetackConfig
+    retack_config = RetackConfig(api_key="your_api_key_here")
+
+    # Initialize RetackClient
+    retack_client = RetackClient(retack_config)
+
+    # Create an ErrorReportRequest
+    error_report = ErrorReportRequest(
+        error="An error occurred",
+        stack_trace="...stack trace...",
+        user_context=UserContext(username="user123", extras={"key": "value"})
+    )
+
+    # Report the error
+    retack_client.report_error(error_report)
