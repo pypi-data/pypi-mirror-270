@@ -1,0 +1,8 @@
+*.pyc
+build
+dist
+MANIFEST
+documentation/_build
+.tox
+miniball.egg-info
+__pycache__
