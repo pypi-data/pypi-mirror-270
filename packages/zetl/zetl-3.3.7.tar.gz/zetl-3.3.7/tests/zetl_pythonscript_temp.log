@@ -1,0 +1,86 @@
+Begin Logging
+usage: 
+py -m zetl.run [etl_name] 
+py -m zetl.view [etl_name] 
+ 
+py -m zetl.postgres_import [csv_filename] [tablename] [WithTruncate]
+py -m zetl.postgres_export [tablename] [csvfilename] [delimiter] 
+ 
+py -m zetl.mysql_import [csv_filename] [tablename] [WithTruncate]
+py -m zetl.mysql_export [tablename] [csvfilename] [delimiter] 
+-----------
+ audit
+ backup
+ demo2
+ demo3
+ empty_log
+ view_log
+Running audit
+
+ file 10.audit.sql, step 1
+SELECT filename,sheet,action,builder_code
+FROM elt.rbc_builder_code_audit
+ORDER BY dtm desc
+limit 50
+dsn=default; usr=dbadmin; svr=10.100.12.80; port=3355; DB Name=appraisal
+
+filename,sheet,action,builder_code
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATB234Z4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATB234Z9
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATP234Z4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATP234Z9
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATB574Z4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATB574Z6
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATB574Z9
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Update on the backend 2023-11-30.xlsx,Sheet1,update,ATP574Z4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456A
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456A4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456A6
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456A9
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456F18
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456F4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456F6
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456F9
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456J12
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456J18
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456J24
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456J4
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456J6
+C:/Users/DavidSkura/DownloadsRBC Builder Codes to Delete on the backend 2023-11-30.xlsx,Sheet1,delete,ABC456J9
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R60
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R54
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R48
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R42
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R36
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R24
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R18
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R12
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R9
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R6
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,GTH694R4
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,ATB112Z4
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,ATB112Z9
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,ATP112Z4
+RBC Builder Codes to be delete on the backend 2023-11-27,sheet1,NCSD-3975127:delete,ATP112Z9
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB427Z4
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB427Z6
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB427Z9
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATP427Z4
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATP427Z6
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATP427Z9
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB270Z4
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB270Z9
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATP270Z4
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATP270Z9
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB279Z4
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATB279Z9
+RBC Builder Codes to Update on the backend 2023-11-17.xlsx,update,NCSD-3974926:update,ATP279Z4
+
+
+ file 10.audit.sql, step 2
+SELECT version()
+dsn=default; usr=dbadmin; svr=10.100.12.80; port=3355; DB Name=appraisal
+
+version()
+5.7.26-enterprise-commercial-advanced-log
+
