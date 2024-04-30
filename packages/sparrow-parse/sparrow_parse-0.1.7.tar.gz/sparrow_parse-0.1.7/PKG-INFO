@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sparrow-parse
+Version: 0.1.7
+Summary: Sparrow Parse is a Python package for parsing and extracting information from documents.
+Home-page: https://github.com/katanaml/sparrow/tree/main/sparrow-data/parse
+License: GPL-3.0
+Keywords: llm,rag,vision
+Author: Andrej Baranovskij
+Author-email: andrejus.baranovskis@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/katanaml/sparrow
+Description-Content-Type: text/markdown
+
+## Author
+
+[Katana ML](https://katanaml.io), [Andrej Baranovskij](https://github.com/abaranovskis-redsamurai)
+
+## License
+
+Licensed under the GPL 3.0. Copyright 2020-2024 Katana ML, Andrej Baranovskij. [Copy of the license](https://github.com/katanaml/sparrow/blob/main/LICENSE).
