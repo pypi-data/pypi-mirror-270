@@ -1,0 +1,91 @@
+
+# CogFlow
+
+CogFlow is a versatile framework designed to manage multiple plugins for cognitive and machine learning tasks. It includes several plugins such as `MlflowPlugin`, `KubeflowPlugin`, and `DatasetPlugin`, which can be activated as needed to extend the capabilities of the framework.
+
+## Getting Started
+
+To begin, instantiate the `PluginManager` from the CogFlow module:
+
+```python
+import cogflow
+
+```
+
+### Explore the Capabilities of `PluginManager`
+
+- **List Attributes and Methods**: Understand the `PluginManager` module better with:
+    ```python
+    print(dir(cogflow))
+    ```
+
+- **Get Documentation**: For a comprehensive guide on the `PluginManager`, use:
+    ```python
+    help(cogflow)
+    ```
+
+### Managing Plugins
+
+By default, all plugins are in a deactivated state. Check the status of each plugin using:
+
+- **Check Plugin Status**:
+    ```python
+    cml.plugin_status()
+    ```
+
+### Activating Plugins
+
+To make use of a specific plugin, activate it for your session:
+
+- **Activate Plugins**:
+    ```python
+    mlp_activate = cml.activate_plugin("MlflowPlugin")
+    kfp_activate = cml.activate_plugin("KubeflowPlugin")
+    dsp_activate = cml.activate_plugin("DatasetPlugin")
+    ```
+
+### Retrieve Plugin Instances
+
+Once activated, you can retrieve the plugin instances:
+
+- **Retrieve Plugin Instances**:
+    ```python
+    mlp = cml.get_mlflow_plugin()
+    kfp = cml.get_kflow_plugin()
+    dsp = cml.get_dataset_plugin()
+    ```
+
+With the plugins now active, you can leverage their functionalities for your machine learning and data management tasks.
+
+## Environment Variables
+
+To maximize the functionality of CogFlow, set the following environment variables:
+
+- **Mlflow Configuration**:
+    - `MLFLOW_TRACKING_URI`: The URI of the Mlflow tracking server.
+    - `MLFLOW_S3_ENDPOINT_URL`: The endpoint URL for the AWS S3 service.
+    - `ACCESS_KEY_ID`: The access key ID for AWS S3 authentication.
+    - `SECRET_ACCESS_KEY`: The secret access key for AWS S3 authentication.
+
+- **Machine Learning Database**:
+    - `ML_DB_USERNAME`: Username for connecting to the machine learning database.
+    - `ML_DB_PASSWORD`: Password for connecting to the machine learning database.
+    - `ML_DB_HOST`: Host address for the machine learning database.
+    - `ML_DB_PORT`: Port number for the machine learning database.
+    - `ML_DB_NAME`: Name of the machine learning database.
+
+- **CogFlow Database**:
+    - `COGFLOW_DB_USERNAME`: Username for connecting to the CogFlow database.
+    - `COGFLOW_DB_PASSWORD`: Password for connecting to the CogFlow database.
+    - `COGFLOW_DB_HOST`: Host address for the CogFlow database.
+    - `COGFLOW_DB_PORT`: Port number for the CogFlow database.
+    - `COGFLOW_DB_NAME`: Name of the CogFlow database.
+
+- **MinIO Configuration**:
+    - `MINIO_ENDPOINT_URL`: The endpoint URL for the MinIO service.
+    - `MINIO_ACCESS_KEY`: The access key for MinIO authentication.
+    - `MINIO_SECRET_ACCESS_KEY`: The secret access key for MinIO authentication.
+
+---
+
+By setting the environment variables correctly, you can fully utilize the features and functionalities of the CogFlow framework for your cognitive and machine learning tasks.
