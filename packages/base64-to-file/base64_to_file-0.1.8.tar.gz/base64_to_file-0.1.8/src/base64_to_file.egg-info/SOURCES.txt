@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/base64_to_file/__init__.py
+src/base64_to_file/base64_to_file.py
+src/base64_to_file.egg-info/PKG-INFO
+src/base64_to_file.egg-info/SOURCES.txt
+src/base64_to_file.egg-info/dependency_links.txt
+src/base64_to_file.egg-info/top_level.txt

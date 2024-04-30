@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: base64_to_file
+Version: 0.1.8
+Summary: A Python package to download file through base64string
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## Installation
+
+Install using below pip command
+
+```bash
+pip install base64-to-file
+```
+
+```bash
+from base64_to_file import Base64ToFile
+
+file = Base64ToFile("base64_string", "file_path", "extention")
+
+```
