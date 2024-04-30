@@ -1,0 +1,2 @@
+[console_scripts]
+stv = srt_to_vtt:run
