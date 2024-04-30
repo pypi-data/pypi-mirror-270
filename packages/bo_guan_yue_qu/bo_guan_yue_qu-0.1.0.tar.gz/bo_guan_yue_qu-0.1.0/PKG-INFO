@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bo_guan_yue_qu
+Version: 0.1.0
+Summary: 博观约取——支持微调视觉模型的增量微调库 (BoGuanYueQu: A Delta Tuning Library that Supports Tuning Computer Vision Models) 
+Author-email: 2catycm <12011404@mail.sustech.edu.cn>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://github.com/WhicheverAI
+
+# 博观约取——支持微调视觉模型的增量微调库 (BoGuanYueQu: A Delta Tuning Library that Supports Tuning Computer Vision Models) 
+
