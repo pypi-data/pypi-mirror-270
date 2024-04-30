@@ -1,0 +1,10 @@
+module_collecter/__init__.py,sha256=XfoYqo4OBS_4xcW3x2k8Oeb63yI9ZGscW6_rK8a68SM,193
+module_collecter/cli.py,sha256=H3fy621OXbrlit7JOhwnSfZMS1WgFLsHr9ZFGT2bo_0,1698
+module_collecter/core.py,sha256=ZFtLqS4gddDFCgjXk07I2Vq3rFaJwA37O8GNG1-CBYc,1243
+module_collecter/models.py,sha256=22HzimS-36ixlicLJ5MdhmUcI80AZX9k38E2N6hph6w,172
+module_collecter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+module_collecter-0.0.1.dist-info/entry_points.txt,sha256=s9VbIRs3F-2QZYbUOmQpOMGPlCxK6d5ZIVqSzhG5tyg,62
+module_collecter-0.0.1.dist-info/LICENSE,sha256=XLDdlJt760Ir3Hq96VElr8zpS6PIKutCq2PLkDN1sM0,1120
+module_collecter-0.0.1.dist-info/METADATA,sha256=4rOSS81sgXxMDHCsmzEgn78_L8hmza2-ZNkniyHfgBM,1851
+module_collecter-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+module_collecter-0.0.1.dist-info/RECORD,,
