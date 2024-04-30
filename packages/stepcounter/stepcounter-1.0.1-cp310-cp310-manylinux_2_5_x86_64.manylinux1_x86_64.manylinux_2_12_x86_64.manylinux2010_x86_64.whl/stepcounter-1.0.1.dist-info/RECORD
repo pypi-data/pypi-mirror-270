@@ -1,0 +1,17 @@
+stepcounter-1.0.1.dist-info/WHEEL,sha256=AMLR_y7fStkU3yOXQyYTdByqwsmOq9cd8gPqOUEpwO8,225
+stepcounter-1.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+stepcounter-1.0.1.dist-info/LICENSE,sha256=qPS8lba8gKgHXRGAPqaicTr0VZH2BFtgFN6eI64Oh8s,10979
+stepcounter-1.0.1.dist-info/METADATA,sha256=6sxak6_qYv8PhaUBUkRfYTDR9F6BF-ewUOZdhyBzoEc,154
+stepcounter-1.0.1.dist-info/entry_points.txt,sha256=uUp-8-KXQayoS2UhZ-bbDKDLUuH1q8FBk20te_xyWOs,54
+stepcounter-1.0.1.dist-info/RECORD,,
+example/gcd.py,sha256=qTCYUceBPf69euISM4s5SpOz1ZylQ4A1lHEuATFv9UI,259
+example/example.py,sha256=28Y1j0IBSUcTF5GDev_UMZBDqza-RkXo-AwY_C0uOjM,1248
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/step_counter.py,sha256=9yweDIm1K5MnGh7NqGrVsLt5Y63eM_Yjq40PGBQP08I,1274
+src/utils.py,sha256=MBRqH7xFMIJF5Ih1p383Jo1Q1pd9Kym-vGoriHXapKo,1140
+src/__init__.py,sha256=sutCDbUNoHYDm2Rja7Vh9F5e2rCzQI3gTfn-b9NM750,77
+src/step_counting/patch/bin/patchdictionary.cpython-310-x86_64-linux-gnu.so,sha256=A63ZKbmeUAs6cgEGxZlbz-okV46OIvb452_oTTdRhdo,28176
+src/step_counting/patch/bin/patchlist.cpython-310-x86_64-linux-gnu.so,sha256=l38Npnl_RXTMBeCzGt1A1Fy1kUIWxpOTj4X-mIlAVdA,26456
+src/step_counting/patch/bin/patchtuple.cpython-310-x86_64-linux-gnu.so,sha256=7IjFjAq-OzLyFTD27MDbn4erOaYxtvLarAmNfErkvYM,25848
+src/step_counting/patch/bin/patchint.cpython-310-x86_64-linux-gnu.so,sha256=iHeS75Bpuanyn-rHZewEtW4gwhn0EVoL_hI_trJJKWI,25320
+src/step_counting/patch/bin/patchstr.cpython-310-x86_64-linux-gnu.so,sha256=12BcQr2QfD6_I4Vms3l6k9s5zmysie2HUbV4tSBb0tI,25280
