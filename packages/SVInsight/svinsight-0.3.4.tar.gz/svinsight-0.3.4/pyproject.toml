@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SVInsight"
+version = "0.3.4"
+description = "Create social vulnerabilty index"
+readme = "long_desc.md"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.9"
+
+
+[options]
+python_requires = ">=3.9"
+install_requires = [
+    "census",
+    "factor_analyzer",
+    "geopandas",
+    "numpy",
+    "pandas",
+    "PyYAML",
+    "scikit_learn",
+    "openpyxl",
+    "matplotlib"
+]
+
+[tool.setuptools]
+packages = ["SVInsight"]
+
+[options.extras_require]
+docs = ["sphinx"]
+
+[metadata.urls]
+Documentation = "https://mdp0023.github.io/SVInsight/"
