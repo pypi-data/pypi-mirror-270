@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION.txt
+documentation.md
+setup.py
+figurify/__init__.py
+figurify/material_properties.py
+figurify/units.py
+figurify.egg-info/PKG-INFO
+figurify.egg-info/SOURCES.txt
+figurify.egg-info/dependency_links.txt
+figurify.egg-info/top_level.txt
