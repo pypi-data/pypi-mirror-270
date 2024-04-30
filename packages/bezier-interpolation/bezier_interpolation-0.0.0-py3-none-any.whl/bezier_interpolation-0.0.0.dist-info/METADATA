@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bezier-interpolation
+Version: 0.0.0
+Summary: A Python library for generating smooth curves between given points using cubic and quadratic Bezier interpolation.
+Home-page: https://github.com/balexandermunoz/bezier-interpolation
+Author: Brayan Munoz
+Author-email: balexander.munoz@udea.edu.co
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.26.0
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+
