@@ -1,0 +1,5 @@
+loguru<1,>=0.4.1
+retryrequests<1,>=0.2.0
+
+[test]
+pytest
