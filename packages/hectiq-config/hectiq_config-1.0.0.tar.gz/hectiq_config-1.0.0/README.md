@@ -1,0 +1,64 @@
+# Hectiq Config
+
+This Python module provides a powerful and flexible configuration management system based on Pydantic models. It is designed to create, manage, and validate configurations with ease.
+
+## Features
+
+- **Dynamic Configuration Classes**: Utilize Pydantic to dynamically create configuration models from dictionaries.
+- **Validation and Casting**: Validate configurations against a defined template and cast configurations to ensure correct types and structures.
+- **Serialization and Deserialization**: Load and save configurations from and to JSON files using `orjson` for efficient IO operations.
+- **Nested Configurations**: Support for nested configurations, allowing complex, hierarchical settings to be managed cleanly and efficiently.
+
+## Dependencies
+
+- `pydantic`: Used for creating data models and validation.
+- `orjson`: Used for fast JSON serialization and deserialization.
+- `re`: Used for regex operations, particularly in handling aliases in configuration keys.
+
+## Installation
+
+```bash
+pip install hectiq-config
+```
+
+## Usage
+
+### Creating a Configuration
+
+```python
+from hectiq_config import Config
+
+config = Config(a="12345", b=12345, c=[1, 2, 3], d={"x": 1, "y": 2})
+```
+
+### Loading and Saving Configurations
+
+```python
+config.save('path/to/config.json')
+loaded_config = Config.load('path/to/config.json')
+```
+
+### Validating Configurations
+
+You can validate a configuration against a template to ensure it has the correct structure and types. A template is a dictionary that defines the expected structure of the configuration.
+
+
+For example, define a template as follows:
+
+```python
+template = {
+    "a": str,
+    "b": int,
+    "c": list,
+    "d": {
+        "x": int,
+        "y": int
+    }
+}
+```
+Then validate the configuration against the template:
+
+```python
+is_valid = config.validate(template=template, raise_exception=True)
+```
+

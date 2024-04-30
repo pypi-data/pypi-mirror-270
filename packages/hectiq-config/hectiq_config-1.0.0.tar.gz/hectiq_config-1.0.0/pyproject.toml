@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["hectiq_config"]
+
+[project]
+name = "hectiq-config"
+version = "1.0.0"
+description = "A simple API to manipulate configuration files"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "Edward Laurence", email = "edwardl@hectiq.ai"},
+  {name = "Charles Murphy", email = "cmurphy@hectiq.ai"},
+]
+maintainers = [
+  {name = "Edward Laurence", email = "edwardl@hectiq.ai"},
+  {name = "Charles Murphy", email = "cmurphy@hectiq.ai"},
+]
+dependencies = [
+    "pydantic",
+    "orjson"
+]
+
+[project.urls]
+Repository = "https://github.com/HectiqAI/hectiq-config"
+
+
