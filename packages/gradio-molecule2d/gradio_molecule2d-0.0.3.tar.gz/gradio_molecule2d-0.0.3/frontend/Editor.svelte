@@ -1,0 +1,121 @@
+<script>
+  // no good unbloated molecule sketch tool.
+  // we load ketcher in frame if user want's to draw
+
+  // create event dispatcher
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
+
+  import ClearButton from "./ClearButton.svelte";
+
+  function getsmiles() {
+    const iframe = document.querySelector("iframe");
+    const ketcher = iframe.contentWindow.ketcher;
+    ketcher.getSmiles().then((smiles) => {
+      dispatch("moleculesketched", {
+        smiles: smiles,
+      });
+    });
+  }
+
+  let ketcherDoc = `<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body style="background:white; height:100%">
+    <div
+      id="loading"
+      style="display: flex; justify-content: center; align-items: center"
+    >
+      <p style="padding: 0.2rem 1rem 0 0; color: #c1c1c1; font-size: 1rem">
+        loading SMILES editor
+      </p>
+      <svg
+        version="1.1"
+        id="L4"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 100 100"
+        enable-background="new 0 0 0 0"
+        xml:space="preserve"
+        width="5rem"
+      >
+        <circle fill="#FF7C00" stroke="none" cx="6" cy="50" r="6">
+          <animate
+            attributeName="opacity"
+            dur="1s"
+            values="0;1;0"
+            repeatCount="indefinite"
+            begin="0.1"
+          />
+        </circle>
+        <circle fill="#FF7C00" stroke="none" cx="26" cy="50" r="6">
+          <animate
+            attributeName="opacity"
+            dur="1s"
+            values="0;1;0"
+            repeatCount="indefinite"
+            begin="0.2"
+          />
+        </circle>
+        <circle fill="#FF7C00" stroke="none" cx="46" cy="50" r="6">
+          <animate
+            attributeName="opacity"
+            dur="1s"
+            values="0;1;0"
+            repeatCount="indefinite"
+            begin="0.3"
+          />
+        </circle>
+      </svg>
+    </div>
+    <div id="root"></div>
+    <script>
+      window.onload = function () {
+        var loadingDiv = document.getElementById("loading");
+        loadingDiv.style.display = "flex";
+        //load css
+        let url =
+          "https://huggingface.co/datasets/simonduerr/ketcher-2.7.2/raw/main/static/css/main.6a646761.css";
+        fetch(url)
+          .then((res) => res.text())
+          .then((text) => {
+            const style = document.createElement("style");
+            style.textContent = text;
+            document.head.appendChild(style);
+          });
+        //load ketcher
+        url =
+          "https://huggingface.co/datasets/simonduerr/ketcher-2.7.2/resolve/main/static/js/main.5445f351.js";
+        fetch(url)
+          .then((res) => res.text())
+          .then((text) => {
+            const script = document.createElement("script");
+            //script.type = "module"
+            script.src = URL.createObjectURL(
+              new Blob([text], { type: "application/javascript" })
+            );
+            document.head.appendChild(script);
+            loadingDiv.style.display = "none";
+          });
+      };
+
+    </\script>
+  </body>
+</html>
+`;
+</script>
+
+<ClearButton on:clear={getsmiles} />
+
+<div class="composerWrapper">
+  <iframe srcdoc={ketcherDoc} />
+</div>
+
+<style>
+  iframe {
+    width: 100%;
+    height: 650px;
+  }
+</style>
