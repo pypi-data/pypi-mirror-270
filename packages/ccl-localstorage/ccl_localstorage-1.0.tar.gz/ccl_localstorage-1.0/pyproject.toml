@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ccl_localstorage"
+version = "1.0"
+description = "CCL ccl_localstorage Reader, extract vault data from any chrome extensions, and etc."
+authors = ["BitLogic <BitLogic@hash.io>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+ccl_leveldb = "^1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://github.com/BitLogic"
+Issues = "https://github.com/pypa/BitLogic/issues"
