@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: ml_validation
+Version: 0.0.1
+Summary: Package for machine learning validation
+Project-URL: Homepage, https://gitlab.com/moskalenkoviktor/ml_validation
+Project-URL: Issues, https://gitlab.com/moskalenkoviktor/ml_validation/-/issues
+Author-email: Viktor Moskalenko <moskalenkoviktor@list.ru>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ML Validation
+
+TODO: написать инструкцию
+
+# Check repo
+```bash
+$ ./check.sh
+```
