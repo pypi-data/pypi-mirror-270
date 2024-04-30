@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: owl-framework
+Version: 0.1.0
+Summary: 
+Author: Jakub Rozek
+Author-email: jakub.rozek314@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: arcparse (>=0.6.0,<0.7.0)
+Requires-Dist: hilbertcurve (>=2.0.5,<3.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: opencv-python (>=4.7.0.68,<5.0.0.0)
+Requires-Dist: pyaudio (>=0.2.13,<0.3.0)
