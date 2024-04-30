@@ -1,0 +1,104 @@
+{#
+Copyright 2023 BlueCat Networks Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-#}
+{
+    "name": "{{ui_project_name}}",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint-styles": "stylelint \"src/**/*.less\"",
+        "lint": "eslint .",
+        "reformat": "prettier --write --config ./.prettierrc . --ignore-path ./.prettierignore"
+    },
+    "author": "",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@bluecateng/limani": "^1.0.0",
+        "@bluecateng/auto-forms": "^1.0.0",
+        {%- if is_localized %}
+        "@bluecateng/l10n-core": "^0.2.0",{% endif %}
+        "@bluecateng/pelagos": "^12.4.0",
+        "@bluecateng/pelagos-forms": "^5.0.0",
+        "@bluecateng/smooth-reorder": "^1.0.1",
+        "@fortawesome/free-regular-svg-icons": "^6.2.0",
+        "@fortawesome/free-solid-svg-icons": "^6.2.0",
+        "css-loader": "^6.5.1",
+        "less-loader": "^10.2.0",
+        "preact": "^10.6.6",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.68.0",
+        "webpack-cli": "^4.9.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.2",
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
+        {% if is_localized -%}
+        "@bluecateng/l10n-cli": "^0.1.8",
+        "@bluecateng/l10n-icu2obj": "^0.1.5",
+        "@bluecateng/l10n-jest": "^0.3.0",
+        "@bluecateng/l10n-loader": "^0.1.5",
+        "@bluecateng/l10n.macro": "^0.1.6",
+        {% endif -%}
+        "@bluecateng/stylelint-config": "^4.0.1",
+        "babel-loader": "^8.2.3",
+        {%- if is_localized %}
+        "babel-plugin-macros": "^3.1.0",{% endif %}
+        "eslint": "^8.16.0",
+        "eslint-plugin-react": "^7.30.0",
+        "html-webpack-plugin": "^5.5.0",
+        "husky": "^8.0.1",
+        "lint-staged": "^12.5.0",
+        "path": "^0.12.7",
+        "postcss-less": "^6.0.0",
+        "prettier": "^2.5.1",
+        "stylelint": "^14.9.1",
+        "webpack-dev-server": "^4.7.4"
+    },
+    {% if is_localized -%}
+    "bc-l10n": {
+        "hashLength": 4,
+        "module": "src/l10n",
+        "catalogPath": "src/l10n/{locale}",
+        "locales": {{ languages | tojson }}
+    },
+    {% endif -%}
+    "lint-staged": {
+        "*.{js,ts,tsx}": [
+            "eslint --max-warnings 0 --no-ignore",
+            "prettier --check --config ./.prettierrc . --ignore-path ./.prettierignore"
+        ],
+        "*.less": [
+            "prettier --check --config ./.prettierrc . --ignore-path ./.prettierignore"
+        ]
+    },
+    "stylelint": {
+        "extends": [
+            "@bluecateng/stylelint-config"
+        ],
+        "customSyntax": "postcss-less"
+    }
+}

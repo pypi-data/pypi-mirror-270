@@ -1,0 +1,2 @@
+[console_scripts]
+atk = bluecat_automation_toolkit.cli:cli
