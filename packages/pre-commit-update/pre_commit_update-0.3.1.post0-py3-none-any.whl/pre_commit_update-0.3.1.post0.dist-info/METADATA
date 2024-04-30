@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pre-commit-update
+Version: 0.3.1.post0
+Summary: Simple CLI tool to check and update pre-commit hooks.
+Home-page: https://gitlab.com/vojko.pribudic/pre-commit-update
+License: MIT
+Author: Vojko Pribudić
+Author-email: dmanthing@gmail.com
+Maintainer: Vojko Pribudić
+Maintainer-email: dmanthing@gmail.com
+Requires-Python: >=3.8
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: GitPython (>=3.1)
+Requires-Dist: click (>=8.1)
+Requires-Dist: packaging (>=23.2)
+Requires-Dist: pyproject-parser (>=0.9)
+Requires-Dist: ruamel.yaml (>=0.18)
+Project-URL: Changelog, https://gitlab.com/vojko.pribudic/pre-commit-update/-/releases
+Project-URL: Repository, https://gitlab.com/vojko.pribudic/pre-commit-update
+Project-URL: Tracker, https://gitlab.com/vojko.pribudic/pre-commit-update/-/issues
+Description-Content-Type: text/markdown
+
+<div align="center"><h1>pre-commit-update [archived]</h1>
+
+<strong>As of v0.3.1 project repo path is located <a href="https://gitlab.com/vojko.pribudic.foss/pre-commit-update" target="_blank">here</a></strong><br />
+<strong>Migration, if used via pre-commit-hook, should be done automatically, however if that is not the case, please migrate manually.</strong>
+</div>
