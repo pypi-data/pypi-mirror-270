@@ -1,0 +1,6 @@
+google-generativeai
+grpcio
+grpcio-tools
+openai
+emoji
+PyMuPDF
