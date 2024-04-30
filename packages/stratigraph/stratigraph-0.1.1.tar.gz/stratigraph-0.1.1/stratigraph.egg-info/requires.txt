@@ -1,0 +1,10 @@
+python>=3.8
+numpy
+scipy
+scikit-learn
+scikit-image
+shapely
+pillow
+matplotlib
+mayavi
+tqdm
