@@ -1,0 +1,16 @@
+setup.cfg
+setup.py
+wsiperudb/FilterDepartment.py
+wsiperudb/__init__.py
+wsiperudb/dataset_downloading.py
+wsiperudb/departments_comparison.py
+wsiperudb/lmwl_filtering.py
+wsiperudb/map.py
+wsiperudb/siteinformation_downloading.py
+wsiperudb/temporalseries.py
+wsiperudb.egg-info/PKG-INFO
+wsiperudb.egg-info/SOURCES.txt
+wsiperudb.egg-info/dependency_links.txt
+wsiperudb.egg-info/not-zip-safe
+wsiperudb.egg-info/requires.txt
+wsiperudb.egg-info/top_level.txt
