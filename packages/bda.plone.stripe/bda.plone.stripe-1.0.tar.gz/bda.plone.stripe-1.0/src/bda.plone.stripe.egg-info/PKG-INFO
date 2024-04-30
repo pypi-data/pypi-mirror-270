@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: bda.plone.stripe
+Version: 1.0
+Summary: Stripe payment for bda.plone.shop
+Author: BlueDynamics Alliance
+Author-email: dev@bluedynamics.com
+License: GNU General Public Licence
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 6.0
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Zope
+Classifier: Framework :: Zope :: 5
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE.rst
+License-File: LICENSE_GPL.rst
+Requires-Dist: setuptools
+Requires-Dist: bda.plone.shop
+Requires-Dist: stripe
+Provides-Extra: test
+Requires-Dist: plone.app.testing; extra == "test"
+
+================
+bda.plone.stripe
+================
+
+Stripe payment processor for ``bda.plone.shop``.
+
+
+Installation
+============
+
+This package is part of the ``bda.plone.shop`` stack. Please refer to
+``https://github.com/bluedynamics/bda.plone.shop`` for installation
+instructions.
+
+Include this package to your setup dependencies and install this package
+via Plone control panel add on installation page or add ``bda.plone.stripe``
+to install dependencies in your integration package generic setup dependencies.
+
+
+Configuration
+=============
+
+In order to make this payment processor work properly you need to define
+the Stripe ``Secret key`` and ``Publishable key``. You can obtain these keys
+from https://stripe.com.
+
+You either need to configure these keys in Shop Control Panel under ``Stripe``
+of via your integration package generic setup ``registry.xml``
+
+
+Create translations
+===================
+
+::
+
+    $ cd src/bda/plone/stripe/
+    $ ./i18n.sh
+
+
+Contributors
+============
+
+- Robert Niederreiter (Author)
+- Peter Holzer (Development)
+
+
+Changes
+=======
+
+1.0 (2024-04-30)
+----------------
+
+- Initial work.
+
+
+
+License
+=======
+
+Copyright (c) 2012-2024, BlueDynamics Alliance, Austria
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this 
+  list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this 
+  list of conditions and the following disclaimer in the documentation and/or 
+  other materials provided with the distribution.
+* Neither the name of the BlueDynamics Alliance nor the names of its 
+  contributors may be used to endorse or promote products derived from this 
+  software without specific prior written permission.
+      
+THIS SOFTWARE IS PROVIDED BY BlueDynamics Alliance ``AS IS`` AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL BlueDynamics Alliance BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
