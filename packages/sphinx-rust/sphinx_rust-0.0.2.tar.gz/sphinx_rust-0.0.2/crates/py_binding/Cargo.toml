@@ -1,0 +1,25 @@
+[package]
+name = "sphinx_rust"
+version = "0.0.2"
+publish = false
+edition = "2021"
+authors.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+license.workspace = true
+readme = "../../README.md"
+
+[lib]
+name = "sphinx_rust"
+crate-type = ["cdylib"]
+test = false  # we test this in Python land
+
+[dependencies]
+analyzer = { path = "../analyzer" }
+pyo3.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true
