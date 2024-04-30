@@ -1,0 +1,3 @@
+[console_scripts]
+pyexam=eprime_data.__main__:cli
+
