@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: libdebug
+Version: 0.4
+Summary: A library to debug binary programs
+Author: JinBlack
+License-File: LICENSE
+Requires-Dist: capstone
+Requires-Dist: pyelftools
+Requires-Dist: cffi
+Requires-Dist: requests
+Requires-Dist: psutil
