@@ -1,0 +1,21 @@
+-e .
+
+trio
+types-requests
+
+# Linter & Formatter
+isort
+flake8
+black
+mypy
+pyproject-flake8
+pre-commit
+
+# Tests
+coverage[toml]
+pytest
+pytest-sugar
+dirty-equals
+
+# Development
+bpython
