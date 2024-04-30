@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+export CI=1
+export CI_ARTIFACTS=${CI_ARTIFACTS:-/artifacts}
+export CI_WORKSPACE=${CI_WORKSPACE:-/workspace}
+
+mkdir -p "${CI_ARTIFACTS}"
+mkdir -p "${CI_WORKSPACE}"
+cd "${CI_WORKSPACE}"
+
+exec "$@"

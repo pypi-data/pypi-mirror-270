@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: justin-runner
+Version: 0.1.0
+Summary: Runner for 'just' commands inside a container
+Home-page: https://git.goral.net.pl/gws/justin.git/about
+License: GPL-3.0-only
+Keywords: just
+Author: Michal Goral
+Author-email: dev@goral.net.pl
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1,<9.0)
+Project-URL: Documentation, https://git.goral.net.pl/gws/justin.git/about
+Project-URL: Repository, https://git.goral.net.pl/gws/justin.git
+Description-Content-Type: text/markdown
+
+# justin
+
+Run [just](https://github.com/casey/just) commands inside a container.
+
+## Installation
+
+System-wide:
+
+```
+$ just install
+```
+
+User:
+
+```
+$ just install ~/.local
+```
+
+## Running just
+
+```
+$ justin --workspace . just ...
+$ justin --workspace . --copy just ...
+
+$ justin \
+  -E podman \
+  -F ci
+  -w . \
+  -v ./artifacts:/artifacts\
+  just -f ci.justfile somestage
+```
+
+## Building images
+
+Default image:
+
+```
+$ justin build 
+```
+
+### Flavors
+
+```
+$ justin --flavor minimal build
+$ justin --flavor ci build
+$ justin -F /path/to/my/flavor build
+```
+
+justin supports a concept of "flavors", which is a way to customize how
+images are built. justin ships with the following flavors:
+
+- `minimal` (default one) - creates a minimal image viable for running just
+  commands.
+- `ci` - creates a bigger image with some tools preinstalled, more suitable
+  for continuous integration systems.
+
+You may also point justin to a the directory with a custom flavor, which
+is located outside of the original build context. justin will copy and
+use your flavor.
+
+During build flavors are copied to /install directory within a built
+container.
+
+Flavors have the following requirements:
+
+- they must provide a Flavor Configuration File (see below)
+- inside a flavor directory there must be an `install` directory, which will
+  be copied into `/install` within the container, but which will be removed
+  from the final image
+- they must provide an executable `/install/install.sh`
+- they must install `/usr/bin/tini` and `just` executables within the
+  container
+- they must provide `/usr/local/bin/docker-entrypoint` executable within the
+  container, which will be used as container entrypoint
+
+### Flavor Configuration File
+
+Each flavor must provide a `flavor.toml` file with `[build.args]` section.
+Each field from the `[build.args]` section will be used as a `--build-arg`
+during the build. In case of name conflicts between build args in flavor.toml
+and `--build-arg` passed in command line, command line ones have priority.
+
+Example:
+
+```toml
+[build.args]
+FROM_IMAGE = "debian"
+FROM_TAG = "trixie-slim"
+
+VENDOR = "John Doe's Company"
+AUTHORS = "John Doe"
+VERSION = "1.0"
+ARCH = "x86-64"
+DESCRIPTION = "One image to rule them all"
+JUST_EXECUTABLE = "just"
+```
+

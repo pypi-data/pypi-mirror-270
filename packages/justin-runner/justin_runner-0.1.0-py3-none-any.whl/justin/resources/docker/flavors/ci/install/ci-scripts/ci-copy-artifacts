@@ -1,0 +1,50 @@
+#!/usr/bin/bash
+
+#/ Usage: ci-copy-artifacts <path> [name=default]
+#/
+#/ Copy files or directories to the CI_ARTIFACTS/name directory.
+#/
+#/ Options:
+#/   --help: show this help message
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+usage() {
+    grep '^#/' "$0" | cut -c4-
+    exit 0
+}
+
+expr "$*" : ".*--help" > /dev/null && usage
+
+path="${1:-}"
+name="${2:-default}"
+
+if [[ "${path}" == "/" ]]; then
+    echo "Cannot copy root directory" >&2
+    exit 1
+fi
+
+path="$(echo "${path}" | sed 's|/\+$||g')"
+
+if [[ -z "${path}" ]]; then
+    echo "Missing path. See ci-copy-artifacts --help" >&2
+    exit 1
+fi
+
+if [[ ! -e "${path}" ]]; then
+    echo "No such file or directory: ${path}" >&2
+    exit 1
+fi
+
+declare -r dest="${CI_ARTIFACTS}/${name}"
+
+mkdir -p "$(dirname -- "${CI_ARTIFACTS}/${dest}")"
+if [[ -d "${path}" ]]; then
+    # add a single slash at the end to enable rsync copying contents of
+    # directory instead of the directory itself
+    path="${path}/"
+fi
+
+rsync -rzd --delete "${path}" "${dest}"

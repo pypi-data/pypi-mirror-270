@@ -1,0 +1,8 @@
+[build.args]
+FROM_IMAGE = "debian"
+FROM_TAG = "trixie-slim"
+
+VENDOR = "Michał Góral"
+AUTHORS = "Michał Góral"
+VERSION = "1.0"
+ARCH = "x86-64"

@@ -1,0 +1,17 @@
+justin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+justin/justin.py,sha256=pojbsGv9lR4BQiw6FuH3y6TMgkzjfDBf8j9HryPh2SM,19625
+justin/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+justin/resources/docker/.dockerignore,sha256=0acKOUS5Ht0CYfkdqFj-XBrPYJdBT4tfG-NSzw9wJlI,17
+justin/resources/docker/Dockerfile,sha256=67lbVZ_X91v0O9lyNyJ2hpXAT3rTrgHJ2JgG5SYvRe0,1100
+justin/resources/docker/flavors/ci/flavor.toml,sha256=BkSrVK7W11Xye3pm-uuaWtV9gPTAxeU7yvCrFhFKs6Y,146
+justin/resources/docker/flavors/ci/install/ci-scripts/ci-copy-artifacts,sha256=y_vfkw1mUxul7M_30nZePQHjxwexEG_jW5GQFLEfgDM,1005
+justin/resources/docker/flavors/ci/install/entrypoint,sha256=1qRn_XcVVe_EwYmHQ3sMEq6Uj-w_X9ZyLHjPTbOEuFc,259
+justin/resources/docker/flavors/ci/install/install.sh,sha256=T2S0y_9rZs-mcyJxfdsJ7Gd6xYzvBko1JSwFUx2xhGo,967
+justin/resources/docker/flavors/minimal/flavor.toml,sha256=BkSrVK7W11Xye3pm-uuaWtV9gPTAxeU7yvCrFhFKs6Y,146
+justin/resources/docker/flavors/minimal/install/entrypoint,sha256=3N9kQC18FoTUIpH4fiyL-4_q62plt-myoJT7YlMzWfI,108
+justin/resources/docker/flavors/minimal/install/install.sh,sha256=oiMtcAmsodQVj_9oeypS3fHAvlenxt-uWqaaAkjLu_Q,495
+justin_runner-0.1.0.dist-info/LICENSE,sha256=0ElQUwUZZ-vnb7H6zSh9edHtgA2hvnXPUBpVa8OaBHI,32471
+justin_runner-0.1.0.dist-info/METADATA,sha256=jjnDzwvWm4bCrmO4tTHnq9b_ZmEMzySPlgFcy1x5LeA,3564
+justin_runner-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+justin_runner-0.1.0.dist-info/entry_points.txt,sha256=Q5wawLRc1PwjOXhnablv1fR4p78AIz-U4n7v4Ghi7bg,44
+justin_runner-0.1.0.dist-info/RECORD,,
