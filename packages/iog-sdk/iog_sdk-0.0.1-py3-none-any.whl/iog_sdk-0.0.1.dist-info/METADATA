@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: iog-sdk
+Version: 0.0.1
+Summary: IOG SDK - Internet of GPUs - IO.net
+Home-page: https://developers.io.net/docs/
+Author: IO.net
+Author-email: iog@io.net
+License: Apache 2.0
+Keywords: iog ionet gpu ray distributed parallel machine-learning serving python hyperparameter-tuning reinforcement-learning deep-learning
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: click
+
+======================
+IOG (Internet of GPUs)
+======================
+
+IOG SDK - Internet of GPUs - `IO.net  <https://io.net/>`_
+
+* Free software: Apache Software License 2.0
+* Documentation: https://developers.io.net/docs/
+
+
+Functional integration starting from v0.1.0
