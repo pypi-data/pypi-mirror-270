@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: iglib
+Version: 1.0.0
+Summary: An assembler / disassembler tool for InnocentGrey 's script format
+Home-page: https://github.com/shimamura-sakura/FlowerScript
+Author: Shimamura Sakura
+Author-email: shimamura_sakura@pm.me
+License: MIT
+Requires-Python: >=3.2
+
