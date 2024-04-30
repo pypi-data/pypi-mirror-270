@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+tox.ini
+src/_crypt_r.c
+src/crypt.py
+src/crypt_r.py
+src/crypt_r.egg-info/PKG-INFO
+src/crypt_r.egg-info/SOURCES.txt
+src/crypt_r.egg-info/dependency_links.txt
+src/crypt_r.egg-info/top_level.txt
+tests/test_crypt_r.py
