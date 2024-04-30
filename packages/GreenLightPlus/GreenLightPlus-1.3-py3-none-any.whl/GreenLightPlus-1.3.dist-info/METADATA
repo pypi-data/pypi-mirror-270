@@ -1,0 +1,179 @@
+Metadata-Version: 2.1
+Name: GreenLightPlus
+Version: 1.3
+Summary: Greenhouse Simulation and Optimization Toolkit
+Author-email: Daidai Qiu <qiu.daidai@outlook.com>
+Project-URL: Homepage, https://github.com/greenpeer/GreenLightPlus
+Project-URL: Bug Reports, https://github.com/greenpeer/GreenLightPlus/issues
+Project-URL: Source, https://github.com/greenpeer/GreenLightPlus
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: gymnasium
+Requires-Dist: openstudio ==3.6.1
+Requires-Dist: gdown
+Requires-Dist: ray[rllib]
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+## GreenLight Package
+
+The GreenLight package is a Python implementation of a greenhouse environment simulation model with supplemental lighting. It allows for running simulations of greenhouse environments and analyzing the results.
+
+### Main Files
+
+- `green_light_model.py`: This file contains the main GreenLightModel class, which allows for running simulations of greenhouse environments with supplemental lighting. The class handles the preparation of data and parameters, including weather data, control strategies, and model parameters. It utilizes various functions from the service_functions and create_green_light_model subpackages to process data, set parameters, and solve the differential equations of the model using an ODE solver. The run_model method of the class runs the simulation for a specified season length and interval, and returns the generated results as a dictionary. The class provides flexibility in configuring the simulation parameters, such as the lamp type, weather data source, and initial crop maturity stage.
+
+- `greenhouse_env_v2.py`: This file defines the greenhouse environment and provides an interface for interacting with the `GreenLightModel` class. It allows for setting up the simulation parameters, running the model, and retrieving the results. The `GreenhouseEnv` class in this file represents a custom reinforcement learning environment for greenhouse control, following the OpenAI Gym interface. It defines the action space, observation space, and reward structure for the reinforcement learning agent to interact with the greenhouse model.
+
+- `greenhouse_geometry.py`: This file contains the `GreenhouseGeometry` class, which is responsible for creating the geometry of a greenhouse model using the OpenStudio library. It allows for configuring various parameters such as wall thickness, window thickness, roof type, dimensions, and more. The class provides methods to create different components of the greenhouse, including the floor, walls, windows, roof segments, and shading surfaces. It also sets up schedules for natural ventilation and calculates the total surface area and slope of the greenhouse. The `create_houses` method is used to generate the complete greenhouse model by iterating over the specified number of houses in width and length. The resulting model is saved as an OpenStudio Model (OSM) file and an EnergyPlus Input Data File (IDF) for further analysis and simulation.
+
+### Subpackages
+
+- `service_functions/`: This subpackage contains various utility functions used by the GreenLight model, such as converting between different units, processing weather data, and generating artificial input data.
+
+- `create_green_light_model/`: This subpackage contains the modules responsible for creating and setting up the GreenLight model. It includes functions for initializing model parameters, defining the ODEs, setting up control strategies, and more.
+
+- `result_analysis/`: This subpackage provides functions for analyzing the results of the GreenLight model simulations. It includes modules for energy analysis, plotting the results, and conducting energy yield analysis.
+
+### Usage
+
+To run the greenhouse simulation using the GreenLight model, follow these steps:
+
+##### 1. Import the necessary classes and functions from the GreenLight package:
+
+```python
+from GreenLight import (
+    GreenLightModel,
+    GreenhouseGeometry,
+    extract_last_value_from_nested_dict,
+    calculate_energy_consumption,
+    plot_green_light,
+)
+```
+
+##### 2. Set the simulation parameters:
+
+```python
+# Growing cycle in days (can be set as a fraction)
+season_length = 34
+
+# Time interval for each model run in days (can be set as a fraction, e.g., 1/24/4 represents 15 minutes)
+season_interval = 34
+
+# The first day of the growing cycle (day of the year)
+first_day = 91
+```
+
+##### 3. Create an instance of the GreenLightModel:
+
+```python
+model = GreenLightModel(first_day=first_day, isMature=False, epw_path="data/energyPlus/inputs/NLD_Amsterdam.062400_IWEC.epw")
+```
+
+##### 4. Initialize variables for tracking yield and energy consumption:
+
+```python
+total_yield = 0
+lampIn = 0
+boilIn = 0
+```
+
+##### 5. Set the initial state of the model (more parameters can be configured here):
+
+```python
+init_state = {
+    "p": {
+        # Greenhouse structure settings
+        'psi': 22,  # Mean greenhouse cover slope [degrees]
+        'aFlr': 4e4,  # Floor area [m^2]
+        'aCov': 4.84e4,  # Surface of the cover including side walls [m^2]
+        'hAir': 6.3,  # Height of the main compartment [m] (the ridge height is 6.5, screen is 20 cm below it)
+        'hGh': 6.905,  # Mean height of the greenhouse [m]
+        'aRoof': 0.1169*4e4,  # Maximum roof ventilation area
+        'hVent': 1.3,  # Vertical dimension of single ventilation opening [m]
+        'cDgh': 0.75,  # Ventilation discharge coefficient [-]
+        'lPipe': 1.25,  # Length of pipe rail system [m m^-2]
+        'phiExtCo2': 7.2e4*4e4/1.4e4,  # Capacity of CO2 injection for the entire greenhouse [mg s^-1]
+        'pBoil': 300*4e4,  # Capacity of boiler for the entire greenhouse [W]
+        # Control settings
+        'co2SpDay': 1000,  # CO2 setpoint during the light period [ppm]
+        'tSpNight': 18.5,  # temperature set point dark period [°C]
+        'tSpDay': 19.5,  # temperature set point light period [°C]
+        'rhMax': 87,  # maximum relative humidity [%]
+        'ventHeatPband': 4,  # P-band for ventilation due to high temperature [°C]
+        'ventRhPband': 50,  # P-band for ventilation due to high relative humidity [% humidity]
+        'thScrRhPband': 10,  # P-band for screen opening due to high relative humidity [% humidity]
+        'lampsOn': 0,  # time of day (in morning) to switch on lamps [h]
+        'lampsOff': 18,  # time of day (in evening) to switch off lamps [h]
+        'lampsOffSun': 400,  # lamps are switched off if global radiation is above this value [W m^-2]
+        'lampRadSumLimit': 10  # Predicted daily radiation sum from the sun where lamps are not used that day [MJ m^-2 day^-1]
+    }
+}
+```
+
+##### 6. Run the model based on the growing cycle and time interval:
+
+```python
+for current_step in range(int(season_length // season_interval)):
+    gl = model.run_model(gl_params=init_state, season_length=season_length, season_interval=season_interval, step=current_step)
+    init_state = gl
+    dmc = 0.06
+ 
+    total_yield += 1e-6 * calculate_energy_consumption(gl, "mcFruitHar") / dmc
+    lampIn += 1e-6 * calculate_energy_consumption(gl, "qLampIn", "qIntLampIn")
+    boilIn += 1e-6 * calculate_energy_consumption(gl, "hBoilPipe", "hBoilGroPipe")
+
+```
+
+
+The code iterates over the growing cycle based on the specified season length and interval. For each step, it runs the GreenLightModel with the current state and parameters. It calculates the current yield, total yield, and energy consumption from lighting (lampIn) and heating (boilIn) in each iteration.
+
+By following these steps and adjusting the parameters as needed, you can run the greenhouse simulation using the GreenLight model and analyze the results.
+
+
+##### 7. Visualize the simulation results using the `plot_green_light` function:
+
+```python
+plot_green_light(gl)
+```
+
+This function takes the `gl` dictionary containing the simulation results and generates a comprehensive figure with multiple subplots illustrating various aspects of the greenhouse environment over time.
+
+The figure includes subplots for:
+- Indoor and outdoor temperature (°C)
+- Indoor and outdoor vapor pressure (Pa)
+- Indoor and outdoor relative humidity (%)
+- Indoor and outdoor CO2 concentration (mg m^{-3} and ppm)
+- Outdoor global solar radiation, PAR above the canopy (sun+lamp), lamp electric input, and PAR above the canopy (sun and lamp separately) (W m^{-2})
+- PPFD (Photosynthetic Photon Flux Density) from the sun and lamp (umol (PAR) m^{-2} s^{-1})
+- Net assimilation (CO_2), net photosynthesis, growth respiration, and maintenance respiration (mg m^{-2} s^{-1})
+- Fruit, stem, leaf dry weight, buffer content (mg (CH_2O) m^{-2}), and LAI (Leaf Area Index) (m^2 m^{-2})
+- Fruit dry weight (mg (CH_2O) m^{-2}) and fruit harvest (mg (CH_2O) m^{-2} s^{-1})
+- Various temperature states of the greenhouse components (°C)
+
+
+##### 9. Customize and extend the simulation:
+
+The GreenLight model provides flexibility to customize and extend the simulation according to your specific requirements. Some possible customizations include:
+
+- Modifying the greenhouse structure settings (e.g., floor area, cover surface, ventilation area) to represent different greenhouse designs.
+- Adjusting the control settings (e.g., CO2 setpoint, temperature setpoints, lamp scheduling) to explore different control strategies.
+- Incorporating additional external data sources (e.g., weather data, energy prices) to enhance the realism and applicability of the simulation.
+- Extending the model with new components or processes (e.g., crop models, energy storage systems) to address specific research questions or application scenarios.
+
+By customizing and extending the GreenLight model, you can tailor the simulation to your specific needs and investigate various aspects of greenhouse management and crop production.
+
