@@ -1,0 +1,1 @@
+.. automodule:: miner_viz
