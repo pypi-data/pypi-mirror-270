@@ -1,0 +1,8 @@
+setup.py
+PyAeroAcoustics/__init__.py
+PyAeroAcoustics.egg-info/PKG-INFO
+PyAeroAcoustics.egg-info/SOURCES.txt
+PyAeroAcoustics.egg-info/dependency_links.txt
+PyAeroAcoustics.egg-info/top_level.txt
+PyAeroAcoustics/Spectrum/Spectrum.py
+PyAeroAcoustics/Spectrum/__init__.py
