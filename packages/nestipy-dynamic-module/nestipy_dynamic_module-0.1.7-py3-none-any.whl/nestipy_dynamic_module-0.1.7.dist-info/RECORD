@@ -1,0 +1,9 @@
+nestipy_dynamic_module/__init__.py,sha256=Ekj1iWnw-61fv0r3JbOxQjn6HuzfVWA27K7F0hXaUF4,231
+nestipy_dynamic_module/builder.py,sha256=mlhcfzYq7Bp4kEodY3nTZO2DjPRTsFFxV6Cp-p61cL0,3512
+nestipy_dynamic_module/module/__init__.py,sha256=iJPmLJ67Il4D9hZ_LyemIpBmqzj3v4jD-7mSz8EbJ4I,139
+nestipy_dynamic_module/module/consumer.py,sha256=GSs156focpsUhyyEhEv21utyPR30mNmBTlK4JcXb3hs,517
+nestipy_dynamic_module/module/interface.py,sha256=MXero57eytVxO3IrTTtGm9HtLT8oadHiQ_ectHssjJQ,251
+nestipy_dynamic_module-0.1.7.dist-info/LICENSE,sha256=2ZZpMpOTNnKctX5hkN5DG8BN5RxyZnnUA6PI2RiUdpg,1054
+nestipy_dynamic_module-0.1.7.dist-info/METADATA,sha256=MzddMMH-UWeE7SE7h5_pmbvVG0Rs2DZc7dI4uJJ0TXo,2404
+nestipy_dynamic_module-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+nestipy_dynamic_module-0.1.7.dist-info/RECORD,,
