@@ -1,0 +1,7 @@
+trytond_account_payment_stripe<7.3,>=7.2
+trytond_sale_payment<7.3,>=7.2
+trytond_web_shop<7.3,>=7.2
+trytond_web_shop_vue_storefront<7.3,>=7.2
+trytond<7.3,>=7.2
+
+[test]
