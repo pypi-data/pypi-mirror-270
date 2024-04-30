@@ -1,0 +1,8 @@
+{
+    "test_workflow": {
+        "test_permission": [
+            "admin",
+            "all"
+        ]
+    }
+}

@@ -1,0 +1,208 @@
+# Copyright 2023 BlueCat Networks Inc.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+[project]
+name = "bluecat-automation-toolkit"
+authors = [{name = "BlueCat"}]
+maintainers = [{name = "Stargate", email = "ENG-Stargate-Team@bluecatnetworks.com"}] # internal to BlueCat
+description = "Utility tool for working with Bluecat Gateway workflow"
+readme = "README.rst"
+requires-python = "~=3.9.0"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "click>=8.1.3",
+    "jinja2>=3.1.2",
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://docs.bluecatnetworks.com"
+repository = "https://gitlab.bluecatlabs.net/dns-integrity/stargate/automation-toolkit" # internal to BlueCat
+
+[project.scripts]
+atk = "bluecat_automation_toolkit.cli:cli"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/bluecat_automation_toolkit/_version.py"
+
+[tool.mypy]
+exclude = [
+    "src/bluecat_automation_toolkit/_internal/templates/[a-zA-Z_]*/files/.*$"
+]
+files = ["src/"] # specifies filepath to check ONLY if no filepath given in CLI
+pretty = true
+python_version = 3.9
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_untyped_decorators = true
+implicit_optional = true
+strict_optional = true # makes None not compatible with every type by default
+strict_equality = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_return_any = true
+
+[[tool.mypy.overrides]]
+module = ["tests"]
+disallow_untyped_defs = false # test code doesn't need to type everything
+
+[tool.pytest.ini_options]
+addopts = """
+--cache-clear
+--capture=tee-sys
+--showlocals
+--tb=short
+"""
+log_cli = true
+log_cli_level = "WARNING"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+[tool.ruff]
+exclude = [
+    "src/*/_internal/templates/*/files/",
+    "tests/__snapshots__",
+]
+ignore = [
+    "FBT001", # Boolean-typed positional argument in function definition
+    "FBT002", # Boolean default positional argument in function definition
+    "COM812", # Trailing comma missing
+    "D107", # Missing docstring in `__init__`
+    "D200", # One-line docstring should fit on one line"
+    "D203", # one-blank-line-before-class
+    "D205", # 1 blank line required between summary line and description"
+    "D211", # no-blank-line-before-class
+    "D212", # Multi-line docstring summary should start at the first line
+    "D401", # First line of docstring should be in imperative mood: "Example fixture."
+    "E501", # Line too long # Style is handled by `black`.
+    "EM101", # Exception must not use a string literal, assign to variable first
+    "EM102", # Exception must not use an f-string literal, assign to variable first
+    "PT001", # Use `@pytest.fixture()` over `@pytest.fixture`
+    "TD002", # Missing author in TODO; try: `# TODO(<author_name>): ...` or `# TODO @<author_name>: ...`
+    "TD003", # Missing issue link on the line following this TODO
+    "FIX002", # Line contains TODO, consider resolving the issue
+]
+line-length = 90
+namespace-packages = ["tests"]
+select = [
+    "F", # pyflakes
+    "E", # pycodestyle
+    "W", # pycodestyle
+    "C90", # mccabe
+    "I", # isort
+    "N", # pep8-naming
+    "D", # pydocstyle
+    #"UP", # pyupgrade
+    "YTT", # flake8-2020
+    #"ANN", # flake8-annotations
+    "ASYNC", # flake8-async
+    "S", # flake8-bandit
+    #"BLE", # flake8-blind-except
+    "FBT", # flake8-boolean-trap
+    "B", # flake8-bugbear
+    "A", # flake8-builtins
+    "COM", # flake8-commas
+    #"CPY", # flake8-copyright
+    "C4", # flake8-comprehensions
+    "DTZ", # flake8-datetimez
+    "T10", # flake8-debugger
+    "DJ", # flake8-django
+    "EM", # flake8-errmsg
+    "EXE", # flake8-executable
+    #"FA", # flake8-future-annotations
+    "ISC", # flake8-implicit-str-concat
+    "ICN", # flake8-import-conventions
+    "G", # flake8-logging-format
+    "INP", # flake8-no-pep420
+    "PIE", # flake8-pie
+    #"T20", # flake8-print
+    "PYI", # flake8-pyi
+    "PT", # flake8-pytest-style
+    "Q", # flake8-quotes
+    "RSE", # flake8-raise
+    "RET", # flake8-return
+    "SLF", # flake8-self
+    "SLOT", # flake8-slots
+    "SIM", # flake8-simplify
+    "TID", # flake8-tidy-imports
+    "TCH", # flake8-type-checking
+    "INT", # flake8-gettext
+    "ARG", # flake8-unused-arguments
+    #"PTH", # flake8-use-pathlib
+    "TD", # flake8-todos
+    "FIX", # flake8-fixme
+    #"ERA", # eradicate
+    "PD", # pandas-vet
+    "PGH", # pygrep-hooks
+    "PL", # Pylint
+    #"TRY", # tryceratops
+    "FLY", # flynt
+    "NPY", # NumPy-specific rules
+    "AIR", # Airflow
+    "PERF", # Perflint
+    #"FURB", # refurb
+    #"LOG", # flake8-logging
+    "RUF", # Ruff-specific rules
+]
+src = ["src"]
+target-version = "py39"
+
+[tool.ruff.per-file-ignores]
+"tests/**" = [
+    "D100", # Missing docstring in public module
+    "D101", # Missing docstring in public class
+    "D102", # Missing docstring in public method
+    "D103", # Missing docstring in public function
+    "S101", # Use of `assert` detected
+]
+
+[tool.black]
+line-length = 90
+target-version = ['py39']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.ruff_cache
+    | \.tox
+    | \.venv
+    | build
+    | logs
+    | venv
+    | src/bluecat_automation_toolkit/_internal/templates/[a-zA-Z_]*/files
+    | tests/__snapshots__
+  )/
+)
+'''

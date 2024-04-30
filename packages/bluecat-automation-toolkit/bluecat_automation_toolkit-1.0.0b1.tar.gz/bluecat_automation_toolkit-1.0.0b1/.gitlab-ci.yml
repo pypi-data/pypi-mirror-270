@@ -1,0 +1,131 @@
+# Copyright 2023 BlueCat Networks Inc.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+image: docker-ext.artifactory.bluecatlabs.net/python:3.9-bullseye
+
+stages:
+  - test
+  - release
+
+.except_on_standalone_pushes: &except_on_standalone_pushes
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH != "main"' # Treat pushes to "main" exceptionally.
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - when: always
+
+.when_lightweight: &when_lightweight
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_EVENT_TYPE == "merge_train"'
+      when: never
+    - when: always
+
+.when_heavyweight: &when_heavyweight
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      when: never
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_EVENT_TYPE == "merge_train"'
+      when: always
+    - when: never
+
+default:
+  before_script:
+    - python -V  # Print out python version for debugging
+    - make venv-create dir=venv
+    - venv/bin/pip3 install tox==4.11.3
+    - . venv/bin/activate
+# Temporarily disabling cache to work around issues with renamed GitLab project.
+#  cache:
+#    paths:
+#      - .cache/pip
+#      - venv/
+
+mypy:
+  stage: test
+  script:
+    - tox -e mypy
+  <<: *except_on_standalone_pushes
+
+pylint:
+  stage: test
+  script:
+    - make pylint-check
+  <<: *except_on_standalone_pushes
+#  <<: *when_heavyweight
+#
+#pylint_changed_files:
+#  stage: test
+#  script:
+#    - pip install -e . # Install the dependencies, so that the modules are importable.
+#    - echo "CI_COMMIT_SHA $CI_COMMIT_SHA"
+#    - echo "CI_MERGE_REQUEST_TARGET_BRANCH_NAME $CI_MERGE_REQUEST_TARGET_BRANCH_NAME"
+#    - git fetch origin ${CI_MERGE_REQUEST_TARGET_BRANCH_NAME}
+#    - files=$(git diff --name-only --diff-filter=d origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...$CI_COMMIT_SHA -- '*.py' | xargs -I % echo '"%"' | tr '\n' ' ')
+#    - if [ -z "$files" ]; then echo "No changes to Python files. pylint will not run"; exit 0; fi
+#    - 'echo "Will run pylint on the following files: $files"'
+#    - sh -c "tox -e pylint -- $files"
+#  <<: *when_lightweight
+
+ruff:
+  stage: test
+  script:
+    - make ruff-check
+  <<: *except_on_standalone_pushes
+
+copyright:
+  stage: test
+  script:
+    - make copyright-check
+  <<: *except_on_standalone_pushes
+
+black:
+  stage: test
+  script:
+    - make black-check
+  <<: *except_on_standalone_pushes
+
+unit_tests:
+  stage: test
+  script:
+    - make unit-tests
+  <<: *except_on_standalone_pushes
+
+release:
+  stage: release
+  before_script:
+    - python -V
+    - make venv-create dir=venv
+    - make venv-install-build-pkg dir=venv
+    - . venv/bin/activate
+  script:
+    - make release
+    - make clean-build
+  only:
+    refs:
+      - main
+    changes:
+      - src/bluecat_automation_toolkit/**/*

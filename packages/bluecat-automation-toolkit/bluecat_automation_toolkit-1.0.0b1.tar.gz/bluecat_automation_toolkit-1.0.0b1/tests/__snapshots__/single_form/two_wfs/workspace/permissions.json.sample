@@ -1,0 +1,8 @@
+{
+    "test_name_1": {
+        "test_permission_1": [
+            "admin",
+            "all"
+        ]
+    }
+}

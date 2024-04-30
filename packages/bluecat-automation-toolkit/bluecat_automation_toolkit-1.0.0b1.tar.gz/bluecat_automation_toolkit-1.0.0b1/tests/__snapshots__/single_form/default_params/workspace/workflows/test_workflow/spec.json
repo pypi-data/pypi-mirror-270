@@ -1,0 +1,10 @@
+{
+    "pages": [
+        {
+            "title": "test_workflow",
+            "url": "/test_workflow",
+            
+            "permission": "test_workflow"
+        }
+    ]
+}

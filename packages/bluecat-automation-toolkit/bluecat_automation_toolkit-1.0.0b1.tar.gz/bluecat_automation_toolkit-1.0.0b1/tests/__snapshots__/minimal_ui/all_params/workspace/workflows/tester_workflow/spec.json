@@ -1,0 +1,9 @@
+{
+    "pages": [
+        {
+            "title": "A title for an HTML link",
+            "url": "/tester_workflow",
+            "description": "A description of what to be expected","permission": "test_permission"
+        }
+    ]
+}
