@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: byteclasses
+Version: 0.6.0
+Summary: A python package designed for creating and managing blobs of binary data using dataclass like structures.
+Home-page: https://github.com/thetacom/byteclasses
+License: MIT
+Keywords: struct,structures,binary,blobs,raw,bytes,dataclasses
+Author: Justin C
+Author-email: justin@thetacom.info
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Project-URL: Repository, https://github.com/thetacom/byteclasses
+Description-Content-Type: text/markdown
+
+# Byteclasses Package
+
+## Description
+
+A python package designed for creating and managing blobs of binary data using dataclass like classes.
+
+This library is designed for creating custom Python data classes with builtin structural constraints. Byte Classes behave similar to a combination of Python dataclasses and C structs.
+
+## Docs
+
+[Byteclasses Documentation](https://io.thetacom.info/byteclasses/)
+
+## Byte Classes
+
+- Collections
+  - ByteArray
+  - String
+  - Structure
+  - Union
+- Primitives
+  - Generic
+    - BitField
+    - Byte
+    - Word
+    - DWord
+    - QWord
+  - Floats
+    - Float16 (Half)
+    - Float32 (Float)
+    - Float64 (Double)
+  - Integers
+    - Int8
+    - UInt8
+    - Int16 (Short)
+    - UInt16 (UShort)
+    - Int32 (Int)
+    - UInt32 (UInt)
+    - Long
+    - ULong
+    - Int64 (LongLong)
+    - UInt64 (ULongLong)
+  - Characters
+    - UChar (Char)
+    - SChar**
+
+> ** Not fully implemented
+
+[C data types](https://en.wikipedia.org/wiki/C_data_types)
+
