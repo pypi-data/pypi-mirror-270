@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gagnatorg
+Version: 0.1.0
+Summary: Python package to interact with the Já Gagnatorg API.
+Home-page: https://github.com/overcastsoftware/gagnatorg-python/
+Author: Overcast
+Author-email: hallo@overcast.is
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-env ; extra == 'testing'
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# Gagnatorg python package
+A python package to connect to Já's Gagnatorg API
