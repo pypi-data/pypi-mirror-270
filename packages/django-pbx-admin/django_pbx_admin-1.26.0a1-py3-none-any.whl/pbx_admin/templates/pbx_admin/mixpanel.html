@@ -1,0 +1,113 @@
+<script type="text/javascript">
+mixpanel.init("{{ mixpanel.project_token }}");
+
+mixpanel.track("screen_view", {
+  eventCategory: "adminPanel",
+  instanceId: "{{ mixpanel.instance_name }}",
+  screenTitle: document.title,
+  screenType: "{{ page_type }}",
+});
+
+function sendMixpanelEvent(eventCategory, eventName, extraProps){
+  let nameValue = "{{ event_object_value }}"
+  if (!nameValue){
+    let nameElement = document.getElementById("id_name")
+    if (nameElement !== null){
+      nameValue = nameElement.value
+    }
+  }
+
+  mixpanel.track(eventName, {
+    eventCategory: eventCategory,
+    instanceId: "{{ mixpanel.instance_name }}",
+    screenTitle: document.title,
+    eventObject: nameValue,
+    ...extraProps,
+  })
+}
+
+function removePrefixAndConvertToCamelCase(inputString, prefix) {
+  if (inputString.startsWith(prefix)) {
+    inputString = inputString.slice(prefix.length);
+  }
+
+  return inputString.charAt(0).toLowerCase() + inputString.slice(1);
+}
+
+function getLanguageFromShinarInput(element) {
+  const parts = element.name.split("_");
+  return parts[parts.length - 1];
+}
+
+function getFilteredDatasetProperties(element, prefix) {
+  const filteredData = {};
+  const dataset = element.dataset;
+
+  for (let key in dataset) {
+    if (key.startsWith(prefix)) {
+      const newKey = removePrefixAndConvertToCamelCase(key, prefix);
+      const value = dataset[key];
+
+      if (value === "{{ mixpanel.value_getter.CHECKBOX_CHECKED }}") {
+        filteredData[newKey] = element.checked;
+      }
+      else if (value === "{{ mixpanel.value_getter.INPUT_LABEL }}") {
+        filteredData[newKey] = element.parentElement.textContent.trim();
+      }
+      else if (value === "{{ mixpanel.value_getter.INPUT_SHINAR_LANGUAGE }}") {
+        filteredData[newKey] = getLanguageFromShinarInput(element);
+      }
+      else if (value === "{{ mixpanel.value_getter.INPUT_VALUE }}") {
+        filteredData[newKey] = element.value;
+      }
+      else if (value === "{{ mixpanel.value_getter.PRODUCT_IMAGE_TYPE }}") {
+        const imageContainer = element.closest(".pretty-images-container");
+        filteredData[newKey] = imageContainer.dataset.mixpanelExtraPropProductImageType;
+      }
+      else if (value === "{{ mixpanel.value_getter.SELECT_LABEL }}") {
+        const label = element.parentElement.parentElement.getElementsByTagName("label")[0];
+        filteredData[newKey] = label.textContent.trim();
+      }
+      else if (value === "{{ mixpanel.value_getter.SELECT_OPTION }}") {
+        filteredData[newKey] = element.selectedOptions[0].textContent.trim();
+      }
+      else {
+        filteredData[newKey] = value;
+      }
+    }
+  }
+
+  return filteredData;
+}
+
+const MIXPANEL_SELECTOR = "[data-mixpanel-enabled], button[name='_save'], button[name='_continue']";
+
+function handleMixpanelSendEvent(event) {
+  const element = event.target.closest(MIXPANEL_SELECTOR);
+  if (!element) {
+    return;
+  }
+
+  const dataEventName = element.dataset.mixpanelEventName;
+  const eventName = dataEventName || "{{ action_name }}";
+
+  const extraProps = getFilteredDatasetProperties(element, "mixpanelExtraProp");
+  sendMixpanelEvent("adminPanel", eventName, extraProps);
+}
+
+function addMixpanelElementListeners(selector) {
+  const elements = document.querySelectorAll(selector);
+
+  elements.forEach((element) => {
+    const event = element.dataset.mixpanelSendOnAction || "click";
+    element.addEventListener(event, handleMixpanelSendEvent);
+  });
+}
+
+function reloadMixpanelEventListener() {
+  addMixpanelElementListeners(MIXPANEL_SELECTOR);
+}
+
+reloadMixpanelEventListener();
+
+</script>
