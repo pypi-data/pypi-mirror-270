@@ -1,0 +1,7 @@
+strava_connector/__init__.py,sha256=3M0eSw_I9Q8_EsQHTYeAoh9DVLQz6heG3vol3-n3w0g,1438
+strava_connector/authenticator.py,sha256=xdoIT6T0ero5-uCjmS5xey6AxudMZCTXHs1Y9-m55ds,3600
+strava_connector/connector.py,sha256=kPaYyoYq4sXEzn-BlbKfK1jkv2X3zSChB5eFSrZrhIg,15144
+strava_connector-0.2.1.dist-info/LICENSE,sha256=CYt8PpT0n36TCOZFfNmn7uadtUD8Ym80jJ3B7gvTUlE,1074
+strava_connector-0.2.1.dist-info/METADATA,sha256=cncZNk-rUq2tuK8OfQh0MYW8A_FNggz2TPu2j23DMTo,3978
+strava_connector-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+strava_connector-0.2.1.dist-info/RECORD,,
