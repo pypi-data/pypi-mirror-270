@@ -1,0 +1,10 @@
+pyprecip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyprecip/reading/__init__.py,sha256=K9CT7ocsU1xsezZOn1ZLJ9TKNFsrldfI8tM9MZkWBoI,49
+pyprecip/reading/read_api.py,sha256=Z7aDWF5YcDNK3a74IH4O9CmKxiHqGDvzQOZ-FzzTlmA,5136
+pyprecip/reading/read_file.py,sha256=kzgiwv8RZY4f77_bUWc2g_coBwvTQViHuWV9cAoBNTE,5184
+pyprecip/reading/test.py,sha256=OzdvigY0aC0DJ8sXokj8dOP7RqA8R77WKbALZ53wdaU,118
+pyprecip-0.0.3.dist-info/LICENSE,sha256=5VmicU9G7tYoRg6lG2pOTlnQR-ZNyyd1g9odyyrLYzU,1094
+pyprecip-0.0.3.dist-info/METADATA,sha256=fONtWBuOBPVNRL6F9t5xBPfE7FbsVN1vmK2-Nket6YM,812
+pyprecip-0.0.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+pyprecip-0.0.3.dist-info/top_level.txt,sha256=TUBZn-IeYiCoBF5Mx6vzAEZDD083ijzLBA20d56im24,9
+pyprecip-0.0.3.dist-info/RECORD,,
