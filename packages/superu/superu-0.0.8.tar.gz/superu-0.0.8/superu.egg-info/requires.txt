@@ -1,0 +1,7 @@
+sentence_transformers
+pandas
+openai
+torch
+regex==2023.12.25
+langchain
+ollama
