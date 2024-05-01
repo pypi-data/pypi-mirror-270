@@ -1,0 +1,12 @@
+scia_xml_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scia_xml_reader/config.py,sha256=SOWrjouajhPS74mH9pMhqKMFUYX97YDDpeMjqJlJptA,693
+scia_xml_reader/exceptions.py,sha256=vlrzpfiKynHqW0AKToO605s9z4-dqbsVhojLKsWgLL4,108
+scia_xml_reader/functions.py,sha256=ydBS9J3hHk2ZwS44O5iV_v6R1-Con59lE1bNBTmbK5M,752
+scia_xml_reader/getters.py,sha256=LOMQZ9ZoapD95ou_9xuc5rWQLe8hpEp_os2JYPPUp_c,1704
+scia_xml_reader/mapping.py,sha256=Jb-J2mBOB7-Vpk6CHmp8Brq_d70f8B-nvdnVWtRNtCg,1430
+scia_xml_reader/models.py,sha256=AdoD9-VNCysIhQhPF8UE-Jz6MbvJFxz0D0OzeRBkgNM,905
+scia_xml_reader/parse_info.py,sha256=kyOFp-L1N7rre5LF7HboSQv_VHHpagAON3u-LRuaDb4,1111
+scia_xml_reader/parser.py,sha256=sgmnv_s1Y0iHnuaMm3fbEdGWoUbxu7usvJMaYV_PPWo,5209
+scia_xml_reader-0.1.0.dist-info/METADATA,sha256=bfnvL_I7AHzpYnG6GjpYMGrq9OVuNjtKHzlNEUKDYAE,1070
+scia_xml_reader-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+scia_xml_reader-0.1.0.dist-info/RECORD,,
