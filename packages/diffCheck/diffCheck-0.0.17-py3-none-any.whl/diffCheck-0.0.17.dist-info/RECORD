@@ -1,0 +1,11 @@
+diffCheck/__init__.py,sha256=Sd6j21A3v31CfSZ7ASugNxkOYAo0W0NUqcHuzfW7jJA,22
+diffCheck/df_geometries.py,sha256=YLE0UAWJQ2zHY1n54QvbRohXbTLW06IQX51ETWsyDI4,9419
+diffCheck/df_joint_detector.py,sha256=XyFkZxYGSNLf8-EzZ5AUC6gI8Yk3kpxtPs4c9PAGz54,8427
+diffCheck/df_transformations.py,sha256=3uX0_esjaJmRBC2Uot6J0UpL7YyzsE4kmaS9kVYkqXU,4634
+diffCheck/df_util.py,sha256=qIYu7-Ac8TvQePEEP8udZR9XW-V5oVY_yRtuu2S6n-0,4174
+diffCheck/diffCheckBindings.cp39-win_amd64.pyd,sha256=I9Cb0iW0l3X9WS5nDQYi6WxAnP_yFXVaMGA9PK5DD-k,101888
+diffCheck/newmodule.py,sha256=sPLwyAcljdXNQkaZiciq-olyVKv39WiHmQMDRlHVoZs,69
+diffCheck-0.0.17.dist-info/METADATA,sha256=J4vEmZcRW7APg6br3z0Qq3gpX7n1Iyp2ZxcFlWOgLT0,782
+diffCheck-0.0.17.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+diffCheck-0.0.17.dist-info/top_level.txt,sha256=E3UbltVp-yr21RtlaZIGVKY7k57TZxtYIA6ERGBIpzY,10
+diffCheck-0.0.17.dist-info/RECORD,,
