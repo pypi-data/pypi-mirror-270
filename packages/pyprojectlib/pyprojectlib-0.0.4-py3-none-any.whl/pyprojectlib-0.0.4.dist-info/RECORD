@@ -1,0 +1,17 @@
+pyprojectlib/LICENSE.template,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pyprojectlib/README.template,sha256=NWL2YpRjL7t8iliFtvmNJu_jDPOmmhuxXFOosR4SyT4,1455
+pyprojectlib/__init__.py,sha256=6lwYQ5TMQTOWkvTTDPIMJw5gSw9qFxJfUJ086V9uD4w,7657
+pyprojectlib/cli.py,sha256=HlQZOEy4d9akUbGsnCBKb84-ZO9lnUw8Bv_DLCd9QyA,5556
+pyprojectlib/constants.py,sha256=VF9-ojuFsZF1oGbWLDqUmwn8FefFbXD4R-I4oKUfq3I,1475
+pyprojectlib/helper.py,sha256=abfcMJ1dmV1i6X4gitlQHGb3zkXFgdl61iY1SwxYUUs,4824
+pyprojectlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyprojectlib/pypackage.py,sha256=nmAEhy_t6YKiCkYp-OoTcN-dN7iSR7OsYZYCW09Icqs,8523
+pyprojectlib/pyproject.py,sha256=mtuc1VIUBhxuPi-lEQCKxAtEyUCUliT1MYw7GaOqbS4,4321
+pyprojectlib/pyrepo.py,sha256=muf7d5iGQ9HGQ3VWMBG368q4h3bwcOZw2A8rfnfr-uE,8153
+pyprojectlib/pyuser.py,sha256=KGn8GLzpr1KIq1EQ0GDIIveBcEFDMBeV9S-d8h6VYFE,1617
+pyprojectlib-0.0.4.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pyprojectlib-0.0.4.dist-info/METADATA,sha256=8_2C7vpwgCggWwuqPoeMyU2A7NMNg6U9TVQjf42XSw0,7345
+pyprojectlib-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyprojectlib-0.0.4.dist-info/entry_points.txt,sha256=CBtEkqVn_vHpuDLjrEsnvz2gtry93w8yXZ8NTy1EtyI,46
+pyprojectlib-0.0.4.dist-info/top_level.txt,sha256=as47APLjeQeF7iTA0S35KzHM9ePSr14Yorx4tF2iV_I,13
+pyprojectlib-0.0.4.dist-info/RECORD,,
