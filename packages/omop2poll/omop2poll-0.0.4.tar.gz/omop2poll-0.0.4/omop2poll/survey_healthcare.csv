@@ -1,0 +1,883 @@
+﻿survey,question_concept_id,question,answer_concept_id,answer,answer_numeric,answer_text
+Healthcare Access & Utilization,43528660,Health Advice: Spoken To General Doctor,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528660,Health Advice: Spoken To General Doctor,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528660,Health Advice: Spoken To General Doctor,43529549,Spoken To General Doctor: No,2, No
+Healthcare Access & Utilization,43528660,Health Advice: Spoken To General Doctor,43530243,Spoken To General Doctor: Yes,1, Yes
+Healthcare Access & Utilization,43528661,Health Advice: Spoken To Medical Specialist,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528661,Health Advice: Spoken To Medical Specialist,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528661,Health Advice: Spoken To Medical Specialist,43529550,Spoken To Medical Specialist: No,2, No
+Healthcare Access & Utilization,43528661,Health Advice: Spoken To Medical Specialist,43530244,Spoken To Medical Specialist: Yes,1, Yes
+Healthcare Access & Utilization,43528662,Can't Afford Care: Dental Care,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528662,Can't Afford Care: Dental Care,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528662,Can't Afford Care: Dental Care,43529335,Can't Afford Dental Care: No,2, No
+Healthcare Access & Utilization,43528662,Can't Afford Care: Dental Care,43530028,Can't Afford Dental Care: Yes,1, Yes
+Healthcare Access & Utilization,43528663,Can't Afford Care: Emergency Care,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528663,Can't Afford Care: Emergency Care,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528663,Can't Afford Care: Emergency Care,43529341,Can't Afford Emergency Care: No,2, No
+Healthcare Access & Utilization,43528663,Can't Afford Care: Emergency Care,43530034,Can't Afford Emergency Care: Yes,1, Yes
+Healthcare Access & Utilization,43528664,Can't Afford Care: Healthcare Provider,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528664,Can't Afford Care: Healthcare Provider,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528664,Can't Afford Care: Healthcare Provider,43529361,Can't Afford Healthcare Provider: No,0, No
+Healthcare Access & Utilization,43528664,Can't Afford Care: Healthcare Provider,43530054,Can't Afford Healthcare Provider: Yes,1, Yes
+Healthcare Access & Utilization,43528665,Can't Afford Care: Bought Rx From Other Country,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528665,Can't Afford Care: Bought Rx From Other Country,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528665,Can't Afford Care: Bought Rx From Other Country,43529313,Bought Rx From Other Country: No,2, No
+Healthcare Access & Utilization,43528665,Can't Afford Care: Bought Rx From Other Country,43530007,Bought Rx From Other Country: Yes,1, Yes
+Healthcare Access & Utilization,43528666,Can't Afford Care: Alternative Therapies,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43528666,Can't Afford Care: Alternative Therapies,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43528666,Can't Afford Care: Alternative Therapies,43529300,Alternative Therapies To Save Money: No,2, No
+Healthcare Access & Utilization,43528666,Can't Afford Care: Alternative Therapies,43529994,Alternative Therapies To Save Money: Yes,1, Yes
+Healthcare Access & Utilization,43529899,Health Provider Race Religion: Delayed Or No Care,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529899,Health Provider Race Religion: Delayed Or No Care,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529899,Health Provider Race Religion: Delayed Or No Care,43529576,Health Provider Race Religion Delayed Or No Care: None Of The Time,1, None Of The Time
+Healthcare Access & Utilization,43529899,Health Provider Race Religion: Delayed Or No Care,43529844,Health Provider Race Religion Delayed Or No Care: Some Of The Time,2, Some Of The Time
+Healthcare Access & Utilization,43529899,Health Provider Race Religion: Delayed Or No Care,43529239,Health Provider Race Religion Delayed Or No Care: Most Of The Time,3, Most Of The Time
+Healthcare Access & Utilization,43529899,Health Provider Race Religion: Delayed Or No Care,43528387,Health Provider Race Religion Delayed Or No Care: Always,4, Always
+Healthcare Access & Utilization,43529901,Health Provider Race Religion: How Important,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529901,Health Provider Race Religion: How Important,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529901,Health Provider Race Religion: How Important,43529588,Health Provider Race Religion: Not Important,1, Not Important
+Healthcare Access & Utilization,43529901,Health Provider Race Religion: How Important,43529840,Health Provider Race Religion: Slightly Important,2, Slightly Important
+Healthcare Access & Utilization,43529901,Health Provider Race Religion: How Important,43529849,Health Provider Race Religion: Somewhat Important,3, Somewhat Important
+Healthcare Access & Utilization,43529901,Health Provider Race Religion: How Important,43529953,Health Provider Race Religion: Very Important,4, Very Important
+Healthcare Access & Utilization,43529902,Health Provider Race Religion: How Often,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529902,Health Provider Race Religion: How Often,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529902,Health Provider Race Religion: How Often,43529578,Health Provider Race Religion How Often: None Of The Time,1, None Of The Time
+Healthcare Access & Utilization,43529902,Health Provider Race Religion: How Often,43529846,Health Provider Race Religion How Often: Some Of The Time,2, Some Of The Time
+Healthcare Access & Utilization,43529902,Health Provider Race Religion: How Often,43529241,Health Provider Race Religion How Often: Most Of The Time,3, Most Of The Time
+Healthcare Access & Utilization,43529902,Health Provider Race Religion: How Often,43528389,Health Provider Race Religion How Often: Always,4, Always
+Healthcare Access & Utilization,43529903,Delayed Medical Care: Child Care,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529903,Delayed Medical Care: Child Care,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529903,Delayed Medical Care: Child Care,43529321,Delayed Care Due to Child Care: No,2, No
+Healthcare Access & Utilization,43529903,Delayed Medical Care: Child Care,43530014,Delayed Care Due to Child Care: Yes,1, Yes
+Healthcare Access & Utilization,43529904,Delayed Medical Care: Elderly Care,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529904,Delayed Medical Care: Elderly Care,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529904,Delayed Medical Care: Elderly Care,43529340,Delayed Care Due to Elderly Care: No,2, No
+Healthcare Access & Utilization,43529904,Delayed Medical Care: Elderly Care,43530033,Delayed Care Due to Elderly Care: Yes,1, Yes
+Healthcare Access & Utilization,43529905,Delayed Medical Care: Time Off Work,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529905,Delayed Medical Care: Time Off Work,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529905,Delayed Medical Care: Time Off Work,43529560,Delayed Care Due to Time Off Work: No,2, No
+Healthcare Access & Utilization,43529905,Delayed Medical Care: Time Off Work,43530254,Delayed Care Due to Time Off Work: Yes,1, Yes
+Healthcare Access & Utilization,43529906,Delayed Medical Care: Transportation,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529906,Delayed Medical Care: Transportation,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529906,Delayed Medical Care: Transportation,43529564,Delayed Care Due to Transportation: No,2, No
+Healthcare Access & Utilization,43529906,Delayed Medical Care: Transportation,43530258,Delayed Care Due to Transportation: Yes,1, Yes
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528263,"Nurse Practitioner, PA, or Midwife Visits: 1",1,1
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528307,"Nurse Practitioner, PA, or Midwife Visits: 2 to 3",2, 2 to 3
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528318,"Nurse Practitioner, PA, or Midwife Visits: 4 to 5",3, 4 to 5
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528329,"Nurse Practitioner, PA, or Midwife Visits: 6 to 7",4, 6 to 7
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528341,"Nurse Practitioner, PA, or Midwife Visits: 8 to 9",5, 8 to 9
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528274,"Nurse Practitioner, PA, or Midwife Visits: 10 to 12",6, 10 to 12
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528285,"Nurse Practitioner, PA, or Midwife Visits: 13 to 15",7, 13 to 15
+Healthcare Access & Utilization,43529973,"Health Advice: Nurse Practitioner, Physician Assistant, or Midwife Visits",43528296,"Nurse Practitioner, PA, or Midwife Visits: 16 or More",8, 16 or More
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528258,Dentist or Orthodontist Visits: 1,1,1
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528302,Dentist or Orthodontist Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528313,Dentist or Orthodontist Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528324,Dentist or Orthodontist Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528336,Dentist or Orthodontist Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528269,Dentist or Orthodontist Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528280,Dentist or Orthodontist Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43529974,Health Advice: Dentist or Orthodontist Visits,43528291,Dentist or Orthodontist Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528264,OB/GYN Visits: 1,1,1
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528308,OB/GYN Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528319,OB/GYN Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528330,OB/GYN Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528342,OB/GYN Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528275,OB/GYN Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528286,OB/GYN Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43529975,Health Advice: OB/GYN Visits,43528297,OB/GYN Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528261,Medical Specialist Visits: 1,1,1
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528305,Medical Specialist Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528316,Medical Specialist Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528327,Medical Specialist Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528339,Medical Specialist Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528272,Medical Specialist Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528283,Medical Specialist Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43529976,Health Advice: Medical Specialist Visits,43528294,Medical Specialist Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528262,Mental Health Professional Visits: 1,1,1
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528306,Mental Health Professional Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528317,Mental Health Professional Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528328,Mental Health Professional Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528340,Mental Health Professional Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528273,Mental Health Professional Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528284,Mental Health Professional Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43529977,Health Advice: Mental Health Professional Visits,43528295,Mental Health Professional Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528267,Traditional Healer Visits: 1,1,1
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528311,Traditional Healer Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528322,Traditional Healer Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528333,Traditional Healer Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528345,Traditional Healer Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528278,Traditional Healer Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528289,Traditional Healer Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43529978,Health Advice: Traditional Healer Visits,43528300,Traditional Healer Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43530268,Delayed Medical Care: Rural Area,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530268,Delayed Medical Care: Rural Area,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530268,Delayed Medical Care: Rural Area,43529416,Delayed Care Rural Area: No,2, No
+Healthcare Access & Utilization,43530268,Delayed Medical Care: Rural Area,43530110,Delayed Care Rural Area: Yes,1, Yes
+Healthcare Access & Utilization,43530399,Health Advice: Spoken To Chiropractor,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530399,Health Advice: Spoken To Chiropractor,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530399,Health Advice: Spoken To Chiropractor,43529546,Spoken To Chiropractor: No,2, No
+Healthcare Access & Utilization,43530399,Health Advice: Spoken To Chiropractor,43530240,Spoken To Chiropractor: Yes,1, Yes
+Healthcare Access & Utilization,43530400,Health Advice: Spoken To Dentist or Orthodontist,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530400,Health Advice: Spoken To Dentist or Orthodontist,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530400,Health Advice: Spoken To Dentist or Orthodontist,43529547,Spoken To Dentist or Orthodontist: No,2, No
+Healthcare Access & Utilization,43530400,Health Advice: Spoken To Dentist or Orthodontist,43530241,Spoken To Dentist or Orthodontist: Yes,1, Yes
+Healthcare Access & Utilization,43530401,Health Advice: Spoken To OB/GYN,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530401,Health Advice: Spoken To OB/GYN,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530401,Health Advice: Spoken To OB/GYN,43529553,Spoken To OB/GYN: No,2, No
+Healthcare Access & Utilization,43530401,Health Advice: Spoken To OB/GYN,43530247,Spoken To OB/GYN: Yes,1, Yes
+Healthcare Access & Utilization,43530402,Health Advice: Spoken To Mental Health Professional,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530402,Health Advice: Spoken To Mental Health Professional,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530402,Health Advice: Spoken To Mental Health Professional,43529551,Spoken To Mental Health Professional: No,2, No
+Healthcare Access & Utilization,43530402,Health Advice: Spoken To Mental Health Professional,43530245,Spoken To Mental Health Professional: Yes,1, Yes
+Healthcare Access & Utilization,43530403,Health Advice: Spoken To Eye Doctor,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530403,Health Advice: Spoken To Eye Doctor,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530403,Health Advice: Spoken To Eye Doctor,43529548,Spoken To Eye Doctor: No,2, No
+Healthcare Access & Utilization,43530403,Health Advice: Spoken To Eye Doctor,43530242,Spoken To Eye Doctor: Yes,1, Yes
+Healthcare Access & Utilization,43530404,Health Advice: Spoken To Nurse Practitioner,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530404,Health Advice: Spoken To Nurse Practitioner,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530404,Health Advice: Spoken To Nurse Practitioner,43529552,Spoken To Nurse Practitioner: No,2, No
+Healthcare Access & Utilization,43530404,Health Advice: Spoken To Nurse Practitioner,43530246,Spoken To Nurse Practitioner: Yes,1, Yes
+Healthcare Access & Utilization,43530405,"Health Advice: Spoken To Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist",903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530405,"Health Advice: Spoken To Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist",903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530405,"Health Advice: Spoken To Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist",43529554,"Spoken To PT, ST, RT, Audiologist or OT: No",2, No
+Healthcare Access & Utilization,43530405,"Health Advice: Spoken To Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist",43530248,"Spoken To PT, ST, RT, Audiologist or OT: Yes",1, Yes
+Healthcare Access & Utilization,43530406,Health Advice: Spoken To Podiatrist,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530406,Health Advice: Spoken To Podiatrist,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530406,Health Advice: Spoken To Podiatrist,43529555,Spoken To Podiatrist: No,2, No
+Healthcare Access & Utilization,43530406,Health Advice: Spoken To Podiatrist,43530249,Spoken To Podiatrist: Yes,1, Yes
+Healthcare Access & Utilization,43530407,Health Advice: Spoken To Traditional Healer,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530407,Health Advice: Spoken To Traditional Healer,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530407,Health Advice: Spoken To Traditional Healer,43529556,Spoken To Traditional Healer: No,2, No
+Healthcare Access & Utilization,43530407,Health Advice: Spoken To Traditional Healer,43530250,Spoken To Traditional Healer: Yes,1, Yes
+Healthcare Access & Utilization,43530408,Can't Afford Care: Eyeglasses,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530408,Can't Afford Care: Eyeglasses,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530408,Can't Afford Care: Eyeglasses,43529348,Can't Afford Eyeglasses: No,2, No
+Healthcare Access & Utilization,43530408,Can't Afford Care: Eyeglasses,43530041,Can't Afford Eyeglasses: Yes,1, Yes
+Healthcare Access & Utilization,43530409,Can't Afford Care: Follow-up Care,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530409,Can't Afford Care: Follow-up Care,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530409,Can't Afford Care: Follow-up Care,43529353,Can't Afford Follow-up Care: No,2, No
+Healthcare Access & Utilization,43530409,Can't Afford Care: Follow-up Care,43530046,Can't Afford Follow-up Care: Yes,1, Yes
+Healthcare Access & Utilization,43530410,Can't Afford Care: Mental Health Counseling,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530410,Can't Afford Care: Mental Health Counseling,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530410,Can't Afford Care: Mental Health Counseling,43529389,Can't Afford Mental Health Counseling: No,2, No
+Healthcare Access & Utilization,43530410,Can't Afford Care: Mental Health Counseling,43530082,Can't Afford Mental Health Counseling: Yes,1, Yes
+Healthcare Access & Utilization,43530411,Can't Afford Care: Prescription Medicines,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530411,Can't Afford Care: Prescription Medicines,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530411,Can't Afford Care: Prescription Medicines,43529411,Can't Afford Prescription Medicines: No,2, No
+Healthcare Access & Utilization,43530411,Can't Afford Care: Prescription Medicines,43530105,Can't Afford Prescription Medicines: Yes,1, Yes
+Healthcare Access & Utilization,43530412,Can't Afford Care: Specialist,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530412,Can't Afford Care: Specialist,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530412,Can't Afford Care: Specialist,43529543,Can't Afford Specialist: No,2, No
+Healthcare Access & Utilization,43530412,Can't Afford Care: Specialist,43530237,Can't Afford Specialist: Yes,1, Yes
+Healthcare Access & Utilization,43530413,Can't Afford Care: Lower Cost Rx To Save Money,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530413,Can't Afford Care: Lower Cost Rx To Save Money,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530413,Can't Afford Care: Lower Cost Rx To Save Money,43529384,Lower Cost Rx To Save Money: No,2, No
+Healthcare Access & Utilization,43530413,Can't Afford Care: Lower Cost Rx To Save Money,43530077,Lower Cost Rx To Save Money: Yes,1, Yes
+Healthcare Access & Utilization,43530415,Can't Afford Care: Delayed Filling Rx To Save Money,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530415,Can't Afford Care: Delayed Filling Rx To Save Money,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530415,Can't Afford Care: Delayed Filling Rx To Save Money,43529333,Delayed Filling Rx To Save Money: No,2, No
+Healthcare Access & Utilization,43530415,Can't Afford Care: Delayed Filling Rx To Save Money,43530026,Delayed Filling Rx To Save Money: Yes,1, Yes
+Healthcare Access & Utilization,43530416,Can't Afford Care: Skipped Med To Save Money,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530416,Can't Afford Care: Skipped Med To Save Money,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530416,Can't Afford Care: Skipped Med To Save Money,43529539,Skipped Med To Save Money: No,2, No
+Healthcare Access & Utilization,43530416,Can't Afford Care: Skipped Med To Save Money,43530233,Skipped Med To Save Money: Yes,1, Yes
+Healthcare Access & Utilization,43530417,Can't Afford Care: Took Less Med To Save Money,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530417,Can't Afford Care: Took Less Med To Save Money,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530417,Can't Afford Care: Took Less Med To Save Money,43529562,Took Less Med To Save Money: No,2, No
+Healthcare Access & Utilization,43530417,Can't Afford Care: Took Less Med To Save Money,43530256,Took Less Med To Save Money: Yes,1, Yes
+Healthcare Access & Utilization,43530418,Insurance: Insurance Accepted,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530418,Insurance: Insurance Accepted,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530418,Insurance: Insurance Accepted,43529377,Insurance Accepted: No,2, No
+Healthcare Access & Utilization,43530418,Insurance: Insurance Accepted,43530070,Insurance Accepted: Yes,1, Yes
+Healthcare Access & Utilization,43530437,Health Advice: Asked For Opinion,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530437,Health Advice: Asked For Opinion,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530437,Health Advice: Asked For Opinion,43529575,Asked For Opinion: None Of The Time,1, None Of The Time
+Healthcare Access & Utilization,43530437,Health Advice: Asked For Opinion,43529843,Asked For Opinion: Some Of The Time,2, Some Of The Time
+Healthcare Access & Utilization,43530437,Health Advice: Asked For Opinion,43529238,Asked For Opinion: Most Of The Time,3, Most Of The Time
+Healthcare Access & Utilization,43530437,Health Advice: Asked For Opinion,43528386,Asked For Opinion: Always,4, Always
+Healthcare Access & Utilization,43530438,Health Advice: Ease of Understanding,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530438,Health Advice: Ease of Understanding,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530438,Health Advice: Ease of Understanding,43529577,Ease of Understanding: None Of The Time,1, None Of The Time
+Healthcare Access & Utilization,43530438,Health Advice: Ease of Understanding,43529845,Ease of Understanding: Some Of The Time,2, Some Of The Time
+Healthcare Access & Utilization,43530438,Health Advice: Ease of Understanding,43529240,Ease of Understanding: Most Of The Time,3, Most Of The Time
+Healthcare Access & Utilization,43530438,Health Advice: Ease of Understanding,43528388,Ease of Understanding: Always,4, Always
+Healthcare Access & Utilization,43530439,Health Advice: Respected By Provider,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530439,Health Advice: Respected By Provider,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530439,Health Advice: Respected By Provider,43529579,Respected By Provider: None Of The Time,0, None Of The Time
+Healthcare Access & Utilization,43530439,Health Advice: Respected By Provider,43529847,Respected By Provider: Some Of The Time,1, Some Of The Time
+Healthcare Access & Utilization,43530439,Health Advice: Respected By Provider,43529242,Respected By Provider: Most Of The Time,2, Most Of The Time
+Healthcare Access & Utilization,43530439,Health Advice: Respected By Provider,43528390,Respected By Provider: Always,3, Always
+Healthcare Access & Utilization,43530557,Can't Afford Care: Worried About Paying,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530557,Can't Afford Care: Worried About Paying,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530557,Can't Afford Care: Worried About Paying,43529586,Worried About Paying: Not At All Worried,1, Not At All Worried
+Healthcare Access & Utilization,43530557,Can't Afford Care: Worried About Paying,43529850,Worried About Paying: Somewhat Worried,2, Somewhat Worried
+Healthcare Access & Utilization,43530557,Can't Afford Care: Worried About Paying,43529954,Worried About Paying: Very Worried,3, Very Worried
+Healthcare Access & Utilization,43530559,Insurance: Healthcare Coverage,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530559,Insurance: Healthcare Coverage,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530559,Insurance: Healthcare Coverage,43529982,Healthcare Coverage: Worse,1, Worse
+Healthcare Access & Utilization,43530559,Insurance: Healthcare Coverage,43528346,Healthcare Coverage: About The Same,2, About The Same
+Healthcare Access & Utilization,43530559,Insurance: Healthcare Coverage,43528458,Healthcare Coverage: Better,3, Better
+Healthcare Access & Utilization,43530562,Health Advice: Place for Health Advice,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530562,Health Advice: Place for Health Advice,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530562,Health Advice: Place for Health Advice,43529908,Place for Health Advice: No,2, No
+Healthcare Access & Utilization,43530562,Health Advice: Place for Health Advice,43530103,Place for Health Advice: Yes,1, Yes
+Healthcare Access & Utilization,43530562,Health Advice: Place for Health Advice,43529907,Place for Health Advice: More Than One,2, More Than One
+Healthcare Access & Utilization,43530583,Delayed Medical Care: Can't Afford Co-pay,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530583,Delayed Medical Care: Can't Afford Co-pay,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530583,Delayed Medical Care: Can't Afford Co-pay,43529317,Delayed Care Due to Can't Afford Co-pay: No,2, No
+Healthcare Access & Utilization,43530583,Delayed Medical Care: Can't Afford Co-pay,43530010,Delayed Care Due to Can't Afford Co-pay: Yes,1, Yes
+Healthcare Access & Utilization,43530584,Delayed Medical Care: Had To Pay Out Of Pocket,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530584,Delayed Medical Care: Had To Pay Out Of Pocket,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530584,Delayed Medical Care: Had To Pay Out Of Pocket,43529359,Delayed Care Due to Had To Pay Out Of Pocket: No,2, No
+Healthcare Access & Utilization,43530584,Delayed Medical Care: Had To Pay Out Of Pocket,43530052,Delayed Care Due to Had To Pay Out Of Pocket: Yes,1, Yes
+Healthcare Access & Utilization,43530585,Delayed Medical Care: Deductible Too High,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530585,Delayed Medical Care: Deductible Too High,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530585,Delayed Medical Care: Deductible Too High,43529332,Delayed Care Due to Deductible Too High: No,2, No
+Healthcare Access & Utilization,43530585,Delayed Medical Care: Deductible Too High,43530025,Delayed Care Due to Deductible Too High: Yes,1, Yes
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528260,General Doctor Visits: 1,1,1
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528304,General Doctor Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528315,General Doctor Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528326,General Doctor Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528338,General Doctor Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528271,General Doctor Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528282,General Doctor Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43530588,Health Advice: General Doctor Visits,43528293,General Doctor Visits: 16 or M ore,8, 16 or M ore
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528257,Chiropractor Visits: 1,1,1
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528301,Chiropractor Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528312,Chiropractor Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528323,Chiropractor Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528335,Chiropractor Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528268,Chiropractor Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528279,Chiropractor Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43530589,Health Advice: Chiropractor Visits,43528290,Chiropractor Visits: 16 or M ore,8, 16 or M ore
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528266,Podiatrist Visits: 1,1,1
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528310,Podiatrist Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528321,Podiatrist Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528332,Podiatrist Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528344,Podiatrist Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528277,Podiatrist Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528288,Podiatrist Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43530590,Health Advice: Podiatrist Visits,43528299,Podiatrist Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528259,Eye Doctor Visits: 1,1,1
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528303,Eye Doctor Visits: 2 to 3,2, 2 to 3
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528314,Eye Doctor Visits: 4 to 5,3, 4 to 5
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528325,Eye Doctor Visits: 6 to 7,4, 6 to 7
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528337,Eye Doctor Visits: 8 to 9,5, 8 to 9
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528270,Eye Doctor Visits: 10 to 12,6, 10 to 12
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528281,Eye Doctor Visits: 13 to 15,7, 13 to 15
+Healthcare Access & Utilization,43530591,Health Advice: Eye Doctor Visits,43528292,Eye Doctor Visits: 16 or More,8, 16 or More
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528265,"PT, ST, RT, Audiologist or OT Visits: 1",1,1
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528309,"PT, ST, RT, Audiologist or OT: 2 to 3",2, 2 to 3
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528320,"PT, ST, RT, Audiologist or OT Visits: 4 to 5",3, 4 to 5
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528331,"PT, ST, RT, Audiologist or OT Visits: 6 to 7",4, 6 to 7
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528343,"PT, ST, RT, Audiologist or OT Visits: 8 to 9",5, 8 to 9
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528276,"PT, ST, RT, Audiologist or OT Visits: 10 to 12",6, 10 to 12
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528287,"PT, ST, RT, Audiologist or OT Visits: 13 to 15",7, 13 to 15
+Healthcare Access & Utilization,43530592,"Health Advice: Physical Therapist, Speech Therapist, Respiratory Therapist, Audiologist, or Occupational Therapist Visits",43528298,"PT, ST, RT, Audiologist or OT Visits: 16 or More",8, 16 or More
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,43528645,What Kind Of Place: Doctors Office,1, Doctors Office
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,43528646,What Kind Of Place: No One Place Most Often,2, No One Place Most Often
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,43528803,What Kind Of Place: Emergency Room,3, Emergency Room
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,43529848,What Kind Of Place: Some Other Place,4, Some Other Place
+Healthcare Access & Utilization,43530593,Health Advice: What Kind Of Place,43529948,What Kind Of Place: Urgent Care,5, Urgent Care
+Healthcare Access & Utilization,43530594,Delayed Medical Care: Nervous,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530594,Delayed Medical Care: Nervous,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530594,Delayed Medical Care: Nervous,43529396,Delayed Care Nervous: No,2, No
+Healthcare Access & Utilization,43530594,Delayed Medical Care: Nervous,43530089,Delayed Care Nervous: Yes,1, Yes
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,903087,PMI: Dont Know,-99, Dont Know
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,903096,PMI: Skip,-98, Skip
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,43529282,Spoken To Professional: Never,1, Never
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,43528334,Spoken To Professional: 6mo Or Less,2, 6mo Or Less
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,43529237,Spoken To Professional: 6 Mo To 1 Year Ago,3, 6 Mo To 1 Year Ago
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,43530564,Spoken To Professional: 1 To 2 Years Ago,4, 1 To 2 Years Ago
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,43530565,Spoken To Professional: 2 To 5 Years Ago,5, 2 To 5 Years Ago
+Healthcare Access & Utilization,43530595,Health Advice: Spoken To Professional,43530566,Spoken To Professional: More Than 5 Years Ago,6, More Than 5 Years Ago
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192384,How much you agree or disagree that your neighborhood is safe?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192386,How much you agree or disagree that people in your neighborhood take good care of their houses and apartments?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192390,How often do you feel that you are unhappy being so withdrawn?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192397,How often do you feel that there is no one you can turn to?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192398,How often do you feel left out?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192400,How much you agree or disagree that in your neighborhood people watch out for each other?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192404,How much you agree or disagree that you are always having trouble with your neighbors?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192412,How much you agree or disagree that vandalism is common in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192420,How much you agree or disagree that there is a lot of graffiti in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192426,"Within the past 12 months, were you worried whether the food you had bought just didn't last and you didn't have money to get more?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192456,How much you agree or disagree that your neighborhood is clean?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192457,How much you agree or disagree that there is too much drug use in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192469,How much you agree or disagree that there are lot of abandoned buildings in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192470,How often do you go to religious meetings or services?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192476,How much you agree or disagree that there is too much alcohol use in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192493,How much you agree or disagree that there is a lot of crime in your neighborhood?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192494,How often do you feel that people are around you but not with you?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192500,How much you agree or disagree that there are too many people hanging around on the streets near your home?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192501,How often do you feel isolated from others?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192504,How often do you feel that you are an outgoing person?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192507,How often do you feel lack companionship?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192516,How often do you feel that you can find companionship when you want it?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192517,"Within the past 12 months, were you worried whether your food would run out before you got money to buy more?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192522,How much you agree or disagree that your neighborhood is noisy?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192526,Do you speak a language other than English at home?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192529,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you speak English...",903087,PMI: Dont Know,-99,Dont Know
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192384,How much you agree or disagree that your neighborhood is safe?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192386,How much you agree or disagree that people in your neighborhood take good care of their houses and apartments?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192390,How often do you feel that you are unhappy being so withdrawn?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192397,How often do you feel that there is no one you can turn to?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192398,How often do you feel left out?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192400,How much you agree or disagree that in your neighborhood people watch out for each other?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192404,How much you agree or disagree that you are always having trouble with your neighbors?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192412,How much you agree or disagree that vandalism is common in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192420,How much you agree or disagree that there is a lot of graffiti in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192426,"Within the past 12 months, were you worried whether the food you had bought just didn't last and you didn't have money to get more?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192456,How much you agree or disagree that your neighborhood is clean?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192457,How much you agree or disagree that there is too much drug use in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192469,How much you agree or disagree that there are lot of abandoned buildings in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192470,How often do you go to religious meetings or services?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192476,How much you agree or disagree that there is too much alcohol use in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192493,How much you agree or disagree that there is a lot of crime in your neighborhood?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192494,How often do you feel that people are around you but not with you?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192500,How much you agree or disagree that there are too many people hanging around on the streets near your home?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192501,How often do you feel isolated from others?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192504,How often do you feel that you are an outgoing person?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192507,How often do you feel lack companionship?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192516,How often do you feel that you can find companionship when you want it?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192517,"Within the past 12 months, were you worried whether your food would run out before you got money to buy more?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192522,How much you agree or disagree that your neighborhood is noisy?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192526,Do you speak a language other than English at home?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192529,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you speak English...",903096,PMI: Skip,-98,Skip
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192487,I do not believe in God (or a higher power),-89,I do not believe in God (or a higher power)
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192487,I do not believe in God (or a higher power),-89,I do not believe in God (or a higher power)
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192487,I do not believe in God (or a higher power),-89,I do not believe in God (or a higher power)
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192487,I do not believe in God (or a higher power),-89,I do not believe in God (or a higher power)
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192487,I do not believe in God (or a higher power),-89,I do not believe in God (or a higher power)
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192487,I do not believe in God (or a higher power),-89,I do not believe in God (or a higher power)
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,40192520,Does not apply to my neighborhood,-88,Does not apply to my neighborhood
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192432,I am not religious,-87,I am not religious
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192432,I am not religious,-87,I am not religious
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192432,I am not religious,-87,I am not religious
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192432,I am not religious,-87,I am not religious
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192432,I am not religious,-87,I am not religious
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192432,I am not religious,-87,I am not religious
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",40192465,Never,0,Never
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",40192465,Never,0,Never
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192392,None of the above,0,None of the above
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",40192465,Never,0,Never
+Social Determinants of Health,40192426,"Within the past 12 months, were you worried whether the food you had bought just didn't last and you didn't have money to get more?",40192474,Never true,0,Never true
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",40192465,Never,0,Never
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",40192465,Never,0,Never
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",40192465,Never,0,Never
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",40192465,Never,0,Never
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",40192465,Never,0,Never
+Social Determinants of Health,40192517,"Within the past 12 months, were you worried whether your food would run out before you got money to buy more?",40192474,Never true,0,Never true
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",40192465,Never,0,Never
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192485,Your ancestry or national origins,1,Your ancestry or national origins
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192447,Your gender,1,Your gender
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192473,Your race,1,Your race
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192427,Your age,1,Your age
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192512,Your religion,1,Your religion
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192450,Your height,1,Your height
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192438,Your weight,1,Your weight
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192413,Some other aspect of your physical appearance,1,Some other aspect of your physical appearance
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192406,Your sexual orientation,1,Your sexual orientation
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192483,Your education or income level,1,Your education or income level
+Social Determinants of Health,40192428,Discrimination: What do you think is the main reason for these experiences?,40192467,Other (specify),1,Other (specify)
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",40192465,Never,1,Never
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192384,How much you agree or disagree that your neighborhood is safe?,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192386,How much you agree or disagree that people in your neighborhood take good care of their houses and apartments?,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192390,How often do you feel that you are unhappy being so withdrawn?,40192465,Never,1,Never
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",40192465,Never,1,Never
+Social Determinants of Health,40192397,How often do you feel that there is no one you can turn to?,40192465,Never,1,Never
+Social Determinants of Health,40192398,How often do you feel left out?,40192465,Never,1,Never
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192400,How much you agree or disagree that in your neighborhood people watch out for each other?,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192403,Many times a day,1,Many times a day
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192460,Bug infestation,1,Bug infestation
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192479,Mold,1,Mold
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192393,Lead paint or pipes,1,Lead paint or pipes
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192434,Inadequate heat,1,Inadequate heat
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192495,Oven or stove not working,1,Oven or stove not working
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192468,No or not working smoke detector,1,No or not working smoke detector
+Social Determinants of Health,40192402,Think about the place you live. Do you have problems with any of the following? Select all that apply.,40192444,Water leaks,1,Water leaks
+Social Determinants of Health,40192404,How much you agree or disagree that you are always having trouble with your neighbors?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192412,How much you agree or disagree that vandalism is common in your neighborhood?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192403,Many times a day,1,Many times a day
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",40192424,Very Often,1,Very Often
+Social Determinants of Health,40192420,How much you agree or disagree that there is a lot of graffiti in your neighborhood?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192426,"Within the past 12 months, were you worried whether the food you had bought just didn't last and you didn't have money to get more?",40192508,Often true,1,Often true
+Social Determinants of Health,40192426,"Within the past 12 months, were you worried whether the food you had bought just didn't last and you didn't have money to get more?",40192488,Sometimes true,1,Sometimes true
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192403,Many times a day,1,Many times a day
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",40192424,Very Often,1,Very Often
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",40192424,Very Often,1,Very Often
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",40192465,Never,1,Never
+Social Determinants of Health,40192456,How much you agree or disagree that your neighborhood is clean?,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192457,How much you agree or disagree that there is too much drug use in your neighborhood?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,40192407,Detached single-family housing,1,Detached single-family housing
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",40192465,Never,1,Never
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192469,How much you agree or disagree that there are lot of abandoned buildings in your neighborhood?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192470,How often do you go to religious meetings or services?,706067,Less than once per month,1,Less than once per month
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192403,Many times a day,1,Many times a day
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192403,Many times a day,1,Many times a day
+Social Determinants of Health,40192476,How much you agree or disagree that there is too much alcohol use in your neighborhood?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",40192465,Never,1,Never
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,40192514,Strongly agree,1,Strongly agree
+Social Determinants of Health,40192493,How much you agree or disagree that there is a lot of crime in your neighborhood?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192494,How often do you feel that people are around you but not with you?,40192465,Never,1,Never
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192403,Many times a day,1,Many times a day
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192500,How much you agree or disagree that there are too many people hanging around on the streets near your home?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192501,How often do you feel isolated from others?,40192465,Never,1,Never
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192504,How often do you feel that you are an outgoing person?,40192482,Often,1,Often
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,40192465,Never,1,Never
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",40192465,Never,1,Never
+Social Determinants of Health,40192507,How often do you feel lack companionship?,40192465,Never,1,Never
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192516,How often do you feel that you can find companionship when you want it?,40192482,Often,1,Often
+Social Determinants of Health,40192517,"Within the past 12 months, were you worried whether your food would run out before you got money to buy more?",40192508,Often true,1,Often true
+Social Determinants of Health,40192517,"Within the past 12 months, were you worried whether your food would run out before you got money to buy more?",40192488,Sometimes true,1,Sometimes true
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",40192464,Less than once a year,1,Less than once a year
+Social Determinants of Health,40192522,How much you agree or disagree that your neighborhood is noisy?,40192422,Strongly disagree,1,Strongly disagree
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",40192424,Very Often,1,Very Often
+Social Determinants of Health,40192526,Do you speak a language other than English at home?,40192448,Yes,1,Yes
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,40192454,None of the time,1,None of the time
+Social Determinants of Health,40192529,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you speak English...",40192435,Very well,1,Very well
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",40192430,Almost Never,2,Almost Never
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192384,How much you agree or disagree that your neighborhood is safe?,40192455,Agree,2,Agree
+Social Determinants of Health,40192386,How much you agree or disagree that people in your neighborhood take good care of their houses and apartments?,40192455,Agree,2,Agree
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192390,How often do you feel that you are unhappy being so withdrawn?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",40192430,Almost Never,2,Almost Never
+Social Determinants of Health,40192397,How often do you feel that there is no one you can turn to?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192398,How often do you feel left out?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192400,How much you agree or disagree that in your neighborhood people watch out for each other?,40192455,Agree,2,Agree
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192385,Every day,2,Every day
+Social Determinants of Health,40192404,How much you agree or disagree that you are always having trouble with your neighbors?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192412,How much you agree or disagree that vandalism is common in your neighborhood?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192385,Every day,2,Every day
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",40192477,Fairly Often,2,Fairly Often
+Social Determinants of Health,40192420,How much you agree or disagree that there is a lot of graffiti in your neighborhood?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192385,Every day,2,Every day
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",40192477,Fairly Often,2,Fairly Often
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",40192477,Fairly Often,2,Fairly Often
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",40192430,Almost Never,2,Almost Never
+Social Determinants of Health,40192456,How much you agree or disagree that your neighborhood is clean?,40192455,Agree,2,Agree
+Social Determinants of Health,40192457,How much you agree or disagree that there is too much drug use in your neighborhood?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,40192418,Townhouses,2,Townhouses
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",40192430,Almost Never,2,Almost Never
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192469,How much you agree or disagree that there are lot of abandoned buildings in your neighborhood?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192470,How often do you go to religious meetings or services?,706066,1 to 3 times per month,2,1 to 3 times per month
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192385,Every day,2,Every day
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192385,Every day,2,Every day
+Social Determinants of Health,40192476,How much you agree or disagree that there is too much alcohol use in your neighborhood?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",40192430,Almost Never,2,Almost Never
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,40192478,Somewhat agree,2,Somewhat agree
+Social Determinants of Health,40192493,How much you agree or disagree that there is a lot of crime in your neighborhood?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192494,How often do you feel that people are around you but not with you?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192385,Every day,2,Every day
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192500,How much you agree or disagree that there are too many people hanging around on the streets near your home?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192501,How often do you feel isolated from others?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192504,How often do you feel that you are an outgoing person?,40192429,Sometimes,2,Sometimes
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",40192430,Almost Never,2,Almost Never
+Social Determinants of Health,40192507,How often do you feel lack companionship?,40192481,Rarely,2,Rarely
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192516,How often do you feel that you can find companionship when you want it?,40192429,Sometimes,2,Sometimes
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",40192453,A few times a year,2,A few times a year
+Social Determinants of Health,40192522,How much you agree or disagree that your neighborhood is noisy?,40192408,Disagree,2,Disagree
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",40192477,Fairly Often,2,Fairly Often
+Social Determinants of Health,40192526,Do you speak a language other than English at home?,40192523,No,2,No
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,40192518,A little of the time,2,A little of the time
+Social Determinants of Health,40192529,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you speak English...",40192510,Well,2,Well
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192384,How much you agree or disagree that your neighborhood is safe?,40192408,Disagree,3,Disagree
+Social Determinants of Health,40192386,How much you agree or disagree that people in your neighborhood take good care of their houses and apartments?,40192408,Disagree,3,Disagree
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192390,How often do you feel that you are unhappy being so withdrawn?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192397,How often do you feel that there is no one you can turn to?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192398,How often do you feel left out?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192400,How much you agree or disagree that in your neighborhood people watch out for each other?,40192408,Disagree,3,Disagree
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192484,Most days,3,Most days
+Social Determinants of Health,40192404,How much you agree or disagree that you are always having trouble with your neighbors?,40192455,Agree,3,Agree
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,40192524,Neutral (neither agree nor disagree),3,Neutral (neither agree nor disagree)
+Social Determinants of Health,40192412,How much you agree or disagree that vandalism is common in your neighborhood?,40192455,Agree,3,Agree
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192484,Most days,3,Most days
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,40192524,Neutral (neither agree nor disagree),3,Neutral (neither agree nor disagree)
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192420,How much you agree or disagree that there is a lot of graffiti in your neighborhood?,40192455,Agree,3,Agree
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192484,Most days,3,Most days
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192456,How much you agree or disagree that your neighborhood is clean?,40192408,Disagree,3,Disagree
+Social Determinants of Health,40192457,How much you agree or disagree that there is too much drug use in your neighborhood?,40192455,Agree,3,Agree
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,40192472,Mix of single-family residences and townhouses,3,Mix of single-family residences and townhouses
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,40192524,Neutral (neither agree nor disagree),3,Neutral (neither agree nor disagree)
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192469,How much you agree or disagree that there are lot of abandoned buildings in your neighborhood?,40192455,Agree,3,Agree
+Social Determinants of Health,40192470,How often do you go to religious meetings or services?,706065,Once a week,3,Once a week
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192484,Most days,3,Most days
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192484,Most days,3,Most days
+Social Determinants of Health,40192476,How much you agree or disagree that there is too much alcohol use in your neighborhood?,40192455,Agree,3,Agree
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,40192527,Somewhat disagree,3,Somewhat disagree
+Social Determinants of Health,40192493,How much you agree or disagree that there is a lot of crime in your neighborhood?,40192455,Agree,3,Agree
+Social Determinants of Health,40192494,How often do you feel that people are around you but not with you?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192484,Most days,3,Most days
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,40192524,Neutral (neither agree nor disagree),3,Neutral (neither agree nor disagree)
+Social Determinants of Health,40192500,How much you agree or disagree that there are too many people hanging around on the streets near your home?,40192455,Agree,3,Agree
+Social Determinants of Health,40192501,How often do you feel isolated from others?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192504,How often do you feel that you are an outgoing person?,40192481,Rarely,3,Rarely
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192507,How often do you feel lack companionship?,40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192516,How often do you feel that you can find companionship when you want it?,40192481,Rarely,3,Rarely
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",40192461,A few times a month,3,A few times a month
+Social Determinants of Health,40192522,How much you agree or disagree that your neighborhood is noisy?,40192455,Agree,3,Agree
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",40192429,Sometimes,3,Sometimes
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,40192486,Some of the time,3,Some of the time
+Social Determinants of Health,40192529,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you speak English...",40192405,Not well,3,Not well
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",40192477,Fairly Often,4,Fairly Often
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192384,How much you agree or disagree that your neighborhood is safe?,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192386,How much you agree or disagree that people in your neighborhood take good care of their houses and apartments?,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192390,How often do you feel that you are unhappy being so withdrawn?,40192482,Often,4,Often
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",40192477,Fairly Often,4,Fairly Often
+Social Determinants of Health,40192397,How often do you feel that there is no one you can turn to?,40192482,Often,4,Often
+Social Determinants of Health,40192398,How often do you feel left out?,40192482,Often,4,Often
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192400,How much you agree or disagree that in your neighborhood people watch out for each other?,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192513,Some days,4,Some days
+Social Determinants of Health,40192404,How much you agree or disagree that you are always having trouble with your neighbors?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192410,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming pools, etc. Would you say that you...",40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,40192455,Agree,4,Agree
+Social Determinants of Health,40192412,How much you agree or disagree that vandalism is common in your neighborhood?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192414,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192513,Some days,4,Some days
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,40192455,Agree,4,Agree
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",40192430,Almost Never,4,Almost Never
+Social Determinants of Health,40192420,How much you agree or disagree that there is a lot of graffiti in your neighborhood?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192431,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Would you say that you...",40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192436,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192437,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192440,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192513,Some days,4,Some days
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",40192430,Almost Never,4,Almost Never
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",40192430,Almost Never,4,Almost Never
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",40192477,Fairly Often,4,Fairly Often
+Social Determinants of Health,40192456,How much you agree or disagree that your neighborhood is clean?,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192457,How much you agree or disagree that there is too much drug use in your neighborhood?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,40192433,Apartments or condos of 4-12 stories,4,Apartments or condos of 4-12 stories
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",40192477,Fairly Often,4,Fairly Often
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,40192455,Agree,4,Agree
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192469,How much you agree or disagree that there are lot of abandoned buildings in your neighborhood?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192470,How often do you go to religious meetings or services?,706064,More than once a week,4,More than once a week
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192513,Some days,4,Some days
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192513,Some days,4,Some days
+Social Determinants of Health,40192476,How much you agree or disagree that there is too much alcohol use in your neighborhood?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",40192477,Fairly Often,4,Fairly Often
+Social Determinants of Health,40192492,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,40192422,Strongly disagree,4,Strongly disagree
+Social Determinants of Health,40192493,How much you agree or disagree that there is a lot of crime in your neighborhood?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192494,How often do you feel that people are around you but not with you?,40192482,Often,4,Often
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192513,Some days,4,Some days
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,40192455,Agree,4,Agree
+Social Determinants of Health,40192500,How much you agree or disagree that there are too many people hanging around on the streets near your home?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192501,How often do you feel isolated from others?,40192482,Often,4,Often
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192504,How often do you feel that you are an outgoing person?,40192465,Never,4,Never
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",40192477,Fairly Often,4,Fairly Often
+Social Determinants of Health,40192507,How often do you feel lack companionship?,40192482,Often,4,Often
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192516,How often do you feel that you can find companionship when you want it?,40192465,Never,4,Never
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",40192391,At least once a week,4,At least once a week
+Social Determinants of Health,40192522,How much you agree or disagree that your neighborhood is noisy?,40192514,Strongly agree,4,Strongly agree
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",40192430,Almost Never,4,Almost Never
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,40192382,Most of the time,4,Most of the time
+Social Determinants of Health,40192529,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you speak English...",40192387,Not at all,4,Not at all
+Social Determinants of Health,40192380,"In your day-to-day life, how often do people act as if they are afraid of you?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192381,"In the last month, how often have you felt that you were unable to control the important things in your life?",40192424,Very Often,5,Very Often
+Social Determinants of Health,40192383,How often does a doctor or nurse act as if he or she is better than you when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192388,How often do you have someone to prepare your meals if you were unable to do it yourself?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192394,How often do you feel like a doctor or nurse is not listening to what you were saying. when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192395,"In your day-to-day life, how often do people act as if they think you are dishonest?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192396,"In the last month, how often have you been angered because of things that were outside of your control?",40192424,Very Often,5,Very Often
+Social Determinants of Health,40192399,How often do you have someone who understands your problems?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192459,Once in a while,5,Once in a while
+Social Determinants of Health,40192411,How much you agree or disagree that people in your neighborhood generally get along with each other?,40192514,Strongly agree,5,Strongly agree
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192459,Once in a while,5,Once in a while
+Social Determinants of Health,40192416,"In your day-to-day life, how often do you receive poorer service than other people at restaurants or stores?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192417,How much you agree or disagree that people in your neighborhood share the same values?,40192514,Strongly agree,5,Strongly agree
+Social Determinants of Health,40192419,"In the last month, how often have you felt confident about your ability to handle your personal problems?",40192465,Never,5,Never
+Social Determinants of Health,40192423,How often does a doctor or nurse act as if he or she is afraid of you when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192425,How often are you treated with less respect than other people when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192439,How often do you have someone to have a good time with?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192442,How often do you have someone to help you if you were confined to bed?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192459,Once in a while,5,Once in a while
+Social Determinants of Health,40192445,"In the last month, how often have you felt that you were on top of things?",40192465,Never,5,Never
+Social Determinants of Health,40192446,How often do you have someone to love and make you feel wanted?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192449,"In the last month, how often have you been able to control irritations in your life?",40192465,Never,5,Never
+Social Determinants of Health,40192451,"In your day-to-day life, how often are you threatened or harassed?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192452,"In the last month, how often have you been upset because of something that happened unexpectedly?",40192424,Very Often,5,Very Often
+Social Determinants of Health,40192458,What is the main type of housing in your neighborhood?,40192409,Apartments or condos of more than 12 stories,5,Apartments or condos of more than 12 stories
+Social Determinants of Health,40192462,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",40192424,Very Often,5,Very Often
+Social Determinants of Health,40192463,How much you agree or disagree that people around here are willing to help their neighbor?,40192514,Strongly agree,5,Strongly agree
+Social Determinants of Health,40192466,"In your day-to-day life, how often are you treated with less courtesy than other people?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192459,Once in a while,5,Once in a while
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192459,Once in a while,5,Once in a while
+Social Determinants of Health,40192480,How often do you have someone to take you to the doctor if you need it?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192489,"In your day-to-day life, how often are you treated with less respect than other people?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192490,"In your day-to-day life, how often do people act as if they think you are not smart?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192491,"In the last month, how often have you felt nervous and stressed",40192424,Very Often,5,Very Often
+Social Determinants of Health,40192496,"In your day-to-day life, how often do people act as if they're better than you are?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192497,How often are you treated with less courtesy than other people when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192459,Once in a while,5,Once in a while
+Social Determinants of Health,40192499,How much you agree or disagree that people in your neighborhood can be trusted?,40192514,Strongly agree,5,Strongly agree
+Social Determinants of Health,40192503,How often do you receive poorer service than others when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192505,How often does a doctor or nurse act as if he or she thinks you are not smart when you go to a doctor's office or other health care provider?,40192515,Always,5,Always
+Social Determinants of Health,40192506,"In the last month, how often have you found that you could not cope with all the things that you had to do?",40192424,Very Often,5,Very Often
+Social Determinants of Health,40192511,How often do you have someone to help you with daily chores if you were sick?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192519,"In your day-to-day life, how often are you called names or insulted?",40192421,Almost everyday,5,Almost everyday
+Social Determinants of Health,40192525,"In the last month, how often have you felt that things were going your way?",40192465,Never,5,Never
+Social Determinants of Health,40192528,How often do you have someone to turn to for suggestions about how to deal with a personal problem?,40192521,All of the time,5,All of the time
+Social Determinants of Health,40192401,How often do you feel deep inner peace or harmony?,40192509,Never or almost never,6,Never or almost never
+Social Determinants of Health,40192415,How often do you feel that you are spiritually touched by the beauty of creation?,40192509,Never or almost never,6,Never or almost never
+Social Determinants of Health,40192443,How often do you desire to be closer to or in union with God (or a higher power)?,40192509,Never or almost never,6,Never or almost never
+Social Determinants of Health,40192471,"How often do you feel God's (or a higher power's) love for you, directly or through others?",40192509,Never or almost never,6,Never or almost never
+Social Determinants of Health,40192475,How often do you find strength and comfort in your religion?,40192509,Never or almost never,6,Never or almost never
+Social Determinants of Health,40192498,How often do you feel God's (or a higher power's) presence?,40192509,Never or almost never,6,Never or almost never
