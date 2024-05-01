@@ -1,0 +1,17 @@
+assets2036py/__init__.py,sha256=PFrsSv-0uC1dPYjli6b0wBY-QBP53LIZdscjVyp2py4,818
+assets2036py/assetlogging.py,sha256=A1J2j9e0wwG13lzYCxxoxYm45FHW6rWtFhPGMmvgLjs,456
+assets2036py/assetmanager.py,sha256=itDjGfvBq1K9lyta3lNa3NwjABQNnEmmowCzY0MDuCc,11184
+assets2036py/assets.py,sha256=psd0Y-gd8PNlXjxIDR-QG7xg9WWjMDJ_Q-s_Y2aZkR0,24931
+assets2036py/communication.py,sha256=uG_jusGHMVZ71I6VN9HrklYJSNGgjMCKgX20VjvpXHI,13730
+assets2036py/exceptions.py,sha256=WqVNuEjJLjGNDL8f2wB8ZQYtkOUnRRJoZjdU4fN7rgM,1054
+assets2036py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assets2036py/utilities.py,sha256=2MkHC7hzfXhDKzq8mafJCsnzPlCHvufcn2xUoV4efL8,2963
+assets2036py/resources/_endpoint.json,sha256=AFTPVI3L2MDahehHsE4SrK9AhXt757Ziflugmhfn4Fs,851
+assets2036py/resources/_relations.json,sha256=pXM-OT9jZaRV361b9APe9ozMaI7-iIG87rMAQIc1R0k,1010
+assets2036py/resources/submodel_schema.json,sha256=qzqFvc-K5NBGsbHT1CsI0hJ3WkQ0aiwQ7PPKcGljYyA,2025
+assets2036py-0.1.10.dist-info/LICENSE,sha256=DvDzmjOAU5myDqd1d8_uMCZJrJ1GUAJLusjzMFTe5xI,11347
+assets2036py-0.1.10.dist-info/METADATA,sha256=ElaGVbxuEvoY5meAW_eE00ZN-OLAcK-fDICTQurbM1g,903
+assets2036py-0.1.10.dist-info/NOTICE,sha256=Et4l-1Ht4I63p6QYSgNDsY6D43fvfYMoYHbf2HO3Us8,971
+assets2036py-0.1.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+assets2036py-0.1.10.dist-info/top_level.txt,sha256=84Ali_EDAfWOWdP04ZSjlnYWqby-lT7AnR9wgqySZvA,13
+assets2036py-0.1.10.dist-info/RECORD,,
