@@ -1,0 +1,8 @@
+click
+requests
+colorama
+GPUtil
+psutil
+keyring
+speedtest-cli
+py-cpuinfo
