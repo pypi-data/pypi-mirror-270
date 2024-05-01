@@ -1,0 +1,6 @@
+README.md
+setup.py
+BCMAccount.egg-info/PKG-INFO
+BCMAccount.egg-info/SOURCES.txt
+BCMAccount.egg-info/dependency_links.txt
+BCMAccount.egg-info/top_level.txt
