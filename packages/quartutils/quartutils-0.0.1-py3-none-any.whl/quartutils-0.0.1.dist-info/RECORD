@@ -1,0 +1,9 @@
+quartutils/__init__.py,sha256=RgZIUdaGb2YuPxG9DRKkV_QTQT910f657hzUPyGr5dw,146
+quartutils/task_server.py,sha256=tAleen2gXS9kTGIHQU-3c3YiS1UddXgdEN4eILJNN3c,1152
+quartutils/test_task_server.py,sha256=T7087ayWZiO0hiI0X22wOtfmeVTuwiFuMlb7GhB1Vbs,35
+quartutils/worker_class.py,sha256=wQU2APbeln1eEaMzVqdCeAz9tVqzUAKy_vi8qZeiCCo,99
+quartutils-0.0.1.dist-info/LICENSE,sha256=MjxNjuwDM2QTWB2bzP5gszqKk76SmX7S5wicFdNyllY,1073
+quartutils-0.0.1.dist-info/METADATA,sha256=J7aMYvz5wNhhXjhWeOTrgq_qdeKz0VSqRu9IYO6nEsQ,1724
+quartutils-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+quartutils-0.0.1.dist-info/top_level.txt,sha256=_LJppZnzy6xW2dOXYf9wuLuPIm-giqCD-mU0iaYap2k,11
+quartutils-0.0.1.dist-info/RECORD,,
