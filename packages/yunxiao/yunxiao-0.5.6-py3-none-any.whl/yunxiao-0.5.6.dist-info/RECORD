@@ -1,0 +1,10 @@
+yunxiao/__init__.py,sha256=4y5OmyhrNA-_-D6ubbtIx3_HuUdtGTmbewHyHBgqxvw,87
+yunxiao/yunxiao.py,sha256=Vq7CFV9hdVmTiBxxYb-Ee9sy4mFb6flzlmQWDgtGqgg,34806
+yunxiao/schemas/__init__.py,sha256=xWOIK-sJUgDVtnRPqyEuC513zonXBONv6AnvXojZolk,262
+yunxiao/schemas/achievements.py,sha256=zTWv34Ici9No6AlXvG9fL9d6GmAeTCg43jAQJou1_8g,2406
+yunxiao/schemas/page.py,sha256=PEQnGQFtwDq_dwt68nCTWjyKEwmnye7NO8r5-RSNw0I,346
+yunxiao/schemas/teachers.py,sha256=tdHnsLGNPE_ZywPsi_2XzKK1YqvW1eWqrFsHB14rwtE,2383
+yunxiao-0.5.6.dist-info/METADATA,sha256=eXJDXKgB9NRFJk3Ue7HgRr6eWN_J938olHQMl2NijUA,509
+yunxiao-0.5.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+yunxiao-0.5.6.dist-info/top_level.txt,sha256=jnk2sJqct8omQ9U8QpxmoLemn5a070k97f0878O1wcI,8
+yunxiao-0.5.6.dist-info/RECORD,,
