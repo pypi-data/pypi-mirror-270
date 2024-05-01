@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kawarizmi
+Version: 1.0.0
+Requires-Dist: ultralytics >=8.1.42
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: opencv-python >=4.9.0.80
+Requires-Dist: shapely >=2.0.3
+
