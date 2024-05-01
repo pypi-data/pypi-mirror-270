@@ -1,0 +1,14 @@
+riddlesolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riddlesolver/app.py,sha256=xpoSPSHoPc2xvALq6y8zKS9gvKmSHixMMpXVFxSbtiU,3871
+riddlesolver/config.py,sha256=lh8YurfsZpk4mQ7r2NDhuTQ4DAfkfNQ6fBC-JNqAaBI,6094
+riddlesolver/constants.py,sha256=2hRhVpCiv8hOS2wkC2KOxMxzz8H5vEtJe45UqDIJtxk,2089
+riddlesolver/repository.py,sha256=YnKtO9d5KR9eKPxRvZgSR7Uo-713LYpCvoOykRLu4Aw,8702
+riddlesolver/requirements.txt,sha256=yW3cuKv6orzhPmvKROhdXA3yNNm0omxm-Cb7kdfyevo,71
+riddlesolver/setup.py,sha256=bUPfhnbgHnml90J5ZO1BxeOuZuGBCqnJrFl6vQLF_EU,854
+riddlesolver/summary.py,sha256=CYCC2LlIHqDiy6OIe9wgcFgbg9-WbTn6C_8uolPzn_0,5372
+riddlesolver/utils.py,sha256=-xB4GVe5dP6Jea-LdTW4SmLExR6axFuYDYdF6oV9vIk,14023
+riddlesolver-0.1.7.dist-info/METADATA,sha256=LbfF9yUOa4PyqNG2u2j1lqEMMhCIN9R0Sbyw3xCPyko,9133
+riddlesolver-0.1.7.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+riddlesolver-0.1.7.dist-info/entry_points.txt,sha256=XXkn72VSr41x28yD3iATRChZp8h8MRREh_AlC4yOmgk,55
+riddlesolver-0.1.7.dist-info/licenses/LICENSE,sha256=guD-w8dYb3o6PEWY0DJEXshX_xdlJfs5fbaVQpOOLcY,1085
+riddlesolver-0.1.7.dist-info/RECORD,,
