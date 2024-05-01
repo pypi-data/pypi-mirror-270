@@ -1,0 +1,21 @@
+[project]
+name = "homeio"
+version = "1.0.2"
+authors = [
+  { name="Gabriel Bourneau", email="11.gabriel.bourneau@lafase.cl" },
+]
+description = "A module to interact with Home I/O (NOTE: the readme is incorrect of many things lol)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+
+[build-system]
+requires = ["hatchling", "requests"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
