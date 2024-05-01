@@ -1,0 +1,3 @@
+[console_scripts]
+dsp-codec=dspy_tool.cli.dsp_codec:main
+
