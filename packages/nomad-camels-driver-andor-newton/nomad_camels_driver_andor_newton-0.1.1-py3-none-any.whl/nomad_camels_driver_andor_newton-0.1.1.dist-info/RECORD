@@ -1,0 +1,9 @@
+nomad_camels_driver_andor_newton/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nomad_camels_driver_andor_newton/andor_newton.py,sha256=382egrwkUdyTM_YP121zshlVjLn4g_3sFIxwa4Pjfek,9248
+nomad_camels_driver_andor_newton/andor_newton_config.py,sha256=Mhlqcc6hxKD-JdrQGdGG1z0Ep1yBOabXwwxNJDCo2DU,11741
+nomad_camels_driver_andor_newton/andor_newton_ophyd.py,sha256=Glwt6ogBRIY6d7fMNgqxLkzswfPjB3vWjxNJ6EQnCqQ,6475
+nomad_camels_driver_andor_newton-0.1.1.dist-info/LICENSE.txt,sha256=gUzxp-edxqPto9GX-n3tNsO3M5F-1doejME16yTzrAk,26525
+nomad_camels_driver_andor_newton-0.1.1.dist-info/METADATA,sha256=UDLRMGIkdxI_IgTKHDeSsRkr8P6xBVIwDqUz1Vl_X6o,1156
+nomad_camels_driver_andor_newton-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nomad_camels_driver_andor_newton-0.1.1.dist-info/top_level.txt,sha256=jAK3HW4F2kuF7glsYSRRQqdSgXP1eZiSm5osAsqhQVw,33
+nomad_camels_driver_andor_newton-0.1.1.dist-info/RECORD,,
