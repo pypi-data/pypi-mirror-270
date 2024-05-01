@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: textboard
+Version: 0.1.0
+Summary: A thing to make text-based training loggers
+Author-email: Tom Nickson <me@tomnickson.com>
+Project-URL: Home, https://github.com/c0g/textboard
