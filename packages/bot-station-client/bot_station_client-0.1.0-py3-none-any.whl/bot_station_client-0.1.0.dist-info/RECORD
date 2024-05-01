@@ -1,0 +1,13 @@
+bot_station_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot_station_client/client.py,sha256=hGBsyes-vkY4BmLBILAdlC3x0oZpwkiJzVGtjIKHYUg,3561
+bot_station_client/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot_station_client/model/call_result.py,sha256=1IXnumT97t0C0TnWAMMVYZ5EDQyYjAIrYUKmxMDJMqU,237
+bot_station_client/model/config.py,sha256=Pfrsx5vRIlTAAmfaZmHYTJON5hErIz0ZhFkFxGavh5w,100
+bot_station_client/model/document.py,sha256=nchIJZDKgw0rp-OJb1CJVp9NIlx5j5Z2i0ib7kKW4FQ,241
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bot_station_client_e2e_test.py,sha256=BmTaSl55rwnCN9d9IkE8YFC81wlD3RUeGUQLLTfYUKo,1947
+bot_station_client-0.1.0.dist-info/LICENSE,sha256=ig4kBEDiKpu_NCuyJdd3rB66K7LK2vf6JHEzY0z_okA,1070
+bot_station_client-0.1.0.dist-info/METADATA,sha256=qfLGE_qUXsq-U8tVZyVJ9bHERjnz9iPCgFgZ41Ah9Rw,440
+bot_station_client-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bot_station_client-0.1.0.dist-info/top_level.txt,sha256=b6bHagZo2Iuao_yZXJhbySVKk9sJ2IRM0r63-xTHqzM,25
+bot_station_client-0.1.0.dist-info/RECORD,,
