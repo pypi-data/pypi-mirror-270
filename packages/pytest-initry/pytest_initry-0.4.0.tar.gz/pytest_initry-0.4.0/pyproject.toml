@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "pytest-initry"
+version = "0.4.0"
+description = "Plugin for sending automation test data from Pytest to the initry"
+authors = ["Andrejs Smirnovs <and.inbx@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Framework :: Pytest",
+]
+keywords = ["pytest", "initry"]
+repository = "https://github.com/initry/pytest-initry"
+homepage = "https://github.com/initry/pytest-initry"
+packages = [{ include = "pytest_initry" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.1.1"
+grpcio = "^1.62.1"
+protobuf = "^5.26.1"
+httpx = "0.27.0"
+
+
+[tool.poetry.plugins]
+pytest11 = { pytest-initry = "pytest_initry.plugin" }
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.5"
+
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+exclude = [
+    'pytest_initry/protobufs/*'
+    ]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
