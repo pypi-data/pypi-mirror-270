@@ -1,0 +1,3 @@
+[console_scripts]
+prodigy_cryst=prodigy_cryst.interface_classifier:main
+
