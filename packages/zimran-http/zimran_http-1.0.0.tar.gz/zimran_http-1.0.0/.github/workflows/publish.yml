@@ -1,0 +1,53 @@
+name: Publish to PyPI.org
+
+on:
+  push:
+    branches:
+      - develop
+  release:
+    types: [ published ]
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - run: pip install .[dev]
+      - run: ruff check
+      - run: ruff format
+      - run: pytest .
+
+  testpypi-deploy:
+    runs-on: ubuntu-latest
+    if: github.ref_type == 'branch' && github.ref_name == 'develop'
+    needs: ruff
+    environment: staging
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: python3 -m pip install --upgrade build && python3 -m build
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_TOKEN }}
+          repository-url: https://test.pypi.org/legacy/
+
+  pypi-deploy:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release' && github.event.action == 'published'
+    environment: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: python3 -m pip install --upgrade build && python3 -m build
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_TOKEN }}
