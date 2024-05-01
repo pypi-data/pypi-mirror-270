@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AutoImageExtractor/FeatureExtractor.py
+src/AutoImageExtractor/__init__.py
+src/AutoImageExtractor.egg-info/PKG-INFO
+src/AutoImageExtractor.egg-info/SOURCES.txt
+src/AutoImageExtractor.egg-info/dependency_links.txt
+src/AutoImageExtractor.egg-info/top_level.txt
