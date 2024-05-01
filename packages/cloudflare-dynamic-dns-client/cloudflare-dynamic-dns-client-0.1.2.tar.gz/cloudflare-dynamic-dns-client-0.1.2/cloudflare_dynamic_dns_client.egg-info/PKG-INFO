@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cloudflare-dynamic-dns-client
+Version: 0.1.2
+Summary: Allows selfhosting on cloudflare with a dynamic ip address
+Author: Littlewhinging
+Requires-Dist: cloudflare==2.11.1
+Requires-Dist: Requests==2.31.0
