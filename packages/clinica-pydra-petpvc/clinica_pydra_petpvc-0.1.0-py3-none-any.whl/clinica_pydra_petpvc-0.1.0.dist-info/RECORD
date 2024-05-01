@@ -1,0 +1,8 @@
+pydra/tasks/petpvc/__init__.py,sha256=hZ_84KCICdZBDkFGnZhP-ZjkFYBO6LOSY5vUHREF0HY,163
+pydra/tasks/petpvc/petpvc.py,sha256=JHLKybv_ohsMGGPRr1cT-H_t3rAb7rTCGZI6smZXpsA,3314
+pydra/tasks/petpvc/specs.py,sha256=I2VweQhco4uAM2DGpcz495NXeNqR1f9pzdijvWbB4gk,550
+pydra/tasks/petpvc/utils.py,sha256=TkRgc5er4464cKYo_CqKg5JPCOtvB0ZISC5Ly4r6npM,3060
+clinica_pydra_petpvc-0.1.0.dist-info/METADATA,sha256=F-lAMYvvCOA2-6n7E2A_CkrskBmC-UEuHMxa7_Zi1-k,2880
+clinica_pydra_petpvc-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+clinica_pydra_petpvc-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+clinica_pydra_petpvc-0.1.0.dist-info/RECORD,,
