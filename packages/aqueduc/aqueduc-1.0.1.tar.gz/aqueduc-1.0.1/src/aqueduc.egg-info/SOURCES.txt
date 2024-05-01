@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aqueduc.py
+src/test.py
+src/aqueduc.egg-info/PKG-INFO
+src/aqueduc.egg-info/SOURCES.txt
+src/aqueduc.egg-info/dependency_links.txt
+src/aqueduc.egg-info/entry_points.txt
+src/aqueduc.egg-info/top_level.txt
