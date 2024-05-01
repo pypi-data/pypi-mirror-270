@@ -1,0 +1,45 @@
+This package allows users to access the Water Stable Isotope Database in Peru. It includes 464 stations over Peru, updated until 2023, and provides an interactive map for exploring the spatial distribution of all the stations. Additionally, it offers features for technical validation and display temporal series for each station and department across Peru. For more information, users can refer to the package GitHub page.
+
+Users must create a new environment and install either the notebook version 6.5.2 or jupyterlab version 3.5.3
+
+```bash
+conda install notebook=6.5.2
+```
+or 
+
+```bash
+conda install jupyterlab=3.5.3
+```
+## Usage 
+
+```python
+import WSIPeruDB
+```
+# Get stations information
+```
+WSIPeruDB.department_information()
+```
+# Plot Linear Meteoric Water Line (LMWL)
+```
+WSIPeruDB.plot_lmwl()
+```
+# Display temporal series and histogram for each department, station ID and sample type
+```
+WSIPeruDB.analyze_temporal_series()
+```
+# Comparing dataset departments
+```
+WSIPeruDB.compare_departments()
+```
+# Download dataset information
+```
+WSIPeruDB.download_dataset()
+```
+# Download site information 
+```
+WSIPeruDB.download_site_information()
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
