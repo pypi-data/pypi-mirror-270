@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "de-databaseconnect"
+version = "0.0.76"
+description = ""
+authors = ["almirjgomes <almir.jg@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
