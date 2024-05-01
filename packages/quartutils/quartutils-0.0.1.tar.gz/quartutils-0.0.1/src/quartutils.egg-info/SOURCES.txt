@@ -1,0 +1,13 @@
+LICENSE
+README.md
+VERSION
+pyproject.toml
+src/quartutils/__init__.py
+src/quartutils/task_server.py
+src/quartutils/test_task_server.py
+src/quartutils/worker_class.py
+src/quartutils.egg-info/PKG-INFO
+src/quartutils.egg-info/SOURCES.txt
+src/quartutils.egg-info/dependency_links.txt
+src/quartutils.egg-info/requires.txt
+src/quartutils.egg-info/top_level.txt
