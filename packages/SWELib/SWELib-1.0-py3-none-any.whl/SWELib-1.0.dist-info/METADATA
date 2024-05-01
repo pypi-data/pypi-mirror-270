@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: SWELib
+Version: 1.0
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: matplotlib (==3.7.1)
+
