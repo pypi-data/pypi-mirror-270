@@ -1,0 +1,48 @@
+Metadata-Version: 2.3
+Name: ghostumap
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/ghostumap#readme
+Project-URL: Issues, https://github.com/unknown/ghostumap/issues
+Project-URL: Source, https://github.com/unknown/ghostumap
+Author-email: jjmmwon <jmw1790@gmail.com>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: notebook
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: umap-learn
+Description-Content-Type: text/markdown
+
+# GhostUMAP
+
+### Installation
+
+```Bash
+git clone https://github.com/jjmmwon/ghostumap.git
+cd ghostumap
+hatch shell
+```
+
+### How to use GhostUMAP
+```Python
+from ghostumap import GhostUMAP
+from sklearn.datasets import load_digits
+
+digits = load_digits()
+
+results = GhostUMAP().fit_transform(digits.data, n_embeddings=1, n_ghosts=4)
+```
+
+There are two parameters that are different from umap for the fit_transform method in the GhostUMAP class as follows:
+> - `n_embeddings`: This determins the number of embeddings.
+> - `n_ghosts`: This determins the number of ghosts.
