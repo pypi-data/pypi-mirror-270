@@ -1,0 +1,8 @@
+kcl_lib-0.8.6.dist-info/METADATA,sha256=Sol5EhtBsVAVbHi9eMSkipt5RzH4K5HiiEdUzNyyldQ,1081
+kcl_lib-0.8.6.dist-info/WHEEL,sha256=2DMsMEuToPssnNZjzCLc-JDvpJNvE9njw6VIV5f_RP4,95
+kcl_lib/api/service.py,sha256=ZFXVCi8gOdm4OUuF40DUi9OzTilF8UOg50o4dSM22HE,8535
+kcl_lib/api/spec_pb2.py,sha256=XiQ57KEreKdYivL2obUMKrTSRV4tKbpdiibSz3FAdi0,27360
+kcl_lib/api/__init__.py,sha256=6yAR-7jlAMBJVDVNukZ_0LeuM7NQWgjNo7yRTjGJLBg,72
+kcl_lib/__init__.py,sha256=l3Vex1HIfcckzc9d23poK8cntz2zAnchQM4l6qbXluM,25
+kcl_lib/_kcl_lib.cp312-win_amd64.pyd,sha256=N1m0pByDb6r7NJt10BCkDrYMHgmlFDq_m5lL6QJ9gWk,13874176
+kcl_lib-0.8.6.dist-info/RECORD,,
