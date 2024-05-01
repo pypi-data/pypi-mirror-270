@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ccgp
+Version: 0.0.2
+Summary: A multigene gp system
+Home-page: https://github.com/cjcameron92/ccgp
+Author: Cameron Carvalho, Cole Corbett
+Author-email: cjcameron92@gmail.com
+License: Apache2
+Requires-Python: >=3
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: scikit-learn>=1.4.2

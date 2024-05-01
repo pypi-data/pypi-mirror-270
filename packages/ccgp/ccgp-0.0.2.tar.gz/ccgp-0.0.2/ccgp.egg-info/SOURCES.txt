@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+ccgp/__init__.py
+ccgp.egg-info/PKG-INFO
+ccgp.egg-info/SOURCES.txt
+ccgp.egg-info/dependency_links.txt
+ccgp.egg-info/requires.txt
+ccgp.egg-info/top_level.txt
