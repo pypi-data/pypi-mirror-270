@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pypanasonic.py
+pyproject.toml
+setup.cfg
+setup.py
+pypanasonic.egg-info/PKG-INFO
+pypanasonic.egg-info/SOURCES.txt
+pypanasonic.egg-info/dependency_links.txt
+pypanasonic.egg-info/requires.txt
+pypanasonic.egg-info/top_level.txt
