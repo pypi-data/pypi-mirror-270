@@ -1,0 +1,2 @@
+include enkanetwork/assets/**/*.json
+recursive-include enkanetwork/ *
