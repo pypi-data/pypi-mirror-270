@@ -1,0 +1,12 @@
+phylo_match/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phylo_match/gui.py,sha256=n-8RQqr1MEJeVzViCsinZrsDzbDqv1mtA1_B566tZx8,28763
+phylo_match/definitions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phylo_match/definitions/definitions.py,sha256=Urzi-M-RTkEOHP5_V7QmHoSfeGchK2vd4Z4WOKLuXVg,1065
+phylo_match/match/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phylo_match/match/match.py,sha256=2dpectAq5CMjk2AGTiHsGNULuQIwDO8X51dgZKIoORg,9510
+phylo_match-0.1.1.dist-info/COPYING,sha256=vb_C822jR8gyNZcc5hqNBfbmzSod0geQ-mAaNh0lFQk,32474
+phylo_match-0.1.1.dist-info/METADATA,sha256=Kc9IWjDBz3lsfqoAkK5yJqX1XSiXPjIJYcabnQ1ek2g,4775
+phylo_match-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+phylo_match-0.1.1.dist-info/entry_points.txt,sha256=jhvI__K_95i-mj1BIzXb88Hixi6msUIK42FL-2sj-GM,53
+phylo_match-0.1.1.dist-info/top_level.txt,sha256=Z7Ua_appu0Y74kTleIzhsP28JqzaQ92Sa1mavnJZg8A,12
+phylo_match-0.1.1.dist-info/RECORD,,
