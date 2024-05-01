@@ -1,0 +1,20 @@
+repos:
+  - repo: 'https://github.com/pre-commit/pre-commit-hooks'
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.4.2
+    hooks:
+      - id: ruff
+        args: [ --fix, --exit-non-zero-on-fix ]
+  - repo: 'https://github.com/mgedmin/check-manifest'
+    rev: '0.48'
+    hooks:
+      - id: check-manifest
+  - repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+        language_version: python3.9
