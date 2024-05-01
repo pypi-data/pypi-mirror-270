@@ -1,0 +1,8 @@
+maxgcp/__init__.py,sha256=fPWRiWQ4tcRDqFPB2w5QxEfcvicWdsAjnq0enAL0uH4,124
+maxgcp/estimators.py,sha256=9tU7NdbjWlxkiWb4my_Ot-td-ETmgLzzqNcFokhsm0g,4154
+maxgcp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maxgcp/summary.py,sha256=_j9RD2wUrK0a6YisHAKhLElr_NVDGxcnJAKZsNSJR-I,1205
+maxgcp-0.1.1.dist-info/METADATA,sha256=rTyiAUacYqfePAD2z3O-woeAvL67oM6KDEN9VE9B654,1737
+maxgcp-0.1.1.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+maxgcp-0.1.1.dist-info/licenses/LICENSE,sha256=h7A9z5I2QL-muzmDB70ByUHNOPxccZ8sXU1KtSpJX0M,1070
+maxgcp-0.1.1.dist-info/RECORD,,
