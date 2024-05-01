@@ -1,0 +1,3 @@
+[console_scripts]
+vortexes=vortexes:clique
+
