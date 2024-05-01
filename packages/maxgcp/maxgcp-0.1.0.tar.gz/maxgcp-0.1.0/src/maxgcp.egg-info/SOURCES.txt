@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/maxgcp/__init__.py
+src/maxgcp/estimators.py
+src/maxgcp/py.typed
+src/maxgcp/summary.py
+src/maxgcp.egg-info/PKG-INFO
+src/maxgcp.egg-info/SOURCES.txt
+src/maxgcp.egg-info/dependency_links.txt
+src/maxgcp.egg-info/requires.txt
+src/maxgcp.egg-info/top_level.txt
