@@ -1,0 +1,9 @@
+sc3py/__init__.py,sha256=O9K4MMeKd-AqhGG0Fx5dEnpefpaDA-dcislrKi8y040,29
+sc3py/cli.py,sha256=VprmoQidOhOvDhT9MVkxE5Idj0LYXVvQzWdvKYrgioc,724
+sc3py/compiler/__init__.py,sha256=1Q6TucMYoj4YjdfJKlL0_dmmMDoTUdYRR6JL9ysy-Dc,15
+sc3py/compiler/compiler.py,sha256=mZQ2sK_mAM_qkucWd0MZ-hpgAUJEosjN1qWt80AH6BY,8872
+sc3py-0.0.1.dist-info/METADATA,sha256=ioDftK-EvnYjWDxsyMnAwhmd3nsjUFLPjY-aHUinYZs,54
+sc3py-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sc3py-0.0.1.dist-info/entry_points.txt,sha256=0ATn_wgF1BaWd36ydu9LLkZmwEKR0OPY7FFl0T39NCE,41
+sc3py-0.0.1.dist-info/top_level.txt,sha256=sKw9cErTzOz75OOOGKUVbGwQTF47WtFUbAZ1VYOA-cE,6
+sc3py-0.0.1.dist-info/RECORD,,
