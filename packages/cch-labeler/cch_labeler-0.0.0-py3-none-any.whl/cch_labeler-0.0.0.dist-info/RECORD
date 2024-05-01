@@ -1,0 +1,8 @@
+labeler/labeler.py,sha256=WWtUNFIwzL-tHSIx3aKu14cR8DnAOLS5USu9eULit70,2285
+labeler/util.py,sha256=N2_tiVA4EmAmlsfUssZQND29lkI2ocNMqYX0eR7bkvY,964
+labeler/libs/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labeler/libs/libkoverse_labeler-arm64-apple-darwin.dylib,sha256=TogHL4LZnQMf_gUcGStFHvV9ScW_R3zm5zpB1WpmYB8,111960
+cch_labeler-0.0.0.dist-info/METADATA,sha256=tq5xcOKAPQoSqlmy4JfJNSRs7BsXZYfPoBngImWxb9k,2850
+cch_labeler-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cch_labeler-0.0.0.dist-info/top_level.txt,sha256=7NxCjO1sn0bX2v9XWEbwRDhTs38KyX6ebGRCi-AM42M,8
+cch_labeler-0.0.0.dist-info/RECORD,,

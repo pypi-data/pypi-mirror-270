@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: cch-labeler
+Version: 0.0.0
+Summary: A package for labeling data
+Author-email: Chih-Chieh Huang <cchdroid@gmail.com>
+Keywords: labeling
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: cffi >=1.16.0
+Provides-Extra: dev
+Requires-Dist: pytest >=7.4.3 ; extra == 'dev'
+
+# Python Bindings for Security Labeler
+
+
+## Usages
+
+**From Python Interpreter**
+
+```bash
+Python 3.10.13 (main, Aug 24 2023, 12:59:26) [Clang 15.0.0 (clang-1500.0.40.1)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from labeler import labeler
+INFO:2023-12-08 06:19:28,950 get_library_name:12 - Operating System: macos-14.1.2-arm64-arm-64bit
+INFO:2023-12-08 06:19:28,950 get_library_name:13 - CPU Architecture: ('64bit', '')
+>>> labeler.evaluate('{"number":1}', "when number > 0 then 'tag1' else 'tag2'")
+'tag1'
+```
+
+
+<br>
+
+**From Python Script**
+
+```python
+from labeler import labeler
+
+content = '{"number":1}'
+statement = "when number > 0 then 'tag1' else 'tag2'"
+
+result: str = labeler.evaluate(content, statement)
+
+print(f"result:{result}")
+```
+
+
+<br>
+
+## How to Build (as the developer)
+
+**Prerequisites**
+
+- Shared libraries must have been built prior building the Python pacakge.
+
+  - Libraries are expected to exist in the [labeler](../labeler/) directory with `libkoverse_labeler-` prefix.
+
+
+
+<br>
+
+**Make Targets**
+
+Several make targets are provided.
+
+- **clean** - delete files under `build/*`, `dist/*`, `src/*.egg-info/`, `inputs/*`, `src/labeler/libs/*.so`, `src/labeler/libs/*.dylib` directory but keep the `.gitkeep` file.
+
+- **init** - install Python **build** package.
+
+- **copy_test_data** - copy the test data from `../inputs` directory to the current directory.
+
+- **copy_library** - copy library files from `../labeler` directory into `./src/labeler/libs/` directory.
+
+- **install_extra_dependencies** - install extra depdencies needed for testing.
+
+- **build** - build and package
+
+- **tests** - run the test
+
+- **test_upload** - upload package to Test PyPI.
+
+
+<br>
+
+**Building the package**
+
+
+```bash
+make init
+make build
+```
+
+<br>
+
+## How to Run Tests
+
+```bash
+make tests
+```
+
+<br>
+
+## How to Publish to TestPyPI
+
+```bash
+make test_upload
+```
+<br>
+
+
+## How to Install the package (as a user)
+
+```bash
+pip install cffi
+
+pip install -i https://test.pypi.org/simple/ labeler
+
+# or in one go
+pip install -i https://test.pypi.org/simple/ labeler --extra-index-url https://pypi.org/simple/ cffi
+
+```
+
+<br>
+
+## Editable Install
+
+This assumes the package has been built locally already.
+
+```bash
+pip install -e .
+```
+
+<br>
+
+**Install extra dependencies**
+
+```bash
+pip install -e ".[dev]"
+```
+
+<br>
+
