@@ -1,0 +1,7 @@
+value_fetcher/__init__.py,sha256=ojBIW7gnuPJsphpWHmTmB_Tmz0llyF4oJL7nSiryYfE,124
+value_fetcher/aws.py,sha256=ZRuaPfRbKIqPNi7RUB5z6aaUQWL0tanP05mbFiwQq4o,2800
+value_fetcher/base.py,sha256=zHL0yKTtmlVk0A5dzUIlE1HQVeH2r6uwmEO5FxNnJSc,4915
+value_fetcher-1.0.3.dist-info/METADATA,sha256=fCsTww3VzS72mW1LrgHpXU9J1t7PAKeoKzyGnxsx1ko,4075
+value_fetcher-1.0.3.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+value_fetcher-1.0.3.dist-info/licenses/LICENSE,sha256=Y5AQRyNsWsWtkbtcoyuMVieUpklod-hGaoxLZzkL9LQ,1071
+value_fetcher-1.0.3.dist-info/RECORD,,
