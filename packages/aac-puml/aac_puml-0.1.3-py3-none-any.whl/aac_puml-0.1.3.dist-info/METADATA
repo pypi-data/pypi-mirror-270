@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aac-puml
+Version: 0.1.3
+Summary: PlantUML diagram output plugin for AaC (Architecture-as-Code) project
+Author-email: crazynewidea <asdfasdf@mail.com>, lizzcondrey <asdfasdfd@mail.com>, bunchw <asdfdas@mail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/DevOps-MBSE/aac-puml
+Project-URL: Issues, https://github.com/DevOps-MBSE/aac-puml/issues
+Keywords: SysML,Architecture-as-Code,System Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.13
+Description-Content-Type: text/markdown
+Requires-Dist: aac >=0.4.3
+
