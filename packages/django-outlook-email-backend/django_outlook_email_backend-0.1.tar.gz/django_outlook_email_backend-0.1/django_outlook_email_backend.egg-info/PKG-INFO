@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-outlook-email-backend
+Version: 0.1
+Summary: Ouauth2 outlook email backend for Django
+Author: Marc Claramunt
+Author-email: mclaramunt@enley.com
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# Django outlook email backend
+### Ouauth2 outlook email backend for Django
