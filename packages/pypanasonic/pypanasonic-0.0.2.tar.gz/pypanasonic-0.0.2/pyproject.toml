@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypanasonic"
+version = "0.0.2"
+dependencies = [
+  "regex",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Wei-zhao Lu", email = "luweizhao09@gmail.com"},
+  {name = "Hua lu", email = "hualu0305@gmail.com"},
+]
+maintainers = [
+  {name = "Wei-zhao lu", email = "luweizhao09@gmail.com"}
+]
+description = "Panasonic PLC mewtocol lib via serial port"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["Panasonic", "Mewtocol", "Protocol", "Serial", "PLC"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/hy1stax/pypanasonic"
+Documentation = "https://github.com/hy1stax/pypanasonic/README.md"
+Repository = "https://github.com/hy1stax/pypanasonic.git"
+"Bug Tracker" = "https://github.com/hy1stax/pypanasonic/issues"
+Changelog = "https://github.com/hy1stax/pypanasonic/CHANGELOG.md"
+
+[project.scripts]
+spam-cli = "spam:main_cli"
+
+[project.gui-scripts]
+spam-gui = "spam:main_gui"
+
+[project.entry-points."spam.magical"]
+tomatoes = "spam:main_tomatoes"
