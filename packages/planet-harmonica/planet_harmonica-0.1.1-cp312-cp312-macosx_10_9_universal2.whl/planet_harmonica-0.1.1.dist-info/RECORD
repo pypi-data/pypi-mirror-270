@@ -1,0 +1,10 @@
+harmonica/bindings.cpython-312-darwin.so,sha256=_KPYX59nS7aoBRNORwVjtnyJm99uwQcUi8ZaQnKIE_o,875856
+harmonica/__init__.py,sha256=6bwiF8tW5w2tCz7t-cTEt1PkL7M2b2yQWRjSYYDiyMA,73
+harmonica/api.py,sha256=JzG2H3LkhbwuHKHMd8Jl2ewdYRTnZA9sQVSmJnU-tkk,8522
+harmonica/jax/__init__.py,sha256=-xAGXHBGsIHJlKZPF8oBUq5q4Cy2UxqfpMSVDZR_VV8,181
+harmonica/jax/custom_primitives.py,sha256=s2XiXbS9FKgRxhju-l4M_N5cogZkgxmfprMC-7KG7PM,11396
+planet_harmonica-0.1.1.dist-info/RECORD,,
+planet_harmonica-0.1.1.dist-info/LICENSE,sha256=KC3e_TSFlhnriMCxyj2ijE30-DyKgJvmY8nJA6_eAl0,1068
+planet_harmonica-0.1.1.dist-info/WHEEL,sha256=aK27B_a3TQKBFhN_ATCfuFR4pBRqHlzwr7HpZ6iA79M,115
+planet_harmonica-0.1.1.dist-info/top_level.txt,sha256=qaWWV9E1tDSx5EMVecPFtGNtjHZH7E39YFaF-P2fEzA,29
+planet_harmonica-0.1.1.dist-info/METADATA,sha256=GwZkTrWLNL1-Yph9BahElX2yrfDp45qqq0cPzWXN09A,767
