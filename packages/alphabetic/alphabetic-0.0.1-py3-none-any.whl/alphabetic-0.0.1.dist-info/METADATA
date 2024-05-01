@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: alphabetic
+Version: 0.0.1
+Summary: A lightweight Python library for querying the alphabet of languages.
+Project-URL: Homepage, https://github.com/Halvani/alphabetic
+Project-URL: Bug Tracker, https://github.com/Halvani/alphabetic/issues
+Author: Oren Halvani
+License-File: LICENSE
+Keywords: alphabet,alphabet characters,alphabet letters,alphabet-list
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: enum
+Description-Content-Type: text/markdown
+
+# alphabetic
+A lightweight Python library for querying the alphabet of languages
