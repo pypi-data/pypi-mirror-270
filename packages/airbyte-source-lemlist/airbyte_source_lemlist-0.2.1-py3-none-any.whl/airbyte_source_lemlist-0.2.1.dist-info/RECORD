@@ -1,0 +1,12 @@
+source_lemlist/__init__.py,sha256=FVXIsqdzrpLTOp9Y25Myi256ftSJsTxvzwYm4UrFn4s,126
+source_lemlist/manifest.yaml,sha256=eX8r6eHGawvTBLdBLAjY1RfnvHdVTMEKc-OrR0QEIYU,2048
+source_lemlist/run.py,sha256=fAXJc4M_ImOEJbIuBZzSfCRe0f0Vs6jSZ0F4xiVN0es,233
+source_lemlist/schemas/activities.json,sha256=9geeQRZsCNXt-i92qLnzhbmsPc978fNwSfB-hy-q2rc,2085
+source_lemlist/schemas/campaigns.json,sha256=6S99RXI-Y6tg767cPmvj5-gSln8lTrqe5WiIAB-Ak8c,304
+source_lemlist/schemas/team.json,sha256=FSfRlG6YMMWk2O3WhVp0KMsgeZN6xh5fl0O_uIgeEtk,3272
+source_lemlist/schemas/unsubscribes.json,sha256=7Ue2mBdz-0E0Q449PR0OcIXYX4GVyIfoeBv53hVCS-g,199
+source_lemlist/source.py,sha256=YVQhFGKCZfkFcNwDNkWSnhMEx8iOmB4C16z-fYsNrdk,476
+airbyte_source_lemlist-0.2.1.dist-info/METADATA,sha256=746i-v4IPEc3C1r-U7ItgpGn5GkYxedujNifbuhlEmc,4716
+airbyte_source_lemlist-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_lemlist-0.2.1.dist-info/entry_points.txt,sha256=NTE534CiJCg0qCOF5n4JFhZ03wGm8_vefm1J8WwbKnA,57
+airbyte_source_lemlist-0.2.1.dist-info/RECORD,,
