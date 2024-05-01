@@ -1,0 +1,14 @@
+gitpoll/__init__.py,sha256=XDsG3LEQJJ60NwD84wJAOtxnLpU-3ReU00NrzSJWhSo,31
+gitpoll/args.py,sha256=Ipi1MCfdXRKezyyl8pK-tX5EWFzsF8pt0guKvygiqAQ,1151
+gitpoll/config.py,sha256=cilbm9bCPQK5C6A9igdC1GQA9K9uj7gTlmb06iqsBso,484
+gitpoll/git.py,sha256=kY3xGZB3Swg1lmWLdU6dnLmcRBmxai7MEQbctCP5Pro,1435
+gitpoll/log.py,sha256=WbZEFALv1EhJtj-j2Wb89cg59X23lX79ZqbwznNpNjQ,882
+gitpoll/main.py,sha256=2iKrRuxVlr0Lbv_T3MFdoJzAhGflFRy7SA_naiMWB5w,2057
+gitpoll/shell.py,sha256=k7oGmviQTzyd0cBo6GWrug2dU3Sp-TGkuT5iibcjfHc,2048
+gitpoll/version.py,sha256=MIgLe3if6_4W1EtITcftuC424LPcvrrUNySwMDaUxNQ,19
+gitpoll-1.4.0.dist-info/LICENSE,sha256=Oqp_kvYTcHXculbJJhyN32EDhEOA5omV6gG9fRpSKmA,1068
+gitpoll-1.4.0.dist-info/METADATA,sha256=9TCoFvT1HgXOsy3vpsbjBk5YCCyUzfRO7Xv2LKlrdsI,1153
+gitpoll-1.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gitpoll-1.4.0.dist-info/entry_points.txt,sha256=Tru24wAoZZ3_2KaYql0Zv2iGmuwdpyzuPwRBQW29uT8,41
+gitpoll-1.4.0.dist-info/top_level.txt,sha256=qXYXp-gAIx-BMJ8Jo44SVLcks6KRarCl0mZUNd7HsSU,8
+gitpoll-1.4.0.dist-info/RECORD,,
