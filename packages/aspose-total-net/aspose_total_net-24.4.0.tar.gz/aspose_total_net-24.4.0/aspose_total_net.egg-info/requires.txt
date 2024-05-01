@@ -1,0 +1,17 @@
+aspose-3d==24.4.0
+aspose-barcode-for-python-via-net==24.4
+aspose-cad==24.3.0
+aspose-cells-python==24.4.0
+aspose-diagram-python==24.4
+Aspose.Email-for-Python-via-NET==24.4
+aspose-finance==24.3
+aspose-imaging-python-net==24.4.0
+aspose-ocr-python-net==24.3.0
+aspose-page==24.2.0
+aspose-pdf==24.4.0
+aspose-psd==24.2.0
+Aspose.Slides==24.4.0
+aspose-tasks==24.4.0
+aspose-tex-net==24.3.0
+aspose-words==24.4.0
+aspose-zip==24.4.0
