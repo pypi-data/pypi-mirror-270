@@ -1,0 +1,122 @@
+def _75iMp(f):
+    def _6EMP7(*args, **kwargs):
+        return f(*args, **kwargs)
+    _6EMP7.__module__ = f.__module__
+    _6EMP7.__name__ = f.__name__
+    _6EMP7.__doc__ = f.__doc__
+    _6EMP7.__dict__.update(f.__dict__)
+    f.__refcalls__ = 0
+    return _6EMP7
+
+@_75iMp
+def _Z5VOp():
+    global _bSqk1, _HWhls
+    from __future__ import annotations
+    from importlib import metadata
+    from importlib.util import find_spec
+    from rich_argparse import RichHelpFormatter
+    from sys import version, version_info
+    import argparse, distro, packaging.requirements, platform, requests
+
+    def _imAOX(package):
+        try:
+            _yjf2b = requests.get(f'https://pypi.org/pypi/{package}/json', timeout=10)
+        except requests.Timeout as e:
+            _wd7fe = 'GET requests time out.'
+            raise RuntimeError(_wd7fe) from e
+        except requests.ConnectionError as e:
+            _wd7fe = 'Failed connection.'
+            raise RuntimeError(_wd7fe) from e
+        _yjf2b.raise_for_status()
+        _pxdW0 = _yjf2b.json()
+        return _pxdW0['info']['version']
+
+    def _UqVfu(package):
+        try:
+            return metadata.version(package)
+        except metadata.PackageNotFoundError:
+            return None
+
+    def _wTs0B(package):
+        _XsVGR = metadata.metadata(package).get_all('Requires-Dist')
+        if _XsVGR is None:
+            return []
+        _Tqhwv = [packaging.requirements.Requirement(_AcdlK) for _AcdlK in _XsVGR]
+        return [_nFZRl.name for _nFZRl in _Tqhwv if _nFZRl.marker is None or _nFZRl.marker.evaluate()]
+
+    def _YJQih(package):
+        return [(_z6N1h, _UqVfu(_z6N1h)) for _z6N1h in _wTs0B(package)]
+
+    def _uVm4d():
+        _QvCpn = platform.system()
+        if _QvCpn == 'Linux':
+            _2Dwf8 = distro.os_release_info()
+            _O7sN7 = [_2Dwf8['name']]
+            if 'version_id' in _2Dwf8:
+                _O7sN7.append(_2Dwf8['version_id'])
+            _O7sN7.append(f'{platform.architecture()[0]} / {platform.release()}')
+            return ' '.join(_O7sN7)
+        if _QvCpn == 'Darwin':
+            return f'macOS {platform.mac_ver()[0]}'
+        return platform.platform()
+
+    def _bSqk1(package):
+        yield f'Python {version}'
+        try:
+            find_spec('google.colab')
+        except ModuleNotFoundError:
+            pass
+        else:
+            yield 'Google Colab'
+        try:
+            import IPython
+        except (ImportError, ModuleNotFoundError):
+            pass
+        else:
+            _e6wIL = IPython.get_ipython()
+            if _e6wIL:
+                if _e6wIL.__class__.__name__ == 'SpyderShell':
+                    yield f'Spyder / IPython {IPython.__version__}'
+                else:
+                    yield f'IPython {IPython.__version__}'
+        yield _uVm4d()
+        yield ''
+        _YgVcC = '\x1b[93m'
+        _qIdMH = '\x1b[0m'
+        _z0r7E = _UqVfu(package)
+        if _z0r7E is None:
+            yield f'{_YgVcC}Package {package} not found{_qIdMH}'
+            return
+        _srCyN = f'{package} {_UqVfu(package)}'
+        _Fj2Tn = _imAOX(package)
+        if _z0r7E != _Fj2Tn:
+            _srCyN += f' {_YgVcC}({_Fj2Tn} available){_qIdMH}'
+        yield _srCyN
+        _vRDD1 = _wTs0B(package)
+        if _vRDD1:
+            yield ''
+            for _85drV in sorted(_vRDD1):
+                _z0r7E = _UqVfu(_85drV)
+                _srCyN = f'{_85drV} {_UqVfu(_85drV)}'
+                _Fj2Tn = _imAOX(_85drV)
+                if _z0r7E != _Fj2Tn:
+                    _srCyN += f' {_YgVcC}({_Fj2Tn} available){_qIdMH}'
+                yield _srCyN
+    RichHelpFormatter.styles['argparse.args'] = 'cyan'
+    RichHelpFormatter.styles['argparse.groups'] = 'yellow'
+    RichHelpFormatter.styles['argparse.metavar'] = 'green'
+
+    def _HWhls(argv=None):
+        _SzAGm = argparse.ArgumentParser(description='Python package dependency inspector.', formatter_class=RichHelpFormatter)
+        _SzAGm.add_argument('--version', '-v', action='version', version=_RcGvt(), help='display version information')
+        _SzAGm.add_argument('package', type=str, help='package to inspect')
+        _Gq7r9 = _SzAGm.parse_args(argv)
+        for _OrpzU in _bSqk1(_Gq7r9.package):
+            print(_OrpzU)
+
+    def _RcGvt():
+        _yo8q1 = f'{version_info.major}.{version_info.minor}.{version_info.micro}'
+        _CfpJX = _UqVfu('python-dependency-inspector')
+        return '\n'.join([f'Python Dependency Inspector {_CfpJX} [Python {_yo8q1}]'])
+_Z5VOp()
+del _Z5VOp
