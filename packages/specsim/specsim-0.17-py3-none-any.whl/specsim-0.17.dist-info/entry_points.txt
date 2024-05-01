@@ -1,0 +1,4 @@
+[console_scripts]
+fitgalsim = specsim.fitgalsim:main
+quickfiberloss = specsim.quickfiberloss:main
+quickspecsim = specsim.quickspecsim:main
