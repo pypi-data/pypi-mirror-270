@@ -1,0 +1,10 @@
+[project]
+name = "the-open-network"
+version = "0.1"
+authors = [
+    {name = "ZAID", email = "y8838@hotmail.com"}
+]
+description = "Just wait for a new module based on tonapi.io :D"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["ton", "tonapi", "pyton", "blockchain", "crypto"]
