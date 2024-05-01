@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: blaze_net
+Version: 1.0.0
+Summary: A Python web framework
+Home-page: https://github.com/Alan69/blaze_net
+Author: McLovinAlan69
+Author-email: gameg1676@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: werkzeug
+Requires-Dist: jinja2
+Requires-Dist: sqlalchemy
+
+# BlazeNet
+
+BlazeNet is a Python web framework inspired by Flask. It provides a simple and lightweight solution for building web applications.
+
+## Features
+
+- Routing: Define routes and associate them with view functions.
+- Templating: Render HTML templates using Jinja2.
+- Database Integration: Integrate SQLAlchemy for database operations.
+- Easy to Use: Simple and intuitive API for developing web applications.
+
+## Installation
+
+You can install BlazeNet using pip:
+
+```bash
+pip install blaze_net
+```
+
+Or clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Alan69/blaze_net.git
+```
+
+## Usage
+
+```python
+from blaze_net import BlazeNet
+
+app = BlazeNet()
+
+@app.route('/')
+def index():
+    return 'Hello, BlazeNet!'
+
+if __name__ == '__main__':
+    app.run()
+```
+
+## Documentation
+For more information on how to use BlazeNet, please refer to the documentation.
+
+## Contributing
+Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
