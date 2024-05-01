@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cyzutils
+Version: 0.0.2
+Summary: my utils
+Home-page: https://github.com/cyz020403
+Author: cyz020403
+Author-email: cyz020403@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+### Install
+
+```bash
+pip install cyzutils
+```
+
+### Usage
+
+```python
+from cyzutils import mail
+
+mail('subject', 'content', 'xxxxxxx@xxx.xx')
+
+mail('subject', 'content') # send to myself
+```
+
+### 打包上传 pypi 命令
+
+```shell
+pip install build
+
+python -m build
+
+pip install twine
+
+twine check dist/*
+
+twine upload dist/*
+```
+
+https://juejin.cn/post/7053009657371033630
