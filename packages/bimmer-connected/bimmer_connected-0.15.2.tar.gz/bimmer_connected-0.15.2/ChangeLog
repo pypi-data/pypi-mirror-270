@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.15.2
+------
+
+* Another VIN regex fix (#614)
