@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+readme.md
+setup.py
+batchgeneratorsv2/__init__.py
+batchgeneratorsv2.egg-info/PKG-INFO
+batchgeneratorsv2.egg-info/SOURCES.txt
+batchgeneratorsv2.egg-info/dependency_links.txt
+batchgeneratorsv2.egg-info/requires.txt
+batchgeneratorsv2.egg-info/top_level.txt
