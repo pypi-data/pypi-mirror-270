@@ -1,0 +1,8 @@
+jacobi.cpython-312-darwin.so,sha256=sc9EKetRsR3PxaANywtViesubuoMcXkvYkAIvBupZok,1039168
+libjacobi-motion.dylib,sha256=QpOa5uWYzkafhOddRNKwgE7vMYAwo7h9BTory_TVNzQ,4202328
+jacobi_motion.dylibs/libssl.3.dylib,sha256=wOrHlYZq0kY0iq2iyF5755oYGnSqbj9zsVzl9vYP5Kg,838688
+jacobi_motion.dylibs/libcrypto.3.dylib,sha256=1A3nQ14gsxz-N-Hm08mcfCqJ2_7QXs9s2iX_Z-ZNkJw,4205760
+jacobi_motion-0.0.30.dist-info/RECORD,,
+jacobi_motion-0.0.30.dist-info/WHEEL,sha256=0h1KGmTQyzZRpfgiuH4UWSSuw2MIDMAD6G4xAejZdVc,113
+jacobi_motion-0.0.30.dist-info/METADATA,sha256=HhIandmFojaoviMu6g_g-WBQFy_AmkbU8RD8bMohW8o,6101
+jacobi_motion-0.0.30.dist-info/licenses/LICENSE,sha256=WEK6lrkd9GvzexVKQnZ8uonQJ9lOCDJ459EhWmKah50,4232
