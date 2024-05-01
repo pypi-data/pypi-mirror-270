@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sufi
+Version: 1.0.1
+Summary: apply different types of filters on image
+Home-page: https://github.com/sunnykumar1516/sufi
+Author: sunny kumar
+Author-email: sunnykumar1516@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy (>=1.2)
+Requires-Dist: opencv-python (>=4)
+
+# sufi
+python package for applying different filters on image
+use this package to create amazing filters over you image. like 
+blur
+sharp
+canny
+HDR
+sketch
+digital paint
+
