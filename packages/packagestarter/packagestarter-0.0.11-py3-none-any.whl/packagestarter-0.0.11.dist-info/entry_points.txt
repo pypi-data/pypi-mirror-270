@@ -1,0 +1,3 @@
+[console_scripts]
+packagestarter=packagestarter.packagestarter:main
+
