@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-assets-pipeline"
+version = "0.1.0"
+description = "Modern asset pipeline for Flask"
+authors = ["Maxime Bouroumeau-Fuseau <maxime.bouroumeau@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flask_assets_pipeline"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.1"
+watchdog = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
