@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sqlvana.egg-info/PKG-INFO
+sqlvana.egg-info/SOURCES.txt
+sqlvana.egg-info/dependency_links.txt
+sqlvana.egg-info/requires.txt
+sqlvana.egg-info/top_level.txt
+tests/test_imports.py
+tests/test_sqlvana.py
