@@ -1,0 +1,2 @@
+[console_scripts]
+smrx2python = spike2loader:smrx2python
