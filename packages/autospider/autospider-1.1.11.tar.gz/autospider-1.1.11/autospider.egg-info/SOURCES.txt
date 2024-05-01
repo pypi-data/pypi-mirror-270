@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+autospider/__init__.py
+autospider/auto_spider.py
+autospider/utils.py
+autospider.egg-info/PKG-INFO
+autospider.egg-info/SOURCES.txt
+autospider.egg-info/dependency_links.txt
+autospider.egg-info/requires.txt
+autospider.egg-info/top_level.txt
