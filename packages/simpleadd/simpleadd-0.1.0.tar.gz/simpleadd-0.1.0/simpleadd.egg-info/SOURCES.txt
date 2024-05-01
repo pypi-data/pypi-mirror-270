@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+simpleadd.egg-info/PKG-INFO
+simpleadd.egg-info/SOURCES.txt
+simpleadd.egg-info/dependency_links.txt
+simpleadd.egg-info/top_level.txt
