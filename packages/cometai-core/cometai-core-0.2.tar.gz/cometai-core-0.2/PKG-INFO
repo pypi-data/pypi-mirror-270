@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cometai-core
+Version: 0.2
+Summary: A simple example package
+Home-page: https://github.com/cometai/core
+Author: Ethan Hou
+Author-email: ethanfhou10@gmail.com
+License: MIT
+Description: Base scraper module for comet
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
