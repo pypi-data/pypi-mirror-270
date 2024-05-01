@@ -1,0 +1,11 @@
+README.md
+setup.py
+sc3py/__init__.py
+sc3py/cli.py
+sc3py.egg-info/PKG-INFO
+sc3py.egg-info/SOURCES.txt
+sc3py.egg-info/dependency_links.txt
+sc3py.egg-info/entry_points.txt
+sc3py.egg-info/top_level.txt
+sc3py/compiler/__init__.py
+sc3py/compiler/compiler.py

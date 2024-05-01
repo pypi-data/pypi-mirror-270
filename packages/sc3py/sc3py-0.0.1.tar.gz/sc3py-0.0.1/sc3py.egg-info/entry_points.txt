@@ -1,0 +1,2 @@
+[console_scripts]
+sc3py = sc3py.cli:main
