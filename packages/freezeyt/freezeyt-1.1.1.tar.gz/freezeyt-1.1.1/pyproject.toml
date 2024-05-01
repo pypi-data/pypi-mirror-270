@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+
+check_untyped_defs = true
+disallow_incomplete_defs = true
+warn_redundant_casts = true
+exclude = "tests/fixtures/"
+
+[[tool.mypy.overrides]]
+module = "cssutils"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "enlighten"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "falcon"
+ignore_missing_imports = true
