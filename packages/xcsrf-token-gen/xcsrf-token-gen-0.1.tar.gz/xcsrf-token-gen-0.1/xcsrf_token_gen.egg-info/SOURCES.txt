@@ -1,0 +1,5 @@
+setup.py
+xcsrf_token_gen.egg-info/PKG-INFO
+xcsrf_token_gen.egg-info/SOURCES.txt
+xcsrf_token_gen.egg-info/dependency_links.txt
+xcsrf_token_gen.egg-info/top_level.txt

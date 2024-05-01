@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xcsrf-token-gen
+Version: 0.1
+Summary: Simple xcsrf gen
+Home-page: https://github.com/gyewtools/skibidi-rizzler
+Author: Rawrskibidi
+Author-email: debekfryderyk@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
