@@ -1,0 +1,15 @@
+LICENSE
+LICENSE.txt
+README.md
+pyproject.toml
+ndx_dynamic_routing_metadata.egg-info/PKG-INFO
+ndx_dynamic_routing_metadata.egg-info/SOURCES.txt
+ndx_dynamic_routing_metadata.egg-info/dependency_links.txt
+ndx_dynamic_routing_metadata.egg-info/entry_points.txt
+ndx_dynamic_routing_metadata.egg-info/requires.txt
+ndx_dynamic_routing_metadata.egg-info/top_level.txt
+src/ndx_dynamic_routing_metadata/__init__.py
+src/ndx_dynamic_routing_metadata/py.typed
+src/ndx_dynamic_routing_metadata/pynwb/__init__.py
+src/ndx_dynamic_routing_metadata/spec/create_extension_spec.py
+tests/test_core.py
