@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: streamlit-folium-incaper
+Version: 0.2.0
+Summary: Render Folium objects in Streamlit for INCAPER
+Home-page: https://github.com/Xdeivison/streamlit-foliumx
+Author: Henrique Dalmagro
+Author-email: henriquedalmagro04@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+UNKNOWN
+
