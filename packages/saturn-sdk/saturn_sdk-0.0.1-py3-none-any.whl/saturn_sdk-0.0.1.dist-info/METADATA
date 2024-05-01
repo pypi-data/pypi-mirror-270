@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: saturn-sdk
+Version: 0.0.1
+Summary: 
+License: LICENSE
+Author: Aurelio
+Author-email: hello@aurelio.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# saturn-sdk
