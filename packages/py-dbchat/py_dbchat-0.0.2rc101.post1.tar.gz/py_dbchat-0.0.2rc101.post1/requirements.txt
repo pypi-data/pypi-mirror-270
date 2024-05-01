@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pymongo[srv]
+python-dotenv
+pydantic-settings
+pyautogen
+sqlalchemy
+psychopg2
+openai
