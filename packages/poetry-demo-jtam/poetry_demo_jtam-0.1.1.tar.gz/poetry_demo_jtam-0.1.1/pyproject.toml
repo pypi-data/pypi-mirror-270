@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "poetry-demo-jtam"
+version = "0.1.1"
+description = "demo project to show how to use poetry to package and then to publish to pypi"
+authors = ["Jason Tam <jasontamemail@gmail.com>"]
+readme = "README.md"
+# if you don't want poetry to do packaging, then set this to false (non-package mode)
+package-mode = true
+
+packages = [
+    { include = "src/example_package_jtam" },
+]
+
+[tool.poetry.dependencies]  # main dependency group
+python = "^3.12"
+[tool.poetry.group.test.dependencies]  # group dependencies together in one group, here the group is "test"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hello = "hello:main"
