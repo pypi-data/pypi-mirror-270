@@ -1,0 +1,8 @@
+setup.py
+sectec/__init__.py
+sectec/main.py
+sectec.egg-info/PKG-INFO
+sectec.egg-info/SOURCES.txt
+sectec.egg-info/dependency_links.txt
+sectec.egg-info/requires.txt
+sectec.egg-info/top_level.txt
