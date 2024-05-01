@@ -1,0 +1,2 @@
+[console_scripts]
+r2env = r2env.repl:main
