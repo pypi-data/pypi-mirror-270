@@ -1,0 +1,11 @@
+eprime_data/__init__.py,sha256=Cj31sD3Q_AbglpPGAB7-WwRmgqusjbNfDlKzE5EWDoY,507
+eprime_data/__main__.py,sha256=-CyCTUjKnqEb-KtRRRYcMjJJyXQaL_ad1BkmNwEmgjo,3318
+eprime_data/constants.py,sha256=dWx_ycTRJSv8SOTjQEjg2epBCzHTMGA5t7dhvi_IEiI,418
+eprime_data/dataframe.py,sha256=CimNkmkrcxZD0dMcTyARRalZUwcl7FWfV5yDMCGj6a0,810
+eprime_data/dict_tab_data.py,sha256=IwNW6-bwVV4neleOzba8LEVJtLxX5FKi4eE579tttn8,1658
+eprime_data/lib.py,sha256=MTYFrjZrvMnuzvDUBzcKlkAp1YKLb9N3c5uEPNv4g9Y,4448
+eprime_data-0.2.3.dist-info/entry_points.txt,sha256=fXiafNLWlU0vY6JdCjT6D-VeMIeVdnWNJ0ewJIvI_C4,56
+eprime_data-0.2.3.dist-info/LICENSE,sha256=IcRhOMsHnf_lGtQLEsTal1gKNmmBTOU8lqlXWcSC1b8,1073
+eprime_data-0.2.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+eprime_data-0.2.3.dist-info/METADATA,sha256=zGVQRn6fYRzbe2c-JO9rHSvPOItRPJ9wHIRsmjFtNyg,1442
+eprime_data-0.2.3.dist-info/RECORD,,
