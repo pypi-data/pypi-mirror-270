@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: sectec
+Version: 1.2
+Summary: Easy to use Webscraper module for python
+Author: Ali Lodhi
+Author-email: alilodhibusiness@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.31.0
+Requires-Dist: bs4==0.0.2
+
+# Sectec 1.0 - Python WebScraper Module
+
+Sectec is a user-friendly and easy to use python module for webscrapping. With Sectec you can easily scrap the content from any website you want
+
+## Usage
+
+Using Sectec is simple just import `sectec` and use it
+
+## Syntax
+
+All syntaxes of the Sectec is here:
+
+```python
+import sectec as st
+
+website_url = 'https://www.youtube.com'
+
+# Fetch and print the title of the website
+title = st.getTitle(website_url)
+print("Title:", title)
+
+# Fetch and print the entire HTML content of the website
+html_content = st.getHTML(website_url)
+print("HTML Content:", html_content)
+
+# Fetch and print all the text from the website
+text_content = st.getText(website_url)
+print("Text Content:", text_content)
+```
+
+# Founder
+
+Sapit was created by "ALI LODHI" He is from Pakistan, Ali Lodhi is well experienced python programmer who loves writing python code. The Idea of Sapit came when he was making a Desktop Assistant for his personal use and he had to write a lot of code so that's why to ease of use he created sapit.
+
+# Versions
+
+Sapit 1.0
+
+## Sapit 1.1
+
+In Sapit 1.1 we added a new function `saveHTML` function. Now you can save the scrapped HTML code in HTML file
+
+```python
+import sectec as st
+
+st.saveHTML ('https://www.instagram.com', filename='instagram.html')
+```
+
+Sapit 1.2 
+
+- Minor updates
+- Updated Description
+- Bug Fixes
