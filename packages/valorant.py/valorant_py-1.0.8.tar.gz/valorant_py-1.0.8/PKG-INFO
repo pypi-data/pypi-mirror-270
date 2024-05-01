@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: valorant.py
+Version: 1.0.8
+Summary: A modern, easy to use, feature-rich, and async ready API wrapper for Valorant API written in Python.
+Author-email: STACiA <stacia.dev@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 STACIA
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/staciax/valorant
+Project-URL: repository, https://github.com/staciax/valorant
+Project-URL: issues, https://github.com/staciax/valorant/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp<4,>=3.8.5
+
+# valorant
+A modern, easy to use, feature-rich, and async ready API wrapper for Valorant API written in Python.
+
+## Key Features
+- Modern Pythonic API using `async` and  `await`.
+
+## Installing
+Python 3.8 or higher is required
+
+Windows: <br>
+```
+$ pip install -U valorant.py
+```
+Linux/MacOS:
+```
+$ python3 -m pip install -U valorant.py
+```
+ 
+## Quick Example
+```py
+import asyncio
+import valorant
+
+async def main():
+    client = valorant.Client(valorant.Locale.thai)  # set default locale to thai
+    async with client:
+        weapon = client.get_weapon('9c82e19d-4575-0200-1a81-3eacf00cf872')  # Vandal
+        assert weapon is not None
+
+        for skin in weapon.skins:
+            print(skin.display_name)  # default locale
+            print(skin.display_icon)
+
+            # specify locale
+            print(skin.display_name.ja_JP)
+            print(skin.display_name.japanese)
+            print(skin.display_name.from_locale(valorant.Locale.japanese))
+
+            if skin.theme is not None:
+                print(skin.theme.display_name)
+                print(skin.theme.display_icon)
+
+            if skin.content_tier is not None:
+                print(skin.content_tier.display_name)
+                print(skin.content_tier.display_icon)
+
+            for level in skin.levels:
+                print(level.display_name)
+            for chroma in skin.chromas:
+                print(chroma.display_name)
+
+
+asyncio.run(main())
+```
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<!-- ## Project inspired by
+- [discord.py](https://github.com/Rapptz/discord.py) the Discord API wrapper for Python.  -->
+
+<!-- ## Support
+- [Discord Server](https://discord.com/invite/) -->
+
+## Links
+- [Valorant API](https://valorant-api.com)
+- [Official Discord Server](https://discord.com/invite/9V5MWgD)
