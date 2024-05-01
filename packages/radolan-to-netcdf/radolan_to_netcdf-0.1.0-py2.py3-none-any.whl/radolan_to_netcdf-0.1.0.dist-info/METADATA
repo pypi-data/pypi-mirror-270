@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: radolan_to_netcdf
+Version: 0.1.0
+Summary: Python package to parser RADOLAN binary data files to NetCDF
+Home-page: https://github.com/cchwala/radolan_to_netcdf
+Author: Christian Chwala
+Author-email: christian.chwala@kit.edu
+License: BSD license
+Keywords: radolan_to_netcdf
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: wradlib >=1.2.1
+Requires-Dist: netCDF4
+Requires-Dist: numpy
+
+Python package to parser RADOLAN binary data files to NetCDF

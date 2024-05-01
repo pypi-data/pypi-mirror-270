@@ -1,0 +1,9 @@
+radolan_to_netcdf/__init__.py,sha256=zvBe0HQegyrgzd_Gm1iJpZw21gk0Nw8k9BV1P-c4f94,204
+radolan_to_netcdf/radolan_product_netcdf_config.py,sha256=y_TIKuMwIzicVCu-5z70fx6WXiLvc7iLOPAFhj2TWOQ,4885
+radolan_to_netcdf/radolan_to_netcdf.py,sha256=cSrg8e5M_M1wiyyz17GFHL698BdUtrCxMmpXTEj4jUg,8973
+radolan_to_netcdf/wradlib_to_radolan_bin.py,sha256=dgJ5PJbo-fUVdkCN5f3Xt2TAcBo8Wm8WdnWRndcI_xE,3751
+radolan_to_netcdf-0.1.0.dist-info/LICENSE,sha256=NJ4AoBSYAKGKCsbZs8memS-wGS6Wzg_glIq9FZq8Vx0,1510
+radolan_to_netcdf-0.1.0.dist-info/METADATA,sha256=phtwjtIMV7tvd7GVwftMkJ46Kj5A7L_ZcZbqvGMFtis,988
+radolan_to_netcdf-0.1.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+radolan_to_netcdf-0.1.0.dist-info/top_level.txt,sha256=fdQSOzF1j3Jcx9Oqz7JzFejTFAJlkinfp431-xsdWJ4,18
+radolan_to_netcdf-0.1.0.dist-info/RECORD,,
