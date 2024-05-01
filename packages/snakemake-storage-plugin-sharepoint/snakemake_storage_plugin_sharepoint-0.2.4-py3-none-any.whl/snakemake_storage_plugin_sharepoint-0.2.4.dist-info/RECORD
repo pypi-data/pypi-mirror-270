@@ -1,0 +1,8 @@
+snakemake_storage_plugin_sharepoint/__init__.py,sha256=afxHER5FNMdCgGJj-XcIz2UorZJLDz4puxWBUGPVlxc,322
+snakemake_storage_plugin_sharepoint/object.py,sha256=p62BSWfn2PL4xBwLJiUMjwCPtiz94Tr6trzonJAwrA8,6810
+snakemake_storage_plugin_sharepoint/provider.py,sha256=w1N2oJxZeWVWdV_z-x1Sa4ExQ7b5uJFdL19S4SG3Z2c,2561
+snakemake_storage_plugin_sharepoint/settings.py,sha256=XOxkP7fZVjESfAf7jQwu9H8SEza5A-gRphEEF6nKChE,4367
+snakemake_storage_plugin_sharepoint-0.2.4.dist-info/LICENSE,sha256=n4VSwsCxe0fjOnZNhCMaln4nIlswKomEqU_EevocEFs,1058
+snakemake_storage_plugin_sharepoint-0.2.4.dist-info/METADATA,sha256=-2ugzvDLDULlCreIPP9iG28C-mBQkGMwKeS-hT95-u0,1087
+snakemake_storage_plugin_sharepoint-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+snakemake_storage_plugin_sharepoint-0.2.4.dist-info/RECORD,,
