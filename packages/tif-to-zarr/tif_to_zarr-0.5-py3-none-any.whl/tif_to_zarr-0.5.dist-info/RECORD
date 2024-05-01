@@ -1,0 +1,8 @@
+tif_to_zarr/__init__.py,sha256=Dbe5QAJKIZiFIqyli1X3GrZI3PmTVsLjgmytQPfVt30,84
+tif_to_zarr/conversion_lib.py,sha256=BxjQUHhTCPfWTYspbq20nL__W66Xb0Es8MVyurOmIUU,4417
+tif_to_zarr/tif_to_zarr.py,sha256=hO532Xi_vnBs8G5u31-v8LkAxzTm9118q27KEIG4KGg,1238
+tif_to_zarr-0.5.dist-info/LICENSE,sha256=lZIkIfx4Y1fiAsLmDOT_Itx-TxjlyZ9n_w4dsbpgKVM,1518
+tif_to_zarr-0.5.dist-info/METADATA,sha256=MGplsdvT5lNb45OYNT9F7L8f0XakQGH113NZqJco6BA,1296
+tif_to_zarr-0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tif_to_zarr-0.5.dist-info/top_level.txt,sha256=m7c4Rm8plD4wvgyiznXKPRLPiUDLxYyxC1RCQufFqlE,12
+tif_to_zarr-0.5.dist-info/RECORD,,
