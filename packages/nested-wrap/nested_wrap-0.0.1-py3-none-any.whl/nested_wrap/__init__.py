@@ -1,0 +1,1 @@
+from .wrap import wrap_func_with_nested_access
