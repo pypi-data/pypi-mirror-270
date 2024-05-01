@@ -1,0 +1,11 @@
+pyusb
+libusb-package
+rich
+construct
+
+[build]
+build
+
+[test]
+pytest
+pylint
