@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: E-Cut
+Version: 0.2.0
+Summary: Enhanced G-Cut algorithm on automated segmentation of interweaving neurons
+Author-email: Zuohan Zhao <zzhmark@126.com>, Yufeng Liu <yufeng_liu@seu.edu.cn>
+License: MIT License
+Project-URL: GitHub Project, https://github.com/SEU-ALLEN-codebase/E-Cut
+Project-URL: Documentation, https://SEU-ALLEN-codebase.github.io/E-Cut
+Keywords: linear-programming,neuron-morphology,neuorn-tracing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: PuLP
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Provides-Extra: docs
+Requires-Dist: pdoc ; extra == 'docs'
+
+# Ensemble-Cut
+Based on G-Cut, I add more metrics, such as for angle and radius.
+The graph cut is no long based on topological trees, but a highly
+interconnected network.
+
+## Installation
+
+```shell
+$ pip install E-Cut
+```
+
+## Usage
+
+Construct an `ECut` class object to run the workflow.
+```python
+from ecut.graph_cut import ECut
+from ecut.swc_handler import parse_swc, write_swc
+
+# NOTE: the node numbering of this tree should be SORTED, and starts from ZERO.
+tree = parse_swc('filepath.swc')
+e = ECut(tree, [0, 100])    # 0 and 100 are the IDs of somata
+e.run()
+trees = e.export_swc()
+write_swc(trees[100], 'outpath_100.swc')
+```
+
+You can customize the metrics to modify the optimization parameters.
+
+```python
+...
+
+from ecut.graph_metrics import EnsembleMetric
+
+metric = EnsembleMetric(gof_weight=2, angle_weight=0.5)
+e = ECut(tree, [0, 100], metric=metric)
+
+...
+```
+You can even subclass `ECut` and `EnsembleMetric` to create your own optimization workflow or
+introduce more metrics into it.
+
+## Comparison with G-Cut
+
+E-Cut is enhanced with superior features based on G-Cut.
+
+**First, it introduces angle and radius metrics.** To make them compatible with
+the GOF probability, I replaced the shortest path searching with minimum spanning
+tree, so that all comparisons are performed locally (we take average GOF along
+the neurite path).
+
+**Second, it can handle more complexed topological errors.**
+In the following case, I construct a pseudo neuron with 2 types
+of common topological errors to compare their performance.
+
+![pseudo](assets/compare.png)
+
+In this example, G-Cut is unable to fix the breakup between neurites (a tip node
+that is very close to another branch). On the other hand, E-Cut considers all
+such cases within a distance threshold by building up a fully interconnected
+network of neurites.
