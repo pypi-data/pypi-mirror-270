@@ -1,0 +1,13 @@
+tabulate
+ipywidgets
+pandas
+pyarrow
+seaborn
+sympy
+matplotlib
+deprecation
+brightway2
+pypardiso
+SALib
+pint
+typing-extensions
