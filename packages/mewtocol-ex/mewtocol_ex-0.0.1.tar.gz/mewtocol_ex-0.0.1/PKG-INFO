@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: mewtocol-ex
+Version: 0.0.1
+Summary: An project use pypanasonic
+Project-URL: Documentation, https://github.com/hy1stax/mewtocol-ex#readme
+Project-URL: Issues, https://github.com/hy1stax/mewtocol-ex/issues
+Project-URL: Source, https://github.com/hy1stax/mewtocol-ex
+Author-email: hy1stax <130333760+hy1stax@users.noreply.github.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: project
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pypanasonic
+Requires-Dist: pyserial
+Requires-Dist: regex
+Description-Content-Type: text/markdown
+
+# mewtocol-ex
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mewtocol-ex.svg)](https://pypi.org/project/mewtocol-ex)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mewtocol-ex.svg)](https://pypi.org/project/mewtocol-ex)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install mewtocol-ex
+```
+
+## License
+
+`mewtocol-ex` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
