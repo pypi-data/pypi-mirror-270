@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ndx-dynamic-routing-metadata
+Version: 0.1.4
+Summary: Type to store metadata for dynamic routing experiments at Allen Institute
+Author-email: Ben Hardcastle <ben.hardcastle@alleninstitue.org>, Arjun Sridhar <arjun.sridhar@alleninstitute.org>
+License: MIT
+Project-URL: Repository, https://github.com/AllenInstitute/ndx-dynamic-routing-metadata
+Project-URL: Issues, https://github.com/AllenInstitute/ndx-dynamic-routing-metadata/issues
+Keywords: NeurodataWithoutBorders,NWB,nwb-extension,ndx-extension
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: pynwb>=2.6.0
+Requires-Dist: hdmf>=3.13.0
+
+# ndx-dynamic-routing-metadata
+
+Type to store metadata for dynamic routing experiments at Allen Institute
+
+[![PyPI](https://img.shields.io/pypi/v/ndx-dynamic-routing-metadata.svg?label=PyPI&color=blue)](https://pypi.org/project/ndx-dynamic-routing-metadata/)
+[![Python version](https://img.shields.io/pypi/pyversions/ndx-dynamic-routing-metadata)](https://pypi.org/project/ndx-dynamic-routing-metadata/)
+
+[![Coverage](https://img.shields.io/codecov/c/github/AllenInstitute/ndx-dynamic-routing-metadata?logo=codecov)](https://app.codecov.io/github/AllenInstitute/ndx-dynamic-routing-metadata)
+[![CI/CD](https://img.shields.io/github/actions/workflow/status/AllenInstitute/ndx-dynamic-routing-metadata/publish.yml?label=CI/CD&logo=github)](https://github.com/AllenInstitute/ndx-dynamic-routing-metadata/actions/workflows/publish.yml)
+[![GitHub issues](https://img.shields.io/github/issues/AllenInstitute/ndx-dynamic-routing-metadata?logo=github)](https://github.com/AllenInstitute/ndx-dynamic-routing-metadata/issues)
+
+# Usage
+```bash
+conda create -n ndx_dynamic_routing_metadata python>=3.8
+conda activate ndx_dynamic_routing_metadata
+pip install ndx_dynamic_routing_metadata
+```
+
+## Python
+```python
+>>> import ndx_dynamic_routing_metadata
+```
+
+# Development
+See instructions in https://github.com/AllenInstitute/ndx-dynamic-routing-metadata/CONTRIBUTING.md and the original template: https://github.com/AllenInstitute/copier-pdm-npc/blob/main/README.md
