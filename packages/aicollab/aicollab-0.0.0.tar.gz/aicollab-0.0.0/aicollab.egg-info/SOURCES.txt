@@ -1,0 +1,5 @@
+setup.py
+aicollab.egg-info/PKG-INFO
+aicollab.egg-info/SOURCES.txt
+aicollab.egg-info/dependency_links.txt
+aicollab.egg-info/top_level.txt
