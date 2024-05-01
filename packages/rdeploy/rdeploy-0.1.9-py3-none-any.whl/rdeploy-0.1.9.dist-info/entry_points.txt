@@ -1,0 +1,2 @@
+[console_scripts]
+rdeploy = rdeploy.main:program.run
