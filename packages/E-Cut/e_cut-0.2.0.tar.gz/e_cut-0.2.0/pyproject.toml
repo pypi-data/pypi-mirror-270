@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ['ecut']
+
+[project]
+name = "E-Cut"
+authors = [
+    {name = "Zuohan Zhao", email = "zzhmark@126.com"},
+    {name = "Yufeng Liu", email = "yufeng_liu@seu.edu.cn"}
+]
+description = "Enhanced G-Cut algorithm on automated segmentation of interweaving neurons"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["linear-programming", "neuron-morphology", "neuorn-tracing"]
+license = { text = "MIT License" }
+dynamic = [ "version" ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "PuLP",
+    "scipy",
+    "scikit-learn",
+    "scikit-image",
+    "tqdm",
+    "pandas"
+
+]
+
+[project.urls]
+"GitHub Project" = "https://github.com/SEU-ALLEN-codebase/E-Cut"
+"Documentation" = "https://SEU-ALLEN-codebase.github.io/E-Cut"
+
+[project.optional-dependencies]
+docs = [ "pdoc" ]
+
+[tool.setuptools_scm]
