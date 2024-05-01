@@ -1,0 +1,14 @@
+dash_websocket_component/DashWebsocketComponent.py,sha256=r4u_a_QPJcDMWO8Eg7gd_qB21N9q8H7ag2fr66K-EzA,2109
+dash_websocket_component/__init__.py,sha256=zydv4ahMiz6N_ufh2NJHcGtANdGK-I7lDKwFlf8fHK4,2389
+dash_websocket_component/_imports_.py,sha256=sKeT_Xv9Cb7_-kqVc6ZFgEIdx9ZUYad1KGwt9AjoZOE,106
+dash_websocket_component/async-DashWebsocketComponent.js,sha256=DPVn3p_cvxcS8VEzmjbLc2Ds7yxwKcDcyPxz-mvpmmA,4947
+dash_websocket_component/async-DashWebsocketComponent.js.map,sha256=-dfudtxL1vvIXxrKrHCEGpoyDgRqNZnjIvZZjlSmXkg,7418
+dash_websocket_component/dash_websocket_component.min.js,sha256=dfLfmJa_Xh9aTkX669MSLpxlsRyhjpQm-XoAWmvlJE0,4113
+dash_websocket_component/dash_websocket_component.min.js.map,sha256=Yv6Mbrz-iGw8TPKj2x6wDVxP8vLwJJwTXVQrXm0N3Co,20188
+dash_websocket_component/metadata.json,sha256=k8mWtRTBb6gNDy6jjSKeACM6jUK2S_5A7uFyFlPH_T4,2747
+dash_websocket_component/package-info.json,sha256=hEYkA_Ff9s87ILcRPQoIn7QRup8Icj4y934Adc1P7AA,2118
+dash_websocket_component-0.0.7.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_websocket_component-0.0.7.dist-info/METADATA,sha256=b6bKa4HSh7huG6NMiZ9qg6NN5br5602BL2T9D2whpB0,4137
+dash_websocket_component-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dash_websocket_component-0.0.7.dist-info/top_level.txt,sha256=E1R6djsegr32E1f67Phx0XmX4Pwe26H6gZMp_GaTiOc,25
+dash_websocket_component-0.0.7.dist-info/RECORD,,
