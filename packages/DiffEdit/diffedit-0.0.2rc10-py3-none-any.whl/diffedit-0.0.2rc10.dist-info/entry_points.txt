@@ -1,0 +1,3 @@
+[console_scripts]
+diff_edit=diff_edit.scripts.image_edit:diff_edit_main
+
