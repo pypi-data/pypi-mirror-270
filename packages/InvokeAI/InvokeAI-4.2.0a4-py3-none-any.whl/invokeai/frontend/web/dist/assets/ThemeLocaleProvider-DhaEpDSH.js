@@ -1,0 +1,1 @@
+import{r as s,x as n,la as i,lb as c,y as o,lc as d,ld as u,le as l}from"./index-Cb0OfJxp.js";function m({children:t}){const{i18n:r}=n(),e=r.dir(),a=s.useMemo(()=>i({...c,direction:e}),[e]);return s.useEffect(()=>{document.body.dir=e},[e]),o.jsx(d,{theme:a,toastOptions:u,children:o.jsx(l,{children:t})})}const f=s.memo(m);export{f as default};
