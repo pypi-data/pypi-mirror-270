@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+uwp_injector.py
+uwp_injector.egg-info/PKG-INFO
+uwp_injector.egg-info/SOURCES.txt
+uwp_injector.egg-info/dependency_links.txt
+uwp_injector.egg-info/requires.txt
+uwp_injector.egg-info/top_level.txt
