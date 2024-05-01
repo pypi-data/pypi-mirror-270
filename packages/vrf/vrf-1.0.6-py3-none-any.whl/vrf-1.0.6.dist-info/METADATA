@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vrf
+Version: 1.0.6
+Summary: VRF with ability to validate
+Home-page: UNKNOWN
+Author: lucyfer
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: coverage ==7.3.1
+Requires-Dist: ecdsa ==0.18.0
+Requires-Dist: pytest ==7.4.1
+
+UNKNOWN
+
+
