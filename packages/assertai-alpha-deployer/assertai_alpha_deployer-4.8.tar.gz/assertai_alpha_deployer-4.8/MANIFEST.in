@@ -1,0 +1,2 @@
+include assertai_alpha_deployer/*.pyc
+recursive-exclude assertai_alpha_deployer *.py
