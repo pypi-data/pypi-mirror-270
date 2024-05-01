@@ -1,0 +1,2 @@
+[console_scripts]
+smrx2tsv = spike2loader:smrx2tsv
