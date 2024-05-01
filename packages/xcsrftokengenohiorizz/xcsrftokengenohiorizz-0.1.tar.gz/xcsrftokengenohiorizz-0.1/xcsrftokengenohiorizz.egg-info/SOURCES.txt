@@ -1,0 +1,5 @@
+setup.py
+xcsrftokengenohiorizz.egg-info/PKG-INFO
+xcsrftokengenohiorizz.egg-info/SOURCES.txt
+xcsrftokengenohiorizz.egg-info/dependency_links.txt
+xcsrftokengenohiorizz.egg-info/top_level.txt
