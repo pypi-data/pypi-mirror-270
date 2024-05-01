@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: acvtool
+Version: 2.1
+Summary: ACVTool is an instrumentation-based tool to measure and visualize instruction coverage for Android apps.
+Home-page: https://github.com/pilgun/acvtool
+Author: Aleksandr Pilgun
+Author-email: alexand.pilgun@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
