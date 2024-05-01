@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: orbslam3
+Version: 0.0
+Summary: A Python wrapper for ORBSLAM3
+Home-page: https://github.com/hello-binit/ORB_SLAM3-PythonBindings
+Author: Binit Shah
+Author-email: bshah@hello-robot.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+
+UNKNOWN
+
