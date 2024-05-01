@@ -1,0 +1,2 @@
+[console_scripts]
+gemini_txt_analyser = gemini_txt_analyser.gemini_txt_analyser:main
