@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/star_dresden_gs_lib/__init__.py
+src/star_dresden_gs_lib/main.py
+src/star_dresden_gs_lib.egg-info/PKG-INFO
+src/star_dresden_gs_lib.egg-info/SOURCES.txt
+src/star_dresden_gs_lib.egg-info/dependency_links.txt
+src/star_dresden_gs_lib.egg-info/top_level.txt
+src/star_dresden_gs_lib/components/__init__.py
+src/star_dresden_gs_lib/components/getter.py
+src/star_dresden_gs_lib/components/logs.py
+src/star_dresden_gs_lib/components/setter.py
+tests/testWindow.py
