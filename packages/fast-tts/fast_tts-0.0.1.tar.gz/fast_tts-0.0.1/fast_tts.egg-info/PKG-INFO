@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fast-tts
+Version: 0.0.1
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: soundfile
+
+# Fast-TTS
+
+
+
+
+## Requirements
+- Python 3.9
