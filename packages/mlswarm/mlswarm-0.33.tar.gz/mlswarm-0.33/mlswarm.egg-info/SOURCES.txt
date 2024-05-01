@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+mlswarm/__init__.py
+mlswarm/mlswarm.py
+mlswarm/neural_networks.py
+mlswarm/optimizers.py
+mlswarm/train.py
+mlswarm/utils.py
+mlswarm.egg-info/PKG-INFO
+mlswarm.egg-info/SOURCES.txt
+mlswarm.egg-info/dependency_links.txt
+mlswarm.egg-info/requires.txt
+mlswarm.egg-info/top_level.txt
