@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: packagestarter
+Version: 0.0.11
+Summary: A package to create structured Python packages.
+License: Unlicense
+Author: mrrobot0985
+Author-email: 164061086+mrrobot0985@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
