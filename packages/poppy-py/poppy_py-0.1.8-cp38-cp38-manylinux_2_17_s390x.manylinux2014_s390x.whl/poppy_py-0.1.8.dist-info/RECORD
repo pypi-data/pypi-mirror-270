@@ -1,0 +1,5 @@
+poppy_py-0.1.8.dist-info/METADATA,sha256=MyXAme-VltqM_ZqQPwrxUdgr3IrYMSf9IzqZOW2IXaI,1857
+poppy_py-0.1.8.dist-info/WHEEL,sha256=cVQpGKX6iiX-xJccBpTpqaMRyzjo8nwEJ70BJUcafAQ,125
+poppy/__init__.py,sha256=hOsOR8ukwwGQHKe4nrstjtZ2nbnKyGbz4I6bBtz0jqk,103
+poppy/poppy.cpython-38-s390x-linux-gnu.so,sha256=TWtFnke4Z6xfosV0bN4Zgicupf9PhnYvvcPix30KbVg,5205880
+poppy_py-0.1.8.dist-info/RECORD,,
