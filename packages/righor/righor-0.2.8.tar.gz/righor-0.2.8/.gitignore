@@ -1,0 +1,11 @@
+*~
+Cargo.lock
+flamegraph.svg
+perf.data
+perf.data.old
+*.pyc
+target/
+*rustfmt*
+\#*\#
+.ipynb_checkpoints/
+demo/
