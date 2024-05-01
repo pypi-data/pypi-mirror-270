@@ -1,0 +1,4 @@
+include glcl/*.*
+include glcl/Win32/*.*
+include glcl/Win64/*.*
+include glcl/doc/*.*
