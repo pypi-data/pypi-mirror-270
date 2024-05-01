@@ -1,0 +1,2 @@
+[console_scripts]
+kawarizmi = kawarizmi:parking_space_counter
