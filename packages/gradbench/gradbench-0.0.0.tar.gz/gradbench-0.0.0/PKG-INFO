@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gradbench
+Version: 0.0.0
+Summary: Benchmark for differentiable programming across languages and domains.
+License: MIT
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# GradBench
+
+Benchmark for differentiable programming across languages and domains.
+
