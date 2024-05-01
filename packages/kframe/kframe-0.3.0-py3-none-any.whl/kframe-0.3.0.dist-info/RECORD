@@ -1,0 +1,9 @@
+kframe/__about__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+kframe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kframe/config/__init__.py,sha256=ovLNPt6pYuccSlVOm20y_5jn6YdxcoDiLFsEL5EqfsU,209
+kframe/config/configattr.py,sha256=2j5ZdggMecgkcPaLNY9RTOztR6QNmXWK67ARdg4lZas,5775
+kframe/config/configentity.py,sha256=nNPbkc2PXaKLwx-YM-q4DBQ_6SMTj-RmDXB5TVxS6bc,8259
+kframe-0.3.0.dist-info/METADATA,sha256=b2We5bdFtZx59H8UYzyseJyMmp8EbIoPeiNpzxd2eCk,1515
+kframe-0.3.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+kframe-0.3.0.dist-info/licenses/LICENSE.txt,sha256=AsuYVO6Ag_QDArrkzEYYBMLkLsA_evbTEq6y30cQsOY,2813
+kframe-0.3.0.dist-info/RECORD,,
