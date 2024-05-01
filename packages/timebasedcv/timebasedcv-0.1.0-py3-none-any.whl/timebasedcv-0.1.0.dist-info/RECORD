@@ -1,0 +1,12 @@
+timebasedcv/__init__.py,sha256=JaFhtfUcq5H5evqb63M-Y6tTnJqK3w41-bAOLV0AtdE,460
+timebasedcv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timebasedcv/splitstate.py,sha256=8H2oNyDyppuHrb19qTIMklTP7LIWVk4rRe_NBG34tXw,4130
+timebasedcv/timebasedsplit.py,sha256=gNauYrOG6ZEQLoy6QODhBSUYGBgei9jeHsWDGqugfks,25430
+timebasedcv/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timebasedcv/utils/_backends.py,sha256=LGp6DIHp6cbaQkPP1VU0S_QM7nPGrFdVWjuNx9PDMBk,989
+timebasedcv/utils/_funcs.py,sha256=e3hEC8wRBLq-0Z6wTQ_oajmTZUc6u1gaOQ68UwYD0NQ,1063
+timebasedcv/utils/_types.py,sha256=fR24gIlpTQowe2C1_9ILHe23tLyC620sJcECNA4OHqA,2059
+timebasedcv-0.1.0.dist-info/METADATA,sha256=T9YPaA8jE1XwvEW0s490y7aJzYRFucL-T_nvkJgVNQw,9670
+timebasedcv-0.1.0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+timebasedcv-0.1.0.dist-info/licenses/LICENSE,sha256=dvme5SVaxB8S--1OkhJXMzOrJnDhPZvCY_vys9LsoBo,1075
+timebasedcv-0.1.0.dist-info/RECORD,,
