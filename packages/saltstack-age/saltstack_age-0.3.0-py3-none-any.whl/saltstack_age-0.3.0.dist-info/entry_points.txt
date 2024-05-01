@@ -1,0 +1,5 @@
+[console_scripts]
+saltstack-age = saltstack_age.cli:main
+
+[salt.loader]
+saltstack-age = saltstack_age
