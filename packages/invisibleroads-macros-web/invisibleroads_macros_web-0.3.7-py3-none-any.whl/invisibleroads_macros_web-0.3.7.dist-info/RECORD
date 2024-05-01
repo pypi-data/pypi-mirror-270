@@ -1,0 +1,16 @@
+invisibleroads_macros_web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+invisibleroads_macros_web/browser.py,sha256=WoIo4Wh_6evyJw-Pc6pL5tazMMN_kU4Rs4GWRxFIhy0,846
+invisibleroads_macros_web/escape.py,sha256=RJqbEW9OLT2H906FBwtHWQ3o_DizyYsQAx7ihsGK55c,290
+invisibleroads_macros_web/jinja.py,sha256=0yBNotMoEOzrpqvlv75XxvSQa85P2d1DXTRqhgBTbUI,1657
+invisibleroads_macros_web/markdown.py,sha256=NBAlwn1GiF9upvIb-xC3qLkEsdI1pdDh6RkCmpd2SQ0,944
+invisibleroads_macros_web/port.py,sha256=cab64kqUnBQE2Uqpp6i849Uvyb3l4RXluAR3Kqo6GuI,882
+invisibleroads_macros_web/starlette.py,sha256=7NkSk46N5TmysN-3agI2D06VZHCr8mX50olLCypzdJU,1117
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_escape.py,sha256=O6ATejBkowYyWVZ8IN4nchsNm6385_h-DAhBPTeH-Cc,344
+tests/test_markdown.py,sha256=sf62nOHoVCwLahP8rKgbFARhi61u3jXvLZ8qThaVAww,865
+tests/test_port.py,sha256=_g16kt5oRIlqiHIsyEGoqiBCxPjpMoBVr6oTb1az6ho,882
+invisibleroads_macros_web-0.3.7.dist-info/METADATA,sha256=9WLDYLih5CTa8riI0xYKsW3QjvmJXrNMiRVMxCmFX6M,2424
+invisibleroads_macros_web-0.3.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+invisibleroads_macros_web-0.3.7.dist-info/top_level.txt,sha256=ImaHNyg70_yQjd3EIJRGPj0In2bTXIvzgAxVg1tRvTQ,32
+invisibleroads_macros_web-0.3.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+invisibleroads_macros_web-0.3.7.dist-info/RECORD,,
