@@ -1,0 +1,9 @@
+textalloc/__init__.py,sha256=-Vf3tJNkoDPIprIIABPLtJXXe4w96BTvIapnsDHzpRQ,14205
+textalloc/candidates.py,sha256=2h0EU5wTgrVIGKik69D1pDGEwxC1atji8zaIYnLtwhA,6539
+textalloc/non_overlapping_boxes.py,sha256=qhrETXdLqPzldz4S1mPZx2ALt61RZAGT_gOfn2F3f3o,9803
+textalloc/overlap_functions.py,sha256=X2gi1NS9ZaNxLPC2qVLO5qgAEicjh8mRP2GVaj6VKv8,10042
+textalloc-1.0.1.dist-info/LICENSE,sha256=2bJFIaZJ1SemOQVneAm2jf3RMITAwknVfsEGBcepWfY,1077
+textalloc-1.0.1.dist-info/METADATA,sha256=FtzRN89kd_Dkd_0sSiNfREVgIZvn4_t99UiogwWYD8A,9453
+textalloc-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+textalloc-1.0.1.dist-info/top_level.txt,sha256=uUUtRKMaw_3KUX45E9ZgSCalohJzPnyqoKz4S9KESBA,10
+textalloc-1.0.1.dist-info/RECORD,,
