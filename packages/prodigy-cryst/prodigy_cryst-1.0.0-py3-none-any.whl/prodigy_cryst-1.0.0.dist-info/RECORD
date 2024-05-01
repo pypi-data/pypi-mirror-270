@@ -1,0 +1,14 @@
+prodigy_cryst/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prodigy_cryst/classify.py,sha256=UzCP0wkMQULo5jXjjJrZHnt-5VmefeknZX2f-IwtZK4,788
+prodigy_cryst/data/List_of_features-MANY.csv,sha256=szDaPLz2zyuuiBklnAxvcpgAKZGwoKpKd6H_VmTbjYM,827201
+prodigy_cryst/data/classifier.sav,sha256=sL6ofYRbN6g0MXZ6p_A7xG0mINjKq8EZWmcTLzjgom8,15475492
+prodigy_cryst/interface_classifier.py,sha256=mORplCL34BDZVhk1Yt-3eqaiA7XapOH94kE3pjurlYw,10844
+prodigy_cryst/modules/__init__.py,sha256=THn5vsNYws4e2qmRgrRK_aKnB5Nal15LCwE5KVhyrTs,280
+prodigy_cryst/modules/aa_properties.py,sha256=419khGECwuk3xHCgxf8CDpi5z9Rvqk1FbDXa4YsqdxM,2857
+prodigy_cryst/modules/parsers.py,sha256=S-6XF0N6SBf3emO53DZegS9mkbn4CuwUchGSpAX1bU0,3596
+prodigy_cryst/modules/utils.py,sha256=bb1RMVuwsaZWFGlzdRPUWpIc1ooSiWbHgvGeFEx71L8,543
+prodigy_cryst-1.0.0.dist-info/LICENSE,sha256=epMsLxBOoYbAW9CedZHaL_1GTytb4F2ufuE-9Mj96lQ,11375
+prodigy_cryst-1.0.0.dist-info/METADATA,sha256=HmbviiugdZBqYMUxXW4IzhO2sksSuq5zODBhTCassAc,4320
+prodigy_cryst-1.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+prodigy_cryst-1.0.0.dist-info/entry_points.txt,sha256=X0gkxOVqAYICn7Vn4NIP-FV5V7aE3caaNA5InbANz7A,73
+prodigy_cryst-1.0.0.dist-info/RECORD,,
