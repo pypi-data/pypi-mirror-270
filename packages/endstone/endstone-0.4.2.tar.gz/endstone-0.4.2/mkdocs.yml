@@ -1,0 +1,191 @@
+site_name: Endstone
+site_url: https://https://endstone.readthedocs.io/
+site_author: Vincent Wu
+
+repo_name: EndstoneMC/endstone
+repo_url: https://github.com/EndstoneMC/endstone
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2023 - 2024 Vincent Wu
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/EndstoneMC
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/endstone
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/endstone
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/endstone_mc
+
+  version:
+    provider: mike
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      exclude:
+        - reference/cpp/*
+  - git-committers:
+      repository: EndstoneMC/endstone
+      branch: main
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [ python/src ]
+          options:
+            annotations_path: brief
+            show_bases: false
+            show_source: false
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            show_root_heading: true
+            separate_signature: true
+            show_signature_annotations: true
+            signature_crossrefs: true
+            inherited_members: true
+  - mkdoxy:
+      doxygen-bin-path: /usr/bin/doxygen
+      projects:
+        "reference/cpp":
+          src-dirs: include/endstone/
+          full-doc: True
+          doxy-cfg:
+            FILE_PATTERNS: "*.h"
+            EXCLUDE_PATTERNS: "*/detail/*"
+            RECURSIVE: YES
+
+theme:
+  name: 'material'
+  custom_dir: docs/overrides
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Start your server: getting-started/start-your-server.md
+  - Tutorials:
+      - Create your first plugin: tutorials/create-your-first-plugin.md
+      - Install your plugin: tutorials/install-your-plugin.md
+      - Register commands: tutorials/register-commands.md
+      - Register event listeners: tutorials/register-event-listeners.md
+      - Schedule tasks: tutorials/schedule-tasks.md
+      - Publish your plugin: tutorials/publish-your-plugin.md
+  - Reference:
+      - reference/index.md
+      - Python:
+          - reference/python/index.md
+          - Actor: reference/python/actor.md
+          - Command: reference/python/command.md
+          - Event: reference/python/event.md
+          - Permissions: reference/python/permissions.md
+          - Plugin: reference/python/plugin.md
+          - Scheduler: reference/python/scheduler.md
+      - C++:
+          - reference/cpp/index.md
+          - Classes:
+              - Class List: reference/cpp/annotated.md
+              - Class Index: reference/cpp/classes.md
+              - Class Hierarchy: reference/cpp/hierarchy.md
+              - Class Members: reference/cpp/class_members.md
+              - Class Member Functions: reference/cpp/class_member_functions.md
+              - Class Member Variables: reference/cpp/class_member_variables.md
+              - Class Member Typedefs: reference/cpp/class_member_typedefs.md
+              - Class Member Enumerations: reference/cpp/class_member_enums.md
+          - Namespaces:
+              - Namespace List: reference/cpp/namespaces.md
+              - Namespace Members: reference/cpp/namespace_members.md
+              - Namespace Member Functions: reference/cpp/namespace_member_functions.md
+              - Namespace Member Variables: reference/cpp/namespace_member_variables.md
+              - Namespace Member Typedefs: reference/cpp/namespace_member_typedefs.md
+              - Namespace Member Enumerations: reference/cpp/namespace_member_enums.md
+          - Files:
+              - File List: reference/cpp/files.md
+              - File Functions: reference/cpp/functions.md
+              - File Variables: reference/cpp/variables.md
+              - File Macros: reference/cpp/macros.md
+
+  - Changelog: changelog.md
