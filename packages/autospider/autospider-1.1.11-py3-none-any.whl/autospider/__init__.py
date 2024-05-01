@@ -1,0 +1,1 @@
+from autospider.auto_spider import AutoSpider
