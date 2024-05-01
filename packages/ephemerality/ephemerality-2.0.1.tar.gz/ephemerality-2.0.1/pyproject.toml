@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ephemerality"
+version = "2.0.1"
+description = "Module for computing ephemerality metrics for temporal activity vectors."
+readme = "README.md"
+authors = ["Dmitry Gnatyshak <dmitry.gnatyshak@bsc.es>"]
+license = "MIT"
+repository = "https://github.com/HPAI-BSC/ephemerality"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+pydantic = "^2.7.1"
+matplotlib = "^3.8.4"
+fastapi = "^0.110.2"
+uvicorn = "^0.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
