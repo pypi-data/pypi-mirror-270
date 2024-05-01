@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: finaletools
+Version: 0.6.0
+Summary: finaletools is now finaletoolkit
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: finaletoolkit
+
+# finaletools is now finaletoolkit
+
+This package has been renamed. Use `pip install finaletoolkit` instead.
+
+New package: https://pypi.org/project/finaletoolkit/

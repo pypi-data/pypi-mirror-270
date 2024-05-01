@@ -1,0 +1,7 @@
+README.md
+setup.py
+finaletools.egg-info/PKG-INFO
+finaletools.egg-info/SOURCES.txt
+finaletools.egg-info/dependency_links.txt
+finaletools.egg-info/requires.txt
+finaletools.egg-info/top_level.txt
