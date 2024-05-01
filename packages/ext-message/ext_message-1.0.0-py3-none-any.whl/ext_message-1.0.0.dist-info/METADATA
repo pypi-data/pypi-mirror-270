@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ext-message
+Version: 1.0.0
+Home-page: https://github.com/jwjeffr/ext-message
+Author: Jacob Jeffries
+Author-email: jeffriesjacob0@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ext-message
+Library for sending messages to an external app
