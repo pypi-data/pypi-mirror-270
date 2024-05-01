@@ -1,0 +1,9 @@
+opencti_excel_uploader/__init__.py,sha256=jIB_A21BGC5AzbHLPMvWIWXNiwGf0NZP3t0w2gmtitA,27
+opencti_excel_uploader/__main__.py,sha256=Es4RbxWSyBbNKb5qpcJzPrjvj0cPrk5US9O9JZlSIJM,2828
+opencti_excel_uploader/models.py,sha256=7I6b4b02B8WwN-ysPmHpV8wWSh9dK-fK6GsmSTcXt6s,19553
+opencti_excel_uploader/xlsx_utils.py,sha256=FLxycc6Hodze6JcctSqyQhNRuZySNLLoaQ1I03KKvrU,13835
+opencti_excel_uploader-1.0.4.dist-info/METADATA,sha256=eRqSq5yDK8LJo3v5yrw3s46_DKNGVCYbZJfJ_OA1f4A,1072
+opencti_excel_uploader-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+opencti_excel_uploader-1.0.4.dist-info/entry_points.txt,sha256=Dc7x2PWT9ovd6uGqyRtpS5bsiKmQcoS0QHSN0_MTa58,80
+opencti_excel_uploader-1.0.4.dist-info/top_level.txt,sha256=FxOk8ASD-2vwL5tMdZ9gxJMLYS1pEM-IXgNARQt1kZM,23
+opencti_excel_uploader-1.0.4.dist-info/RECORD,,
