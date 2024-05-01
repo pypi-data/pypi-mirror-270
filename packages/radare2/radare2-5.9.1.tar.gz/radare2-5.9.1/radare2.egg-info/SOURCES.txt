@@ -1,0 +1,9 @@
+README.md
+setup.py
+radare2/main.py
+radare2.egg-info/PKG-INFO
+radare2.egg-info/SOURCES.txt
+radare2.egg-info/dependency_links.txt
+radare2.egg-info/entry_points.txt
+radare2.egg-info/requires.txt
+radare2.egg-info/top_level.txt
