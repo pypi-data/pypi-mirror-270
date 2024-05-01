@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simple-add
+Version: 0.1.5
+Summary: A simple program with an add function
+Home-page: https://github.com/Akhilkumargolla/test-ci-cd
+Author: AkhilkumarGolla
+Author-email: akhilkumar.golla@outlook.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+
+A simple Python program with a function to add two numbers and three numbers
