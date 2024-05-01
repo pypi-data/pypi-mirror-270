@@ -1,0 +1,51 @@
+{
+    "entity": {
+        "sensor": {
+            "last_rain": {
+                "name": "\u00daltima lluvia"
+            },
+            "lightning_distance": {
+                "name": "Distancia del rayo"
+            },
+            "lightning_strikes_per_day": {
+                "name": "Rayos por d\u00eda"
+            },
+            "lightning_strikes_per_hour": {
+                "name": "Rayos por hora"
+            },
+            "max_daily_gust": {
+                "name": "R\u00e1faga m\u00e1xima diaria"
+            },
+            "monthly_rain": {
+                "name": "Lluvia mensual"
+            },
+            "pm25_24h_average": {
+                "name": "PM2.5 (promedio de 24 horas)"
+            },
+            "pm25_aqi": {
+                "name": "PM2.5 ICA"
+            },
+            "pm25_aqi_24h_average": {
+                "name": "PM2.5 ICA (promedio de 24 horas)"
+            },
+            "relative_pressure": {
+                "name": "Presi\u00f3n relativa"
+            },
+            "uv_index": {
+                "name": "\u00cdndice UV"
+            },
+            "weekly_rain": {
+                "name": "Lluvia semanal"
+            },
+            "wind_direction": {
+                "name": "Direcci\u00f3n del viento"
+            },
+            "wind_gust": {
+                "name": "R\u00e1faga de viento"
+            },
+            "yearly_rain": {
+                "name": "Lluvia anual"
+            }
+        }
+    }
+}
