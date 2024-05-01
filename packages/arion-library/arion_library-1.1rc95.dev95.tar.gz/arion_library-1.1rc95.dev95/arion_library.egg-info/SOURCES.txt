@@ -1,0 +1,7 @@
+README.md
+setup.py
+arion_library.egg-info/PKG-INFO
+arion_library.egg-info/SOURCES.txt
+arion_library.egg-info/dependency_links.txt
+arion_library.egg-info/requires.txt
+arion_library.egg-info/top_level.txt
