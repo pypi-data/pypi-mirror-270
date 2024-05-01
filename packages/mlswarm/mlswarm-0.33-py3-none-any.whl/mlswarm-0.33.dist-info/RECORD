@@ -1,0 +1,10 @@
+mlswarm/__init__.py,sha256=_VrJVnTKB9RIfZLF1_ZTD5e6hrwTU56uXBmws132KAQ,47
+mlswarm/mlswarm.py,sha256=nL8tmsp5_ydtVgAz4heYBtehoIl0M_6DHQA7K7m4siI,5109
+mlswarm/neural_networks.py,sha256=Py2TfaaC_-JCIryirsdY4BM0sDC0_ENLeDMk6zw6kUE,7251
+mlswarm/optimizers.py,sha256=tBIpAb-awlMqrQMaL9lm4tGxrWd4H2ArqOoy0lVvo9A,4397
+mlswarm/train.py,sha256=Utcflui-ZYfgMhLmRoq5IOicYkgEdepXEvJZ4b_faqc,5692
+mlswarm/utils.py,sha256=njBatRhbDSJZndqD2vnNwjxDLVSorFcfKpoh_9CDGFw,5817
+mlswarm-0.33.dist-info/METADATA,sha256=3S9bypilgucI4by-u2woAGHPnaBy8oeFR8nULhrL-Bs,1030
+mlswarm-0.33.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mlswarm-0.33.dist-info/top_level.txt,sha256=s4ajrrgpEyLTGbXEL0-TTwBBedexE1JwRbrun6qHnh0,8
+mlswarm-0.33.dist-info/RECORD,,
