@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: flav_module
+Version: 0.16
+Summary: A beautiful Hello World! package
+Author-email: Flavius Stef <flavius@syneto.eu>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click
+Project-URL: Home, https://syneto.eu/

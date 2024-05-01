@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "flav_module"
+authors = [{name = "Flavius Stef", email = "flavius@syneto.eu"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = ["click"]
+
+[project.urls]
+Home = "https://syneto.eu/"
+
+[project.scripts]
+hello = "flav_module.helloworld:hello"
