@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: AutoImageExtractor
+Version: 1.1
+Summary: A python package used to automatically extract 100 different features from a group of images.
+Author: Sairam Adithya
+Author-email: sairamadithya2002@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AutoImageExtractor
+
+This is a python module used to automatically extract features from a directory of images in a single line.
+
+## Code
+
+### from AutoImageExtractor import FeatureExtractor
+
+### data=FeatureExtractor.extract(image_path,classname,technique_list)
+
+## Parameters
+
+Image path- provide the path of the directory of images
+
+Classname- Mention the name of the class the images belong to, if any
+
+technique_list- mention the list of techniques, available- GLCM, LBP, BRIEF. If not, default statistical parameters are calculated.
