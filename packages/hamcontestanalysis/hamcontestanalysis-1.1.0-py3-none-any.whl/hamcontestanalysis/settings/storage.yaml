@@ -1,0 +1,9 @@
+# Global merging enabled on this file.
+dynaconf_merge: true
+default:
+  storage:
+    prefix: "@jinja {{env['HAMCONTESTANALYSISSTORAGE'] | default(env['HOME'])}}/contest_data"
+    partitions: "contest={contest}/mode={mode}/year={year}/callsign={callsign}"
+    partitions_rbn: "contest={contest}/mode={mode}/year={year}"
+    prefix_plots: "@jinja {{env['HAMCONTESTANALYSISPLOTS'] | default(env['HOME'])}}/plots"
+    partitions_plots: "contest={contest}/mode={mode}/callsigns_years={callsigns_years}"
