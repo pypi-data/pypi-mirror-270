@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nested_wrap/__init__.py
+nested_wrap/wrap.py
+nested_wrap.egg-info/PKG-INFO
+nested_wrap.egg-info/SOURCES.txt
+nested_wrap.egg-info/dependency_links.txt
+nested_wrap.egg-info/top_level.txt
