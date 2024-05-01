@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: italia
+Version: 0.1.0
+Summary: Italia
+Author-email: Python Italia <help@pycon.it>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+
+# italia

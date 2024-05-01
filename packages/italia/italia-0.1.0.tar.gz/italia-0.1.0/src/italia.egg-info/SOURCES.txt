@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/italia/__init__.py
+src/italia.egg-info/PKG-INFO
+src/italia.egg-info/SOURCES.txt
+src/italia.egg-info/dependency_links.txt
+src/italia.egg-info/top_level.txt

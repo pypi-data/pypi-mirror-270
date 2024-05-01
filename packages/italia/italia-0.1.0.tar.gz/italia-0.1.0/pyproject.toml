@@ -1,0 +1,15 @@
+[project]
+name = "italia"
+version = "0.1.0"
+description = "Italia"
+authors = [
+    {name = "Python Italia",email = "help@pycon.it"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true
