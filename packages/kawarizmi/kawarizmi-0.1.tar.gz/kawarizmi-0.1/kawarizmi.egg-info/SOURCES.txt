@@ -1,0 +1,10 @@
+README.md
+setup.py
+kawarizmi/__init__.py
+kawarizmi/main.py
+kawarizmi.egg-info/PKG-INFO
+kawarizmi.egg-info/SOURCES.txt
+kawarizmi.egg-info/dependency_links.txt
+kawarizmi.egg-info/entry_points.txt
+kawarizmi.egg-info/requires.txt
+kawarizmi.egg-info/top_level.txt
