@@ -1,0 +1,6 @@
+setup.py
+verifycredit.egg-info/PKG-INFO
+verifycredit.egg-info/SOURCES.txt
+verifycredit.egg-info/dependency_links.txt
+verifycredit.egg-info/requires.txt
+verifycredit.egg-info/top_level.txt
