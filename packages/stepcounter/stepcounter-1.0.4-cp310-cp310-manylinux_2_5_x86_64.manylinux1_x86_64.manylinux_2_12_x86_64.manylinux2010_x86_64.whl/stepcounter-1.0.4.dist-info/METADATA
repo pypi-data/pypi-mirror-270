@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: stepcounter
+Version: 1.0.4
+Summary: Python step counter
+Author: Jan Šmíd
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10, <=3.12
+License-File: LICENSE
+
