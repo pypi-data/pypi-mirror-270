@@ -1,0 +1,1 @@
+from src.copyleap.manager import Manager
